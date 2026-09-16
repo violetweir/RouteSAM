@@ -1,0 +1,43 @@
+{
+  "anchor_prototype_cosine_mean": 0.6292819207003604,
+  "base_feature_cache": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_1pct_anchors/stage1_feature_knn_sam3enc_s256/features/sam3_base_s256_features.npz",
+  "descriptor_shape": [
+    1000,
+    1024
+  ],
+  "e33_feature_cache": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_round2b_e33_topology_factorial/features/sam3_e33_s256_features.npz",
+  "encoder_checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_sam3knn_s256_base/medsam3_lora_b0_b6_e50/e33_full_evaluation/e33_merged_video.pt",
+  "feature_size": 256,
+  "feature_source": "sam3_e33",
+  "knn_train_pool_overlap": {
+    "test": {
+      "top_10_overlap": 0.132,
+      "top_1_overlap": 0.07,
+      "top_32_overlap": 0.1959375,
+      "top_5_overlap": 0.11199999999999999
+    },
+    "train": {
+      "top_10_overlap": 0.148125,
+      "top_1_overlap": 0.1075,
+      "top_32_overlap": 0.199140625,
+      "top_5_overlap": 0.1175
+    },
+    "validation": {
+      "top_10_overlap": 0.11599999999999999,
+      "top_1_overlap": 0.07,
+      "top_32_overlap": 0.1825,
+      "top_5_overlap": 0.09599999999999997
+    }
+  },
+  "max_abs_descriptor_delta": 0.756658136844635,
+  "mean_l2_descriptor_delta": 0.9066411828763438,
+  "records": 1000,
+  "row_cosine": {
+    "max": 0.7685916843626943,
+    "mean": 0.586450439733789,
+    "median": 0.5769403610865601,
+    "min": 0.3739515407303054,
+    "p10": 0.51088833362957
+  },
+  "target_gt_used_for_features_or_topology": false
+}

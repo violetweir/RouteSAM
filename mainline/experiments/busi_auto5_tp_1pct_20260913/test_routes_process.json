@@ -1,0 +1,27 @@
+{
+  "pid": 3558003,
+  "cmd": [
+    "/home/violet/anaconda3/envs/sam3/bin/python",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/busi_auto5_tp_1pct_20260913/code/stage1_feature_knn_routes.py",
+    "--mode",
+    "sam3enc_anchor_conditioned_target_pooling",
+    "--feature-source",
+    "sam3_base",
+    "--feature-size",
+    "256",
+    "--knn-feature",
+    "patch_mean",
+    "--beam-width",
+    "32",
+    "--min-bridge",
+    "0",
+    "--max-bridge",
+    "6",
+    "--split",
+    "test",
+    "--protocol-root",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/busi_auto5_tp_1pct_20260913/protocol",
+    "--output-root",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/busi_auto5_tp_1pct_20260913/quality_root"
+  ]
+}

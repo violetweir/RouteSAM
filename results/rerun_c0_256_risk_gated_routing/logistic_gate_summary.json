@@ -1,0 +1,150 @@
+{
+  "allowed_switch_target_count": 39,
+  "baseline_dice": 0.8875905843652192,
+  "catastrophic_degradation_count": 1,
+  "correct_switch_count": 25,
+  "delta_vs_baseline": -0.0017684280415947082,
+  "incorrect_switch_count": 14,
+  "label": "风险门控 Logistic",
+  "loss_count": 14,
+  "maximum_single_degradation": -0.2085690193597547,
+  "maximum_single_improvement": 0.015758445247627595,
+  "method": "logistic",
+  "model_diagnostic": {
+    "features_frozen_before_oof": [
+      "q_return_candidate",
+      "q_multi_candidate",
+      "q_model_candidate",
+      "delta_q_return",
+      "delta_q_multi",
+      "delta_q_model",
+      "trace_area_max_rel_delta_candidate",
+      "delta_trace_area_max_rel_delta",
+      "trace_adjacent_dice_mean_candidate",
+      "trace_adjacent_dice_last_candidate",
+      "path_mean_similarity_candidate",
+      "delta_path_mean_similarity"
+    ],
+    "fold_count": 5,
+    "folds": [
+      {
+        "fold": 1,
+        "pr_auc": 0.696372594223273,
+        "roc_auc": 0.5384615384615385,
+        "target_overlap_count": 0,
+        "training_beneficial_count": 47,
+        "training_nonbeneficial_count": 33,
+        "training_target_count": 80,
+        "validation_beneficial_count": 7,
+        "validation_nonbeneficial_count": 13,
+        "validation_severe_count": 1,
+        "validation_target_count": 20
+      },
+      {
+        "fold": 2,
+        "pr_auc": 0.6307760141093475,
+        "roc_auc": 0.5959595959595959,
+        "target_overlap_count": 0,
+        "training_beneficial_count": 43,
+        "training_nonbeneficial_count": 37,
+        "training_target_count": 80,
+        "validation_beneficial_count": 11,
+        "validation_nonbeneficial_count": 9,
+        "validation_severe_count": 0,
+        "validation_target_count": 20
+      },
+      {
+        "fold": 3,
+        "pr_auc": 0.39603174603174607,
+        "roc_auc": 0.5164835164835164,
+        "target_overlap_count": 0,
+        "training_beneficial_count": 41,
+        "training_nonbeneficial_count": 39,
+        "training_target_count": 80,
+        "validation_beneficial_count": 13,
+        "validation_nonbeneficial_count": 7,
+        "validation_severe_count": 0,
+        "validation_target_count": 20
+      },
+      {
+        "fold": 4,
+        "pr_auc": 0.2749324205206558,
+        "roc_auc": 0.39285714285714285,
+        "target_overlap_count": 0,
+        "training_beneficial_count": 40,
+        "training_nonbeneficial_count": 40,
+        "training_target_count": 80,
+        "validation_beneficial_count": 14,
+        "validation_nonbeneficial_count": 6,
+        "validation_severe_count": 0,
+        "validation_target_count": 20
+      },
+      {
+        "fold": 5,
+        "pr_auc": 0.6453868027397439,
+        "roc_auc": 0.5858585858585859,
+        "target_overlap_count": 0,
+        "training_beneficial_count": 45,
+        "training_nonbeneficial_count": 35,
+        "training_target_count": 80,
+        "validation_beneficial_count": 9,
+        "validation_nonbeneficial_count": 11,
+        "validation_severe_count": 1,
+        "validation_target_count": 20
+      }
+    ],
+    "full_validation_intercept_diagnostic_only": 0.04836863525873801,
+    "full_validation_standardized_coefficients_diagnostic_only": {
+      "delta_path_mean_similarity": -0.2952551059382319,
+      "delta_q_model": 0.07001856603282626,
+      "delta_q_multi": 0.7957476397975638,
+      "delta_q_return": -0.2909638975819475,
+      "delta_trace_area_max_rel_delta": 0.15762190112478058,
+      "path_mean_similarity_candidate": 0.2472184447538415,
+      "q_model_candidate": -0.0470990562103245,
+      "q_multi_candidate": -0.5220845834734817,
+      "q_return_candidate": -0.4161962935787879,
+      "trace_adjacent_dice_last_candidate": -0.5056721578057589,
+      "trace_adjacent_dice_mean_candidate": 0.18079899428527355,
+      "trace_area_max_rel_delta_candidate": -0.007069498340606111
+    },
+    "hyperparameters_frozen_before_oof": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 3000
+    },
+    "model": "logistic",
+    "oof_nonbeneficial_risk_auc_secondary_only": {
+      "pr_auc": 0.4995867534685301,
+      "roc_auc": 0.5422705314009661
+    },
+    "risk_label": "nonbeneficial_switch = 1[delta_dice <= 0]",
+    "risk_probability_threshold": 0.5,
+    "seed": 2026,
+    "target_count": 100
+  },
+  "paired_bootstrap_vs_baseline": {
+    "ci_95": [
+      -0.00647409325358436,
+      0.0009724804009683245
+    ],
+    "loss_count": 14,
+    "mean_delta": -0.0017684280415947082,
+    "median_delta": 0.0,
+    "resamples": 10000,
+    "seed": 2026,
+    "target_count": 100,
+    "tie_count": 61,
+    "unit": "paired_target",
+    "win_count": 25
+  },
+  "rejected_or_same_route_target_count": 61,
+  "selected_dice": 0.8858221563236245,
+  "severe_degradation_count": 1,
+  "switch_tie_count": 0,
+  "target_count": 100,
+  "tie_count": 61,
+  "total_negative_dice_loss": -0.2823674331112297,
+  "total_positive_dice_gain": 0.10552462895175885,
+  "win_count": 25
+}

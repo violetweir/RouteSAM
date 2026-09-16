@@ -1,0 +1,13 @@
+{
+  "binary_disagreement_pixels": 13,
+  "binary_mask_dice": 0.9998970060449529,
+  "bitwise_identical_logits": false,
+  "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_round3_tracker_lora_t3_t4/T3_memory_attention_lora/smoke/checkpoints/step_000010.pt",
+  "identical_binary_output": false,
+  "max_abs_logit_error": 0.2241687774658203,
+  "max_abs_probability_error": 0.006002545356750488,
+  "numerically_consistent_with_bf16_repeat": false,
+  "precision_note": "Independent BF16 CUDA forwards are compared at the actual binary-mask output boundary.",
+  "same_model_repeat_binary_mask_dice": 1.0,
+  "same_model_repeat_disagreement_pixels": 0
+}

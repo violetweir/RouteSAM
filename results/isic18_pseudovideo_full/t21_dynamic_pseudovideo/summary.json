@@ -1,0 +1,42 @@
+{
+  "round0_train": {
+    "n": 2054,
+    "dice_mean": 0.8195284215415344,
+    "dice_std": 0.22765184425563115,
+    "quality_mean": 0.8530429826073205,
+    "quality_gt_dice_pearson": 0.7035108185170024,
+    "quality_gt_dice_spearman": 0.4825355372475933,
+    "accepted_count": 1522,
+    "route_type_counts": {
+      "direct": 601,
+      "one_bridge": 704,
+      "two_bridges": 749
+    },
+    "by_dataset": {
+      "ISIC18": {
+        "n": 2054,
+        "dice_mean": 0.8195284215415344
+      }
+    }
+  },
+  "test_pool0": {
+    "n": 260,
+    "dice_mean": 0.8227132217463443,
+    "dice_std": 0.22190046586313722,
+    "quality_mean": 0.8474347242180235,
+    "quality_gt_dice_pearson": 0.7007680030671548,
+    "quality_gt_dice_spearman": 0.40698504267304986,
+    "accepted_count": 0,
+    "route_type_counts": {
+      "direct": 83,
+      "one_bridge": 95,
+      "two_bridges": 82
+    },
+    "by_dataset": {
+      "ISIC18": {
+        "n": 260,
+        "dice_mean": 0.8227132217463443
+      }
+    }
+  }
+}

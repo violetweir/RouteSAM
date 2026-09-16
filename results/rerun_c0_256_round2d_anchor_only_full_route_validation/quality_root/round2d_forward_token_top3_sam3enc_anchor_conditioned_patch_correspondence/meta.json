@@ -1,0 +1,15 @@
+{
+  "anchor_rule": "forward_auc_token_topk__round1",
+  "beam_width": 32,
+  "feature_size": 256,
+  "k_anchors": 3,
+  "max_bridge": 6,
+  "min_bridge": 0,
+  "mode": "sam3enc_anchor_conditioned_patch_correspondence",
+  "mode_key": "round2d_forward_token_top3_sam3enc_anchor_conditioned_patch_correspondence",
+  "routes": 2100,
+  "split": "validation",
+  "target_gt_used_for_search_or_inference": false,
+  "targets": 100,
+  "topology": "sam3_base@256 frozen"
+}

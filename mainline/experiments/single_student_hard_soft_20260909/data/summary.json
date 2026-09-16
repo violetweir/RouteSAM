@@ -1,0 +1,22 @@
+{
+  "train_count": 588,
+  "gt_count": 8,
+  "pseudo_count": 580,
+  "eligible_counts": {
+    "2": 54,
+    "6": 30,
+    "4": 67,
+    "5": 41,
+    "1": 42,
+    "7": 282,
+    "3": 64
+  },
+  "softened_image_count": 538,
+  "mean_soft_pixel_fraction": 0.007160107842807112,
+  "all_main_masks_unchanged": true,
+  "all_soft_binary_equal_main": true,
+  "all_selected_routes_recomputed": true,
+  "train_gt_masks_read": 8,
+  "unlabeled_gt_masks_read": 0,
+  "test_masks_read": 0
+}

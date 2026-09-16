@@ -1,0 +1,18 @@
+{
+  "training": false,
+  "gpu": 0,
+  "parallel_students": [
+    "S2",
+    "S3"
+  ],
+  "checkpoint_sha256": {
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/students/S2/student_best.pth": "fcfd20dbc0161bc6a6a05882d922be5575c1cfd0fecb7b0b40f6bb037517123c",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/students/S2/student_final.pth": "b609a458793aa2a573da9dc3e049abf7fcc08dc87ec02524a4f4e433ac3f0504",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/students/S3/student_best.pth": "f06dadfb87c2dd3ae359fcb97cb6903ba3aa85f57b83329424bdd73bf7381555",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/students/S3/student_final.pth": "16dc27beea033cd0de64acecc04057230bd5f5602fd21adb257535f71011f613"
+  },
+  "source_root": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907",
+  "metric_resolution": 256,
+  "pseudo_count": 448,
+  "gt_count": 8
+}

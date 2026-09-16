@@ -1,0 +1,63 @@
+{
+  "B_direct": {
+    "n_targets": 100,
+    "per_target_mean": 0.8088349618752747,
+    "oracle": 0.8558407600811612,
+    "sel_medoid": 0.8281399538010191,
+    "sel_anchor_balanced": 0.8281399538010191,
+    "sel_cross_anchor_support": 0.8281399538010191,
+    "regret_medoid": 0.027700806280142043,
+    "regret_anchor_balanced": 0.027700806280142043,
+    "regret_cross_anchor_support": 0.027700806280142043,
+    "gain_medoid_vs_mean": 0.01930499192574442,
+    "route_level_rho_Q_gt": 0.7286312070134113,
+    "mean_pair_overlap": 0.3333333333333333,
+    "rho_overlap_vs_absdice_diff": -0.1
+  },
+  "C_top1": {
+    "n_targets": 100,
+    "per_target_mean": 0.8291605131589145,
+    "oracle": 0.9012742457060559,
+    "sel_medoid": 0.8595356581166576,
+    "sel_anchor_balanced": 0.8588886399885477,
+    "sel_cross_anchor_support": 0.860137662784926,
+    "regret_medoid": 0.0417385875893983,
+    "regret_anchor_balanced": 0.04238560571750816,
+    "regret_cross_anchor_support": 0.04113658292112987,
+    "gain_medoid_vs_mean": 0.030375144957743072,
+    "route_level_rho_Q_gt": 0.7154631219709324,
+    "mean_pair_overlap": 0.31269775132275135,
+    "rho_overlap_vs_absdice_diff": -0.11026769626769627
+  },
+  "D_all": {
+    "n_targets": 100,
+    "per_target_mean": 0.8362317609994235,
+    "oracle": 0.910440636385363,
+    "sel_medoid": 0.8602957364479161,
+    "sel_anchor_balanced": 0.859523961246314,
+    "sel_cross_anchor_support": 0.8589852614636636,
+    "regret_medoid": 0.05014489993744686,
+    "regret_anchor_balanced": 0.05091667513904896,
+    "regret_cross_anchor_support": 0.05145537492169938,
+    "gain_medoid_vs_mean": 0.02406397544849259,
+    "route_level_rho_Q_gt": 0.7035282806792358,
+    "mean_pair_overlap": 0.30355555555555563,
+    "rho_overlap_vs_absdice_diff": -0.13501244038979887
+  },
+  "A_within": {
+    "n_targets": 100,
+    "per_target_mean": 0.8569145186229786,
+    "oracle": 0.910440636385363,
+    "sel_medoid": 0.8602957364479161,
+    "sel_anchor_balanced": 0.8602957364479161,
+    "sel_cross_anchor_support": 0.8602957364479161,
+    "regret_medoid": 0.05014489993744686,
+    "regret_anchor_balanced": 0.05014489993744686,
+    "regret_cross_anchor_support": 0.05014489993744686,
+    "gain_medoid_vs_mean": 0.003381217824937499
+  },
+  "config": {
+    "tau": 0.85,
+    "eval_dir": "work/kvasir_1pct_anchors/stage1_feature_knn_sam3enc_s1008_lesion_knn/sam3enc_lesion_c3/eval_c3_forward_validation"
+  }
+}

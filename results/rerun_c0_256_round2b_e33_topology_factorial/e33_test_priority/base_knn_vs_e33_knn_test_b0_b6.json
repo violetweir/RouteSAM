@@ -1,0 +1,164 @@
+{
+  "b7_evaluated": false,
+  "base_teacher_evaluated": false,
+  "combined": {
+    "bridge_0": {
+      "base_knn_e33_teacher": 0.8123468143867243,
+      "base_targets": 200,
+      "delta": 0.056259283681032723,
+      "e33_knn_e33_teacher": 0.868606098067757,
+      "e33_targets": 200
+    },
+    "bridge_1": {
+      "base_knn_e33_teacher": 0.8250822617783288,
+      "base_targets": 200,
+      "delta": 0.008604058301975859,
+      "e33_knn_e33_teacher": 0.8336863200803046,
+      "e33_targets": 200
+    },
+    "bridge_2": {
+      "base_knn_e33_teacher": 0.8661802771756196,
+      "base_targets": 200,
+      "delta": -0.0028750987455267163,
+      "e33_knn_e33_teacher": 0.8633051784300929,
+      "e33_targets": 200
+    },
+    "bridge_3": {
+      "base_knn_e33_teacher": 0.885060605125707,
+      "base_targets": 200,
+      "delta": -0.023763382830587765,
+      "e33_knn_e33_teacher": 0.8612972222951192,
+      "e33_targets": 200
+    },
+    "bridge_4": {
+      "base_knn_e33_teacher": 0.8946242900147229,
+      "base_targets": 200,
+      "delta": -0.024081612272211173,
+      "e33_knn_e33_teacher": 0.8705426777425117,
+      "e33_targets": 200
+    },
+    "bridge_5": {
+      "base_knn_e33_teacher": 0.89523993320501,
+      "base_targets": 200,
+      "delta": -0.011333421037797997,
+      "e33_knn_e33_teacher": 0.883906512167212,
+      "e33_targets": 200
+    },
+    "bridge_6": {
+      "base_knn_e33_teacher": 0.9040654581423128,
+      "base_targets": 200,
+      "delta": -0.017043916020732408,
+      "e33_knn_e33_teacher": 0.8870215421215804,
+      "e33_targets": 200
+    }
+  },
+  "knn_feature_size": 256,
+  "modes": {
+    "sam3enc_anchor_conditioned_patch_correspondence": {
+      "bridge_0": {
+        "base_knn_e33_teacher": 0.82814256023097,
+        "base_targets": 100,
+        "delta": 0.035978648033963334,
+        "e33_knn_e33_teacher": 0.8641212082649333,
+        "e33_targets": 100
+      },
+      "bridge_1": {
+        "base_knn_e33_teacher": 0.8405493395741788,
+        "base_targets": 100,
+        "delta": -0.026936363442075173,
+        "e33_knn_e33_teacher": 0.8136129761321036,
+        "e33_targets": 100
+      },
+      "bridge_2": {
+        "base_knn_e33_teacher": 0.8563883316431236,
+        "base_targets": 100,
+        "delta": 0.012084487983233805,
+        "e33_knn_e33_teacher": 0.8684728196263574,
+        "e33_targets": 100
+      },
+      "bridge_3": {
+        "base_knn_e33_teacher": 0.8786803602248738,
+        "base_targets": 100,
+        "delta": -0.011448615447841926,
+        "e33_knn_e33_teacher": 0.8672317447770319,
+        "e33_targets": 100
+      },
+      "bridge_4": {
+        "base_knn_e33_teacher": 0.8852397575836141,
+        "base_targets": 100,
+        "delta": 0.004456516933606269,
+        "e33_knn_e33_teacher": 0.8896962745172203,
+        "e33_targets": 100
+      },
+      "bridge_5": {
+        "base_knn_e33_teacher": 0.8930363841311793,
+        "base_targets": 100,
+        "delta": -0.009175883529856654,
+        "e33_knn_e33_teacher": 0.8838605006013226,
+        "e33_targets": 100
+      },
+      "bridge_6": {
+        "base_knn_e33_teacher": 0.9081507364465208,
+        "base_targets": 100,
+        "delta": -0.02500295432828381,
+        "e33_knn_e33_teacher": 0.883147782118237,
+        "e33_targets": 100
+      }
+    },
+    "sam3enc_anchor_conditioned_target_pooling": {
+      "bridge_0": {
+        "base_knn_e33_teacher": 0.7965510685424786,
+        "base_targets": 100,
+        "delta": 0.076539919328102,
+        "e33_knn_e33_teacher": 0.8730909878705806,
+        "e33_targets": 100
+      },
+      "bridge_1": {
+        "base_knn_e33_teacher": 0.8096151839824786,
+        "base_targets": 100,
+        "delta": 0.04414448004602711,
+        "e33_knn_e33_teacher": 0.8537596640285057,
+        "e33_targets": 100
+      },
+      "bridge_2": {
+        "base_knn_e33_teacher": 0.8759722227081157,
+        "base_targets": 100,
+        "delta": -0.017834685474287237,
+        "e33_knn_e33_teacher": 0.8581375372338285,
+        "e33_targets": 100
+      },
+      "bridge_3": {
+        "base_knn_e33_teacher": 0.89144085002654,
+        "base_targets": 100,
+        "delta": -0.036078150213333715,
+        "e33_knn_e33_teacher": 0.8553626998132063,
+        "e33_targets": 100
+      },
+      "bridge_4": {
+        "base_knn_e33_teacher": 0.9040088224458317,
+        "base_targets": 100,
+        "delta": -0.05261974147802839,
+        "e33_knn_e33_teacher": 0.8513890809678033,
+        "e33_targets": 100
+      },
+      "bridge_5": {
+        "base_knn_e33_teacher": 0.8974434822788409,
+        "base_targets": 100,
+        "delta": -0.013490958545739451,
+        "e33_knn_e33_teacher": 0.8839525237331014,
+        "e33_targets": 100
+      },
+      "bridge_6": {
+        "base_knn_e33_teacher": 0.8999801798381049,
+        "base_targets": 100,
+        "delta": -0.009084877713180894,
+        "e33_knn_e33_teacher": 0.890895302124924,
+        "e33_targets": 100
+      }
+    }
+  },
+  "propagation_canvas": 256,
+  "propagation_teacher": "SAM3-e33",
+  "split": "test",
+  "validation_evaluated": false
+}

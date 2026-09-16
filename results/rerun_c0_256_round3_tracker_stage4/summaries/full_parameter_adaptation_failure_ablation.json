@@ -1,0 +1,62 @@
+{
+  "groups": {
+    "T1": {
+      "best_completed_b0": 0.8594315993230686,
+      "best_completed_b6": 0.8636330377168183,
+      "best_completed_mean_b3_b6": 0.8635454441006588,
+      "best_completed_step": 2000,
+      "completed_checkpoint_count": 15,
+      "completed_checkpoint_steps": [
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000,
+        10000,
+        11000,
+        12000,
+        13000,
+        14000,
+        15000
+      ],
+      "later_partial_validation_excluded": true
+    },
+    "T2": {
+      "best_completed_b0": 0.878158520325063,
+      "best_completed_b6": 0.8779499609460413,
+      "best_completed_mean_b3_b6": 0.878704919827477,
+      "best_completed_step": 1000,
+      "completed_checkpoint_count": 15,
+      "completed_checkpoint_steps": [
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000,
+        10000,
+        11000,
+        12000,
+        13000,
+        14000,
+        15000
+      ],
+      "later_partial_validation_excluded": true
+    }
+  },
+  "interpretation": {
+    "T1": "memory-decoder interface drift followed by empty-mask collapse",
+    "T2": "current-frame shortcut/path collapse with B0 approximately equal to B6"
+  },
+  "reason": "Stage4 full-parameter adaptation failure ablation reached a decisive conclusion; checkpoints 16k-20k were intentionally not completed.",
+  "restart_policy": "T3/T4 must initialize from T0 e33 image side plus original SAM3-base tracker, never from T1/T2.",
+  "status": "stopped_and_archived",
+  "stopped_at": "2026-08-27T14:58:48.823436+08:00"
+}

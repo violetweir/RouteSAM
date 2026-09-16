@@ -1,0 +1,43 @@
+{
+  "dataset": "kvasir",
+  "source": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/auto8_tp_validation_20260911",
+  "selected_ids": [
+    "kvasir-seg::cju2wxv0hxs2f09884w48v8fi",
+    "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "kvasir-seg::cju42xpi8lw4w0871ve317a1p",
+    "kvasir-seg::cju5vi4nxlc530817uoqm2m7a",
+    "kvasir-seg::cju3v664kh0px0818y4y7wolf",
+    "kvasir-seg::cju8dpa89u6l80818dj6lldh9",
+    "kvasir-seg::cju2t62nq45jl0799odpufwx6",
+    "kvasir-seg::cju7ajnbo1gvm098749rdouk0"
+  ],
+  "k": 8,
+  "split_counts": {
+    "ntrain": 800,
+    "nval": 100,
+    "ntest": 100
+  },
+  "base": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+  "base_sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+  "gpu": 1,
+  "selection_feature_size": 1008,
+  "knn_feature_size": 256,
+  "canvas": 256,
+  "beam_width": 32,
+  "knn": "patch_mean",
+  "bridges": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "primary": "all seven fixed bridge test metrics",
+  "router": "disabled per user request",
+  "no_student": true,
+  "no_lora": true,
+  "test_gt_for_inference": false,
+  "feature_cache_extension": "retain all previous train/validation entries exactly; extract support+test for prototype check then append only test columns"
+}

@@ -1,0 +1,16 @@
+{
+  "validation": {
+    "targets": 64,
+    "per_target_candidates": 35,
+    "old_paths_exact_match": 448,
+    "reused_masks_verified": 448,
+    "new_candidates": 1792
+  },
+  "test": {
+    "targets": 66,
+    "per_target_candidates": 35,
+    "old_paths_exact_match": 462,
+    "reused_masks_verified": 462,
+    "new_candidates": 1848
+  }
+}

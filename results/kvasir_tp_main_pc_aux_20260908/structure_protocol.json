@@ -1,0 +1,23 @@
+{
+  "stage": "CPU structural probe; no new correspondence features or SAM3 inference",
+  "split": "original validation only; no test inputs",
+  "TP_main": "existing five-fold target-level OOF independent TP Router outputs; preserve anchor/path/ranking",
+  "PC_aux": "existing seven PC masks; no student",
+  "band": "dilation(TP,8 iterations,3x3) minus erosion(TP,8 iterations,3x3); TP unchanged outside band",
+  "fixed_controls": [
+    "TP",
+    "unrestricted_PC_5of7",
+    "local_PC_5of7",
+    "local_PC_7of7"
+  ],
+  "vote_rule": "add where >=k PC masks foreground; remove where >=k PC masks background; otherwise retain TP",
+  "oracle_diagnostics": [
+    "fixed_TP_plus_raw_PC7",
+    "fixed_TP_plus_local_PC7",
+    "full_TP7_PC7",
+    "full_TP7_PC7_plus_local_PC7"
+  ],
+  "GT_policy": "construct every output before loading GT; oracle and edit-quality statistics diagnostic only",
+  "acceptance": "Exploratory structural check only; no test promotion from this script",
+  "code_sha256": "fe4e4fa7f49b310ad42b570a78219cb1cf86ddb28d74d9e600b4282ef7a3837d"
+}

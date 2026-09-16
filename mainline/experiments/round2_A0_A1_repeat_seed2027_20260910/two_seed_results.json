@@ -1,0 +1,139 @@
+{
+  "A0": {
+    "seed2026": {
+      "arm": "A0_v2",
+      "best_epoch": 6,
+      "validation": {
+        "count": 100,
+        "dice": 0.880908943299533,
+        "iou": 0.8210759642993252
+      },
+      "test": {
+        "count": 100,
+        "dice": 0.9017549020160395,
+        "iou": 0.8424247613964808
+      },
+      "training_pool_size": 436
+    },
+    "seed2027": {
+      "arm": "A0_seed2027",
+      "best_epoch": 7,
+      "validation": {
+        "count": 100,
+        "dice": 0.8820758645146414,
+        "iou": 0.8201593849935627
+      },
+      "test": {
+        "count": 100,
+        "dice": 0.8922883154655379,
+        "iou": 0.8326300494471256
+      },
+      "test_empty": {
+        "count": 100,
+        "dice": 0.8850132219650062,
+        "iou": 0.8304957435431001
+      },
+      "training_pool_size": 436,
+      "primary_prompt": "colon polyp",
+      "empty_text_role": "predeclared diagnostic, not test-based prompt selection"
+    },
+    "mean": 0.8970216087407887,
+    "delta": -0.009466586550501588
+  },
+  "A1": {
+    "seed2026": {
+      "arm": "A1_v2",
+      "best_epoch": 4,
+      "validation": {
+        "count": 100,
+        "dice": 0.8872572662846037,
+        "iou": 0.8241338199189707
+      },
+      "test": {
+        "count": 100,
+        "dice": 0.9032938250771576,
+        "iou": 0.8474495770074403
+      },
+      "test_empty": {
+        "count": 100,
+        "dice": 0.8703459367444992,
+        "iou": 0.812895657536732
+      },
+      "training_pool_size": 604,
+      "primary_prompt": "colon polyp",
+      "empty_text_role": "predeclared diagnostic, not test-based prompt selection"
+    },
+    "seed2027": {
+      "arm": "A1_seed2027",
+      "best_epoch": 2,
+      "validation": {
+        "count": 100,
+        "dice": 0.8796581294471736,
+        "iou": 0.8151038015308296
+      },
+      "test": {
+        "count": 100,
+        "dice": 0.8866017854353514,
+        "iou": 0.8305659270737087
+      },
+      "test_empty": {
+        "count": 100,
+        "dice": 0.8678122809616504,
+        "iou": 0.8113148548840278
+      },
+      "training_pool_size": 604,
+      "primary_prompt": "colon polyp",
+      "empty_text_role": "predeclared diagnostic, not test-based prompt selection"
+    },
+    "mean": 0.8949478052562545,
+    "delta": -0.01669203964180621
+  },
+  "A2": {
+    "seed2026": {
+      "arm": "A2_v2",
+      "best_epoch": 1,
+      "validation": {
+        "count": 100,
+        "dice": 0.8886802749428641,
+        "iou": 0.8246231495608966
+      },
+      "test": {
+        "count": 100,
+        "dice": 0.9129324535696501,
+        "iou": 0.8579156124505335
+      },
+      "test_empty": {
+        "count": 100,
+        "dice": 0.8457755499690442,
+        "iou": 0.7848181799509159
+      },
+      "training_pool_size": 511,
+      "primary_prompt": "colon polyp",
+      "empty_text_role": "predeclared diagnostic, not test-based prompt selection"
+    },
+    "seed2027": {
+      "arm": "A2_seed2027",
+      "best_epoch": 2,
+      "validation": {
+        "count": 100,
+        "dice": 0.8817233616651704,
+        "iou": 0.8182551613968421
+      },
+      "test": {
+        "count": 100,
+        "dice": 0.8842892049428266,
+        "iou": 0.8272267280409364
+      },
+      "test_empty": {
+        "count": 100,
+        "dice": 0.8499837225718649,
+        "iou": 0.7926192575560219
+      },
+      "training_pool_size": 511,
+      "primary_prompt": "colon polyp",
+      "empty_text_role": "predeclared diagnostic, not test-based prompt selection"
+    },
+    "mean": 0.8986108292562384,
+    "delta": -0.028643248626823548
+  }
+}

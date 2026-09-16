@@ -1,0 +1,15 @@
+{
+  "baseline_knn_feature": "cond",
+  "beam_width": 32,
+  "checkpoint": "base_sam3",
+  "feature_size": 1008,
+  "mask_descriptors": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_1pct_anchors/stage1_feature_knn_sam3enc_s1008/features/sam3enc_mask_descriptors_s1008.npz",
+  "mask_weight": 0.1,
+  "max_bridge": 2,
+  "min_bridge": 2,
+  "retrieval_formula": "(1-w)*rank(cond_anchor_candidate)+w*rank(mask_candidate_tail_cosine)",
+  "route_mode": "sam3enc_anchor_conditioned_target_pooling",
+  "route_score_changed": false,
+  "routes": 100,
+  "split": "validation"
+}

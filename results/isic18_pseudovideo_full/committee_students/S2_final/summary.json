@@ -1,0 +1,40 @@
+{
+  "final_iteration": 40000,
+  "best_iteration": 16800,
+  "best_validation_dice": 0.8547567576270142,
+  "best_validation": {
+    "count": 259,
+    "dice": 0.8547567576270142,
+    "iou": 0.7776148787982574,
+    "nonempty_rate": 0.9961389961389961,
+    "mean_area": 0.18352305290781853,
+    "by_dataset": {
+      "ISIC18": {
+        "count": 259,
+        "dice": 0.8547567576270142,
+        "iou": 0.7776148787982574,
+        "nonempty_rate": 0.9961389961389961,
+        "mean_area": 0.18352305290781853
+      }
+    }
+  },
+  "test": {
+    "count": 260,
+    "dice": 0.8462784717006769,
+    "iou": 0.762397627512938,
+    "nonempty_rate": 0.9961538461538462,
+    "mean_area": 0.17170721200796274,
+    "by_dataset": {
+      "ISIC18": {
+        "count": 260,
+        "dice": 0.8462784717006769,
+        "iou": 0.762397627512938,
+        "nonempty_rate": 0.9961538461538462,
+        "mean_area": 0.17170721200796274
+      }
+    }
+  },
+  "checkpoint": "work/isic18_pseudovideo_full/committee_students/S2_final/student_best.pth",
+  "final_checkpoint": "work/isic18_pseudovideo_full/committee_students/S2_final/student_final.pth",
+  "test_evaluations_during_training": 0
+}

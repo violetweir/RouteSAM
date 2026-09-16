@@ -1,0 +1,82 @@
+{
+  "baseline": {
+    "ci_95": [
+      0.0,
+      0.0
+    ],
+    "loss_count": 0,
+    "mean_delta": 0.0,
+    "median_delta": 0.0,
+    "resamples": 10000,
+    "seed": 2026,
+    "target_count": 100,
+    "tie_count": 100,
+    "unit": "paired_target",
+    "win_count": 0
+  },
+  "logistic": {
+    "ci_95": [
+      -0.00647409325358436,
+      0.0009724804009683245
+    ],
+    "loss_count": 14,
+    "mean_delta": -0.0017684280415947082,
+    "median_delta": 0.0,
+    "resamples": 10000,
+    "seed": 2026,
+    "target_count": 100,
+    "tie_count": 61,
+    "unit": "paired_target",
+    "win_count": 25
+  },
+  "oracle": {
+    "ci_95": [
+      0.001838446533627337,
+      0.00675928661744438
+    ],
+    "loss_count": 0,
+    "mean_delta": 0.00380450818671979,
+    "median_delta": 0.00033573072101572565,
+    "resamples": 10000,
+    "seed": 2026,
+    "target_count": 100,
+    "tie_count": 46,
+    "unit": "paired_target",
+    "win_count": 54
+  },
+  "protocol": {
+    "resamples": 10000,
+    "seed": 2026,
+    "unit": "target"
+  },
+  "qreturn": {
+    "ci_95": [
+      -0.017141895741787067,
+      0.00402336949243486
+    ],
+    "loss_count": 28,
+    "mean_delta": -0.0045359266358780456,
+    "median_delta": 0.00033573072101572565,
+    "resamples": 10000,
+    "seed": 2026,
+    "target_count": 100,
+    "tie_count": 18,
+    "unit": "paired_target",
+    "win_count": 54
+  },
+  "tree": {
+    "ci_95": [
+      -0.006221356854639601,
+      0.0010563067581632866
+    ],
+    "loss_count": 16,
+    "mean_delta": -0.0015787215564705397,
+    "median_delta": 0.0,
+    "resamples": 10000,
+    "seed": 2026,
+    "target_count": 100,
+    "tie_count": 52,
+    "unit": "paired_target",
+    "win_count": 32
+  }
+}

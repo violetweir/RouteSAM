@@ -1,0 +1,17 @@
+{
+  "epoch": 19,
+  "seed": 2026,
+  "validation": {
+    "count": 100,
+    "dice": 0.8937165187099291,
+    "iou": 0.8344591053745813
+  },
+  "test": {
+    "count": 100,
+    "dice": 0.9019498646978138,
+    "iou": 0.8431328330017307
+  },
+  "checkpoint_sha256": "67ed97fd9a76eabf8721811ff6fd3eca99df586477a942643064287763ad296c",
+  "verified_masks": 100,
+  "original_weight_unchanged": true
+}

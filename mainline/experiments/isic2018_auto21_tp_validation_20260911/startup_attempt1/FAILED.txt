@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/isic2018_auto21_tp_validation_20260911/pipeline.py", line 41, in <module>
+    try:main()
+        ^^^^^^
+  File "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/isic2018_auto21_tp_validation_20260911/pipeline.py", line 22, in main
+    run('selection_features',[PY,str(R/'code/isic_auto_extract.py')])
+  File "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/isic2018_auto21_tp_validation_20260911/pipeline.py", line 20, in run
+    if rc:raise RuntimeError(f'{name} failed, exit={rc}')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: selection_features failed, exit=1

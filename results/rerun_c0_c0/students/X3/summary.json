@@ -1,0 +1,80 @@
+{
+  "best_iteration_diagnostic_only": 23600,
+  "best_validation_diagnostic_only": 0.831528351699647,
+  "checkpoint_reproduced": true,
+  "cuda_memory": {
+    "allocated_after_release": 51241984,
+    "allocated_before_release": 67935232
+  },
+  "experiment": "X3",
+  "final_checkpoint": "work/rerun_c0_c0/students/X3/student_final.pth",
+  "final_iteration": 40000,
+  "final_validation": {
+    "by_dataset": {
+      "kvasir-seg": {
+        "count": 100,
+        "dice": 0.8092501617743735,
+        "iou": 0.7338293981127084,
+        "mean_area": 0.11753265380859375,
+        "nonempty_rate": 0.99
+      }
+    },
+    "by_size": {
+      "large": {
+        "count": 44,
+        "dice": 0.737979937283448,
+        "iou": 0.6570928445449445
+      },
+      "medium": {
+        "count": 33,
+        "dice": 0.8514093941610192,
+        "iou": 0.7737039480379245
+      },
+      "small": {
+        "count": 23,
+        "dice": 0.8851038665066078,
+        "iou": 0.823418450697469
+      }
+    },
+    "count": 100,
+    "dice": 0.8092501617743735,
+    "iou": 0.7338293981127084,
+    "mean_area": 0.11753265380859375,
+    "nonempty_rate": 0.99
+  },
+  "nan_detected": false,
+  "reloaded_final_validation": {
+    "by_dataset": {
+      "kvasir-seg": {
+        "count": 100,
+        "dice": 0.8092501617743735,
+        "iou": 0.7338293981127084,
+        "mean_area": 0.11753265380859375,
+        "nonempty_rate": 0.99
+      }
+    },
+    "by_size": {
+      "large": {
+        "count": 44,
+        "dice": 0.737979937283448,
+        "iou": 0.6570928445449445
+      },
+      "medium": {
+        "count": 33,
+        "dice": 0.8514093941610192,
+        "iou": 0.7737039480379245
+      },
+      "small": {
+        "count": 23,
+        "dice": 0.8851038665066078,
+        "iou": 0.823418450697469
+      }
+    },
+    "count": 100,
+    "dice": 0.8092501617743735,
+    "iou": 0.7338293981127084,
+    "mean_area": 0.11753265380859375,
+    "nonempty_rate": 0.99
+  },
+  "test_evaluated": false
+}

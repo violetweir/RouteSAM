@@ -1,0 +1,30 @@
+{
+  "split": "validation",
+  "targets": 100,
+  "primary": "Original TP 7 unchanged",
+  "auxiliary_count": 7,
+  "total_count": 14,
+  "B": "TP alternate anchor, TP path",
+  "C": "PC alternate anchor, TP path",
+  "D": "Same anchor as C, PC path",
+  "bridge_counts": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "beam_width": 32,
+  "knn_feature": "patch_mean",
+  "feature_size": 256,
+  "canvas": 256,
+  "internal_size": 1008,
+  "target_gt_used_for_search_or_inference": false,
+  "train_support_count": 8,
+  "unlabeled_train_count": 792,
+  "primary_reference": "Frozen TP independent Router; shared nested gain selector protocol to follow",
+  "original_router": "Secondary identical five-fold Ridge protocol for candidate comparison",
+  "no_test_at_this_stage": true
+}

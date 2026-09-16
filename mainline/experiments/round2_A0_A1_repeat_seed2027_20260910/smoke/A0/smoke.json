@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_rgb_tensor_verified": true,
+  "frozen_unchanged": true,
+  "adapter_roundtrip": true,
+  "actual_update": {
+    "loss": 300.76397705078125,
+    "learning_rate": 5e-05,
+    "next_learning_rate": 4.9999993575017406e-05,
+    "grad_norm_before": 32073.91796875,
+    "grad_norm_after": 1.0,
+    "clipped": true
+  },
+  "one_image_validation": {
+    "count": 1,
+    "dice": 0.9584451429885762,
+    "iou": 0.9202061096797939
+  }
+}

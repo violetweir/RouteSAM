@@ -1,0 +1,29 @@
+{
+  "method": "historical propagation-quality ridge router",
+  "student_used": false,
+  "ridge": 1.0,
+  "fit_split": "historical validation only",
+  "test_gt_used_for_selection": false,
+  "candidate_ranges": [
+    [
+      3,
+      6
+    ],
+    [
+      0,
+      6
+    ]
+  ],
+  "canvas": 256,
+  "coverage": "all 100 test targets, no confidence filtering",
+  "source_sha256": "b77c8fb8347424a7f0216d3c0bb978a3f78f219ef31661728a02531e2032888d",
+  "input_sha256": {
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_sam3knn_s256_base/stage1_feature_knn_b0_b6/sam3enc_anchor_conditioned_target_pooling/propagation_quality_validation/propagation_quality.jsonl": "14212921c7562a7fc0c2a789ac6bccdf6b35b74cb9f4012e3e980f74c7c7af38",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_sam3knn_s256_base/stage1_feature_knn_b0_b6/sam3enc_anchor_conditioned_patch_correspondence/propagation_quality_validation/propagation_quality.jsonl": "17291d51a4acb4f754eb01f4d7d1a3f1a90109907ec0ed4190ad9befc99e819a"
+  },
+  "mode_mapping": {
+    "anchor_conditioned_target_pooling": "sam3enc_anchor_conditioned_target_pooling",
+    "anchor_conditioned_patch_correspondence": "sam3enc_anchor_conditioned_patch_correspondence"
+  },
+  "tie_break": "max(score, -bridge_count, route_id)"
+}

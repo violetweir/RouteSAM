@@ -1,0 +1,4 @@
+{
+  "reason": "Original ISIC q_cycle can be null; report valid cycle counts, retain every mask in Dice/IoU and Oracle. Prediction outputs unchanged.",
+  "previous_script": "pipeline_before_summary_fix.py"
+}

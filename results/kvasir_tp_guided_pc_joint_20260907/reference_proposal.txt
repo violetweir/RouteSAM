@@ -1,0 +1,455 @@
+能，而且我认为这比继续把 PC 当成一条独立路线单独修补更值得做。
+
+你这一轮结果已经很说明问题：
+
+$$
+TP\text{-only Router}=0.885433
+$$
+
+$$
+PC\text{-only Router}=0.861688
+$$
+
+但：
+
+$$
+TP+PC\ Oracle=0.921471>TP\ Oracle=0.907426
+$$
+
+所以 PC 的问题不是“完全没有信息”，而是**它单独构路不稳定，但其中存在 TP 没捕获到的局部对应信息**。最自然的方向就是：
+
+> **让 TP 负责“在哪里看”，让 PC 负责“看这个区域内部到底像不像”。**
+
+而不是：
+
+> TP 独立构一张图，PC 独立构另一张图，最后才让 Router 二选一。
+
+---
+
+## 我最建议的是：TP-guided Patch Correspondence
+
+现在 TP 做的是：
+
+给 anchor 病灶 prototype \(p_a\)，对于 target 每个 patch \(x_j\)：
+
+$$
+s_j=p_a^\top x_j
+$$
+
+得到一个 soft attention：
+
+$$
+w_j=
+\operatorname{softmax}(\tau s_j)
+$$
+
+它实际上告诉我们：
+
+> **target 的哪些区域可能是病灶。**
+
+现在的 PC 则完全独立地做 Top-K correspondence。
+
+我们可以改成：
+
+```text
+Anchor GT lesion
+       │
+       ├──────────────┐
+       │              │
+       ▼              ▼
+foreground       foreground patch set
+prototype            A={a1...an}
+       │              │
+       ▼              │
+Target Pooling        │
+attention map         │
+w1,w2,...,wP          │
+       │              │
+       └──────┬───────┘
+              ▼
+     只在 TP 认为重要的
+     target 区域里做 PC
+              │
+              ▼
+     Joint correspondence score
+              │
+              ▼
+          KNN / Beam
+              │
+              ▼
+       一套统一的 Route
+```
+
+这就是真正意义上的**前融合**。
+
+---
+
+### 关键点是 PC 不再只用一个 anchor prototype
+
+为了避免最后退化成 TP 自己，PC 这里应该保留 anchor mask 内的多个 foreground patch：
+
+$$
+A_a=\{a_1,a_2,\ldots,a_m\}
+$$
+
+对于 target patch \(x_j\)，计算：
+
+$$
+c_j
+=
+\max_{i\in A_a}
+\cos(a_i,x_j)
+$$
+
+或者更稳一点：
+
+$$
+c_j
+=
+MeanTop_r\{
+\cos(a_i,x_j)
+\}_{i=1}^m
+$$
+
+这个 \(c_j\) 表示：
+
+> target 的这个位置，是否和 anchor 病灶内部的某种局部纹理真正对应。
+
+然后关键来了。
+
+不再像当前 PC 那样：
+
+$$
+Top8(c_j)\rightarrow mean
+$$
+
+而是让 TP 的 attention 来控制：
+
+$$
+\boxed{
+S_{local}(a,t)
+=
+\sum_jw_jc_j
+}
+$$
+
+因此只有：
+
+> **既被 TP 判断为可能属于病灶，又能和 anchor 病灶局部 patch 对得上**
+
+的位置，才真正提高分数。
+
+---
+
+## 这样 TP 和 PC 就各自负责不同事情
+
+TP：
+
+$$
+w_j
+$$
+
+解决：
+
+> **病灶大概在哪里？**
+
+PC：
+
+$$
+c_j
+$$
+
+解决：
+
+> **这个位置的局部结构是否真的和 anchor 病灶对应？**
+
+最后：
+
+$$
+\boxed{
+TP\rightarrow region
+,\qquad
+PC\rightarrow local correspondence
+}
+$$
+
+这比简单：
+
+$$
+0.8TP+0.2PC
+$$
+
+更有方法意义。
+
+因为 0.8/0.2 还是两个独立分数最后加起来，而上面是：
+
+> **TP 直接改变 PC 的计算区域。**
+
+---
+
+# 还可以保留 TP 原来的区域分数
+
+现在 TP 自己还有一个：
+
+$$
+S_{region}
+=
+p_a^T
+\left(
+\sum_jw_jx_j
+\right)
+$$
+
+那么最终可以写成：
+
+$$
+\boxed{
+S_{joint}
+=
+\alpha \hat S_{region}
++
+(1-\alpha)\hat S_{local}
+}
+$$
+
+例如第一轮先试：
+
+$$
+\alpha=0.7
+$$
+
+也就是：
+
+$$
+70\%\ region
++
+30\%\ local
+$$
+
+这里 TP 占主导是符合你现在实验结果的，因为目前 TP 明显更稳定。
+
+---
+
+# 但这次一定要解决你 v1 暴露出来的“跨 anchor 分数不可比”
+
+你这一轮最重要的异常其实不是 Dice，而是：
+
+$$
+v0:\quad 最小anchor=213/700
+$$
+
+到了 v1：
+
+$$
+636/700
+$$
+
+v2：
+
+$$
+643/700
+$$
+
+这说明 adaptive K 改变了 PC score 的尺度：
+
+> 小病灶 anchor → K 小 → 取出来的都是最强匹配 → 平均 similarity 天然更高。
+
+于是算法不是发现：
+
+> “这个 anchor 真匹配。”
+
+而可能只是发现：
+
+> “这个 anchor 的 K 比较小，所以 score 比较容易高。”
+
+所以 Joint 版本里，**绝对不能直接拿 raw TP score 和 raw PC score相加。**
+
+我建议先对每个 anchor 的分数做固定的 robust calibration：
+
+$$
+\boxed{
+\hat s
+=
+\frac{s-\operatorname{median}(s_a)}
+{MAD(s_a)+\epsilon}
+}
+$$
+
+其中 \(s_a\) 是这个 anchor 对整个训练候选池产生的分数分布。
+
+这样问的就不是：
+
+> Anchor A raw score = 0.91，Anchor B = 0.88，谁大？
+
+而是：
+
+> 0.91 对 Anchor A 自己平时的匹配分布来说到底有多异常地好？
+
+这会直接针对你目前的 anchor collapse。
+
+而且这个 calibration：
+
+* 不需要 target GT；
+* 不需要 test GT；
+* 可以完全从 train candidate score distribution 冻结得到。
+
+论文上也很好解释。
+
+---
+
+# 我建议第一轮不要做太多版本
+
+直接做这三个就够了：
+
+| 方法           | 做法                                 |
+| ------------ | ---------------------------------- |
+| TP baseline  | 当前 Target Pooling                  |
+| Joint-v1     | 标准化 TP + 标准化 PC 分数融合               |
+| **Joint-v2** | **TP-guided Patch Correspondence** |
+
+其中 Joint-v1 是为了回答：
+
+> “仅仅早期融合两个 score 有没有用？”
+
+可以定义：
+
+$$
+S_{joint}^{v1}
+=
+0.75\hat S_{TP}
++
+0.25\hat S_{PC}
+$$
+
+而真正创新性更强的是 Joint-v2：
+
+$$
+w_j=TP\ attention
+$$
+
+$$
+c_j=local\ patch\ correspondence
+$$
+
+$$
+S_{local}=\sum_jw_jc_j
+$$
+
+再：
+
+$$
+S_{joint}^{v2}
+=
+\alpha\hat S_{region}
++
+(1-\alpha)\hat S_{local}
+$$
+
+然后用这个统一分数直接做：
+
+```text
+Anchor selection
+      ↓
+KNN / Beam Search
+      ↓
+Joint-b0
+Joint-b1
+...
+Joint-b6
+```
+
+这样**整个系统只剩一条 route family**。
+
+---
+
+# 这可能把目前很乱的结构直接简化
+
+现在：
+
+```text
+TP
+├─ b0-b6
+│
+PC
+├─ b0-b6
+│
+└───────┐
+        ▼
+  14 candidates
+        ↓
+      Router
+```
+
+如果 Joint 成功，就变成：
+
+```text
+TP区域信息
+     +
+PC局部对应信息
+     ↓
+Unified Joint Score
+     ↓
+Joint KNN
+     ↓
+b0-b6
+     ↓
+7 candidates
+     ↓
+Router
+```
+
+这会带来一个非常大的论文好处：
+
+> **不是“我们设计了两种 heuristic route，再搞一个 Router 把它们拼起来”。**
+
+而是一个统一的方法：
+
+> **Region-aware local correspondence routing**
+>
+> **区域感知局部对应路由**
+
+逻辑会完整很多。
+
+---
+
+## 而且你现在的数据非常支持往这个方向做
+
+因为目前：
+
+$$
+TP\ Router=0.885433
+$$
+
+已经很强。
+
+PC 加进去之后实际 Router：
+
+$$
+0.874083
+$$
+
+反而掉。
+
+但是 Oracle：
+
+$$
+0.921471
+$$
+
+说明 PC 又确实存在 TP 没有的正确答案。
+
+所以理想的新方法不是：
+
+$$
+TP+PC\ 候选越多越好
+$$
+
+而是：
+
+$$
+\boxed{
+\text{在构路之前就让 PC 修正 TP，而不是构路之后再让 Router 收拾残局。}
+}
+$$
+
+我觉得这个是目前最值得继续推进的一条 PC 优化方向。

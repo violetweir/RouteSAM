@@ -1,0 +1,39 @@
+{
+  "S2": {
+    "labeled": 8,
+    "pseudo": 580,
+    "no_unlabeled_gt_targets": true,
+    "sample_soft_unique": [
+      0.0,
+      1.0
+    ],
+    "sample_pixel_weight_unique": [
+      1.0
+    ]
+  },
+  "S3": {
+    "labeled": 8,
+    "pseudo": 580,
+    "no_unlabeled_gt_targets": true,
+    "sample_soft_unique": [
+      0.0,
+      0.1428549587726593,
+      0.2857099175453186,
+      0.4285648763179779,
+      0.5714350938796997,
+      0.7142900824546814,
+      0.8571450114250183,
+      1.0
+    ],
+    "sample_pixel_weight_unique": [
+      0.37546348571777344,
+      0.4420538544654846,
+      0.6127565503120422,
+      1.0
+    ]
+  },
+  "decoder_tests": {
+    "uint16_values_preserved": true,
+    "uint8_behavior_preserved": true
+  }
+}

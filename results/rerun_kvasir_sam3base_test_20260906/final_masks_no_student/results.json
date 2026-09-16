@@ -1,0 +1,121 @@
+[
+  {
+    "range": "b3-b6",
+    "scope": "target_pooling",
+    "targets": 100,
+    "dice": 0.8768688814676348,
+    "iou": 0.8157676648627494,
+    "oracle_dice_evaluation_only": 0.9026894191477756,
+    "mode_counts": {
+      "sam3enc_anchor_conditioned_target_pooling": 100
+    },
+    "bridge_counts": {
+      "4": 24,
+      "5": 30,
+      "3": 23,
+      "6": 23
+    },
+    "final_masks": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_kvasir_sam3base_test_20260906/final_masks_no_student/b3_b6/target_pooling/masks"
+  },
+  {
+    "range": "b3-b6",
+    "scope": "patch_correspondence",
+    "targets": 100,
+    "dice": 0.8742935832718598,
+    "iou": 0.8102856060404153,
+    "oracle_dice_evaluation_only": 0.8959886404240277,
+    "mode_counts": {
+      "sam3enc_anchor_conditioned_patch_correspondence": 100
+    },
+    "bridge_counts": {
+      "3": 36,
+      "4": 22,
+      "6": 26,
+      "5": 16
+    },
+    "final_masks": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_kvasir_sam3base_test_20260906/final_masks_no_student/b3_b6/patch_correspondence/masks"
+  },
+  {
+    "range": "b3-b6",
+    "scope": "combined",
+    "targets": 100,
+    "dice": 0.8810294644831034,
+    "iou": 0.8175423105328966,
+    "oracle_dice_evaluation_only": 0.9193368212057444,
+    "mode_counts": {
+      "sam3enc_anchor_conditioned_target_pooling": 81,
+      "sam3enc_anchor_conditioned_patch_correspondence": 19
+    },
+    "bridge_counts": {
+      "4": 28,
+      "5": 30,
+      "6": 24,
+      "3": 18
+    },
+    "final_masks": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_kvasir_sam3base_test_20260906/final_masks_no_student/b3_b6/combined/masks"
+  },
+  {
+    "range": "b0-b6",
+    "scope": "target_pooling",
+    "targets": 100,
+    "dice": 0.8854326463411542,
+    "iou": 0.8282740566505131,
+    "oracle_dice_evaluation_only": 0.9074262547898724,
+    "mode_counts": {
+      "sam3enc_anchor_conditioned_target_pooling": 100
+    },
+    "bridge_counts": {
+      "5": 22,
+      "2": 11,
+      "3": 7,
+      "4": 10,
+      "0": 22,
+      "6": 21,
+      "1": 7
+    },
+    "final_masks": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_kvasir_sam3base_test_20260906/final_masks_no_student/b0_b6/target_pooling/masks"
+  },
+  {
+    "range": "b0-b6",
+    "scope": "patch_correspondence",
+    "targets": 100,
+    "dice": 0.8616882728797673,
+    "iou": 0.7996223079430691,
+    "oracle_dice_evaluation_only": 0.9117146521608739,
+    "mode_counts": {
+      "sam3enc_anchor_conditioned_patch_correspondence": 100
+    },
+    "bridge_counts": {
+      "3": 19,
+      "0": 18,
+      "4": 12,
+      "6": 15,
+      "2": 13,
+      "1": 14,
+      "5": 9
+    },
+    "final_masks": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_kvasir_sam3base_test_20260906/final_masks_no_student/b0_b6/patch_correspondence/masks"
+  },
+  {
+    "range": "b0-b6",
+    "scope": "combined",
+    "targets": 100,
+    "dice": 0.8740830338579915,
+    "iou": 0.813985660947703,
+    "oracle_dice_evaluation_only": 0.9214706098083676,
+    "mode_counts": {
+      "sam3enc_anchor_conditioned_target_pooling": 78,
+      "sam3enc_anchor_conditioned_patch_correspondence": 22
+    },
+    "bridge_counts": {
+      "5": 20,
+      "4": 14,
+      "1": 8,
+      "6": 22,
+      "0": 18,
+      "2": 7,
+      "3": 11
+    },
+    "final_masks": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_kvasir_sam3base_test_20260906/final_masks_no_student/b0_b6/combined/masks"
+  }
+]

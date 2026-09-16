@@ -1,0 +1,2690 @@
+[
+  {
+    "id": "BUSI::benign (107)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9373618275607959,
+        "candidates": 1,
+        "score": 0.9804878830909729
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9339727037993361,
+        "candidates": 1,
+        "score": 0.9804878830909729
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9328330206378986,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.9234848484848485,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.924219910846954,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.928416485900217,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.9097983728333923,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (108)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8292436124462433,
+        "candidates": 1,
+        "score": 0.9179486632347107
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8048155737704918,
+        "candidates": 1,
+        "score": 0.9298245906829834
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.0,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.0,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (116)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9152768512341561,
+        "candidates": 2,
+        "score": 0.941605806350708
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8885850991114149,
+        "candidates": 3,
+        "score": 0.9452055096626282
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.0,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.0,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.0,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.0,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (117)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9140939597315436,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9058903182125931,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.923025658113962,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.8875739644970414,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9489470325462668,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.940987812700449,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.9261662032746371,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (137)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9516635279347144,
+        "candidates": 1,
+        "score": 0.9726027250289917
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9547427154370738,
+        "candidates": 1,
+        "score": 0.96875
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9402985074626866,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.9412507896399241,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.710720887245841,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.04730487859611328,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.7743871935967984,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (142)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9343065693430657,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9388753056234719,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.9351481184947958,
+        "candidates": 1,
+        "score": 0.6878048777580261
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.946031746031746,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.950510604870385,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9399519615692554,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.0,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.9047619047619048,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (149)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9670625140040332,
+        "candidates": 1,
+        "score": 0.9804878830909729
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9650507328072153,
+        "candidates": 1,
+        "score": 0.9804878830909729
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9712643678160919,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.9682715775460395,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9670378619153674,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.4147738117961443,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.8294829482948295,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (150)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9622331691297209,
+        "candidates": 1,
+        "score": 0.9726027250289917
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9691056910569106,
+        "candidates": 1,
+        "score": 0.9726027250289917
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.8914285714285715,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.8911174785100286,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.8409703504043127,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.7446300715990454,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.0,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (151)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9558955895589559,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9663716814159292,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9521276595744681,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.9509632224168126,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9418084153983886,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.9499561018437226,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.947098976109215,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (170)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9530531845042679,
+        "candidates": 1,
+        "score": 0.9804878830909729
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9534389805587322,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9520026481297583,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.952191894127378,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.954657063349157,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.8068692206076619,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.8048263060196235,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (183)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9472573839662447,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9441517386722866,
+        "candidates": 1,
+        "score": 0.9804878830909729
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.9543147208121827,
+        "candidates": 1,
+        "score": 0.5038759708404541
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9554404145077721,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.9512195121951219,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9120151371807,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.16348773841961853,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.2979616306954436,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (193)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9525267993874426,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.948021722265322,
+        "candidates": 1,
+        "score": 0.9726027250289917
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9292929292929293,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.9341595662277304,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9370199692780338,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.03971661657363675,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.0,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (196)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9238746170162621,
+        "candidates": 1,
+        "score": 0.96875
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9244570349386213,
+        "candidates": 1,
+        "score": 0.96875
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.804865150713908,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.8071654373024236,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.0,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.0,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (200)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9063583815028902,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9031386673527142,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9417051400430901,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.24650729587084758,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9573030997467133,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.9449960406895291,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.941856887959146,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (209)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.93505039193729,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9322843495363866,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9554831704668838,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.944251800480128,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9586021505376344,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.46019815510761874,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.7674418604651163,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (21)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.94824016563147,
+        "candidates": 1,
+        "score": 0.9726027250289917
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.944386149003148,
+        "candidates": 1,
+        "score": 0.9726027250289917
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9434343434343434,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.9440993788819876,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.709583028529627,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.5543540125213432,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.32894292468760555,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (214)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9074863950580968,
+        "candidates": 1,
+        "score": 0.9649122953414917
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9047829286239882,
+        "candidates": 1,
+        "score": 0.9649122953414917
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9102654121612133,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.8908460872076235,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.441875056018643,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.8287365379563961,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (235)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8732310145505282,
+        "candidates": 1,
+        "score": 0.9452055096626282
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8870729546125825,
+        "candidates": 1,
+        "score": 0.9569892287254333
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.31564459397461386,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.0,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.0,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.0,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (240)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8577212729775691,
+        "candidates": 1,
+        "score": 0.9609756469726562
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8721515951067402,
+        "candidates": 1,
+        "score": 0.9649122953414917
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.8042426813746287,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.7926662097326936,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.8323670697366241,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.8585065933176927,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.786114221724524,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (258)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8756013745704467,
+        "candidates": 1,
+        "score": 0.9569892287254333
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8659003831417624,
+        "candidates": 1,
+        "score": 0.949367105960846
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.8726287262872628,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.8036401820091005,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.8920957691046245,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.16937860345932096,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.7085714285714285,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (273)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9450912641778713,
+        "candidates": 1,
+        "score": 0.96875
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9255286546123199,
+        "candidates": 1,
+        "score": 0.9649122953414917
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.5275325767129045,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.0,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.0,
+        "score": 0.0
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (288)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8438978240302744,
+        "candidates": 1,
+        "score": 0.9532163739204407
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8387402320625148,
+        "candidates": 1,
+        "score": 0.9532163739204407
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.2468422952002887,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.22246615440907427,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.0,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.794987674609696,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (323)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9152055188272492,
+        "candidates": 1,
+        "score": 0.96875
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9039744705541051,
+        "candidates": 1,
+        "score": 0.9649122953414917
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.950082281952825,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.9275280898876405,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9441401971522454,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.8016528925619835,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.8211180124223603,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (328)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9186991869918699,
+        "candidates": 1,
+        "score": 0.9649122953414917
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9142857142857143,
+        "candidates": 1,
+        "score": 0.9532163739204407
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9125168236877523,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.916010498687664,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9110512129380054,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.8928571428571429,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.8821081830790569,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (338)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9525222551928784,
+        "candidates": 1,
+        "score": 0.96875
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9430284857571214,
+        "candidates": 1,
+        "score": 0.96875
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9075369075369075,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9548104956268222,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.0,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.0,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (347)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9366009589770911,
+        "candidates": 2,
+        "score": 0.976608157157898
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9366684406599255,
+        "candidates": 2,
+        "score": 0.976608157157898
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9305776364599894,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.8898854010961634,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9295774647887324,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.14122014202711428,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.0,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (359)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8823234852278418,
+        "candidates": 1,
+        "score": 0.9609756469726562
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8643113159242192,
+        "candidates": 1,
+        "score": 0.9452055096626282
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.0,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.4669365721997301,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.8953316953316953,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.14710202237035364,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.09559939301972686,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (363)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9373088685015291,
+        "candidates": 1,
+        "score": 0.96875
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9274691358024691,
+        "candidates": 1,
+        "score": 0.9726027250289917
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.9097387173396675,
+        "candidates": 1,
+        "score": 0.6167664527893066
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9015544041450777,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.8851132686084142,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9295238095238095,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.14194690265486726,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.9186270728885461,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (370)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9071003401360545,
+        "candidates": 1,
+        "score": 0.96875
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9067999362007549,
+        "candidates": 1,
+        "score": 0.96875
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.8947028423772609,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.8774617067833698,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9006261037084604,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.9055942198374329,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.9049138481174218,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (381)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9623059866962306,
+        "candidates": 1,
+        "score": 0.9804878830909729
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9564939219449776,
+        "candidates": 1,
+        "score": 0.9843749403953552
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9562800641368252,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.9584800939267798,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9583377730420884,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.9639000308546745,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.9607574960547081,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (386)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9434594443668853,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9397960609023607,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.9253773853602962,
+        "candidates": 1,
+        "score": 0.5038759708404541
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.0,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.6142830916100606,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9162717219589257,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.6778660150682142,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.9388327721661055,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (39)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9604989604989606,
+        "candidates": 1,
+        "score": 0.9804878830909729
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.958894645941278,
+        "candidates": 1,
+        "score": 0.9804878830909729
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.955044955044955,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.952507472600465,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.94578706727629,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.9499675113710201,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.9555408095554081,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (391)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8269557267859475,
+        "candidates": 1,
+        "score": 0.949367105960846
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8280404303880013,
+        "candidates": 1,
+        "score": 0.949367105960846
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.1521581616809854,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.057764845349714405,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.0,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.7131126831733199,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.26680972818311877,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (398)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8372207824262619,
+        "candidates": 1,
+        "score": 0.941605806350708
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8320824742268041,
+        "candidates": 1,
+        "score": 0.941605806350708
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.38415366146458585,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.014051851331412913,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.3963463065925338,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.7954450654876116,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.624374118905255,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (417)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9275613275613276,
+        "candidates": 8,
+        "score": 0.976608157157898
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9342520815389033,
+        "candidates": 9,
+        "score": 0.976608157157898
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9169087739686229,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.0,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9349383777586701,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.0,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.0,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (422)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.686461454644511,
+        "candidates": 1,
+        "score": 0.8904109597206116
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.7863599839292889,
+        "candidates": 1,
+        "score": 0.9101123809814453
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.0,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.0,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.0,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.21717935787527315,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.0,
+        "score": 0.0
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (43)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9337068160597572,
+        "candidates": 1,
+        "score": 0.9726027250289917
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.920303605313093,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9204545454545454,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.9286376274328082,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9292364990689013,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.14543755839302397,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.9287054409005628,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (59)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8724373576309795,
+        "candidates": 2,
+        "score": 0.96875
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8731112916328189,
+        "candidates": 2,
+        "score": 0.976608157157898
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.8676658163265306,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.8760064412238325,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.8784694997647797,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.8766682746422254,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.9014701282452299,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (63)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9494949494949495,
+        "candidates": 1,
+        "score": 0.9804878830909729
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9550387596899225,
+        "candidates": 1,
+        "score": 0.9804878830909729
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9455128205128205,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.950354609929078,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9450199203187251,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.01829451766263465,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.0,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (7)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9479166666666666,
+        "candidates": 1,
+        "score": 0.9726027250289917
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9422572178477691,
+        "candidates": 1,
+        "score": 0.96875
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9484029484029484,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.9418886198547215,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.942643391521197,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.8861047835990888,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.0,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (85)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8377774229602427,
+        "candidates": 1,
+        "score": 0.9532163739204407
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.7697559310462536,
+        "candidates": 1,
+        "score": 0.949367105960846
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.005521811154058531,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.005235602094240838,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.586085835064842,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.4753751265764522,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (90)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9528907922912205,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9451022604951561,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.9463722397476341,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.9563409563409564,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.959332638164755,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.0,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.02341343191620456,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::benign (96)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9364799812140425,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.937008797653959,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.8766919160561282,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.8613911290322581,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.8958346001824262,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.8457469318662717,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.8180289270097545,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (102)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8902001026167266,
+        "candidates": 1,
+        "score": 0.941605806350708
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9012361743656474,
+        "candidates": 1,
+        "score": 0.941605806350708
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.6636056065732238,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.052823101302969834,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.042725173210161664,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.6805005746392543,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.0960071116378991,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (108)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8136452447589375,
+        "candidates": 1,
+        "score": 0.9452055096626282
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8068301966589131,
+        "candidates": 1,
+        "score": 0.9452055096626282
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.1991838152296605,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.5379086809470124,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.2833954451345756,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (110)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9264089427107592,
+        "candidates": 1,
+        "score": 0.9726027250289917
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9186915887850468,
+        "candidates": 1,
+        "score": 0.96875
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.8908296943231441,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.9064983637213652,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.9027777777777778,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.9307517084282461,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.7584208620065194,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (14)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8251457119067444,
+        "candidates": 1,
+        "score": 0.9609756469726562
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.7012260445185097,
+        "candidates": 1,
+        "score": 0.9569892287254333
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.7788440326494596,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.23950157779755643,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.7994630872483222,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.8064973978867687,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.7669081457722723,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (166)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8362301101591187,
+        "candidates": 1,
+        "score": 0.949367105960846
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8203980099502488,
+        "candidates": 1,
+        "score": 0.941605806350708
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.7326892109500805,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.7714211752523945,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.7617827868852459,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.7484792382967469,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.5257127978127848,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (171)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8883451150987856,
+        "candidates": 1,
+        "score": 0.9452055096626282
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8790078089113459,
+        "candidates": 1,
+        "score": 0.9452055096626282
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.570097922139957,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.2077727952167414,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.7459940039284607,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.6656652360515022,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.8006414461695459,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (179)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8669607904057665,
+        "candidates": 1,
+        "score": 0.921951174736023
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8696290855673889,
+        "candidates": 1,
+        "score": 0.9298245906829834
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.11994171057056384,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.0833906071019473,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.6048422171748901,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.3221179387285284,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (196)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9252895902977533,
+        "candidates": 1,
+        "score": 0.96875
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9396714858829763,
+        "candidates": 1,
+        "score": 0.9649122953414917
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.8137237608043747,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.8422139967289317,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.8453944544596103,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.8595896218416144,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.8794751336465252,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (203)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8196511952747735,
+        "candidates": 2,
+        "score": 0.9375000596046448
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8210811672779461,
+        "candidates": 2,
+        "score": 0.941605806350708
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.3988483268144285,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.2533925925925926,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.23983278590624066,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.7159670955494621,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.5355636074849853,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (205)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9298142971678693,
+        "candidates": 1,
+        "score": 0.976608157157898
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.920618263702149,
+        "candidates": 1,
+        "score": 0.9726027250289917
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.0920272260478446,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.08599234205488195,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.9026370560117101,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.37969912159660757,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (207)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8803697249791651,
+        "candidates": 1,
+        "score": 0.949367105960846
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.895187969924812,
+        "candidates": 1,
+        "score": 0.9532163739204407
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.0,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.2570223025919228,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.5339909929230109,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.7135894258570838,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (21)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9117927224233188,
+        "candidates": 2,
+        "score": 0.9609756469726562
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9140221547680056,
+        "candidates": 2,
+        "score": 0.9609756469726562
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.0,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.0,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.8482238083517926,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.24451247313228686,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (22)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8653788409568611,
+        "candidates": 1,
+        "score": 0.949367105960846
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8545192832679803,
+        "candidates": 1,
+        "score": 0.9452055096626282
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.24383279130641708,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.09655695722280186,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.10231678486997636,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.7478860796769172,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.3342389067259406,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (3)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9019710906701708,
+        "candidates": 1,
+        "score": 0.921951174736023
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8994332410702518,
+        "candidates": 1,
+        "score": 0.9179486632347107
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.6025075048560834,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.6284228769497401,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.5953141640042598,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.40576864995469647,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.7741635687732342,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (41)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9377321012177218,
+        "candidates": 1,
+        "score": 0.9452055096626282
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9321824907521579,
+        "candidates": 1,
+        "score": 0.949367105960846
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.0,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.0,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.16193319908339698,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.0,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (5)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8384977866628588,
+        "candidates": 1,
+        "score": 0.9179486632347107
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8382623461157492,
+        "candidates": 1,
+        "score": 0.9139785170555115
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.535818287711124,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.18225650916104147,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.15962899682694653,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.46520607739444303,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.08633339020644941,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (59)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9083471453256692,
+        "candidates": 1,
+        "score": 0.9532163739204407
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8876639285199597,
+        "candidates": 1,
+        "score": 0.9569892287254333
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.2061086500349732,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.08431555971312753,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.8459264249092474,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.15350833416508633,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (62)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9116350167558351,
+        "candidates": 1,
+        "score": 0.9726027250289917
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9157919290879403,
+        "candidates": 1,
+        "score": 0.9726027250289917
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.3336084364970197,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.17275012569130216,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.8752357199343026,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.08736679411046937,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (64)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8249426668122748,
+        "candidates": 1,
+        "score": 0.941605806350708
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8481559419647802,
+        "candidates": 1,
+        "score": 0.941605806350708
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.3980874800779175,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.2858230256898192,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.41330166270783847,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.4826457870749094,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (71)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.8794677613419208,
+        "candidates": 1,
+        "score": 0.9609756469726562
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.8763258379295715,
+        "candidates": 1,
+        "score": 0.9609756469726562
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.11545691589351767,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.0,
+        "score": 0.0
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.8569057584066965,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.1896437994722955,
+        "score": 0.9064327478408813
+      }
+    }
+  },
+  {
+    "id": "BUSI::malignant (73)",
+    "direct": {
+      "target_gtbox_256": {
+        "dice": 0.9205658324265505,
+        "candidates": 1,
+        "score": 0.9375000596046448
+      },
+      "target_gtbox_native_to1008": {
+        "dice": 0.9157205240174673,
+        "candidates": 1,
+        "score": 0.9452055096626282
+      },
+      "text_only_breast_lesion_1008": {
+        "dice": 0.0,
+        "candidates": 0,
+        "score": 0.0
+      }
+    },
+    "per_anchor_b0": {
+      "BUSI::benign (3)": {
+        "dice": 0.6767079074771383,
+        "score": 0.9843749403953552
+      },
+      "BUSI::benign (125)": {
+        "dice": 0.6752896793317165,
+        "score": 0.9804878830909729
+      },
+      "BUSI::benign (305)": {
+        "dice": 0.6945031712473573,
+        "score": 0.9609756469726562
+      },
+      "BUSI::malignant (195)": {
+        "dice": 0.5698341836734694,
+        "score": 0.949367105960846
+      },
+      "BUSI::malignant (187)": {
+        "dice": 0.35063595737366793,
+        "score": 0.9064327478408813
+      }
+    }
+  }
+]

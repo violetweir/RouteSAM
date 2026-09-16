@@ -1,0 +1,27 @@
+{
+  "iteration": 33400,
+  "validation": {
+    "count": 161,
+    "dice": 0.8141975843507495,
+    "iou": 0.7292713313821118,
+    "nonempty_rate": 0.9937888198757764,
+    "mean_area": 0.1049077762580066,
+    "by_dataset": {
+      "CVC-ClinicDB": {
+        "count": 61,
+        "dice": 0.8294221028079596,
+        "iou": 0.7517288571645873,
+        "nonempty_rate": 1.0,
+        "mean_area": 0.07669367555712091
+      },
+      "kvasir-seg": {
+        "count": 100,
+        "dice": 0.8049106280918517,
+        "iou": 0.7155722406548014,
+        "nonempty_rate": 0.99,
+        "mean_area": 0.12211837768554687
+      }
+    }
+  },
+  "selection_uses_test_gt": false
+}

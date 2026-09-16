@@ -1,0 +1,80 @@
+{
+  "best_iteration_diagnostic_only": 24600,
+  "best_validation_diagnostic_only": 0.8219693982752989,
+  "checkpoint_reproduced": true,
+  "cuda_memory": {
+    "allocated_after_release": 51241984,
+    "allocated_before_release": 69508096
+  },
+  "experiment": "X3",
+  "final_checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/students/X3/student_final.pth",
+  "final_iteration": 40000,
+  "final_validation": {
+    "by_dataset": {
+      "kvasir-seg": {
+        "count": 100,
+        "dice": 0.8123137177070854,
+        "iou": 0.730223173504578,
+        "mean_area": 0.115985107421875,
+        "nonempty_rate": 0.99
+      }
+    },
+    "by_size": {
+      "large": {
+        "count": 44,
+        "dice": 0.7480925097386315,
+        "iou": 0.6568910044342301
+      },
+      "medium": {
+        "count": 33,
+        "dice": 0.85426834508785,
+        "iou": 0.7714919283233878
+      },
+      "small": {
+        "count": 23,
+        "dice": 0.8749759110569433,
+        "iou": 0.8112991095947768
+      }
+    },
+    "count": 100,
+    "dice": 0.8123137177070854,
+    "iou": 0.730223173504578,
+    "mean_area": 0.115985107421875,
+    "nonempty_rate": 0.99
+  },
+  "nan_detected": false,
+  "reloaded_final_validation": {
+    "by_dataset": {
+      "kvasir-seg": {
+        "count": 100,
+        "dice": 0.8123137177070854,
+        "iou": 0.730223173504578,
+        "mean_area": 0.115985107421875,
+        "nonempty_rate": 0.99
+      }
+    },
+    "by_size": {
+      "large": {
+        "count": 44,
+        "dice": 0.7480925097386315,
+        "iou": 0.6568910044342301
+      },
+      "medium": {
+        "count": 33,
+        "dice": 0.85426834508785,
+        "iou": 0.7714919283233878
+      },
+      "small": {
+        "count": 23,
+        "dice": 0.8749759110569433,
+        "iou": 0.8112991095947768
+      }
+    },
+    "count": 100,
+    "dice": 0.8123137177070854,
+    "iou": 0.730223173504578,
+    "mean_area": 0.115985107421875,
+    "nonempty_rate": 0.99
+  },
+  "test_evaluated": false
+}

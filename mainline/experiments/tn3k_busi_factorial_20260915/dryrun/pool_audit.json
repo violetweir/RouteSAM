@@ -1,0 +1,16 @@
+{
+  "validation": {
+    "targets": 576,
+    "full_pool": 92736,
+    "candidate_union": 15554,
+    "base_routes_reproduced": 4032,
+    "union_per_target": 27.003
+  },
+  "test": {
+    "targets": 614,
+    "full_pool": 98854,
+    "candidate_union": 16485,
+    "base_routes_reproduced": 4298,
+    "union_per_target": 26.849
+  }
+}

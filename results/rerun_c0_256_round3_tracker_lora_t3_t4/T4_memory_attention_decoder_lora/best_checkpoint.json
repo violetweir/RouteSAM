@@ -1,0 +1,12 @@
+{
+  "candidate_count": 14,
+  "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_round3_tracker_lora_t3_t4/T4_memory_attention_decoder_lora/checkpoints/step_002500.pt",
+  "delta_mean_b3_b6_over_T0": 0.0016785242633767794,
+  "empty_mask_collapse": false,
+  "result_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_round3_tracker_lora_t3_t4/T4_memory_attention_decoder_lora/validation/step_002500/b0_b6_validation.json",
+  "selection_rule": "maximize validation mean(b3,b4,b5,b6); tie-break higher b6; then earlier checkpoint",
+  "step": 2500,
+  "validation_b6": 0.8857638726345165,
+  "validation_b6_b0": 0.1205972683060984,
+  "validation_mean_b3_b6": 0.8793815242633767
+}

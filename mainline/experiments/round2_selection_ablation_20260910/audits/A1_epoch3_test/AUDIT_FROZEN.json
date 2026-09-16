@@ -1,0 +1,15 @@
+{
+  "arm": "A1",
+  "epoch": 3,
+  "source": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_selection_ablation_20260910/runs/A1/epoch3.pt",
+  "checkpoint_sha256": "b430a51edcc924a7c436db6f88b51472329d1b771103ac56cebdf0fca2524a4d",
+  "validation": {
+    "count": 100,
+    "dice": 0.880858534691903,
+    "iou": 0.8172218440752493
+  },
+  "reason": "User explicitly requested epoch 3 test during ongoing training",
+  "role": "diagnostic; does not change validation-based final checkpoint selection",
+  "protocol": "single image, colon polyp, effective256, no points/boxes/TP/Router/B7",
+  "training_policy": "A0 and A1 continue unchanged for 10 epochs"
+}

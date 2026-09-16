@@ -1,0 +1,510 @@
+{
+  "feature_sets": {
+    "internal_plus_consensus": [
+      "bridge_scaled",
+      "q_return",
+      "q_multi",
+      "q_return_rank",
+      "q_multi_rank",
+      "sam_score",
+      "sam_score_rank",
+      "cycle_sam_score",
+      "path_bottleneck_similarity",
+      "path_mean_similarity",
+      "trace_area_min",
+      "trace_area_max",
+      "trace_area_final",
+      "log1p_trace_area_max_rel_delta",
+      "trace_empty_count",
+      "trace_component_max",
+      "trace_component_final",
+      "trace_centroid_max_step",
+      "log1p_trace_bbox_w_max_rel_delta",
+      "log1p_trace_bbox_h_max_rel_delta",
+      "trace_adjacent_dice_min",
+      "trace_adjacent_dice_mean",
+      "trace_adjacent_dice_last",
+      "trace_sam_score_min",
+      "trace_sam_score_mean",
+      "trace_sam_score_final",
+      "log1p_trace_candidate_count_max",
+      "log1p_trace_candidate_count_final",
+      "is_fixed_b6",
+      "family::t18_corrected",
+      "family::dino_global_pooling",
+      "family::dino_patch_average",
+      "family::anchor_conditioned_target_pooling",
+      "family::anchor_conditioned_target_pooling__knn_cls",
+      "family::anchor_conditioned_target_pooling__knn_pooled",
+      "family::anchor_conditioned_target_pooling__knn_cond",
+      "family::anchor_conditioned_patch_correspondence",
+      "family::anchor_conditioned_patch_correspondence__knn_cls",
+      "family::anchor_conditioned_patch_correspondence__knn_pooled",
+      "family::anchor_conditioned_patch_correspondence__knn_cond"
+    ]
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "heldout_targets": [
+        "kvasir-seg::cju7agj961l2r0818z29iq8yn",
+        "kvasir-seg::cju5bycdkalkb09875f7bfrvx",
+        "kvasir-seg::cju1fyb1d69et0878muzdak9u",
+        "kvasir-seg::cju1csmlc4ht10799b8ymmghg",
+        "kvasir-seg::cju3128yi0rpu0988o4oo5n8n",
+        "kvasir-seg::cju6x35ervu2808015c7eoqe4",
+        "kvasir-seg::cju5ew4h9cqaf0818rrczkmqh",
+        "kvasir-seg::cju1djtprvd7b0988thwwrg09",
+        "kvasir-seg::cju303j5r062k098835zxfds5",
+        "kvasir-seg::cju8cwy02t9eq08185qn12c02",
+        "kvasir-seg::cju7dda8w2br20818zhsuz8s7",
+        "kvasir-seg::cju6vqarjv7yo0987q4b1btk1",
+        "kvasir-seg::cju2t2ivz43i10878zeg8r1br",
+        "kvasir-seg::cju0s2a9ekvms080138tjjpxr",
+        "kvasir-seg::cju7eotqi2qea0871y8yc7tqh",
+        "kvasir-seg::cju5hyi9yegob0755ho3do8en",
+        "kvasir-seg::cju3yht87j83m08507yk1u1fg",
+        "kvasir-seg::cju5hl8nee8a40755fm8qjj0o",
+        "kvasir-seg::cju45rj7ln8980850a7821fov",
+        "kvasir-seg::cju3xzvnzj0hd0755xprz39nj"
+      ],
+      "models": {
+        "internal_plus_consensus": {
+          "fallback_probability": 0.7,
+          "l2": 0.1,
+          "optimizer_success": true,
+          "top_standardized_weights": [
+            {
+              "feature": "trace_area_final",
+              "weight": 0.32322960146356083
+            },
+            {
+              "feature": "q_multi_rank",
+              "weight": 0.2327885846132289
+            },
+            {
+              "feature": "family::dino_global_pooling",
+              "weight": 0.14164153255844106
+            },
+            {
+              "feature": "log1p_trace_candidate_count_final",
+              "weight": 0.13665780362605257
+            },
+            {
+              "feature": "trace_adjacent_dice_last",
+              "weight": 0.1278250643295542
+            },
+            {
+              "feature": "family::anchor_conditioned_target_pooling__knn_cond",
+              "weight": -0.12216764344877494
+            },
+            {
+              "feature": "bridge_scaled",
+              "weight": 0.11984694090623922
+            },
+            {
+              "feature": "trace_sam_score_final",
+              "weight": 0.11853948481607812
+            },
+            {
+              "feature": "sam_score",
+              "weight": 0.11853948481607812
+            },
+            {
+              "feature": "trace_sam_score_mean",
+              "weight": -0.08995236910528884
+            }
+          ],
+          "tuning_best_key": [
+            0.8667525964684433,
+            -1,
+            0.026685593892588854,
+            -0.7,
+            -0.1
+          ]
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "heldout_targets": [
+        "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+        "kvasir-seg::cju858eswlepn0871pzvdrhj1",
+        "kvasir-seg::cju5wcc90lu020850mjrxppv6",
+        "kvasir-seg::cju5bbtwsa8cl0987wgfsqpao",
+        "kvasir-seg::cju5cjh3xattc0817j2vbulzi",
+        "kvasir-seg::cju1fmsyf6gxb0801cimx2gle",
+        "kvasir-seg::cju2yi9tz8vky0801yqip0xyl",
+        "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+        "kvasir-seg::cju45ty6zn9oz0850qy4qnck1",
+        "kvasir-seg::cju2zpw4q9vzr0801p0lysjdl",
+        "kvasir-seg::cju5x7iskmad90818frchyfwd",
+        "kvasir-seg::cju6vifjlv55z0987un6y4zdo",
+        "kvasir-seg::cju2zo0fwzv580988qlijd2xa",
+        "kvasir-seg::cju77u1sjz77b0817ft44r3fk",
+        "kvasir-seg::cju2y26c588bo07993ksd8eoz",
+        "kvasir-seg::cju3tx1qyg0c907552fglumhc",
+        "kvasir-seg::cju35fxqyzt5p0993vusm54qz",
+        "kvasir-seg::cju5k3j3uf6de0817hszzfr7n",
+        "kvasir-seg::cju2qfie4rvz508357kad9z5o",
+        "kvasir-seg::cju7bd1qu1mx409877xjxibox"
+      ],
+      "models": {
+        "internal_plus_consensus": {
+          "fallback_probability": 0.75,
+          "l2": 0.01,
+          "optimizer_success": true,
+          "top_standardized_weights": [
+            {
+              "feature": "trace_area_final",
+              "weight": 1.286541987698353
+            },
+            {
+              "feature": "trace_sam_score_mean",
+              "weight": -0.5647545931661272
+            },
+            {
+              "feature": "log1p_trace_bbox_w_max_rel_delta",
+              "weight": 0.3583590806932284
+            },
+            {
+              "feature": "log1p_trace_area_max_rel_delta",
+              "weight": -0.3394298291178736
+            },
+            {
+              "feature": "log1p_trace_candidate_count_final",
+              "weight": 0.3169598080524259
+            },
+            {
+              "feature": "path_bottleneck_similarity",
+              "weight": 0.2708040877824563
+            },
+            {
+              "feature": "q_multi_rank",
+              "weight": 0.2579821468398535
+            },
+            {
+              "feature": "trace_centroid_max_step",
+              "weight": -0.25738668250334895
+            },
+            {
+              "feature": "path_mean_similarity",
+              "weight": -0.22379167570391348
+            },
+            {
+              "feature": "bridge_scaled",
+              "weight": 0.2151819657047053
+            }
+          ],
+          "tuning_best_key": [
+            0.8835190820529079,
+            -1,
+            0.04072791250108251,
+            -0.75,
+            -0.01
+          ]
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "heldout_targets": [
+        "kvasir-seg::cju5u8gz4kj5b07552e2wpkwp",
+        "kvasir-seg::cju88itqbny720987hxizbj5y",
+        "kvasir-seg::cju33x0f22peh0988g0ln7w5v",
+        "kvasir-seg::cju5ekty5ckzf07550c9u3ckk",
+        "kvasir-seg::cju42g865lorv07552ytz6xxa",
+        "kvasir-seg::cju5fi0yxd3ei0801v7u0yudn",
+        "kvasir-seg::cju7ehljc2or70871261br8ai",
+        "kvasir-seg::cju45n0oxn5vu08500yfrt9jn",
+        "kvasir-seg::cju6wuojavt740818b5qcv3iw",
+        "kvasir-seg::cju3xjqtpikx50817tppy6g84",
+        "kvasir-seg::cju7atnm31if40817pqclnjer",
+        "kvasir-seg::cju85rkbnlo1c08503uxcpax1",
+        "kvasir-seg::cju1cu1u2474n0878tt7v4tdr",
+        "kvasir-seg::cju8chdlqsu620755azjty1tj",
+        "kvasir-seg::cju2pag1f0s4r0878h52uq83s",
+        "kvasir-seg::cju32qr9tbvsj08013pkpjenq",
+        "kvasir-seg::cju5i39mreass0817au8p22zy",
+        "kvasir-seg::cju8alhigqn2h0801zksudldd",
+        "kvasir-seg::cju7ekbo32pft0871fv7kzwb9",
+        "kvasir-seg::cju42nm68lpyo0818xvvqmupq"
+      ],
+      "models": {
+        "internal_plus_consensus": {
+          "fallback_probability": 0.5,
+          "l2": 0.01,
+          "optimizer_success": true,
+          "top_standardized_weights": [
+            {
+              "feature": "trace_area_final",
+              "weight": 1.339816908970335
+            },
+            {
+              "feature": "log1p_trace_area_max_rel_delta",
+              "weight": -0.45012278783431053
+            },
+            {
+              "feature": "trace_sam_score_mean",
+              "weight": -0.4442862382307597
+            },
+            {
+              "feature": "log1p_trace_bbox_w_max_rel_delta",
+              "weight": 0.4088283732743447
+            },
+            {
+              "feature": "path_mean_similarity",
+              "weight": -0.36112025174290646
+            },
+            {
+              "feature": "q_return",
+              "weight": -0.33682273590843775
+            },
+            {
+              "feature": "path_bottleneck_similarity",
+              "weight": 0.32988510270435883
+            },
+            {
+              "feature": "q_multi",
+              "weight": 0.2954903159239428
+            },
+            {
+              "feature": "log1p_trace_candidate_count_final",
+              "weight": 0.2650808912726255
+            },
+            {
+              "feature": "bridge_scaled",
+              "weight": 0.23665749408888515
+            }
+          ],
+          "tuning_best_key": [
+            0.9032107478545832,
+            0,
+            0.048380383638577724,
+            -0.5,
+            -0.01
+          ]
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "heldout_targets": [
+        "kvasir-seg::cju85a8h8llwm07559wxg4t5w",
+        "kvasir-seg::cju6x97w4vwua0850x0997r0a",
+        "kvasir-seg::cju6xlygpw7bs0818n691jsq4",
+        "kvasir-seg::cju1ewnoh5z030855vpex9uzt",
+        "kvasir-seg::cju358pwtdby20878cg7nm0np",
+        "kvasir-seg::cju87r56lnkyp0755hz30leew",
+        "kvasir-seg::cju3u39fog1bo0871lxjrabks",
+        "kvasir-seg::cju7ap09p1kz10850ldccjebj",
+        "kvasir-seg::cju3x2s11ibzi0817kk284k0j",
+        "kvasir-seg::cju88oh0po9gq0801nge4tgr1",
+        "kvasir-seg::cju8at3s1qqqx0850hcq8nmnq",
+        "kvasir-seg::cju30mm25a53s0799qa5wiqe8",
+        "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+        "kvasir-seg::cju6uy20suzbl0987rzuhz7z9",
+        "kvasir-seg::cju88y1mwoln50871emyfny1g",
+        "kvasir-seg::cju6vgdmivcvb08018fra5lnv",
+        "kvasir-seg::cju8d2q30tfhs0801n7lx77xl",
+        "kvasir-seg::cju7cufm7298k0755j09uf3of",
+        "kvasir-seg::cju5yimthmlv80850zhoc90c2",
+        "kvasir-seg::cju849c23kgnk0817cgv2hw1e"
+      ],
+      "models": {
+        "internal_plus_consensus": {
+          "fallback_probability": 0.5,
+          "l2": 0.001,
+          "optimizer_success": true,
+          "top_standardized_weights": [
+            {
+              "feature": "log1p_trace_bbox_w_max_rel_delta",
+              "weight": 1.7526926053913425
+            },
+            {
+              "feature": "trace_sam_score_mean",
+              "weight": -1.6244576731508547
+            },
+            {
+              "feature": "trace_area_final",
+              "weight": 1.3847039880343357
+            },
+            {
+              "feature": "trace_empty_count",
+              "weight": -1.2731932319699357
+            },
+            {
+              "feature": "log1p_trace_area_max_rel_delta",
+              "weight": -0.9532415722344559
+            },
+            {
+              "feature": "log1p_trace_bbox_h_max_rel_delta",
+              "weight": -0.7748700625079614
+            },
+            {
+              "feature": "path_mean_similarity",
+              "weight": -0.7718630735269552
+            },
+            {
+              "feature": "log1p_trace_candidate_count_final",
+              "weight": 0.7210832768078226
+            },
+            {
+              "feature": "path_bottleneck_similarity",
+              "weight": 0.594175013302216
+            },
+            {
+              "feature": "trace_centroid_max_step",
+              "weight": -0.5316024265265213
+            }
+          ],
+          "tuning_best_key": [
+            0.8887956898674936,
+            0,
+            0.044188540351116745,
+            -0.5,
+            -0.001
+          ]
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "heldout_targets": [
+        "kvasir-seg::cju2htabevq9108015qjei0x7",
+        "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+        "kvasir-seg::cju2uzabhs6er0993x3aaf87p",
+        "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+        "kvasir-seg::cju7afqon1ip40850ue2308b6",
+        "kvasir-seg::cju8aeei7q8k308173n9y4klv",
+        "kvasir-seg::cju2wve9v7esz0878mxsdcy04",
+        "kvasir-seg::cju7fbndk2sl608015ravktum",
+        "kvasir-seg::cju42romflni20817etb9a0fl",
+        "kvasir-seg::cju2tzypl4wss0799ow05oxb9",
+        "kvasir-seg::cju1d96gsv62d09881b3wecw2",
+        "kvasir-seg::cju7f0ec32txj08184asb8w5f",
+        "kvasir-seg::cju3xwpgviwlx0871rwm15q7v",
+        "kvasir-seg::cju32srle1xfq083575i3fl75",
+        "kvasir-seg::cju5vutu7ll8w0871dfp92n9p",
+        "kvasir-seg::cju5gucasds9d0801019axylx",
+        "kvasir-seg::cju5klveuff6w0871wbibgh3m",
+        "kvasir-seg::cju1euuc65wm00799m4sjdnnn",
+        "kvasir-seg::cju8bw697rwg308177tg8huas",
+        "kvasir-seg::cju34fojcctcf0799ebolbvkn"
+      ],
+      "models": {
+        "internal_plus_consensus": {
+          "fallback_probability": 0.65,
+          "l2": 0.001,
+          "optimizer_success": true,
+          "top_standardized_weights": [
+            {
+              "feature": "trace_sam_score_mean",
+              "weight": -1.62666761971632
+            },
+            {
+              "feature": "trace_area_final",
+              "weight": 1.3896646617485497
+            },
+            {
+              "feature": "trace_empty_count",
+              "weight": -1.180361811700605
+            },
+            {
+              "feature": "log1p_trace_bbox_w_max_rel_delta",
+              "weight": 1.07203607860745
+            },
+            {
+              "feature": "path_mean_similarity",
+              "weight": -1.0047445482033668
+            },
+            {
+              "feature": "path_bottleneck_similarity",
+              "weight": 0.9276671390794164
+            },
+            {
+              "feature": "log1p_trace_candidate_count_final",
+              "weight": 0.6734896255801959
+            },
+            {
+              "feature": "trace_centroid_max_step",
+              "weight": -0.5030942818430504
+            },
+            {
+              "feature": "log1p_trace_area_max_rel_delta",
+              "weight": -0.4998207802979993
+            },
+            {
+              "feature": "log1p_trace_bbox_h_max_rel_delta",
+              "weight": -0.45554583644747004
+            }
+          ],
+          "tuning_best_key": [
+            0.8761387445967518,
+            -4,
+            0.038109510544885136,
+            -0.65,
+            -0.001
+          ]
+        }
+      }
+    }
+  ],
+  "protocol": {
+    "inner_folds": 4,
+    "min_pair_gap": 0.02,
+    "outer_folds": 5,
+    "pool": "P2_b3_b6",
+    "seed": 20260811,
+    "split": "validation_only_oof",
+    "test_loaded": false
+  },
+  "summary": {
+    "internal_plus_consensus": {
+      "bootstrap_95_ci": [
+        0.0248581524753406,
+        0.07577790732075479
+      ],
+      "catastrophic_regressions_delta_lt_minus_0.05": 0,
+      "fixed_b6_dice": 0.8440649839823857,
+      "losses": 35,
+      "max_gain": 0.6818553410894269,
+      "max_gain_over_net_gain": 0.14173292745146723,
+      "max_gain_share_of_positive_gains": 0.13575888997310148,
+      "max_regression": -0.04114555722567126,
+      "mean_delta_vs_fixed": 0.04810846380936502,
+      "median_delta_vs_fixed": 0.0012773710568880214,
+      "n_targets": 100,
+      "oracle_dice": 0.9159516054832895,
+      "oracle_gap": 0.02377815769153868,
+      "selected_dice": 0.8921734477917508,
+      "switches_from_fixed": 100,
+      "ties": 3,
+      "trimmed_mean_delta_10pct": 0.012547627110120288,
+      "wins": 62
+    },
+    "internal_plus_consensus_fallback": {
+      "bootstrap_95_ci": [
+        0.021168116123818123,
+        0.07098240525086813
+      ],
+      "catastrophic_regressions_delta_lt_minus_0.05": 0,
+      "fixed_b6_dice": 0.8440649839823857,
+      "losses": 29,
+      "max_gain": 0.6818553410894269,
+      "max_gain_over_net_gain": 0.15404546350256162,
+      "max_gain_share_of_positive_gains": 0.1474601876715417,
+      "max_regression": -0.04114555722567126,
+      "mean_delta_vs_fixed": 0.04426325356073133,
+      "median_delta_vs_fixed": 6.658340024834342e-06,
+      "n_targets": 100,
+      "oracle_dice": 0.9159516054832895,
+      "oracle_gap": 0.027623367940172394,
+      "selected_dice": 0.8883282375431171,
+      "switches_from_fixed": 81,
+      "ties": 21,
+      "trimmed_mean_delta_10pct": 0.007944960525916549,
+      "wins": 50
+    }
+  }
+}

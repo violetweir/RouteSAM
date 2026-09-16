@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local machine configuration (contains absolute paths)
+configs/reproduction.toml
+
+# Data, checkpoints, and run outputs produced by a local rerun.
+# Anchored to the repository root on purpose: the extracted experiment
+# directories legitimately contain folders named data/, runs/, etc.
+/data/
+/work/
+/outputs/
+/checkpoints/
+/runs/
+/build/
+/dist/
+
+# Model weights and cached arrays
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+*.npy
+*.pkl
+
+# Editor / OS noise
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Scratch / backup copies
+*.bak
+*.bak_*
+*.orig
+*.rej

@@ -1,0 +1,15 @@
+{
+  "epoch": 3,
+  "checkpoint_sha256": "b430a51edcc924a7c436db6f88b51472329d1b771103ac56cebdf0fca2524a4d",
+  "validation": {
+    "count": 100,
+    "dice": 0.880858534691903,
+    "iou": 0.8172218440752493
+  },
+  "test": {
+    "count": 100,
+    "dice": 0.889508083919321,
+    "iou": 0.8299410427254073
+  },
+  "diagnostic": true
+}

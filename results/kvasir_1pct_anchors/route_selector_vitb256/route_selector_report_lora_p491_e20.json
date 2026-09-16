@@ -1,0 +1,22 @@
+{
+  "best": {
+    "gap": 0.032253683149885304,
+    "name": "lin_cal_mean",
+    "oracle": 0.9357344450496308,
+    "pool": "P1_b0_b6",
+    "selected": 0.9034807618997455,
+    "validation_dice": 0.8711060113362368,
+    "weights": {
+      "q_model": 0.15,
+      "q_multi": 0.05,
+      "q_return": 0.8
+    }
+  },
+  "per_target_wins_losses": {
+    "losses": 57,
+    "mean_gain": 0.005701079171727816,
+    "ties": 0,
+    "wins": 43
+  },
+  "tag": "lora_p491_e20"
+}

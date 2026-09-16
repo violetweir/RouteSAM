@@ -1,0 +1,14 @@
+{
+  "base": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+  "epoch": 20,
+  "name": "ft_1pct_repro_20260806",
+  "output": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_1pct_anchors/video_checkpoints/ft_1pct_repro_20260806_merged_video.pt",
+  "skipped": [],
+  "skipped_count": 0,
+  "source": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T11_sam3_lowlabel_ft_kvasir_budgets/finetune_1pct_repro_20260806_seed2026/checkpoints/checkpoint_20.pt",
+  "steps": {
+    "train": 160,
+    "val": 400
+  },
+  "updated_detector_keys": 1134
+}

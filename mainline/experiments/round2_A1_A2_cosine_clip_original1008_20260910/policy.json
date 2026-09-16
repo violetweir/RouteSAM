@@ -1,0 +1,37 @@
+{
+  "arms": {
+    "A1": {
+      "pseudo": 596,
+      "gt": 8,
+      "total": 604,
+      "gpu": 0,
+      "steps": 6040
+    },
+    "A2": {
+      "pseudo": 503,
+      "gt": 8,
+      "total": 511,
+      "gpu": 1,
+      "steps": 5110
+    }
+  },
+  "epochs": 10,
+  "batch_size": 1,
+  "sample_weights": "equal, no GT oversampling",
+  "initialization": "original SAM3-base, same seed2026 LoRA initialization as A0_v2",
+  "input": "original RGB directly bilinear resize1008; GT and pseudo masks directly nearest resize1008",
+  "learning_rate": 5e-05,
+  "min_lr": 5e-07,
+  "scheduler": "cosine each update over own 10 epochs",
+  "max_grad_norm": 1.0,
+  "warmup": false,
+  "gradient_accumulation": false,
+  "lora": "full module rank16 alpha32 dropout0.1",
+  "train_prompt": "colon polyp",
+  "validation": "full100 each epoch, macroDice256 with colon polyp selects best epoch0..10; earlier tie",
+  "test": "both arms weights frozen, primary colon polyp + predeclared empty text diagnostic, same100 original1008 metric256",
+  "pool_source": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_selection_ablation_20260910/pools",
+  "pool_membership": "unchanged frozen; no unlabeled GT for selection/training",
+  "boundary": "no poolB or new student",
+  "comparison_limit": "same epochs, different update counts owing to pool size"
+}

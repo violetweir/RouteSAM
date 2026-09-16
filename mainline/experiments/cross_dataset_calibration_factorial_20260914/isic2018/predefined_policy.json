@@ -1,0 +1,29 @@
+{
+  "dataset": "isic2018",
+  "counts": {
+    "ntrain": 2075,
+    "nval": 259,
+    "ntest": 260,
+    "k": 21,
+    "val": "isic2018_auto21_tp_validation_20260911",
+    "legacy_oof": 0.8623961438691973,
+    "legacy_test": 0.8665732155247388
+  },
+  "groups": [
+    "raw_top1",
+    "centered_top1",
+    "raw_top2",
+    "centered_top2",
+    "original_per_bridge"
+  ],
+  "calibration": "subtract per-anchor mean TP over all own training RGBs; no hidden training masks",
+  "ranking": "raw TP(anchor,target) or centered TP, descending; anchor ID ascending on ties",
+  "pool": "top1/top2 references fixed per target for all b0-b6, plus original per-bridge control",
+  "router": "same legacy28 Ridge alpha1 refit separately for each pool; same frozen image-grouped 5-fold validation; no new hyperparameter search",
+  "invariants": "same automatic 8/21 anchors, split, SAM3-base, box, no text, canvas256, patch_mean KNN, beam32, original raw per-anchor path objective",
+  "gt": "validation GT for fitting only; freeze all test choices before test scoring; test previously seen",
+  "control": "legacy Router refitted on original automatic candidates; ISIC historical selected rank_peer is reported separately, not substituted for the legacy control",
+  "propagation": "serial GPU stages with free-memory guard; do not stop other experiments",
+  "reuse": "original candidates first, then stable snapshots of matching P1/P2 masks; identical propagation code + route IDs + anchor/bridge/box + mask hashes required",
+  "floats": "retain original route fields for historical route IDs to preserve baseline Router input exactly; log overlap route checks"
+}

@@ -1,0 +1,123 @@
+{
+  "anchors": 8,
+  "encoder": "sam3_base",
+  "feature_size": 256,
+  "match_topk": 8,
+  "new_training": false,
+  "patch_grid": 18,
+  "pending_e33_routes": 643,
+  "propagation_canvas": 256,
+  "pseudo_mask_sources": [
+    "round1",
+    "x3_best"
+  ],
+  "route_path": "work/rerun_c0_256_round2c_lesion_anchor_validation/quality_root/round2c_all_anchors_b0/validation_pool0_stage1/routes.jsonl",
+  "routes": 800,
+  "score_rows": 1600,
+  "scores_path": "work/rerun_c0_256_round2c_lesion_anchor_validation/anchor_scores_validation.jsonl",
+  "seeded_e33_routes": 157,
+  "split": "validation",
+  "status": "prepared",
+  "targets": 100,
+  "teacher": "sam3_e33",
+  "test_used": false,
+  "train_propagation": false,
+  "variants": [
+    {
+      "family": "baseline",
+      "name": "V0_target_pooling",
+      "score_key": "baseline_target_pooling",
+      "source": "x3_best"
+    },
+    {
+      "family": "baseline",
+      "name": "V0_patch_correspondence",
+      "score_key": "baseline_patch_correspondence",
+      "source": "x3_best"
+    },
+    {
+      "family": "lesion_mean",
+      "name": "V1_lesion_mean__round1",
+      "score_key": "lesion_mean_cosine",
+      "source": "round1"
+    },
+    {
+      "family": "forward",
+      "name": "V2_forward_prototype__round1",
+      "score_key": "forward_auc_prototype",
+      "source": "round1"
+    },
+    {
+      "family": "reverse",
+      "name": "V3_reverse_prototype__round1",
+      "score_key": "reverse_auc_prototype",
+      "source": "round1"
+    },
+    {
+      "family": "bidirectional",
+      "name": "V4_bidirectional_prototype__round1",
+      "score_key": "bidirectional_auc_prototype",
+      "source": "round1"
+    },
+    {
+      "family": "forward",
+      "name": "V2_forward_token_topk__round1",
+      "score_key": "forward_auc_token_topk",
+      "source": "round1"
+    },
+    {
+      "family": "reverse",
+      "name": "V3_reverse_token_topk__round1",
+      "score_key": "reverse_auc_token_topk",
+      "source": "round1"
+    },
+    {
+      "family": "bidirectional",
+      "name": "V4_bidirectional_token_topk__round1",
+      "score_key": "bidirectional_auc_token_topk",
+      "source": "round1"
+    },
+    {
+      "family": "lesion_mean",
+      "name": "V1_lesion_mean__x3_best",
+      "score_key": "lesion_mean_cosine",
+      "source": "x3_best"
+    },
+    {
+      "family": "forward",
+      "name": "V2_forward_prototype__x3_best",
+      "score_key": "forward_auc_prototype",
+      "source": "x3_best"
+    },
+    {
+      "family": "reverse",
+      "name": "V3_reverse_prototype__x3_best",
+      "score_key": "reverse_auc_prototype",
+      "source": "x3_best"
+    },
+    {
+      "family": "bidirectional",
+      "name": "V4_bidirectional_prototype__x3_best",
+      "score_key": "bidirectional_auc_prototype",
+      "source": "x3_best"
+    },
+    {
+      "family": "forward",
+      "name": "V2_forward_token_topk__x3_best",
+      "score_key": "forward_auc_token_topk",
+      "source": "x3_best"
+    },
+    {
+      "family": "reverse",
+      "name": "V3_reverse_token_topk__x3_best",
+      "score_key": "reverse_auc_token_topk",
+      "source": "x3_best"
+    },
+    {
+      "family": "bidirectional",
+      "name": "V4_bidirectional_token_topk__x3_best",
+      "score_key": "bidirectional_auc_token_topk",
+      "source": "x3_best"
+    }
+  ]
+}

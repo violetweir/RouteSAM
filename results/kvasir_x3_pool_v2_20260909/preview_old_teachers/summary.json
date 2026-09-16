@@ -1,0 +1,63 @@
+{
+  "audited": 792,
+  "candidates": 5544,
+  "accepted": 644,
+  "tiers": {
+    "B": 80,
+    "A": 564,
+    "C": 148
+  },
+  "preview_only": true,
+  "previous_x3_count": 676,
+  "overlap_with_previous": 640,
+  "transitions": [
+    {
+      "old_group": "excluded",
+      "new_tier": "B",
+      "count": 4
+    },
+    {
+      "old_group": "excluded",
+      "new_tier": "C",
+      "count": 112
+    },
+    {
+      "old_group": "original",
+      "new_tier": "A",
+      "count": 557
+    },
+    {
+      "old_group": "original",
+      "new_tier": "B",
+      "count": 20
+    },
+    {
+      "old_group": "original",
+      "new_tier": "C",
+      "count": 3
+    },
+    {
+      "old_group": "tier_a",
+      "new_tier": "A",
+      "count": 7
+    },
+    {
+      "old_group": "tier_a",
+      "new_tier": "C",
+      "count": 14
+    },
+    {
+      "old_group": "tier_b",
+      "new_tier": "B",
+      "count": 56
+    },
+    {
+      "old_group": "tier_b",
+      "new_tier": "C",
+      "count": 19
+    }
+  ],
+  "sampling": "6 GT + 6 uniformly sampled accepted pseudo; no historical group quotas",
+  "all_targets_train_only": true,
+  "soft_mask_binary_equals_selected_TP": true
+}

@@ -1,0 +1,217 @@
+{
+  "dataset": "isic2018",
+  "results": {
+    "automatic": {
+      "n": 260,
+      "fixed_bridge": {
+        "0": {
+          "n": 260,
+          "dice": 0.8374214319912613,
+          "iou": 0.7589242492296308,
+          "q_cycle": 0.8659479430076535,
+          "q_cycle_n": 260
+        },
+        "1": {
+          "n": 260,
+          "dice": 0.853724460174534,
+          "iou": 0.7736104374781249,
+          "q_cycle": 0.8892837319317358,
+          "q_cycle_n": 260
+        },
+        "2": {
+          "n": 260,
+          "dice": 0.8566432661960216,
+          "iou": 0.7779671349236631,
+          "q_cycle": 0.8824505274084825,
+          "q_cycle_n": 260
+        },
+        "3": {
+          "n": 260,
+          "dice": 0.8549481966012118,
+          "iou": 0.7780926182536995,
+          "q_cycle": 0.8803383689786988,
+          "q_cycle_n": 260
+        },
+        "4": {
+          "n": 260,
+          "dice": 0.8522807705404434,
+          "iou": 0.7753116978056331,
+          "q_cycle": 0.8769446816544425,
+          "q_cycle_n": 260
+        },
+        "5": {
+          "n": 260,
+          "dice": 0.8519271938734494,
+          "iou": 0.7737584198454506,
+          "q_cycle": 0.8764689254629745,
+          "q_cycle_n": 260
+        },
+        "6": {
+          "n": 260,
+          "dice": 0.8528641678760884,
+          "iou": 0.7748717038690747,
+          "q_cycle": 0.8752138411493477,
+          "q_cycle_n": 260
+        }
+      },
+      "oracle_dice": 0.8843160653473487,
+      "source_counts": {
+        "ISIC_0010023": 144,
+        "ISIC_0011229": 196,
+        "ISIC_0010360": 55,
+        "ISIC_0015206": 163,
+        "ISIC_0009941": 101,
+        "ISIC_0011129": 440,
+        "ISIC_0015995": 189,
+        "ISIC_0002453": 96,
+        "ISIC_0007788": 35,
+        "ISIC_0009252": 102,
+        "ISIC_0016048": 44,
+        "ISIC_0014026": 42,
+        "ISIC_0010263": 56,
+        "ISIC_0014829": 16,
+        "ISIC_0013410": 71,
+        "ISIC_0012453": 49,
+        "ISIC_0014438": 7,
+        "ISIC_0013458": 7,
+        "ISIC_0015614": 7
+      }
+    },
+    "original": {
+      "n": 260,
+      "fixed_bridge": {
+        "0": {
+          "n": 260,
+          "dice": 0.7150385254498798,
+          "iou": 0.6383864313935748,
+          "q_cycle": 0.8356194728467111,
+          "q_cycle_n": 26
+        },
+        "1": {
+          "n": 260,
+          "dice": 0.7100542713449048,
+          "iou": 0.6331997809076897,
+          "q_cycle": 0.8306747124666136,
+          "q_cycle_n": 26
+        },
+        "2": {
+          "n": 260,
+          "dice": 0.716470160023335,
+          "iou": 0.6420035572719534,
+          "q_cycle": 0.8594512324299475,
+          "q_cycle_n": 26
+        },
+        "3": {
+          "n": 260,
+          "dice": 0.7224346666521553,
+          "iou": 0.6469817439992102,
+          "q_cycle": 0.8635469264873337,
+          "q_cycle_n": 26
+        },
+        "4": {
+          "n": 260,
+          "dice": 0.7245795472748956,
+          "iou": 0.6493954215561197,
+          "q_cycle": 0.8636375077122664,
+          "q_cycle_n": 25
+        },
+        "5": {
+          "n": 260,
+          "dice": 0.7274140650616302,
+          "iou": 0.6533333572909888,
+          "q_cycle": 0.8944974264784968,
+          "q_cycle_n": 25
+        },
+        "6": {
+          "n": 260,
+          "dice": 0.72815188697476,
+          "iou": 0.6550907687410774,
+          "q_cycle": 0.8887598249297122,
+          "q_cycle_n": 25
+        }
+      },
+      "oracle_dice": 0.7685804229330874,
+      "source_counts": {
+        "ISIC_0000231": 9,
+        "ISIC_0010057": 313,
+        "ISIC_0010552": 78,
+        "ISIC_0015132": 115,
+        "ISIC_0000080": 35,
+        "ISIC_0014755": 96,
+        "ISIC_0013359": 215,
+        "ISIC_0010477": 237,
+        "ISIC_0014872": 451,
+        "ISIC_0000527": 12,
+        "ISIC_0013395": 83,
+        "ISIC_0012201": 62,
+        "ISIC_0016063": 49,
+        "ISIC_0013802": 51,
+        "ISIC_0013936": 7,
+        "ISIC_0000299": 7
+      }
+    }
+  },
+  "comparison": {
+    "oracle_delta": 0.11573564241426157,
+    "oracle_ci95": [
+      0.08348913660157604,
+      0.14983973299116488
+    ]
+  },
+  "policy": {
+    "dataset": "isic2018",
+    "source": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/isic2018_auto21_tp_validation_20260911",
+    "selected_ids": [
+      "ISIC_0007788",
+      "ISIC_0009941",
+      "ISIC_0013410",
+      "ISIC_0014026",
+      "ISIC_0001126",
+      "ISIC_0010023",
+      "ISIC_0015614",
+      "ISIC_0014438",
+      "ISIC_0002453",
+      "ISIC_0011229",
+      "ISIC_0013458",
+      "ISIC_0015995",
+      "ISIC_0009252",
+      "ISIC_0010263",
+      "ISIC_0014829",
+      "ISIC_0013399",
+      "ISIC_0012453",
+      "ISIC_0011129",
+      "ISIC_0015206",
+      "ISIC_0016048",
+      "ISIC_0010360"
+    ],
+    "k": 21,
+    "split_counts": {
+      "ntrain": 2075,
+      "nval": 259,
+      "ntest": 260
+    },
+    "base": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+    "base_sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+    "gpu": 1,
+    "selection_feature_size": 1008,
+    "knn_feature_size": 256,
+    "canvas": 256,
+    "beam_width": 32,
+    "knn": "patch_mean",
+    "bridges": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "primary": "all seven fixed bridge test metrics",
+    "router": "disabled per user request",
+    "no_student": true,
+    "no_lora": true,
+    "test_gt_for_inference": false,
+    "feature_cache_extension": "retain all previous train/validation entries exactly; extract support+test for prototype check then append only test columns"
+  }
+}

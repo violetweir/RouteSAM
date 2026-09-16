@@ -1,0 +1,28 @@
+{
+  "budget": 5,
+  "train": 517,
+  "actual_fraction": 0.009671179883945842,
+  "rounding": "nearest integer of 1% train, max(1,round(N*.01))",
+  "seed": 2026,
+  "selection": "same train-only global_local_facility, RGB1008, 64 spatial patch tokens, 64-cluster dictionary, equal global/local similarity",
+  "knn_feature": "SAM3-base patch_mean256",
+  "path_score": "Target Pooling",
+  "beam": 32,
+  "bridges": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "canvas": 256,
+  "selected_labels_only_after_freeze": true,
+  "train_hidden_masks_used": false,
+  "router": "same legacy/relative-peer four configs and nested image-grouped CV; validation only",
+  "text_prompt": "none; selected anchor GT tight box",
+  "no_student": true,
+  "no_lora": true,
+  "gpu": 1
+}

@@ -1,0 +1,19 @@
+model:
+  name: "facebook/sam3"
+  checkpoint_path: /Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_round1_round2a_from_pseudovideo_full/round2a_fixed_knn_lora_teacher/lora_epoch_50_merged_video.pt
+lora:
+  rank: 16
+  alpha: 32
+  dropout: 0.1
+  target_modules: ["q_proj", "k_proj", "v_proj", "out_proj", "qkv", "proj", "fc1", "fc2", "c_fc", "c_proj", "linear1", "linear2"]
+  apply_to_vision_encoder: true
+  apply_to_text_encoder: true
+  apply_to_geometry_encoder: true
+  apply_to_detr_encoder: true
+  apply_to_detr_decoder: true
+  apply_to_mask_decoder: true
+training:
+  data_dir: /Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_round1_round2a_from_pseudovideo_full/round1_sam3knn_s256_base/medsam3_lora_b0_b6_e50/data
+hardware:
+  device: "cuda"
+  training_resolution: 1008

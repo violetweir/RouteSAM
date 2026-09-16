@@ -1,0 +1,1540 @@
+{
+  "validation": {
+    "old_X3_TP": {
+      "count": 100,
+      "dice": 0.8533571244104863,
+      "iou": 0.7893635506399029,
+      "oracle": 0.869544177933916,
+      "gap": 0.016187053523429723,
+      "delta_vs_new_TP": 0.013667169110821492,
+      "paired_ci95_vs_new_TP": [
+        0.0015348778848639677,
+        0.03134993826974873
+      ],
+      "win_tie_loss_vs_new_TP": [
+        18,
+        70,
+        12
+      ],
+      "selected_PC": 0,
+      "oracle_hits": 27,
+      "regret_gt_005": 6,
+      "top10_gap_share": 0.7284263527834707,
+      "oracle_in_score_top3": 52,
+      "largest_term_against_oracle_on_misses": {
+        "return": 25,
+        "multi": 23,
+        "model": 25
+      },
+      "worst_10": [
+        {
+          "target_id": "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+          "dice": 0.584336795661366,
+          "oracle": 0.9668401387776888,
+          "regret": 0.38250334311632284,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+          "dice": 0.34337914115324014,
+          "oracle": 0.5951933972635175,
+          "regret": 0.25181425611027736,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju5gucasds9d0801019axylx",
+          "dice": 0.8487179487179487,
+          "oracle": 0.9555555555555556,
+          "regret": 0.1068376068376069,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+          "dice": 0.8240036570668662,
+          "oracle": 0.9125668749298514,
+          "regret": 0.08856321786298527,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju88y1mwoln50871emyfny1g",
+          "dice": 0.8347196743145779,
+          "oracle": 0.9199385217269805,
+          "regret": 0.0852188474124026,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+          "dice": 0.8742066382270315,
+          "oracle": 0.9509321688221322,
+          "regret": 0.07672553059510068,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju7ehljc2or70871261br8ai",
+          "dice": 0.5626177213160742,
+          "oracle": 0.6121225018862814,
+          "regret": 0.04950478057020713,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju7atnm31if40817pqclnjer",
+          "dice": 0.8445073797723436,
+          "oracle": 0.8932170643830609,
+          "regret": 0.04870968461071734,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2qfie4rvz508357kad9z5o",
+          "dice": 0.8993179603767457,
+          "oracle": 0.947384405132488,
+          "regret": 0.04806644475574229,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2uzabhs6er0993x3aaf87p",
+          "dice": 0.47084322427495096,
+          "oracle": 0.512007148441863,
+          "regret": 0.04116392416691206,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        }
+      ]
+    },
+    "new_X3_TP": {
+      "count": 100,
+      "dice": 0.8396899552996647,
+      "iou": 0.7746888276316785,
+      "oracle": 0.869544177933916,
+      "gap": 0.029854222634251214,
+      "delta_vs_new_TP": 0.0,
+      "paired_ci95_vs_new_TP": [
+        0.0,
+        0.0
+      ],
+      "win_tie_loss_vs_new_TP": [
+        0,
+        100,
+        0
+      ],
+      "selected_PC": 0,
+      "oracle_hits": 19,
+      "regret_gt_005": 11,
+      "top10_gap_share": 0.761167639520896,
+      "oracle_in_score_top3": 47,
+      "largest_term_against_oracle_on_misses": {
+        "return": 24,
+        "multi": 30,
+        "model": 27
+      },
+      "worst_10": [
+        {
+          "target_id": "kvasir-seg::cju5x7iskmad90818frchyfwd",
+          "dice": 0.006568144499178982,
+          "oracle": 0.698099677303693,
+          "regret": 0.6915315328045141,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+          "dice": 0.5909797822706065,
+          "oracle": 0.9668401387776888,
+          "regret": 0.37586035650708227,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+          "dice": 0.6282057897724341,
+          "oracle": 0.9809873781754274,
+          "regret": 0.35278158840299323,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+          "dice": 0.34337914115324014,
+          "oracle": 0.5951933972635175,
+          "regret": 0.25181425611027736,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju32qr9tbvsj08013pkpjenq",
+          "dice": 0.4589638025985136,
+          "oracle": 0.6075878482430351,
+          "regret": 0.14862404564452153,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju5gucasds9d0801019axylx",
+          "dice": 0.8312342569269522,
+          "oracle": 0.9555555555555556,
+          "regret": 0.12432129862860342,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+          "dice": 0.8240036570668662,
+          "oracle": 0.9125668749298514,
+          "regret": 0.08856321786298527,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju88y1mwoln50871emyfny1g",
+          "dice": 0.8347196743145779,
+          "oracle": 0.9199385217269805,
+          "regret": 0.0852188474124026,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2tzypl4wss0799ow05oxb9",
+          "dice": 0.9118725196158624,
+          "oracle": 0.988838662871812,
+          "regret": 0.07696614325594964,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+          "dice": 0.8742066382270315,
+          "oracle": 0.9509321688221322,
+          "regret": 0.07672553059510068,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        }
+      ]
+    },
+    "probe_soft_model_TP": {
+      "count": 100,
+      "dice": 0.8396271701998276,
+      "iou": 0.7745725165407591,
+      "oracle": 0.869544177933916,
+      "gap": 0.0299170077340883,
+      "delta_vs_new_TP": -6.278509983708824e-05,
+      "paired_ci95_vs_new_TP": [
+        -0.00016368598790043266,
+        8.851712517805491e-06
+      ],
+      "win_tie_loss_vs_new_TP": [
+        1,
+        94,
+        5
+      ],
+      "selected_PC": 0,
+      "oracle_hits": 19,
+      "regret_gt_005": 11,
+      "top10_gap_share": 0.7595702208664353,
+      "oracle_in_score_top3": 43,
+      "largest_term_against_oracle_on_misses": {
+        "return": 25,
+        "multi": 31,
+        "model": 25
+      },
+      "worst_10": [
+        {
+          "target_id": "kvasir-seg::cju5x7iskmad90818frchyfwd",
+          "dice": 0.006568144499178982,
+          "oracle": 0.698099677303693,
+          "regret": 0.6915315328045141,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+          "dice": 0.5909797822706065,
+          "oracle": 0.9668401387776888,
+          "regret": 0.37586035650708227,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+          "dice": 0.6282057897724341,
+          "oracle": 0.9809873781754274,
+          "regret": 0.35278158840299323,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+          "dice": 0.34337914115324014,
+          "oracle": 0.5951933972635175,
+          "regret": 0.25181425611027736,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju32qr9tbvsj08013pkpjenq",
+          "dice": 0.4589638025985136,
+          "oracle": 0.6075878482430351,
+          "regret": 0.14862404564452153,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju5gucasds9d0801019axylx",
+          "dice": 0.8312342569269522,
+          "oracle": 0.9555555555555556,
+          "regret": 0.12432129862860342,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+          "dice": 0.8240036570668662,
+          "oracle": 0.9125668749298514,
+          "regret": 0.08856321786298527,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju88y1mwoln50871emyfny1g",
+          "dice": 0.8347196743145779,
+          "oracle": 0.9199385217269805,
+          "regret": 0.0852188474124026,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2tzypl4wss0799ow05oxb9",
+          "dice": 0.9118725196158624,
+          "oracle": 0.988838662871812,
+          "regret": 0.07696614325594964,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+          "dice": 0.8742066382270315,
+          "oracle": 0.9509321688221322,
+          "regret": 0.07672553059510068,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        }
+      ]
+    },
+    "probe_no_multi_TP": {
+      "count": 100,
+      "dice": 0.8519527068110946,
+      "iou": 0.7869248585642573,
+      "oracle": 0.869544177933916,
+      "gap": 0.01759147112282138,
+      "delta_vs_new_TP": 0.012262751511429838,
+      "paired_ci95_vs_new_TP": [
+        -5.445577406109825e-06,
+        0.030549039504943868
+      ],
+      "win_tie_loss_vs_new_TP": [
+        25,
+        63,
+        12
+      ],
+      "selected_PC": 0,
+      "oracle_hits": 36,
+      "regret_gt_005": 10,
+      "top10_gap_share": 0.7232617141136414,
+      "oracle_in_score_top3": 58,
+      "largest_term_against_oracle_on_misses": {
+        "return": 25,
+        "model": 39
+      },
+      "worst_10": [
+        {
+          "target_id": "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+          "dice": 0.6282057897724341,
+          "oracle": 0.9809873781754274,
+          "regret": 0.35278158840299323,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+          "dice": 0.34337914115324014,
+          "oracle": 0.5951933972635175,
+          "regret": 0.25181425611027736,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju5gucasds9d0801019axylx",
+          "dice": 0.8312342569269522,
+          "oracle": 0.9555555555555556,
+          "regret": 0.12432129862860342,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+          "dice": 0.5459774352923825,
+          "oracle": 0.6528435229015268,
+          "regret": 0.10686608760914429,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+          "dice": 0.8240036570668662,
+          "oracle": 0.9125668749298514,
+          "regret": 0.08856321786298527,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju88y1mwoln50871emyfny1g",
+          "dice": 0.8347196743145779,
+          "oracle": 0.9199385217269805,
+          "regret": 0.0852188474124026,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2tzypl4wss0799ow05oxb9",
+          "dice": 0.9118725196158624,
+          "oracle": 0.988838662871812,
+          "regret": 0.07696614325594964,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+          "dice": 0.8742066382270315,
+          "oracle": 0.9509321688221322,
+          "regret": 0.07672553059510068,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2qfie4rvz508357kad9z5o",
+          "dice": 0.8895806028833552,
+          "oracle": 0.947384405132488,
+          "regret": 0.05780380224913284,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2pag1f0s4r0878h52uq83s",
+          "dice": 0.9015139690963009,
+          "oracle": 0.9527769527769527,
+          "regret": 0.05126298368065185,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        }
+      ]
+    },
+    "probe_cluster_multi_TP": {
+      "count": 100,
+      "dice": 0.8408324011862576,
+      "iou": 0.7756827906758289,
+      "oracle": 0.869544177933916,
+      "gap": 0.028711776747658443,
+      "delta_vs_new_TP": 0.0011424458865927723,
+      "paired_ci95_vs_new_TP": [
+        -0.001299446058549789,
+        0.004808395205155577
+      ],
+      "win_tie_loss_vs_new_TP": [
+        3,
+        95,
+        2
+      ],
+      "selected_PC": 0,
+      "oracle_hits": 19,
+      "regret_gt_005": 10,
+      "top10_gap_share": 0.75195778526243,
+      "oracle_in_score_top3": 49,
+      "largest_term_against_oracle_on_misses": {
+        "return": 24,
+        "multi": 29,
+        "model": 28
+      },
+      "worst_10": [
+        {
+          "target_id": "kvasir-seg::cju5x7iskmad90818frchyfwd",
+          "dice": 0.006568144499178982,
+          "oracle": 0.698099677303693,
+          "regret": 0.6915315328045141,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+          "dice": 0.5909797822706065,
+          "oracle": 0.9668401387776888,
+          "regret": 0.37586035650708227,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+          "dice": 0.6282057897724341,
+          "oracle": 0.9809873781754274,
+          "regret": 0.35278158840299323,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+          "dice": 0.34337914115324014,
+          "oracle": 0.5951933972635175,
+          "regret": 0.25181425611027736,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju5gucasds9d0801019axylx",
+          "dice": 0.8487179487179487,
+          "oracle": 0.9555555555555556,
+          "regret": 0.1068376068376069,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju88y1mwoln50871emyfny1g",
+          "dice": 0.8347196743145779,
+          "oracle": 0.9199385217269805,
+          "regret": 0.0852188474124026,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2tzypl4wss0799ow05oxb9",
+          "dice": 0.9118725196158624,
+          "oracle": 0.988838662871812,
+          "regret": 0.07696614325594964,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+          "dice": 0.8742066382270315,
+          "oracle": 0.9509321688221322,
+          "regret": 0.07672553059510068,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+          "dice": 0.5782871972318339,
+          "oracle": 0.6528435229015268,
+          "regret": 0.07455632566969295,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+          "dice": 0.8458546571136131,
+          "oracle": 0.9125668749298514,
+          "regret": 0.06671221781623837,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        }
+      ]
+    },
+    "old_X3_dual": {
+      "count": 100,
+      "dice": 0.8338662059873969,
+      "iou": 0.7725961691061128,
+      "oracle": 0.8894323596660911,
+      "gap": 0.05556615367869419,
+      "delta_vs_new_TP": -0.00582374931226776,
+      "paired_ci95_vs_new_TP": [
+        -0.031915564855031275,
+        0.017998968894451607
+      ],
+      "win_tie_loss_vs_new_TP": [
+        28,
+        39,
+        33
+      ],
+      "selected_PC": 44,
+      "oracle_hits": 23,
+      "regret_gt_005": 16,
+      "top10_gap_share": 0.8028455241065409,
+      "oracle_in_score_top3": 38,
+      "largest_term_against_oracle_on_misses": {
+        "return": 29,
+        "model": 32,
+        "multi": 16
+      },
+      "worst_10": [
+        {
+          "target_id": "kvasir-seg::cju88y1mwoln50871emyfny1g",
+          "dice": 0.16749002094613286,
+          "oracle": 0.9199385217269805,
+          "regret": 0.7524485007808477,
+          "mode": "PC",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju5x7iskmad90818frchyfwd",
+          "dice": 0.005136672170243992,
+          "oracle": 0.698099677303693,
+          "regret": 0.6929630051334491,
+          "mode": "PC",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+          "dice": 0.0,
+          "oracle": 0.6528435229015268,
+          "regret": 0.6528435229015268,
+          "mode": "PC",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+          "dice": 0.34209121641658263,
+          "oracle": 0.9324617136141614,
+          "regret": 0.5903704971975787,
+          "mode": "PC",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+          "dice": 0.5598466429773705,
+          "oracle": 0.9668401387776888,
+          "regret": 0.4069934958003183,
+          "mode": "PC",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju6xlygpw7bs0818n691jsq4",
+          "dice": 0.13513390624289548,
+          "oracle": 0.5162421293646251,
+          "regret": 0.38110822312172965,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+          "dice": 0.6282057897724341,
+          "oracle": 0.9838208336654181,
+          "regret": 0.35561504389298393,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+          "dice": 0.34337914115324014,
+          "oracle": 0.5951933972635175,
+          "regret": 0.25181425611027736,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2uzabhs6er0993x3aaf87p",
+          "dice": 0.47084322427495096,
+          "oracle": 0.6882463238922333,
+          "regret": 0.21740309961728232,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju7ehljc2or70871261br8ai",
+          "dice": 0.5626177213160742,
+          "oracle": 0.7221618540356628,
+          "regret": 0.15954413271958856,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        }
+      ]
+    },
+    "new_X3_dual": {
+      "count": 100,
+      "dice": 0.840023358635931,
+      "iou": 0.7761803551427695,
+      "oracle": 0.8894323596660911,
+      "gap": 0.049409001030160146,
+      "delta_vs_new_TP": 0.0003334033362663047,
+      "paired_ci95_vs_new_TP": [
+        -0.01908787871846797,
+        0.020646397783145143
+      ],
+      "win_tie_loss_vs_new_TP": [
+        22,
+        52,
+        26
+      ],
+      "selected_PC": 39,
+      "oracle_hits": 15,
+      "regret_gt_005": 18,
+      "top10_gap_share": 0.7315284396360492,
+      "oracle_in_score_top3": 32,
+      "largest_term_against_oracle_on_misses": {
+        "return": 29,
+        "multi": 26,
+        "model": 30
+      },
+      "worst_10": [
+        {
+          "target_id": "kvasir-seg::cju5x7iskmad90818frchyfwd",
+          "dice": 0.006568144499178982,
+          "oracle": 0.698099677303693,
+          "regret": 0.6915315328045141,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+          "dice": 0.0,
+          "oracle": 0.6528435229015268,
+          "regret": 0.6528435229015268,
+          "mode": "PC",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju6xlygpw7bs0818n691jsq4",
+          "dice": 0.13513390624289548,
+          "oracle": 0.5162421293646251,
+          "regret": 0.38110822312172965,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+          "dice": 0.5909797822706065,
+          "oracle": 0.9668401387776888,
+          "regret": 0.37586035650708227,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+          "dice": 0.6282057897724341,
+          "oracle": 0.9838208336654181,
+          "regret": 0.35561504389298393,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+          "dice": 0.6455307961942914,
+          "oracle": 0.9509321688221322,
+          "regret": 0.30540137262784073,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+          "dice": 0.34337914115324014,
+          "oracle": 0.5951933972635175,
+          "regret": 0.25181425611027736,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju35fxqyzt5p0993vusm54qz",
+          "dice": 0.7277936962750716,
+          "oracle": 0.9592009143765841,
+          "regret": 0.23140721810151244,
+          "mode": "PC",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2uzabhs6er0993x3aaf87p",
+          "dice": 0.47084322427495096,
+          "oracle": 0.6882463238922333,
+          "regret": 0.21740309961728232,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+          "dice": 0.7810373965420115,
+          "oracle": 0.9324617136141614,
+          "regret": 0.15142431707214987,
+          "mode": "PC",
+          "oracle_mode": "PC"
+        }
+      ]
+    },
+    "probe_soft_model_dual": {
+      "count": 100,
+      "dice": 0.8401455994234087,
+      "iou": 0.7763943095615281,
+      "oracle": 0.8894323596660911,
+      "gap": 0.04928676024268249,
+      "delta_vs_new_TP": 0.00045564412374394234,
+      "paired_ci95_vs_new_TP": [
+        -0.01901095651611116,
+        0.020768193958043125
+      ],
+      "win_tie_loss_vs_new_TP": [
+        23,
+        50,
+        27
+      ],
+      "selected_PC": 39,
+      "oracle_hits": 18,
+      "regret_gt_005": 18,
+      "top10_gap_share": 0.733342772979996,
+      "oracle_in_score_top3": 30,
+      "largest_term_against_oracle_on_misses": {
+        "return": 31,
+        "multi": 23,
+        "model": 28
+      },
+      "worst_10": [
+        {
+          "target_id": "kvasir-seg::cju5x7iskmad90818frchyfwd",
+          "dice": 0.006568144499178982,
+          "oracle": 0.698099677303693,
+          "regret": 0.6915315328045141,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+          "dice": 0.0,
+          "oracle": 0.6528435229015268,
+          "regret": 0.6528435229015268,
+          "mode": "PC",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju6xlygpw7bs0818n691jsq4",
+          "dice": 0.13513390624289548,
+          "oracle": 0.5162421293646251,
+          "regret": 0.38110822312172965,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+          "dice": 0.5909797822706065,
+          "oracle": 0.9668401387776888,
+          "regret": 0.37586035650708227,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+          "dice": 0.6282057897724341,
+          "oracle": 0.9838208336654181,
+          "regret": 0.35561504389298393,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+          "dice": 0.6455307961942914,
+          "oracle": 0.9509321688221322,
+          "regret": 0.30540137262784073,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+          "dice": 0.34337914115324014,
+          "oracle": 0.5951933972635175,
+          "regret": 0.25181425611027736,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju35fxqyzt5p0993vusm54qz",
+          "dice": 0.7277936962750716,
+          "oracle": 0.9592009143765841,
+          "regret": 0.23140721810151244,
+          "mode": "PC",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2uzabhs6er0993x3aaf87p",
+          "dice": 0.47084322427495096,
+          "oracle": 0.6882463238922333,
+          "regret": 0.21740309961728232,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+          "dice": 0.7810373965420115,
+          "oracle": 0.9324617136141614,
+          "regret": 0.15142431707214987,
+          "mode": "PC",
+          "oracle_mode": "PC"
+        }
+      ]
+    },
+    "probe_no_multi_dual": {
+      "count": 100,
+      "dice": 0.8450096646585109,
+      "iou": 0.7812998300133539,
+      "oracle": 0.8894323596660911,
+      "gap": 0.0444226950075802,
+      "delta_vs_new_TP": 0.005319709358846257,
+      "paired_ci95_vs_new_TP": [
+        -0.021670145404455082,
+        0.03337515468417641
+      ],
+      "win_tie_loss_vs_new_TP": [
+        31,
+        36,
+        33
+      ],
+      "selected_PC": 43,
+      "oracle_hits": 27,
+      "regret_gt_005": 17,
+      "top10_gap_share": 0.757490113244264,
+      "oracle_in_score_top3": 42,
+      "largest_term_against_oracle_on_misses": {
+        "return": 31,
+        "model": 42
+      },
+      "worst_10": [
+        {
+          "target_id": "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+          "dice": 0.0,
+          "oracle": 0.6528435229015268,
+          "regret": 0.6528435229015268,
+          "mode": "PC",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+          "dice": 0.34209121641658263,
+          "oracle": 0.9324617136141614,
+          "regret": 0.5903704971975787,
+          "mode": "PC",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju6xlygpw7bs0818n691jsq4",
+          "dice": 0.13539300318037256,
+          "oracle": 0.5162421293646251,
+          "regret": 0.38084912618425254,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+          "dice": 0.6282057897724341,
+          "oracle": 0.9838208336654181,
+          "regret": 0.35561504389298393,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju3xwpgviwlx0871rwm15q7v",
+          "dice": 0.5697021276595745,
+          "oracle": 0.909177140147024,
+          "regret": 0.3394750124874495,
+          "mode": "PC",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju5cjh3xattc0817j2vbulzi",
+          "dice": 0.5466464952092789,
+          "oracle": 0.8691425722831505,
+          "regret": 0.3224960770738716,
+          "mode": "PC",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+          "dice": 0.34337914115324014,
+          "oracle": 0.5951933972635175,
+          "regret": 0.25181425611027736,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2uzabhs6er0993x3aaf87p",
+          "dice": 0.47084322427495096,
+          "oracle": 0.6882463238922333,
+          "regret": 0.21740309961728232,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju7ehljc2or70871261br8ai",
+          "dice": 0.5923745609387571,
+          "oracle": 0.7221618540356628,
+          "regret": 0.12978729309690573,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju5gucasds9d0801019axylx",
+          "dice": 0.8312342569269522,
+          "oracle": 0.9555555555555556,
+          "regret": 0.12432129862860342,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        }
+      ]
+    },
+    "probe_cluster_multi_dual": {
+      "count": 100,
+      "dice": 0.8316122135868821,
+      "iou": 0.7666863292040638,
+      "oracle": 0.8894323596660911,
+      "gap": 0.057820146079209135,
+      "delta_vs_new_TP": -0.008077741712782695,
+      "paired_ci95_vs_new_TP": [
+        -0.03071508883467308,
+        0.014770976902855311
+      ],
+      "win_tie_loss_vs_new_TP": [
+        22,
+        49,
+        29
+      ],
+      "selected_PC": 40,
+      "oracle_hits": 13,
+      "regret_gt_005": 20,
+      "top10_gap_share": 0.7221405200243671,
+      "oracle_in_score_top3": 34,
+      "largest_term_against_oracle_on_misses": {
+        "return": 29,
+        "multi": 28,
+        "model": 30
+      },
+      "worst_10": [
+        {
+          "target_id": "kvasir-seg::cju5x7iskmad90818frchyfwd",
+          "dice": 0.006568144499178982,
+          "oracle": 0.698099677303693,
+          "regret": 0.6915315328045141,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+          "dice": 0.0,
+          "oracle": 0.6528435229015268,
+          "regret": 0.6528435229015268,
+          "mode": "PC",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+          "dice": 0.34209121641658263,
+          "oracle": 0.9324617136141614,
+          "regret": 0.5903704971975787,
+          "mode": "PC",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju6xlygpw7bs0818n691jsq4",
+          "dice": 0.13513390624289548,
+          "oracle": 0.5162421293646251,
+          "regret": 0.38110822312172965,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+          "dice": 0.5909797822706065,
+          "oracle": 0.9668401387776888,
+          "regret": 0.37586035650708227,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+          "dice": 0.6282057897724341,
+          "oracle": 0.9838208336654181,
+          "regret": 0.35561504389298393,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju3xwpgviwlx0871rwm15q7v",
+          "dice": 0.5697021276595745,
+          "oracle": 0.909177140147024,
+          "regret": 0.3394750124874495,
+          "mode": "PC",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+          "dice": 0.6455307961942914,
+          "oracle": 0.9509321688221322,
+          "regret": 0.30540137262784073,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+          "dice": 0.34337914115324014,
+          "oracle": 0.5951933972635175,
+          "regret": 0.25181425611027736,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju35fxqyzt5p0993vusm54qz",
+          "dice": 0.7277936962750716,
+          "oracle": 0.9592009143765841,
+          "regret": 0.23140721810151244,
+          "mode": "PC",
+          "oracle_mode": "TP"
+        }
+      ]
+    },
+    "candidate_diagnostics": {
+      "pc_improves_oracle_count": 36,
+      "pc_gain_mean_all100": 0.019888181732175228,
+      "pc_gain_top10_share": 0.9556209649856283
+    }
+  },
+  "test": {
+    "old_X3_TP": {
+      "count": 100,
+      "dice": 0.8888573767058686,
+      "iou": 0.8285945216573897,
+      "oracle": 0.9074262547898724,
+      "gap": 0.018568878084003725,
+      "delta_vs_new_TP": -0.0037820113089659167,
+      "paired_ci95_vs_new_TP": [
+        -0.009974090497046737,
+        0.0007742906045921771
+      ],
+      "win_tie_loss_vs_new_TP": [
+        9,
+        80,
+        11
+      ],
+      "selected_PC": 0,
+      "oracle_hits": 17,
+      "regret_gt_005": 9,
+      "top10_gap_share": 0.7167774470200056,
+      "oracle_in_score_top3": 48,
+      "largest_term_against_oracle_on_misses": {
+        "multi": 26,
+        "return": 21,
+        "model": 36
+      },
+      "worst_10": [
+        {
+          "target_id": "kvasir-seg::cju77t0razbvm080106o56289",
+          "dice": 0.27331764705882355,
+          "oracle": 0.5512121930032378,
+          "regret": 0.2778945459444142,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju171py4qiha0835u8sl59ds",
+          "dice": 0.7378365372438771,
+          "oracle": 0.9433735688109485,
+          "regret": 0.20553703156707137,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2zkpdl9h7t0799ix60teqg",
+          "dice": 0.7637805684071381,
+          "oracle": 0.9543801652892562,
+          "regret": 0.19059959688211803,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju7ctvqn25dy08186g442m1r",
+          "dice": 0.7593035165585524,
+          "oracle": 0.944373327126731,
+          "regret": 0.18506981056817862,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju1c0qb4tzi308355wtsnp0y",
+          "dice": 0.7731967059202232,
+          "oracle": 0.9399194929770469,
+          "regret": 0.16672278705682375,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cjyzk8qieoboa0848ogj51wwm",
+          "dice": 0.6551440685298953,
+          "oracle": 0.7244747209455022,
+          "regret": 0.06933065241560699,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju85mpuglq8k0818d2it6hzb",
+          "dice": 0.8240731635362376,
+          "oracle": 0.8918868799258229,
+          "regret": 0.06781371638958533,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju7ebe962hr409872ovibahw",
+          "dice": 0.3674933796520402,
+          "oracle": 0.4278781564444932,
+          "regret": 0.060384776792452965,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju77q10sz9ug0801449wu1nu",
+          "dice": 0.6096545984186433,
+          "oracle": 0.6693893814124913,
+          "regret": 0.059734782993847935,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2yo1j1v0qz09934o0e683p",
+          "dice": 0.7498598218179553,
+          "oracle": 0.7977474239156482,
+          "regret": 0.04788760209769294,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        }
+      ]
+    },
+    "new_X3_TP": {
+      "count": 100,
+      "dice": 0.8926393880148344,
+      "iou": 0.8344675688282003,
+      "oracle": 0.9074262547898724,
+      "gap": 0.014786866775037807,
+      "delta_vs_new_TP": 0.0,
+      "paired_ci95_vs_new_TP": [
+        0.0,
+        0.0
+      ],
+      "win_tie_loss_vs_new_TP": [
+        0,
+        100,
+        0
+      ],
+      "selected_PC": 0,
+      "oracle_hits": 23,
+      "regret_gt_005": 7,
+      "top10_gap_share": 0.7090319798897565,
+      "oracle_in_score_top3": 52,
+      "largest_term_against_oracle_on_misses": {
+        "multi": 22,
+        "return": 21,
+        "model": 34
+      },
+      "worst_10": [
+        {
+          "target_id": "kvasir-seg::cju77t0razbvm080106o56289",
+          "dice": 0.27331764705882355,
+          "oracle": 0.5512121930032378,
+          "regret": 0.2778945459444142,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju171py4qiha0835u8sl59ds",
+          "dice": 0.7378365372438771,
+          "oracle": 0.9433735688109485,
+          "regret": 0.20553703156707137,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju1c0qb4tzi308355wtsnp0y",
+          "dice": 0.7731967059202232,
+          "oracle": 0.9399194929770469,
+          "regret": 0.16672278705682375,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju30ajhw09sx0988qyahx9s8",
+          "dice": 0.3091805073918598,
+          "oracle": 0.3803252954258056,
+          "regret": 0.0711447880339458,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cjyzk8qieoboa0848ogj51wwm",
+          "dice": 0.6551440685298953,
+          "oracle": 0.7244747209455022,
+          "regret": 0.06933065241560699,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju85mpuglq8k0818d2it6hzb",
+          "dice": 0.8240731635362376,
+          "oracle": 0.8918868799258229,
+          "regret": 0.06781371638958533,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju77q10sz9ug0801449wu1nu",
+          "dice": 0.6096545984186433,
+          "oracle": 0.6693893814124913,
+          "regret": 0.059734782993847935,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2yo1j1v0qz09934o0e683p",
+          "dice": 0.7498598218179553,
+          "oracle": 0.7977474239156482,
+          "regret": 0.04788760209769294,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju6v5ilsv8hk0850rb5sgh6o",
+          "dice": 0.8859135285913529,
+          "oracle": 0.933298180859478,
+          "regret": 0.04738465226812516,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju77j66ez52p08019xygi0co",
+          "dice": 0.9026422280409426,
+          "oracle": 0.9376278118609407,
+          "regret": 0.034985583819998056,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        }
+      ]
+    },
+    "old_X3_dual": {
+      "count": 100,
+      "dice": 0.8954317676013283,
+      "iou": 0.8323112031859243,
+      "oracle": 0.9214706098083678,
+      "gap": 0.026038842207039302,
+      "delta_vs_new_TP": 0.0027923795864936984,
+      "paired_ci95_vs_new_TP": [
+        -0.007855949568355345,
+        0.016144896171099408
+      ],
+      "win_tie_loss_vs_new_TP": [
+        25,
+        50,
+        25
+      ],
+      "selected_PC": 32,
+      "oracle_hits": 12,
+      "regret_gt_005": 15,
+      "top10_gap_share": 0.6077892495417928,
+      "oracle_in_score_top3": 24,
+      "largest_term_against_oracle_on_misses": {
+        "multi": 22,
+        "return": 33,
+        "model": 33
+      },
+      "worst_10": [
+        {
+          "target_id": "kvasir-seg::cju8c6hnxsdvr0801wn0vrsa6",
+          "dice": 0.4953405017921147,
+          "oracle": 0.7330367074527252,
+          "regret": 0.2376962056606105,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju171py4qiha0835u8sl59ds",
+          "dice": 0.7378365372438771,
+          "oracle": 0.9433735688109485,
+          "regret": 0.20553703156707137,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2zkpdl9h7t0799ix60teqg",
+          "dice": 0.7637805684071381,
+          "oracle": 0.9597418039748599,
+          "regret": 0.19596123556772171,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju2yo1j1v0qz09934o0e683p",
+          "dice": 0.7498598218179553,
+          "oracle": 0.9412540209882403,
+          "regret": 0.191394199170285,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju7ctvqn25dy08186g442m1r",
+          "dice": 0.7593035165585524,
+          "oracle": 0.9457652734988083,
+          "regret": 0.1864617569402559,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju1c0qb4tzi308355wtsnp0y",
+          "dice": 0.7731967059202232,
+          "oracle": 0.9399194929770469,
+          "regret": 0.16672278705682375,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2ysg748ru80878sp6j0gm0",
+          "dice": 0.7113787107991499,
+          "oracle": 0.8237888052681092,
+          "regret": 0.11241009446895922,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju7eea9b2m0z0801ynqv1fqu",
+          "dice": 0.4707917769183798,
+          "oracle": 0.5747105311523617,
+          "regret": 0.10391875423398189,
+          "mode": "PC",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju85mpuglq8k0818d2it6hzb",
+          "dice": 0.8240731635362376,
+          "oracle": 0.9174129353233831,
+          "regret": 0.09333977178714548,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::ck2bxskgxxzfv08386xkqtqdy",
+          "dice": 0.852017937219731,
+          "oracle": 0.9411889371622337,
+          "regret": 0.08917099994250277,
+          "mode": "PC",
+          "oracle_mode": "TP"
+        }
+      ]
+    },
+    "new_X3_dual": {
+      "count": 100,
+      "dice": 0.8995421189113576,
+      "iou": 0.8387033532662588,
+      "oracle": 0.9214706098083678,
+      "gap": 0.02192849089700989,
+      "delta_vs_new_TP": 0.006902730896523116,
+      "paired_ci95_vs_new_TP": [
+        -0.00128820017075057,
+        0.01911957481393343
+      ],
+      "win_tie_loss_vs_new_TP": [
+        21,
+        55,
+        24
+      ],
+      "selected_PC": 29,
+      "oracle_hits": 10,
+      "regret_gt_005": 13,
+      "top10_gap_share": 0.6101561555786305,
+      "oracle_in_score_top3": 24,
+      "largest_term_against_oracle_on_misses": {
+        "multi": 30,
+        "return": 33,
+        "model": 27
+      },
+      "worst_10": [
+        {
+          "target_id": "kvasir-seg::cju8c6hnxsdvr0801wn0vrsa6",
+          "dice": 0.4953405017921147,
+          "oracle": 0.7330367074527252,
+          "regret": 0.2376962056606105,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju171py4qiha0835u8sl59ds",
+          "dice": 0.7378365372438771,
+          "oracle": 0.9433735688109485,
+          "regret": 0.20553703156707137,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2yo1j1v0qz09934o0e683p",
+          "dice": 0.7498598218179553,
+          "oracle": 0.9412540209882403,
+          "regret": 0.191394199170285,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju1c0qb4tzi308355wtsnp0y",
+          "dice": 0.7731967059202232,
+          "oracle": 0.9399194929770469,
+          "regret": 0.16672278705682375,
+          "mode": "TP",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2ysg748ru80878sp6j0gm0",
+          "dice": 0.7113787107991499,
+          "oracle": 0.8237888052681092,
+          "regret": 0.11241009446895922,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju7eea9b2m0z0801ynqv1fqu",
+          "dice": 0.4707917769183798,
+          "oracle": 0.5747105311523617,
+          "regret": 0.10391875423398189,
+          "mode": "PC",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju85mpuglq8k0818d2it6hzb",
+          "dice": 0.8240731635362376,
+          "oracle": 0.9174129353233831,
+          "regret": 0.09333977178714548,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju43c92lm5cj0755lorsorfg",
+          "dice": 0.8157894736842105,
+          "oracle": 0.8922438195886017,
+          "regret": 0.07645434590439115,
+          "mode": "PC",
+          "oracle_mode": "TP"
+        },
+        {
+          "target_id": "kvasir-seg::cju2qz06823a40878ojcz9ccx",
+          "dice": 0.8808715560116839,
+          "oracle": 0.9568744662681469,
+          "regret": 0.076002910256463,
+          "mode": "TP",
+          "oracle_mode": "PC"
+        },
+        {
+          "target_id": "kvasir-seg::cju30ajhw09sx0988qyahx9s8",
+          "dice": 0.3058210251954822,
+          "oracle": 0.3803252954258056,
+          "regret": 0.07450427023032341,
+          "mode": "PC",
+          "oracle_mode": "TP"
+        }
+      ]
+    },
+    "candidate_diagnostics": {
+      "pc_improves_oracle_count": 39,
+      "pc_gain_mean_all100": 0.014044355018495191,
+      "pc_gain_top10_share": 0.9013365564127682
+    }
+  }
+}

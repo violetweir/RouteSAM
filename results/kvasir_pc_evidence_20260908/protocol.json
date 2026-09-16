@@ -1,0 +1,20 @@
+{
+  "stage": "Evaluate correspondence evidence, then auxiliary role; fixed original candidates, no new propagation or student",
+  "families": [
+    "legacy",
+    "pc_proto",
+    "pc_fg_bg",
+    "pc_mutual",
+    "image_region"
+  ],
+  "PC_changes": "prototype localization; top-3 FG minus top-3 BG cosine; bidirectional nearest-patch cycle with exp(-grid_distance_squared/2)",
+  "non_PC_control": "RGB region/ring separation, Sobel boundary and region gradients, bbox occupancy",
+  "PC_self": "Candidate-own anchor evidence appended to original PC router features; nested 5/4 target folds, family and ridge selected inside inner folds",
+  "TP_aux": "Fixed independent TP expert per held fold; candidate evidence under the same TP-chosen anchor; default evidence and candidate-minus-default difference appended to historical 15 features",
+  "candidate_set_aux": "Fixed selected TP plus all seven original PC masks; no TP reranking; masks are proposals, auxiliary evidence need not be PC",
+  "aux_validation": "Nested 5 outer / 4 policy / 3 expert-training folds; families, ridge10/100 and threshold.02/.05/.10 selected inside inner validation; fallback included",
+  "test_gate": "Primary nested family-selection gain >=.003, paired bootstrap95 lower>0, at least3 positive outer folds; component ablation peaks cannot trigger test",
+  "original_split": "800/100/100;8/792 unchanged",
+  "scope_limit": "No claim of regenerated PC routes, spatial refinement or improved candidate oracle; validation reused across research rounds",
+  "test_evaluated": false
+}

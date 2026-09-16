@@ -1,0 +1,348 @@
+{
+  "split": "validation only",
+  "targets": 100,
+  "anchors": 8,
+  "student": false,
+  "actual": {
+    "TP_top1": {
+      "mean": 0.7739718775532585,
+      "count": 100,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 0,
+      "severe_losses_over_005": 0,
+      "worst_delta": 0.0,
+      "positive_sum": 0.0,
+      "negative_sum": 0.0
+    },
+    "PC_top1": {
+      "mean": 0.7504900099035444,
+      "count": 100,
+      "delta": -0.023481867649713925,
+      "ci95": [
+        -0.06806400794287855,
+        0.023831930638873594
+      ],
+      "wins": 13,
+      "losses": 41,
+      "severe_losses_over_005": 13,
+      "worst_delta": -0.7829391706718611,
+      "positive_sum": 3.239139075082709,
+      "negative_sum": -5.587325840054101
+    },
+    "eight_anchor_mask_medoid": {
+      "mean": 0.8302691227151364,
+      "count": 100,
+      "delta": 0.056297245161877854,
+      "ci95": [
+        0.019080633899933103,
+        0.10069666613535354
+      ],
+      "wins": 50,
+      "losses": 41,
+      "severe_losses_over_005": 4,
+      "worst_delta": -0.23126012716454547,
+      "positive_sum": 6.611135370695035,
+      "negative_sum": -0.981410854507249
+    },
+    "eight_anchor_sam_confidence": {
+      "mean": 0.8286847848381143,
+      "count": 100,
+      "delta": 0.054712907284855825,
+      "ci95": [
+        0.006700513041770446,
+        0.10690140562988765
+      ],
+      "wins": 35,
+      "losses": 42,
+      "severe_losses_over_005": 8,
+      "worst_delta": -0.9727709556860651,
+      "positive_sum": 8.445798474665754,
+      "negative_sum": -2.9745077461801714
+    },
+    "OOF_fixed_anchor_training_mean": {
+      "mean": 0.82116318354612,
+      "count": 100,
+      "delta": 0.047191305992861345,
+      "ci95": [
+        9.259854780252919e-05,
+        0.09727176786786587
+      ],
+      "wins": 44,
+      "losses": 49,
+      "severe_losses_over_005": 9,
+      "worst_delta": -0.9727709556860651,
+      "positive_sum": 7.368669631501667,
+      "negative_sum": -2.649539032215534
+    }
+  },
+  "oracle": {
+    "all8": {
+      "mean": 0.8866775427892137,
+      "count": 100,
+      "delta": 0.11270566523595535,
+      "ci95": [
+        0.06875970487718538,
+        0.16172804031382793
+      ],
+      "wins": 78,
+      "losses": 0,
+      "severe_losses_over_005": 0,
+      "worst_delta": 0.0,
+      "positive_sum": 11.270566523595532,
+      "negative_sum": 0.0
+    },
+    "TP_top2": {
+      "mean": 0.8607715576419891,
+      "count": 100,
+      "delta": 0.08679968008873062,
+      "ci95": [
+        0.04572881492728566,
+        0.1332599523367431
+      ],
+      "wins": 47,
+      "losses": 0,
+      "severe_losses_over_005": 0,
+      "worst_delta": 0.0,
+      "positive_sum": 8.679968008873063,
+      "negative_sum": 0.0
+    },
+    "TP_top3": {
+      "mean": 0.8657785587427376,
+      "count": 100,
+      "delta": 0.0918066811894791,
+      "ci95": [
+        0.05086396730483012,
+        0.13820463512451395
+      ],
+      "wins": 63,
+      "losses": 0,
+      "severe_losses_over_005": 0,
+      "worst_delta": 0.0,
+      "positive_sum": 9.180668118947908,
+      "negative_sum": 0.0
+    },
+    "PC_top2": {
+      "mean": 0.8078038703285888,
+      "count": 100,
+      "delta": 0.03383199277533038,
+      "ci95": [
+        0.0024337577219850936,
+        0.07144177389480151
+      ],
+      "wins": 41,
+      "losses": 16,
+      "severe_losses_over_005": 2,
+      "worst_delta": -0.4991144787375243,
+      "positive_sum": 4.352504007371583,
+      "negative_sum": -0.9693047298385457
+    },
+    "TP_top1_PC_alternate": {
+      "mean": 0.8160584222106573,
+      "count": 100,
+      "delta": 0.042086544657398736,
+      "ci95": [
+        0.014299237776506001,
+        0.07695008692216018
+      ],
+      "wins": 35,
+      "losses": 0,
+      "severe_losses_over_005": 0,
+      "worst_delta": 0.0,
+      "positive_sum": 4.2086544657398735,
+      "negative_sum": 0.0
+    }
+  },
+  "within_target_spearman": {
+    "TP": {
+      "mean": 0.08224851021334159,
+      "count": 99
+    },
+    "PC": {
+      "mean": -0.0315938939276435,
+      "count": 99
+    },
+    "consensus": {
+      "mean": 0.25373141489929313,
+      "count": 99
+    }
+  },
+  "anchor_mean_dice": [
+    0.777860884855048,
+    0.8211865120583189,
+    0.838652841785407,
+    0.8118920154731316,
+    0.7108020052632188,
+    0.828684784838114,
+    0.6817608491603377,
+    0.7749904633778472
+  ],
+  "anchor_dice_below_05": [
+    17,
+    12,
+    12,
+    14,
+    23,
+    13,
+    31,
+    18
+  ],
+  "error_correlation": [
+    [
+      1.0,
+      0.7672817643601447,
+      0.7104005079670265,
+      0.768350728576757,
+      0.6488815778280126,
+      0.5774504282546706,
+      0.6567401425090111,
+      0.7883964292456912
+    ],
+    [
+      0.7672817643601446,
+      1.0,
+      0.85489313725376,
+      0.8106320236672233,
+      0.6015429166240157,
+      0.7361712368246164,
+      0.5281436100607332,
+      0.6973292206228481
+    ],
+    [
+      0.7104005079670265,
+      0.85489313725376,
+      1.0,
+      0.8769540394396169,
+      0.561480912886275,
+      0.7507810158474401,
+      0.5130216961664571,
+      0.6454275978996458
+    ],
+    [
+      0.768350728576757,
+      0.8106320236672233,
+      0.8769540394396168,
+      1.0,
+      0.6452316006290967,
+      0.7081149850810933,
+      0.5974978327424026,
+      0.7315637692299546
+    ],
+    [
+      0.6488815778280126,
+      0.6015429166240157,
+      0.5614809128862749,
+      0.6452316006290967,
+      1.0,
+      0.45020526202256744,
+      0.6760642038164488,
+      0.7026140090335828
+    ],
+    [
+      0.5774504282546706,
+      0.7361712368246164,
+      0.75078101584744,
+      0.7081149850810933,
+      0.4502052620225675,
+      0.9999999999999998,
+      0.48466167285076134,
+      0.5565420419775632
+    ],
+    [
+      0.6567401425090111,
+      0.5281436100607332,
+      0.5130216961664571,
+      0.5974978327424028,
+      0.6760642038164488,
+      0.48466167285076134,
+      1.0,
+      0.754680050555718
+    ],
+    [
+      0.7883964292456912,
+      0.697329220622848,
+      0.6454275978996458,
+      0.7315637692299546,
+      0.702614009033583,
+      0.5565420419775633,
+      0.754680050555718,
+      0.9999999999999998
+    ]
+  ],
+  "oof_fixed_anchor_by_fold": {
+    "0": 5,
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2
+  },
+  "final_sam_score_by_anchor": [
+    {
+      "anchor_index": 0,
+      "nonempty_targets": 93,
+      "unique_nonempty_final_sam_scores": [
+        0.9649122953414917
+      ]
+    },
+    {
+      "anchor_index": 1,
+      "nonempty_targets": 97,
+      "unique_nonempty_final_sam_scores": [
+        0.9804878830909729
+      ]
+    },
+    {
+      "anchor_index": 2,
+      "nonempty_targets": 99,
+      "unique_nonempty_final_sam_scores": [
+        0.976608157157898
+      ]
+    },
+    {
+      "anchor_index": 3,
+      "nonempty_targets": 97,
+      "unique_nonempty_final_sam_scores": [
+        0.976608157157898
+      ]
+    },
+    {
+      "anchor_index": 4,
+      "nonempty_targets": 89,
+      "unique_nonempty_final_sam_scores": [
+        0.96875
+      ]
+    },
+    {
+      "anchor_index": 5,
+      "nonempty_targets": 99,
+      "unique_nonempty_final_sam_scores": [
+        0.9843749403953552
+      ]
+    },
+    {
+      "anchor_index": 6,
+      "nonempty_targets": 97,
+      "unique_nonempty_final_sam_scores": [
+        0.9649122953414917
+      ]
+    },
+    {
+      "anchor_index": 7,
+      "nonempty_targets": 99,
+      "unique_nonempty_final_sam_scores": [
+        0.9726027250289917
+      ]
+    }
+  ],
+  "audit": {
+    "mask_hashes_and_gt_dice_checked": 800,
+    "original_TP_PC_b0_choices_reproduced": 200,
+    "protocol_manifest_sha256": "eb74d0ea534450d7b97ae93319260b7cbbd78e5b74b2b615c777b1263eb91322",
+    "test_run": false
+  },
+  "interpretation": "Oracle top-k uses target GT posthoc. Eight-anchor medoid/confidence spend eight candidates. OOF fixed-anchor uses training-fold validation labels. These are diagnostics, not claims of seven-route superiority."
+}

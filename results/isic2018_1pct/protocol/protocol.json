@@ -1,0 +1,21 @@
+{
+  "data_view": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic2018_1pct/data",
+  "dataset": "ISIC2018_SPLIT",
+  "labeled_count": 26,
+  "labeled_fraction": 0.010023130300693909,
+  "labeled_list": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic2018_1pct/protocol/frozen_labeled_images.txt",
+  "labeled_list_sha256": "8d7d5eb5671a4e6801539191b8bace4d42898411af5e5128c658e59bd550a8ba",
+  "metadata_sha256": {
+    "test": "c2adb8c8be2a1ddb11188a4d054052dbd3e821d5a7caf52cad6cfc3bff6fc167",
+    "train": "0d193547a4a6599b51fa163252e5113144d4c584262fddb16d5d7e4637c1b0ac",
+    "validation": "da818302bad744737983a73cf57e604d7af1770885f9ad4d94703ee32cba9af0"
+  },
+  "seed": 2026,
+  "selection_rule": "sort train/images/*.png by path, sample round(1% of train) with Python random.Random(seed=2026), then sort selected paths for frozen list",
+  "source_root": "/Data_8TB/lht/MK-UNet/data/ISIC2018_SPLIT",
+  "test_count": 1000,
+  "train_count": 2594,
+  "unlabeled_count": 2568,
+  "unlabeled_list_sha256": "4b01d60c0c51a977d93c377cf56053f5020477e3f293716538551aecf3cb7d43",
+  "validation_count": 100
+}

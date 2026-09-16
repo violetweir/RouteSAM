@@ -1,0 +1,192 @@
+{
+  "protocol": "Kvasir test, frozen SAM3 sam3.pt, forward-only Dice, canvas 256, DINOv3 @256",
+  "rows": [
+    {
+      "dice": {
+        "bridge_1": 0.781679086806901,
+        "bridge_2": 0.7941900221168985,
+        "bridge_3": 0.8340318183729929,
+        "bridge_4": 0.8310627887508667,
+        "bridge_5": 0.8357285239126181,
+        "bridge_6": 0.8572854215647588,
+        "direct": 0.7421366459587859
+      },
+      "dinov3_model": "vits16",
+      "feature_size": 256,
+      "knn_feature": "patch_mean",
+      "mode": "t18_corrected",
+      "mode_key": "t18_corrected",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.7848638421359405,
+        "bridge_2": 0.8181601415742024,
+        "bridge_3": 0.8058707000777621,
+        "bridge_4": 0.7984422427812363,
+        "bridge_5": 0.8124098334618058,
+        "bridge_6": 0.8282068842356393,
+        "direct": 0.6999829947885368
+      },
+      "dinov3_model": "vitb16",
+      "feature_size": 256,
+      "knn_feature": "patch_mean",
+      "mode": "dino_global_pooling",
+      "mode_key": "dino_global_pooling",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.7633795426627279,
+        "bridge_2": 0.8350231349800694,
+        "bridge_3": 0.8277402816416197,
+        "bridge_4": 0.8000695231998199,
+        "bridge_5": 0.8109268692975126,
+        "bridge_6": 0.8120855526495896,
+        "direct": 0.732477293489795
+      },
+      "dinov3_model": "vitb16",
+      "feature_size": 256,
+      "knn_feature": "patch_mean",
+      "mode": "dino_patch_average",
+      "mode_key": "dino_patch_average",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.7691359493138257,
+        "bridge_2": 0.7960368674176336,
+        "bridge_3": 0.8052119867822501,
+        "bridge_4": 0.7735811703554916,
+        "bridge_5": 0.7734063951139466,
+        "bridge_6": 0.7738997780594425,
+        "direct": 0.6892563455308008
+      },
+      "dinov3_model": "vitb16",
+      "feature_size": 256,
+      "knn_feature": "patch_mean",
+      "mode": "anchor_conditioned_target_pooling",
+      "mode_key": "anchor_conditioned_target_pooling",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.7776782960514059,
+        "bridge_2": 0.8104027076291217,
+        "bridge_3": 0.7909167314165007,
+        "bridge_4": 0.7789598373607312,
+        "bridge_5": 0.7978479566014781,
+        "bridge_6": 0.8126205244468206,
+        "direct": 0.6892563455308008
+      },
+      "dinov3_model": "vitb16",
+      "feature_size": 256,
+      "knn_feature": "cls",
+      "mode": "anchor_conditioned_target_pooling",
+      "mode_key": "anchor_conditioned_target_pooling__knn_cls",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.7720547751601602,
+        "bridge_2": 0.809015064004516,
+        "bridge_3": 0.7981693682257104,
+        "bridge_4": 0.7927168129424699,
+        "bridge_5": 0.7769691430657901,
+        "bridge_6": 0.7833465149059597,
+        "direct": 0.6892563455308008
+      },
+      "dinov3_model": "vitb16",
+      "feature_size": 256,
+      "knn_feature": "pooled",
+      "mode": "anchor_conditioned_target_pooling",
+      "mode_key": "anchor_conditioned_target_pooling__knn_pooled",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.7607107767543401,
+        "bridge_2": 0.7831160109959197,
+        "bridge_3": 0.757269316693833,
+        "bridge_4": 0.7492988240148979,
+        "bridge_5": 0.7725162281811855,
+        "bridge_6": 0.7608247564080608,
+        "direct": 0.6892563455308008
+      },
+      "dinov3_model": "vitb16",
+      "feature_size": 256,
+      "knn_feature": "cond",
+      "mode": "anchor_conditioned_target_pooling",
+      "mode_key": "anchor_conditioned_target_pooling__knn_cond",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.7861853461442619,
+        "bridge_2": 0.83303449069449,
+        "bridge_3": 0.810301141685409,
+        "bridge_4": 0.7964449325516131,
+        "bridge_5": 0.8096752129057456,
+        "bridge_6": 0.8080760181004,
+        "direct": 0.7034751610780744
+      },
+      "dinov3_model": "vitb16",
+      "feature_size": 256,
+      "knn_feature": "patch_mean",
+      "mode": "anchor_conditioned_patch_correspondence",
+      "mode_key": "anchor_conditioned_patch_correspondence",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.796034157885527,
+        "bridge_2": 0.809954304068199,
+        "bridge_3": 0.7985807558320576,
+        "bridge_4": 0.8117134094236331,
+        "bridge_5": 0.8116933798012527,
+        "bridge_6": 0.8354928560302298,
+        "direct": 0.7034751610780744
+      },
+      "dinov3_model": "vitb16",
+      "feature_size": 256,
+      "knn_feature": "cls",
+      "mode": "anchor_conditioned_patch_correspondence",
+      "mode_key": "anchor_conditioned_patch_correspondence__knn_cls",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.7912075044698215,
+        "bridge_2": 0.8185391519561235,
+        "bridge_3": 0.795969809247523,
+        "bridge_4": 0.8049023730894511,
+        "bridge_5": 0.8019341874646269,
+        "bridge_6": 0.80897093409269,
+        "direct": 0.7034751610780744
+      },
+      "dinov3_model": "vitb16",
+      "feature_size": 256,
+      "knn_feature": "pooled",
+      "mode": "anchor_conditioned_patch_correspondence",
+      "mode_key": "anchor_conditioned_patch_correspondence__knn_pooled",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.7767879212496871,
+        "bridge_2": 0.8123095159065913,
+        "bridge_3": 0.7866547659804537,
+        "bridge_4": 0.7862322069577915,
+        "bridge_5": 0.8002582559543109,
+        "bridge_6": 0.8230241944385794,
+        "direct": 0.7034751610780744
+      },
+      "dinov3_model": "vitb16",
+      "feature_size": 256,
+      "knn_feature": "cond",
+      "mode": "anchor_conditioned_patch_correspondence",
+      "mode_key": "anchor_conditioned_patch_correspondence__knn_cond",
+      "n": 100
+    }
+  ]
+}

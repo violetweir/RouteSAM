@@ -1,0 +1,50 @@
+{
+  "round0_train": {
+    "n": 1274,
+    "dice_mean": 0.8459779602619617,
+    "dice_std": 0.21630493054492392,
+    "quality_mean": 0.8758358642734381,
+    "quality_gt_dice_pearson": 0.6257479179064076,
+    "quality_gt_dice_spearman": 0.5422419177541736,
+    "accepted_count": 932,
+    "route_type_counts": {
+      "direct": 334,
+      "one_bridge": 452,
+      "two_bridges": 488
+    },
+    "by_dataset": {
+      "CVC-ClinicDB": {
+        "n": 482,
+        "dice_mean": 0.8546298147453699
+      },
+      "kvasir-seg": {
+        "n": 792,
+        "dice_mean": 0.8407125639728168
+      }
+    }
+  },
+  "test_pool0": {
+    "n": 161,
+    "dice_mean": 0.8714691645783573,
+    "dice_std": 0.17808164321160902,
+    "quality_mean": 0.8963880693112177,
+    "quality_gt_dice_pearson": 0.5989735258887796,
+    "quality_gt_dice_spearman": 0.536492506680397,
+    "accepted_count": 0,
+    "route_type_counts": {
+      "direct": 33,
+      "one_bridge": 63,
+      "two_bridges": 65
+    },
+    "by_dataset": {
+      "CVC-ClinicDB": {
+        "n": 61,
+        "dice_mean": 0.8982925888570161
+      },
+      "kvasir-seg": {
+        "n": 100,
+        "dice_mean": 0.8551068757683751
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "beam_width": 32,
+  "dinov3_model": "vitb16",
+  "feature_size": 256,
+  "knn_feature": "patch_mean",
+  "max_bridge": 6,
+  "min_bridge": 3,
+  "mode": "anchor_conditioned_patch_correspondence",
+  "mode_key": "anchor_conditioned_patch_correspondence",
+  "routes": 244,
+  "split": "test"
+}

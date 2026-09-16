@@ -1,0 +1,12 @@
+{
+  "training_changes": [
+    "rows=read(root/'data/train_manifest.jsonl');assert len(rows)==588 and sum(x['is_gt'] for x in rows)==8",
+    "len(set(seen))==588 and gt_count==8",
+    "pseudo_count=588-gt_count",
+    "assert total_steps==39984"
+  ],
+  "source_trainer_sha256": "3b27acdbae218357e5363449983c416d2bd3df5faf7f9789ab286b671c27a6f6",
+  "new_trainer_sha256": "e3fc762dd5c3727bd66b50b8837a3ab37ea609b4bea6a0f6d1ed5f851baaa9af",
+  "same_initial_weights": true,
+  "teacher_frozen_by_validation": true
+}

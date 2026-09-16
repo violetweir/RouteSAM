@@ -1,0 +1,102 @@
+[
+  {
+    "route_id": "d77ac5d0231818f87144c76a",
+    "bridge": 0,
+    "text": null,
+    "audit": {
+      "seed_memory_exact": true,
+      "box_prompt_count": 0,
+      "point_prompt_count": 0,
+      "text": null,
+      "text_feature_cache_keys": [
+        [
+          "<text placeholder>",
+          "visual"
+        ]
+      ],
+      "objects_per_frame": [
+        1
+      ]
+    },
+    "mask_sha256": "1cbbc10f12efb5d51178bd6875d8635b2aaa16f9a38dd455422949e39a3d5388",
+    "area": 0.0275115966796875
+  },
+  {
+    "route_id": "d77ac5d0231818f87144c76a",
+    "bridge": 0,
+    "text": "breast lesion",
+    "audit": {
+      "seed_memory_exact": true,
+      "box_prompt_count": 0,
+      "point_prompt_count": 0,
+      "text": "breast lesion",
+      "text_feature_cache_keys": [
+        [
+          "breast lesion",
+          "visual"
+        ]
+      ],
+      "objects_per_frame": [
+        1
+      ]
+    },
+    "mask_sha256": "1cbbc10f12efb5d51178bd6875d8635b2aaa16f9a38dd455422949e39a3d5388",
+    "area": 0.0275115966796875
+  },
+  {
+    "route_id": "133995c57caf0f5900b05d20",
+    "bridge": 6,
+    "text": null,
+    "audit": {
+      "seed_memory_exact": true,
+      "box_prompt_count": 0,
+      "point_prompt_count": 0,
+      "text": null,
+      "text_feature_cache_keys": [
+        [
+          "<text placeholder>",
+          "visual"
+        ]
+      ],
+      "objects_per_frame": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "mask_sha256": "85391a48c552478709dae736e9cd9ed5ea1911610260722b30c5a0617a5d98c1",
+    "area": 0.02349853515625
+  },
+  {
+    "route_id": "133995c57caf0f5900b05d20",
+    "bridge": 6,
+    "text": "breast lesion",
+    "audit": {
+      "seed_memory_exact": true,
+      "box_prompt_count": 0,
+      "point_prompt_count": 0,
+      "text": "breast lesion",
+      "text_feature_cache_keys": [
+        [
+          "breast lesion",
+          "visual"
+        ]
+      ],
+      "objects_per_frame": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "mask_sha256": "85391a48c552478709dae736e9cd9ed5ea1911610260722b30c5a0617a5d98c1",
+    "area": 0.02349853515625
+  }
+]

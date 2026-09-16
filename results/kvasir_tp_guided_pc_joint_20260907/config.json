@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-07T00:51:37.935430+08:00",
+  "checkpoint": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+  "checkpoint_sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+  "feature_cache": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_1pct_anchors/stage1_feature_knn_sam3enc_s256/features/sam3_base_s256_features.npz",
+  "feature_cache_sha256": "ab8ca194f9c789ad9f6b641d382ed848751f29b23ac0bdb29a9c6722fd599907",
+  "split_counts": {
+    "train": 800,
+    "validation": 100,
+    "test": 100
+  },
+  "labeled_train": 8,
+  "unlabeled_train": 792,
+  "feature_size": 256,
+  "propagation_canvas": 256,
+  "beam_width": 32,
+  "bridge_range": [
+    0,
+    6
+  ],
+  "candidates_per_target": 7,
+  "student": false,
+  "train_propagation": false,
+  "fixed_parameters": {
+    "tau": 10.0,
+    "local_top_r": 3,
+    "local_r_rule": "min(3, anchor foreground patch count)",
+    "joint_v1_alpha": 0.75,
+    "joint_v2_alpha": 0.7,
+    "mad_epsilon": 1e-06
+  },
+  "definitions": {
+    "tp": "original L2-normalized attention-pooled descriptor cosine with anchor prototype",
+    "pc": "original prototype-to-target Top8 mean",
+    "local": "TP-attention weighted mean of per-target-patch top-r foreground-anchor-token similarities",
+    "joint_v1": ".75*z(TP)+.25*z(original_PC)",
+    "joint_v2": ".70*z(TP)+.30*z(TP_guided_local_PC)",
+    "calibration": "median/MAD separately per anchor/component on original train RGB, excluding the anchor itself; freeze before route evaluation",
+    "transition_calibration": "global median/MAD of off-diagonal unordered train/train patch_mean cosine pairs; dimensionless transitions for both Joint variants",
+    "knn_proposal": "original patch_mean nearest-neighbor proposal ordering, with new conditional score as tie-break; joint score enters anchor and full beam path objective",
+    "path_objective": "lexicographic max(bottleneck, mean) over conditional node scores and consecutive transition scores",
+    "router": "historical ridge=1.0, fit independently per family on validation; no mode bits, no student",
+    "validation": "5-fold target-level OOF, seed 2026, diagnostic; both Joint variants proceed to test by user request",
+    "test": "100 fixed test targets, fit final Router on all original 100 validation targets before test inference, no confidence filtering or test tuning"
+  },
+  "code_sha256": {
+    "eval_route_propagation_quality.py": "88eb5889f5d45e6ed990de18e3a348f9a90acfb1c454b74ce04729b609a18afb",
+    "analyze_propagation_quality_router.py": "b77c8fb8347424a7f0216d3c0bb978a3f78f219ef31661728a02531e2032888d",
+    "stage1_feature_knn_routes.py": "599aedd53da7e35765d9ac3ac9f158d1bf51c9697fbdb836c885dd6495feb744",
+    "joint_scores.py": "6581ac25aef30b7d713956750e7bc37070827bcf1837c0e30704e0f24a4cdaed",
+    "beam_backend.py": "9e85a10ed18dcba1df7ea2cb6e2fc913e91a82cf5e00b8a51c792745d2cdb5d9",
+    "run_joint_experiment.py": "ba293b86cddfa4d0acd2453f86abc85d24e28a73cd051d39a1b8a4fc159f9ed5"
+  },
+  "numerical_precision": "Historical model/TP/PC mixed-precision execution unchanged; SAM3 tracking predictor enters process-wide bfloat16 autocast and model_builder enables TF32. New local correspondence/attention head explicitly float64; scalar storage float32. Initial mixed-precision reference error corrected before any propagation; not attributed solely to TF32."
+}

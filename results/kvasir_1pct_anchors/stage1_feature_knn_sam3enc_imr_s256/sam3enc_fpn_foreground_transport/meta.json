@@ -1,0 +1,14 @@
+{
+  "beam_width": 32,
+  "dinov3_model": "vits16",
+  "feature_size": 256,
+  "feature_source": "sam3_base",
+  "knn_feature": "patch_mean",
+  "max_bridge": 4,
+  "min_bridge": 3,
+  "mode": "sam3enc_fpn_foreground_transport",
+  "mode_key": "sam3enc_fpn_foreground_transport",
+  "routes": 200,
+  "split": "test",
+  "text_blend": 0.0
+}

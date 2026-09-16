@@ -1,0 +1,44 @@
+{
+  "protocol": {
+    "candidate_pool": "single_family_anchor_conditioned_target_pooling__knn_cls_b1_b6",
+    "checkpoint_tag": "lora_p491_e20",
+    "fallback_enabled": false,
+    "fallback_probability": null,
+    "fit_or_calibration_performed": false,
+    "model_path": "work/kvasir_1pct_anchors/pairwise_ranker_vitb256/single_knn_cls_b1_b6_frozen/frozen_internal_plus_consensus_lora_p491_e20.json",
+    "role": "historical_test_diagnostic_single_knn_family",
+    "split": "test",
+    "student_loaded": false
+  },
+  "summary": {
+    "bootstrap_95_ci": [
+      -0.03723237562521739,
+      0.006498284536433604
+    ],
+    "catastrophic_regressions_delta_lt_minus_0.05": 6,
+    "fixed_b6_dice": 0.897779682728018,
+    "losses": 35,
+    "max_gain": 0.4575074397713256,
+    "max_gain_over_net_gain": null,
+    "max_gain_share_of_positive_gains": 0.6645310038003236,
+    "max_regression": -0.7431954133452956,
+    "mean_delta_vs_fixed": -0.013188661295232803,
+    "median_delta_vs_fixed": 0.0,
+    "n_targets": 100,
+    "oracle_dice": 0.9133550011634849,
+    "oracle_gap": 0.028763979730699885,
+    "route_histogram": {
+      "anchor_conditioned_target_pooling__knn_cls:b1": 34,
+      "anchor_conditioned_target_pooling__knn_cls:b2": 12,
+      "anchor_conditioned_target_pooling__knn_cls:b3": 11,
+      "anchor_conditioned_target_pooling__knn_cls:b4": 11,
+      "anchor_conditioned_target_pooling__knn_cls:b5": 4,
+      "anchor_conditioned_target_pooling__knn_cls:b6": 28
+    },
+    "selected_dice": 0.884591021432785,
+    "switches_from_fixed": 72,
+    "ties": 28,
+    "trimmed_mean_delta_10pct": -0.00023927560334291304,
+    "wins": 37
+  }
+}

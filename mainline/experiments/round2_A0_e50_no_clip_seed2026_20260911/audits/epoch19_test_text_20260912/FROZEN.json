@@ -1,0 +1,14 @@
+{
+  "epoch": 19,
+  "seed": 2026,
+  "checkpoint_sha256": "67ed97fd9a76eabf8721811ff6fd3eca99df586477a942643064287763ad296c",
+  "validation": {
+    "count": 100,
+    "dice": 0.8937165187099291,
+    "iou": 0.8344591053745813
+  },
+  "prompt": "colon polyp",
+  "input": "original RGB directly1008",
+  "metric": "macroDice256",
+  "reason": "User-requested epoch19 test audit during 50epoch training; no change to training or best-checkpoint selection"
+}

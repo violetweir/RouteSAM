@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/automatic_anchor_tp_test_20260913/pipeline.py", line 173, in <module>
+    elif args.action=='run':pipeline()
+                            ^^^^^^^^^^
+  File "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/automatic_anchor_tp_test_20260913/pipeline.py", line 166, in pipeline
+    run_stage(name,'summarize',[PY,str(R/'pipeline.py'),'summarize','--dataset',name])
+  File "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/automatic_anchor_tp_test_20260913/pipeline.py", line 107, in run_stage
+    if rc:raise RuntimeError(f'{name}/{stage} exited {rc}')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: isic2018/summarize exited 1

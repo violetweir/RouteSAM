@@ -1,0 +1,23 @@
+{
+  "split": "validation, 5-fold OOF independent routers; post-hoc GT oracle only",
+  "targets": 100,
+  "tp_oof_dice": 0.8517552851672318,
+  "tp_plus_pc_topk_oracle": {
+    "1": 0.8636883237014653,
+    "2": 0.8653179545716752,
+    "3": 0.8749009319765767,
+    "7": 0.8863397537782618
+  },
+  "pc_best_rank_counts": {
+    "1": 20,
+    "2": 15,
+    "3": 18,
+    "4": 10,
+    "5": 14,
+    "6": 15,
+    "7": 8
+  },
+  "mean_pc_best_minus_top1": 0.04347790185941041,
+  "new_model_trained": false,
+  "test_used": false
+}

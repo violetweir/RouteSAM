@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "fresh_gpu_inference": false,
+  "candidate_masks_recomputed": 1400,
+  "old_vs_rerun_pixel_identical": 1400,
+  "test_targets": 100,
+  "metric_resolution": 256,
+  "resize": "NEAREST",
+  "binarization": "uint8 > 127",
+  "aggregation": "per-image macro mean",
+  "validation_gt_used_to_fit_router": true,
+  "test_gt_used_for_selection": false,
+  "input_hashes_verified": 4,
+  "results": [
+    {
+      "scope": "target_pooling",
+      "dice": 0.8854326463411537,
+      "iou": 0.8282740566505135,
+      "oracle": 0.9074262547898724,
+      "selection_matches": 100,
+      "refit_parameter_max_delta": 0.0
+    },
+    {
+      "scope": "combined",
+      "dice": 0.8740830338579912,
+      "iou": 0.8139856609477036,
+      "oracle": 0.9214706098083678,
+      "selection_matches": 100,
+      "refit_parameter_max_delta": 0.0
+    }
+  ]
+}

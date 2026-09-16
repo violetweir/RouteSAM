@@ -1,0 +1,259 @@
+{
+  "variant": "old",
+  "fixed_bridge": [
+    {
+      "mode": "anchor_conditioned_target_pooling",
+      "bridge": 0,
+      "n": 100,
+      "dice": 0.7981444721228581,
+      "iou": 0.739433792582339,
+      "median": 0.9464923077158152,
+      "q_cycle": 0.8564117881864189
+    },
+    {
+      "mode": "anchor_conditioned_target_pooling",
+      "bridge": 1,
+      "n": 100,
+      "dice": 0.8466233889550897,
+      "iou": 0.7833117570717438,
+      "median": 0.9460732895222386,
+      "q_cycle": 0.868033522263191
+    },
+    {
+      "mode": "anchor_conditioned_target_pooling",
+      "bridge": 2,
+      "n": 100,
+      "dice": 0.8700318328767382,
+      "iou": 0.8064105812253998,
+      "median": 0.9468157413706488,
+      "q_cycle": 0.8995184378079647
+    },
+    {
+      "mode": "anchor_conditioned_target_pooling",
+      "bridge": 3,
+      "n": 100,
+      "dice": 0.8622534055278502,
+      "iou": 0.8005414459143085,
+      "median": 0.9527374744987689,
+      "q_cycle": 0.9168525182019335
+    },
+    {
+      "mode": "anchor_conditioned_target_pooling",
+      "bridge": 4,
+      "n": 100,
+      "dice": 0.8739296962950519,
+      "iou": 0.8138994035873407,
+      "median": 0.9482386331779415,
+      "q_cycle": 0.9248608676084735
+    },
+    {
+      "mode": "anchor_conditioned_target_pooling",
+      "bridge": 5,
+      "n": 100,
+      "dice": 0.8695517675483742,
+      "iou": 0.8084534016879137,
+      "median": 0.9493597902527109,
+      "q_cycle": 0.9390412364460096
+    },
+    {
+      "mode": "anchor_conditioned_target_pooling",
+      "bridge": 6,
+      "n": 100,
+      "dice": 0.8740038539958411,
+      "iou": 0.8117786585871509,
+      "median": 0.9485555966590737,
+      "q_cycle": 0.937421196323364
+    },
+    {
+      "mode": "anchor_conditioned_patch_correspondence",
+      "bridge": 0,
+      "n": 100,
+      "dice": 0.7066448726209574,
+      "iou": 0.6503663680151743,
+      "median": 0.9353286226281186,
+      "q_cycle": 0.7527061497681224
+    },
+    {
+      "mode": "anchor_conditioned_patch_correspondence",
+      "bridge": 1,
+      "n": 100,
+      "dice": 0.7548967981313407,
+      "iou": 0.6993112183977703,
+      "median": 0.9417088103565895,
+      "q_cycle": 0.7427008299605895
+    },
+    {
+      "mode": "anchor_conditioned_patch_correspondence",
+      "bridge": 2,
+      "n": 100,
+      "dice": 0.7884702561694021,
+      "iou": 0.7307252276323695,
+      "median": 0.9422259206906509,
+      "q_cycle": 0.6424368379557731
+    },
+    {
+      "mode": "anchor_conditioned_patch_correspondence",
+      "bridge": 3,
+      "n": 100,
+      "dice": 0.8594127538465952,
+      "iou": 0.7955003241792667,
+      "median": 0.9434052965900903,
+      "q_cycle": 0.6374340658801682
+    },
+    {
+      "mode": "anchor_conditioned_patch_correspondence",
+      "bridge": 4,
+      "n": 100,
+      "dice": 0.8576253374987323,
+      "iou": 0.7957858017455951,
+      "median": 0.9445804277652403,
+      "q_cycle": 0.6275933021852442
+    },
+    {
+      "mode": "anchor_conditioned_patch_correspondence",
+      "bridge": 5,
+      "n": 100,
+      "dice": 0.8553392636426479,
+      "iou": 0.793747924256849,
+      "median": 0.9418044935577403,
+      "q_cycle": 0.619069073398153
+    },
+    {
+      "mode": "anchor_conditioned_patch_correspondence",
+      "bridge": 6,
+      "n": 100,
+      "dice": 0.8535814096944051,
+      "iou": 0.790865595809482,
+      "median": 0.9462909478435712,
+      "q_cycle": 0.6283425415048023
+    },
+    {
+      "mode": "combined_mean",
+      "bridge": 0,
+      "n": 200,
+      "dice": 0.7523946723719079,
+      "iou": 0.6949000802987567,
+      "median": 0.9409238987427154,
+      "q_cycle": 0.8045589689772705
+    },
+    {
+      "mode": "combined_mean",
+      "bridge": 1,
+      "n": 200,
+      "dice": 0.8007600935432153,
+      "iou": 0.741311487734757,
+      "median": 0.9436103933163177,
+      "q_cycle": 0.80536717611189
+    },
+    {
+      "mode": "combined_mean",
+      "bridge": 2,
+      "n": 200,
+      "dice": 0.8292510445230701,
+      "iou": 0.7685679044288846,
+      "median": 0.944862626297305,
+      "q_cycle": 0.7709776378818688
+    },
+    {
+      "mode": "combined_mean",
+      "bridge": 3,
+      "n": 200,
+      "dice": 0.8608330796872227,
+      "iou": 0.7980208850467875,
+      "median": 0.9468101249574115,
+      "q_cycle": 0.7771432920410508
+    },
+    {
+      "mode": "combined_mean",
+      "bridge": 4,
+      "n": 200,
+      "dice": 0.8657775168968921,
+      "iou": 0.8048426026664679,
+      "median": 0.9453650658143178,
+      "q_cycle": 0.7762270848968589
+    },
+    {
+      "mode": "combined_mean",
+      "bridge": 5,
+      "n": 200,
+      "dice": 0.862445515595511,
+      "iou": 0.8011006629723815,
+      "median": 0.9458899468553339,
+      "q_cycle": 0.7790551549220814
+    },
+    {
+      "mode": "combined_mean",
+      "bridge": 6,
+      "n": 200,
+      "dice": 0.8637926318451231,
+      "iou": 0.8013221271983164,
+      "median": 0.947341848261565,
+      "q_cycle": 0.7828818689140832
+    }
+  ],
+  "routers": [
+    {
+      "scope": "target_pooling",
+      "min_bridge": 0,
+      "max_bridge": 6,
+      "n": 100,
+      "dice": 0.8854326463411542,
+      "iou": 0.8282740566505131,
+      "oracle": 0.9074262547898724,
+      "gap": 0.021993608448718227
+    },
+    {
+      "scope": "patch_correspondence",
+      "min_bridge": 0,
+      "max_bridge": 6,
+      "n": 100,
+      "dice": 0.8616882728797673,
+      "iou": 0.7996223079430691,
+      "oracle": 0.911714652160874,
+      "gap": 0.05002637928110665
+    },
+    {
+      "scope": "combined",
+      "min_bridge": 0,
+      "max_bridge": 6,
+      "n": 100,
+      "dice": 0.8740830338579915,
+      "iou": 0.813985660947703,
+      "oracle": 0.9214706098083678,
+      "gap": 0.04738757595037635
+    },
+    {
+      "scope": "target_pooling",
+      "min_bridge": 3,
+      "max_bridge": 6,
+      "n": 100,
+      "dice": 0.8768688814676348,
+      "iou": 0.8157676648627494,
+      "oracle": 0.9026894191477756,
+      "gap": 0.02582053768014081
+    },
+    {
+      "scope": "patch_correspondence",
+      "min_bridge": 3,
+      "max_bridge": 6,
+      "n": 100,
+      "dice": 0.8742935832718598,
+      "iou": 0.8102856060404153,
+      "oracle": 0.8959886404240278,
+      "gap": 0.021695057152168018
+    },
+    {
+      "scope": "combined",
+      "min_bridge": 3,
+      "max_bridge": 6,
+      "n": 100,
+      "dice": 0.8810294644831034,
+      "iou": 0.8175423105328966,
+      "oracle": 0.9193368212057444,
+      "gap": 0.03830735672264107
+    }
+  ],
+  "metric_resolution": 256,
+  "aggregation": "per-image macro mean",
+  "fresh_gpu_inference": false
+}

@@ -1,0 +1,16 @@
+{
+  "checkpoint": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+  "count": 100,
+  "direct_dice": 0.33204087026997603,
+  "direct_dice_median": 0.0,
+  "direct_iou": 0.3097186600902692,
+  "nonempty_rate": 0.46,
+  "protocol": {
+    "class_probability_threshold": 0.5,
+    "mask_probability_threshold": 0.5,
+    "query_reduction": "foreground_union",
+    "training_resolution": 1008
+  },
+  "split": "validation",
+  "valid_query_count_mean": 0.46
+}

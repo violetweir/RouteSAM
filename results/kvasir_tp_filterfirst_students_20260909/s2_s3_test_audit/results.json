@@ -1,0 +1,46 @@
+[
+  {
+    "student": "S2",
+    "checkpoint_type": "valbest",
+    "iteration": 26000,
+    "validation_dice_training_entry": 0.8247220833058109,
+    "test_dice": 0.8515301792698711,
+    "test_iou": 0.7718407435452187,
+    "count": 100,
+    "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/students/S2/student_best.pth",
+    "checkpoint_sha256": "ea80befb68f0195373b207cf64cc5985e817612a206bd67720a3010d76c6ec9c"
+  },
+  {
+    "student": "S2",
+    "checkpoint_type": "final",
+    "iteration": 40000,
+    "validation_dice_training_entry": 0.8179080390870649,
+    "test_dice": 0.8516750896604358,
+    "test_iou": 0.7745026992515708,
+    "count": 100,
+    "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/students/S2/student_final.pth",
+    "checkpoint_sha256": "d0da7d3543f267c7e8ca40c82199f1287a0c98734ed6b00063daad877e1f18cd"
+  },
+  {
+    "student": "S3",
+    "checkpoint_type": "valbest",
+    "iteration": 22800,
+    "validation_dice_training_entry": 0.8242417396874546,
+    "test_dice": 0.8419581163981706,
+    "test_iou": 0.760370887480352,
+    "count": 100,
+    "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/students/S3/student_best.pth",
+    "checkpoint_sha256": "218cfdab12e04446d3c75fd23bc9595c2d8565a86a47636ea054f3d928f94d0d"
+  },
+  {
+    "student": "S3",
+    "checkpoint_type": "final",
+    "iteration": 40000,
+    "validation_dice_training_entry": 0.8039164832654613,
+    "test_dice": 0.8437694237163869,
+    "test_iou": 0.7650143392678759,
+    "count": 100,
+    "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/students/S3/student_final.pth",
+    "checkpoint_sha256": "8f2b11229c05b55c3b3f6960e708d3be523373da53c325a8b4e22899c423d213"
+  }
+]

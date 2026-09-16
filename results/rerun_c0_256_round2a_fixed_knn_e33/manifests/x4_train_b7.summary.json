@@ -1,0 +1,18 @@
+{
+  "batch_recipe": {
+    "gt": 3,
+    "original": 3,
+    "tier_a_or_b": 6
+  },
+  "mask_source": "e33 propagation + validation-recalibrated X3/B7",
+  "membership": {
+    "new_to_x4": 20,
+    "retained_from_x3": 504
+  },
+  "sample_types": {
+    "original": 394,
+    "tier_a": 72,
+    "tier_b": 58
+  },
+  "targets": 524
+}

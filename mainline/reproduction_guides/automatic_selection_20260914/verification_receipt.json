@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-14",
+  "selection": {
+    "kvasir": {
+      "selected_ids": [
+        "kvasir-seg::cju2wxv0hxs2f09884w48v8fi",
+        "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+        "kvasir-seg::cju42xpi8lw4w0871ve317a1p",
+        "kvasir-seg::cju5vi4nxlc530817uoqm2m7a",
+        "kvasir-seg::cju3v664kh0px0818y4y7wolf",
+        "kvasir-seg::cju8dpa89u6l80818dj6lldh9",
+        "kvasir-seg::cju2t62nq45jl0799odpufwx6",
+        "kvasir-seg::cju7ajnbo1gvm098749rdouk0"
+      ],
+      "exact_match": true,
+      "dictionary_max_abs": 0.0,
+      "histogram_max_abs": 0.0,
+      "eligible_count": 800,
+      "mask_pixels_read": 0,
+      "source_frozen_sha256": "260dd989d477d5ffcfb3b06c13c93894ac52dafee9d095cf99148aa5ef017fc3"
+    },
+    "isic2018": {
+      "selected_ids": [
+        "ISIC_0007788",
+        "ISIC_0009941",
+        "ISIC_0013410",
+        "ISIC_0014026",
+        "ISIC_0001126",
+        "ISIC_0010023",
+        "ISIC_0015614",
+        "ISIC_0014438",
+        "ISIC_0002453",
+        "ISIC_0011229",
+        "ISIC_0013458",
+        "ISIC_0015995",
+        "ISIC_0009252",
+        "ISIC_0010263",
+        "ISIC_0014829",
+        "ISIC_0013399",
+        "ISIC_0012453",
+        "ISIC_0011129",
+        "ISIC_0015206",
+        "ISIC_0016048",
+        "ISIC_0010360"
+      ],
+      "exact_match": true,
+      "dictionary_max_abs": 0.0,
+      "histogram_max_abs": 0.0,
+      "eligible_count": 2075,
+      "mask_pixels_read": 0,
+      "source_frozen_sha256": "e6149c4308d85c12887dc77dd2a6a3a89a29633055fbbbfd3ca395b69740252c"
+    },
+    "busi": {
+      "selected_ids": [
+        "BUSI::benign (3)",
+        "BUSI::benign (125)",
+        "BUSI::benign (305)",
+        "BUSI::malignant (195)",
+        "BUSI::malignant (187)"
+      ],
+      "exact_match": true,
+      "dictionary_max_abs": 0.0,
+      "histogram_max_abs": 0.0,
+      "eligible_count": 516,
+      "mask_pixels_read": 0,
+      "source_frozen_sha256": "8d2af1694143f55b8af1051e4450aa3f9c709d2477a5bf18e3b5b4ee031f431c"
+    }
+  },
+  "routes_and_scoring": {
+    "kvasir": {
+      "routes": 700,
+      "route_ids_exact_match": true,
+      "scoring_existing_masks": true,
+      "new_GPU_predictions": false,
+      "max_abs_fixed_dice_difference": 0.0
+    },
+    "isic2018": {
+      "route_check_targets": 1,
+      "routes": 7,
+      "route_ids_exact_match": true,
+      "scoring_existing_masks": true,
+      "new_GPU_predictions": false,
+      "max_abs_fixed_dice_difference": 0.0
+    },
+    "busi": {
+      "route_check_targets": 1,
+      "routes": 7,
+      "route_ids_exact_match": true,
+      "scoring_existing_masks": true,
+      "new_GPU_predictions": false,
+      "max_abs_fixed_dice_difference": 0.0
+    }
+  },
+  "new_GPU_inference_performed": false,
+  "router_test_dice": {
+    "kvasir": 0.8713744761396023,
+    "isic2018": 0.8663633850059499,
+    "busi": 0.5668083894947364
+  }
+}

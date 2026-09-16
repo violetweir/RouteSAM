@@ -1,0 +1,1137 @@
+{
+  "raw_top1": [
+    {
+      "target_id": "TN3K::test::0000",
+      "route_id": "38b586ae4786429c77e0634d",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/38b586ae4786429c77e0634d.png",
+      "dice": 0.9073529411764706,
+      "iou": 0.8304172274562585
+    },
+    {
+      "target_id": "TN3K::test::0001",
+      "route_id": "f74ea851147b3290662de599",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/f74ea851147b3290662de599.png",
+      "dice": 0.8409250175192712,
+      "iou": 0.7255139056831923
+    },
+    {
+      "target_id": "TN3K::test::0002",
+      "route_id": "1773e6df08c3f314fb41694b",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/1773e6df08c3f314fb41694b.png",
+      "dice": 0.7094386181369525,
+      "iou": 0.5497131931166348
+    },
+    {
+      "target_id": "TN3K::test::0003",
+      "route_id": "7e8a96ced7bbee8702c92941",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/7e8a96ced7bbee8702c92941.png",
+      "dice": 0.39321495883344904,
+      "iou": 0.2447215705642672
+    },
+    {
+      "target_id": "TN3K::test::0004",
+      "route_id": "96f63aabe77f90fbd711380a",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 2,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/96f63aabe77f90fbd711380a.png",
+      "dice": 0.7335243553008596,
+      "iou": 0.579185520361991
+    },
+    {
+      "target_id": "TN3K::test::0005",
+      "route_id": "170aca3a5877207300baaaa8",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/170aca3a5877207300baaaa8.png",
+      "dice": 0.8019501425811792,
+      "iou": 0.6693796068796068
+    },
+    {
+      "target_id": "TN3K::test::0006",
+      "route_id": "be08aec48977a3432559e831",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/be08aec48977a3432559e831.png",
+      "dice": 0.846497963544101,
+      "iou": 0.7338504283398934
+    },
+    {
+      "target_id": "TN3K::test::0007",
+      "route_id": "672bed4c46775ef89110663b",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 6,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/672bed4c46775ef89110663b.png",
+      "dice": 0.8989995235826584,
+      "iou": 0.8165296408481177
+    },
+    {
+      "target_id": "TN3K::test::0008",
+      "route_id": "82ea6fa098e1218114208fb9",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/82ea6fa098e1218114208fb9.png",
+      "dice": 0.7611592702807608,
+      "iou": 0.6144125326370757
+    },
+    {
+      "target_id": "TN3K::test::0009",
+      "route_id": "9158b694221e7228a295674b",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/9158b694221e7228a295674b.png",
+      "dice": 0.0009987062214858024,
+      "iou": 0.0004996025888497785
+    },
+    {
+      "target_id": "TN3K::test::0010",
+      "route_id": "6c2e2bba991739bea03c8866",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/6c2e2bba991739bea03c8866.png",
+      "dice": 0.9346424759871932,
+      "iou": 0.8773040551370412
+    },
+    {
+      "target_id": "TN3K::test::0011",
+      "route_id": "74aaa8bc77a2389e8839a349",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/74aaa8bc77a2389e8839a349.png",
+      "dice": 0.3076194983435873,
+      "iou": 0.18176733780760626
+    },
+    {
+      "target_id": "TN3K::test::0012",
+      "route_id": "9adcaff9efb9f5dc10d23988",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 4,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/9adcaff9efb9f5dc10d23988.png",
+      "dice": 0.23607591372416512,
+      "iou": 0.13383564267926698
+    },
+    {
+      "target_id": "TN3K::test::0013",
+      "route_id": "99cb168da86e88ae3e72d4ae",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 6,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/99cb168da86e88ae3e72d4ae.png",
+      "dice": 0.0,
+      "iou": 0.0
+    },
+    {
+      "target_id": "TN3K::test::0014",
+      "route_id": "513734005c031f0675cf1121",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/513734005c031f0675cf1121.png",
+      "dice": 0.5189948624750987,
+      "iou": 0.3504342080422881
+    },
+    {
+      "target_id": "TN3K::test::0015",
+      "route_id": "75e937eac3653b4351b237c4",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/75e937eac3653b4351b237c4.png",
+      "dice": 0.4942577626541897,
+      "iou": 0.3282485875706215
+    },
+    {
+      "target_id": "TN3K::test::0016",
+      "route_id": "0f559fb8b95b4b0277fa3c26",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/0f559fb8b95b4b0277fa3c26.png",
+      "dice": 0.5721120984278879,
+      "iou": 0.4006701771182384
+    },
+    {
+      "target_id": "TN3K::test::0017",
+      "route_id": "cd0e71c12d2cb0160c53e37d",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/cd0e71c12d2cb0160c53e37d.png",
+      "dice": 0.0,
+      "iou": 0.0
+    },
+    {
+      "target_id": "TN3K::test::0018",
+      "route_id": "4615332f3edb47703e10b2dd",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/4615332f3edb47703e10b2dd.png",
+      "dice": 0.20877998979070955,
+      "iou": 0.11655742376745512
+    },
+    {
+      "target_id": "TN3K::test::0019",
+      "route_id": "c27c227b296883194efdfbad",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/c27c227b296883194efdfbad.png",
+      "dice": 0.18817404239494237,
+      "iou": 0.10385878489326765
+    },
+    {
+      "target_id": "TN3K::test::0020",
+      "route_id": "e9f9f9dd2ed5b708e08f852f",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/e9f9f9dd2ed5b708e08f852f.png",
+      "dice": 0.7761129325060286,
+      "iou": 0.6341377020146115
+    },
+    {
+      "target_id": "TN3K::test::0021",
+      "route_id": "31e99c0025b365809317984f",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 2,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/31e99c0025b365809317984f.png",
+      "dice": 0.8855454380992582,
+      "iou": 0.7945998593149721
+    },
+    {
+      "target_id": "TN3K::test::0022",
+      "route_id": "1e7e050fc79a24d6a46eb09f",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 4,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/1e7e050fc79a24d6a46eb09f.png",
+      "dice": 0.0,
+      "iou": 0.0
+    },
+    {
+      "target_id": "TN3K::test::0023",
+      "route_id": "89e369a6ef0f864e588d02cf",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/89e369a6ef0f864e588d02cf.png",
+      "dice": 0.7293868921775899,
+      "iou": 0.5740432612312812
+    },
+    {
+      "target_id": "TN3K::test::0024",
+      "route_id": "55eb24aaa2cf3f6ce68cef62",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/55eb24aaa2cf3f6ce68cef62.png",
+      "dice": 0.39098190447938297,
+      "iou": 0.24299410029498525
+    }
+  ],
+  "centered_top1": [
+    {
+      "target_id": "TN3K::test::0000",
+      "route_id": "eda1bce10623eafa51c742d3",
+      "anchor_id": "TN3K::trainval::2264",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/eda1bce10623eafa51c742d3.png",
+      "dice": 0.9327311623484669,
+      "iou": 0.8739420935412027
+    },
+    {
+      "target_id": "TN3K::test::0001",
+      "route_id": "6fab025f1045be326a312cf4",
+      "anchor_id": "TN3K::trainval::2859",
+      "bridge_count": 6,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/6fab025f1045be326a312cf4.png",
+      "dice": 0.04726516052318668,
+      "iou": 0.02420459735119501
+    },
+    {
+      "target_id": "TN3K::test::0002",
+      "route_id": "032ce394b90a147e78710bd0",
+      "anchor_id": "TN3K::trainval::0378",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/032ce394b90a147e78710bd0.png",
+      "dice": 0.15990367248645396,
+      "iou": 0.08689962046852506
+    },
+    {
+      "target_id": "TN3K::test::0003",
+      "route_id": "97d71b13812ec55b6fea6661",
+      "anchor_id": "TN3K::trainval::1334",
+      "bridge_count": 2,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/97d71b13812ec55b6fea6661.png",
+      "dice": 0.0607444622059831,
+      "iou": 0.031323598681111633
+    },
+    {
+      "target_id": "TN3K::test::0004",
+      "route_id": "8e181f4a7783d9bf68565171",
+      "anchor_id": "TN3K::trainval::2488",
+      "bridge_count": 2,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/8e181f4a7783d9bf68565171.png",
+      "dice": 0.8035555555555556,
+      "iou": 0.6716196136701337
+    },
+    {
+      "target_id": "TN3K::test::0005",
+      "route_id": "c06438c4e2a068ff76b8b81a",
+      "anchor_id": "TN3K::trainval::1746",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/c06438c4e2a068ff76b8b81a.png",
+      "dice": 0.3821365135752347,
+      "iou": 0.236198243412798
+    },
+    {
+      "target_id": "TN3K::test::0006",
+      "route_id": "914234d6abed1bd4519cdbbd",
+      "anchor_id": "TN3K::trainval::2488",
+      "bridge_count": 2,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/914234d6abed1bd4519cdbbd.png",
+      "dice": 0.9380390237935042,
+      "iou": 0.8833083746112199
+    },
+    {
+      "target_id": "TN3K::test::0007",
+      "route_id": "32db23052924f58d005d0bb2",
+      "anchor_id": "TN3K::trainval::1334",
+      "bridge_count": 2,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/32db23052924f58d005d0bb2.png",
+      "dice": 0.8658536585365854,
+      "iou": 0.7634408602150538
+    },
+    {
+      "target_id": "TN3K::test::0008",
+      "route_id": "05af894fb0ce1486d6d89b50",
+      "anchor_id": "TN3K::trainval::2488",
+      "bridge_count": 2,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/05af894fb0ce1486d6d89b50.png",
+      "dice": 0.1407942238267148,
+      "iou": 0.07572815533980583
+    },
+    {
+      "target_id": "TN3K::test::0009",
+      "route_id": "4627fdf030e8741edb2a5428",
+      "anchor_id": "TN3K::trainval::1269",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/4627fdf030e8741edb2a5428.png",
+      "dice": 0.0,
+      "iou": 0.0
+    },
+    {
+      "target_id": "TN3K::test::0010",
+      "route_id": "565c9ea2b696d99acd515798",
+      "anchor_id": "TN3K::trainval::0116",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/565c9ea2b696d99acd515798.png",
+      "dice": 0.9363007169795682,
+      "iou": 0.8802306553416972
+    },
+    {
+      "target_id": "TN3K::test::0011",
+      "route_id": "c108db3b8cacdf7559c4e93c",
+      "anchor_id": "TN3K::trainval::1334",
+      "bridge_count": 2,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/c108db3b8cacdf7559c4e93c.png",
+      "dice": 0.301591071004512,
+      "iou": 0.17757270693512303
+    },
+    {
+      "target_id": "TN3K::test::0012",
+      "route_id": "a5f33e3e1b7b5e8d3eab4f41",
+      "anchor_id": "TN3K::trainval::2488",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/a5f33e3e1b7b5e8d3eab4f41.png",
+      "dice": 0.2462674047978527,
+      "iou": 0.14042471781136406
+    },
+    {
+      "target_id": "TN3K::test::0013",
+      "route_id": "53893d0dac3910d264e34f7a",
+      "anchor_id": "TN3K::trainval::1334",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/53893d0dac3910d264e34f7a.png",
+      "dice": 0.8995169997158822,
+      "iou": 0.8173838209982788
+    },
+    {
+      "target_id": "TN3K::test::0014",
+      "route_id": "8f8d612ef11e24dace9f0478",
+      "anchor_id": "TN3K::trainval::1746",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/8f8d612ef11e24dace9f0478.png",
+      "dice": 0.9429687691967467,
+      "iou": 0.8920916825514901
+    },
+    {
+      "target_id": "TN3K::test::0015",
+      "route_id": "d8b6d7b9a5518c4d32bcb35d",
+      "anchor_id": "TN3K::trainval::2383",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/d8b6d7b9a5518c4d32bcb35d.png",
+      "dice": 0.6820011500862565,
+      "iou": 0.5174520069808028
+    },
+    {
+      "target_id": "TN3K::test::0016",
+      "route_id": "6219991ede44300b1ec75860",
+      "anchor_id": "TN3K::trainval::1269",
+      "bridge_count": 2,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/6219991ede44300b1ec75860.png",
+      "dice": 0.7077568134171908,
+      "iou": 0.5476963011031798
+    },
+    {
+      "target_id": "TN3K::test::0017",
+      "route_id": "944add80718590ef2a4916f7",
+      "anchor_id": "TN3K::trainval::1269",
+      "bridge_count": 4,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/944add80718590ef2a4916f7.png",
+      "dice": 0.4733003999059045,
+      "iou": 0.31001540832049307
+    },
+    {
+      "target_id": "TN3K::test::0018",
+      "route_id": "ec1330887fc34b0b0d894005",
+      "anchor_id": "TN3K::trainval::2859",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/ec1330887fc34b0b0d894005.png",
+      "dice": 0.1381793375274767,
+      "iou": 0.07421731873142531
+    },
+    {
+      "target_id": "TN3K::test::0019",
+      "route_id": "60acb1bf5a4240bcbfce8113",
+      "anchor_id": "TN3K::trainval::2264",
+      "bridge_count": 6,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/60acb1bf5a4240bcbfce8113.png",
+      "dice": 0.7887281266570715,
+      "iou": 0.6511569731081926
+    },
+    {
+      "target_id": "TN3K::test::0020",
+      "route_id": "dcda0767259dc4fa8f850e52",
+      "anchor_id": "TN3K::trainval::0378",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/dcda0767259dc4fa8f850e52.png",
+      "dice": 0.018512019652570627,
+      "iou": 0.00934248394952402
+    },
+    {
+      "target_id": "TN3K::test::0021",
+      "route_id": "773676ee1b6680e0280055f9",
+      "anchor_id": "TN3K::trainval::0116",
+      "bridge_count": 4,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/773676ee1b6680e0280055f9.png",
+      "dice": 0.9242093625440051,
+      "iou": 0.8590977931631328
+    },
+    {
+      "target_id": "TN3K::test::0022",
+      "route_id": "4014fe737e599b8b68271fa7",
+      "anchor_id": "TN3K::trainval::2708",
+      "bridge_count": 6,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/4014fe737e599b8b68271fa7.png",
+      "dice": 0.8716536928042529,
+      "iou": 0.7725054686185429
+    },
+    {
+      "target_id": "TN3K::test::0023",
+      "route_id": "539b048cc7745014d6c54caa",
+      "anchor_id": "TN3K::trainval::0378",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/539b048cc7745014d6c54caa.png",
+      "dice": 0.6291618828932262,
+      "iou": 0.45896147403685095
+    },
+    {
+      "target_id": "TN3K::test::0024",
+      "route_id": "039525451861e8e08914311c",
+      "anchor_id": "TN3K::trainval::1334",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/039525451861e8e08914311c.png",
+      "dice": 0.07282384184125111,
+      "iou": 0.03778784909358158
+    }
+  ],
+  "raw_top2": [
+    {
+      "target_id": "TN3K::test::0000",
+      "route_id": "38b586ae4786429c77e0634d",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/38b586ae4786429c77e0634d.png",
+      "dice": 0.9073529411764706,
+      "iou": 0.8304172274562585
+    },
+    {
+      "target_id": "TN3K::test::0001",
+      "route_id": "f74ea851147b3290662de599",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/f74ea851147b3290662de599.png",
+      "dice": 0.8409250175192712,
+      "iou": 0.7255139056831923
+    },
+    {
+      "target_id": "TN3K::test::0002",
+      "route_id": "7ead52cd9e06134ac69fab9a",
+      "anchor_id": "TN3K::trainval::2708",
+      "bridge_count": 6,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/7ead52cd9e06134ac69fab9a.png",
+      "dice": 0.7265219128813107,
+      "iou": 0.5705020920502092
+    },
+    {
+      "target_id": "TN3K::test::0003",
+      "route_id": "7e8a96ced7bbee8702c92941",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/7e8a96ced7bbee8702c92941.png",
+      "dice": 0.39321495883344904,
+      "iou": 0.2447215705642672
+    },
+    {
+      "target_id": "TN3K::test::0004",
+      "route_id": "507a8649ffdecd84706b0011",
+      "anchor_id": "TN3K::trainval::2708",
+      "bridge_count": 6,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/507a8649ffdecd84706b0011.png",
+      "dice": 0.8156723063223509,
+      "iou": 0.6887218045112782
+    },
+    {
+      "target_id": "TN3K::test::0005",
+      "route_id": "170aca3a5877207300baaaa8",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/170aca3a5877207300baaaa8.png",
+      "dice": 0.8019501425811792,
+      "iou": 0.6693796068796068
+    },
+    {
+      "target_id": "TN3K::test::0006",
+      "route_id": "be08aec48977a3432559e831",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/be08aec48977a3432559e831.png",
+      "dice": 0.846497963544101,
+      "iou": 0.7338504283398934
+    },
+    {
+      "target_id": "TN3K::test::0007",
+      "route_id": "a70a2dd7d74ffda1bd53b1b2",
+      "anchor_id": "TN3K::trainval::2708",
+      "bridge_count": 6,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/a70a2dd7d74ffda1bd53b1b2.png",
+      "dice": 0.9183253260123542,
+      "iou": 0.8489847715736041
+    },
+    {
+      "target_id": "TN3K::test::0008",
+      "route_id": "82ea6fa098e1218114208fb9",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/82ea6fa098e1218114208fb9.png",
+      "dice": 0.7611592702807608,
+      "iou": 0.6144125326370757
+    },
+    {
+      "target_id": "TN3K::test::0009",
+      "route_id": "01eeddb2815cbac78501fa3a",
+      "anchor_id": "TN3K::trainval::2708",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/01eeddb2815cbac78501fa3a.png",
+      "dice": 0.06273072125054101,
+      "iou": 0.03238100244434515
+    },
+    {
+      "target_id": "TN3K::test::0010",
+      "route_id": "6c2e2bba991739bea03c8866",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/6c2e2bba991739bea03c8866.png",
+      "dice": 0.9346424759871932,
+      "iou": 0.8773040551370412
+    },
+    {
+      "target_id": "TN3K::test::0011",
+      "route_id": "507ad71615b8f33c9ef8ce96",
+      "anchor_id": "TN3K::trainval::2708",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/507ad71615b8f33c9ef8ce96.png",
+      "dice": 0.3090866104499961,
+      "iou": 0.18279269202087994
+    },
+    {
+      "target_id": "TN3K::test::0012",
+      "route_id": "2bdafa41cbd5bebb85ccc73b",
+      "anchor_id": "TN3K::trainval::0116",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/2bdafa41cbd5bebb85ccc73b.png",
+      "dice": 0.20031121799405857,
+      "iou": 0.11130325420531363
+    },
+    {
+      "target_id": "TN3K::test::0013",
+      "route_id": "67a97ccf0028a06fe7076509",
+      "anchor_id": "TN3K::trainval::2708",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/67a97ccf0028a06fe7076509.png",
+      "dice": 0.9471789795734725,
+      "iou": 0.8996581196581197
+    },
+    {
+      "target_id": "TN3K::test::0014",
+      "route_id": "513734005c031f0675cf1121",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/513734005c031f0675cf1121.png",
+      "dice": 0.5189948624750987,
+      "iou": 0.3504342080422881
+    },
+    {
+      "target_id": "TN3K::test::0015",
+      "route_id": "75e937eac3653b4351b237c4",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/75e937eac3653b4351b237c4.png",
+      "dice": 0.4942577626541897,
+      "iou": 0.3282485875706215
+    },
+    {
+      "target_id": "TN3K::test::0016",
+      "route_id": "43ff2fbe9b8cc5d8589e9982",
+      "anchor_id": "TN3K::trainval::2708",
+      "bridge_count": 6,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/43ff2fbe9b8cc5d8589e9982.png",
+      "dice": 0.5845094664371773,
+      "iou": 0.41293774319066145
+    },
+    {
+      "target_id": "TN3K::test::0017",
+      "route_id": "877394d59adfd09060fdbec6",
+      "anchor_id": "TN3K::trainval::2708",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/877394d59adfd09060fdbec6.png",
+      "dice": 0.0,
+      "iou": 0.0
+    },
+    {
+      "target_id": "TN3K::test::0018",
+      "route_id": "273fee1c96d0869a5bc045fb",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 6,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/273fee1c96d0869a5bc045fb.png",
+      "dice": 0.19826890633022812,
+      "iou": 0.11004356145421976
+    },
+    {
+      "target_id": "TN3K::test::0019",
+      "route_id": "56dd09fbc86ad8c497c65b3b",
+      "anchor_id": "TN3K::trainval::2708",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/56dd09fbc86ad8c497c65b3b.png",
+      "dice": 0.7955418329693501,
+      "iou": 0.6604976866324872
+    },
+    {
+      "target_id": "TN3K::test::0020",
+      "route_id": "84daf6fe10c8d4df1794e011",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 4,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/84daf6fe10c8d4df1794e011.png",
+      "dice": 0.7769082884297744,
+      "iou": 0.635200354217401
+    },
+    {
+      "target_id": "TN3K::test::0021",
+      "route_id": "78e0303ea6e58a2f363ae2c7",
+      "anchor_id": "TN3K::trainval::0116",
+      "bridge_count": 6,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/78e0303ea6e58a2f363ae2c7.png",
+      "dice": 0.9267825531791404,
+      "iou": 0.8635552430912335
+    },
+    {
+      "target_id": "TN3K::test::0022",
+      "route_id": "1e7e050fc79a24d6a46eb09f",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 4,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/1e7e050fc79a24d6a46eb09f.png",
+      "dice": 0.0,
+      "iou": 0.0
+    },
+    {
+      "target_id": "TN3K::test::0023",
+      "route_id": "6f0379e87eb96b1786b557e2",
+      "anchor_id": "TN3K::trainval::2708",
+      "bridge_count": 4,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/6f0379e87eb96b1786b557e2.png",
+      "dice": 0.9621640130114706,
+      "iou": 0.9270867700428901
+    },
+    {
+      "target_id": "TN3K::test::0024",
+      "route_id": "55eb24aaa2cf3f6ce68cef62",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/55eb24aaa2cf3f6ce68cef62.png",
+      "dice": 0.39098190447938297,
+      "iou": 0.24299410029498525
+    }
+  ],
+  "centered_top2": [
+    {
+      "target_id": "TN3K::test::0000",
+      "route_id": "5179f388f37f5a0c03f8c81b",
+      "anchor_id": "TN3K::trainval::2264",
+      "bridge_count": 4,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/5179f388f37f5a0c03f8c81b.png",
+      "dice": 0.911002444987775,
+      "iou": 0.8365514144589133
+    },
+    {
+      "target_id": "TN3K::test::0001",
+      "route_id": "2e30eaf94b00ca2ec3ad28b9",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/2e30eaf94b00ca2ec3ad28b9.png",
+      "dice": 0.8323068801689248,
+      "iou": 0.7127787823990356
+    },
+    {
+      "target_id": "TN3K::test::0002",
+      "route_id": "5bf8eec73686552bf5d3ac08",
+      "anchor_id": "TN3K::trainval::0378",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/5bf8eec73686552bf5d3ac08.png",
+      "dice": 0.0,
+      "iou": 0.0
+    },
+    {
+      "target_id": "TN3K::test::0003",
+      "route_id": "c818a9dd48de69b79175d9a9",
+      "anchor_id": "TN3K::trainval::2859",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/c818a9dd48de69b79175d9a9.png",
+      "dice": 0.10959224208435565,
+      "iou": 0.05797280593325093
+    },
+    {
+      "target_id": "TN3K::test::0004",
+      "route_id": "e011797c65e016e88b49836e",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/e011797c65e016e88b49836e.png",
+      "dice": 0.0,
+      "iou": 0.0
+    },
+    {
+      "target_id": "TN3K::test::0005",
+      "route_id": "c26db3a749c16a6bd463c575",
+      "anchor_id": "TN3K::trainval::1746",
+      "bridge_count": 4,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/c26db3a749c16a6bd463c575.png",
+      "dice": 0.39388159342674783,
+      "iou": 0.2452382039921436
+    },
+    {
+      "target_id": "TN3K::test::0006",
+      "route_id": "ad47663a84cd033a539c26b2",
+      "anchor_id": "TN3K::trainval::1334",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/ad47663a84cd033a539c26b2.png",
+      "dice": 0.9155933475053145,
+      "iou": 0.8443265682656826
+    },
+    {
+      "target_id": "TN3K::test::0007",
+      "route_id": "6102dfd411f6e38016e82601",
+      "anchor_id": "TN3K::trainval::1334",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/6102dfd411f6e38016e82601.png",
+      "dice": 0.9263702658198071,
+      "iou": 0.8628396143733567
+    },
+    {
+      "target_id": "TN3K::test::0008",
+      "route_id": "4882a3a630f3f958a0dcb3c4",
+      "anchor_id": "TN3K::trainval::1334",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/4882a3a630f3f958a0dcb3c4.png",
+      "dice": 0.5023138409760202,
+      "iou": 0.33539325842696627
+    },
+    {
+      "target_id": "TN3K::test::0009",
+      "route_id": "0fba2562ba6899789b7aee2f",
+      "anchor_id": "TN3K::trainval::0854",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/0fba2562ba6899789b7aee2f.png",
+      "dice": 0.10173127775283142,
+      "iou": 0.05359161037663942
+    },
+    {
+      "target_id": "TN3K::test::0010",
+      "route_id": "db962e7b78a57c88e806e185",
+      "anchor_id": "TN3K::trainval::0116",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/db962e7b78a57c88e806e185.png",
+      "dice": 0.9407373615891843,
+      "iou": 0.8881058648500509
+    },
+    {
+      "target_id": "TN3K::test::0011",
+      "route_id": "81ab98d0aa34b649f783e628",
+      "anchor_id": "TN3K::trainval::2488",
+      "bridge_count": 4,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/81ab98d0aa34b649f783e628.png",
+      "dice": 0.3330747750542972,
+      "iou": 0.19981386691484412
+    },
+    {
+      "target_id": "TN3K::test::0012",
+      "route_id": "a5f33e3e1b7b5e8d3eab4f41",
+      "anchor_id": "TN3K::trainval::2488",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/a5f33e3e1b7b5e8d3eab4f41.png",
+      "dice": 0.2462674047978527,
+      "iou": 0.14042471781136406
+    },
+    {
+      "target_id": "TN3K::test::0013",
+      "route_id": "c3bf0fe653bdbdfbd73cb7eb",
+      "anchor_id": "TN3K::trainval::0213",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/c3bf0fe653bdbdfbd73cb7eb.png",
+      "dice": 0.0,
+      "iou": 0.0
+    },
+    {
+      "target_id": "TN3K::test::0014",
+      "route_id": "c506880f0127d35b6f62097a",
+      "anchor_id": "TN3K::trainval::1746",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/c506880f0127d35b6f62097a.png",
+      "dice": 0.9465264187866927,
+      "iou": 0.8984814006408768
+    },
+    {
+      "target_id": "TN3K::test::0015",
+      "route_id": "3a990fd84c4c90da0e5fe37d",
+      "anchor_id": "TN3K::trainval::2383",
+      "bridge_count": 2,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/3a990fd84c4c90da0e5fe37d.png",
+      "dice": 0.7040756054341406,
+      "iou": 0.5432999088422972
+    },
+    {
+      "target_id": "TN3K::test::0016",
+      "route_id": "6219991ede44300b1ec75860",
+      "anchor_id": "TN3K::trainval::1269",
+      "bridge_count": 2,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/6219991ede44300b1ec75860.png",
+      "dice": 0.7077568134171908,
+      "iou": 0.5476963011031798
+    },
+    {
+      "target_id": "TN3K::test::0017",
+      "route_id": "944add80718590ef2a4916f7",
+      "anchor_id": "TN3K::trainval::1269",
+      "bridge_count": 4,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/944add80718590ef2a4916f7.png",
+      "dice": 0.4733003999059045,
+      "iou": 0.31001540832049307
+    },
+    {
+      "target_id": "TN3K::test::0018",
+      "route_id": "89391a06612d1013773cffdf",
+      "anchor_id": "TN3K::trainval::0378",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/89391a06612d1013773cffdf.png",
+      "dice": 0.23090496596924628,
+      "iou": 0.1305215161014534
+    },
+    {
+      "target_id": "TN3K::test::0019",
+      "route_id": "4eb5b3d728cc80ed37f3fad1",
+      "anchor_id": "TN3K::trainval::2264",
+      "bridge_count": 2,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/4eb5b3d728cc80ed37f3fad1.png",
+      "dice": 0.7952987267384917,
+      "iou": 0.6601626016260163
+    },
+    {
+      "target_id": "TN3K::test::0020",
+      "route_id": "dcda0767259dc4fa8f850e52",
+      "anchor_id": "TN3K::trainval::0378",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/dcda0767259dc4fa8f850e52.png",
+      "dice": 0.018512019652570627,
+      "iou": 0.00934248394952402
+    },
+    {
+      "target_id": "TN3K::test::0021",
+      "route_id": "51fdcc7d49babf65416e2332",
+      "anchor_id": "TN3K::trainval::0116",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/51fdcc7d49babf65416e2332.png",
+      "dice": 0.9237396670159507,
+      "iou": 0.8582864560796192
+    },
+    {
+      "target_id": "TN3K::test::0022",
+      "route_id": "cd9b42a8e53883b73cc63377",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/cd9b42a8e53883b73cc63377.png",
+      "dice": 0.0,
+      "iou": 0.0
+    },
+    {
+      "target_id": "TN3K::test::0023",
+      "route_id": "bc2c4aadb65905fe30283da0",
+      "anchor_id": "TN3K::trainval::0378",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/bc2c4aadb65905fe30283da0.png",
+      "dice": 0.6419472247497725,
+      "iou": 0.4726968174204355
+    },
+    {
+      "target_id": "TN3K::test::0024",
+      "route_id": "5f001ea578f2aeb21f140e7a",
+      "anchor_id": "TN3K::trainval::1334",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/5f001ea578f2aeb21f140e7a.png",
+      "dice": 0.7803964179999251,
+      "iou": 0.6398771121351766
+    }
+  ],
+  "original_per_bridge": [
+    {
+      "target_id": "TN3K::test::0000",
+      "route_id": "38b586ae4786429c77e0634d",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/38b586ae4786429c77e0634d.png",
+      "dice": 0.9073529411764706,
+      "iou": 0.8304172274562585
+    },
+    {
+      "target_id": "TN3K::test::0001",
+      "route_id": "f74ea851147b3290662de599",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/f74ea851147b3290662de599.png",
+      "dice": 0.8409250175192712,
+      "iou": 0.7255139056831923
+    },
+    {
+      "target_id": "TN3K::test::0002",
+      "route_id": "1773e6df08c3f314fb41694b",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/1773e6df08c3f314fb41694b.png",
+      "dice": 0.7094386181369525,
+      "iou": 0.5497131931166348
+    },
+    {
+      "target_id": "TN3K::test::0003",
+      "route_id": "7e8a96ced7bbee8702c92941",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/7e8a96ced7bbee8702c92941.png",
+      "dice": 0.39321495883344904,
+      "iou": 0.2447215705642672
+    },
+    {
+      "target_id": "TN3K::test::0004",
+      "route_id": "96f63aabe77f90fbd711380a",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 2,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/96f63aabe77f90fbd711380a.png",
+      "dice": 0.7335243553008596,
+      "iou": 0.579185520361991
+    },
+    {
+      "target_id": "TN3K::test::0005",
+      "route_id": "170aca3a5877207300baaaa8",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/170aca3a5877207300baaaa8.png",
+      "dice": 0.8019501425811792,
+      "iou": 0.6693796068796068
+    },
+    {
+      "target_id": "TN3K::test::0006",
+      "route_id": "be08aec48977a3432559e831",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/be08aec48977a3432559e831.png",
+      "dice": 0.846497963544101,
+      "iou": 0.7338504283398934
+    },
+    {
+      "target_id": "TN3K::test::0007",
+      "route_id": "672bed4c46775ef89110663b",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 6,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/672bed4c46775ef89110663b.png",
+      "dice": 0.8989995235826584,
+      "iou": 0.8165296408481177
+    },
+    {
+      "target_id": "TN3K::test::0008",
+      "route_id": "82ea6fa098e1218114208fb9",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/82ea6fa098e1218114208fb9.png",
+      "dice": 0.7611592702807608,
+      "iou": 0.6144125326370757
+    },
+    {
+      "target_id": "TN3K::test::0009",
+      "route_id": "9158b694221e7228a295674b",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/9158b694221e7228a295674b.png",
+      "dice": 0.0009987062214858024,
+      "iou": 0.0004996025888497785
+    },
+    {
+      "target_id": "TN3K::test::0010",
+      "route_id": "6c2e2bba991739bea03c8866",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/6c2e2bba991739bea03c8866.png",
+      "dice": 0.9346424759871932,
+      "iou": 0.8773040551370412
+    },
+    {
+      "target_id": "TN3K::test::0011",
+      "route_id": "74aaa8bc77a2389e8839a349",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/74aaa8bc77a2389e8839a349.png",
+      "dice": 0.3076194983435873,
+      "iou": 0.18176733780760626
+    },
+    {
+      "target_id": "TN3K::test::0012",
+      "route_id": "9adcaff9efb9f5dc10d23988",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 4,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/9adcaff9efb9f5dc10d23988.png",
+      "dice": 0.23607591372416512,
+      "iou": 0.13383564267926698
+    },
+    {
+      "target_id": "TN3K::test::0013",
+      "route_id": "99cb168da86e88ae3e72d4ae",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 6,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/99cb168da86e88ae3e72d4ae.png",
+      "dice": 0.0,
+      "iou": 0.0
+    },
+    {
+      "target_id": "TN3K::test::0014",
+      "route_id": "513734005c031f0675cf1121",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/513734005c031f0675cf1121.png",
+      "dice": 0.5189948624750987,
+      "iou": 0.3504342080422881
+    },
+    {
+      "target_id": "TN3K::test::0015",
+      "route_id": "75e937eac3653b4351b237c4",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/75e937eac3653b4351b237c4.png",
+      "dice": 0.4942577626541897,
+      "iou": 0.3282485875706215
+    },
+    {
+      "target_id": "TN3K::test::0016",
+      "route_id": "0f559fb8b95b4b0277fa3c26",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/0f559fb8b95b4b0277fa3c26.png",
+      "dice": 0.5721120984278879,
+      "iou": 0.4006701771182384
+    },
+    {
+      "target_id": "TN3K::test::0017",
+      "route_id": "cd0e71c12d2cb0160c53e37d",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/cd0e71c12d2cb0160c53e37d.png",
+      "dice": 0.0,
+      "iou": 0.0
+    },
+    {
+      "target_id": "TN3K::test::0018",
+      "route_id": "4615332f3edb47703e10b2dd",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/4615332f3edb47703e10b2dd.png",
+      "dice": 0.20877998979070955,
+      "iou": 0.11655742376745512
+    },
+    {
+      "target_id": "TN3K::test::0019",
+      "route_id": "c27c227b296883194efdfbad",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 1,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/c27c227b296883194efdfbad.png",
+      "dice": 0.18817404239494237,
+      "iou": 0.10385878489326765
+    },
+    {
+      "target_id": "TN3K::test::0020",
+      "route_id": "e9f9f9dd2ed5b708e08f852f",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 5,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/e9f9f9dd2ed5b708e08f852f.png",
+      "dice": 0.7761129325060286,
+      "iou": 0.6341377020146115
+    },
+    {
+      "target_id": "TN3K::test::0021",
+      "route_id": "31e99c0025b365809317984f",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 2,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/31e99c0025b365809317984f.png",
+      "dice": 0.8855454380992582,
+      "iou": 0.7945998593149721
+    },
+    {
+      "target_id": "TN3K::test::0022",
+      "route_id": "1e7e050fc79a24d6a46eb09f",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 4,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/1e7e050fc79a24d6a46eb09f.png",
+      "dice": 0.0,
+      "iou": 0.0
+    },
+    {
+      "target_id": "TN3K::test::0023",
+      "route_id": "89e369a6ef0f864e588d02cf",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 0,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/89e369a6ef0f864e588d02cf.png",
+      "dice": 0.7293868921775899,
+      "iou": 0.5740432612312812
+    },
+    {
+      "target_id": "TN3K::test::0024",
+      "route_id": "55eb24aaa2cf3f6ce68cef62",
+      "anchor_id": "TN3K::trainval::1684",
+      "bridge_count": 3,
+      "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_test/forward_masks/55eb24aaa2cf3f6ce68cef62.png",
+      "dice": 0.39098190447938297,
+      "iou": 0.24299410029498525
+    }
+  ]
+}

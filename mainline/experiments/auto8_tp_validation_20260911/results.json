@@ -1,0 +1,92 @@
+{
+  "results": {
+    "original8": {
+      "n": 100,
+      "router_dice": 0.8519173153125927,
+      "oracle_dice": 0.869544177933916,
+      "fixed_bridge": {
+        "0": 0.7739718775532585,
+        "1": 0.8084102460722146,
+        "2": 0.8174283850517691,
+        "3": 0.8089742293210742,
+        "4": 0.811338078635233,
+        "5": 0.8200671275740347,
+        "6": 0.8424599558321753
+      },
+      "candidate_sources": {
+        "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 414,
+        "kvasir-seg::cju5cu8qkb84x08186jwo8yin": 56,
+        "kvasir-seg::cju34ymm8d6700799uop0cw33": 21,
+        "kvasir-seg::cju2pmhtr17a00855cvpelzb0": 55,
+        "kvasir-seg::cju7aklv31h4309871m29l4e7": 153,
+        "kvasir-seg::cju3v72v5h1qz0818fggilwtq": 1
+      },
+      "selected_sources": {
+        "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 59,
+        "kvasir-seg::cju5cu8qkb84x08186jwo8yin": 8,
+        "kvasir-seg::cju34ymm8d6700799uop0cw33": 3,
+        "kvasir-seg::cju2pmhtr17a00855cvpelzb0": 8,
+        "kvasir-seg::cju7aklv31h4309871m29l4e7": 22
+      },
+      "oracle_gap": 0.01762686262132329
+    },
+    "automatic8": {
+      "n": 100,
+      "router_dice": 0.8401540062710812,
+      "oracle_dice": 0.8893468079554735,
+      "fixed_bridge": {
+        "0": 0.7977768387518789,
+        "1": 0.8290164028363679,
+        "2": 0.8289084268690536,
+        "3": 0.8372399594494556,
+        "4": 0.8435080084310853,
+        "5": 0.8444150799109018,
+        "6": 0.8504795505492619
+      },
+      "candidate_sources": {
+        "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 213,
+        "kvasir-seg::cju2t62nq45jl0799odpufwx6": 86,
+        "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 163,
+        "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 35,
+        "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 58,
+        "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 135,
+        "kvasir-seg::cju3v664kh0px0818y4y7wolf": 3,
+        "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 7
+      },
+      "selected_sources": {
+        "kvasir-seg::cju2t62nq45jl0799odpufwx6": 16,
+        "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 23,
+        "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 5,
+        "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 8,
+        "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 28,
+        "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 19,
+        "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 1
+      },
+      "oracle_gap": 0.04919280168439233
+    }
+  },
+  "comparison": {
+    "selected_dice": {
+      "mean_delta": -0.011763309041511728,
+      "paired_bootstrap_95ci": [
+        -0.04863137614787442,
+        0.02435471510942156
+      ],
+      "wins": 33,
+      "losses": 51,
+      "ties": 16
+    },
+    "oracle_dice": {
+      "mean_delta": 0.019802630021557736,
+      "paired_bootstrap_95ci": [
+        -0.003072440123950262,
+        0.0471914925134809
+      ],
+      "wins": 37,
+      "losses": 47,
+      "ties": 16
+    }
+  },
+  "protocol": "val100 development comparison; frozen original router fitted on same val100; no test evaluation",
+  "verified_prediction_masks": 1400
+}

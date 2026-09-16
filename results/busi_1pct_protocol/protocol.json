@@ -1,0 +1,30 @@
+{
+  "dataset": "BUSI",
+  "labeled_count": 5,
+  "labeled_fraction": 0.009671179883945842,
+  "labeled_ids": [
+    "benign (3)",
+    "benign (125)",
+    "benign (305)",
+    "malignant (195)",
+    "malignant (187)"
+  ],
+  "labeled_images_are_symlinks": true,
+  "labeled_list": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/busi_1pct_protocol/busi_train1pct_labeled_images.txt",
+  "labeled_list_sha256": "4af7d0b3d54ed8bdcb60ba6abf8bd8981c69e2e89c78218eff3c5fa0d432d32c",
+  "labeled_source": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/busi_auto5_tp_1pct_20260913/SELECTED_SUPPORT_FROZEN.json",
+  "phase_dir_map": {
+    "test": "test",
+    "train": "train",
+    "validation": "val"
+  },
+  "prepared_data_root": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/busi_1pct_protocol/data",
+  "source_split_root": "/Data_8TB/lht/MK-UNet/BUSI/BUSI_split",
+  "source_split_rule": "Busi_split.py, random.seed(42), per-class 8:1:1, files copied",
+  "split": {
+    "test": 66,
+    "train": 517,
+    "validation": 64
+  },
+  "split_membership_changed": false
+}

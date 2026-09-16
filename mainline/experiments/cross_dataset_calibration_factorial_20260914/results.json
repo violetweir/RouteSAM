@@ -1,0 +1,1045 @@
+{
+  "kvasir": {
+    "dataset": "kvasir",
+    "counts": {
+      "ntrain": 800,
+      "nval": 100,
+      "ntest": 100,
+      "k": 8,
+      "val": "auto8_tp_validation_20260911",
+      "legacy_oof": 0.8513170057291387,
+      "legacy_test": 0.8713744761396023
+    },
+    "validation": {
+      "groups": {
+        "raw_top1": {
+          "candidates_per_target": 7,
+          "oof_dice": 0.8486379399849031,
+          "oracle_dice": 0.8899816351398424,
+          "oracle_gap": 0.0413436951549393,
+          "selected_anchors": {
+            "kvasir-seg::cju2t62nq45jl0799odpufwx6": 15,
+            "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 20,
+            "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 4,
+            "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 8,
+            "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 26,
+            "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 25,
+            "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 1,
+            "kvasir-seg::cju3v664kh0px0818y4y7wolf": 1
+          }
+        },
+        "centered_top1": {
+          "candidates_per_target": 7,
+          "oof_dice": 0.8529488946674111,
+          "oracle_dice": 0.906217568999707,
+          "oracle_gap": 0.05326867433229587,
+          "selected_anchors": {
+            "kvasir-seg::cju2t62nq45jl0799odpufwx6": 6,
+            "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 13,
+            "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 27,
+            "kvasir-seg::cju3v664kh0px0818y4y7wolf": 21,
+            "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 14,
+            "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 5,
+            "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 10,
+            "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 4
+          }
+        },
+        "raw_top2": {
+          "candidates_per_target": 14,
+          "oof_dice": 0.8467237924079172,
+          "oracle_dice": 0.926433133799911,
+          "oracle_gap": 0.07970934139199382,
+          "selected_anchors": {
+            "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 26,
+            "kvasir-seg::cju2t62nq45jl0799odpufwx6": 22,
+            "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 14,
+            "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 18,
+            "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 9,
+            "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 6,
+            "kvasir-seg::cju3v664kh0px0818y4y7wolf": 4,
+            "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 1
+          }
+        },
+        "centered_top2": {
+          "candidates_per_target": 14,
+          "oof_dice": 0.8537727173524907,
+          "oracle_dice": 0.9237568985108474,
+          "oracle_gap": 0.0699841811583567,
+          "selected_anchors": {
+            "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 14,
+            "kvasir-seg::cju2t62nq45jl0799odpufwx6": 8,
+            "kvasir-seg::cju3v664kh0px0818y4y7wolf": 27,
+            "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 9,
+            "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 8,
+            "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 8,
+            "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 10,
+            "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 16
+          }
+        },
+        "original_per_bridge": {
+          "candidates_per_target": 7,
+          "oof_dice": 0.8513170057291387,
+          "oracle_dice": 0.8893468079554735,
+          "oracle_gap": 0.038029802226334786,
+          "selected_anchors": {
+            "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 29,
+            "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 25,
+            "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 4,
+            "kvasir-seg::cju2t62nq45jl0799odpufwx6": 13,
+            "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 8,
+            "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 20,
+            "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 1
+          }
+        }
+      },
+      "paired_oof": {
+        "centered_top1_minus_raw_top1": {
+          "mean": 0.004310954682508152,
+          "ci95": [
+            -0.0302708164209719,
+            0.03826412863791218
+          ],
+          "improved": 48,
+          "worsened": 30
+        },
+        "centered_top2_minus_raw_top2": {
+          "mean": 0.007048924944573479,
+          "ci95": [
+            -0.028426023651950075,
+            0.040778499964388815
+          ],
+          "improved": 45,
+          "worsened": 24
+        },
+        "raw_top2_minus_raw_top1": {
+          "mean": -0.001914147576985855,
+          "ci95": [
+            -0.034593216650133395,
+            0.030049460839317862
+          ],
+          "improved": 37,
+          "worsened": 28
+        },
+        "centered_top2_minus_centered_top1": {
+          "mean": 0.0008238226850794694,
+          "ci95": [
+            -0.03266952968890227,
+            0.032000087701546026
+          ],
+          "improved": 31,
+          "worsened": 33
+        },
+        "centered_top2_minus_original_per_bridge": {
+          "mean": 0.002455711623351925,
+          "ci95": [
+            -0.03476068511962674,
+            0.0389124885144523
+          ],
+          "improved": 52,
+          "worsened": 29
+        },
+        "interaction": {
+          "mean": 0.00273797026206532,
+          "ci95": [
+            -0.03660677904904262,
+            0.040763570495820266
+          ]
+        }
+      }
+    },
+    "test": {
+      "raw_top1": {
+        "candidates_per_target": 7,
+        "dice": 0.8708478245043316,
+        "iou": 0.8086827950962159,
+        "oracle_dice": 0.9120168857161147,
+        "oracle_gap": 0.0411690612117831,
+        "selected_anchors": {
+          "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 34,
+          "kvasir-seg::cju2t62nq45jl0799odpufwx6": 17,
+          "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 16,
+          "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 5,
+          "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 20,
+          "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 6,
+          "kvasir-seg::cju3v664kh0px0818y4y7wolf": 2
+        },
+        "selected_bridges": {
+          "5": 21,
+          "6": 16,
+          "0": 24,
+          "3": 8,
+          "4": 5,
+          "1": 15,
+          "2": 11
+        },
+        "candidate_anchors": {
+          "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 238,
+          "kvasir-seg::cju2t62nq45jl0799odpufwx6": 119,
+          "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 112,
+          "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 35,
+          "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 140,
+          "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 42,
+          "kvasir-seg::cju3v664kh0px0818y4y7wolf": 14
+        },
+        "fixed_rank1_b0_b6": [
+          0.8008091088418823,
+          0.8578329729251577,
+          0.8583434459196485,
+          0.8636794497639768,
+          0.8750735513417729,
+          0.8655826016945827,
+          0.8871488985336139
+        ],
+        "historical_candidate_seconds_per_target_mean": 15.702469999999998
+      },
+      "centered_top1": {
+        "candidates_per_target": 7,
+        "dice": 0.8603306430620644,
+        "iou": 0.7993699157263842,
+        "oracle_dice": 0.906667484043834,
+        "oracle_gap": 0.0463368409817696,
+        "selected_anchors": {
+          "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 22,
+          "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 9,
+          "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 9,
+          "kvasir-seg::cju2t62nq45jl0799odpufwx6": 7,
+          "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 10,
+          "kvasir-seg::cju3v664kh0px0818y4y7wolf": 14,
+          "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 22,
+          "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 7
+        },
+        "selected_bridges": {
+          "4": 11,
+          "2": 19,
+          "6": 11,
+          "0": 13,
+          "1": 24,
+          "5": 12,
+          "3": 10
+        },
+        "candidate_anchors": {
+          "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 154,
+          "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 63,
+          "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 63,
+          "kvasir-seg::cju2t62nq45jl0799odpufwx6": 49,
+          "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 70,
+          "kvasir-seg::cju3v664kh0px0818y4y7wolf": 98,
+          "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 154,
+          "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 49
+        },
+        "fixed_rank1_b0_b6": [
+          0.7808051858453393,
+          0.831111068657914,
+          0.8443400421012494,
+          0.8433922012117762,
+          0.8611840801313985,
+          0.8503499709742107,
+          0.875165818776233
+        ],
+        "historical_candidate_seconds_per_target_mean": 15.702709999999998
+      },
+      "raw_top2": {
+        "candidates_per_target": 14,
+        "dice": 0.8912256154942634,
+        "iou": 0.8277543985222446,
+        "oracle_dice": 0.9328965584909419,
+        "oracle_gap": 0.041670942996678506,
+        "selected_anchors": {
+          "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 6,
+          "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 25,
+          "kvasir-seg::cju2t62nq45jl0799odpufwx6": 35,
+          "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 11,
+          "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 11,
+          "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 11,
+          "kvasir-seg::cju3v664kh0px0818y4y7wolf": 1
+        },
+        "selected_bridges": {
+          "6": 20,
+          "0": 8,
+          "4": 15,
+          "5": 20,
+          "2": 11,
+          "3": 14,
+          "1": 12
+        },
+        "candidate_anchors": {
+          "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 350,
+          "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 91,
+          "kvasir-seg::cju2t62nq45jl0799odpufwx6": 343,
+          "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 238,
+          "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 231,
+          "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 119,
+          "kvasir-seg::cju3v664kh0px0818y4y7wolf": 21,
+          "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 7
+        },
+        "fixed_rank1_b0_b6": [
+          0.8008091088418823,
+          0.8578329729251577,
+          0.8583434459196485,
+          0.8636794497639768,
+          0.8750735513417729,
+          0.8655826016945827,
+          0.8871488985336139
+        ],
+        "historical_candidate_seconds_per_target_mean": 31.469460000000005
+      },
+      "centered_top2": {
+        "candidates_per_target": 14,
+        "dice": 0.8627605745764568,
+        "iou": 0.7984917996610332,
+        "oracle_dice": 0.937542351233596,
+        "oracle_gap": 0.07478177665713914,
+        "selected_anchors": {
+          "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 16,
+          "kvasir-seg::cju2t62nq45jl0799odpufwx6": 15,
+          "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 12,
+          "kvasir-seg::cju3v664kh0px0818y4y7wolf": 24,
+          "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 5,
+          "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 13,
+          "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 4,
+          "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 11
+        },
+        "selected_bridges": {
+          "4": 10,
+          "6": 20,
+          "3": 20,
+          "2": 15,
+          "0": 9,
+          "5": 10,
+          "1": 16
+        },
+        "candidate_anchors": {
+          "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 196,
+          "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 273,
+          "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 133,
+          "kvasir-seg::cju2t62nq45jl0799odpufwx6": 175,
+          "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 161,
+          "kvasir-seg::cju3v664kh0px0818y4y7wolf": 196,
+          "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 119,
+          "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 147
+        },
+        "fixed_rank1_b0_b6": [
+          0.7808051858453393,
+          0.831111068657914,
+          0.8443400421012494,
+          0.8433922012117762,
+          0.8611840801313985,
+          0.8503499709742107,
+          0.875165818776233
+        ],
+        "historical_candidate_seconds_per_target_mean": 31.59525
+      },
+      "original_per_bridge": {
+        "candidates_per_target": 7,
+        "dice": 0.8713744761396023,
+        "iou": 0.8098095328321314,
+        "oracle_dice": 0.9176152734859528,
+        "oracle_gap": 0.04624079734635056,
+        "selected_anchors": {
+          "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 37,
+          "kvasir-seg::cju2t62nq45jl0799odpufwx6": 18,
+          "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 17,
+          "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 5,
+          "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 14,
+          "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 7,
+          "kvasir-seg::cju3v664kh0px0818y4y7wolf": 2
+        },
+        "selected_bridges": {
+          "5": 20,
+          "3": 18,
+          "6": 16,
+          "0": 19,
+          "4": 6,
+          "2": 12,
+          "1": 9
+        },
+        "candidate_anchors": {
+          "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 259,
+          "kvasir-seg::cju2t62nq45jl0799odpufwx6": 121,
+          "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 121,
+          "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 36,
+          "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 101,
+          "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 47,
+          "kvasir-seg::cju3v664kh0px0818y4y7wolf": 14,
+          "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 1
+        },
+        "fixed_rank1_b0_b6": [
+          0.804709753108419,
+          0.8638043068739126,
+          0.8583856496037491,
+          0.8625558643947872,
+          0.8747491095566025,
+          0.8653317015152764,
+          0.8870694610620593
+        ],
+        "historical_candidate_seconds_per_target_mean": 15.624439999999998
+      }
+    },
+    "paired_test": {
+      "centered_top1_minus_raw_top1": {
+        "mean": -0.010517181442267473,
+        "ci95": [
+          -0.03149354768557225,
+          0.00470241356453726
+        ],
+        "improved": 39,
+        "worsened": 27
+      },
+      "centered_top2_minus_raw_top2": {
+        "mean": -0.028465040917806245,
+        "ci95": [
+          -0.06583131575309498,
+          0.0045314313549393885
+        ],
+        "improved": 41,
+        "worsened": 30
+      },
+      "raw_top2_minus_raw_top1": {
+        "mean": 0.020377790989931387,
+        "ci95": [
+          -0.001077460771692149,
+          0.04705859586665675
+        ],
+        "improved": 40,
+        "worsened": 37
+      },
+      "centered_top2_minus_centered_top1": {
+        "mean": 0.002429931514392617,
+        "ci95": [
+          -0.02460359566109218,
+          0.0297779537316676
+        ],
+        "improved": 34,
+        "worsened": 37
+      },
+      "centered_top2_minus_original_per_bridge": {
+        "mean": -0.008613901563145527,
+        "ci95": [
+          -0.040066457332571345,
+          0.020608332668025444
+        ],
+        "improved": 44,
+        "worsened": 35
+      },
+      "interaction": {
+        "mean": -0.017947859475538768,
+        "ci95": [
+          -0.05317655497184926,
+          0.015024358043690372
+        ]
+      }
+    }
+  },
+  "isic2018": {
+    "dataset": "isic2018",
+    "counts": {
+      "ntrain": 2075,
+      "nval": 259,
+      "ntest": 260,
+      "k": 21,
+      "val": "isic2018_auto21_tp_validation_20260911",
+      "legacy_oof": 0.8623961438691973,
+      "legacy_test": 0.8665732155247388
+    },
+    "validation": {
+      "groups": {
+        "raw_top1": {
+          "candidates_per_target": 7,
+          "oof_dice": 0.8611626200855313,
+          "oracle_dice": 0.8866716577633742,
+          "oracle_gap": 0.02550903767784285,
+          "selected_anchors": {
+            "ISIC_0009252": 10,
+            "ISIC_0010023": 20,
+            "ISIC_0015206": 26,
+            "ISIC_0011129": 70,
+            "ISIC_0011229": 19,
+            "ISIC_0002453": 19,
+            "ISIC_0009941": 11,
+            "ISIC_0014829": 1,
+            "ISIC_0015995": 18,
+            "ISIC_0014026": 15,
+            "ISIC_0010360": 7,
+            "ISIC_0013410": 7,
+            "ISIC_0016048": 13,
+            "ISIC_0007788": 5,
+            "ISIC_0010263": 5,
+            "ISIC_0014438": 2,
+            "ISIC_0012453": 8,
+            "ISIC_0013458": 3
+          }
+        },
+        "centered_top1": {
+          "candidates_per_target": 7,
+          "oof_dice": 0.8769042694237135,
+          "oracle_dice": 0.9016351319815636,
+          "oracle_gap": 0.024730862557850175,
+          "selected_anchors": {
+            "ISIC_0014438": 30,
+            "ISIC_0009252": 9,
+            "ISIC_0010360": 20,
+            "ISIC_0010023": 17,
+            "ISIC_0009941": 12,
+            "ISIC_0013410": 23,
+            "ISIC_0014026": 11,
+            "ISIC_0001126": 8,
+            "ISIC_0011229": 17,
+            "ISIC_0016048": 44,
+            "ISIC_0002453": 4,
+            "ISIC_0010263": 7,
+            "ISIC_0015206": 6,
+            "ISIC_0011129": 4,
+            "ISIC_0007788": 2,
+            "ISIC_0013399": 13,
+            "ISIC_0015614": 6,
+            "ISIC_0012453": 14,
+            "ISIC_0013458": 6,
+            "ISIC_0014829": 6
+          }
+        },
+        "raw_top2": {
+          "candidates_per_target": 14,
+          "oof_dice": 0.8688542318029756,
+          "oracle_dice": 0.9037073817389404,
+          "oracle_gap": 0.03485314993596478,
+          "selected_anchors": {
+            "ISIC_0013458": 3,
+            "ISIC_0010023": 27,
+            "ISIC_0015206": 26,
+            "ISIC_0011129": 57,
+            "ISIC_0001126": 5,
+            "ISIC_0002453": 18,
+            "ISIC_0009941": 7,
+            "ISIC_0011229": 14,
+            "ISIC_0014829": 3,
+            "ISIC_0010360": 12,
+            "ISIC_0014026": 17,
+            "ISIC_0015995": 21,
+            "ISIC_0013410": 10,
+            "ISIC_0016048": 13,
+            "ISIC_0009252": 3,
+            "ISIC_0007788": 7,
+            "ISIC_0015614": 2,
+            "ISIC_0010263": 5,
+            "ISIC_0012453": 8,
+            "ISIC_0014438": 1
+          }
+        },
+        "centered_top2": {
+          "candidates_per_target": 14,
+          "oof_dice": 0.8809497931496718,
+          "oracle_dice": 0.9179477261025385,
+          "oracle_gap": 0.036997932952866686,
+          "selected_anchors": {
+            "ISIC_0013458": 10,
+            "ISIC_0009252": 7,
+            "ISIC_0010360": 32,
+            "ISIC_0001126": 5,
+            "ISIC_0010023": 22,
+            "ISIC_0002453": 8,
+            "ISIC_0014438": 25,
+            "ISIC_0009941": 10,
+            "ISIC_0011229": 7,
+            "ISIC_0016048": 27,
+            "ISIC_0015995": 1,
+            "ISIC_0014026": 11,
+            "ISIC_0010263": 14,
+            "ISIC_0015206": 7,
+            "ISIC_0011129": 12,
+            "ISIC_0013410": 28,
+            "ISIC_0007788": 4,
+            "ISIC_0013399": 10,
+            "ISIC_0012453": 12,
+            "ISIC_0014829": 4,
+            "ISIC_0015614": 3
+          }
+        },
+        "original_per_bridge": {
+          "candidates_per_target": 7,
+          "oof_dice": 0.8623961438691973,
+          "oracle_dice": 0.8874668158788606,
+          "oracle_gap": 0.025070672009663286,
+          "selected_anchors": {
+            "ISIC_0009252": 9,
+            "ISIC_0010023": 17,
+            "ISIC_0015206": 29,
+            "ISIC_0011129": 74,
+            "ISIC_0011229": 21,
+            "ISIC_0002453": 20,
+            "ISIC_0009941": 10,
+            "ISIC_0014829": 1,
+            "ISIC_0014026": 15,
+            "ISIC_0013410": 7,
+            "ISIC_0016048": 13,
+            "ISIC_0007788": 5,
+            "ISIC_0010360": 3,
+            "ISIC_0015995": 20,
+            "ISIC_0010263": 4,
+            "ISIC_0014438": 2,
+            "ISIC_0012453": 6,
+            "ISIC_0013458": 3
+          }
+        }
+      },
+      "paired_oof": {
+        "centered_top1_minus_raw_top1": {
+          "mean": 0.015741649338182395,
+          "ci95": [
+            0.0004170343943652673,
+            0.03180808142018383
+          ],
+          "improved": 127,
+          "worsened": 100
+        },
+        "centered_top2_minus_raw_top2": {
+          "mean": 0.012095561346696315,
+          "ci95": [
+            0.0008831190913731596,
+            0.024890328811141598
+          ],
+          "improved": 108,
+          "worsened": 97
+        },
+        "raw_top2_minus_raw_top1": {
+          "mean": 0.007691611717444327,
+          "ci95": [
+            -0.002028534818594373,
+            0.01807411363160982
+          ],
+          "improved": 81,
+          "worsened": 63
+        },
+        "centered_top2_minus_centered_top1": {
+          "mean": 0.00404552372595825,
+          "ci95": [
+            -0.0020219077755866104,
+            0.011855306673273197
+          ],
+          "improved": 69,
+          "worsened": 65
+        },
+        "centered_top2_minus_original_per_bridge": {
+          "mean": 0.018553649280474687,
+          "ci95": [
+            0.0048233910275660395,
+            0.03347474395782668
+          ],
+          "improved": 128,
+          "worsened": 100
+        },
+        "interaction": {
+          "mean": -0.003646087991486078,
+          "ci95": [
+            -0.015699078402316834,
+            0.008490842591093789
+          ]
+        }
+      }
+    },
+    "test": {
+      "raw_top1": {
+        "candidates_per_target": 7,
+        "dice": 0.868228248708629,
+        "iou": 0.7892783868198773,
+        "oracle_dice": 0.883608013109089,
+        "oracle_gap": 0.015379764400459961,
+        "selected_anchors": {
+          "ISIC_0010023": 24,
+          "ISIC_0009941": 16,
+          "ISIC_0010360": 11,
+          "ISIC_0011229": 21,
+          "ISIC_0015206": 20,
+          "ISIC_0011129": 66,
+          "ISIC_0015995": 24,
+          "ISIC_0002453": 14,
+          "ISIC_0007788": 7,
+          "ISIC_0009252": 12,
+          "ISIC_0016048": 7,
+          "ISIC_0014026": 5,
+          "ISIC_0010263": 8,
+          "ISIC_0012453": 10,
+          "ISIC_0013410": 10,
+          "ISIC_0014438": 1,
+          "ISIC_0013458": 1,
+          "ISIC_0015614": 1,
+          "ISIC_0014829": 2
+        },
+        "selected_bridges": {
+          "5": 29,
+          "2": 39,
+          "1": 43,
+          "4": 19,
+          "6": 59,
+          "0": 48,
+          "3": 23
+        },
+        "candidate_anchors": {
+          "ISIC_0010023": 168,
+          "ISIC_0009941": 112,
+          "ISIC_0010360": 77,
+          "ISIC_0011229": 147,
+          "ISIC_0015206": 140,
+          "ISIC_0011129": 462,
+          "ISIC_0015995": 168,
+          "ISIC_0002453": 98,
+          "ISIC_0007788": 49,
+          "ISIC_0009252": 84,
+          "ISIC_0016048": 49,
+          "ISIC_0014026": 35,
+          "ISIC_0010263": 56,
+          "ISIC_0012453": 70,
+          "ISIC_0013410": 70,
+          "ISIC_0014438": 7,
+          "ISIC_0013458": 7,
+          "ISIC_0015614": 7,
+          "ISIC_0014829": 14
+        },
+        "fixed_rank1_b0_b6": [
+          0.8371519191922075,
+          0.8543211126591733,
+          0.8592807747738563,
+          0.857000016360953,
+          0.8544980368616298,
+          0.8547565945822256,
+          0.8553613974995603
+        ],
+        "historical_candidate_seconds_per_target_mean": 20.28092692307692
+      },
+      "centered_top1": {
+        "candidates_per_target": 7,
+        "dice": 0.8717168075401444,
+        "iou": 0.7940936114335203,
+        "oracle_dice": 0.8905960458128793,
+        "oracle_gap": 0.018879238272734966,
+        "selected_anchors": {
+          "ISIC_0014438": 27,
+          "ISIC_0009941": 16,
+          "ISIC_0010360": 30,
+          "ISIC_0015614": 7,
+          "ISIC_0010023": 11,
+          "ISIC_0010263": 14,
+          "ISIC_0016048": 41,
+          "ISIC_0011229": 17,
+          "ISIC_0014026": 4,
+          "ISIC_0014829": 7,
+          "ISIC_0013399": 12,
+          "ISIC_0009252": 13,
+          "ISIC_0011129": 6,
+          "ISIC_0002453": 5,
+          "ISIC_0013410": 17,
+          "ISIC_0007788": 2,
+          "ISIC_0013458": 7,
+          "ISIC_0015206": 6,
+          "ISIC_0001126": 4,
+          "ISIC_0012453": 14
+        },
+        "selected_bridges": {
+          "1": 41,
+          "5": 46,
+          "4": 26,
+          "6": 53,
+          "0": 39,
+          "2": 31,
+          "3": 24
+        },
+        "candidate_anchors": {
+          "ISIC_0014438": 189,
+          "ISIC_0009941": 112,
+          "ISIC_0010360": 210,
+          "ISIC_0015614": 49,
+          "ISIC_0010023": 77,
+          "ISIC_0010263": 98,
+          "ISIC_0016048": 287,
+          "ISIC_0011229": 119,
+          "ISIC_0014026": 28,
+          "ISIC_0014829": 49,
+          "ISIC_0013399": 84,
+          "ISIC_0009252": 91,
+          "ISIC_0011129": 42,
+          "ISIC_0002453": 35,
+          "ISIC_0013410": 119,
+          "ISIC_0007788": 14,
+          "ISIC_0013458": 49,
+          "ISIC_0015206": 42,
+          "ISIC_0001126": 28,
+          "ISIC_0012453": 98
+        },
+        "fixed_rank1_b0_b6": [
+          0.8477608470045201,
+          0.8690599245494083,
+          0.8617505049679215,
+          0.8641913287457172,
+          0.8669227660495682,
+          0.8617927181941333,
+          0.867181722800046
+        ],
+        "historical_candidate_seconds_per_target_mean": 20.919484615384615
+      },
+      "raw_top2": {
+        "candidates_per_target": 14,
+        "dice": 0.8692759112811891,
+        "iou": 0.7934863606373092,
+        "oracle_dice": 0.9038811239884121,
+        "oracle_gap": 0.034605212707223054,
+        "selected_anchors": {
+          "ISIC_0010023": 28,
+          "ISIC_0009941": 11,
+          "ISIC_0010360": 17,
+          "ISIC_0015206": 26,
+          "ISIC_0011129": 51,
+          "ISIC_0015995": 28,
+          "ISIC_0007788": 8,
+          "ISIC_0002453": 13,
+          "ISIC_0014438": 2,
+          "ISIC_0011229": 11,
+          "ISIC_0013458": 4,
+          "ISIC_0016048": 8,
+          "ISIC_0009252": 6,
+          "ISIC_0014026": 5,
+          "ISIC_0010263": 13,
+          "ISIC_0014829": 4,
+          "ISIC_0001126": 4,
+          "ISIC_0013410": 10,
+          "ISIC_0012453": 10,
+          "ISIC_0015614": 1
+        },
+        "selected_bridges": {
+          "6": 57,
+          "2": 41,
+          "1": 37,
+          "5": 40,
+          "3": 17,
+          "4": 34,
+          "0": 34
+        },
+        "candidate_anchors": {
+          "ISIC_0010023": 301,
+          "ISIC_0014829": 70,
+          "ISIC_0009941": 196,
+          "ISIC_0011229": 427,
+          "ISIC_0010360": 140,
+          "ISIC_0011129": 679,
+          "ISIC_0015206": 308,
+          "ISIC_0015614": 14,
+          "ISIC_0015995": 322,
+          "ISIC_0007788": 84,
+          "ISIC_0002453": 154,
+          "ISIC_0014026": 91,
+          "ISIC_0014438": 21,
+          "ISIC_0013410": 140,
+          "ISIC_0009252": 196,
+          "ISIC_0013458": 35,
+          "ISIC_0016048": 63,
+          "ISIC_0010263": 133,
+          "ISIC_0001126": 112,
+          "ISIC_0012453": 147,
+          "ISIC_0013399": 7
+        },
+        "fixed_rank1_b0_b6": [
+          0.8371519191922075,
+          0.8543211126591733,
+          0.8592807747738563,
+          0.857000016360953,
+          0.8544980368616298,
+          0.8547565945822256,
+          0.8553613974995603
+        ],
+        "historical_candidate_seconds_per_target_mean": 41.22323076923077
+      },
+      "centered_top2": {
+        "candidates_per_target": 14,
+        "dice": 0.8758639479154392,
+        "iou": 0.801265989016889,
+        "oracle_dice": 0.9119085903392965,
+        "oracle_gap": 0.0360446424238573,
+        "selected_anchors": {
+          "ISIC_0014438": 24,
+          "ISIC_0009941": 13,
+          "ISIC_0010360": 38,
+          "ISIC_0010023": 14,
+          "ISIC_0016048": 22,
+          "ISIC_0010263": 15,
+          "ISIC_0001126": 3,
+          "ISIC_0013410": 20,
+          "ISIC_0015206": 12,
+          "ISIC_0011229": 7,
+          "ISIC_0011129": 10,
+          "ISIC_0007788": 8,
+          "ISIC_0013399": 15,
+          "ISIC_0009252": 12,
+          "ISIC_0002453": 8,
+          "ISIC_0013458": 8,
+          "ISIC_0014026": 5,
+          "ISIC_0012453": 20,
+          "ISIC_0015995": 1,
+          "ISIC_0014829": 4,
+          "ISIC_0015614": 1
+        },
+        "selected_bridges": {
+          "1": 40,
+          "5": 47,
+          "4": 25,
+          "6": 55,
+          "0": 38,
+          "3": 21,
+          "2": 34
+        },
+        "candidate_anchors": {
+          "ISIC_0014438": 238,
+          "ISIC_0010023": 182,
+          "ISIC_0009941": 203,
+          "ISIC_0015614": 147,
+          "ISIC_0010360": 371,
+          "ISIC_0011229": 259,
+          "ISIC_0016048": 420,
+          "ISIC_0010263": 175,
+          "ISIC_0013410": 238,
+          "ISIC_0001126": 133,
+          "ISIC_0014026": 84,
+          "ISIC_0011129": 119,
+          "ISIC_0015206": 84,
+          "ISIC_0014829": 77,
+          "ISIC_0007788": 63,
+          "ISIC_0013399": 175,
+          "ISIC_0009252": 252,
+          "ISIC_0002453": 98,
+          "ISIC_0013458": 133,
+          "ISIC_0012453": 175,
+          "ISIC_0015995": 14
+        },
+        "fixed_rank1_b0_b6": [
+          0.8477608470045201,
+          0.8690599245494083,
+          0.8617505049679215,
+          0.8641913287457172,
+          0.8669227660495682,
+          0.8617927181941333,
+          0.867181722800046
+        ],
+        "historical_candidate_seconds_per_target_mean": 41.867823076923074
+      },
+      "original_per_bridge": {
+        "candidates_per_target": 7,
+        "dice": 0.8665732155247388,
+        "iou": 0.7879291359006731,
+        "oracle_dice": 0.8843160653473487,
+        "oracle_gap": 0.017742849822609985,
+        "selected_anchors": {
+          "ISIC_0010023": 21,
+          "ISIC_0011229": 27,
+          "ISIC_0010360": 8,
+          "ISIC_0015206": 25,
+          "ISIC_0011129": 61,
+          "ISIC_0009941": 14,
+          "ISIC_0015995": 28,
+          "ISIC_0002453": 14,
+          "ISIC_0007788": 5,
+          "ISIC_0009252": 13,
+          "ISIC_0016048": 7,
+          "ISIC_0014026": 6,
+          "ISIC_0010263": 8,
+          "ISIC_0014829": 3,
+          "ISIC_0012453": 7,
+          "ISIC_0013410": 10,
+          "ISIC_0014438": 1,
+          "ISIC_0013458": 1,
+          "ISIC_0015614": 1
+        },
+        "selected_bridges": {
+          "6": 50,
+          "1": 45,
+          "4": 22,
+          "5": 31,
+          "0": 41,
+          "3": 29,
+          "2": 42
+        },
+        "candidate_anchors": {
+          "ISIC_0010023": 144,
+          "ISIC_0011229": 196,
+          "ISIC_0010360": 55,
+          "ISIC_0015206": 163,
+          "ISIC_0009941": 101,
+          "ISIC_0011129": 440,
+          "ISIC_0015995": 189,
+          "ISIC_0002453": 96,
+          "ISIC_0007788": 35,
+          "ISIC_0009252": 102,
+          "ISIC_0016048": 44,
+          "ISIC_0014026": 42,
+          "ISIC_0010263": 56,
+          "ISIC_0014829": 16,
+          "ISIC_0013410": 71,
+          "ISIC_0012453": 49,
+          "ISIC_0014438": 7,
+          "ISIC_0013458": 7,
+          "ISIC_0015614": 7
+        },
+        "fixed_rank1_b0_b6": [
+          0.8374214319912613,
+          0.853724460174534,
+          0.8566432661960216,
+          0.8549481966012118,
+          0.8522807705404434,
+          0.8519271938734494,
+          0.8528641678760884
+        ],
+        "historical_candidate_seconds_per_target_mean": 20.35302692307692
+      }
+    },
+    "paired_test": {
+      "centered_top1_minus_raw_top1": {
+        "mean": 0.003488558831515405,
+        "ci95": [
+          -0.0076849098511281395,
+          0.01467583402712695
+        ],
+        "improved": 128,
+        "worsened": 91
+      },
+      "centered_top2_minus_raw_top2": {
+        "mean": 0.006588036634250216,
+        "ci95": [
+          -0.0035812793624699552,
+          0.018562739497751685
+        ],
+        "improved": 119,
+        "worsened": 73
+      },
+      "raw_top2_minus_raw_top1": {
+        "mean": 0.0010476625725600716,
+        "ci95": [
+          -0.012279265724789929,
+          0.01309299752627531
+        ],
+        "improved": 84,
+        "worsened": 56
+      },
+      "centered_top2_minus_centered_top1": {
+        "mean": 0.004147140375294887,
+        "ci95": [
+          -0.006658269497354716,
+          0.014841526017771368
+        ],
+        "improved": 81,
+        "worsened": 59
+      },
+      "centered_top2_minus_original_per_bridge": {
+        "mean": 0.009290732390700562,
+        "ci95": [
+          -0.0010387809289802781,
+          0.019630539187268484
+        ],
+        "improved": 141,
+        "worsened": 80
+      },
+      "interaction": {
+        "mean": 0.003099477802734812,
+        "ci95": [
+          -0.010321325061084703,
+          0.017578757420008
+        ]
+      }
+    }
+  }
+}

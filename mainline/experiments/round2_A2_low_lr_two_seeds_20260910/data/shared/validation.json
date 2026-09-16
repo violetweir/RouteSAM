@@ -1,0 +1,602 @@
+[
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju0s2a9ekvms080138tjjpxr.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju0s2a9ekvms080138tjjpxr.png",
+    "merged_id": "kvasir-seg::cju0s2a9ekvms080138tjjpxr",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju1cj3f0qi5n0993ut8f49rj.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju1cj3f0qi5n0993ut8f49rj.png",
+    "merged_id": "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju1csmlc4ht10799b8ymmghg.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju1csmlc4ht10799b8ymmghg.png",
+    "merged_id": "kvasir-seg::cju1csmlc4ht10799b8ymmghg",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju1cu1u2474n0878tt7v4tdr.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju1cu1u2474n0878tt7v4tdr.png",
+    "merged_id": "kvasir-seg::cju1cu1u2474n0878tt7v4tdr",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju1d96gsv62d09881b3wecw2.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju1d96gsv62d09881b3wecw2.png",
+    "merged_id": "kvasir-seg::cju1d96gsv62d09881b3wecw2",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju1djtprvd7b0988thwwrg09.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju1djtprvd7b0988thwwrg09.png",
+    "merged_id": "kvasir-seg::cju1djtprvd7b0988thwwrg09",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju1euuc65wm00799m4sjdnnn.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju1euuc65wm00799m4sjdnnn.png",
+    "merged_id": "kvasir-seg::cju1euuc65wm00799m4sjdnnn",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju1ewnoh5z030855vpex9uzt.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju1ewnoh5z030855vpex9uzt.png",
+    "merged_id": "kvasir-seg::cju1ewnoh5z030855vpex9uzt",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju1fmsyf6gxb0801cimx2gle.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju1fmsyf6gxb0801cimx2gle.png",
+    "merged_id": "kvasir-seg::cju1fmsyf6gxb0801cimx2gle",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju1fyb1d69et0878muzdak9u.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju1fyb1d69et0878muzdak9u.png",
+    "merged_id": "kvasir-seg::cju1fyb1d69et0878muzdak9u",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju2htabevq9108015qjei0x7.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju2htabevq9108015qjei0x7.png",
+    "merged_id": "kvasir-seg::cju2htabevq9108015qjei0x7",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju2nyc5f02m40801ojqbtiea.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju2nyc5f02m40801ojqbtiea.png",
+    "merged_id": "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju2pag1f0s4r0878h52uq83s.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju2pag1f0s4r0878h52uq83s.png",
+    "merged_id": "kvasir-seg::cju2pag1f0s4r0878h52uq83s",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju2qfie4rvz508357kad9z5o.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju2qfie4rvz508357kad9z5o.png",
+    "merged_id": "kvasir-seg::cju2qfie4rvz508357kad9z5o",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju2t2ivz43i10878zeg8r1br.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju2t2ivz43i10878zeg8r1br.png",
+    "merged_id": "kvasir-seg::cju2t2ivz43i10878zeg8r1br",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju2tzypl4wss0799ow05oxb9.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju2tzypl4wss0799ow05oxb9.png",
+    "merged_id": "kvasir-seg::cju2tzypl4wss0799ow05oxb9",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju2uzabhs6er0993x3aaf87p.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju2uzabhs6er0993x3aaf87p.png",
+    "merged_id": "kvasir-seg::cju2uzabhs6er0993x3aaf87p",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju2wve9v7esz0878mxsdcy04.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju2wve9v7esz0878mxsdcy04.png",
+    "merged_id": "kvasir-seg::cju2wve9v7esz0878mxsdcy04",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju2y26c588bo07993ksd8eoz.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju2y26c588bo07993ksd8eoz.png",
+    "merged_id": "kvasir-seg::cju2y26c588bo07993ksd8eoz",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju2yi9tz8vky0801yqip0xyl.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju2yi9tz8vky0801yqip0xyl.png",
+    "merged_id": "kvasir-seg::cju2yi9tz8vky0801yqip0xyl",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju2zo0fwzv580988qlijd2xa.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju2zo0fwzv580988qlijd2xa.png",
+    "merged_id": "kvasir-seg::cju2zo0fwzv580988qlijd2xa",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju2zpw4q9vzr0801p0lysjdl.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju2zpw4q9vzr0801p0lysjdl.png",
+    "merged_id": "kvasir-seg::cju2zpw4q9vzr0801p0lysjdl",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju303j5r062k098835zxfds5.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju303j5r062k098835zxfds5.png",
+    "merged_id": "kvasir-seg::cju303j5r062k098835zxfds5",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju30mm25a53s0799qa5wiqe8.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju30mm25a53s0799qa5wiqe8.png",
+    "merged_id": "kvasir-seg::cju30mm25a53s0799qa5wiqe8",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju3128yi0rpu0988o4oo5n8n.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju3128yi0rpu0988o4oo5n8n.png",
+    "merged_id": "kvasir-seg::cju3128yi0rpu0988o4oo5n8n",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju32qr9tbvsj08013pkpjenq.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju32qr9tbvsj08013pkpjenq.png",
+    "merged_id": "kvasir-seg::cju32qr9tbvsj08013pkpjenq",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju32srle1xfq083575i3fl75.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju32srle1xfq083575i3fl75.png",
+    "merged_id": "kvasir-seg::cju32srle1xfq083575i3fl75",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju33x0f22peh0988g0ln7w5v.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju33x0f22peh0988g0ln7w5v.png",
+    "merged_id": "kvasir-seg::cju33x0f22peh0988g0ln7w5v",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju34fojcctcf0799ebolbvkn.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju34fojcctcf0799ebolbvkn.png",
+    "merged_id": "kvasir-seg::cju34fojcctcf0799ebolbvkn",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju358pwtdby20878cg7nm0np.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju358pwtdby20878cg7nm0np.png",
+    "merged_id": "kvasir-seg::cju358pwtdby20878cg7nm0np",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju35fxqyzt5p0993vusm54qz.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju35fxqyzt5p0993vusm54qz.png",
+    "merged_id": "kvasir-seg::cju35fxqyzt5p0993vusm54qz",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju3tx1qyg0c907552fglumhc.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju3tx1qyg0c907552fglumhc.png",
+    "merged_id": "kvasir-seg::cju3tx1qyg0c907552fglumhc",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju3u39fog1bo0871lxjrabks.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju3u39fog1bo0871lxjrabks.png",
+    "merged_id": "kvasir-seg::cju3u39fog1bo0871lxjrabks",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju3x2s11ibzi0817kk284k0j.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju3x2s11ibzi0817kk284k0j.png",
+    "merged_id": "kvasir-seg::cju3x2s11ibzi0817kk284k0j",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju3xjqtpikx50817tppy6g84.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju3xjqtpikx50817tppy6g84.png",
+    "merged_id": "kvasir-seg::cju3xjqtpikx50817tppy6g84",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju3xwpgviwlx0871rwm15q7v.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju3xwpgviwlx0871rwm15q7v.png",
+    "merged_id": "kvasir-seg::cju3xwpgviwlx0871rwm15q7v",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju3xzvnzj0hd0755xprz39nj.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju3xzvnzj0hd0755xprz39nj.png",
+    "merged_id": "kvasir-seg::cju3xzvnzj0hd0755xprz39nj",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju3yht87j83m08507yk1u1fg.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju3yht87j83m08507yk1u1fg.png",
+    "merged_id": "kvasir-seg::cju3yht87j83m08507yk1u1fg",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju42g865lorv07552ytz6xxa.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju42g865lorv07552ytz6xxa.png",
+    "merged_id": "kvasir-seg::cju42g865lorv07552ytz6xxa",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju42nm68lpyo0818xvvqmupq.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju42nm68lpyo0818xvvqmupq.png",
+    "merged_id": "kvasir-seg::cju42nm68lpyo0818xvvqmupq",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju42romflni20817etb9a0fl.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju42romflni20817etb9a0fl.png",
+    "merged_id": "kvasir-seg::cju42romflni20817etb9a0fl",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju45n0oxn5vu08500yfrt9jn.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju45n0oxn5vu08500yfrt9jn.png",
+    "merged_id": "kvasir-seg::cju45n0oxn5vu08500yfrt9jn",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju45rj7ln8980850a7821fov.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju45rj7ln8980850a7821fov.png",
+    "merged_id": "kvasir-seg::cju45rj7ln8980850a7821fov",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju45ty6zn9oz0850qy4qnck1.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju45ty6zn9oz0850qy4qnck1.png",
+    "merged_id": "kvasir-seg::cju45ty6zn9oz0850qy4qnck1",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju5bbtwsa8cl0987wgfsqpao.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju5bbtwsa8cl0987wgfsqpao.png",
+    "merged_id": "kvasir-seg::cju5bbtwsa8cl0987wgfsqpao",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju5bycdkalkb09875f7bfrvx.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju5bycdkalkb09875f7bfrvx.png",
+    "merged_id": "kvasir-seg::cju5bycdkalkb09875f7bfrvx",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju5cjh3xattc0817j2vbulzi.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju5cjh3xattc0817j2vbulzi.png",
+    "merged_id": "kvasir-seg::cju5cjh3xattc0817j2vbulzi",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju5ekty5ckzf07550c9u3ckk.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju5ekty5ckzf07550c9u3ckk.png",
+    "merged_id": "kvasir-seg::cju5ekty5ckzf07550c9u3ckk",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju5ew4h9cqaf0818rrczkmqh.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju5ew4h9cqaf0818rrczkmqh.png",
+    "merged_id": "kvasir-seg::cju5ew4h9cqaf0818rrczkmqh",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju5fi0yxd3ei0801v7u0yudn.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju5fi0yxd3ei0801v7u0yudn.png",
+    "merged_id": "kvasir-seg::cju5fi0yxd3ei0801v7u0yudn",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju5gucasds9d0801019axylx.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju5gucasds9d0801019axylx.png",
+    "merged_id": "kvasir-seg::cju5gucasds9d0801019axylx",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju5hl8nee8a40755fm8qjj0o.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju5hl8nee8a40755fm8qjj0o.png",
+    "merged_id": "kvasir-seg::cju5hl8nee8a40755fm8qjj0o",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju5hyi9yegob0755ho3do8en.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju5hyi9yegob0755ho3do8en.png",
+    "merged_id": "kvasir-seg::cju5hyi9yegob0755ho3do8en",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju5i39mreass0817au8p22zy.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju5i39mreass0817au8p22zy.png",
+    "merged_id": "kvasir-seg::cju5i39mreass0817au8p22zy",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju5k3j3uf6de0817hszzfr7n.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju5k3j3uf6de0817hszzfr7n.png",
+    "merged_id": "kvasir-seg::cju5k3j3uf6de0817hszzfr7n",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju5klveuff6w0871wbibgh3m.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju5klveuff6w0871wbibgh3m.png",
+    "merged_id": "kvasir-seg::cju5klveuff6w0871wbibgh3m",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju5u8gz4kj5b07552e2wpkwp.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju5u8gz4kj5b07552e2wpkwp.png",
+    "merged_id": "kvasir-seg::cju5u8gz4kj5b07552e2wpkwp",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju5vutu7ll8w0871dfp92n9p.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju5vutu7ll8w0871dfp92n9p.png",
+    "merged_id": "kvasir-seg::cju5vutu7ll8w0871dfp92n9p",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju5wcc90lu020850mjrxppv6.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju5wcc90lu020850mjrxppv6.png",
+    "merged_id": "kvasir-seg::cju5wcc90lu020850mjrxppv6",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju5x7iskmad90818frchyfwd.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju5x7iskmad90818frchyfwd.png",
+    "merged_id": "kvasir-seg::cju5x7iskmad90818frchyfwd",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju5yimthmlv80850zhoc90c2.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju5yimthmlv80850zhoc90c2.png",
+    "merged_id": "kvasir-seg::cju5yimthmlv80850zhoc90c2",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju6uy20suzbl0987rzuhz7z9.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju6uy20suzbl0987rzuhz7z9.png",
+    "merged_id": "kvasir-seg::cju6uy20suzbl0987rzuhz7z9",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju6vgdmivcvb08018fra5lnv.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju6vgdmivcvb08018fra5lnv.png",
+    "merged_id": "kvasir-seg::cju6vgdmivcvb08018fra5lnv",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju6vifjlv55z0987un6y4zdo.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju6vifjlv55z0987un6y4zdo.png",
+    "merged_id": "kvasir-seg::cju6vifjlv55z0987un6y4zdo",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju6vqarjv7yo0987q4b1btk1.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju6vqarjv7yo0987q4b1btk1.png",
+    "merged_id": "kvasir-seg::cju6vqarjv7yo0987q4b1btk1",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju6wuojavt740818b5qcv3iw.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju6wuojavt740818b5qcv3iw.png",
+    "merged_id": "kvasir-seg::cju6wuojavt740818b5qcv3iw",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju6x35ervu2808015c7eoqe4.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju6x35ervu2808015c7eoqe4.png",
+    "merged_id": "kvasir-seg::cju6x35ervu2808015c7eoqe4",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju6x97w4vwua0850x0997r0a.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju6x97w4vwua0850x0997r0a.png",
+    "merged_id": "kvasir-seg::cju6x97w4vwua0850x0997r0a",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju6xlygpw7bs0818n691jsq4.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju6xlygpw7bs0818n691jsq4.png",
+    "merged_id": "kvasir-seg::cju6xlygpw7bs0818n691jsq4",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju77u1sjz77b0817ft44r3fk.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju77u1sjz77b0817ft44r3fk.png",
+    "merged_id": "kvasir-seg::cju77u1sjz77b0817ft44r3fk",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju7afqon1ip40850ue2308b6.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju7afqon1ip40850ue2308b6.png",
+    "merged_id": "kvasir-seg::cju7afqon1ip40850ue2308b6",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju7agj961l2r0818z29iq8yn.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju7agj961l2r0818z29iq8yn.png",
+    "merged_id": "kvasir-seg::cju7agj961l2r0818z29iq8yn",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju7ap09p1kz10850ldccjebj.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju7ap09p1kz10850ldccjebj.png",
+    "merged_id": "kvasir-seg::cju7ap09p1kz10850ldccjebj",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju7atnm31if40817pqclnjer.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju7atnm31if40817pqclnjer.png",
+    "merged_id": "kvasir-seg::cju7atnm31if40817pqclnjer",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju7b1ygu1msd0801hywhy0mc.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju7b1ygu1msd0801hywhy0mc.png",
+    "merged_id": "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju7bd1qu1mx409877xjxibox.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju7bd1qu1mx409877xjxibox.png",
+    "merged_id": "kvasir-seg::cju7bd1qu1mx409877xjxibox",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju7cufm7298k0755j09uf3of.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju7cufm7298k0755j09uf3of.png",
+    "merged_id": "kvasir-seg::cju7cufm7298k0755j09uf3of",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju7dda8w2br20818zhsuz8s7.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju7dda8w2br20818zhsuz8s7.png",
+    "merged_id": "kvasir-seg::cju7dda8w2br20818zhsuz8s7",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju7ehljc2or70871261br8ai.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju7ehljc2or70871261br8ai.png",
+    "merged_id": "kvasir-seg::cju7ehljc2or70871261br8ai",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju7ekbo32pft0871fv7kzwb9.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju7ekbo32pft0871fv7kzwb9.png",
+    "merged_id": "kvasir-seg::cju7ekbo32pft0871fv7kzwb9",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju7eotqi2qea0871y8yc7tqh.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju7eotqi2qea0871y8yc7tqh.png",
+    "merged_id": "kvasir-seg::cju7eotqi2qea0871y8yc7tqh",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju7ez7r22qbc08015xfoz2wb.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju7ez7r22qbc08015xfoz2wb.png",
+    "merged_id": "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju7f0ec32txj08184asb8w5f.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju7f0ec32txj08184asb8w5f.png",
+    "merged_id": "kvasir-seg::cju7f0ec32txj08184asb8w5f",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju7fbndk2sl608015ravktum.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju7fbndk2sl608015ravktum.png",
+    "merged_id": "kvasir-seg::cju7fbndk2sl608015ravktum",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju849c23kgnk0817cgv2hw1e.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju849c23kgnk0817cgv2hw1e.png",
+    "merged_id": "kvasir-seg::cju849c23kgnk0817cgv2hw1e",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju858eswlepn0871pzvdrhj1.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju858eswlepn0871pzvdrhj1.png",
+    "merged_id": "kvasir-seg::cju858eswlepn0871pzvdrhj1",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju85a8h8llwm07559wxg4t5w.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju85a8h8llwm07559wxg4t5w.png",
+    "merged_id": "kvasir-seg::cju85a8h8llwm07559wxg4t5w",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju85rkbnlo1c08503uxcpax1.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju85rkbnlo1c08503uxcpax1.png",
+    "merged_id": "kvasir-seg::cju85rkbnlo1c08503uxcpax1",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju87li0zn3yb0817kbwgjiz8.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju87li0zn3yb0817kbwgjiz8.png",
+    "merged_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju87r56lnkyp0755hz30leew.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju87r56lnkyp0755hz30leew.png",
+    "merged_id": "kvasir-seg::cju87r56lnkyp0755hz30leew",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju88itqbny720987hxizbj5y.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju88itqbny720987hxizbj5y.png",
+    "merged_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju88oh0po9gq0801nge4tgr1.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju88oh0po9gq0801nge4tgr1.png",
+    "merged_id": "kvasir-seg::cju88oh0po9gq0801nge4tgr1",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju88y1mwoln50871emyfny1g.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju88y1mwoln50871emyfny1g.png",
+    "merged_id": "kvasir-seg::cju88y1mwoln50871emyfny1g",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju8aeei7q8k308173n9y4klv.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju8aeei7q8k308173n9y4klv.png",
+    "merged_id": "kvasir-seg::cju8aeei7q8k308173n9y4klv",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju8alhigqn2h0801zksudldd.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju8alhigqn2h0801zksudldd.png",
+    "merged_id": "kvasir-seg::cju8alhigqn2h0801zksudldd",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju8at3s1qqqx0850hcq8nmnq.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju8at3s1qqqx0850hcq8nmnq.png",
+    "merged_id": "kvasir-seg::cju8at3s1qqqx0850hcq8nmnq",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju8bw697rwg308177tg8huas.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju8bw697rwg308177tg8huas.png",
+    "merged_id": "kvasir-seg::cju8bw697rwg308177tg8huas",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju8chdlqsu620755azjty1tj.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju8chdlqsu620755azjty1tj.png",
+    "merged_id": "kvasir-seg::cju8chdlqsu620755azjty1tj",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju8cwy02t9eq08185qn12c02.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju8cwy02t9eq08185qn12c02.png",
+    "merged_id": "kvasir-seg::cju8cwy02t9eq08185qn12c02",
+    "source_dataset": "kvasir-seg"
+  },
+  {
+    "file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/images/cju8d2q30tfhs0801n7lx77xl.png",
+    "mask_file_name": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/validation/masks/cju8d2q30tfhs0801n7lx77xl.png",
+    "merged_id": "kvasir-seg::cju8d2q30tfhs0801n7lx77xl",
+    "source_dataset": "kvasir-seg"
+  }
+]

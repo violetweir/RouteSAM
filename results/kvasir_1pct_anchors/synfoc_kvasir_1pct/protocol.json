@@ -1,0 +1,20 @@
+{
+  "dataset": "Kvasir-SEG 1pct anchors",
+  "data_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_1pct_anchors/baseline_data",
+  "split": {
+    "train": 800,
+    "validation": 100,
+    "test": 100
+  },
+  "labeled_images": 8,
+  "unlabeled_images": 792,
+  "labeled_list": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_1pct_anchors/protocol/frozen_labeled_images.txt",
+  "labeled_list_sha256": "1968d718cd1877beddbf59ea1c972972e51a75702da646617b10a8ffd2786c0d",
+  "unlabeled_masks_loaded": false,
+  "seed": 2026,
+  "checkpoint": "/Data_8TB/lht/models/medsam_vit_b.pth",
+  "model": "MedSAM",
+  "max_iterations": 40000,
+  "num_eval_iter": 500,
+  "image_size": 256
+}

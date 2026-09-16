@@ -1,0 +1,49 @@
+{
+  "grid": 72,
+  "samples": {
+    "kvasir-seg::cju30ajhw09sx0988qyahx9s8": {
+      "direct_dice": 0.3063,
+      "auc_sim_lesion_vs_gt": 0.6686,
+      "auc_contrast_vs_gt": 0.8758,
+      "sim_lesion_in_gt": 0.6303,
+      "sim_lesion_out_gt": 0.5432,
+      "contrast_in_gt": 0.0424,
+      "contrast_out_gt": -0.0405,
+      "sim_lesion_in_pseudo": 0.636,
+      "sim_lesion_out_pseudo": 0.5405
+    },
+    "kvasir-seg::cju32phw2bv130801yj7bkouq": {
+      "direct_dice": 0.3385,
+      "auc_sim_lesion_vs_gt": 0.6721,
+      "auc_contrast_vs_gt": 0.819,
+      "sim_lesion_in_gt": 0.548,
+      "sim_lesion_out_gt": 0.4605,
+      "contrast_in_gt": 0.0042,
+      "contrast_out_gt": -0.0851,
+      "sim_lesion_in_pseudo": 0.5994,
+      "sim_lesion_out_pseudo": 0.4887
+    },
+    "kvasir-seg::cju1d50a94qf50855wsowacrc": {
+      "direct_dice": 0.9798,
+      "auc_sim_lesion_vs_gt": 0.7481,
+      "auc_contrast_vs_gt": 0.9316,
+      "sim_lesion_in_gt": 0.5723,
+      "sim_lesion_out_gt": 0.4595,
+      "contrast_in_gt": 0.1249,
+      "contrast_out_gt": -0.1316,
+      "sim_lesion_in_pseudo": 0.5758,
+      "sim_lesion_out_pseudo": 0.4595
+    },
+    "kvasir-seg::cju16ach3m1da0993r1dq3sn2": {
+      "direct_dice": 0.9819,
+      "auc_sim_lesion_vs_gt": 0.8072,
+      "auc_contrast_vs_gt": 0.9653,
+      "sim_lesion_in_gt": 0.6512,
+      "sim_lesion_out_gt": 0.4908,
+      "contrast_in_gt": 0.1153,
+      "contrast_out_gt": -0.1085,
+      "sim_lesion_in_pseudo": 0.6551,
+      "sim_lesion_out_pseudo": 0.4907
+    }
+  }
+}

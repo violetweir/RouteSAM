@@ -1,0 +1,84 @@
+{
+  "sam3enc_anchor_conditioned_patch_correspondence": {
+    "test": {
+      "bridge_counts": {
+        "0": 100,
+        "1": 100,
+        "2": 100,
+        "3": 100,
+        "4": 100,
+        "5": 100,
+        "6": 100
+      },
+      "routes": 700,
+      "targets": 100
+    },
+    "train": {
+      "bridge_counts": {
+        "0": 792,
+        "1": 792,
+        "2": 792,
+        "3": 792,
+        "4": 792,
+        "5": 792,
+        "6": 792
+      },
+      "routes": 5544,
+      "targets": 792
+    },
+    "validation": {
+      "bridge_counts": {
+        "0": 100,
+        "1": 100,
+        "2": 100,
+        "3": 100,
+        "4": 100,
+        "5": 100,
+        "6": 100
+      },
+      "routes": 700,
+      "targets": 100
+    }
+  },
+  "sam3enc_anchor_conditioned_target_pooling": {
+    "test": {
+      "bridge_counts": {
+        "0": 100,
+        "1": 100,
+        "2": 100,
+        "3": 100,
+        "4": 100,
+        "5": 100,
+        "6": 100
+      },
+      "routes": 700,
+      "targets": 100
+    },
+    "train": {
+      "bridge_counts": {
+        "0": 792,
+        "1": 792,
+        "2": 792,
+        "3": 792,
+        "4": 792,
+        "5": 792,
+        "6": 792
+      },
+      "routes": 5544,
+      "targets": 792
+    },
+    "validation": {
+      "bridge_counts": {
+        "0": 100,
+        "1": 100,
+        "2": 100,
+        "3": 100,
+        "4": 100,
+        "5": 100,
+        "6": 100
+      },
+      "routes": 700,
+      "targets": 100
+    }
+  }
+}

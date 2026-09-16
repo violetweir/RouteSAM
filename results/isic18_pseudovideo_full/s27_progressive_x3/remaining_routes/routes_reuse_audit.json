@@ -1,0 +1,18 @@
+{
+  "human_anchor_only": true,
+  "output": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_pseudovideo_full/s27_progressive_x3/remaining_routes/route_results.jsonl",
+  "output_sha256": "2570b423347f24f6870a388641ddc24a334a028faecdd45ca8fb005a034af6d8",
+  "remaining_manifest": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_pseudovideo_full/s27_progressive_x3/pools/unlabeled_remaining.jsonl",
+  "remaining_manifest_sha256": "4ab98716a0567e6520f62704761ff7c08b0ae1457877f6c9242bfdafce91f727",
+  "route_count": 3240,
+  "route_type_counts": {
+    "direct": 1080,
+    "one_bridge": 1080,
+    "two_bridges": 1080
+  },
+  "source_t21_route_results": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_pseudovideo_full/t21_dynamic_pseudovideo/round0_train/route_results.jsonl",
+  "source_t21_sha256": "c469adedf09ecfee445c3bb62cc9402da30a00c29f6e976cf113128a46528fce",
+  "target_count": 1080,
+  "three_complete_routes_per_target": true,
+  "train_target_only": true
+}

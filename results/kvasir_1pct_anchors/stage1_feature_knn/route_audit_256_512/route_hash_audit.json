@@ -1,0 +1,52 @@
+[
+  {
+    "common_routes": 400,
+    "feature_mode": "t18_corrected",
+    "mismatch_count": 0,
+    "mismatches_first10": [],
+    "ordering_same_by_query_route_type": true,
+    "route_hash_all_equal": true,
+    "routes_256": 400,
+    "routes_512": 400
+  },
+  {
+    "common_routes": 400,
+    "feature_mode": "dino_global_pooling",
+    "mismatch_count": 0,
+    "mismatches_first10": [],
+    "ordering_same_by_query_route_type": true,
+    "route_hash_all_equal": true,
+    "routes_256": 400,
+    "routes_512": 400
+  },
+  {
+    "common_routes": 400,
+    "feature_mode": "dino_patch_average",
+    "mismatch_count": 0,
+    "mismatches_first10": [],
+    "ordering_same_by_query_route_type": true,
+    "route_hash_all_equal": true,
+    "routes_256": 400,
+    "routes_512": 400
+  },
+  {
+    "common_routes": 400,
+    "feature_mode": "anchor_conditioned_target_pooling",
+    "mismatch_count": 0,
+    "mismatches_first10": [],
+    "ordering_same_by_query_route_type": true,
+    "route_hash_all_equal": true,
+    "routes_256": 400,
+    "routes_512": 400
+  },
+  {
+    "common_routes": 400,
+    "feature_mode": "anchor_conditioned_patch_correspondence",
+    "mismatch_count": 0,
+    "mismatches_first10": [],
+    "ordering_same_by_query_route_type": true,
+    "route_hash_all_equal": true,
+    "routes_256": 400,
+    "routes_512": 400
+  }
+]

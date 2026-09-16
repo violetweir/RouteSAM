@@ -1,0 +1,40 @@
+{
+  "hard": {
+    "best_epoch": 436,
+    "validation": {
+      "count": 100,
+      "dice": 0.8195622045876584,
+      "iou": 0.7361321436310736
+    },
+    "test": {
+      "count": 100,
+      "dice": 0.8485924378718745,
+      "iou": 0.7692216080062917
+    },
+    "checkpoint_sha256": "52d0cfb87403273132e659487b356aa3e0deb8e3648a8b913a52b07c4cddb3e8"
+  },
+  "soft": {
+    "best_epoch": 556,
+    "validation": {
+      "count": 100,
+      "dice": 0.8273298655431318,
+      "iou": 0.7491000363807057
+    },
+    "test": {
+      "count": 100,
+      "dice": 0.8512434270489941,
+      "iou": 0.7730376108511332
+    },
+    "checkpoint_sha256": "c03b6a63c754df9bc75a6d904bb4b64cabdf7a0e29508b37d8cbbed2a698fc58"
+  },
+  "paired_test_soft_minus_hard": {
+    "mean": 0.0026509891771198594,
+    "ci95": [
+      -0.013393809025959314,
+      0.017837168909644967
+    ],
+    "wins": 47,
+    "ties": 0,
+    "losses": 53
+  }
+}

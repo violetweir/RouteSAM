@@ -1,0 +1,25 @@
+{
+  "cluster_count": 26,
+  "cluster_size_max": 266,
+  "cluster_size_mean": 79.8076923076923,
+  "cluster_size_min": 10,
+  "counts": {
+    "test": 260,
+    "train": 2075,
+    "validation": 259
+  },
+  "data_root": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_1pct_protocol/data",
+  "dataset": "ISIC18",
+  "descriptor": "T21 199-D HSV histogram + low-frequency grayscale + RGB moments",
+  "files": {
+    "assignments": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_cluster_1pct_k26/cluster_assignments.jsonl",
+    "descriptors": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_cluster_1pct_k26/train_descriptors_k26.npz",
+    "representative_images": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_cluster_1pct_k26/cluster_representatives_images.txt",
+    "representative_masks": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_cluster_1pct_k26/cluster_representatives_masks.txt",
+    "representatives": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_cluster_1pct_k26/cluster_representatives.jsonl"
+  },
+  "one_percent_rounded": 26,
+  "seed": 2026,
+  "total_images": 2594,
+  "train_images_clustered": 2075
+}

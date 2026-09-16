@@ -1,0 +1,176 @@
+{
+  "interpretation": "Post-hoc test diagnostics; oracle choices use GT and are not deployable results. No new selector fitted.",
+  "old_two_route_system": {
+    "pc_selected_vs_tp_selected": {
+      "count": 100,
+      "sum_delta": -2.3744373461386736,
+      "mean_delta": -0.023744373461386737,
+      "wins": 32,
+      "ties": 1,
+      "losses": 67,
+      "positive_delta_sum": 1.6614800460041543,
+      "negative_delta_sum": -4.035917392142829
+    },
+    "oracle_between_two_independently_selected_masks": 0.9020474468011956,
+    "joint_router_minus_tp": {
+      "count": 100,
+      "sum_delta": -1.1349612483162652,
+      "mean_delta": -0.011349612483162652,
+      "wins": 25,
+      "ties": 48,
+      "losses": 27,
+      "positive_delta_sum": 0.6312142568681647,
+      "negative_delta_sum": -1.7661755051844301
+    },
+    "combined_chooses_PC": {
+      "count": 22,
+      "sum_delta": -0.7930230972247889,
+      "mean_delta": -0.03604650441930859,
+      "wins": 9,
+      "ties": 0,
+      "losses": 13,
+      "positive_delta_sum": 0.5431161514125449,
+      "negative_delta_sum": -1.336139248637334,
+      "different_route_from_tp_baseline": 22
+    },
+    "combined_chooses_TP": {
+      "count": 78,
+      "sum_delta": -0.3419381510914763,
+      "mean_delta": -0.004383822449890722,
+      "wins": 16,
+      "ties": 48,
+      "losses": 14,
+      "positive_delta_sum": 0.0880981054556198,
+      "negative_delta_sum": -0.4300362565470961,
+      "different_route_from_tp_baseline": 30
+    }
+  },
+  "new_joint_anchor_diagnostics": {
+    "joint_v1": {
+      "b0_anchor_changed_False": {
+        "count": 38,
+        "sum_delta": 0.0,
+        "mean_delta": 0.0,
+        "wins": 0,
+        "ties": 38,
+        "losses": 0,
+        "positive_delta_sum": 0.0,
+        "negative_delta_sum": 0.0
+      },
+      "b0_anchor_changed_True": {
+        "count": 62,
+        "sum_delta": -5.915593365320612,
+        "mean_delta": -0.09541279621484859,
+        "wins": 22,
+        "ties": 3,
+        "losses": 37,
+        "positive_delta_sum": 1.6946725148560753,
+        "negative_delta_sum": -7.610265880176689
+      },
+      "ball_anchor_changed_False": {
+        "count": 250,
+        "sum_delta": -6.0239605058977705,
+        "mean_delta": -0.024095842023591083,
+        "wins": 82,
+        "ties": 87,
+        "losses": 81,
+        "positive_delta_sum": 1.72790312592285,
+        "negative_delta_sum": -7.751863631820621
+      },
+      "ball_anchor_changed_True": {
+        "count": 450,
+        "sum_delta": -39.07096135588496,
+        "mean_delta": -0.08682435856863324,
+        "wins": 170,
+        "ties": 8,
+        "losses": 272,
+        "positive_delta_sum": 8.491615850235679,
+        "negative_delta_sum": -47.56257720612064
+      }
+    },
+    "joint_v2": {
+      "b0_anchor_changed_False": {
+        "count": 38,
+        "sum_delta": 0.0,
+        "mean_delta": 0.0,
+        "wins": 0,
+        "ties": 38,
+        "losses": 0,
+        "positive_delta_sum": 0.0,
+        "negative_delta_sum": 0.0
+      },
+      "b0_anchor_changed_True": {
+        "count": 62,
+        "sum_delta": -6.0404858934807475,
+        "mean_delta": -0.09742719183033463,
+        "wins": 24,
+        "ties": 3,
+        "losses": 35,
+        "positive_delta_sum": 2.2412225048517316,
+        "negative_delta_sum": -8.28170839833248
+      },
+      "ball_anchor_changed_False": {
+        "count": 250,
+        "sum_delta": -2.4559975087213965,
+        "mean_delta": -0.009823990034885587,
+        "wins": 96,
+        "ties": 85,
+        "losses": 69,
+        "positive_delta_sum": 3.620586780745124,
+        "negative_delta_sum": -6.0765842894665205
+      },
+      "ball_anchor_changed_True": {
+        "count": 450,
+        "sum_delta": -32.80392017235064,
+        "mean_delta": -0.07289760038300142,
+        "wins": 177,
+        "ties": 5,
+        "losses": 268,
+        "positive_delta_sum": 10.637091343958312,
+        "negative_delta_sum": -43.44101151630895
+      }
+    }
+  },
+  "train_only_score_correlations": [
+    {
+      "anchor_id": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+      "tp_vs_guided_local_pearson": 0.6475260467112909,
+      "tp_vs_old_pc_pearson": 0.4543828813841553
+    },
+    {
+      "anchor_id": "kvasir-seg::cju2pmhtr17a00855cvpelzb0",
+      "tp_vs_guided_local_pearson": 0.8735979216828961,
+      "tp_vs_old_pc_pearson": 0.8745400182876184
+    },
+    {
+      "anchor_id": "kvasir-seg::cju34ymm8d6700799uop0cw33",
+      "tp_vs_guided_local_pearson": 0.8249022647132945,
+      "tp_vs_old_pc_pearson": 0.7555880840907322
+    },
+    {
+      "anchor_id": "kvasir-seg::cju3v72v5h1qz0818fggilwtq",
+      "tp_vs_guided_local_pearson": 0.7753154515452,
+      "tp_vs_old_pc_pearson": 0.7605883389927554
+    },
+    {
+      "anchor_id": "kvasir-seg::cju5cu8qkb84x08186jwo8yin",
+      "tp_vs_guided_local_pearson": 0.8752285545763324,
+      "tp_vs_old_pc_pearson": 0.8341810878444433
+    },
+    {
+      "anchor_id": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+      "tp_vs_guided_local_pearson": 0.8946164889864964,
+      "tp_vs_old_pc_pearson": 0.8932442124477276
+    },
+    {
+      "anchor_id": "kvasir-seg::cju8bj2ssrmlm0871gc2ug2rs",
+      "tp_vs_guided_local_pearson": 0.57528034019717,
+      "tp_vs_old_pc_pearson": 0.60671772433292
+    },
+    {
+      "anchor_id": "kvasir-seg::cjyzkpsbjdsjq07211dfi4sru",
+      "tp_vs_guided_local_pearson": 0.8310930613243501,
+      "tp_vs_old_pc_pearson": 0.8091583532577419
+    }
+  ]
+}

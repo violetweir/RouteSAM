@@ -1,0 +1,67 @@
+[
+  {
+    "mode": "t18_corrected",
+    "n": 100,
+    "route_counts": {
+      "bridge_1": 24,
+      "bridge_2": 23,
+      "bridge_3": 26,
+      "direct": 27
+    },
+    "routes": 400,
+    "weighted_dice": 0.7884882017066468,
+    "weighted_iou": 0.7199218599113373
+  },
+  {
+    "mode": "dino_global_pooling",
+    "n": 100,
+    "route_counts": {
+      "bridge_1": 25,
+      "bridge_2": 22,
+      "bridge_3": 23,
+      "direct": 30
+    },
+    "routes": 400,
+    "weighted_dice": 0.8047510457713003,
+    "weighted_iou": 0.738916757719556
+  },
+  {
+    "mode": "dino_patch_average",
+    "n": 100,
+    "route_counts": {
+      "bridge_1": 15,
+      "bridge_2": 28,
+      "bridge_3": 29,
+      "direct": 28
+    },
+    "routes": 400,
+    "weighted_dice": 0.7955244455945134,
+    "weighted_iou": 0.7230770976986016
+  },
+  {
+    "mode": "anchor_conditioned_target_pooling",
+    "n": 100,
+    "route_counts": {
+      "bridge_1": 26,
+      "bridge_2": 22,
+      "bridge_3": 38,
+      "direct": 14
+    },
+    "routes": 400,
+    "weighted_dice": 0.806704925057229,
+    "weighted_iou": 0.742456853543126
+  },
+  {
+    "mode": "anchor_conditioned_patch_correspondence",
+    "n": 100,
+    "route_counts": {
+      "bridge_1": 23,
+      "bridge_2": 27,
+      "bridge_3": 35,
+      "direct": 15
+    },
+    "routes": 400,
+    "weighted_dice": 0.8103731551575141,
+    "weighted_iou": 0.7404193293779687
+  }
+]

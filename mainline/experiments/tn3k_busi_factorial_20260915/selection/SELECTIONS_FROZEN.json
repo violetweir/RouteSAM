@@ -1,0 +1,175 @@
+{
+  "time": 1789466617.1091058,
+  "selected_ids": [
+    "TN3K::trainval::0116",
+    "TN3K::trainval::2214",
+    "TN3K::trainval::0378",
+    "TN3K::trainval::1269",
+    "TN3K::trainval::0818",
+    "TN3K::trainval::2383",
+    "TN3K::trainval::1334",
+    "TN3K::trainval::1684",
+    "TN3K::trainval::0891",
+    "TN3K::trainval::0854",
+    "TN3K::trainval::1413",
+    "TN3K::trainval::0302",
+    "TN3K::trainval::2708",
+    "TN3K::trainval::0479",
+    "TN3K::trainval::2429",
+    "TN3K::trainval::2859",
+    "TN3K::trainval::1746",
+    "TN3K::trainval::0159",
+    "TN3K::trainval::0213",
+    "TN3K::trainval::2264",
+    "TN3K::trainval::0284",
+    "TN3K::trainval::2488",
+    "TN3K::trainval::1423"
+  ],
+  "method": "global_local_facility",
+  "seed": 2026,
+  "budget": 23,
+  "trace": [
+    {
+      "k": 1,
+      "id": "TN3K::trainval::0116",
+      "gain": 0.7966451562382124,
+      "coverage": 0.7966451562382117
+    },
+    {
+      "k": 2,
+      "id": "TN3K::trainval::2214",
+      "gain": 0.013725191503182762,
+      "coverage": 0.8103703477413945
+    },
+    {
+      "k": 3,
+      "id": "TN3K::trainval::0378",
+      "gain": 0.009945199985420755,
+      "coverage": 0.8203155477268153
+    },
+    {
+      "k": 4,
+      "id": "TN3K::trainval::1269",
+      "gain": 0.003810651772836087,
+      "coverage": 0.8241261994996514
+    },
+    {
+      "k": 5,
+      "id": "TN3K::trainval::0818",
+      "gain": 0.003213628383846097,
+      "coverage": 0.8273398278834975
+    },
+    {
+      "k": 6,
+      "id": "TN3K::trainval::2383",
+      "gain": 0.0027072970952109815,
+      "coverage": 0.8300471249787086
+    },
+    {
+      "k": 7,
+      "id": "TN3K::trainval::1334",
+      "gain": 0.002501573181158766,
+      "coverage": 0.8325486981598672
+    },
+    {
+      "k": 8,
+      "id": "TN3K::trainval::1684",
+      "gain": 0.0018373161985949637,
+      "coverage": 0.8343860143584623
+    },
+    {
+      "k": 9,
+      "id": "TN3K::trainval::0891",
+      "gain": 0.0017246991371434653,
+      "coverage": 0.8361107134956057
+    },
+    {
+      "k": 10,
+      "id": "TN3K::trainval::0854",
+      "gain": 0.0013555187697227018,
+      "coverage": 0.8374662322653283
+    },
+    {
+      "k": 11,
+      "id": "TN3K::trainval::1413",
+      "gain": 0.0013005124571313833,
+      "coverage": 0.8387667447224597
+    },
+    {
+      "k": 12,
+      "id": "TN3K::trainval::0302",
+      "gain": 0.0012287871648153797,
+      "coverage": 0.8399955318872752
+    },
+    {
+      "k": 13,
+      "id": "TN3K::trainval::2708",
+      "gain": 0.0009673202207131464,
+      "coverage": 0.8409628521079883
+    },
+    {
+      "k": 14,
+      "id": "TN3K::trainval::0479",
+      "gain": 0.0009386110364739542,
+      "coverage": 0.8419014631444622
+    },
+    {
+      "k": 15,
+      "id": "TN3K::trainval::2429",
+      "gain": 0.000826122679768446,
+      "coverage": 0.8427275858242308
+    },
+    {
+      "k": 16,
+      "id": "TN3K::trainval::2859",
+      "gain": 0.0007885611636343997,
+      "coverage": 0.843516146987865
+    },
+    {
+      "k": 17,
+      "id": "TN3K::trainval::1746",
+      "gain": 0.0007346872690404997,
+      "coverage": 0.8442508342569056
+    },
+    {
+      "k": 18,
+      "id": "TN3K::trainval::0159",
+      "gain": 0.000648556538532758,
+      "coverage": 0.8448993907954383
+    },
+    {
+      "k": 19,
+      "id": "TN3K::trainval::0213",
+      "gain": 0.0006192441102984714,
+      "coverage": 0.8455186349057368
+    },
+    {
+      "k": 20,
+      "id": "TN3K::trainval::2264",
+      "gain": 0.0006022470790196438,
+      "coverage": 0.8461208819847564
+    },
+    {
+      "k": 21,
+      "id": "TN3K::trainval::0284",
+      "gain": 0.0005914088254243594,
+      "coverage": 0.8467122908101808
+    },
+    {
+      "k": 22,
+      "id": "TN3K::trainval::2488",
+      "gain": 0.0005803838236874494,
+      "coverage": 0.8472926746338683
+    },
+    {
+      "k": 23,
+      "id": "TN3K::trainval::1423",
+      "gain": 0.0005199795231138343,
+      "coverage": 0.8478126541569821
+    }
+  ],
+  "mask_pixels_read_before_freeze": 0,
+  "train_only": true,
+  "eligible_count": 2303,
+  "features_sha256": "e22221e3aef7006d300ae574bcacc8104f122a05add160d595310db9202427b1"
+}

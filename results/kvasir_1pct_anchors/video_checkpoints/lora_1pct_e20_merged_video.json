@@ -1,0 +1,8 @@
+{
+  "base": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+  "lora": "work/kvasir_1pct_anchors/lora_experiment/lora_1pct/epoch_20_lora_weights.pt",
+  "output": "work/kvasir_1pct_anchors/video_checkpoints/lora_1pct_e20_merged_video.pt",
+  "skipped": [],
+  "total_detector_keys": 1156,
+  "updated": 383
+}

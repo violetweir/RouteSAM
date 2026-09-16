@@ -1,0 +1,80 @@
+{
+  "best_iteration_diagnostic_only": 34600,
+  "best_validation_diagnostic_only": 0.7848296119022905,
+  "checkpoint_reproduced": true,
+  "cuda_memory": {
+    "allocated_after_release": 33415168,
+    "allocated_before_release": 50763776
+  },
+  "experiment": "S1",
+  "final_checkpoint": "work/kvasir_1pct_anchors/phase1/students/S1_seed1001/student_final.pth",
+  "final_iteration": 40000,
+  "final_validation": {
+    "by_dataset": {
+      "kvasir-seg": {
+        "count": 100,
+        "dice": 0.7766521082535263,
+        "iou": 0.6848829152886906,
+        "mean_area": 0.11296478271484375,
+        "nonempty_rate": 0.99
+      }
+    },
+    "by_size": {
+      "large": {
+        "count": 44,
+        "dice": 0.7245303563068087,
+        "iou": 0.6240402570476843
+      },
+      "medium": {
+        "count": 33,
+        "dice": 0.8324214540915884,
+        "iou": 0.7435446932358521
+      },
+      "small": {
+        "count": 23,
+        "dice": 0.7963463983839405,
+        "iou": 0.7171106670429497
+      }
+    },
+    "count": 100,
+    "dice": 0.7766521082535263,
+    "iou": 0.6848829152886906,
+    "mean_area": 0.11296478271484375,
+    "nonempty_rate": 0.99
+  },
+  "nan_detected": false,
+  "reloaded_final_validation": {
+    "by_dataset": {
+      "kvasir-seg": {
+        "count": 100,
+        "dice": 0.7766521082535263,
+        "iou": 0.6848829152886906,
+        "mean_area": 0.11296478271484375,
+        "nonempty_rate": 0.99
+      }
+    },
+    "by_size": {
+      "large": {
+        "count": 44,
+        "dice": 0.7245303563068087,
+        "iou": 0.6240402570476843
+      },
+      "medium": {
+        "count": 33,
+        "dice": 0.8324214540915884,
+        "iou": 0.7435446932358521
+      },
+      "small": {
+        "count": 23,
+        "dice": 0.7963463983839405,
+        "iou": 0.7171106670429497
+      }
+    },
+    "count": 100,
+    "dice": 0.7766521082535263,
+    "iou": 0.6848829152886906,
+    "mean_area": 0.11296478271484375,
+    "nonempty_rate": 0.99
+  },
+  "test_evaluated": false
+}

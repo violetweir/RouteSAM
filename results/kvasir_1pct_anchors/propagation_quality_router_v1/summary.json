@@ -1,0 +1,66 @@
+[
+  {
+    "experiment": "anchor_conditioned_target_pooling",
+    "failure_auroc": 0.9899522091302914,
+    "histogram": {
+      "anchor_conditioned_target_pooling:bridge_1": 4,
+      "anchor_conditioned_target_pooling:bridge_2": 12,
+      "anchor_conditioned_target_pooling:bridge_3": 11,
+      "anchor_conditioned_target_pooling:bridge_4": 21,
+      "anchor_conditioned_target_pooling:bridge_5": 23,
+      "anchor_conditioned_target_pooling:bridge_6": 23,
+      "anchor_conditioned_target_pooling:direct": 6
+    },
+    "n_targets": 100,
+    "oracle_dice": 0.8989685813713383,
+    "oracle_gap": 0.02603040669556711,
+    "selected_dice": 0.8729381746757712,
+    "selection_accuracy": 0.18,
+    "spearman": 0.5977782366390965
+  },
+  {
+    "experiment": "anchor_conditioned_patch_correspondence",
+    "failure_auroc": 0.9876565476660166,
+    "histogram": {
+      "anchor_conditioned_patch_correspondence:bridge_1": 12,
+      "anchor_conditioned_patch_correspondence:bridge_2": 16,
+      "anchor_conditioned_patch_correspondence:bridge_3": 7,
+      "anchor_conditioned_patch_correspondence:bridge_4": 16,
+      "anchor_conditioned_patch_correspondence:bridge_5": 17,
+      "anchor_conditioned_patch_correspondence:bridge_6": 21,
+      "anchor_conditioned_patch_correspondence:direct": 11
+    },
+    "n_targets": 100,
+    "oracle_dice": 0.8879970678100453,
+    "oracle_gap": 0.04003263615061847,
+    "selected_dice": 0.8479644316594268,
+    "selection_accuracy": 0.12,
+    "spearman": 0.6149269593284401
+  },
+  {
+    "experiment": "target_pooling+patch_correspondence",
+    "failure_auroc": 0.9898665659617322,
+    "histogram": {
+      "anchor_conditioned_patch_correspondence:bridge_1": 3,
+      "anchor_conditioned_patch_correspondence:bridge_2": 12,
+      "anchor_conditioned_patch_correspondence:bridge_3": 4,
+      "anchor_conditioned_patch_correspondence:bridge_4": 9,
+      "anchor_conditioned_patch_correspondence:bridge_5": 6,
+      "anchor_conditioned_patch_correspondence:bridge_6": 17,
+      "anchor_conditioned_patch_correspondence:direct": 8,
+      "anchor_conditioned_target_pooling:bridge_1": 2,
+      "anchor_conditioned_target_pooling:bridge_2": 5,
+      "anchor_conditioned_target_pooling:bridge_3": 5,
+      "anchor_conditioned_target_pooling:bridge_4": 5,
+      "anchor_conditioned_target_pooling:bridge_5": 10,
+      "anchor_conditioned_target_pooling:bridge_6": 12,
+      "anchor_conditioned_target_pooling:direct": 2
+    },
+    "n_targets": 100,
+    "oracle_dice": 0.9039035411373288,
+    "oracle_gap": 0.031264251116255526,
+    "selected_dice": 0.8726392900210733,
+    "selection_accuracy": 0.13,
+    "spearman": 0.6229414077350098
+  }
+]

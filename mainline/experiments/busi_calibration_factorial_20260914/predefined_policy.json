@@ -1,0 +1,27 @@
+{
+  "groups": [
+    "raw_top1",
+    "centered_top1",
+    "raw_top2",
+    "centered_top2",
+    "original_per_bridge"
+  ],
+  "train": 517,
+  "validation": 64,
+  "test": 66,
+  "anchors": 5,
+  "raw": "rank anchors by raw TP(anchor,target), descending; anchor ID ascending breaks ties",
+  "centered": "rank anchors by TP(anchor,target) minus mean TP(anchor,517 train), same as previous frozen calibration",
+  "topk": "top1 or top2 anchors fixed for the target across all bridge lengths; retain all b0-b6 for each",
+  "original": "additional historical control: independently choose the best anchor/path for each bridge length",
+  "invariant": "same 5 automatic anchors, same split, SAM3-base, box prompt, no text, canvas256, per-anchor raw path objective, beam32",
+  "router": "all five pools refit legacy28 Ridge(alpha=1), same validation image-grouped folds; no peer or calibration features; no new hyperparameter search",
+  "objective": "sum squared residuals + alpha times squared weights, as historical Ridge",
+  "ordering": "rank then bridge within raw/centered pool; original bridge order; argmax first candidate on tied Router score",
+  "calibration_train_GT_read": false,
+  "validation_labels_extra_to_1percent": true,
+  "prior_test_seen": true,
+  "test_policy": "evaluate all four prespecified arms and original control; freeze all five models and choices before reading test GT; no test-driven winner selection",
+  "statistics": "10000 image-paired bootstrap samples seed2026; intervals exploratory, no multiplicity correction",
+  "timing": "historical row seconds include forward/return and serialization; sum per pool is descriptive, not a controlled end-to-end speed benchmark"
+}

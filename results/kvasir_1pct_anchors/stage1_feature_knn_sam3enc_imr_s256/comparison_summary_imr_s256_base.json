@@ -1,0 +1,149 @@
+{
+  "protocol": "IMR KNN @256 (SAM3-enc pyramid+contrast+Qwen text), SAM3 base @256 eval",
+  "rows": [
+    {
+      "dice": {
+        "bridge_1": 0.7889037957458762,
+        "bridge_2": 0.818673863351068,
+        "bridge_3": 0.8204248940458982,
+        "bridge_4": 0.8094314265733807,
+        "bridge_5": 0.7795882234700016,
+        "bridge_6": 0.768036701511544,
+        "direct": 0.7501789787975329
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_base_no_ft_b7_forward",
+      "feature_size": 256,
+      "knn_feature": "patch_mean",
+      "mode": "sam3enc_contrast",
+      "mode_key": "sam3enc_contrast",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8571729039667244,
+        "bridge_2": 0.8588592647338424,
+        "bridge_3": 0.8673954855078643,
+        "bridge_4": 0.875084137562158,
+        "bridge_5": 0.8678850566889352,
+        "bridge_6": 0.8624252660173994,
+        "direct": 0.7981444721228581
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_base_no_ft_b7_forward",
+      "feature_size": 256,
+      "knn_feature": "fused",
+      "mode": "sam3enc_imr",
+      "mode_key": "sam3enc_imr",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8416755945627032,
+        "bridge_2": 0.8431099592653255,
+        "bridge_3": 0.842440602814914,
+        "bridge_4": 0.8507895982842208,
+        "bridge_5": 0.8549291146925384,
+        "bridge_6": 0.8457191669280413,
+        "direct": 0.7981444721228581
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_base_no_ft_b7_forward",
+      "feature_size": 256,
+      "knn_feature": "fused",
+      "mode": "sam3enc_imr",
+      "mode_key": "sam3enc_imr__tb025",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8428529575700742,
+        "bridge_2": 0.8342052948218701,
+        "bridge_3": 0.841701753292632,
+        "bridge_4": 0.8236683268708354,
+        "bridge_5": 0.8442770283379747,
+        "bridge_6": 0.86612343477058,
+        "direct": 0.7981444721228581
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_base_no_ft_b7_forward",
+      "feature_size": 256,
+      "knn_feature": "fused",
+      "mode": "sam3enc_imr",
+      "mode_key": "sam3enc_imr__tb050",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8440942601758961,
+        "bridge_2": 0.8297123907527173,
+        "bridge_3": 0.8503847012993756,
+        "bridge_4": 0.8210550466941757,
+        "bridge_5": 0.8377295041454959,
+        "bridge_6": 0.8569617789656099,
+        "direct": 0.7981444721228581
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_base_no_ft_b7_forward",
+      "feature_size": 256,
+      "knn_feature": "fused",
+      "mode": "sam3enc_imr",
+      "mode_key": "sam3enc_imr__tb075",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8547250380171303,
+        "bridge_2": 0.8398242914201915,
+        "bridge_3": 0.8417690242779579,
+        "bridge_4": 0.8552204215221241,
+        "bridge_5": 0.8657021376466137,
+        "bridge_6": 0.846412276150389,
+        "direct": 0.7981444721228581
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_base_no_ft_b7_forward",
+      "feature_size": 256,
+      "knn_feature": "fused",
+      "mode": "sam3enc_imr",
+      "mode_key": "sam3enc_imr__tb100",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8101704313730755,
+        "bridge_2": 0.8373830423364982,
+        "bridge_3": 0.8600810897390336,
+        "bridge_4": 0.8714406129285615,
+        "bridge_5": 0.8617650935616059,
+        "bridge_6": 0.8742541585446888,
+        "direct": 0.8112547243417477
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_base_no_ft_b7_forward",
+      "feature_size": 256,
+      "knn_feature": "patch_mean",
+      "mode": "sam3enc_pyramid",
+      "mode_key": "sam3enc_pyramid",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.7934662985690163,
+        "bridge_2": 0.8233455820246737,
+        "bridge_3": 0.8646125847540088,
+        "bridge_4": 0.8692251147861306,
+        "bridge_5": 0.8506369471228008,
+        "bridge_6": 0.8464118394932906,
+        "direct": 0.8013590580364334
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_base_no_ft_b7_forward",
+      "feature_size": 256,
+      "knn_feature": "patch_mean",
+      "mode": "sam3enc_pyramid_contrast",
+      "mode_key": "sam3enc_pyramid_contrast",
+      "n": 100
+    }
+  ]
+}

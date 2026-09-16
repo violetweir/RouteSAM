@@ -1,0 +1,22 @@
+{
+  "split_counts": {
+    "train": 517,
+    "validation": 64,
+    "test": 66
+  },
+  "image_mask_pairs_complete": true,
+  "exact_duplicate_groups": [
+    [
+      {
+        "id": "BUSI::benign (433)",
+        "split": "train"
+      },
+      {
+        "id": "BUSI::malignant (145)",
+        "split": "train"
+      }
+    ]
+  ],
+  "cross_split_duplicates": [],
+  "split_unchanged": true
+}

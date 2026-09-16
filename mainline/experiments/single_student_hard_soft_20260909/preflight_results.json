@@ -1,0 +1,13 @@
+{
+  "all_588_input_hashes_verified": true,
+  "all_580_soft_targets_binary_match_main": true,
+  "epochs_each_have_588_unique_images_and_8_GT": true,
+  "per_image_equal_loss_verified": true,
+  "loss_permutation_invariant": true,
+  "soft_targets_not_thresholded": true,
+  "hard_soft_augmentations_identical": true,
+  "real_epoch_batch_count": 49,
+  "real_epoch_zero_gt_batches": 41,
+  "cuda_batch12_forward_backward_finite": true,
+  "cuda_smoke_loss": 1.763180136680603
+}

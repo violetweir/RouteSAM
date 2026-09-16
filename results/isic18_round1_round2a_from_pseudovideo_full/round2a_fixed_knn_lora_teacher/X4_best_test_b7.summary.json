@@ -1,0 +1,27 @@
+{
+  "b7_mean": 0.9412634834899323,
+  "b7_quantiles": {
+    "0.0": 0.0002511886431509579,
+    "0.1": 0.8922740621506479,
+    "0.25": 0.9498537015642833,
+    "0.5": 0.9688397636604154,
+    "0.75": 0.9817973356606712,
+    "0.9": 0.9874965397088413,
+    "1.0": 0.9930682748343121
+  },
+  "candidate_targets": 260,
+  "coverage": 1.0,
+  "max_bridge": 6,
+  "min_b7": 0.0,
+  "min_bridge": 0,
+  "missing_predictions": [],
+  "modes": [
+    "sam3enc_anchor_conditioned_target_pooling",
+    "sam3enc_anchor_conditioned_patch_correspondence"
+  ],
+  "oracle_gap_evaluation_only": 0.018472666371288304,
+  "oracle_gt_dice_evaluation_only": 0.8788119280521406,
+  "selected_gt_dice_evaluation_only": 0.8603392616808523,
+  "selected_targets": 260,
+  "split": "test"
+}

@@ -1,0 +1,22 @@
+{
+  "purpose": "Fixed 2x2 student/candidate-pool controls and validation-only scoring probes.",
+  "matrix": [
+    "old_X3_TP",
+    "old_X3_dual",
+    "new_X3_TP",
+    "new_X3_dual"
+  ],
+  "score": "q_return^.2 * q_multi^.4 * q_model^.4; clamp each at 1e-6; q_multi excludes self",
+  "validation_probes": [
+    "soft_model",
+    "no_multi",
+    "cluster_multi"
+  ],
+  "cluster_multi": "Greedy route-id-ordered mask clustering, Dice>=0.95; mean within each peer cluster, then average clusters. Exclude candidate itself.",
+  "soft_model": "Soft Dice between binary candidate and uint16-decoded frozen X3 probability.",
+  "no_multi": "q_return^(1/3) * q_model^(2/3)",
+  "policy": "No test tuning. Test only fixed historical-formula matrix. Validation probes exploratory: X3 checkpoint and pseudo-pool router have already used validation. No claim of untouched validation/OOF.",
+  "student_checkpoints": "Previously frozen ordinary validation-best, no retraining",
+  "splits": "Unchanged original 100 validation / 100 test; same eight train anchors",
+  "gt": "Selection completed before evaluation; oracle and term decomposition diagnostic only"
+}

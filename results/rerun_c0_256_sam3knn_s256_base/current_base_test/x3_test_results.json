@@ -1,0 +1,80 @@
+{
+  "results": {
+    "final": {
+      "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_sam3knn_s256_base/students/X3/student_final.pth",
+      "checkpoint_sha256": "572c693e0a533da2cb9104fea68dcc1b02c2ad3c88c45910437f12d1a298d6c2",
+      "test": {
+        "by_dataset": {
+          "kvasir-seg": {
+            "count": 100,
+            "dice": 0.8585908544520326,
+            "iou": 0.7785026500395766,
+            "mean_area": 0.1307806396484375,
+            "nonempty_rate": 1.0
+          }
+        },
+        "by_size": {
+          "large": {
+            "count": 55,
+            "dice": 0.8432173782727146,
+            "iou": 0.7562172806579052
+          },
+          "medium": {
+            "count": 21,
+            "dice": 0.9093919512243855,
+            "iou": 0.8468227439720083
+          },
+          "small": {
+            "count": 24,
+            "dice": 0.8493707776871616,
+            "iou": 0.769793206015028
+          }
+        },
+        "count": 100,
+        "dice": 0.8585908544520326,
+        "iou": 0.7785026500395766,
+        "mean_area": 0.1307806396484375,
+        "nonempty_rate": 1.0
+      }
+    },
+    "valbest": {
+      "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_sam3knn_s256_base/students/X3/student_best.pth",
+      "checkpoint_sha256": "52345e22283fa9aa6af48124fee60b3c24e1f389615ebe35dd42e120ec09e03c",
+      "test": {
+        "by_dataset": {
+          "kvasir-seg": {
+            "count": 100,
+            "dice": 0.8539203507540273,
+            "iou": 0.7717657471307424,
+            "mean_area": 0.13118392944335938,
+            "nonempty_rate": 1.0
+          }
+        },
+        "by_size": {
+          "large": {
+            "count": 55,
+            "dice": 0.8369925539603115,
+            "iou": 0.7492910267183747
+          },
+          "medium": {
+            "count": 21,
+            "dice": 0.8990425379200457,
+            "iou": 0.8298470485854862
+          },
+          "small": {
+            "count": 24,
+            "dice": 0.8532313046360258,
+            "iou": 0.7724491759695179
+          }
+        },
+        "count": 100,
+        "dice": 0.8539203507540273,
+        "iou": 0.7717657471307424,
+        "mean_area": 0.13118392944335938,
+        "nonempty_rate": 1.0
+      }
+    }
+  },
+  "selection_uses_test_gt": false,
+  "test_evaluation_authorized_by_user": true
+}

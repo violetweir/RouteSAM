@@ -1,0 +1,28 @@
+{
+  "isic2018_routes": {
+    "pid": 126612,
+    "command": [
+      "/home/violet/anaconda3/envs/sam3/bin/python",
+      "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/cross_dataset_calibration_factorial_20260914/pipeline.py",
+      "routes",
+      "isic2018"
+    ]
+  },
+  "kvasir_routes": {
+    "pid": 126613,
+    "command": [
+      "/home/violet/anaconda3/envs/sam3/bin/python",
+      "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/cross_dataset_calibration_factorial_20260914/pipeline.py",
+      "routes",
+      "kvasir"
+    ]
+  },
+  "controller": {
+    "pid": 126614,
+    "command": [
+      "/home/violet/anaconda3/envs/sam3/bin/python",
+      "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/cross_dataset_calibration_factorial_20260914/pipeline.py",
+      "run-all"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-09",
+  "thresholds": {
+    "q_multi": 0.9,
+    "q_return": 0.95
+  },
+  "scope": "TP-only frozen b0-b6, no SAM3/student training, no test",
+  "baseline": "Router picks best, then q_multi and chosen q_return must pass",
+  "proposed": "Image q_multi unchanged; restrict candidates to q_return>=.95, then rank using same Router",
+  "validation": "5-fold target-level OOF Router, seed2026, ridge1; quality of accepted subsets and rescued subset, not test performance",
+  "train": "Use original frozen Router; target GT never read or used for selection",
+  "candidate_preview": "Separate 580-row preview only; old 448-row pool and students untouched"
+}

@@ -1,0 +1,23 @@
+{
+  "targets": "all original 792 unlabeled training images; no automatic retention of old 580",
+  "teacher": "stage-1 soft validation-best epoch 556, frozen; not test-selected final",
+  "A": {
+    "return_min": 0.95,
+    "tp_candidate_mean_min": 0.95,
+    "student_required": false
+  },
+  "B": {
+    "return_min": 0.95,
+    "tp_candidate_mean_min": 0.8,
+    "student_dice_min": 0.85,
+    "student_nonempty": true
+  },
+  "candidate_nonempty_required": true,
+  "tp_consistency": "mean binary Dice of this candidate against the other six TP masks",
+  "student_consistency": "binary Dice against frozen student probability >=.5",
+  "selection": "prefer A if any, else B if any; within chosen tier rank by frozen TP Router, then -bridge, route_id",
+  "label": "Y=.75*M+.25*mean(all TP candidates with return>=.95); teacher not mixed into target",
+  "weights": "all images and pixels 1; A/B are admission categories, not training weights or sampling streams",
+  "training": "same saved initial U-Net weights; uniform shuffle; batch12;816epochs; keep partial final batch",
+  "calibration": "proposal thresholds frozen before any validation diagnostics; no threshold search or test tuning"
+}

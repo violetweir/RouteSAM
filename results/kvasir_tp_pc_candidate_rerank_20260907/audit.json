@@ -1,0 +1,41 @@
+{
+  "partitions_checked": 85,
+  "train_held_disjoint": true,
+  "tp_outer_choices_identical_to_prior_100": true,
+  "new_test_read": false,
+  "complete_verified": true,
+  "new_test_files_absent": true,
+  "policies": [
+    {
+      "fold": "outer_0",
+      "ridge": 10.0,
+      "threshold": 0.05,
+      "inner_delta": 0.0019508977111722795
+    },
+    {
+      "fold": "outer_1",
+      "ridge": 100.0,
+      "threshold": 0.05,
+      "inner_delta": 8.017775259013954e-05
+    },
+    {
+      "fold": "outer_2",
+      "ridge": 100.0,
+      "threshold": 0.02,
+      "inner_delta": 0.00022661629142387284
+    },
+    {
+      "fold": "outer_3",
+      "ridge": 10.0,
+      "threshold": 0.02,
+      "inner_delta": 2.1441632229809992e-05
+    },
+    {
+      "fold": "outer_4",
+      "ridge": null,
+      "threshold": null,
+      "inner_delta": 0.0
+    }
+  ],
+  "actual_replacements_outside_pc_top1": 8
+}

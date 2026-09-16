@@ -1,0 +1,14 @@
+{
+  "hard": {
+    "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/single_student_hard_soft_20260909/runs/hard/student_final.pth",
+    "sha256": "6ff386a12426409f20fd4b062cb1d3942c20757cbf1a5904e0b2228731b2dcf2",
+    "epoch": 816,
+    "iteration": 39984
+  },
+  "soft": {
+    "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/single_student_hard_soft_20260909/runs/soft/student_final.pth",
+    "sha256": "ce71038ddfe318645e61b8004f2b8acabd6d2a7b5d2680ef96becc095ec58a3b",
+    "epoch": 816,
+    "iteration": 39984
+  }
+}

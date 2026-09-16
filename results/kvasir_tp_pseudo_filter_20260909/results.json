@@ -1,0 +1,52 @@
+{
+  "train": {
+    "partitions": {
+      "both_fail": 108,
+      "return_only_fail": 160,
+      "multi_only_fail": 76,
+      "both_pass": 448
+    },
+    "original_accepted": 448,
+    "new_accepted": 580,
+    "newly_accepted": 132,
+    "original_masks_preserved": true
+  },
+  "validation": {
+    "original_pool": {
+      "count": 51,
+      "mean_dice": 0.9428563331265272,
+      "median_dice": 0.9563221588538044,
+      "below_05": 0,
+      "below_08": 2,
+      "minimum": 0.7248134328358209
+    },
+    "expanded_pool": {
+      "count": 71,
+      "mean_dice": 0.9133861931208387,
+      "median_dice": 0.9545725527602241,
+      "below_05": 3,
+      "below_08": 6,
+      "minimum": 0.3277754702426868
+    },
+    "newly_accepted_new_choice": {
+      "count": 20,
+      "mean_dice": 0.8382373361063318,
+      "median_dice": 0.944909747637003,
+      "below_05": 3,
+      "below_08": 4,
+      "minimum": 0.3277754702426868
+    },
+    "newly_accepted_previous_choice": {
+      "count": 20,
+      "mean_dice": 0.8429998112693287,
+      "median_dice": 0.9434416349724903,
+      "below_05": 3,
+      "below_08": 4,
+      "minimum": 0.4305172557867469
+    }
+  },
+  "no_test": true,
+  "no_training": true,
+  "validation_oof_original_routes_verified": 100,
+  "interpretation": "Train coverage increase is deterministic under unchanged thresholds, not proof of true pseudo-label correctness. Subset Dice is not full-validation or test Dice. Pool expansion requires rebuilding S3, committee and students before downstream comparisons."
+}

@@ -1,0 +1,14 @@
+[
+  "/home/violet/anaconda3/envs/mkunet_mamba/bin/python",
+  "-u",
+  "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/stage23_old_new_comparison_20260912/verified_legacy448_S3/cuda_runner.py",
+  "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/code/export_t25_student_predictions.py",
+  "--run-dir",
+  "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/students/S3",
+  "--checkpoint",
+  "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/students/S3/student_final.pth",
+  "--output-root",
+  "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/stage23_old_new_comparison_20260912/verified_legacy448_S3/S3_final",
+  "--splits",
+  "test"
+]

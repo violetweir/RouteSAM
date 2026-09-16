@@ -1,0 +1,21 @@
+{
+  "pid": 4180153,
+  "gpu": 1,
+  "command": [
+    "/home/violet/anaconda3/envs/sam3/bin/python",
+    "-u",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_kvasir_sam3base_direct_text_ablation_20260906/code/evaluate_direct.py",
+    "--config",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_kvasir_sam3base_direct_text_ablation_20260906/config.yaml",
+    "--split",
+    "test",
+    "--effective-resolution",
+    "1008",
+    "--prompt-mode",
+    "category",
+    "--output",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_kvasir_sam3base_direct_text_ablation_20260906/category/summary.json",
+    "--num-workers",
+    "0"
+  ]
+}

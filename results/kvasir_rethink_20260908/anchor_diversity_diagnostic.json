@@ -1,0 +1,20 @@
+{
+  "split": "validation only; GT posthoc diagnostic, not causal ablation",
+  "targets": 100,
+  "tp_anchor_count_hist": {
+    "1": 98,
+    "2": 2
+  },
+  "pc_anchor_count_hist": {
+    "2": 4,
+    "1": 96
+  },
+  "PC_oracle_improves_count": 36,
+  "winning_PC_uses_anchor_absent_from_TP_count": 18,
+  "mean_tp_oracle": 0.869544177933916,
+  "mean_union_oracle": 0.8894323596660911,
+  "mean_union_shared_anchor_PC_oracle": 0.8708809109108205,
+  "new_anchor_conditional_increment": 0.018551448755270594,
+  "new_anchor_increment_share": 0.9327875722926414,
+  "shared_anchor_increment": 0.0013367329769046366
+}

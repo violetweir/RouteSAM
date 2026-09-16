@@ -1,0 +1,83 @@
+{
+  "count": 100,
+  "methods": {
+    "TP": {
+      "dice": 0.8517552851672318,
+      "delta_vs_TP": 0.0,
+      "paired_ci95": [
+        0.0,
+        0.0
+      ],
+      "win_tie_loss": [
+        0,
+        100,
+        0
+      ]
+    },
+    "unrestricted_PC_5of7": {
+      "dice": 0.8206374019311435,
+      "delta_vs_TP": -0.03111788323608833,
+      "paired_ci95": [
+        -0.06643636041524735,
+        0.000553396623035861
+      ],
+      "win_tie_loss": [
+        36,
+        2,
+        62
+      ]
+    },
+    "local_PC_5of7": {
+      "dice": 0.8382211263141578,
+      "delta_vs_TP": -0.013534158853074027,
+      "paired_ci95": [
+        -0.023934810987308323,
+        -0.004753833986903732
+      ],
+      "win_tie_loss": [
+        35,
+        2,
+        63
+      ]
+    },
+    "local_PC_7of7": {
+      "dice": 0.8458193905720789,
+      "delta_vs_TP": -0.005935894595152673,
+      "paired_ci95": [
+        -0.013180228698405318,
+        0.00019863924942597032
+      ],
+      "win_tie_loss": [
+        30,
+        18,
+        52
+      ]
+    }
+  },
+  "oracle_diagnostic_only": {
+    "fixed_TP_plus_raw_PC7": 0.8863397537782619,
+    "fixed_TP_plus_local_PC7": 0.8635161453360517,
+    "full_TP7_PC7": 0.8894323596660911,
+    "full_TP7_PC7_plus_local_PC7": 0.889626215654576
+  },
+  "mean_band_fraction": 0.10019638061523438,
+  "edits": {
+    "unrestricted_PC_5of7": {
+      "pixels_changed": 145024,
+      "wrong_to_right": 42447,
+      "right_to_wrong": 102577
+    },
+    "local_PC_5of7": {
+      "pixels_changed": 66401,
+      "wrong_to_right": 18836,
+      "right_to_wrong": 47565
+    },
+    "local_PC_7of7": {
+      "pixels_changed": 34897,
+      "wrong_to_right": 11470,
+      "right_to_wrong": 23427
+    }
+  },
+  "test_evaluated": false,
+  "new_SAM3_correspondence_implemented": false
+}

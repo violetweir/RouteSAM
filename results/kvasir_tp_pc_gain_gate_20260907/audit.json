@@ -1,0 +1,42 @@
+{
+  "expert_fit_evaluation_partitions_checked": 85,
+  "all_train_held_disjoint": true,
+  "no_new_test_read": true,
+  "policies": [
+    {
+      "fold": "outer_0",
+      "ridge": 10.0,
+      "threshold": 0.05,
+      "inner_mean_delta": 0.006917022550228512,
+      "train_targets": 80
+    },
+    {
+      "fold": "outer_1",
+      "ridge": 10.0,
+      "threshold": 0.1,
+      "inner_mean_delta": 0.002834466573023894,
+      "train_targets": 80
+    },
+    {
+      "fold": "outer_2",
+      "ridge": 10.0,
+      "threshold": 0.05,
+      "inner_mean_delta": 0.005478798581847163,
+      "train_targets": 80
+    },
+    {
+      "fold": "outer_3",
+      "ridge": null,
+      "threshold": null,
+      "inner_mean_delta": 0.0,
+      "train_targets": 80
+    },
+    {
+      "fold": "outer_4",
+      "ridge": null,
+      "threshold": null,
+      "inner_mean_delta": 0.0,
+      "train_targets": 80
+    }
+  ]
+}

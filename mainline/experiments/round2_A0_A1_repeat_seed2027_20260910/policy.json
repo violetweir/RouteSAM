@@ -1,0 +1,29 @@
+{
+  "seed": 2027,
+  "previous_seed": 2026,
+  "only_training_change": "random seed",
+  "arms": {
+    "A0": {
+      "pseudo": 428,
+      "gt": 8,
+      "gpu": 0,
+      "steps": 4360
+    },
+    "A1": {
+      "pseudo": 596,
+      "gt": 8,
+      "gpu": 1,
+      "steps": 6040
+    }
+  },
+  "epochs": 10,
+  "batch": 1,
+  "input": "original RGB to1008",
+  "metric": "macroDice256",
+  "lr": "cosine5e-5 to5e-7",
+  "clip": 1.0,
+  "weights": "equal",
+  "lora": "full rank16 alpha32 dropout0.1",
+  "test": "val-best colon polyp primary + empty diagnostic; no test checkpoint selection",
+  "old_outputs": "read-only shared data, new code/config/output path"
+}

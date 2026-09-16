@@ -1,0 +1,25 @@
+{
+  "frozen_official": {
+    "mode_oracle_b3_b6": {
+      "anchor_conditioned_patch_correspondence": 0.8535007728168412,
+      "anchor_conditioned_target_pooling": 0.8425908979933405
+    },
+    "routes": 800,
+    "targets": 100,
+    "unified_oracle_b3_b6": 0.8694482576681415
+  },
+  "routeco_core_step400_previous": {
+    "routes": 800,
+    "targets": 100,
+    "unified_oracle": 0.8410062105981966
+  },
+  "routeco_official_step400": {
+    "mode_oracle_b3_b6": {
+      "anchor_conditioned_patch_correspondence": 0.8507054950110406,
+      "anchor_conditioned_target_pooling": 0.8402677181767844
+    },
+    "routes": 800,
+    "targets": 100,
+    "unified_oracle_b3_b6": 0.8613727473120187
+  }
+}

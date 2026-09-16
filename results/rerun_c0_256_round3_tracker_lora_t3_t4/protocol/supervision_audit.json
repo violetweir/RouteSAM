@@ -1,0 +1,25 @@
+{
+  "bug_found": false,
+  "duplicate_supervision_frames": [],
+  "frame_occurrence_count": 36680,
+  "invalid_supervision_indices": [],
+  "num_object_ignore": 3891,
+  "num_object_negative": 0,
+  "num_object_positive": 32789,
+  "num_supervised_empty_frames": 0,
+  "num_supervised_positive_frames": 32789,
+  "num_unsupervised_frames": 3891,
+  "object_presence_loss_scope": "Only entries in row['supervision']; absent bridge entries are IGNORE.",
+  "segmentation_loss_scope": "Only entries in row['supervision']; absent bridge entries are IGNORE.",
+  "sequence_count": 7336,
+  "supervision_source_counts": {
+    "frozen_pseudo": 25453,
+    "gt_anchor": 7336
+  },
+  "teacher_force_obj_scores_for_mem": false,
+  "unique_mask_count": 532,
+  "unsupervised_bridge_policy": {
+    "object_presence": "IGNORE",
+    "segmentation_loss": "IGNORE"
+  }
+}

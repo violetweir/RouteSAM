@@ -1,0 +1,23 @@
+{
+  "test": {
+    "image_dir": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_round1_round2a_from_pseudovideo_full/isic_resized_cache_s256/test/images",
+    "mask_dir": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_round1_round2a_from_pseudovideo_full/isic_resized_cache_s256/test/masks",
+    "records": 260,
+    "written_images": 0,
+    "written_masks": 0
+  },
+  "train": {
+    "image_dir": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_round1_round2a_from_pseudovideo_full/isic_resized_cache_s256/train/images",
+    "mask_dir": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_round1_round2a_from_pseudovideo_full/isic_resized_cache_s256/train/masks",
+    "records": 2075,
+    "written_images": 0,
+    "written_masks": 0
+  },
+  "validation": {
+    "image_dir": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_round1_round2a_from_pseudovideo_full/isic_resized_cache_s256/validation/images",
+    "mask_dir": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_round1_round2a_from_pseudovideo_full/isic_resized_cache_s256/validation/masks",
+    "records": 259,
+    "written_images": 0,
+    "written_masks": 0
+  }
+}

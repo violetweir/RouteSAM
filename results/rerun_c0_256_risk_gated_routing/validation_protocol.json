@@ -1,0 +1,75 @@
+{
+  "candidate_choice_frozen": {
+    "baseline": "previous argmax path_mean_similarity",
+    "proposal": "previous argmax q_return"
+  },
+  "candidate_pool_researched": false,
+  "catastrophic_evaluation_only": "selected_delta_dice <= -0.20",
+  "cross_validation": "StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=2026), grouped by target_id",
+  "decision_rule": "accept frozen q_return route only when OOF risk < 0.5 and it is a distinct physical route",
+  "feature_count": 12,
+  "features_frozen_before_training": [
+    "q_return_candidate",
+    "q_multi_candidate",
+    "q_model_candidate",
+    "delta_q_return",
+    "delta_q_multi",
+    "delta_q_model",
+    "trace_area_max_rel_delta_candidate",
+    "delta_trace_area_max_rel_delta",
+    "trace_adjacent_dice_mean_candidate",
+    "trace_adjacent_dice_last_candidate",
+    "path_mean_similarity_candidate",
+    "delta_path_mean_similarity"
+  ],
+  "gpu_used": false,
+  "hyperparameter_search": false,
+  "input_artifacts": [
+    {
+      "path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_propagation_risk_analysis/qreturn_switch_analysis.jsonl",
+      "resolved_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_propagation_risk_analysis/qreturn_switch_analysis.jsonl",
+      "role": "frozen_validation_target_decisions",
+      "sha256": "188adc3569cbc1348118425b7d5de4118422c26789e545aa5f9816f97947bf3a",
+      "size_bytes": 1169592
+    },
+    {
+      "path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_propagation_aware_routing/validation_summary.json",
+      "resolved_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_propagation_aware_routing/validation_summary.json",
+      "role": "frozen_validation_routing_summary",
+      "sha256": "7c3727962b71ddb1dd65cb88b7eaee1840cf59b29ca28f8923a5497e377690de",
+      "size_bytes": 33716
+    }
+  ],
+  "models_frozen_before_training": {
+    "logistic": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 3000,
+      "standard_scaler": true
+    },
+    "tree": {
+      "class_weight": "balanced",
+      "max_depth": 3,
+      "min_samples_leaf": 10
+    }
+  },
+  "paired_bootstrap": {
+    "resamples": 10000,
+    "seed": 2026,
+    "unit": "target"
+  },
+  "risk_probability_threshold": 0.5,
+  "sam3_propagation_rerun": false,
+  "scope": "validation-only; exactly one frozen baseline vs q_return decision per target",
+  "severe_evaluation_only": "selected_delta_dice <= -0.10",
+  "target_count": 100,
+  "test_read": false,
+  "threshold_tuned": false,
+  "training_label": {
+    "beneficial_count": 54,
+    "definition": "risk = 1[Dice(q_return) - Dice(KNN_mean) <= 0]",
+    "gt_use": "authorized validation-only training label; never an inference feature",
+    "justification": "the requested severe-only label has only 2 positives and cannot support reliable 5-fold target-level learning",
+    "nonbeneficial_count": 46
+  }
+}

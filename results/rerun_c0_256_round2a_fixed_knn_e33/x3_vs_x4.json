@@ -1,0 +1,233 @@
+{
+  "runs": {
+    "X3": {
+      "best": {
+        "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_sam3knn_s256_base/students/X3/student_best.pth",
+        "checkpoint_sha256": "52345e22283fa9aa6af48124fee60b3c24e1f389615ebe35dd42e120ec09e03c",
+        "test": {
+          "by_dataset": {
+            "kvasir-seg": {
+              "count": 100,
+              "dice": 0.8539203507540273,
+              "iou": 0.7717657471307424,
+              "mean_area": 0.13118392944335938,
+              "nonempty_rate": 1.0
+            }
+          },
+          "by_size": {
+            "large": {
+              "count": 55,
+              "dice": 0.8369925539603115,
+              "iou": 0.7492910267183747
+            },
+            "medium": {
+              "count": 21,
+              "dice": 0.8990425379200457,
+              "iou": 0.8298470485854862
+            },
+            "small": {
+              "count": 24,
+              "dice": 0.8532313046360258,
+              "iou": 0.7724491759695179
+            }
+          },
+          "count": 100,
+          "dice": 0.8539203507540273,
+          "iou": 0.7717657471307424,
+          "mean_area": 0.13118392944335938,
+          "nonempty_rate": 1.0
+        }
+      },
+      "best_validation_dice": 0.8260320689233883,
+      "best_validation_iteration": 28800,
+      "final": {
+        "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_sam3knn_s256_base/students/X3/student_final.pth",
+        "checkpoint_sha256": "572c693e0a533da2cb9104fea68dcc1b02c2ad3c88c45910437f12d1a298d6c2",
+        "test": {
+          "by_dataset": {
+            "kvasir-seg": {
+              "count": 100,
+              "dice": 0.8585908544520326,
+              "iou": 0.7785026500395766,
+              "mean_area": 0.1307806396484375,
+              "nonempty_rate": 1.0
+            }
+          },
+          "by_size": {
+            "large": {
+              "count": 55,
+              "dice": 0.8432173782727146,
+              "iou": 0.7562172806579052
+            },
+            "medium": {
+              "count": 21,
+              "dice": 0.9093919512243855,
+              "iou": 0.8468227439720083
+            },
+            "small": {
+              "count": 24,
+              "dice": 0.8493707776871616,
+              "iou": 0.769793206015028
+            }
+          },
+          "count": 100,
+          "dice": 0.8585908544520326,
+          "iou": 0.7785026500395766,
+          "mean_area": 0.1307806396484375,
+          "nonempty_rate": 1.0
+        }
+      },
+      "final_validation": {
+        "by_dataset": {
+          "kvasir-seg": {
+            "count": 100,
+            "dice": 0.8142159890225861,
+            "iou": 0.7286145965754058,
+            "mean_area": 0.11325820922851562,
+            "nonempty_rate": 0.99
+          }
+        },
+        "by_size": {
+          "large": {
+            "count": 44,
+            "dice": 0.7535781201064278,
+            "iou": 0.6576168544258986
+          },
+          "medium": {
+            "count": 33,
+            "dice": 0.8471761246381921,
+            "iou": 0.7623331917130743
+          },
+          "small": {
+            "count": 23,
+            "dice": 0.8829282393267595,
+            "iou": 0.8160575102725913
+          }
+        },
+        "count": 100,
+        "dice": 0.8142159890225861,
+        "iou": 0.7286145965754058,
+        "mean_area": 0.11325820922851562,
+        "nonempty_rate": 0.99
+      }
+    },
+    "X4": {
+      "best": {
+        "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_round2a_fixed_knn_e33/students/X4/student_best.pth",
+        "checkpoint_sha256": "08fdbe2b706d6e43ef0176ac6cb23bb9f4c3257cc9354ee7a813a53377e0b7f0",
+        "test": {
+          "by_dataset": {
+            "kvasir-seg": {
+              "count": 100,
+              "dice": 0.8600071077128872,
+              "iou": 0.7819499501389414,
+              "mean_area": 0.13620346069335937,
+              "nonempty_rate": 1.0
+            }
+          },
+          "by_size": {
+            "large": {
+              "count": 55,
+              "dice": 0.8495185316422013,
+              "iou": 0.764483925516716
+            },
+            "medium": {
+              "count": 21,
+              "dice": 0.8799448855108869,
+              "iou": 0.812558009657734
+            },
+            "small": {
+              "count": 24,
+              "dice": 0.8665978723016273,
+              "iou": 0.7951942044859317
+            }
+          },
+          "count": 100,
+          "dice": 0.8600071077128872,
+          "iou": 0.7819499501389414,
+          "mean_area": 0.13620346069335937,
+          "nonempty_rate": 1.0
+        }
+      },
+      "best_validation_dice": 0.8391220421613849,
+      "best_validation_iteration": 26000,
+      "final": {
+        "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_round2a_fixed_knn_e33/students/X4/student_final.pth",
+        "checkpoint_sha256": "d9cf966b4081074526b8d3870c7c2b0b587e381f4bdd85f955ac93627eeaff6b",
+        "test": {
+          "by_dataset": {
+            "kvasir-seg": {
+              "count": 100,
+              "dice": 0.855654761808038,
+              "iou": 0.779322603979165,
+              "mean_area": 0.129913330078125,
+              "nonempty_rate": 1.0
+            }
+          },
+          "by_size": {
+            "large": {
+              "count": 55,
+              "dice": 0.8296311216728873,
+              "iou": 0.745868240854713
+            },
+            "medium": {
+              "count": 21,
+              "dice": 0.887889002775629,
+              "iou": 0.8246547388827672
+            },
+            "small": {
+              "count": 24,
+              "dice": 0.8870873096044495,
+              "iou": 0.8163232347653819
+            }
+          },
+          "count": 100,
+          "dice": 0.855654761808038,
+          "iou": 0.779322603979165,
+          "mean_area": 0.129913330078125,
+          "nonempty_rate": 1.0
+        }
+      },
+      "final_validation": {
+        "by_dataset": {
+          "kvasir-seg": {
+            "count": 100,
+            "dice": 0.8286728936867875,
+            "iou": 0.746066424840222,
+            "mean_area": 0.1170245361328125,
+            "nonempty_rate": 1.0
+          }
+        },
+        "by_size": {
+          "large": {
+            "count": 44,
+            "dice": 0.7719042393370045,
+            "iou": 0.6784513518900629
+          },
+          "medium": {
+            "count": 33,
+            "dice": 0.8532456102728644,
+            "iou": 0.7699737810659004
+          },
+          "small": {
+            "count": 23,
+            "dice": 0.9020172912541752,
+            "iou": 0.8411151402471622
+          }
+        },
+        "count": 100,
+        "dice": 0.8286728936867875,
+        "iou": 0.746066424840222,
+        "mean_area": 0.1170245361328125,
+        "nonempty_rate": 1.0
+      }
+    }
+  },
+  "selection_basis": "Each student's validation Dice; test used only after checkpoint freeze",
+  "x4_minus_x3": {
+    "best_test_dice": 0.006086756958859962,
+    "best_validation_dice": 0.013089973237996544,
+    "final_test_dice": -0.0029360926439946367,
+    "final_validation_dice": 0.014456904664201464
+  }
+}

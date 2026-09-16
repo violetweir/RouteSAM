@@ -1,0 +1,34 @@
+[
+  {
+    "all_routes_mean": 0.7826541065548076,
+    "direct": 0.767541785623094,
+    "model": "base_no_ft",
+    "one_bridge": 0.8190483042630246,
+    "oracle": 0.8790395524102297,
+    "routes": 300,
+    "selected_counts": {
+      "direct": 28,
+      "one_bridge": 40,
+      "two_bridges": 32
+    },
+    "targets": 100,
+    "two_bridges": 0.7613722297783043,
+    "weighted": 0.8301034957093744
+  },
+  {
+    "all_routes_mean": 0.835982725862002,
+    "direct": 0.8310896856979216,
+    "model": "ft_1pct",
+    "one_bridge": 0.8566867324048764,
+    "oracle": 0.9026789221343805,
+    "routes": 300,
+    "selected_counts": {
+      "direct": 34,
+      "one_bridge": 38,
+      "two_bridges": 28
+    },
+    "targets": 100,
+    "two_bridges": 0.8201717594832083,
+    "weighted": 0.8743297299879487
+  }
+]

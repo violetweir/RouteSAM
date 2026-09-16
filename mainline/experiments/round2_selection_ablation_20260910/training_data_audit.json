@@ -1,0 +1,18 @@
+{
+  "arms": {
+    "A0": 436,
+    "A1": 604
+  },
+  "gt_count": 8,
+  "train_masks_encoded_verified": true,
+  "train_images_and_masks_same_canvas": true,
+  "no_unlabeled_gt_read_for_training": true,
+  "validation_and_test_gt_not_in_inference_inputs": true,
+  "hashes": {
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_selection_ablation_20260910/code/train_sam3_lora_kvasir_e50.py": "8ffa7caf390d0dc6997cfc3078f3e308a963e5b0ee8cb7dc1f24dd3546f3fbd8",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_selection_ablation_20260910/code/lora_layers.py": "f62cd793ad94a4ec3feb21614f7ceed281630eca5178afd768f35eaaf3614a32",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_selection_ablation_20260910/code/prepare_training.py": "4805e138fc0981e246dee4cadcb4b48d8bc4d25821f48c52a7cb42162aa991cd",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_selection_ablation_20260910/code/train_direct.py": "ed6eed518b963aa1b60203c78747385ddf7194f0bc3cfac2bc2b69254350a3ba",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_selection_ablation_20260910/code/select_pools.py": "2bfc3f2d6ac787713241585ff6ba79320e6caba94b21862ef6212fa6705185cc"
+  }
+}

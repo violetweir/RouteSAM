@@ -1,0 +1,26 @@
+{
+  "rule_version": "x3_unified_quality_v2",
+  "scope": "all 792 frozen unlabeled training targets; historical pool membership does not enter decisions",
+  "q_return_min": 0.95,
+  "A": {
+    "q_multi": 0.9,
+    "q_model_mean": 0.9,
+    "q_model_min": 0.8,
+    "q_model_var_max": 0.01
+  },
+  "B": {
+    "q_multi": 0.75,
+    "q_model_mean": 0.75,
+    "q_model_min": 0.6,
+    "q_model_var_max": 0.03
+  },
+  "candidate_selection": "highest eligible quality tier, then unchanged TP Router score; bridge/route ties unchanged",
+  "nonempty": "SAM mask nonempty and >=2 of 4 student masks nonempty for either tier",
+  "area_quantile_gate": false,
+  "q_multi_definition": "candidate mean Dice against other 6 TP masks",
+  "soft_target": "0.75 * selected TP binary + 0.25 * four-student probability mean",
+  "pixel_weight": "clip(exp(-5*TP_variance)*exp(-5*student_variance)*(1-abs(TP_binary-student_mean)),.05,1)",
+  "image_weight": "tier_factor * (q_multi + q_model_mean)/2; A=.75, B=.50; absolute, not pool-minmax normalized",
+  "training": "one uniformly sampled pseudo stream, 6 GT + 6 pseudo; unified weighted soft loss",
+  "test_policy": "no test data used to generate or tune this pool"
+}

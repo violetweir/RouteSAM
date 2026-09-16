@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "gt": 8,
+  "pseudo": 448,
+  "total": 456,
+  "epochs": 816,
+  "steps_per_epoch": 38,
+  "total_steps": 31008,
+  "all_input_hashes_verified": true,
+  "all_448_soft_labels_recomputed": true,
+  "original_448_main_masks_unchanged": true,
+  "same_initial_weights": true,
+  "common_sample_augmentation_matches": true,
+  "cuda_batch12_finite_gradient": true,
+  "initial_loss": 1.7744033336639404
+}

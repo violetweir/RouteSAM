@@ -1,0 +1,23 @@
+{
+  "dataset": "kvasir",
+  "source": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/automatic_anchor_tp_test_20260913/kvasir",
+  "fresh_features": false,
+  "hashes": {
+    "code/run_t21_dynamic_pseudovideo.py": "2128a9cd04acce91614cbf43e2c4ad38a63c50c0fc29a5782a1f1e7f14eb5aba",
+    "code/eval_route_propagation_quality.py": "83cb82033140dac90a0213329be4216e57404bb1627cb2508bcdd470d6f11149",
+    "code/stage1_feature_knn_routes.py": "20f2825b13f1a0c701946c8444cf49bd3b56fe0db4be2375973d86fb64af36b0",
+    "protocol/merged_manifest.jsonl": "a77a94605fc9ed62c3d05972f56f0646fd2468b9c1d1d51bd0197755f2925e6d",
+    "protocol/support_manifest.jsonl": "d943e326a9b4ea257377b8db406382ec8f3010e3c5133539bb07405a372493de",
+    "quality_root/features/sam3_base_s256_features.npz": "407143d5eab7360aa257b8806aa28335527c618fb050e9914c43dc5d1d757949"
+  },
+  "selected_ids": [
+    "kvasir-seg::cju2wxv0hxs2f09884w48v8fi",
+    "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "kvasir-seg::cju42xpi8lw4w0871ve317a1p",
+    "kvasir-seg::cju5vi4nxlc530817uoqm2m7a",
+    "kvasir-seg::cju3v664kh0px0818y4y7wolf",
+    "kvasir-seg::cju8dpa89u6l80818dj6lldh9",
+    "kvasir-seg::cju2t62nq45jl0799odpufwx6",
+    "kvasir-seg::cju7ajnbo1gvm098749rdouk0"
+  ]
+}

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/automatic_anchor_tp_test_20260913/pipeline.py", line 175, in <module>
+    else:summarize(args.dataset)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/automatic_anchor_tp_test_20260913/pipeline.py", line 136, in summarize
+    fixed={str(b):dict(n=s['ntest'],dice=float(np.mean([r['dice'] for r in rows if r['bridge_count']==b])),iou=float(np.mean([r['iou'] for r in rows if r['bridge_count']==b])),q_cycle=float(np.mean([r['q_cycle'] for r in rows if r['bridge_count']==b]))) for b in range(7)}
+                                                                                                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/violet/anaconda3/envs/sam3/lib/python3.12/site-packages/numpy/core/fromnumeric.py", line 3504, in mean
+    return _methods._mean(a, axis=axis, dtype=dtype,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/violet/anaconda3/envs/sam3/lib/python3.12/site-packages/numpy/core/_methods.py", line 118, in _mean
+    ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported operand type(s) for +: 'float' and 'NoneType'

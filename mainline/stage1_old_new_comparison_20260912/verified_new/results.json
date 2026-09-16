@@ -1,0 +1,93 @@
+{
+  "variant": "new",
+  "fixed_bridge": [
+    {
+      "mode": "anchor_conditioned_target_pooling",
+      "bridge": 0,
+      "n": 100,
+      "dice": 0.7981444721228581,
+      "iou": 0.739433792582339,
+      "median": 0.9464923077158152,
+      "q_cycle": 0.8564117881864189
+    },
+    {
+      "mode": "anchor_conditioned_target_pooling",
+      "bridge": 1,
+      "n": 100,
+      "dice": 0.8466233889550897,
+      "iou": 0.7833117570717438,
+      "median": 0.9460732895222386,
+      "q_cycle": 0.868033522263191
+    },
+    {
+      "mode": "anchor_conditioned_target_pooling",
+      "bridge": 2,
+      "n": 100,
+      "dice": 0.8700318328767382,
+      "iou": 0.8064105812253998,
+      "median": 0.9468157413706488,
+      "q_cycle": 0.8995184378079647
+    },
+    {
+      "mode": "anchor_conditioned_target_pooling",
+      "bridge": 3,
+      "n": 100,
+      "dice": 0.8622534055278502,
+      "iou": 0.8005414459143085,
+      "median": 0.9527374744987689,
+      "q_cycle": 0.9168525182019335
+    },
+    {
+      "mode": "anchor_conditioned_target_pooling",
+      "bridge": 4,
+      "n": 100,
+      "dice": 0.8739296962950519,
+      "iou": 0.8138994035873407,
+      "median": 0.9482386331779415,
+      "q_cycle": 0.9248608676084735
+    },
+    {
+      "mode": "anchor_conditioned_target_pooling",
+      "bridge": 5,
+      "n": 100,
+      "dice": 0.8695517675483742,
+      "iou": 0.8084534016879137,
+      "median": 0.9493597902527109,
+      "q_cycle": 0.9390412364460096
+    },
+    {
+      "mode": "anchor_conditioned_target_pooling",
+      "bridge": 6,
+      "n": 100,
+      "dice": 0.8740038539958411,
+      "iou": 0.8117786585871509,
+      "median": 0.9485555966590737,
+      "q_cycle": 0.937421196323364
+    }
+  ],
+  "routers": [
+    {
+      "scope": "target_pooling",
+      "min_bridge": 0,
+      "max_bridge": 6,
+      "n": 100,
+      "dice": 0.8854326463411542,
+      "iou": 0.8282740566505131,
+      "oracle": 0.9074262547898724,
+      "gap": 0.021993608448718227
+    },
+    {
+      "scope": "target_pooling",
+      "min_bridge": 3,
+      "max_bridge": 6,
+      "n": 100,
+      "dice": 0.8768688814676348,
+      "iou": 0.8157676648627494,
+      "oracle": 0.9026894191477756,
+      "gap": 0.02582053768014081
+    }
+  ],
+  "metric_resolution": 256,
+  "aggregation": "per-image macro mean",
+  "fresh_gpu_inference": false
+}

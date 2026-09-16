@@ -1,0 +1,71 @@
+[12:27:24.955] python train.py --dataset ClinicDB --dataset_label BUSI --data_path /Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/busi_1pct_protocol/data --labeled_list /Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/busi_1pct_protocol/busi_train1pct_labeled_images.txt --output_dir /Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/busi_1pct_protocol/synfoc_smoke --save_name busi_1pct_smoke --model MedSAM --ckpt /Data_8TB/lht/models/medsam_vit_b.pth --max_iterations 400 --num_eval_iter 200 --label_bs 4 --unlabel_bs 4 --test_bs 8 --img_size 256 --base_lr 0.03 --seed 2026 --AdamW --warmup --save_model --overwrite --gpu 0
+[12:27:24.955] Namespace(dataset='ClinicDB', save_name='busi_1pct_smoke', overwrite=True, model='MedSAM', max_iterations=400, num_eval_iter=200, eval=False, deterministic=1, base_lr=0.03, seed=2026, gpu='0', threshold=0.95, amp=1, label_bs=4, unlabel_bs=4, test_bs=8, domain_num=1, lb_domain=1, lb_num=40, lb_ratio=0, ema_decay=0.99, consistency_type='mse', consistency=1.0, consistency_rampup=200.0, depth=28, widen_factor=2, leaky_slope=0.1, bn_momentum=0.1, dropout=0.0, save_img=False, save_model=True, rank=4, warmup=True, warmup_period=250, AdamW=True, module='sam_lora_image_encoder', img_size=256, vit_name='vit_b', ckpt='/Data_8TB/lht/models/medsam_vit_b.pth', data_path='/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/busi_1pct_protocol/data', output_dir='/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/busi_1pct_protocol/synfoc_smoke', labeled_list='/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/busi_1pct_protocol/busi_train1pct_labeled_images.txt', dataset_label='BUSI')
+[12:27:24.965] load from /Data_8TB/lht/models/medsam_vit_b.pth
+[12:27:28.190] load from /Data_8TB/lht/models/medsam_vit_b.pth
+[12:27:29.211] 200 iterations per epoch
+[12:29:10.115] iteration 200 : loss : 0.398091, sam_sup_loss : 0.091837, sam_unsup_loss : 0.218815, unet_sup_loss : 0.114940, unet_unsup_loss : 0.382361, cons_w : 0.279396, mask_ratio : 0.850208, sd:0.105589,ud:0.286248,d:0.098509,s_m_r:0.462727,0.149784,0.081668
+[12:29:10.115] sam_ulb_lesion_dice:0.105589, unet_ulb_lesion_dice:0.286248, ulb_lesion_dice:0.098509
+[12:29:10.115] test unet model
+[12:29:12.569] domain1 epoch 1 : loss : 0.000000
+	val_lesion_dice: 0.362844, 
+	val_lesion_dc: 0.362657, 	val_lesion_jc: 0.269760, 
+	val_lesion_hd: 89.667482, 	val_lesion_asd: 43.737976, 
+[12:29:12.570] epoch 1 : loss : 0.000000
+	val_lesion_dice: 0.362844, 
+	val_lesion_dc: 0.362657, 	val_lesion_jc: 0.269760, 
+	val_lesion_hd: 89.667482, 	val_lesion_asd: 43.737976, 
+[12:29:12.570] save cur best avg unet model to /Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/busi_1pct_protocol/synfoc_smoke/unet_avg_dice_best_model.pth
+[12:29:12.725] val_lesion_best_dice: 0.362844 at 200 iter, val_best_avg_dice: 0.362844 at 200 iter
+[12:29:12.725] test sam model
+[12:29:14.509] domain1 epoch 1 : loss : 0.000000
+	val_lesion_dice: 0.437371, 
+	val_lesion_dc: 0.437183, 	val_lesion_jc: 0.332516, 
+	val_lesion_hd: 48.574104, 	val_lesion_asd: 22.421067, 
+[12:29:14.510] epoch 1 : loss : 0.000000
+	val_lesion_dice: 0.437371, 
+	val_lesion_dc: 0.437183, 	val_lesion_jc: 0.332516, 
+	val_lesion_hd: 48.574104, 	val_lesion_asd: 22.421067, 
+[12:29:14.511] save cur best avg SAM model to /Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/busi_1pct_protocol/synfoc_smoke/SAM_avg_dice_best_model.pth
+[12:29:14.535] stu_val_lesion_best_dice: 0.437371 at 200 iter, val_best_avg_dice: 0.437371 at 200 iter
+[12:30:48.037] iteration 400 : loss : 0.925999, sam_sup_loss : 0.202444, sam_unsup_loss : 0.193079, unet_sup_loss : 0.192225, unet_unsup_loss : 0.289772, cons_w : 0.999875, mask_ratio : 0.844704, sd:0.146659,ud:0.077920,d:0.132907,s_m_r:0.601725,0.353173,0.242395
+[12:30:48.037] sam_ulb_lesion_dice:0.146659, unet_ulb_lesion_dice:0.077920, ulb_lesion_dice:0.132907
+[12:30:48.037] test unet model
+[12:30:49.527] domain1 epoch 2 : loss : 0.000000
+	val_lesion_dice: 0.408445, 
+	val_lesion_dc: 0.408243, 	val_lesion_jc: 0.306691, 
+	val_lesion_hd: 71.450063, 	val_lesion_asd: 34.376565, 
+[12:30:49.528] epoch 2 : loss : 0.000000
+	val_lesion_dice: 0.408445, 
+	val_lesion_dc: 0.408243, 	val_lesion_jc: 0.306691, 
+	val_lesion_hd: 71.450063, 	val_lesion_asd: 34.376565, 
+[12:30:49.528] save cur best avg unet model to /Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/busi_1pct_protocol/synfoc_smoke/unet_avg_dice_best_model.pth
+[12:30:50.434] val_lesion_best_dice: 0.408445 at 400 iter, val_best_avg_dice: 0.408445 at 400 iter
+[12:30:50.434] test sam model
+[12:30:52.041] domain1 epoch 2 : loss : 0.000000
+	val_lesion_dice: 0.570358, 
+	val_lesion_dc: 0.570227, 	val_lesion_jc: 0.456973, 
+	val_lesion_hd: 43.498282, 	val_lesion_asd: 20.096333, 
+[12:30:52.042] epoch 2 : loss : 0.000000
+	val_lesion_dice: 0.570358, 
+	val_lesion_dc: 0.570227, 	val_lesion_jc: 0.456973, 
+	val_lesion_hd: 43.498282, 	val_lesion_asd: 20.096333, 
+[12:30:52.042] save cur best avg SAM model to /Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/busi_1pct_protocol/synfoc_smoke/SAM_avg_dice_best_model.pth
+[12:30:52.156] stu_val_lesion_best_dice: 0.570358 at 400 iter, val_best_avg_dice: 0.570358 at 400 iter
+[12:30:52.244] final one-shot test: best validation checkpoints
+[12:30:54.225] domain1 epoch 2 : loss : 0.000000
+	val_lesion_dice: 0.387464, 
+	val_lesion_dc: 0.387309, 	val_lesion_jc: 0.288167, 
+	val_lesion_hd: 67.733384, 	val_lesion_asd: 30.351650, 
+[12:30:54.226] epoch 2 : loss : 0.000000
+	val_lesion_dice: 0.387464, 
+	val_lesion_dc: 0.387309, 	val_lesion_jc: 0.288167, 
+	val_lesion_hd: 67.733384, 	val_lesion_asd: 30.351650, 
+[12:30:55.858] domain1 epoch 2 : loss : 0.000000
+	val_lesion_dice: 0.530727, 
+	val_lesion_dc: 0.530577, 	val_lesion_jc: 0.424262, 
+	val_lesion_hd: 49.703372, 	val_lesion_asd: 26.438631, 
+[12:30:55.859] epoch 2 : loss : 0.000000
+	val_lesion_dice: 0.530727, 
+	val_lesion_dc: 0.530577, 	val_lesion_jc: 0.424262, 
+	val_lesion_hd: 49.703372, 	val_lesion_asd: 26.438631, 
+[12:30:55.860] FINAL {"best_validation": {"unet_dice": 0.4084448914730259, "unet_iteration": 400, "sam_dice": 0.5703577114432925, "sam_iteration": 400}, "test": {"images": 66, "unet_dice": 0.3874644903995446, "sam_dice": 0.5307268120237887}}

@@ -1,0 +1,11 @@
+dataset,canvas,feature_mode,single_oracle
+test_exploratory,512,t18_corrected,0.8735427985358533
+test_exploratory,512,dino_global_pooling,0.8565371237397396
+test_exploratory,512,dino_patch_average,0.8539079648063566
+test_exploratory,512,anchor_conditioned_target_pooling,0.8786971771327948
+test_exploratory,512,anchor_conditioned_patch_correspondence,0.8775495864605598
+test_exploratory,256,t18_corrected,0.8787154661804499
+test_exploratory,256,dino_global_pooling,0.8595857486606495
+test_exploratory,256,dino_patch_average,0.862749896704201
+test_exploratory,256,anchor_conditioned_target_pooling,0.880177175098523
+test_exploratory,256,anchor_conditioned_patch_correspondence,0.8763107361981475

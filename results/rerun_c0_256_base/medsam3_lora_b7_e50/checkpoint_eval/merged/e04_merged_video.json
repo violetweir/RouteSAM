@@ -1,0 +1,8 @@
+{
+  "base": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+  "lora": "work/rerun_c0_256_base/medsam3_lora_b7_e50/lora_weights/epoch_4_lora_weights.pt",
+  "output": "work/rerun_c0_256_base/medsam3_lora_b7_e50/checkpoint_eval/merged/e04_merged_video.pt",
+  "skipped": [],
+  "total_detector_keys": 1156,
+  "updated": 383
+}

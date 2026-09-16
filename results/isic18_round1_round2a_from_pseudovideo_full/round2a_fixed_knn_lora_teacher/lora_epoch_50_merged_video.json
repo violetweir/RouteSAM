@@ -1,0 +1,8 @@
+{
+  "base": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+  "lora": "work/isic18_round1_round2a_from_pseudovideo_full/round1_sam3knn_s256_base/medsam3_lora_b0_b6_e50/lora_weights/epoch_50_lora_weights.pt",
+  "output": "work/isic18_round1_round2a_from_pseudovideo_full/round2a_fixed_knn_lora_teacher/lora_epoch_50_merged_video.pt",
+  "skipped": [],
+  "total_detector_keys": 1156,
+  "updated": 383
+}

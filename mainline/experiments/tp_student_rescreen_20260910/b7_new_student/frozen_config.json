@@ -1,0 +1,28 @@
+{
+  "created": "2026-09-10T02:37:33.690943+08:00",
+  "formula": "(max(q_return,1e-6)*max(q_multi,1e-6)^2*max(q_model,1e-6)^2)^0.2",
+  "q_multi": "Mean pairwise Dice to other six TP candidates",
+  "q_model": "Dice against the frozen new student binary prediction",
+  "tie_break": [
+    "b7_score",
+    "q_multi",
+    "q_return",
+    "route_id"
+  ],
+  "hard_filter": false,
+  "output": "Copy selected TP mask; no pixel fusion",
+  "primary_checkpoint": "best (selected by validation)",
+  "final_checkpoint": "Predeclared end-of-training comparison, not test selection",
+  "input_hashes": {
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/code/mainline.py": "cbc6931c3dd72112d68e2a48acde23bdcaa50227aca80548c618ba22066c6348",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tp_student_rescreen_20260910/results.json": "ee88dd503f37570b8ec634812afa75e654bc82e653e0e04ab31144d595943950",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/quality/anchor_conditioned_target_pooling/propagation_quality_validation/propagation_quality.jsonl": "7ad4fd0347ee6406e483f2a69c4a3a5129a44e80d002c57fd113a45ed678f302",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tp_student_rescreen_20260910/runs/soft/validation_best/per_target_metrics.jsonl": "995b931d25ce78fec305611603c4c5597e0814267523c082e84b1162320ec1b3",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tp_student_rescreen_20260910/runs/soft/validation_final/per_target_metrics.jsonl": "c40342a0c83f1a0a7597f93dff9b06a8b1f4aff65edcdbc003e51e1e50e93084",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/quality/anchor_conditioned_target_pooling/propagation_quality_test/propagation_quality.jsonl": "cdfa569bbc6ae3073bb7182069994cd6bcafbf43b827c21d8c0847e951a29e4a",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tp_student_rescreen_20260910/runs/soft/test_best/per_target_metrics.jsonl": "8a60f6217bb6dab89d28dc8ae25911bc291bd9de0e463330116728b0d1c91c6b",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tp_student_rescreen_20260910/runs/soft/test_final/per_target_metrics.jsonl": "ee63a391fe0e609f0485e1a131a6741d81cb9dceed1dc89d0c1baf31cb7b220b",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tp_student_rescreen_20260910/runs/soft/student_best.pth": "c42e8b442f8a8a4d291266483fedac67446e01c818130d5a56b295abca34744b",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tp_student_rescreen_20260910/runs/soft/student_final.pth": "c48c49e4b750e8c76c971ec167e992928909e35277457958fa5e2cc3bbcbc83e"
+  }
+}

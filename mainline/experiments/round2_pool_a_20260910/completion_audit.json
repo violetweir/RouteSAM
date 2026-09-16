@@ -1,0 +1,14 @@
+{
+  "train_targets": 792,
+  "train_candidates": 5544,
+  "validation_targets": 100,
+  "validation_candidates": 700,
+  "validation_student_predictions_reproduced": true,
+  "validation_b7_selection_reproduced": true,
+  "threshold_chosen_on_validation_only": true,
+  "train_gt_reads_before_freeze": 0,
+  "train_gt_reads_after_freeze": 428,
+  "unique_audited_gt": 428,
+  "manifest_unchanged_after_gt_audit": true,
+  "inputs_unchanged": true
+}

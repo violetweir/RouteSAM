@@ -1,0 +1,1567 @@
+{
+  "candidate_targets": 259,
+  "frontier": [
+    {
+      "coverage": 0.003861003861003861,
+      "min_b7": 0.9922469836323642,
+      "selected_gt_dice_evaluation_only": 0.9784762555517594,
+      "selected_targets": 1
+    },
+    {
+      "coverage": 0.007722007722007722,
+      "min_b7": 0.9921103737399366,
+      "selected_gt_dice_evaluation_only": 0.9746021815640069,
+      "selected_targets": 2
+    },
+    {
+      "coverage": 0.011583011583011582,
+      "min_b7": 0.991962540720008,
+      "selected_gt_dice_evaluation_only": 0.9733780495207148,
+      "selected_targets": 3
+    },
+    {
+      "coverage": 0.015444015444015444,
+      "min_b7": 0.9919610090683298,
+      "selected_gt_dice_evaluation_only": 0.9703424094456771,
+      "selected_targets": 4
+    },
+    {
+      "coverage": 0.019305019305019305,
+      "min_b7": 0.9912212580148398,
+      "selected_gt_dice_evaluation_only": 0.9724719698320416,
+      "selected_targets": 5
+    },
+    {
+      "coverage": 0.023166023166023165,
+      "min_b7": 0.9911964938587476,
+      "selected_gt_dice_evaluation_only": 0.9741766256342254,
+      "selected_targets": 6
+    },
+    {
+      "coverage": 0.02702702702702703,
+      "min_b7": 0.9905087621005918,
+      "selected_gt_dice_evaluation_only": 0.9735782498576331,
+      "selected_targets": 7
+    },
+    {
+      "coverage": 0.03088803088803089,
+      "min_b7": 0.9904874895826037,
+      "selected_gt_dice_evaluation_only": 0.973716448650675,
+      "selected_targets": 8
+    },
+    {
+      "coverage": 0.03474903474903475,
+      "min_b7": 0.9902404565605851,
+      "selected_gt_dice_evaluation_only": 0.974720435141376,
+      "selected_targets": 9
+    },
+    {
+      "coverage": 0.03861003861003861,
+      "min_b7": 0.9899391759463672,
+      "selected_gt_dice_evaluation_only": 0.9735587469263576,
+      "selected_targets": 10
+    },
+    {
+      "coverage": 0.04247104247104247,
+      "min_b7": 0.9896994032137149,
+      "selected_gt_dice_evaluation_only": 0.9733029386327374,
+      "selected_targets": 11
+    },
+    {
+      "coverage": 0.04633204633204633,
+      "min_b7": 0.9890742048595351,
+      "selected_gt_dice_evaluation_only": 0.9629121997878984,
+      "selected_targets": 12
+    },
+    {
+      "coverage": 0.05019305019305019,
+      "min_b7": 0.9889995566046843,
+      "selected_gt_dice_evaluation_only": 0.9645741226156657,
+      "selected_targets": 13
+    },
+    {
+      "coverage": 0.05405405405405406,
+      "min_b7": 0.9888536700226822,
+      "selected_gt_dice_evaluation_only": 0.9654688223925397,
+      "selected_targets": 14
+    },
+    {
+      "coverage": 0.05791505791505792,
+      "min_b7": 0.9885629417381933,
+      "selected_gt_dice_evaluation_only": 0.9666758535004413,
+      "selected_targets": 15
+    },
+    {
+      "coverage": 0.06177606177606178,
+      "min_b7": 0.9885010574578137,
+      "selected_gt_dice_evaluation_only": 0.9667732790216116,
+      "selected_targets": 16
+    },
+    {
+      "coverage": 0.06563706563706563,
+      "min_b7": 0.988402799676202,
+      "selected_gt_dice_evaluation_only": 0.9668888447444234,
+      "selected_targets": 17
+    },
+    {
+      "coverage": 0.0694980694980695,
+      "min_b7": 0.9882338626236852,
+      "selected_gt_dice_evaluation_only": 0.9641730768876536,
+      "selected_targets": 18
+    },
+    {
+      "coverage": 0.07335907335907337,
+      "min_b7": 0.9880673079333824,
+      "selected_gt_dice_evaluation_only": 0.9652332278294836,
+      "selected_targets": 19
+    },
+    {
+      "coverage": 0.07722007722007722,
+      "min_b7": 0.9880105776964684,
+      "selected_gt_dice_evaluation_only": 0.9604818433824469,
+      "selected_targets": 20
+    },
+    {
+      "coverage": 0.08108108108108109,
+      "min_b7": 0.9872882599795205,
+      "selected_gt_dice_evaluation_only": 0.9590415958308305,
+      "selected_targets": 21
+    },
+    {
+      "coverage": 0.08494208494208494,
+      "min_b7": 0.987104215119895,
+      "selected_gt_dice_evaluation_only": 0.959815429545317,
+      "selected_targets": 22
+    },
+    {
+      "coverage": 0.0888030888030888,
+      "min_b7": 0.98701660713418,
+      "selected_gt_dice_evaluation_only": 0.9610359451315006,
+      "selected_targets": 23
+    },
+    {
+      "coverage": 0.09266409266409266,
+      "min_b7": 0.9869626688996197,
+      "selected_gt_dice_evaluation_only": 0.9608939479362416,
+      "selected_targets": 24
+    },
+    {
+      "coverage": 0.09652509652509653,
+      "min_b7": 0.9864178533951984,
+      "selected_gt_dice_evaluation_only": 0.9596951832172727,
+      "selected_targets": 25
+    },
+    {
+      "coverage": 0.10038610038610038,
+      "min_b7": 0.986334642912103,
+      "selected_gt_dice_evaluation_only": 0.958820452870238,
+      "selected_targets": 26
+    },
+    {
+      "coverage": 0.10424710424710425,
+      "min_b7": 0.9860127161890049,
+      "selected_gt_dice_evaluation_only": 0.9583292063352771,
+      "selected_targets": 27
+    },
+    {
+      "coverage": 0.10810810810810811,
+      "min_b7": 0.9860075601050136,
+      "selected_gt_dice_evaluation_only": 0.9558153157508678,
+      "selected_targets": 28
+    },
+    {
+      "coverage": 0.11196911196911197,
+      "min_b7": 0.9858365551719943,
+      "selected_gt_dice_evaluation_only": 0.9563209337129602,
+      "selected_targets": 29
+    },
+    {
+      "coverage": 0.11583011583011583,
+      "min_b7": 0.9858229824804792,
+      "selected_gt_dice_evaluation_only": 0.9559591119040276,
+      "selected_targets": 30
+    },
+    {
+      "coverage": 0.11969111969111969,
+      "min_b7": 0.9857697839301137,
+      "selected_gt_dice_evaluation_only": 0.9552512750668153,
+      "selected_targets": 31
+    },
+    {
+      "coverage": 0.12355212355212356,
+      "min_b7": 0.9852797937981342,
+      "selected_gt_dice_evaluation_only": 0.9559231751815237,
+      "selected_targets": 32
+    },
+    {
+      "coverage": 0.1274131274131274,
+      "min_b7": 0.9844679760330992,
+      "selected_gt_dice_evaluation_only": 0.9566309451153674,
+      "selected_targets": 33
+    },
+    {
+      "coverage": 0.13127413127413126,
+      "min_b7": 0.9843827418290739,
+      "selected_gt_dice_evaluation_only": 0.9554410058419459,
+      "selected_targets": 34
+    },
+    {
+      "coverage": 0.13513513513513514,
+      "min_b7": 0.9843286802960419,
+      "selected_gt_dice_evaluation_only": 0.9552973388017932,
+      "selected_targets": 35
+    },
+    {
+      "coverage": 0.138996138996139,
+      "min_b7": 0.9841107213660333,
+      "selected_gt_dice_evaluation_only": 0.9555901699644402,
+      "selected_targets": 36
+    },
+    {
+      "coverage": 0.14285714285714285,
+      "min_b7": 0.9839653248271414,
+      "selected_gt_dice_evaluation_only": 0.9526968716211175,
+      "selected_targets": 37
+    },
+    {
+      "coverage": 0.14671814671814673,
+      "min_b7": 0.9838176322452313,
+      "selected_gt_dice_evaluation_only": 0.9533936600781933,
+      "selected_targets": 38
+    },
+    {
+      "coverage": 0.15057915057915058,
+      "min_b7": 0.9837699160302488,
+      "selected_gt_dice_evaluation_only": 0.9530573633761844,
+      "selected_targets": 39
+    },
+    {
+      "coverage": 0.15444015444015444,
+      "min_b7": 0.9836971764599108,
+      "selected_gt_dice_evaluation_only": 0.9534920385912787,
+      "selected_targets": 40
+    },
+    {
+      "coverage": 0.1583011583011583,
+      "min_b7": 0.9834264625581729,
+      "selected_gt_dice_evaluation_only": 0.9540555308328977,
+      "selected_targets": 41
+    },
+    {
+      "coverage": 0.16216216216216217,
+      "min_b7": 0.9834022993776131,
+      "selected_gt_dice_evaluation_only": 0.9545908515607728,
+      "selected_targets": 42
+    },
+    {
+      "coverage": 0.16602316602316602,
+      "min_b7": 0.9832618705809647,
+      "selected_gt_dice_evaluation_only": 0.9548475267041433,
+      "selected_targets": 43
+    },
+    {
+      "coverage": 0.16988416988416988,
+      "min_b7": 0.9829030378924078,
+      "selected_gt_dice_evaluation_only": 0.9550694968449714,
+      "selected_targets": 44
+    },
+    {
+      "coverage": 0.17374517374517376,
+      "min_b7": 0.9828227304279544,
+      "selected_gt_dice_evaluation_only": 0.9525829657240172,
+      "selected_targets": 45
+    },
+    {
+      "coverage": 0.1776061776061776,
+      "min_b7": 0.9827860954169261,
+      "selected_gt_dice_evaluation_only": 0.9530062116064881,
+      "selected_targets": 46
+    },
+    {
+      "coverage": 0.18146718146718147,
+      "min_b7": 0.982755992953517,
+      "selected_gt_dice_evaluation_only": 0.9536171227709979,
+      "selected_targets": 47
+    },
+    {
+      "coverage": 0.18532818532818532,
+      "min_b7": 0.9825924801033312,
+      "selected_gt_dice_evaluation_only": 0.9535672369279737,
+      "selected_targets": 48
+    },
+    {
+      "coverage": 0.1891891891891892,
+      "min_b7": 0.9825554531660049,
+      "selected_gt_dice_evaluation_only": 0.954125509605315,
+      "selected_targets": 49
+    },
+    {
+      "coverage": 0.19305019305019305,
+      "min_b7": 0.9823549100874314,
+      "selected_gt_dice_evaluation_only": 0.9545901560795851,
+      "selected_targets": 50
+    },
+    {
+      "coverage": 0.1969111969111969,
+      "min_b7": 0.9822063183877171,
+      "selected_gt_dice_evaluation_only": 0.9547502069251196,
+      "selected_targets": 51
+    },
+    {
+      "coverage": 0.20077220077220076,
+      "min_b7": 0.9821204783758812,
+      "selected_gt_dice_evaluation_only": 0.954794456341317,
+      "selected_targets": 52
+    },
+    {
+      "coverage": 0.20463320463320464,
+      "min_b7": 0.981946535374823,
+      "selected_gt_dice_evaluation_only": 0.9552425286064407,
+      "selected_targets": 53
+    },
+    {
+      "coverage": 0.2084942084942085,
+      "min_b7": 0.9817056310933328,
+      "selected_gt_dice_evaluation_only": 0.9552914853641938,
+      "selected_targets": 54
+    },
+    {
+      "coverage": 0.21235521235521235,
+      "min_b7": 0.9815438605877426,
+      "selected_gt_dice_evaluation_only": 0.9552491021180979,
+      "selected_targets": 55
+    },
+    {
+      "coverage": 0.21621621621621623,
+      "min_b7": 0.9813787120236906,
+      "selected_gt_dice_evaluation_only": 0.9552104274420128,
+      "selected_targets": 56
+    },
+    {
+      "coverage": 0.22007722007722008,
+      "min_b7": 0.9813393563015315,
+      "selected_gt_dice_evaluation_only": 0.9554717022725653,
+      "selected_targets": 57
+    },
+    {
+      "coverage": 0.22393822393822393,
+      "min_b7": 0.9810367572823586,
+      "selected_gt_dice_evaluation_only": 0.9548619593995377,
+      "selected_targets": 58
+    },
+    {
+      "coverage": 0.2277992277992278,
+      "min_b7": 0.980951797995922,
+      "selected_gt_dice_evaluation_only": 0.9549193264962597,
+      "selected_targets": 59
+    },
+    {
+      "coverage": 0.23166023166023167,
+      "min_b7": 0.9808302920868704,
+      "selected_gt_dice_evaluation_only": 0.9548390212961487,
+      "selected_targets": 60
+    },
+    {
+      "coverage": 0.23552123552123552,
+      "min_b7": 0.9800204941400491,
+      "selected_gt_dice_evaluation_only": 0.9550672130269638,
+      "selected_targets": 61
+    },
+    {
+      "coverage": 0.23938223938223938,
+      "min_b7": 0.9799711043203299,
+      "selected_gt_dice_evaluation_only": 0.9550810897667176,
+      "selected_targets": 62
+    },
+    {
+      "coverage": 0.24324324324324326,
+      "min_b7": 0.9796943905053548,
+      "selected_gt_dice_evaluation_only": 0.9552538878016484,
+      "selected_targets": 63
+    },
+    {
+      "coverage": 0.2471042471042471,
+      "min_b7": 0.9793789760387576,
+      "selected_gt_dice_evaluation_only": 0.9552428657954312,
+      "selected_targets": 64
+    },
+    {
+      "coverage": 0.25096525096525096,
+      "min_b7": 0.979219416637518,
+      "selected_gt_dice_evaluation_only": 0.9556549410079139,
+      "selected_targets": 65
+    },
+    {
+      "coverage": 0.2548262548262548,
+      "min_b7": 0.9789854893652767,
+      "selected_gt_dice_evaluation_only": 0.9554197002856213,
+      "selected_targets": 66
+    },
+    {
+      "coverage": 0.25868725868725867,
+      "min_b7": 0.978933199042254,
+      "selected_gt_dice_evaluation_only": 0.9556264795301831,
+      "selected_targets": 67
+    },
+    {
+      "coverage": 0.2625482625482625,
+      "min_b7": 0.978783488058583,
+      "selected_gt_dice_evaluation_only": 0.9559716230677213,
+      "selected_targets": 68
+    },
+    {
+      "coverage": 0.26640926640926643,
+      "min_b7": 0.9787210525091998,
+      "selected_gt_dice_evaluation_only": 0.956006407123622,
+      "selected_targets": 69
+    },
+    {
+      "coverage": 0.2702702702702703,
+      "min_b7": 0.9784017629784532,
+      "selected_gt_dice_evaluation_only": 0.9556695050983902,
+      "selected_targets": 70
+    },
+    {
+      "coverage": 0.27413127413127414,
+      "min_b7": 0.9781668904142637,
+      "selected_gt_dice_evaluation_only": 0.9556606679782971,
+      "selected_targets": 71
+    },
+    {
+      "coverage": 0.277992277992278,
+      "min_b7": 0.9780613519666037,
+      "selected_gt_dice_evaluation_only": 0.9559307949461436,
+      "selected_targets": 72
+    },
+    {
+      "coverage": 0.28185328185328185,
+      "min_b7": 0.9780032015506368,
+      "selected_gt_dice_evaluation_only": 0.9544268548046688,
+      "selected_targets": 73
+    },
+    {
+      "coverage": 0.2857142857142857,
+      "min_b7": 0.9779722890009789,
+      "selected_gt_dice_evaluation_only": 0.954617622838665,
+      "selected_targets": 74
+    },
+    {
+      "coverage": 0.28957528957528955,
+      "min_b7": 0.9778396217751011,
+      "selected_gt_dice_evaluation_only": 0.9547655395559604,
+      "selected_targets": 75
+    },
+    {
+      "coverage": 0.29343629343629346,
+      "min_b7": 0.9777205327048416,
+      "selected_gt_dice_evaluation_only": 0.9550522882431487,
+      "selected_targets": 76
+    },
+    {
+      "coverage": 0.2972972972972973,
+      "min_b7": 0.9774702595037538,
+      "selected_gt_dice_evaluation_only": 0.9551697288549141,
+      "selected_targets": 77
+    },
+    {
+      "coverage": 0.30115830115830117,
+      "min_b7": 0.9774533561530728,
+      "selected_gt_dice_evaluation_only": 0.9552240455596634,
+      "selected_targets": 78
+    },
+    {
+      "coverage": 0.305019305019305,
+      "min_b7": 0.9773317548567505,
+      "selected_gt_dice_evaluation_only": 0.9553406850474172,
+      "selected_targets": 79
+    },
+    {
+      "coverage": 0.3088803088803089,
+      "min_b7": 0.9770115863239177,
+      "selected_gt_dice_evaluation_only": 0.9551388298483504,
+      "selected_targets": 80
+    },
+    {
+      "coverage": 0.3127413127413127,
+      "min_b7": 0.9767349534191038,
+      "selected_gt_dice_evaluation_only": 0.9550911120045333,
+      "selected_targets": 81
+    },
+    {
+      "coverage": 0.3166023166023166,
+      "min_b7": 0.9765270512153842,
+      "selected_gt_dice_evaluation_only": 0.9550734071491347,
+      "selected_targets": 82
+    },
+    {
+      "coverage": 0.3204633204633205,
+      "min_b7": 0.9764840819723154,
+      "selected_gt_dice_evaluation_only": 0.9549847041753226,
+      "selected_targets": 83
+    },
+    {
+      "coverage": 0.32432432432432434,
+      "min_b7": 0.9762092418632471,
+      "selected_gt_dice_evaluation_only": 0.9544494630527325,
+      "selected_targets": 84
+    },
+    {
+      "coverage": 0.3281853281853282,
+      "min_b7": 0.9757334150213618,
+      "selected_gt_dice_evaluation_only": 0.9541922190397651,
+      "selected_targets": 85
+    },
+    {
+      "coverage": 0.33204633204633205,
+      "min_b7": 0.9757123353515974,
+      "selected_gt_dice_evaluation_only": 0.9534325083763756,
+      "selected_targets": 86
+    },
+    {
+      "coverage": 0.3359073359073359,
+      "min_b7": 0.975462186804964,
+      "selected_gt_dice_evaluation_only": 0.9535249503343848,
+      "selected_targets": 87
+    },
+    {
+      "coverage": 0.33976833976833976,
+      "min_b7": 0.9754240733133416,
+      "selected_gt_dice_evaluation_only": 0.9533588514240545,
+      "selected_targets": 88
+    },
+    {
+      "coverage": 0.3436293436293436,
+      "min_b7": 0.9752271028708646,
+      "selected_gt_dice_evaluation_only": 0.9526166576263817,
+      "selected_targets": 89
+    },
+    {
+      "coverage": 0.3474903474903475,
+      "min_b7": 0.9751219971985227,
+      "selected_gt_dice_evaluation_only": 0.9527231586324125,
+      "selected_targets": 90
+    },
+    {
+      "coverage": 0.35135135135135137,
+      "min_b7": 0.975071619749207,
+      "selected_gt_dice_evaluation_only": 0.9527182746443824,
+      "selected_targets": 91
+    },
+    {
+      "coverage": 0.3552123552123552,
+      "min_b7": 0.9748147165272786,
+      "selected_gt_dice_evaluation_only": 0.9519333275792705,
+      "selected_targets": 92
+    },
+    {
+      "coverage": 0.3590733590733591,
+      "min_b7": 0.9746946869803171,
+      "selected_gt_dice_evaluation_only": 0.9518188303068135,
+      "selected_targets": 93
+    },
+    {
+      "coverage": 0.36293436293436293,
+      "min_b7": 0.9743020994295094,
+      "selected_gt_dice_evaluation_only": 0.9507018082983728,
+      "selected_targets": 94
+    },
+    {
+      "coverage": 0.3667953667953668,
+      "min_b7": 0.9741577937703604,
+      "selected_gt_dice_evaluation_only": 0.9505464530583712,
+      "selected_targets": 95
+    },
+    {
+      "coverage": 0.37065637065637064,
+      "min_b7": 0.9739165675648911,
+      "selected_gt_dice_evaluation_only": 0.9503649769028283,
+      "selected_targets": 96
+    },
+    {
+      "coverage": 0.3745173745173745,
+      "min_b7": 0.9737951488578622,
+      "selected_gt_dice_evaluation_only": 0.9507597003835677,
+      "selected_targets": 97
+    },
+    {
+      "coverage": 0.3783783783783784,
+      "min_b7": 0.9736502691935159,
+      "selected_gt_dice_evaluation_only": 0.9508252922991978,
+      "selected_targets": 98
+    },
+    {
+      "coverage": 0.38223938223938225,
+      "min_b7": 0.9736312832472603,
+      "selected_gt_dice_evaluation_only": 0.9501298703309029,
+      "selected_targets": 99
+    },
+    {
+      "coverage": 0.3861003861003861,
+      "min_b7": 0.9734417640769779,
+      "selected_gt_dice_evaluation_only": 0.9497995180692667,
+      "selected_targets": 100
+    },
+    {
+      "coverage": 0.38996138996138996,
+      "min_b7": 0.9733964094611604,
+      "selected_gt_dice_evaluation_only": 0.94934231588215,
+      "selected_targets": 101
+    },
+    {
+      "coverage": 0.3938223938223938,
+      "min_b7": 0.9731739085058888,
+      "selected_gt_dice_evaluation_only": 0.9488416817925776,
+      "selected_targets": 102
+    },
+    {
+      "coverage": 0.39768339768339767,
+      "min_b7": 0.9731632998679892,
+      "selected_gt_dice_evaluation_only": 0.9486804635734991,
+      "selected_targets": 103
+    },
+    {
+      "coverage": 0.4015444015444015,
+      "min_b7": 0.972470594580372,
+      "selected_gt_dice_evaluation_only": 0.9480183937342476,
+      "selected_targets": 104
+    },
+    {
+      "coverage": 0.40540540540540543,
+      "min_b7": 0.97205960887727,
+      "selected_gt_dice_evaluation_only": 0.9478629535499283,
+      "selected_targets": 105
+    },
+    {
+      "coverage": 0.4092664092664093,
+      "min_b7": 0.9719061768441183,
+      "selected_gt_dice_evaluation_only": 0.9466421642964509,
+      "selected_targets": 106
+    },
+    {
+      "coverage": 0.41312741312741313,
+      "min_b7": 0.9717885265043555,
+      "selected_gt_dice_evaluation_only": 0.9456009101383739,
+      "selected_targets": 107
+    },
+    {
+      "coverage": 0.416988416988417,
+      "min_b7": 0.9717273444639631,
+      "selected_gt_dice_evaluation_only": 0.94579160320984,
+      "selected_targets": 108
+    },
+    {
+      "coverage": 0.42084942084942084,
+      "min_b7": 0.9717207639491643,
+      "selected_gt_dice_evaluation_only": 0.9458466148006955,
+      "selected_targets": 109
+    },
+    {
+      "coverage": 0.4247104247104247,
+      "min_b7": 0.9713377965972626,
+      "selected_gt_dice_evaluation_only": 0.9457106604648676,
+      "selected_targets": 110
+    },
+    {
+      "coverage": 0.42857142857142855,
+      "min_b7": 0.9703281134421384,
+      "selected_gt_dice_evaluation_only": 0.9452766387181152,
+      "selected_targets": 111
+    },
+    {
+      "coverage": 0.43243243243243246,
+      "min_b7": 0.9702423738870986,
+      "selected_gt_dice_evaluation_only": 0.9452385891685181,
+      "selected_targets": 112
+    },
+    {
+      "coverage": 0.4362934362934363,
+      "min_b7": 0.9698948031103088,
+      "selected_gt_dice_evaluation_only": 0.9445898189544657,
+      "selected_targets": 113
+    },
+    {
+      "coverage": 0.44015444015444016,
+      "min_b7": 0.9694271978842463,
+      "selected_gt_dice_evaluation_only": 0.9447615817601532,
+      "selected_targets": 114
+    },
+    {
+      "coverage": 0.444015444015444,
+      "min_b7": 0.9691893389348333,
+      "selected_gt_dice_evaluation_only": 0.9447574597286618,
+      "selected_targets": 115
+    },
+    {
+      "coverage": 0.44787644787644787,
+      "min_b7": 0.9690474670129912,
+      "selected_gt_dice_evaluation_only": 0.9446302002821334,
+      "selected_targets": 116
+    },
+    {
+      "coverage": 0.4517374517374517,
+      "min_b7": 0.9688044932401321,
+      "selected_gt_dice_evaluation_only": 0.9441681204818273,
+      "selected_targets": 117
+    },
+    {
+      "coverage": 0.4555984555984556,
+      "min_b7": 0.9684074144634577,
+      "selected_gt_dice_evaluation_only": 0.9436372381756316,
+      "selected_targets": 118
+    },
+    {
+      "coverage": 0.4594594594594595,
+      "min_b7": 0.9683947818025551,
+      "selected_gt_dice_evaluation_only": 0.9435962364260766,
+      "selected_targets": 119
+    },
+    {
+      "coverage": 0.46332046332046334,
+      "min_b7": 0.9682627994848144,
+      "selected_gt_dice_evaluation_only": 0.9427804968225707,
+      "selected_targets": 120
+    },
+    {
+      "coverage": 0.4671814671814672,
+      "min_b7": 0.968061820133961,
+      "selected_gt_dice_evaluation_only": 0.9423520910325198,
+      "selected_targets": 121
+    },
+    {
+      "coverage": 0.47104247104247104,
+      "min_b7": 0.9676895074933414,
+      "selected_gt_dice_evaluation_only": 0.9422669779577032,
+      "selected_targets": 122
+    },
+    {
+      "coverage": 0.4749034749034749,
+      "min_b7": 0.9669318050578447,
+      "selected_gt_dice_evaluation_only": 0.9423603120604822,
+      "selected_targets": 123
+    },
+    {
+      "coverage": 0.47876447876447875,
+      "min_b7": 0.9667754208779373,
+      "selected_gt_dice_evaluation_only": 0.9417383422172699,
+      "selected_targets": 124
+    },
+    {
+      "coverage": 0.4826254826254826,
+      "min_b7": 0.9664246259065119,
+      "selected_gt_dice_evaluation_only": 0.9418538093614637,
+      "selected_targets": 125
+    },
+    {
+      "coverage": 0.4864864864864865,
+      "min_b7": 0.9661708119845558,
+      "selected_gt_dice_evaluation_only": 0.9419362895134679,
+      "selected_targets": 126
+    },
+    {
+      "coverage": 0.49034749034749037,
+      "min_b7": 0.9660632468404995,
+      "selected_gt_dice_evaluation_only": 0.9421417635174018,
+      "selected_targets": 127
+    },
+    {
+      "coverage": 0.4942084942084942,
+      "min_b7": 0.9660191163488792,
+      "selected_gt_dice_evaluation_only": 0.9422671626487218,
+      "selected_targets": 128
+    },
+    {
+      "coverage": 0.4980694980694981,
+      "min_b7": 0.966010577524726,
+      "selected_gt_dice_evaluation_only": 0.9423668588916254,
+      "selected_targets": 129
+    },
+    {
+      "coverage": 0.5019305019305019,
+      "min_b7": 0.9658141604864052,
+      "selected_gt_dice_evaluation_only": 0.9425700806470403,
+      "selected_targets": 130
+    },
+    {
+      "coverage": 0.5057915057915058,
+      "min_b7": 0.9654268408846539,
+      "selected_gt_dice_evaluation_only": 0.9421344759659778,
+      "selected_targets": 131
+    },
+    {
+      "coverage": 0.5096525096525096,
+      "min_b7": 0.9654209204925154,
+      "selected_gt_dice_evaluation_only": 0.9419468183206157,
+      "selected_targets": 132
+    },
+    {
+      "coverage": 0.5135135135135135,
+      "min_b7": 0.9654083051168811,
+      "selected_gt_dice_evaluation_only": 0.9416382825906602,
+      "selected_targets": 133
+    },
+    {
+      "coverage": 0.5173745173745173,
+      "min_b7": 0.9652149298731796,
+      "selected_gt_dice_evaluation_only": 0.9410226596441732,
+      "selected_targets": 134
+    },
+    {
+      "coverage": 0.5212355212355212,
+      "min_b7": 0.9651681436418463,
+      "selected_gt_dice_evaluation_only": 0.9409920621135921,
+      "selected_targets": 135
+    },
+    {
+      "coverage": 0.525096525096525,
+      "min_b7": 0.9650140995192591,
+      "selected_gt_dice_evaluation_only": 0.9409112852421587,
+      "selected_targets": 136
+    },
+    {
+      "coverage": 0.528957528957529,
+      "min_b7": 0.962481658543629,
+      "selected_gt_dice_evaluation_only": 0.9406085546058228,
+      "selected_targets": 137
+    },
+    {
+      "coverage": 0.5328185328185329,
+      "min_b7": 0.9624521041599081,
+      "selected_gt_dice_evaluation_only": 0.9394198436652115,
+      "selected_targets": 138
+    },
+    {
+      "coverage": 0.5366795366795367,
+      "min_b7": 0.9623665141035671,
+      "selected_gt_dice_evaluation_only": 0.9388508366521702,
+      "selected_targets": 139
+    },
+    {
+      "coverage": 0.5405405405405406,
+      "min_b7": 0.9623227747604947,
+      "selected_gt_dice_evaluation_only": 0.9387670273274293,
+      "selected_targets": 140
+    },
+    {
+      "coverage": 0.5444015444015444,
+      "min_b7": 0.9622859309876765,
+      "selected_gt_dice_evaluation_only": 0.938911383710345,
+      "selected_targets": 141
+    },
+    {
+      "coverage": 0.5482625482625483,
+      "min_b7": 0.9617655803736075,
+      "selected_gt_dice_evaluation_only": 0.9381545633395523,
+      "selected_targets": 142
+    },
+    {
+      "coverage": 0.5521235521235521,
+      "min_b7": 0.9615207151842339,
+      "selected_gt_dice_evaluation_only": 0.9381315656965004,
+      "selected_targets": 143
+    },
+    {
+      "coverage": 0.555984555984556,
+      "min_b7": 0.9613779250686771,
+      "selected_gt_dice_evaluation_only": 0.9382269830024552,
+      "selected_targets": 144
+    },
+    {
+      "coverage": 0.5598455598455598,
+      "min_b7": 0.9612537388512842,
+      "selected_gt_dice_evaluation_only": 0.9378826552298692,
+      "selected_targets": 145
+    },
+    {
+      "coverage": 0.5637065637065637,
+      "min_b7": 0.9612329071605901,
+      "selected_gt_dice_evaluation_only": 0.9372875664857149,
+      "selected_targets": 146
+    },
+    {
+      "coverage": 0.5675675675675675,
+      "min_b7": 0.9611297855065389,
+      "selected_gt_dice_evaluation_only": 0.9365234697565404,
+      "selected_targets": 147
+    },
+    {
+      "coverage": 0.5714285714285714,
+      "min_b7": 0.9610752598669694,
+      "selected_gt_dice_evaluation_only": 0.9364738030002511,
+      "selected_targets": 148
+    },
+    {
+      "coverage": 0.5752895752895753,
+      "min_b7": 0.9608039340816839,
+      "selected_gt_dice_evaluation_only": 0.9360330759917672,
+      "selected_targets": 149
+    },
+    {
+      "coverage": 0.5791505791505791,
+      "min_b7": 0.9606625417069863,
+      "selected_gt_dice_evaluation_only": 0.9361444433821298,
+      "selected_targets": 150
+    },
+    {
+      "coverage": 0.583011583011583,
+      "min_b7": 0.9604446243898023,
+      "selected_gt_dice_evaluation_only": 0.9356533683520167,
+      "selected_targets": 151
+    },
+    {
+      "coverage": 0.5868725868725869,
+      "min_b7": 0.9602070218473429,
+      "selected_gt_dice_evaluation_only": 0.9353645846244262,
+      "selected_targets": 152
+    },
+    {
+      "coverage": 0.5907335907335908,
+      "min_b7": 0.9600142797000558,
+      "selected_gt_dice_evaluation_only": 0.9352848134283019,
+      "selected_targets": 153
+    },
+    {
+      "coverage": 0.5945945945945946,
+      "min_b7": 0.9596680733514262,
+      "selected_gt_dice_evaluation_only": 0.9349534786609704,
+      "selected_targets": 154
+    },
+    {
+      "coverage": 0.5984555984555985,
+      "min_b7": 0.9592053758661987,
+      "selected_gt_dice_evaluation_only": 0.9339573796370657,
+      "selected_targets": 155
+    },
+    {
+      "coverage": 0.6023166023166023,
+      "min_b7": 0.9580843009002041,
+      "selected_gt_dice_evaluation_only": 0.9339343927291981,
+      "selected_targets": 156
+    },
+    {
+      "coverage": 0.6061776061776062,
+      "min_b7": 0.9577143391845041,
+      "selected_gt_dice_evaluation_only": 0.9339249043629732,
+      "selected_targets": 157
+    },
+    {
+      "coverage": 0.61003861003861,
+      "min_b7": 0.9572363683629644,
+      "selected_gt_dice_evaluation_only": 0.931029423956841,
+      "selected_targets": 158
+    },
+    {
+      "coverage": 0.6138996138996139,
+      "min_b7": 0.9569369798587538,
+      "selected_gt_dice_evaluation_only": 0.9311222393236299,
+      "selected_targets": 159
+    },
+    {
+      "coverage": 0.6177606177606177,
+      "min_b7": 0.9569130720519097,
+      "selected_gt_dice_evaluation_only": 0.9309587536966516,
+      "selected_targets": 160
+    },
+    {
+      "coverage": 0.6216216216216216,
+      "min_b7": 0.9567928643340154,
+      "selected_gt_dice_evaluation_only": 0.9306503079728292,
+      "selected_targets": 161
+    },
+    {
+      "coverage": 0.6254826254826255,
+      "min_b7": 0.9566304346508298,
+      "selected_gt_dice_evaluation_only": 0.9305463433282204,
+      "selected_targets": 162
+    },
+    {
+      "coverage": 0.6293436293436293,
+      "min_b7": 0.9563378897696247,
+      "selected_gt_dice_evaluation_only": 0.9297338662011833,
+      "selected_targets": 163
+    },
+    {
+      "coverage": 0.6332046332046332,
+      "min_b7": 0.9563088092950114,
+      "selected_gt_dice_evaluation_only": 0.9296616654373077,
+      "selected_targets": 164
+    },
+    {
+      "coverage": 0.637065637065637,
+      "min_b7": 0.9556042285199777,
+      "selected_gt_dice_evaluation_only": 0.9297488141810087,
+      "selected_targets": 165
+    },
+    {
+      "coverage": 0.640926640926641,
+      "min_b7": 0.9547373428704145,
+      "selected_gt_dice_evaluation_only": 0.9281164581389805,
+      "selected_targets": 166
+    },
+    {
+      "coverage": 0.6447876447876448,
+      "min_b7": 0.9546002409210362,
+      "selected_gt_dice_evaluation_only": 0.9280621465072186,
+      "selected_targets": 167
+    },
+    {
+      "coverage": 0.6486486486486487,
+      "min_b7": 0.9545517465754969,
+      "selected_gt_dice_evaluation_only": 0.9283060258556214,
+      "selected_targets": 168
+    },
+    {
+      "coverage": 0.6525096525096525,
+      "min_b7": 0.952809654699427,
+      "selected_gt_dice_evaluation_only": 0.9276624153497521,
+      "selected_targets": 169
+    },
+    {
+      "coverage": 0.6563706563706564,
+      "min_b7": 0.9526707568407048,
+      "selected_gt_dice_evaluation_only": 0.9272062506504946,
+      "selected_targets": 170
+    },
+    {
+      "coverage": 0.6602316602316602,
+      "min_b7": 0.9517332628310561,
+      "selected_gt_dice_evaluation_only": 0.9272521723133728,
+      "selected_targets": 171
+    },
+    {
+      "coverage": 0.6640926640926641,
+      "min_b7": 0.9516825499106549,
+      "selected_gt_dice_evaluation_only": 0.9274768263762293,
+      "selected_targets": 172
+    },
+    {
+      "coverage": 0.667953667953668,
+      "min_b7": 0.9513608259140747,
+      "selected_gt_dice_evaluation_only": 0.927758276968488,
+      "selected_targets": 173
+    },
+    {
+      "coverage": 0.6718146718146718,
+      "min_b7": 0.9509334367545635,
+      "selected_gt_dice_evaluation_only": 0.9273747016299082,
+      "selected_targets": 174
+    },
+    {
+      "coverage": 0.6756756756756757,
+      "min_b7": 0.9499994121062317,
+      "selected_gt_dice_evaluation_only": 0.9269281111865706,
+      "selected_targets": 175
+    },
+    {
+      "coverage": 0.6795366795366795,
+      "min_b7": 0.9494426819458056,
+      "selected_gt_dice_evaluation_only": 0.9272264956268305,
+      "selected_targets": 176
+    },
+    {
+      "coverage": 0.6833976833976834,
+      "min_b7": 0.9493905196043697,
+      "selected_gt_dice_evaluation_only": 0.926912912269165,
+      "selected_targets": 177
+    },
+    {
+      "coverage": 0.6872586872586872,
+      "min_b7": 0.9486404591934481,
+      "selected_gt_dice_evaluation_only": 0.9269732947816123,
+      "selected_targets": 178
+    },
+    {
+      "coverage": 0.6911196911196911,
+      "min_b7": 0.9481986883067335,
+      "selected_gt_dice_evaluation_only": 0.926703654245985,
+      "selected_targets": 179
+    },
+    {
+      "coverage": 0.694980694980695,
+      "min_b7": 0.9480486423873019,
+      "selected_gt_dice_evaluation_only": 0.9266238771487882,
+      "selected_targets": 180
+    },
+    {
+      "coverage": 0.6988416988416989,
+      "min_b7": 0.9477185237841862,
+      "selected_gt_dice_evaluation_only": 0.9269146500190383,
+      "selected_targets": 181
+    },
+    {
+      "coverage": 0.7027027027027027,
+      "min_b7": 0.9475450326472181,
+      "selected_gt_dice_evaluation_only": 0.9270427070317411,
+      "selected_targets": 182
+    },
+    {
+      "coverage": 0.7065637065637066,
+      "min_b7": 0.9469258060276285,
+      "selected_gt_dice_evaluation_only": 0.926848116655503,
+      "selected_targets": 183
+    },
+    {
+      "coverage": 0.7104247104247104,
+      "min_b7": 0.9468324687967191,
+      "selected_gt_dice_evaluation_only": 0.9270426218101709,
+      "selected_targets": 184
+    },
+    {
+      "coverage": 0.7142857142857143,
+      "min_b7": 0.9463189273790167,
+      "selected_gt_dice_evaluation_only": 0.9268968313008589,
+      "selected_targets": 185
+    },
+    {
+      "coverage": 0.7181467181467182,
+      "min_b7": 0.9453917382044109,
+      "selected_gt_dice_evaluation_only": 0.9271317136634971,
+      "selected_targets": 186
+    },
+    {
+      "coverage": 0.722007722007722,
+      "min_b7": 0.9443426700827346,
+      "selected_gt_dice_evaluation_only": 0.9264766838599195,
+      "selected_targets": 187
+    },
+    {
+      "coverage": 0.7258687258687259,
+      "min_b7": 0.943923869159987,
+      "selected_gt_dice_evaluation_only": 0.9265685152443459,
+      "selected_targets": 188
+    },
+    {
+      "coverage": 0.7297297297297297,
+      "min_b7": 0.9436641816714104,
+      "selected_gt_dice_evaluation_only": 0.9259122017623719,
+      "selected_targets": 189
+    },
+    {
+      "coverage": 0.7335907335907336,
+      "min_b7": 0.9436548331748152,
+      "selected_gt_dice_evaluation_only": 0.9258723896223324,
+      "selected_targets": 190
+    },
+    {
+      "coverage": 0.7374517374517374,
+      "min_b7": 0.9434492881183443,
+      "selected_gt_dice_evaluation_only": 0.9261503966445432,
+      "selected_targets": 191
+    },
+    {
+      "coverage": 0.7413127413127413,
+      "min_b7": 0.9420629210715579,
+      "selected_gt_dice_evaluation_only": 0.9261771043085015,
+      "selected_targets": 192
+    },
+    {
+      "coverage": 0.7451737451737451,
+      "min_b7": 0.9417520780421501,
+      "selected_gt_dice_evaluation_only": 0.9259904601421214,
+      "selected_targets": 193
+    },
+    {
+      "coverage": 0.749034749034749,
+      "min_b7": 0.9414694561063117,
+      "selected_gt_dice_evaluation_only": 0.9257950311758135,
+      "selected_targets": 194
+    },
+    {
+      "coverage": 0.752895752895753,
+      "min_b7": 0.9392461781217317,
+      "selected_gt_dice_evaluation_only": 0.9256539194284158,
+      "selected_targets": 195
+    },
+    {
+      "coverage": 0.7567567567567568,
+      "min_b7": 0.9382421429425474,
+      "selected_gt_dice_evaluation_only": 0.9255971465242988,
+      "selected_targets": 196
+    },
+    {
+      "coverage": 0.7606177606177607,
+      "min_b7": 0.9382013438522067,
+      "selected_gt_dice_evaluation_only": 0.9248508633250424,
+      "selected_targets": 197
+    },
+    {
+      "coverage": 0.7644787644787645,
+      "min_b7": 0.9371990974577791,
+      "selected_gt_dice_evaluation_only": 0.9249649114464836,
+      "selected_targets": 198
+    },
+    {
+      "coverage": 0.7683397683397684,
+      "min_b7": 0.9370902662931009,
+      "selected_gt_dice_evaluation_only": 0.9249023643669689,
+      "selected_targets": 199
+    },
+    {
+      "coverage": 0.7722007722007722,
+      "min_b7": 0.9352808481210488,
+      "selected_gt_dice_evaluation_only": 0.9247655499377158,
+      "selected_targets": 200
+    },
+    {
+      "coverage": 0.7760617760617761,
+      "min_b7": 0.9342873353971264,
+      "selected_gt_dice_evaluation_only": 0.9248319994650814,
+      "selected_targets": 201
+    },
+    {
+      "coverage": 0.7799227799227799,
+      "min_b7": 0.9335712148629904,
+      "selected_gt_dice_evaluation_only": 0.9246882683752925,
+      "selected_targets": 202
+    },
+    {
+      "coverage": 0.7837837837837838,
+      "min_b7": 0.9317613187226612,
+      "selected_gt_dice_evaluation_only": 0.9247554787527876,
+      "selected_targets": 203
+    },
+    {
+      "coverage": 0.7876447876447876,
+      "min_b7": 0.9317286981523618,
+      "selected_gt_dice_evaluation_only": 0.9242820386424276,
+      "selected_targets": 204
+    },
+    {
+      "coverage": 0.7915057915057915,
+      "min_b7": 0.9315441150657103,
+      "selected_gt_dice_evaluation_only": 0.9238522887492135,
+      "selected_targets": 205
+    },
+    {
+      "coverage": 0.7953667953667953,
+      "min_b7": 0.9299836987456271,
+      "selected_gt_dice_evaluation_only": 0.9239749081500237,
+      "selected_targets": 206
+    },
+    {
+      "coverage": 0.7992277992277992,
+      "min_b7": 0.9297107675934714,
+      "selected_gt_dice_evaluation_only": 0.9238204790046152,
+      "selected_targets": 207
+    },
+    {
+      "coverage": 0.803088803088803,
+      "min_b7": 0.9284571817781055,
+      "selected_gt_dice_evaluation_only": 0.9232592853487351,
+      "selected_targets": 208
+    },
+    {
+      "coverage": 0.806949806949807,
+      "min_b7": 0.9278552750608553,
+      "selected_gt_dice_evaluation_only": 0.923255781791354,
+      "selected_targets": 209
+    },
+    {
+      "coverage": 0.8108108108108109,
+      "min_b7": 0.9243618334576222,
+      "selected_gt_dice_evaluation_only": 0.9223438766569035,
+      "selected_targets": 210
+    },
+    {
+      "coverage": 0.8146718146718147,
+      "min_b7": 0.9213393345796471,
+      "selected_gt_dice_evaluation_only": 0.9221437850420666,
+      "selected_targets": 211
+    },
+    {
+      "coverage": 0.8185328185328186,
+      "min_b7": 0.9212384164490677,
+      "selected_gt_dice_evaluation_only": 0.9215274575549914,
+      "selected_targets": 212
+    },
+    {
+      "coverage": 0.8223938223938224,
+      "min_b7": 0.9149749849161964,
+      "selected_gt_dice_evaluation_only": 0.9214235806120221,
+      "selected_targets": 213
+    },
+    {
+      "coverage": 0.8262548262548263,
+      "min_b7": 0.9147770381956802,
+      "selected_gt_dice_evaluation_only": 0.9204594033566006,
+      "selected_targets": 214
+    },
+    {
+      "coverage": 0.8301158301158301,
+      "min_b7": 0.9141050368461987,
+      "selected_gt_dice_evaluation_only": 0.9206515819107933,
+      "selected_targets": 215
+    },
+    {
+      "coverage": 0.833976833976834,
+      "min_b7": 0.9124538124547743,
+      "selected_gt_dice_evaluation_only": 0.9194651468336862,
+      "selected_targets": 216
+    },
+    {
+      "coverage": 0.8378378378378378,
+      "min_b7": 0.9024265484396529,
+      "selected_gt_dice_evaluation_only": 0.9191055719391626,
+      "selected_targets": 217
+    },
+    {
+      "coverage": 0.8416988416988417,
+      "min_b7": 0.9014605449998154,
+      "selected_gt_dice_evaluation_only": 0.9183054585406519,
+      "selected_targets": 218
+    },
+    {
+      "coverage": 0.8455598455598455,
+      "min_b7": 0.8991897282117369,
+      "selected_gt_dice_evaluation_only": 0.9183809476808193,
+      "selected_targets": 219
+    },
+    {
+      "coverage": 0.8494208494208494,
+      "min_b7": 0.8961063804913117,
+      "selected_gt_dice_evaluation_only": 0.9184945388327889,
+      "selected_targets": 220
+    },
+    {
+      "coverage": 0.8532818532818532,
+      "min_b7": 0.895983954876128,
+      "selected_gt_dice_evaluation_only": 0.9177187109194612,
+      "selected_targets": 221
+    },
+    {
+      "coverage": 0.8571428571428571,
+      "min_b7": 0.8952267861931018,
+      "selected_gt_dice_evaluation_only": 0.917755932370778,
+      "selected_targets": 222
+    },
+    {
+      "coverage": 0.861003861003861,
+      "min_b7": 0.8913327899915874,
+      "selected_gt_dice_evaluation_only": 0.916607287770617,
+      "selected_targets": 223
+    },
+    {
+      "coverage": 0.8648648648648649,
+      "min_b7": 0.8898292268160222,
+      "selected_gt_dice_evaluation_only": 0.9163624401777966,
+      "selected_targets": 224
+    },
+    {
+      "coverage": 0.8687258687258688,
+      "min_b7": 0.8814770500549279,
+      "selected_gt_dice_evaluation_only": 0.9157948598059005,
+      "selected_targets": 225
+    },
+    {
+      "coverage": 0.8725868725868726,
+      "min_b7": 0.8808181699862874,
+      "selected_gt_dice_evaluation_only": 0.9156053434765872,
+      "selected_targets": 226
+    },
+    {
+      "coverage": 0.8764478764478765,
+      "min_b7": 0.8762302022631234,
+      "selected_gt_dice_evaluation_only": 0.9155730054624036,
+      "selected_targets": 227
+    },
+    {
+      "coverage": 0.8803088803088803,
+      "min_b7": 0.870006493981444,
+      "selected_gt_dice_evaluation_only": 0.9126906987702266,
+      "selected_targets": 228
+    },
+    {
+      "coverage": 0.8841698841698842,
+      "min_b7": 0.8605966438347562,
+      "selected_gt_dice_evaluation_only": 0.9128339897355245,
+      "selected_targets": 229
+    },
+    {
+      "coverage": 0.888030888030888,
+      "min_b7": 0.8598791956283031,
+      "selected_gt_dice_evaluation_only": 0.9128159292087087,
+      "selected_targets": 230
+    },
+    {
+      "coverage": 0.8918918918918919,
+      "min_b7": 0.8578983458154795,
+      "selected_gt_dice_evaluation_only": 0.9129496844932212,
+      "selected_targets": 231
+    },
+    {
+      "coverage": 0.8957528957528957,
+      "min_b7": 0.8479372742439766,
+      "selected_gt_dice_evaluation_only": 0.9122231894846965,
+      "selected_targets": 232
+    },
+    {
+      "coverage": 0.8996138996138996,
+      "min_b7": 0.8474382825226484,
+      "selected_gt_dice_evaluation_only": 0.9105840129376472,
+      "selected_targets": 233
+    },
+    {
+      "coverage": 0.9034749034749034,
+      "min_b7": 0.8439150776769291,
+      "selected_gt_dice_evaluation_only": 0.910572617999532,
+      "selected_targets": 234
+    },
+    {
+      "coverage": 0.9073359073359073,
+      "min_b7": 0.841189224292888,
+      "selected_gt_dice_evaluation_only": 0.9106220384053473,
+      "selected_targets": 235
+    },
+    {
+      "coverage": 0.9111969111969112,
+      "min_b7": 0.8294277571526969,
+      "selected_gt_dice_evaluation_only": 0.9102599739425061,
+      "selected_targets": 236
+    },
+    {
+      "coverage": 0.915057915057915,
+      "min_b7": 0.8200436837416988,
+      "selected_gt_dice_evaluation_only": 0.9069365845990347,
+      "selected_targets": 237
+    },
+    {
+      "coverage": 0.918918918918919,
+      "min_b7": 0.8194844518200117,
+      "selected_gt_dice_evaluation_only": 0.9059285358985676,
+      "selected_targets": 238
+    },
+    {
+      "coverage": 0.9227799227799228,
+      "min_b7": 0.7742689451957598,
+      "selected_gt_dice_evaluation_only": 0.9055919530988153,
+      "selected_targets": 239
+    },
+    {
+      "coverage": 0.9266409266409267,
+      "min_b7": 0.7629650064146275,
+      "selected_gt_dice_evaluation_only": 0.9051079785029934,
+      "selected_targets": 240
+    },
+    {
+      "coverage": 0.9305019305019305,
+      "min_b7": 0.7442705441827,
+      "selected_gt_dice_evaluation_only": 0.9037362635925221,
+      "selected_targets": 241
+    },
+    {
+      "coverage": 0.9343629343629344,
+      "min_b7": 0.7399809066005837,
+      "selected_gt_dice_evaluation_only": 0.9012767655178707,
+      "selected_targets": 242
+    },
+    {
+      "coverage": 0.9382239382239382,
+      "min_b7": 0.7374556633067417,
+      "selected_gt_dice_evaluation_only": 0.900200846987681,
+      "selected_targets": 243
+    },
+    {
+      "coverage": 0.9420849420849421,
+      "min_b7": 0.7293347343560087,
+      "selected_gt_dice_evaluation_only": 0.8989841218750967,
+      "selected_targets": 244
+    },
+    {
+      "coverage": 0.9459459459459459,
+      "min_b7": 0.7206215511373364,
+      "selected_gt_dice_evaluation_only": 0.8973484288221386,
+      "selected_targets": 245
+    },
+    {
+      "coverage": 0.9498069498069498,
+      "min_b7": 0.7058744655855828,
+      "selected_gt_dice_evaluation_only": 0.8945291410259375,
+      "selected_targets": 246
+    },
+    {
+      "coverage": 0.9536679536679536,
+      "min_b7": 0.5908051155862897,
+      "selected_gt_dice_evaluation_only": 0.8922573545806047,
+      "selected_targets": 247
+    },
+    {
+      "coverage": 0.9575289575289575,
+      "min_b7": 0.5493766403719846,
+      "selected_gt_dice_evaluation_only": 0.8921564284592488,
+      "selected_targets": 248
+    },
+    {
+      "coverage": 0.9613899613899614,
+      "min_b7": 0.4890550512257851,
+      "selected_gt_dice_evaluation_only": 0.8898805127016355,
+      "selected_targets": 249
+    },
+    {
+      "coverage": 0.9652509652509652,
+      "min_b7": 0.4704247417549002,
+      "selected_gt_dice_evaluation_only": 0.8895697732042906,
+      "selected_targets": 250
+    },
+    {
+      "coverage": 0.9691119691119691,
+      "min_b7": 0.4419741096228663,
+      "selected_gt_dice_evaluation_only": 0.8863729256632316,
+      "selected_targets": 251
+    },
+    {
+      "coverage": 0.972972972972973,
+      "min_b7": 0.38205730683686867,
+      "selected_gt_dice_evaluation_only": 0.883542328549378,
+      "selected_targets": 252
+    },
+    {
+      "coverage": 0.9768339768339769,
+      "min_b7": 0.33158810241178327,
+      "selected_gt_dice_evaluation_only": 0.8839325724204103,
+      "selected_targets": 253
+    },
+    {
+      "coverage": 0.9806949806949807,
+      "min_b7": 0.22622243012315876,
+      "selected_gt_dice_evaluation_only": 0.8823808488293107,
+      "selected_targets": 254
+    },
+    {
+      "coverage": 0.9845559845559846,
+      "min_b7": 0.06040666078348313,
+      "selected_gt_dice_evaluation_only": 0.8824792233055458,
+      "selected_targets": 255
+    },
+    {
+      "coverage": 0.9884169884169884,
+      "min_b7": 0.03767369057383521,
+      "selected_gt_dice_evaluation_only": 0.8826226452873978,
+      "selected_targets": 256
+    },
+    {
+      "coverage": 0.9922779922779923,
+      "min_b7": 0.003913997363926437,
+      "selected_gt_dice_evaluation_only": 0.8825850636690853,
+      "selected_targets": 257
+    },
+    {
+      "coverage": 0.9961389961389961,
+      "min_b7": 0.0038813548719641502,
+      "selected_gt_dice_evaluation_only": 0.8827325900103745,
+      "selected_targets": 258
+    },
+    {
+      "coverage": 1.0,
+      "min_b7": 0.0038656238931706263,
+      "selected_gt_dice_evaluation_only": 0.8809173111534377,
+      "selected_targets": 259
+    }
+  ],
+  "recommended": {
+    "coverage": 0.9382239382239382,
+    "min_b7": 0.7374556633067417,
+    "selected_gt_dice_evaluation_only": 0.900200846987681,
+    "selected_targets": 243
+  },
+  "selection_rule": "maximum validation coverage among B7-prefixes whose selected GT Dice is at least 0.9",
+  "target_dice": 0.9
+}

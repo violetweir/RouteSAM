@@ -1,0 +1,88 @@
+{
+  "configs": [
+    [
+      0,
+      "legacy",
+      1.0
+    ],
+    [
+      1,
+      "legacy",
+      1.0
+    ],
+    [
+      1,
+      "calibrated_peer",
+      10.0
+    ],
+    [
+      1,
+      "calibrated_peer",
+      100.0
+    ],
+    [
+      2,
+      "legacy",
+      1.0
+    ],
+    [
+      2,
+      "calibrated_peer",
+      10.0
+    ],
+    [
+      2,
+      "calibrated_peer",
+      100.0
+    ],
+    [
+      3,
+      "legacy",
+      1.0
+    ],
+    [
+      3,
+      "calibrated_peer",
+      10.0
+    ],
+    [
+      3,
+      "calibrated_peer",
+      100.0
+    ],
+    [
+      5,
+      "legacy",
+      1.0
+    ],
+    [
+      5,
+      "calibrated_peer",
+      10.0
+    ],
+    [
+      5,
+      "calibrated_peer",
+      100.0
+    ]
+  ],
+  "seed": 2026,
+  "anchors": 5,
+  "train": 517,
+  "validation": 64,
+  "test": 66,
+  "canvas": 256,
+  "feature_size": 256,
+  "anchor_selection": "unchanged automatic five; same split and labels",
+  "calibration": "cond_target(anchor,target) minus mean cond_target(anchor,517 train RGBs); no hidden train GT",
+  "retention": "top 1/2/3/5 anchors by calibrated target score; all b0-b6 for each retained anchor; original raw 7 as control",
+  "path_search": "original per-anchor TP bottleneck/mean and patch_mean KNN beam32, unchanged",
+  "prompt": "anchor GT tight box, no text; original highest-score-object propagation and predicted-mask return",
+  "router": "original 28 features; calibrated_peer adds 8 peer features and 5 anchor calibration features, centered within target",
+  "selection": "5-fold image-grouped validation CV; nested outer5/inner4 estimates full retention/model choice",
+  "test_policy": "model/retention frozen on validation; freeze every test route choice before reading test GT",
+  "test_predictions": "selected K plus calibrated top1 plus original baseline; report Oracle separately per candidate pool",
+  "prior_test_seen": true,
+  "validation_labels_additional_to_5_train_GT": true,
+  "gpu": "wait for >=18000MiB free and no compute process over 1GiB; no existing process killed"
+}

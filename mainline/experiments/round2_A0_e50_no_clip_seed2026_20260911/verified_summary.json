@@ -1,0 +1,48 @@
+{
+  "best": {
+    "arm": "A0_e50_no_clip_seed2026",
+    "best_epoch": 19,
+    "validation": {
+      "count": 100,
+      "dice": 0.8937165187099291,
+      "iou": 0.8344591053745813
+    },
+    "test": {
+      "count": 100,
+      "dice": 0.9019498646978138,
+      "iou": 0.8431328330017307
+    },
+    "test_empty": {
+      "count": 100,
+      "dice": 0.890174126632905,
+      "iou": 0.8330423183704283
+    },
+    "training_pool_size": 436,
+    "primary_prompt": "colon polyp",
+    "empty_text_role": "predeclared diagnostic, not test-based prompt selection"
+  },
+  "final": {
+    "epoch": 50,
+    "seed": 2026,
+    "validation": {
+      "count": 100,
+      "dice": 0.8735863253431205,
+      "iou": 0.8138656020488624
+    },
+    "test": {
+      "count": 100,
+      "dice": 0.8942449466447093,
+      "iou": 0.83680960345874
+    },
+    "test_empty": {
+      "count": 100,
+      "dice": 0.8847815548079064,
+      "iou": 0.8302709519004573
+    },
+    "checkpoint_sha256": "703b19197c6e738d6a1730cf1c607b3c60db3c99b3242a1c583e3709518c1aa7"
+  },
+  "test_delta_final_minus_best": -0.00770491805310447,
+  "verified_masks": 400,
+  "verified_updates": 21800,
+  "old_artifacts_unchanged": true
+}

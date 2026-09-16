@@ -1,0 +1,22 @@
+{
+  "test_pool0": {
+    "n": 100,
+    "dice_mean": 0.8391914647587184,
+    "dice_std": 0.22373265418492724,
+    "quality_mean": 0.896058454412256,
+    "quality_gt_dice_pearson": 0.5869020930295428,
+    "quality_gt_dice_spearman": 0.33476147614761476,
+    "accepted_count": 0,
+    "route_type_counts": {
+      "direct": 37,
+      "one_bridge": 37,
+      "two_bridges": 26
+    },
+    "by_dataset": {
+      "kvasir-seg": {
+        "n": 100,
+        "dice_mean": 0.8391914647587184
+      }
+    }
+  }
+}

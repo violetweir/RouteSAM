@@ -1,0 +1,18 @@
+{
+  "accept_rate": 0.5744949494949495,
+  "accepted": 455,
+  "q_model_mean_mean": 0.9746784547098664,
+  "q_multi_mean": 0.9861121551241905,
+  "q_return_mean": 0.9701487984868103,
+  "selected_counts": {
+    "anchor_conditioned_patch_correspondence:bridge_3": 64,
+    "anchor_conditioned_patch_correspondence:bridge_4": 49,
+    "anchor_conditioned_patch_correspondence:bridge_5": 55,
+    "anchor_conditioned_patch_correspondence:bridge_6": 55,
+    "anchor_conditioned_target_pooling:bridge_3": 61,
+    "anchor_conditioned_target_pooling:bridge_4": 54,
+    "anchor_conditioned_target_pooling:bridge_5": 60,
+    "anchor_conditioned_target_pooling:bridge_6": 57
+  },
+  "targets": 792
+}

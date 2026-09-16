@@ -1,0 +1,76 @@
+{
+  "case_count": 2,
+  "cases": [
+    {
+      "baseline_dice": 0.5140658812214475,
+      "frozen_unsupervised_features": {
+        "delta_path_mean_similarity": -0.09832543593186605,
+        "delta_q_model": 0.2163853812869827,
+        "delta_q_multi": 0.5104835143945742,
+        "delta_q_return": 0.009519168490128793,
+        "delta_trace_area_max_rel_delta": 0.7942287030273789,
+        "path_mean_similarity_candidate": 0.8130421088292048,
+        "q_model_candidate": 0.7134715025906736,
+        "q_multi_candidate": 0.8918353047784429,
+        "q_return_candidate": 0.9775019394879751,
+        "trace_adjacent_dice_last_candidate": 0.0,
+        "trace_adjacent_dice_mean_candidate": 0.27386898769580664,
+        "trace_area_max_rel_delta_candidate": 1.7755424063116372
+      },
+      "logistic": {
+        "allows_switch": false,
+        "catastrophe_prevented": true,
+        "oof_fold": 5,
+        "oof_predicted_risk": 0.9996666299581942,
+        "selected_route": "baseline"
+      },
+      "qreturn_delta_dice": -0.5140658812214475,
+      "qreturn_dice": 0.0,
+      "target_id": "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+      "tree": {
+        "allows_switch": false,
+        "catastrophe_prevented": true,
+        "oof_fold": 5,
+        "oof_predicted_risk": 0.6067415730337077,
+        "selected_route": "baseline"
+      }
+    },
+    {
+      "baseline_dice": 0.9749580088563139,
+      "frozen_unsupervised_features": {
+        "delta_path_mean_similarity": -0.009428160924177864,
+        "delta_q_model": 0.2229595473512892,
+        "delta_q_multi": -0.06569974596189121,
+        "delta_q_return": 0.002095043742213809,
+        "delta_trace_area_max_rel_delta": 2.5634201585503966,
+        "path_mean_similarity_candidate": 0.9029815435409546,
+        "q_model_candidate": 0.9060565015479877,
+        "q_multi_candidate": 0.7102118253129277,
+        "q_return_candidate": 0.9654973292911795,
+        "trace_adjacent_dice_last_candidate": 0.30333320215654636,
+        "trace_adjacent_dice_mean_candidate": 0.3571572438630047,
+        "trace_area_max_rel_delta_candidate": 3.5447338618346547
+      },
+      "logistic": {
+        "allows_switch": true,
+        "catastrophe_prevented": false,
+        "oof_fold": 1,
+        "oof_predicted_risk": 0.09398555761425999,
+        "selected_route": "qreturn"
+      },
+      "qreturn_delta_dice": -0.2085690193597547,
+      "qreturn_dice": 0.7663889894965592,
+      "target_id": "kvasir-seg::cju1ewnoh5z030855vpex9uzt",
+      "tree": {
+        "allows_switch": true,
+        "catastrophe_prevented": false,
+        "oof_fold": 1,
+        "oof_predicted_risk": 0.0,
+        "selected_route": "qreturn"
+      }
+    }
+  ],
+  "logistic_catastrophes_prevented": 1,
+  "target_disjoint_oof_required": true,
+  "tree_catastrophes_prevented": 1
+}

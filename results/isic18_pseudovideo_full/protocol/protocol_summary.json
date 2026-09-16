@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "test": 260,
+    "train": 2075,
+    "validation": 259
+  },
+  "data_root": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_1pct_protocol/data",
+  "dataset": "ISIC18",
+  "labeled_list": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_1pct_protocol/isic18_train1pct_labeled_images.txt",
+  "labeled_sha256": "f14aeba3c6f62a69ea00e98ce623d8af1a2d710143a28090ef2ca6e0e73c489f",
+  "path_mapping": "source labeled jpg paths mapped to prepared split-relative png metadata by filename stem",
+  "support_count": 21,
+  "support_source_counts": {
+    "ISIC18": 21
+  }
+}

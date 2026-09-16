@@ -1,0 +1,27 @@
+{
+  "original_area_quantiles": {
+    "q01": 0.0138189697265625,
+    "q99": 0.329725036621094
+  },
+  "pixel_consensus": {
+    "beta_route": 5.0,
+    "beta_student": 5.0,
+    "pseudo_sam3_weight": 0.75,
+    "pseudo_student_weight": 0.25,
+    "w_final_clip": [
+      0.05,
+      1.0
+    ]
+  },
+  "remaining_count": 212,
+  "route_count": 1484,
+  "score": {
+    "q_model_committee_mean": 0.8,
+    "q_multi": 0.2
+  },
+  "tier_counts": {
+    "A": 21,
+    "B": 75,
+    "C": 116
+  }
+}

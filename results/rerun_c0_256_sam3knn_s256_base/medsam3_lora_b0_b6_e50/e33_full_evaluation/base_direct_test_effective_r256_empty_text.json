@@ -1,0 +1,32 @@
+{
+  "base_checkpoint": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+  "count": 100,
+  "direct_dice": 0.31115906952606376,
+  "direct_dice_median": 0.12626636348327067,
+  "direct_dice_quantiles": {
+    "0.0": 0.0,
+    "0.1": 0.0,
+    "0.25": 0.0073887506714594015,
+    "0.5": 0.12626636348327067,
+    "0.75": 0.5395020408521751,
+    "0.9": 0.9554915890379325,
+    "1.0": 0.9832821562606618
+  },
+  "direct_iou": 0.2565647492101904,
+  "lora_checkpoint": null,
+  "nonempty_rate": 0.95,
+  "protocol": {
+    "checkpoint_training_resolution": 1008,
+    "class_probability_threshold": 0.5,
+    "effective_source_resolution": 256,
+    "mask_probability_threshold": 0.5,
+    "metric_resolution": 256,
+    "model_input_resolution": 1008,
+    "prompt_mode": "empty",
+    "query_reduction": "foreground_union",
+    "query_text": "",
+    "route_propagation": false
+  },
+  "split": "test",
+  "valid_query_count_mean": 1.32
+}

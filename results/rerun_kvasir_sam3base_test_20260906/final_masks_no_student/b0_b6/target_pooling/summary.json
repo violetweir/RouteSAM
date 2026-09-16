@@ -1,0 +1,21 @@
+{
+  "range": "b0-b6",
+  "scope": "target_pooling",
+  "targets": 100,
+  "dice": 0.8854326463411542,
+  "iou": 0.8282740566505131,
+  "oracle_dice_evaluation_only": 0.9074262547898724,
+  "mode_counts": {
+    "sam3enc_anchor_conditioned_target_pooling": 100
+  },
+  "bridge_counts": {
+    "5": 22,
+    "2": 11,
+    "3": 7,
+    "4": 10,
+    "0": 22,
+    "6": 21,
+    "1": 7
+  },
+  "final_masks": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_kvasir_sam3base_test_20260906/final_masks_no_student/b0_b6/target_pooling/masks"
+}

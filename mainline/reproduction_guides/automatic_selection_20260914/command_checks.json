@@ -1,0 +1,25 @@
+{
+  "kvasir": {
+    "routes": 700,
+    "route_ids_exact_match": true,
+    "scoring_existing_masks": true,
+    "new_GPU_predictions": false,
+    "max_abs_fixed_dice_difference": 0.0
+  },
+  "isic2018": {
+    "route_check_targets": 1,
+    "routes": 7,
+    "route_ids_exact_match": true,
+    "scoring_existing_masks": true,
+    "new_GPU_predictions": false,
+    "max_abs_fixed_dice_difference": 0.0
+  },
+  "busi": {
+    "route_check_targets": 1,
+    "routes": 7,
+    "route_ids_exact_match": true,
+    "scoring_existing_masks": true,
+    "new_GPU_predictions": false,
+    "max_abs_fixed_dice_difference": 0.0
+  }
+}

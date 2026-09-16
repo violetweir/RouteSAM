@@ -1,0 +1,37 @@
+{
+  "allowed_switch_target_count": 54,
+  "baseline_dice": 0.8875905843652192,
+  "catastrophic_degradation_count": 0,
+  "correct_switch_count": 54,
+  "delta_vs_baseline": 0.00380450818671979,
+  "incorrect_switch_count": 0,
+  "label": "GT Oracle Gate（仅评价）",
+  "loss_count": 0,
+  "maximum_single_degradation": 0.0,
+  "maximum_single_improvement": 0.11717672286547376,
+  "method": "oracle",
+  "paired_bootstrap_vs_baseline": {
+    "ci_95": [
+      0.001838446533627337,
+      0.00675928661744438
+    ],
+    "loss_count": 0,
+    "mean_delta": 0.00380450818671979,
+    "median_delta": 0.00033573072101572565,
+    "resamples": 10000,
+    "seed": 2026,
+    "target_count": 100,
+    "tie_count": 46,
+    "unit": "paired_target",
+    "win_count": 54
+  },
+  "rejected_or_same_route_target_count": 46,
+  "selected_dice": 0.891395092551939,
+  "severe_degradation_count": 0,
+  "switch_tie_count": 0,
+  "target_count": 100,
+  "tie_count": 46,
+  "total_negative_dice_loss": 0.0,
+  "total_positive_dice_gain": 0.380450818671979,
+  "win_count": 54
+}

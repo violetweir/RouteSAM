@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "/home/violet/anaconda3/envs/mkunet_mamba/bin/python",
+    "-u",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_x3_pool_v2_20260909/code/cuda_runner.py",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_x3_pool_v2_20260909/code/export_t25_student_predictions.py",
+    "--run-dir",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_x3_pool_v2_20260909/students/S2",
+    "--checkpoint",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_x3_pool_v2_20260909/students/S2/student_final.pth",
+    "--output-root",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_x3_pool_v2_20260909/predictions/S2_final",
+    "--splits",
+    "train"
+  ],
+  "gpu": 1
+}

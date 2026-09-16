@@ -1,0 +1,26 @@
+{
+  "b7_mean": 0.8473441275435928,
+  "b7_quantiles": {
+    "0.0": 0.0002511886431509579,
+    "0.1": 0.6560320065141102,
+    "0.25": 0.7949588149499518,
+    "0.5": 0.9611028265313438,
+    "0.75": 0.9824189685634002,
+    "0.9": 0.9856724106201786,
+    "1.0": 0.9894518986405195
+  },
+  "candidate_targets": 100,
+  "coverage": 1.0,
+  "max_bridge": 0,
+  "min_b7": 0.0,
+  "min_bridge": 0,
+  "missing_predictions": [],
+  "modes": [
+    "round2c_V1_lesion_mean__x3_best_top3"
+  ],
+  "oracle_gap_evaluation_only": 0.005748133951209433,
+  "oracle_gt_dice_evaluation_only": 0.8696376068245556,
+  "selected_gt_dice_evaluation_only": 0.8638894728733462,
+  "selected_targets": 100,
+  "split": "validation"
+}

@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-09-09T16:45:34.229009+08:00",
+  "baseline": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_b0_b6_router_baseline_20260907",
+  "baseline_test_dice": 0.8854326463411542,
+  "user_authorized_students": true,
+  "sam3_frozen": true,
+  "student_model": "historical SC-SAM SamUnet",
+  "route_mode": "anchor_conditioned_target_pooling",
+  "min_bridge": 0,
+  "max_bridge": 6,
+  "candidate_count": 7,
+  "canvas": 256,
+  "split": {
+    "train": 800,
+    "validation": 100,
+    "test": 100,
+    "labeled_train": 8,
+    "unlabeled_train": 792
+  },
+  "pseudo_thresholds": {
+    "q_multi": 0.9,
+    "q_return": 0.95
+  },
+  "threshold_policy": "retain documented thresholds as fixed controls; report TP-only coverage and validation diagnostics; no test tuning",
+  "s3_consensus": {
+    "beta": 4.0,
+    "pixel_min_weight": 0.1
+  },
+  "training": {
+    "seed": 2026,
+    "iterations_each": 40000,
+    "validation_interval": 200,
+    "s2_s3_batch": 12,
+    "s2_s3_labeled_batch": 6,
+    "x3_gt_original_new_batch": [
+      3,
+      3,
+      6
+    ],
+    "learning_rate": 0.01,
+    "gpu": 0,
+    "schedule": "sequential; GPU1 already occupied"
+  },
+  "committee": "S2 val-best + S2 final + S3 val-best + S3 final, original C0 document thresholds; TP-only candidates",
+  "x3_checkpoint": "ordinary validation Dice best, final retained as validation diagnostic only",
+  "b7": "(max(q_return,1e-6)*max(q_multi,1e-6)^2*max(q_model,1e-6)^2)^.2; full 100-target coverage, no confidence filtering",
+  "test_policy": "S2/S3 test deferred. Freeze X3 ordinary validation-best and B7 rule; then evaluate all 100 test targets once, irrespective of whether validation improved. No test tuning.",
+  "scope": "New 580 pool -> regenerate S3 -> retrain S2/S3 -> rebuild committee on remaining 212 -> retrain X3 -> validation -> frozen test",
+  "code_sha256": {
+    "cuda_runner.py": "e99f9eec2ad43de7f09feab7677fea0651ba76dbb7b5102da7ba3895e593607c",
+    "run_t24_student.py": "e6ad87c0606c7d308c12ae488e32f0e7411afd183b5afc4fcfdb4bde034d0a08",
+    "preflight.py": "2e8d2377ff0fee76c71f229cc2fba6bf1058e893de614cb15a9d4a6326e289a4",
+    "export_t25_student_predictions.py": "4ebb21aaee01103350af4315a47a766cf3b350bed33ef7393b3d7c3a99477b60",
+    "router.py": "b77c8fb8347424a7f0216d3c0bb978a3f78f219ef31661728a02531e2032888d",
+    "run_students.py": "b8fff873fbf5a11d088fb42cf70ea261ad5f90d81f8e514a9d58ba5dc33e6e43",
+    "mainline.py": "cbc6931c3dd72112d68e2a48acde23bdcaa50227aca80548c618ba22066c6348",
+    "phase1_build_x3_manifest.py": "51c9a4f1cec5062ce807dfc80bffa06dd7a1a60fbd0c78f3173d5470478fde64",
+    "run_s27_student.py": "446d144297b03acd4a7c9de6b6ab0a7473257174f68c87f9bcc829556a8f7cd6",
+    "prepare_phase1_s3_consensus.py": "f3de8e09926433db1571e68958d94e6d6a7ff1ad740a0a8442cca4f1fa0b5f15",
+    "phase1_audit_tiers.py": "214e38c08c2b011e32c840edd6995b6b33fa8989b6f00362d67d80f059e5e9d4",
+    "probability_io.py": "5fc3681b156504fba38e1595c8be9285789958649fb538e54194b9845842b7c6"
+  },
+  "pre_training_correction": "Fixed uint16 consensus/weight PNG decoding before any training. Historical T24 convert(L) saturated S3 soft labels and weights. S2 uint8 unchanged. Shared decoder also used for X3 and committee.",
+  "experiment": "TP candidate return filtering before independent Router",
+  "reference_run": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907",
+  "initial_pseudo_count": 580,
+  "remaining_for_committee": 212,
+  "changed_rule": "Keep image-level q_multi>=.90; rank only candidates with q_return>=.95 using the unchanged frozen TP Router",
+  "unchanged": "8/792 identities; SAM3 candidates; Router; thresholds; student initialization/seed/loss/batch/steps; uint16 fix; committee rules; X3 selection and B7 formula",
+  "original_448_masks_and_weights_unchanged": true,
+  "cuda_allocator_fraction": 0.25
+}

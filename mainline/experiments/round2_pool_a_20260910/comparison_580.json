@@ -1,0 +1,66 @@
+{
+  "old580": {
+    "count": 580,
+    "mean_dice": 0.9103789109780775,
+    "mean_iou": 0.854451536561421,
+    "median_dice": 0.9525200750148728,
+    "below08": 55,
+    "below09": 101,
+    "min_dice": 0.12132367338946544
+  },
+  "pool_a428": {
+    "count": 428,
+    "mean_dice": 0.9340617121385782,
+    "mean_iou": 0.8878716228939418,
+    "median_dice": 0.9616496586042024,
+    "below08": 24,
+    "below09": 47,
+    "min_dice": 0.15445189458911585
+  },
+  "mean_dice_difference": 0.0236828011605007,
+  "overlap_count": 423,
+  "overlap_old_masks": {
+    "count": 423,
+    "mean_dice": 0.932220137012686,
+    "mean_iou": 0.8846919010972324,
+    "median_dice": 0.960756766882083,
+    "below08": 24,
+    "below09": 48,
+    "min_dice": 0.1490518084066471
+  },
+  "overlap_new_masks": {
+    "count": 423,
+    "mean_dice": 0.9336741717034361,
+    "mean_iou": 0.8873025811811986,
+    "median_dice": 0.9613829638923742,
+    "below08": 24,
+    "below09": 47,
+    "min_dice": 0.15445189458911585
+  },
+  "removed_from580": {
+    "count": 157,
+    "mean_dice": 0.8515328051650883,
+    "mean_iou": 0.7729759047228971,
+    "median_dice": 0.920440517971681,
+    "below08": 31,
+    "below09": 53,
+    "min_dice": 0.12132367338946544
+  },
+  "added_to_pool_a": {
+    "count": 5,
+    "mean_dice": 0.9668476329516187,
+    "mean_iou": 0.9360125517920173,
+    "median_dice": 0.9672257270349285,
+    "below08": 0,
+    "below09": 0,
+    "min_dice": 0.9513761467889909
+  },
+  "overlap_delta": 0.001454034690750208,
+  "overlap_wins": 193,
+  "overlap_losses": 130,
+  "overlap_ties": 100,
+  "overlap_changed_mask_hashes": 325,
+  "metric": "256x256 binary per-image macro Dice against train GT; exclude 8 GT anchors; old soft>=0.5 verified identical to hard",
+  "audit_only": true,
+  "pools_changed": false
+}

@@ -1,0 +1,25 @@
+{
+  "final_iteration": 40000,
+  "best_iteration": 32800,
+  "best_validation_dice": 0.8161226308908734,
+  "best_validation": {
+    "count": 100,
+    "dice": 0.8161226308908734,
+    "iou": 0.7343073495930378,
+    "nonempty_rate": 1.0,
+    "mean_area": 0.11577590942382812,
+    "by_dataset": {
+      "kvasir-seg": {
+        "count": 100,
+        "dice": 0.8161226308908734,
+        "iou": 0.7343073495930378,
+        "nonempty_rate": 1.0,
+        "mean_area": 0.11577590942382812
+      }
+    }
+  },
+  "test": null,
+  "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/students/S2/student_best.pth",
+  "final_checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/students/S2/student_final.pth",
+  "test_evaluations_during_training": 0
+}

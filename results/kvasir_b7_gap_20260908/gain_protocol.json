@@ -1,0 +1,23 @@
+{
+  "split": "validation only; script never reads test inputs",
+  "candidate_pool": "All 14 TP+PC b0-b6; baseline new-X3 TP-B7; no candidate pruning",
+  "target": "candidate Dice minus default TP-B7 Dice, validation labels only",
+  "learner": "StandardScaler + Ridge; image-grouped nested 5 outer / 4 inner; seed2026",
+  "alphas": [
+    10.0,
+    100.0
+  ],
+  "thresholds": [
+    0.0,
+    0.02,
+    0.05
+  ],
+  "inner_objective": "mean target Dice improvement, ties prefer fallback then larger threshold and alpha; fallback available",
+  "outer_gate": {
+    "mean_delta_at_least": 0.003,
+    "paired_bootstrap_ci95_lower_gt": 0,
+    "positive_folds_at_least": 3
+  },
+  "limitation": "Conditional selector CV only. Frozen X3 checkpoint and upstream pseudo-label router previously used all validation. This is not fully independent end-to-end OOF evidence.",
+  "test_policy": "No automatic test evaluation even if gate passes; preserve report and frozen specification first"
+}

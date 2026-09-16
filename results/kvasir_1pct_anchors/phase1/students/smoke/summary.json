@@ -1,0 +1,80 @@
+{
+  "best_iteration_diagnostic_only": 10,
+  "best_validation_diagnostic_only": 1.9380889425017197e-11,
+  "checkpoint_reproduced": true,
+  "cuda_memory": {
+    "allocated_after_release": 28696576,
+    "allocated_before_release": 47224832
+  },
+  "experiment": "S1",
+  "final_checkpoint": "work/kvasir_1pct_anchors/phase1/students/smoke/student_final.pth",
+  "final_iteration": 20,
+  "final_validation": {
+    "by_dataset": {
+      "kvasir-seg": {
+        "count": 100,
+        "dice": 1.9380889425017197e-11,
+        "iou": 1.9380889425017197e-11,
+        "mean_area": 0.0,
+        "nonempty_rate": 0.0
+      }
+    },
+    "by_size": {
+      "large": {
+        "count": 44,
+        "dice": 6.989078578487162e-12,
+        "iou": 6.989078578487162e-12
+      },
+      "medium": {
+        "count": 33,
+        "dice": 1.804166125879109e-11,
+        "iou": 1.804166125879109e-11
+      },
+      "small": {
+        "count": 23,
+        "dice": 4.5008463630790396e-11,
+        "iou": 4.5008463630790396e-11
+      }
+    },
+    "count": 100,
+    "dice": 1.9380889425017197e-11,
+    "iou": 1.9380889425017197e-11,
+    "mean_area": 0.0,
+    "nonempty_rate": 0.0
+  },
+  "nan_detected": false,
+  "reloaded_final_validation": {
+    "by_dataset": {
+      "kvasir-seg": {
+        "count": 100,
+        "dice": 1.9380889425017197e-11,
+        "iou": 1.9380889425017197e-11,
+        "mean_area": 0.0,
+        "nonempty_rate": 0.0
+      }
+    },
+    "by_size": {
+      "large": {
+        "count": 44,
+        "dice": 6.989078578487162e-12,
+        "iou": 6.989078578487162e-12
+      },
+      "medium": {
+        "count": 33,
+        "dice": 1.804166125879109e-11,
+        "iou": 1.804166125879109e-11
+      },
+      "small": {
+        "count": 23,
+        "dice": 4.5008463630790396e-11,
+        "iou": 4.5008463630790396e-11
+      }
+    },
+    "count": 100,
+    "dice": 1.9380889425017197e-11,
+    "iou": 1.9380889425017197e-11,
+    "mean_area": 0.0,
+    "nonempty_rate": 0.0
+  },
+  "test_evaluated": false
+}

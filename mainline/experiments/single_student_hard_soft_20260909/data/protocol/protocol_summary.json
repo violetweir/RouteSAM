@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "test": 100,
+    "train": 800,
+    "validation": 100
+  },
+  "data_root": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot",
+  "support_count": 8,
+  "support_ids": [
+    "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "kvasir-seg::cju2pmhtr17a00855cvpelzb0",
+    "kvasir-seg::cju34ymm8d6700799uop0cw33",
+    "kvasir-seg::cju3v72v5h1qz0818fggilwtq",
+    "kvasir-seg::cju5cu8qkb84x08186jwo8yin",
+    "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "kvasir-seg::cju8bj2ssrmlm0871gc2ug2rs",
+    "kvasir-seg::cjyzkpsbjdsjq07211dfi4sru"
+  ]
+}

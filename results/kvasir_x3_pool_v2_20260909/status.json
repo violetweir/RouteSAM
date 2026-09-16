@@ -1,0 +1,6 @@
+{
+  "time": "2026-09-09T22:33:28.309371+08:00",
+  "stage": "pipeline",
+  "status": "failed",
+  "error": "Traceback (most recent call last):\n  File \"/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_x3_pool_v2_20260909/code/run_x3_pool_v2.py\", line 65, in run\n    command('train_'+stage,'run_t24_student.py',[*common,'--pseudo-manifest',manifest,'--output-dir',R/'students'/stage,'--experiment',stage])\n  File \"/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_x3_pool_v2_20260909/code/run_x3_pool_v2.py\", line 33, in command\n    if rc:raise RuntimeError(f'{stage} failed ({rc}), see logs')\nRuntimeError: train_S3 failed (-9), see logs\n"
+}

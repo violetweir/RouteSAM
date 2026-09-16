@@ -1,0 +1,10 @@
+{
+  "epochs": 816,
+  "iterations": 43248,
+  "images_per_epoch": 628,
+  "all_epochs_no_replacement": true,
+  "GT_per_epoch": 8,
+  "frozen_checkpoints_unchanged": true,
+  "validation_reproduced": true,
+  "test_masks_verified": 200
+}

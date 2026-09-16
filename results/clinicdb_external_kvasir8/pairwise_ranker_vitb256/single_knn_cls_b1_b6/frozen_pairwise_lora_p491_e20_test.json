@@ -1,0 +1,44 @@
+{
+  "protocol": {
+    "candidate_pool": "single_family_anchor_conditioned_target_pooling__knn_cls_b1_b6",
+    "checkpoint_tag": "lora_p491_e20",
+    "fallback_enabled": false,
+    "fallback_probability": null,
+    "fit_or_calibration_performed": false,
+    "model_path": "work/kvasir_1pct_anchors/pairwise_ranker_vitb256/single_knn_cls_b1_b6_frozen/frozen_internal_plus_consensus_lora_p491_e20.json",
+    "role": "frozen_external_clinicdb_single_knn_family",
+    "split": "test",
+    "student_loaded": false
+  },
+  "summary": {
+    "bootstrap_95_ci": [
+      0.0002952943906371944,
+      0.08752916141656297
+    ],
+    "catastrophic_regressions_delta_lt_minus_0.05": 3,
+    "fixed_b6_dice": 0.8158195237675804,
+    "losses": 17,
+    "max_gain": 0.9514853225522939,
+    "max_gain_over_net_gain": 0.402095100484385,
+    "max_gain_share_of_positive_gains": 0.34836699684649136,
+    "max_regression": -0.13153109960810028,
+    "mean_delta_vs_fixed": 0.03879211664864994,
+    "median_delta_vs_fixed": 0.0,
+    "n_targets": 61,
+    "oracle_dice": 0.8667984064955113,
+    "oracle_gap": 0.01218676607928093,
+    "route_histogram": {
+      "anchor_conditioned_target_pooling__knn_cls:b1": 23,
+      "anchor_conditioned_target_pooling__knn_cls:b2": 8,
+      "anchor_conditioned_target_pooling__knn_cls:b3": 5,
+      "anchor_conditioned_target_pooling__knn_cls:b4": 6,
+      "anchor_conditioned_target_pooling__knn_cls:b5": 2,
+      "anchor_conditioned_target_pooling__knn_cls:b6": 17
+    },
+    "selected_dice": 0.8546116404162304,
+    "switches_from_fixed": 44,
+    "ties": 18,
+    "trimmed_mean_delta_10pct": 0.0018303534265726592,
+    "wins": 26
+  }
+}

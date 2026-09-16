@@ -1,0 +1,20 @@
+{
+  "iteration": 29800,
+  "validation": {
+    "count": 100,
+    "dice": 0.8142312650126609,
+    "iou": 0.733101482634915,
+    "nonempty_rate": 1.0,
+    "mean_area": 0.11261688232421875,
+    "by_dataset": {
+      "kvasir-seg": {
+        "count": 100,
+        "dice": 0.8142312650126609,
+        "iou": 0.733101482634915,
+        "nonempty_rate": 1.0,
+        "mean_area": 0.11261688232421875
+      }
+    }
+  },
+  "selection_uses_test_gt": false
+}

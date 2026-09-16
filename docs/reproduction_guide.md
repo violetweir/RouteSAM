@@ -1,0 +1,420 @@
+> **Note.** This is the original repository README, written for the historical
+> `S27 X3 + B7` line. The current mainline is the cross-dataset 1% anchor
+> study — see [`cross_dataset_1pct.md`](cross_dataset_1pct.md). The
+> commands and numbers below are still valid for the `S27 X3 + B7`
+> protocol.
+
+# Pseudo-Video SAM3 X3+B7
+
+Reproduction code for a category-free pseudo-video SAM3 pipeline ending at the
+`S27 X3 Final + B7` route selector.
+
+The method starts from 16 fixed train-set GT anchors, builds three frozen
+pseudo-video routes per image with SAM3, trains single-image student auditors
+from high-confidence pseudo labels, expands the pseudo-label set with a
+student-audited committee, trains the final X3 student, and uses the X3 student
+to select among frozen SAM3 routes with B7.
+
+## Main Result
+
+Fixed protocol: CVC-ClinicDB + Kvasir-SEG merged splits, 16 train anchors only.
+No validation/test masks are used to train SAM3, generate routes, select pseudo
+labels, or train the student. Test masks are used only for final reporting.
+
+| Method | Test Dice | CVC Dice | Kvasir Dice |
+|---|---:|---:|---:|
+| Frozen SAM3 multi-route baseline | 0.8715 | - | - |
+| S27 X3 single-image student | 0.866738 | 0.886304 | 0.854802 |
+| S27 X3 + validation-selected linear selector | 0.885637 | 0.905077 | 0.873778 |
+| S27 X3 + B7 geometric selector | 0.895835 | 0.904713 | 0.890420 |
+| Oracle over three frozen SAM3 routes | 0.907835 | - | - |
+
+B7 score:
+
+```text
+score = (max(q_return, 1e-6) * max(q_multi, 1e-6)^2 * max(q_model, 1e-6)^2)^0.2
+```
+
+## Pipeline
+
+There are two levels of reproduction:
+
+- `scripts/run_method_ladder.py` covers the full experimental ladder, starting
+  from single-image SAM3 and moving through two-frame/multi-step pseudo-video,
+  SC-SAM/SynFoC low-label students, SAM3 adaptation diagnostics, student
+  distillation, and final B7 selection.
+- `scripts/run_pipeline.py` is the clean final mainline from the fixed
+  pseudo-video protocol to `S27 X3 Final+B7`.
+
+```text
+B00 single-image SAM3 baseline
+  -> T19 SC-SAM 16GT low-label student baseline
+  -> T20 SynFoC 16GT low-label student baseline
+  -> T18 two-frame support-to-query pseudo-video
+  -> E1 multi-step star/chain/hybrid propagation
+  -> T21 frozen three-route pseudo-video
+  -> 16 fixed train GT anchors
+  -> T21 frozen SAM3 pseudo-video routes
+  -> 568 original high-confidence pseudo labels
+  -> T24 committee students: S2 val-best, S2 final, S3 final
+  -> audit remaining train images into Tier A/B/C
+  -> S27 X3 = original568 + Tier A + Tier B
+  -> X3 final checkpoint selected by fixed final-step validation protocol
+  -> B7 student-assisted route selection on frozen SAM3 routes
+```
+
+Route types:
+
+- `direct`: anchor -> query
+- `one_bridge`: anchor -> bridge -> query
+- `two_bridges`: anchor -> bridge1 -> bridge2 -> query
+
+The pseudo-video paths are fixed by train-only image descriptors and kNN search.
+Pseudo labels are used for training students and auditing routes, not as new
+SAM3 propagation anchors in this public mainline.
+
+## External Dependencies
+
+This repository vendors the SC-SAM and SynFoC student-baseline code under
+`third_party/`. SAM3, datasets, and model checkpoints are still external.
+
+SAM3 commands must run in the SAM3 environment. Student commands must run in the
+SC-SAM/student environment.
+
+On the original server these were:
+
+```text
+SAM3:    /home/violet/anaconda3/envs/sam3/bin/python
+Student: /home/violet/anaconda3/envs/mkunet_mamba/bin/python
+```
+
+SC-SAM is loaded through `SC_SAM_ROOT` and defaults to `third_party/SC-SAM`.
+SynFoC T20 defaults to `third_party/SynFoC-T20`.
+
+## Data Layout
+
+Prepare merged data as:
+
+```text
+data/
+  train/metadata.jsonl
+  validation/metadata.jsonl
+  test/metadata.jsonl
+```
+
+Each row needs:
+
+```json
+{
+  "file_name": "/abs/path/to/image.png",
+  "mask_file_name": "/abs/path/to/mask.png",
+  "merged_id": "CVC-ClinicDB::156",
+  "source_dataset": "CVC-ClinicDB"
+}
+```
+
+Expected counts are `train=1290`, `validation=161`, `test=161`.
+
+The fixed 16 support IDs are stored in
+`protocols/reproduction_v1/support_ids.txt`. The full path-free split protocol
+is `protocols/reproduction_v1/splits.jsonl`.
+
+## Quick Start
+
+```bash
+cp configs/reproduction.example.toml configs/reproduction.toml
+# edit paths in configs/reproduction.toml
+
+python scripts/run_method_ladder.py --config configs/reproduction.toml --dry-run
+python scripts/run_pipeline.py --config configs/reproduction.toml --dry-run
+python scripts/run_pipeline.py --config configs/reproduction.toml
+```
+
+You can resume from any stage:
+
+```bash
+python scripts/run_pipeline.py \
+  --config configs/reproduction.toml \
+  --from-stage s27_x3_train \
+  --to-stage t25_b7_test
+```
+
+For the original server, the default config already points to the vendored
+SC-SAM copy. You can still override it with:
+
+```bash
+export SC_SAM_ROOT=/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/third_party/SC-SAM
+```
+
+## Kvasir 1% Anchor Experiments
+
+These are local WACV2027 follow-up experiments on Kvasir-SEG only.  They use
+the dataset snapshot at:
+
+```text
+/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot
+```
+
+Protocol summary:
+
+- split counts: `train=800`, `validation=100`, `test=100`
+- GT anchors: 1% of train, `8` fixed support masks
+- SAM3 base checkpoint:
+  `/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt`
+- DINOv3 weights:
+  `/Data_8TB/lht/MK-UNet/teacher/dinov3_vits16_pretrain_lvd1689m-08c60483.pth`
+- outputs:
+  `work/kvasir_1pct_anchors/`
+
+### SAM3 fine-tuning budgets
+
+The table below reports Kvasir test Dice from the weighted route selector over
+the original three route families: `direct`, `one_bridge`, and `two_bridges`.
+
+| model | weighted Dice | direct | one_bridge | two_bridges | all-route mean | oracle |
+|---|---:|---:|---:|---:|---:|---:|
+| base_no_ft | 0.830103 | 0.767542 | 0.819048 | 0.761372 | 0.782654 | 0.879040 |
+| ft_1pct | 0.874330 | 0.831090 | 0.856687 | 0.820172 | 0.835983 | 0.902679 |
+| ft_5pct | 0.882543 | 0.814541 | 0.871664 | 0.837800 | 0.841335 | 0.911454 |
+| ft_10pct | 0.844562 | 0.768585 | 0.846834 | 0.815985 | 0.810468 | 0.899441 |
+| ft_20pct_latest_after_crash | 0.914321 | 0.856197 | 0.901934 | 0.875345 | 0.877825 | 0.931738 |
+
+Longer-route weighted runs over 3-7 route families:
+
+| model | weighted 3 routes | weighted 4 routes | weighted 5 routes | weighted 6 routes | weighted 7 routes | oracle 7 routes |
+|---|---:|---:|---:|---:|---:|---:|
+| base_no_ft | 0.830103 | 0.856771 | 0.849015 | 0.861283 | 0.864143 | 0.913565 |
+| ft_1pct | 0.874330 | 0.888891 | 0.894013 | 0.901913 | 0.900234 | 0.928200 |
+| ft_5pct | 0.882543 | 0.891466 | 0.883936 | 0.886997 | 0.895276 | 0.938849 |
+| ft_10pct | 0.844562 | 0.889791 | 0.884999 | 0.887835 | 0.901470 | 0.932109 |
+| ft_20pct_latest_after_crash | 0.914321 | 0.914936 | 0.914313 | 0.914289 | 0.910493 | 0.942206 |
+
+The main takeaway is that SAM3 fine-tuning is useful on this protocol.  The
+20% fine-tuned checkpoint is the strongest weighted result, while smaller
+budgets are not strictly monotonic.
+
+Note: the budget table uses the older weighted three-family selector.  With
+the newer propagation-quality router below, the 1% fine-tune reaches
+`0.894648` on the same test split.
+
+### Frozen-feature KNN Stage1
+
+This diagnostic freezes the SAM3 checkpoint to the un-fine-tuned base model and
+changes only the route search descriptor.  No weighted selector is used in the
+table below: each cell is the mean forward-only test Dice for one fixed route
+family.  `bN` means `N` bridge frames between the anchor and query.
+
+| feature mode | direct | b1 | b2 | b3 | b4 | b5 | b6 | b7 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| T18 corrected | 0.747869 | 0.775949 | 0.756490 | 0.785808 | 0.821736 | 0.816809 | 0.819200 | 0.143392 |
+| DINO global pooling | 0.740844 | 0.748290 | 0.758326 | 0.786777 | 0.777536 | 0.818397 | 0.818565 | 0.092024 |
+| DINO patch average | 0.728634 | 0.726893 | 0.756876 | 0.746756 | 0.799814 | 0.829179 | 0.826294 | 0.046968 |
+| anchor-conditioned target pooling | 0.741306 | 0.760176 | 0.827209 | 0.840837 | 0.841258 | 0.848618 | 0.854627 | 0.032027 |
+| anchor-conditioned patch correspondence | 0.757814 | 0.773501 | 0.822305 | 0.832819 | 0.833990 | 0.833577 | 0.842078 | 0.070807 |
+
+The strongest frozen-feature result is
+`anchor-conditioned target pooling + b6 = 0.854627`.  The useful route-length
+region is `b4-b6`; `b7` collapses for every feature mode, which suggests the
+route is beyond the stable propagation length for this SAM3 setting.
+
+Canvas-256 and canvas-512 route hashes were also audited.  For all five feature
+modes, the `256` and `512` runs use identical route hashes and identical route
+ordering, so canvas differences come from SAM3 execution, not from KNN selecting
+different paths.
+
+### Candidate-Invariant Propagation-Quality Router
+
+This follow-up keeps SAM3 fully frozen and replaces the older
+candidate-relative weighting rule with an absolute route scorer.  Each route is
+scored independently, so adding low-quality or duplicate candidates does not
+renormalize the quality of existing routes.  The best current setting uses:
+
+- route generators: `anchor_conditioned_target_pooling` and
+  `anchor_conditioned_patch_correspondence`
+- candidate lengths: `b3-b6` only
+- scorer input: route geometry plus propagation-quality features
+- propagation-quality features: mask-area trajectory, empty-mask count,
+  connected components, centroid/box changes, adjacent-frame Dice, SAM score
+  trajectory, and fresh-state anchor cycle consistency
+
+The current best frozen-SAM3 Kvasir 1% test result is:
+
+| selector | candidates | Test Dice | Oracle | Oracle gap |
+|---|---|---:|---:|---:|
+| fixed best route | target pooling `b6` | 0.854627 | - | - |
+| v2 absolute ridge router | target pooling `b0-b7` | 0.854437 | 0.898969 | 0.044531 |
+| propagation-quality router | target pooling `b0-b7` | 0.872938 | 0.898969 | 0.026030 |
+| propagation-quality router | target pooling `b0-b6` | 0.873599 | 0.898969 | 0.025370 |
+| propagation-quality router | target + patch `b0-b6` | 0.873626 | 0.903846 | 0.030220 |
+| propagation-quality router | target + patch `b3-b6` | **0.877299** | 0.896918 | 0.019619 |
+
+Two diagnostic conclusions are important:
+
+- Full `C0-C7` validation training did not solve the oracle gap by itself; the
+  bottleneck was not simply missing long-route training coverage.
+- Propagation-quality features are useful.  For target pooling, adding
+  trajectory/cycle features improves Top-1 Dice from `0.854437` to `0.872938`.
+
+The current main follow-up line is therefore:
+
+```text
+Frozen SAM3
+  -> target-pooling + patch-correspondence route proposals
+  -> keep b3-b6 candidates
+  -> independent propagation-quality route scoring
+  -> Top-1 selected pseudo mask
+```
+
+The same router transfers directly to fine-tuned SAM3 checkpoints; the 1%
+fine-tuned variant is reported in the next subsection.
+
+### Fine-Tuned Propagation-Quality Router (ft_1pct)
+
+The propagation-quality router is model-agnostic: the same b3-b6 candidate
+pool and the same validation-trained ridge scorer work with a SAM3 checkpoint
+fine-tuned on the 1% GT budget (8 anchors).  The scorer is re-fit on
+`ft_1pct` validation features; no validation/test GT is used for route
+selection or checkpoint choice.
+
+| scheme | Test Dice | Oracle | Oracle gap |
+|---|---:|---:|---:|
+| b3-b6 target+patch (best) | **0.894648** | 0.919805 | 0.025157 |
+| b3-b6 target pooling | 0.886241 | 0.903572 | 0.017331 |
+| b3-b6 patch correspondence | 0.884695 | 0.901863 | 0.017168 |
+| b0-b6 target+patch (reference) | 0.877061 | 0.921800 | 0.044739 |
+| b0-b6 patch correspondence | 0.890865 | 0.907062 | 0.016198 |
+
+Compared with the frozen base model, the 1% fine-tune improves every bridge
+length and both route generators (test split):
+
+| bridge | ft_1pct target | frozen target | ft_1pct patch | frozen patch |
+|---|---:|---:|---:|---:|
+| direct | 0.7708 | 0.7413 | 0.7979 | 0.7578 |
+| b1 | 0.7922 | 0.7602 | 0.8161 | 0.7735 |
+| b2 | 0.8574 | 0.8272 | 0.8578 | 0.8223 |
+| b3 | 0.8522 | 0.8408 | 0.8599 | 0.8328 |
+| b4 | 0.8609 | 0.8413 | 0.8843 | 0.8340 |
+| b5 | 0.8731 | 0.8486 | 0.8658 | 0.8336 |
+| b6 | 0.8643 | 0.8546 | 0.8797 | 0.8421 |
+
+Takeaways:
+
+- `ft_1pct` + b3-b6 propagation-quality router is the current best Kvasir 1%
+  result at `0.894648`, `+0.0173` over the frozen router (`0.877299`).
+- The fine-tuned oracle is `0.919805` vs `0.896918` frozen, so the remaining
+  Top-1 selection gap is still about `0.025`.
+- At `b0-b6`, the patch-correspondence single mode (`0.890865`) beats the
+  two-mode union (`0.877061`); with a fine-tuned model the shorter routes also
+  become useful and the union scorer is easier to confuse.
+
+Outputs:
+
+```text
+work/kvasir_1pct_anchors/stage1_feature_knn_b7_ft1pct/<mode>/propagation_quality_{validation,test}/summary.json
+work/kvasir_1pct_anchors/propagation_quality_router_ft1pct_b3_b6_check/summary.json
+work/kvasir_1pct_anchors/propagation_quality_router_ft1pct_b0_b6_check/summary.json
+work/kvasir_1pct_anchors/summaries/ft1pct_propagation_quality_router.md
+```
+
+Reproduce:
+
+```bash
+cd /Data_8TB/lht/PseudoVideo-SAM3-X3-B7
+export CUDA_VISIBLE_DEVICES=1
+bash scripts/run_eval_ft1pct_pq_router.sh
+```
+
+### Launch Commands
+
+Generate the Kvasir 1% anchor protocol first if it is missing:
+
+```bash
+cd /Data_8TB/lht/PseudoVideo-SAM3-X3-B7
+# The prepared protocol should contain:
+# work/kvasir_1pct_anchors/protocol/merged_manifest.jsonl
+# work/kvasir_1pct_anchors/protocol/support_manifest.jsonl
+cat work/kvasir_1pct_anchors/protocol/protocol_summary.json
+```
+
+Build frozen KNN routes up to `b7` for all five feature modes:
+
+```bash
+cd /Data_8TB/lht/PseudoVideo-SAM3-X3-B7
+export CUDA_VISIBLE_DEVICES=0
+bash scripts/run_stage1_b7_routes.sh
+```
+
+Forward-only evaluation of the un-fine-tuned SAM3 base checkpoint:
+
+```bash
+cd /Data_8TB/lht/PseudoVideo-SAM3-X3-B7
+export CUDA_VISIBLE_DEVICES=0
+bash scripts/run_stage1_b7_eval_forward.sh
+```
+
+Per-mode summaries are written to:
+
+```text
+work/kvasir_1pct_anchors/stage1_feature_knn_b7/<feature_mode>/eval_base_no_ft_b7_forward/route_family_summary.json
+```
+
+Build validation `b0-b7` routes and run forward-only Frozen SAM3 evaluation for
+the absolute-router training split:
+
+```bash
+cd /Data_8TB/lht/PseudoVideo-SAM3-X3-B7
+export CUDA_VISIBLE_DEVICES=0
+bash scripts/run_stage1_b7_validation_eval_forward.sh
+```
+
+Run propagation-quality feature extraction for the two main route generators:
+
+```bash
+cd /Data_8TB/lht/PseudoVideo-SAM3-X3-B7
+export CUDA_VISIBLE_DEVICES=0
+bash scripts/run_propagation_quality_main_modes.sh
+```
+
+Summarize the v2 absolute router, the unified-candidate oracle, and the
+propagation-quality router:
+
+```bash
+cd /Data_8TB/lht/PseudoVideo-SAM3-X3-B7
+python3 scripts/summarize_candidate_invariant_v2.py
+python3 scripts/analyze_propagation_quality_router.py
+python3 scripts/eval_bridge_range_quality_router.py --min-bridge 3 --max-bridge 6
+```
+
+The earlier weighted fine-tuning summaries are stored under:
+
+```text
+work/kvasir_1pct_anchors/model_routes/*/summary.json
+work/kvasir_1pct_anchors/model_routes_max6/*/summary_max5_max6.json
+work/kvasir_1pct_anchors/summaries/route_count_3_to_7_full_table.md
+```
+
+## Important Reproduction Notes
+
+- `S27 X3+B7` is the public mainline.
+- `S27 X0/X1/X3` use the later unified S27 student trainer. It is not a strict
+  bit-level reproduction of the older T24 supervised-loss implementation.
+- The S27 trainer uses a foreground per-sample Dice convention for GT; older T24
+  used a two-class batch Dice convention. The public project preserves the S27
+  implementation that produced the reported X3+B7 result.
+- B7 is treated as a fixed sensitivity/mainline selector here because it was
+  chosen after the later local analysis. The validation-selected linear selector
+  is also reported separately for protocol clarity.
+- Do not use validation/test masks to change support anchors, pseudo labels,
+  route topology, training data, or checkpoints.
+
+## Repository Map
+
+```text
+configs/                 editable machine-specific config
+envs/                    example conda environment manifests
+protocols/reproduction_v1 fixed path-free split and support protocol
+scripts/                 reproduction stages
+src/pvseg/               small shared utilities
+docs/                    protocol and release notes
+third_party/             vendored SC-SAM and SynFoC student baselines
+```

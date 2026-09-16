@@ -1,0 +1,177 @@
+{
+  "modes": [
+    {
+      "best_fixed_dice": 0.8217358156603738,
+      "best_fixed_route": "b4",
+      "c3_to_c7_change_rate": 0.73,
+      "dynamic_gain": 0.02384502620325013,
+      "failure_auroc": 0.955572585709572,
+      "failure_rate": 0.17875,
+      "kendall": 0.27615709985301573,
+      "mode": "t18_corrected",
+      "oracle_c7_dice": 0.8972022003329062,
+      "oracle_regret": 0.051621358469282286,
+      "selected_c7_dice": 0.8455808418636239,
+      "selection_histogram": {
+        "bridge_1": 5,
+        "bridge_2": 14,
+        "bridge_3": 8,
+        "bridge_4": 4,
+        "bridge_5": 4,
+        "bridge_6": 55,
+        "bridge_7": 10
+      },
+      "spearman": 0.40105421974899313
+    },
+    {
+      "best_fixed_dice": 0.8185653376569657,
+      "best_fixed_route": "b6",
+      "c3_to_c7_change_rate": 0.06,
+      "dynamic_gain": -0.026848218644488053,
+      "failure_auroc": 0.8692307692307693,
+      "failure_rate": 0.1875,
+      "kendall": 0.21151146317361535,
+      "mode": "dino_global_pooling",
+      "oracle_c7_dice": 0.8893423018835743,
+      "oracle_regret": 0.09762518287109667,
+      "selected_c7_dice": 0.7917171190124777,
+      "selection_histogram": {
+        "bridge_1": 34,
+        "bridge_2": 30,
+        "bridge_3": 22,
+        "bridge_4": 5,
+        "bridge_5": 1,
+        "direct": 8
+      },
+      "spearman": 0.3176989841925829
+    },
+    {
+      "best_fixed_dice": 0.8291792440301547,
+      "best_fixed_route": "b5",
+      "c3_to_c7_change_rate": 0.72,
+      "dynamic_gain": -0.013839156414310327,
+      "failure_auroc": 0.9249022089277497,
+      "failure_rate": 0.205,
+      "kendall": 0.2912804950727887,
+      "mode": "dino_patch_average",
+      "oracle_c7_dice": 0.8938057928815514,
+      "oracle_regret": 0.07846570526570695,
+      "selected_c7_dice": 0.8153400876158444,
+      "selection_histogram": {
+        "bridge_1": 1,
+        "bridge_2": 10,
+        "bridge_3": 17,
+        "bridge_4": 33,
+        "bridge_5": 29,
+        "bridge_6": 10
+      },
+      "spearman": 0.42168112313417905
+    },
+    {
+      "best_fixed_dice": 0.854626650972394,
+      "best_fixed_route": "b6",
+      "c3_to_c7_change_rate": 1.0,
+      "dynamic_gain": -0.0001894069340561133,
+      "failure_auroc": 0.953103213377186,
+      "failure_rate": 0.17875,
+      "kendall": 0.3160311811013514,
+      "mode": "anchor_conditioned_target_pooling",
+      "oracle_c7_dice": 0.8989685813713383,
+      "oracle_regret": 0.04453133733300041,
+      "selected_c7_dice": 0.8544372440383379,
+      "selection_histogram": {
+        "bridge_6": 95,
+        "bridge_7": 5
+      },
+      "spearman": 0.44930920843672817
+    },
+    {
+      "best_fixed_dice": 0.842077793469625,
+      "best_fixed_route": "b6",
+      "c3_to_c7_change_rate": 0.96,
+      "dynamic_gain": 0.009612554919930849,
+      "failure_auroc": 0.9520352605652062,
+      "failure_rate": 0.16625,
+      "kendall": 0.3561563636712639,
+      "mode": "anchor_conditioned_patch_correspondence",
+      "oracle_c7_dice": 0.8879970678100453,
+      "oracle_regret": 0.036306719420489464,
+      "selected_c7_dice": 0.8516903483895558,
+      "selection_histogram": {
+        "bridge_1": 1,
+        "bridge_2": 2,
+        "bridge_5": 1,
+        "bridge_6": 85,
+        "bridge_7": 10,
+        "direct": 1
+      },
+      "spearman": 0.5014882720636344
+    }
+  ],
+  "unified_oracles": [
+    {
+      "max_unique_candidates": 16,
+      "mean_unique_candidates": 13.49,
+      "min_unique_candidates": 9,
+      "modes": [
+        "anchor_conditioned_target_pooling",
+        "anchor_conditioned_patch_correspondence"
+      ],
+      "n_targets": 100,
+      "oracle_dice": 0.9039035411373288,
+      "oracle_histogram": {
+        "anchor_conditioned_patch_correspondence:bridge_1": 12,
+        "anchor_conditioned_patch_correspondence:bridge_2": 7,
+        "anchor_conditioned_patch_correspondence:bridge_3": 12,
+        "anchor_conditioned_patch_correspondence:bridge_4": 8,
+        "anchor_conditioned_patch_correspondence:bridge_5": 3,
+        "anchor_conditioned_patch_correspondence:bridge_6": 7,
+        "anchor_conditioned_patch_correspondence:bridge_7": 2,
+        "anchor_conditioned_patch_correspondence:direct": 10,
+        "anchor_conditioned_target_pooling:bridge_1": 1,
+        "anchor_conditioned_target_pooling:bridge_2": 8,
+        "anchor_conditioned_target_pooling:bridge_3": 4,
+        "anchor_conditioned_target_pooling:bridge_4": 5,
+        "anchor_conditioned_target_pooling:bridge_5": 7,
+        "anchor_conditioned_target_pooling:bridge_6": 13,
+        "anchor_conditioned_target_pooling:direct": 1
+      }
+    },
+    {
+      "max_unique_candidates": 24,
+      "mean_unique_candidates": 21.22,
+      "min_unique_candidates": 17,
+      "modes": [
+        "anchor_conditioned_target_pooling",
+        "anchor_conditioned_patch_correspondence",
+        "t18_corrected"
+      ],
+      "n_targets": 100,
+      "oracle_dice": 0.9235106739496517,
+      "oracle_histogram": {
+        "anchor_conditioned_patch_correspondence:bridge_1": 7,
+        "anchor_conditioned_patch_correspondence:bridge_2": 4,
+        "anchor_conditioned_patch_correspondence:bridge_3": 8,
+        "anchor_conditioned_patch_correspondence:bridge_4": 3,
+        "anchor_conditioned_patch_correspondence:bridge_5": 2,
+        "anchor_conditioned_patch_correspondence:bridge_6": 2,
+        "anchor_conditioned_patch_correspondence:bridge_7": 1,
+        "anchor_conditioned_patch_correspondence:direct": 3,
+        "anchor_conditioned_target_pooling:bridge_2": 6,
+        "anchor_conditioned_target_pooling:bridge_3": 2,
+        "anchor_conditioned_target_pooling:bridge_4": 4,
+        "anchor_conditioned_target_pooling:bridge_5": 4,
+        "anchor_conditioned_target_pooling:bridge_6": 9,
+        "anchor_conditioned_target_pooling:direct": 1,
+        "t18_corrected:bridge_1": 4,
+        "t18_corrected:bridge_2": 5,
+        "t18_corrected:bridge_3": 7,
+        "t18_corrected:bridge_4": 4,
+        "t18_corrected:bridge_5": 4,
+        "t18_corrected:bridge_6": 6,
+        "t18_corrected:bridge_7": 3,
+        "t18_corrected:direct": 11
+      }
+    }
+  ]
+}

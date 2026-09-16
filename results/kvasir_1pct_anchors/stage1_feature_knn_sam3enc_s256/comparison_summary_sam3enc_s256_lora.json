@@ -1,0 +1,131 @@
+{
+  "protocol": "SAM3 encoder KNN @256 features, lora_p491_e20 @256 eval",
+  "rows": [
+    {
+      "dice": {
+        "bridge_1": 0.8680170151603005,
+        "bridge_2": 0.8721741133522243,
+        "bridge_3": 0.8886379632937604,
+        "bridge_4": 0.899724344037759,
+        "bridge_5": 0.9036259272552423,
+        "bridge_6": 0.8994276815363336,
+        "direct": 0.7646722853951428
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 256,
+      "knn_feature": "patch_mean",
+      "mode": "sam3enc_anchor_conditioned_patch_correspondence",
+      "mode_key": "sam3enc_anchor_conditioned_patch_correspondence",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8678578831698993,
+        "bridge_2": 0.8739427065961994,
+        "bridge_3": 0.8983065068053081,
+        "bridge_4": 0.9082126181506426,
+        "bridge_5": 0.880863594609844,
+        "bridge_6": 0.9011509483944853,
+        "direct": 0.7646722853951428
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 256,
+      "knn_feature": "cond",
+      "mode": "sam3enc_anchor_conditioned_patch_correspondence",
+      "mode_key": "sam3enc_anchor_conditioned_patch_correspondence__knn_cond",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8682613063599679,
+        "bridge_2": 0.871929240346052,
+        "bridge_3": 0.8849011181890593,
+        "bridge_4": 0.8913198098799571,
+        "bridge_5": 0.8985032910099647,
+        "bridge_6": 0.8939451492225566,
+        "direct": 0.7646722853951428
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 256,
+      "knn_feature": "pooled",
+      "mode": "sam3enc_anchor_conditioned_patch_correspondence",
+      "mode_key": "sam3enc_anchor_conditioned_patch_correspondence__knn_pooled",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8528057740925413,
+        "bridge_2": 0.8658579501272716,
+        "bridge_3": 0.8730387597807058,
+        "bridge_4": 0.8926950049256677,
+        "bridge_5": 0.8878870316819315,
+        "bridge_6": 0.8960449422038486,
+        "direct": 0.8481791841503739
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 256,
+      "knn_feature": "patch_mean",
+      "mode": "sam3enc_anchor_conditioned_target_pooling",
+      "mode_key": "sam3enc_anchor_conditioned_target_pooling",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8640010334119527,
+        "bridge_2": 0.8276600355345739,
+        "bridge_3": 0.8778524506771906,
+        "bridge_4": 0.8870920122518516,
+        "bridge_5": 0.8946258302997981,
+        "bridge_6": 0.898785580593641,
+        "direct": 0.8481791841503739
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 256,
+      "knn_feature": "cond",
+      "mode": "sam3enc_anchor_conditioned_target_pooling",
+      "mode_key": "sam3enc_anchor_conditioned_target_pooling__knn_cond",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8596598512103221,
+        "bridge_2": 0.8616031277024357,
+        "bridge_3": 0.8620227622947045,
+        "bridge_4": 0.8944018185708971,
+        "bridge_5": 0.8901327222487077,
+        "bridge_6": 0.8984737619721794,
+        "direct": 0.8481791841503739
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 256,
+      "knn_feature": "pooled",
+      "mode": "sam3enc_anchor_conditioned_target_pooling",
+      "mode_key": "sam3enc_anchor_conditioned_target_pooling__knn_pooled",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8504967140917136,
+        "bridge_2": 0.886052165802256,
+        "bridge_3": 0.8688553971828837,
+        "bridge_4": 0.8857713036619513,
+        "bridge_5": 0.8929889210646053,
+        "bridge_6": 0.8876493907661326,
+        "direct": 0.8221702389824705
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 256,
+      "knn_feature": "patch_mean",
+      "mode": "sam3enc_patch_average",
+      "mode_key": "sam3enc_patch_average",
+      "n": 100
+    }
+  ]
+}

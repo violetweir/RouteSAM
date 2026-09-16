@@ -1,0 +1,9 @@
+{
+  "count": 100,
+  "accepted": 75,
+  "coverage": 0.75,
+  "accepted_subset_dice": 0.9120853737543558,
+  "teacher_validation_dice": 0.8273298655431318,
+  "teacher_checkpoint_reproduced": true,
+  "note": "descriptive subset audit, not full-set segmentation Dice or OOF validation; thresholds not adjusted"
+}

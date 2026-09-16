@@ -1,0 +1,14 @@
+{
+  "count": 18,
+  "rank_hist": {
+    "5": 3,
+    "2": 6,
+    "7": 3,
+    "6": 1,
+    "4": 4,
+    "3": 1
+  },
+  "gain_weighted_coverage_top2": 0.5743900407428871,
+  "gain_weighted_coverage_top3": 0.6337058136515223,
+  "note": "GT posthoc diagnostic only; TP ranking is cached conditional anchor-target score, not a new propagation result."
+}

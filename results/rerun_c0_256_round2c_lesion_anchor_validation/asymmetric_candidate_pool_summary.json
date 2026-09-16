@@ -1,0 +1,40 @@
+{
+  "candidate_output": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_round2c_lesion_anchor_validation/asymmetric_candidate_pools_validation.jsonl",
+  "feature_size": 256,
+  "new_propagation": false,
+  "new_training": false,
+  "pools": {
+    "C0_forward_proto_top3": {
+      "b7_mean": 0.8791645521688537,
+      "b7_selected_dice": 0.8666380006065166,
+      "candidate_oracle": 0.8745268872631787,
+      "oracle_gap": 0.007888886656662097,
+      "targets": 100
+    },
+    "C1_forward_forward_reverse": {
+      "b7_mean": 0.8474291864920341,
+      "b7_selected_dice": 0.8669514297783962,
+      "candidate_oracle": 0.8771501220539142,
+      "oracle_gap": 0.010198692275517951,
+      "targets": 100
+    },
+    "C2_forward_reverse_reverse": {
+      "b7_mean": 0.8425761703854222,
+      "b7_selected_dice": 0.8641758910813877,
+      "candidate_oracle": 0.8762243422985175,
+      "oracle_gap": 0.01204845121712983,
+      "targets": 100
+    },
+    "C3_forward_forward_reverse_alt": {
+      "b7_mean": 0.8537662163541236,
+      "b7_selected_dice": 0.8636579621481866,
+      "candidate_oracle": 0.8748933568876233,
+      "oracle_gap": 0.011235394739436688,
+      "targets": 100
+    }
+  },
+  "propagation_canvas": 256,
+  "split": "validation",
+  "status": "complete",
+  "test_used": false
+}

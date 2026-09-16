@@ -1,0 +1,50 @@
+{
+  "epochs": 1,
+  "train_targets": 628,
+  "gt": 8,
+  "pseudo": 620,
+  "seed": 2026,
+  "batch_sequences": 1,
+  "weights": "all 1",
+  "train_pool": "Frozen existing 620 soft labels plus 8 GT; isolate training-interface change; no new B7 threshold",
+  "terminal_labels": "existing soft target for pseudo; hard for GT; same label across routes",
+  "path_policy": "each target once; pseudo primary bridges balanced by sorted index modulo7, skip frozen-base empty paths; GT uses distinct GT anchor b0",
+  "fallback": "if current public output has no tracked selectable object, try next predeclared path; one optimizer update per target; fail if none",
+  "initialization": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+  "lora": {
+    "rank": 4,
+    "alpha": 8,
+    "dropout": 0.0,
+    "policy": "memory_attention_decoder_lora"
+  },
+  "optimizer": "AdamW",
+  "lr": 1e-05,
+  "weight_decay": 0.01,
+  "grad_clip": 1.0,
+  "loss": "terminal per-image BCE + SoftDice smooth1; no auxiliary loss",
+  "forward": "original public TP API in eval behavior with current adapter; terminal replay on detached current-model history",
+  "backpropagation": "terminal step only (truncated BPTT length1); memory attention and decoder receive gradients; no full-chain BPTT",
+  "precision": "BF16 autocast, cache disabled to avoid inference casts severing gradients or stale updated weights",
+  "validation": "all100 targets x7 fixed TP paths; recompute forward and cycle, frozen student best and original B7; compare with base",
+  "validation_checkpoint_selection": "higher full validation B7 Dice between epoch0 base and epoch1; ties keep base",
+  "test": "not evaluated during this pilot",
+  "base_validation_b7": 0.851807170563205,
+  "base_validation_oracle": 0.869544177933916,
+  "excluded_base_empty_paths": 6,
+  "primary_bridge_counts": {
+    "0": 96,
+    "1": 90,
+    "2": 89,
+    "3": 89,
+    "4": 88,
+    "5": 88,
+    "6": 88
+  },
+  "input_hashes": {
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/quality/anchor_conditioned_target_pooling/propagation_quality_train/propagation_quality.jsonl": "92ac144ca30b27a70526cf7accaa1159633f7ba36605a6b2432ae4156045b108",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/quality/anchor_conditioned_target_pooling/propagation_quality_validation/propagation_quality.jsonl": "7ad4fd0347ee6406e483f2a69c4a3a5129a44e80d002c57fd113a45ed678f302",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tp_student_rescreen_20260910/data/train_manifest.jsonl": "698547d9de5a9475892320998007b782b38e234f46a5e418b9111d940e9edb2e",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tp_student_rescreen_20260910/runs/soft/student_best.pth": "c42e8b442f8a8a4d291266483fedac67446e01c818130d5a56b295abca34744b",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tp_student_rescreen_20260910/runs/soft/validation_best/per_target_metrics.jsonl": "995b931d25ce78fec305611603c4c5597e0814267523c082e84b1162320ec1b3"
+  }
+}

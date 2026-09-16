@@ -1,0 +1,22 @@
+{
+  "joint_v1": {
+    "paired_dice_delta": -0.03485766818060783,
+    "bootstrap_95_percentile_ci": [
+      -0.07223453605026736,
+      -0.0011182549817326539
+    ],
+    "improved": 40,
+    "tied": 2,
+    "worse": 58
+  },
+  "joint_v2": {
+    "paired_dice_delta": -0.0380918641113948,
+    "bootstrap_95_percentile_ci": [
+      -0.07938501674017599,
+      -0.002879532325414999
+    ],
+    "improved": 45,
+    "tied": 0,
+    "worse": 55
+  }
+}

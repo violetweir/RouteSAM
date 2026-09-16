@@ -1,0 +1,16 @@
+{
+  "validation": {
+    "targets": 259,
+    "candidate_union": 5547,
+    "old_routes": 1813,
+    "overlapping_rebuilt_old_routes_exact": 1803,
+    "fullbank_route_reuse": false
+  },
+  "test": {
+    "targets": 260,
+    "candidate_union": 5437,
+    "old_routes": 1820,
+    "overlapping_rebuilt_old_routes_exact": 1815,
+    "fullbank_route_reuse": false
+  }
+}

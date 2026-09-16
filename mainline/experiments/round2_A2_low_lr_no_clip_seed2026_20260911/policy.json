@@ -1,0 +1,19 @@
+{
+  "seeds": [
+    2026
+  ],
+  "only_optimization_change": "Disable global gradient norm clipping; paired baseline low_lr seed2026",
+  "pool": "same A2 503pseudo+8GT",
+  "epochs": 10,
+  "batch": 1,
+  "clip": null,
+  "scheduler": "cosine5110steps",
+  "input": "original1008",
+  "metric": "macroDice256",
+  "prompt": "colon polyp",
+  "monitor": "fixed64pseudo sorted SHA256(target_id)+all8GT; compares predictions with training supervision only, no unlabeled GT; preserves RNG",
+  "loss_logging": "native loss dictionary scalar components, unchanged training objective",
+  "test": "validation-best frozen then full100 text primary and empty diagnostic",
+  "gradient_clipping_enabled": false,
+  "baseline": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910"
+}

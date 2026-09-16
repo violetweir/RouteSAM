@@ -1,0 +1,40 @@
+{
+  "bridge_counts": {
+    "0": 1048,
+    "1": 1048,
+    "2": 1048,
+    "3": 1048,
+    "4": 1048,
+    "5": 1048,
+    "6": 1048
+  },
+  "leakage": {
+    "test_intersection": 0,
+    "validation_intersection": 0
+  },
+  "mode_counts": {
+    "sam3enc_anchor_conditioned_patch_correspondence": 3668,
+    "sam3enc_anchor_conditioned_target_pooling": 3668
+  },
+  "pseudo_manifest": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_round2a_fixed_knn_e33/manifests/x4_train_b7.jsonl",
+  "pseudo_manifest_sha256": "7f8e76ed708e9fd2b28b36e1d7672b179af7bae3a34bb493b06f905b8331da88",
+  "route_sha256": {
+    "sam3enc_anchor_conditioned_patch_correspondence": "eefe9de51015840b756e1bc8d4eb63d20709490f17281032eb8eb0a2fe3410fb",
+    "sam3enc_anchor_conditioned_target_pooling": "4ee121f46bffda6a5c9eae529451dd966f0ba532db36987b72a63afab72933a2"
+  },
+  "sequence_count": 7336,
+  "sequence_manifest": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_round3_tracker_stage4/sequence_manifests/train_sequences.jsonl",
+  "sequence_manifest_sha256": "015fc537a6f069bdb89f827af74eb779c2338b4a0aa213fc10099de8a2f869e8",
+  "split_counts": {
+    "test": 100,
+    "train": 800,
+    "validation": 100
+  },
+  "supervision_counts": {
+    "frozen_pseudo_bridge": 18117,
+    "frozen_pseudo_target": 7336,
+    "gt_anchor": 7336
+  },
+  "unique_frame_count": 610,
+  "unique_target_count": 524
+}

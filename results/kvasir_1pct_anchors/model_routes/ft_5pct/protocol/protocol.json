@@ -1,0 +1,30 @@
+{
+  "name": "T21 Dynamic Pseudo-Video Propagation",
+  "manifest_sha256": "eb74d0ea534450d7b97ae93319260b7cbbd78e5b74b2b615c777b1263eb91322",
+  "support_manifest_sha256": "15746c3f00a897ed36a2a32cfb1108a697db2e08bff0d99b88af459b6c701dab",
+  "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_1pct_anchors/video_checkpoints/ft_5pct_merged_video.pt",
+  "checkpoint_sha256": "f036c77b740fac77733f5ab82c3e5f061e65c36167b7929b9b638970fa9c3d73",
+  "tracker_adapter": null,
+  "tracker_adapter_sha256": null,
+  "memory_adapter": null,
+  "memory_adapter_sha256": null,
+  "descriptor": "exact T18 199-D descriptor, L2 normalized",
+  "graph": "train-only symmetric union of directed kNN, k=20",
+  "top3_routes": [
+    "best direct route",
+    "best one-bridge route",
+    "best two-bridge route"
+  ],
+  "route_diversity": "jointly prefer three distinct anchors and pairwise-disjoint bridge sets before maximizing path similarity",
+  "query_attachment_fallback": "query first uses its train Top-k neighbors; if an exact route length cannot reach any current anchor, expand only the temporary query edge and record its full train-neighbor rank",
+  "path_score": "maximize (minimum edge cosine, mean edge cosine)",
+  "quality": "0.5 * return_dice + 0.5 * route_agreement",
+  "backward_prompt": "tight box of forward predicted query mask",
+  "pseudo_anchor_threshold": 0.85,
+  "pool_rounds": 2,
+  "canvas_size": 512,
+  "test_policy": "each test query independently uses frozen train-only graph/pool; no test-to-test edges or updates",
+  "target_gt_used_for_search_quality_selection_or_prompting": false,
+  "python": "3.12.13",
+  "executable": "/home/violet/anaconda3/envs/sam3/bin/python"
+}

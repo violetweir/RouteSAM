@@ -1,0 +1,404 @@
+{
+  "legacy410": {
+    "path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_sam3knn_s256_base/s2_s3_test_results.json",
+    "sha256": "addf0cc8bff3716b467b944aea30c75e9a620726a8c09ba05f369bf614c0a24e",
+    "data": {
+      "results": {
+        "S2_final": {
+          "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_sam3knn_s256_base/students/S2/student_final.pth",
+          "checkpoint_kind": "final",
+          "checkpoint_sha256": "7ad23038a581b8bd5c5455b82bce516eaa11711a008b60c5c45addb087b3e04d",
+          "student": "S2",
+          "test": {
+            "by_dataset": {
+              "kvasir-seg": {
+                "count": 100,
+                "dice": 0.8522447681355946,
+                "iou": 0.7679045092508242,
+                "mean_area": 0.12635772705078124,
+                "nonempty_rate": 1.0
+              }
+            },
+            "count": 100,
+            "dice": 0.8522447681355946,
+            "iou": 0.7679045092508242,
+            "mean_area": 0.12635772705078124,
+            "nonempty_rate": 1.0
+          }
+        },
+        "S2_valbest": {
+          "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_sam3knn_s256_base/students/S2/student_best.pth",
+          "checkpoint_kind": "valbest",
+          "checkpoint_sha256": "17f7f62e4522cc38bc5fbeaef4c31f6e1c8695d185eaebd3fcc268d22c447000",
+          "student": "S2",
+          "test": {
+            "by_dataset": {
+              "kvasir-seg": {
+                "count": 100,
+                "dice": 0.8550423417382546,
+                "iou": 0.7714854158669978,
+                "mean_area": 0.13244873046875,
+                "nonempty_rate": 1.0
+              }
+            },
+            "count": 100,
+            "dice": 0.8550423417382546,
+            "iou": 0.7714854158669978,
+            "mean_area": 0.13244873046875,
+            "nonempty_rate": 1.0
+          }
+        },
+        "S3_final": {
+          "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_sam3knn_s256_base/students/S3/student_final.pth",
+          "checkpoint_kind": "final",
+          "checkpoint_sha256": "07b614994ef6aeb823fe9c8865620851a8bdd34b98ca4606581432852d05fd5f",
+          "student": "S3",
+          "test": {
+            "by_dataset": {
+              "kvasir-seg": {
+                "count": 100,
+                "dice": 0.8625387569810081,
+                "iou": 0.7861658810670872,
+                "mean_area": 0.13821441650390626,
+                "nonempty_rate": 1.0
+              }
+            },
+            "count": 100,
+            "dice": 0.8625387569810081,
+            "iou": 0.7861658810670872,
+            "mean_area": 0.13821441650390626,
+            "nonempty_rate": 1.0
+          }
+        },
+        "S3_valbest": {
+          "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_sam3knn_s256_base/students/S3/student_best.pth",
+          "checkpoint_kind": "valbest",
+          "checkpoint_sha256": "aac8b0d0c24ace1240c2a9a6f3c677d7a51af9d7fc2822568dc3fabd64288554",
+          "student": "S3",
+          "test": {
+            "by_dataset": {
+              "kvasir-seg": {
+                "count": 100,
+                "dice": 0.8452451741578813,
+                "iou": 0.7635288073856791,
+                "mean_area": 0.135697021484375,
+                "nonempty_rate": 1.0
+              }
+            },
+            "count": 100,
+            "dice": 0.8452451741578813,
+            "iou": 0.7635288073856791,
+            "mean_area": 0.135697021484375,
+            "nonempty_rate": 1.0
+          }
+        }
+      },
+      "selection_uses_test_gt": false,
+      "test_evaluation_authorized_by_user": true
+    }
+  },
+  "legacy448": {
+    "path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tp448_s2_s3_test_20260912/results.json",
+    "sha256": "1aa4ac46408c142c6a32803f44dfacf8c823b7b3ba9dc244d752614c7e51dd69",
+    "data": [
+      {
+        "student": "S2",
+        "variant": "best",
+        "iteration": 32800,
+        "validation_dice": 0.8161226308908734,
+        "test_dice": 0.8460072744765127,
+        "test_iou": 0.7604561645704386,
+        "count": 100,
+        "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/students/S2/student_best.pth",
+        "checkpoint_sha256": "fcfd20dbc0161bc6a6a05882d922be5575c1cfd0fecb7b0b40f6bb037517123c"
+      },
+      {
+        "student": "S2",
+        "variant": "final",
+        "iteration": 40000,
+        "validation_dice": 0.8101715942890064,
+        "test_dice": 0.8387299151638758,
+        "test_iou": 0.7511709151382759,
+        "count": 100,
+        "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/students/S2/student_final.pth",
+        "checkpoint_sha256": "b609a458793aa2a573da9dc3e049abf7fcc08dc87ec02524a4f4e433ac3f0504"
+      },
+      {
+        "student": "S3",
+        "variant": "best",
+        "iteration": 29800,
+        "validation_dice": 0.8142312650126609,
+        "test_dice": 0.8602827227231117,
+        "test_iou": 0.779007116045171,
+        "count": 100,
+        "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/students/S3/student_best.pth",
+        "checkpoint_sha256": "f06dadfb87c2dd3ae359fcb97cb6903ba3aa85f57b83329424bdd73bf7381555"
+      },
+      {
+        "student": "S3",
+        "variant": "final",
+        "iteration": 40000,
+        "validation_dice": 0.8060840436724473,
+        "test_dice": 0.853201788241304,
+        "test_iou": 0.7713338709335679,
+        "count": 100,
+        "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/students/S3/student_final.pth",
+        "checkpoint_sha256": "16dc27beea033cd0de64acecc04057230bd5f5602fd21adb257535f71011f613"
+      }
+    ]
+  },
+  "legacy580": {
+    "path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/s2_s3_test_audit/results.json",
+    "sha256": "178f7a3a5af5532bb414daa40d42dfb757262cfd4ae35eaac3d063024eddf3e2",
+    "data": [
+      {
+        "student": "S2",
+        "checkpoint_type": "valbest",
+        "iteration": 26000,
+        "validation_dice_training_entry": 0.8247220833058109,
+        "test_dice": 0.8515301792698711,
+        "test_iou": 0.7718407435452187,
+        "count": 100,
+        "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/students/S2/student_best.pth",
+        "checkpoint_sha256": "ea80befb68f0195373b207cf64cc5985e817612a206bd67720a3010d76c6ec9c"
+      },
+      {
+        "student": "S2",
+        "checkpoint_type": "final",
+        "iteration": 40000,
+        "validation_dice_training_entry": 0.8179080390870649,
+        "test_dice": 0.8516750896604358,
+        "test_iou": 0.7745026992515708,
+        "count": 100,
+        "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/students/S2/student_final.pth",
+        "checkpoint_sha256": "d0da7d3543f267c7e8ca40c82199f1287a0c98734ed6b00063daad877e1f18cd"
+      },
+      {
+        "student": "S3",
+        "checkpoint_type": "valbest",
+        "iteration": 22800,
+        "validation_dice_training_entry": 0.8242417396874546,
+        "test_dice": 0.8419581163981706,
+        "test_iou": 0.760370887480352,
+        "count": 100,
+        "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/students/S3/student_best.pth",
+        "checkpoint_sha256": "218cfdab12e04446d3c75fd23bc9595c2d8565a86a47636ea054f3d928f94d0d"
+      },
+      {
+        "student": "S3",
+        "checkpoint_type": "final",
+        "iteration": 40000,
+        "validation_dice_training_entry": 0.8039164832654613,
+        "test_dice": 0.8437694237163869,
+        "test_iou": 0.7650143392678759,
+        "count": 100,
+        "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/students/S3/student_final.pth",
+        "checkpoint_sha256": "8f2b11229c05b55c3b3f6960e708d3be523373da53c325a8b4e22899c423d213"
+      }
+    ]
+  },
+  "single580_best": {
+    "path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/single_student_hard_soft_20260909/results.json",
+    "sha256": "e034a9a59b6afa7b948bacc6a4b4127320a86e69cedf26135b1e67a77a641483",
+    "data": {
+      "hard": {
+        "best_epoch": 436,
+        "validation": {
+          "count": 100,
+          "dice": 0.8195622045876584,
+          "iou": 0.7361321436310736
+        },
+        "test": {
+          "count": 100,
+          "dice": 0.8485924378718745,
+          "iou": 0.7692216080062917
+        },
+        "checkpoint_sha256": "52d0cfb87403273132e659487b356aa3e0deb8e3648a8b913a52b07c4cddb3e8"
+      },
+      "soft": {
+        "best_epoch": 556,
+        "validation": {
+          "count": 100,
+          "dice": 0.8273298655431318,
+          "iou": 0.7491000363807057
+        },
+        "test": {
+          "count": 100,
+          "dice": 0.8512434270489941,
+          "iou": 0.7730376108511332
+        },
+        "checkpoint_sha256": "c03b6a63c754df9bc75a6d904bb4b64cabdf7a0e29508b37d8cbbed2a698fc58"
+      },
+      "paired_test_soft_minus_hard": {
+        "mean": 0.0026509891771198594,
+        "ci95": [
+          -0.013393809025959314,
+          0.017837168909644967
+        ],
+        "wins": 47,
+        "ties": 0,
+        "losses": 53
+      }
+    }
+  },
+  "single580_final": {
+    "path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/single_student_hard_soft_20260909/final_checkpoint_test/results.json",
+    "sha256": "84c1672be5f50d07d0c4c4c4925c85122379cf712221ce6f958b9d98596e830f",
+    "data": {
+      "hard": {
+        "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/single_student_hard_soft_20260909/runs/hard/student_final.pth",
+        "sha256": "6ff386a12426409f20fd4b062cb1d3942c20757cbf1a5904e0b2228731b2dcf2",
+        "epoch": 816,
+        "iteration": 39984,
+        "validation": {
+          "count": 100,
+          "dice": 0.8123772278516762,
+          "iou": 0.7313245226338584
+        },
+        "test": {
+          "count": 100,
+          "dice": 0.854010914137757,
+          "iou": 0.7751227819888666
+        },
+        "best_checkpoint_test": {
+          "count": 100,
+          "dice": 0.8485924378718745,
+          "iou": 0.7692216080062917
+        },
+        "final_minus_best_test_dice": 0.005418476265882433,
+        "final_validation_reproduced": true,
+        "all_100_saved_masks_hash_verified": true
+      },
+      "soft": {
+        "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/single_student_hard_soft_20260909/runs/soft/student_final.pth",
+        "sha256": "ce71038ddfe318645e61b8004f2b8acabd6d2a7b5d2680ef96becc095ec58a3b",
+        "epoch": 816,
+        "iteration": 39984,
+        "validation": {
+          "count": 100,
+          "dice": 0.8145613754048733,
+          "iou": 0.7336951942832427
+        },
+        "test": {
+          "count": 100,
+          "dice": 0.8595295954726687,
+          "iou": 0.7833616654924892
+        },
+        "best_checkpoint_test": {
+          "count": 100,
+          "dice": 0.8512434270489941,
+          "iou": 0.7730376108511332
+        },
+        "final_minus_best_test_dice": 0.008286168423674578,
+        "final_validation_reproduced": true,
+        "all_100_saved_masks_hash_verified": true
+      }
+    }
+  },
+  "single448": {
+    "path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tp448_single_student_soft_20260912/results.json",
+    "sha256": "04d58837e7c8103fc37e98388f47483e040cc2230400bb3c3a7ac4ed32849622",
+    "data": {
+      "best": {
+        "epoch": 476,
+        "validation": {
+          "count": 100,
+          "dice": 0.8286887234908317,
+          "iou": 0.7464956393613786
+        },
+        "test": {
+          "count": 100,
+          "dice": 0.8551908328300771,
+          "iou": 0.7707586202594503
+        },
+        "checkpoint_sha256": "ef40ff148e82d79deb8fd2f722b0cfa9d0729ede764a8055a64d06d0ced1d6fb"
+      },
+      "final": {
+        "epoch": 816,
+        "validation": {
+          "count": 100,
+          "dice": 0.8069907290025714,
+          "iou": 0.728797462411066
+        },
+        "test": {
+          "count": 100,
+          "dice": 0.8514520119062471,
+          "iou": 0.7679649214998774
+        },
+        "checkpoint_sha256": "718d90274f47a778a21baa9e5b15b2615c14172d034f5ebe7f8f1c4ca01dc91c"
+      }
+    }
+  },
+  "filter_diagnostic": {
+    "path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_pseudo_filter_20260909/results.json",
+    "sha256": "fe5e6afcd0ce38e8adcb8697fd49d1b188e8b2522f572cd46c8c6dbde0ae0238",
+    "data": {
+      "train": {
+        "partitions": {
+          "both_fail": 108,
+          "return_only_fail": 160,
+          "multi_only_fail": 76,
+          "both_pass": 448
+        },
+        "original_accepted": 448,
+        "new_accepted": 580,
+        "newly_accepted": 132,
+        "original_masks_preserved": true
+      },
+      "validation": {
+        "original_pool": {
+          "count": 51,
+          "mean_dice": 0.9428563331265272,
+          "median_dice": 0.9563221588538044,
+          "below_05": 0,
+          "below_08": 2,
+          "minimum": 0.7248134328358209
+        },
+        "expanded_pool": {
+          "count": 71,
+          "mean_dice": 0.9133861931208387,
+          "median_dice": 0.9545725527602241,
+          "below_05": 3,
+          "below_08": 6,
+          "minimum": 0.3277754702426868
+        },
+        "newly_accepted_new_choice": {
+          "count": 20,
+          "mean_dice": 0.8382373361063318,
+          "median_dice": 0.944909747637003,
+          "below_05": 3,
+          "below_08": 4,
+          "minimum": 0.3277754702426868
+        },
+        "newly_accepted_previous_choice": {
+          "count": 20,
+          "mean_dice": 0.8429998112693287,
+          "median_dice": 0.9434416349724903,
+          "below_05": 3,
+          "below_08": 4,
+          "minimum": 0.4305172557867469
+        }
+      },
+      "no_test": true,
+      "no_training": true,
+      "validation_oof_original_routes_verified": 100,
+      "interpretation": "Train coverage increase is deterministic under unchanged thresholds, not proof of true pseudo-label correctness. Subset Dice is not full-validation or test Dice. Pool expansion requires rebuilding S3, committee and students before downstream comparisons."
+    }
+  },
+  "filter_pool_audit": {
+    "path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/pool_audit.json",
+    "sha256": "7da5d9d28b139c95f2d135d5f67005213d0f5c90f3ccab240e8ac4799f307f52",
+    "data": {
+      "original_count": 448,
+      "new_count": 580,
+      "added_count": 132,
+      "remaining_count": 212,
+      "all_original_routes_masks_weights_unchanged": true,
+      "original_protocol_sha256": "eb74d0ea534450d7b97ae93319260b7cbbd78e5b74b2b615c777b1263eb91322",
+      "new_protocol_sha256": "eb74d0ea534450d7b97ae93319260b7cbbd78e5b74b2b615c777b1263eb91322",
+      "all_selected_mask_hashes_verified": 580,
+      "candidate_selection_recomputed": true,
+      "training_gt_not_used_for_selection": true
+    }
+  }
+}

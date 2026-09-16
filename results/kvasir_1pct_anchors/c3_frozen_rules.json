@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "B_direct": {
+      "selector": "cross_anchor_support",
+      "regret_val": 0.027700806280142043
+    },
+    "C_top1": {
+      "selector": "cross_anchor_support",
+      "regret_val": 0.04113658292112987
+    },
+    "D_all": {
+      "selector": "medoid",
+      "regret_val": 0.05014489993744686
+    }
+  },
+  "tau": 0.85
+}

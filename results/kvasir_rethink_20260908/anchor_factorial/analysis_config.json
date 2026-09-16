@@ -1,0 +1,43 @@
+{
+  "primary": "Frozen TP independent Router + existing nested all-aux-candidate gain gate",
+  "primary_features": [
+    "tp_cycle",
+    "cycle_difference",
+    "log_area_change_difference",
+    "centroid_change_difference",
+    "empty_count_difference",
+    "log_component_difference",
+    "bridge_difference",
+    "tp_score_margin",
+    "pc_score_minus_best_other_pc_score",
+    "tp_mask_consensus",
+    "pc_mask_consensus",
+    "between_mask_dice",
+    "log_area_ratio",
+    "tp_sam_score",
+    "sam_score_difference"
+  ],
+  "ridges": [
+    10,
+    100
+  ],
+  "thresholds": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "fallback": "Exact TP",
+  "folds": "5 outer seed2026 / 4 inner seed2027 / 3 training experts seed2028, grouped by target",
+  "secondary": "Independent auxiliary and joint Ridge Router, five-fold OOF",
+  "comparisons": [
+    "C minus B: alternative anchor retrieval",
+    "D minus C: path score at fixed anchor"
+  ],
+  "no_test": true,
+  "no_variant_selected_from_outer_results": true,
+  "code_sha256": {
+    "router.py": "b77c8fb8347424a7f0216d3c0bb978a3f78f219ef31661728a02531e2032888d",
+    "run_candidate_rerank.py": "60cb9d3cf8a1e0bf6ffb9f2c292317c6509a5137f4a45c49ce514dbb79da12d6",
+    "base_gate.py": "014251b9aaa757979b28c0fbd7f615d8e7eb082f164e00aea306631e7d0d8ec3"
+  }
+}

@@ -1,0 +1,602 @@
+[
+  {
+    "target_id": "kvasir-seg::cju0ue769mxii08019zqgdbxn",
+    "dice": 0.9536716041601009,
+    "iou": 0.9114457831325301,
+    "mask_sha256": "f19e5c3bfe7695bede60b1cdff18d5dfb36a5e960759aaaa2bf10dd35e53c0fb"
+  },
+  {
+    "target_id": "kvasir-seg::cju13cgqmnhwn0988yrainhcp",
+    "dice": 0.9630084797837041,
+    "iou": 0.9286560796397251,
+    "mask_sha256": "a007ed63b0bb3d0a04edf07e81ab64ee3524f1484e94b5b41b305009f3f5a1f3"
+  },
+  {
+    "target_id": "kvasir-seg::cju16ach3m1da0993r1dq3sn2",
+    "dice": 0.981070628943619,
+    "iou": 0.9628445864962045,
+    "mask_sha256": "195010bbdc886d37f6d6c7468c1b07bddc70811ab7ef64b5287caae163369ad1"
+  },
+  {
+    "target_id": "kvasir-seg::cju171py4qiha0835u8sl59ds",
+    "dice": 0.5694345871776674,
+    "iou": 0.39804861914999173,
+    "mask_sha256": "da44b43089d9108aa68a5b324de9dab23d1493798df91fa89b923a6256304f57"
+  },
+  {
+    "target_id": "kvasir-seg::cju17g6ykn1cs0993dww6qdi8",
+    "dice": 0.7501971010977015,
+    "iou": 0.6002523291925466,
+    "mask_sha256": "63de5edc1311783da5e2769ec90ceabc7151fec70b58923debe24a8ef7b0502e"
+  },
+  {
+    "target_id": "kvasir-seg::cju183od81ff608017ekzif89",
+    "dice": 0.9313632030505243,
+    "iou": 0.8715432649420161,
+    "mask_sha256": "de3cf015458d60158ae71a4b4883713e41d02646dd4624c4e00d7dd55f84d68f"
+  },
+  {
+    "target_id": "kvasir-seg::cju1c0qb4tzi308355wtsnp0y",
+    "dice": 0.6180589087397392,
+    "iou": 0.4472396925227114,
+    "mask_sha256": "fb3317acad508fe1590ef10eab825b6fef8c409353ae19937423d504e5028981"
+  },
+  {
+    "target_id": "kvasir-seg::cju1cyjb5qtie0993njqne9m3",
+    "dice": 0.4907073320171557,
+    "iou": 0.32512404149751917,
+    "mask_sha256": "723e0f654144cc1438684f1386e9f9df538daf169d9adc4ac4135dcfe7a118b0"
+  },
+  {
+    "target_id": "kvasir-seg::cju1d50a94qf50855wsowacrc",
+    "dice": 0.9587372607506836,
+    "iou": 0.920744807830031,
+    "mask_sha256": "2c5ae31138ccb72adf04d95cd99a29224f790f6727ab19ea17f75a16ac0a0915"
+  },
+  {
+    "target_id": "kvasir-seg::cju1fb9236a110801yvg0fwju",
+    "dice": 0.5451767483853045,
+    "iou": 0.37473744510215773,
+    "mask_sha256": "df244d77f3a277474ab648520e138f5e0d6e1ec946705382bc365fa588da392f"
+  },
+  {
+    "target_id": "kvasir-seg::cju1ftaji6isw0855108yqcse",
+    "dice": 0.9042910816689737,
+    "iou": 0.8253022920050532,
+    "mask_sha256": "e5f1d421f636815247f00d66668d6682b2ecb1a42e9503d974ee5f7e15b389da"
+  },
+  {
+    "target_id": "kvasir-seg::cju1gv7106qd008784gk603mg",
+    "dice": 0.971051667277391,
+    "iou": 0.9437321937321937,
+    "mask_sha256": "ab5fef1a12136d0f6fa31536b13d7614172048f0657fa125cae24db8daebb15f"
+  },
+  {
+    "target_id": "kvasir-seg::cju1hirfi7ekp0855q0vgm9qq",
+    "dice": 0.5708370304643596,
+    "iou": 0.39942052980132453,
+    "mask_sha256": "75272c546c87abe166fe713fc52608baaeb77567c747ceae0eb9bd896f286b2a"
+  },
+  {
+    "target_id": "kvasir-seg::cju2i6acqvo6l0799u20fift8",
+    "dice": 0.9764169527776214,
+    "iou": 0.9539205982623996,
+    "mask_sha256": "b5c503e43a66a67ae7416863c145706bfee453cf4299c85aee89772a6e49246f"
+  },
+  {
+    "target_id": "kvasir-seg::cju2nguelpmlj0835rojdn097",
+    "dice": 0.9737412893996031,
+    "iou": 0.9488263333033546,
+    "mask_sha256": "328c94ec45d771d8a5ddde013932062abf678c31b2c4f5aa7fd23e147a65006d"
+  },
+  {
+    "target_id": "kvasir-seg::cju2omjpeqj5a0988pjdlb8l1",
+    "dice": 0.9793942256597981,
+    "iou": 0.9596205021404605,
+    "mask_sha256": "d9f1c72b6c63f9ef2dc22fd0b1680efadedb5cf853705d8f8d26f6ab1bcd41d7"
+  },
+  {
+    "target_id": "kvasir-seg::cju2p0eveqtdc0835gpi3p93i",
+    "dice": 0.9636663914120561,
+    "iou": 0.9298804780876494,
+    "mask_sha256": "e325d9c5de0f08d715bf2ca5ec1760cfdf7fdf60e93c8c02553e42c545023df4"
+  },
+  {
+    "target_id": "kvasir-seg::cju2p4ddkmzxj0993p94o62av",
+    "dice": 0.981628735947354,
+    "iou": 0.9639203015616586,
+    "mask_sha256": "d36f39b2de644acba650d24586f585d602a96c342956afc7b9065aff99b0334b"
+  },
+  {
+    "target_id": "kvasir-seg::cju2qh5le1ock0878oahaql7d",
+    "dice": 0.9747732893652102,
+    "iou": 0.9507880347378578,
+    "mask_sha256": "5ac08abfd10131fa9a9bd417330ec88072b8f03de57810fdc9f85582ca82b640"
+  },
+  {
+    "target_id": "kvasir-seg::cju2qz06823a40878ojcz9ccx",
+    "dice": 0.890490518508152,
+    "iou": 0.802598385469223,
+    "mask_sha256": "fde0951ae014c8357697ab85d4b4f7146c71a2aa40c5072c1978753eb6b55798"
+  },
+  {
+    "target_id": "kvasir-seg::cju2r11x7sdgx0988o8ule0wl",
+    "dice": 0.9571113748092898,
+    "iou": 0.9177503250975293,
+    "mask_sha256": "ea165eb6790bb6177b7e724faf329a09ca607081a0a2176c148103240452d8d2"
+  },
+  {
+    "target_id": "kvasir-seg::cju2r7h21sj9608354gzks3ae",
+    "dice": 0.9576392194193242,
+    "iou": 0.9187214611872146,
+    "mask_sha256": "db9b877d133a46ad0394f57ac361d78f02eaf3f47b7f8e50837364a3bff6f295"
+  },
+  {
+    "target_id": "kvasir-seg::cju2rga4psq9n09881z519xx0",
+    "dice": 0.9649749821300929,
+    "iou": 0.9323204419889503,
+    "mask_sha256": "5c30b6f0abe49e1e182c43b4c2885fc82af272cfb55e30cb22340248d94910de"
+  },
+  {
+    "target_id": "kvasir-seg::cju2spdagu1l50835da1f46fr",
+    "dice": 0.6886446886446886,
+    "iou": 0.5251396648044693,
+    "mask_sha256": "a6e0d5cf8772f516dad13ccc28f00da7c02d2ca9ef8ae73f9a82b72abb4abfec"
+  },
+  {
+    "target_id": "kvasir-seg::cju2sxf3iqbpv09937iksn8ep",
+    "dice": 0.9489462209302325,
+    "iou": 0.9028522039757995,
+    "mask_sha256": "cd6d4d735da46a51e5259bc0226664e863e393cbfce9a098673d3402ff727067"
+  },
+  {
+    "target_id": "kvasir-seg::cju2tjrog4jy30878pawyazqc",
+    "dice": 0.9508795669824086,
+    "iou": 0.9063588288404488,
+    "mask_sha256": "40a181b5f278052128ac8c8895a6dda1104934ccb9e44f0710433e61725cb169"
+  },
+  {
+    "target_id": "kvasir-seg::cju2u4pymvc720988wsxrmi84",
+    "dice": 0.8543466711405643,
+    "iou": 0.7457287903934394,
+    "mask_sha256": "26fb95be9a8135b1ff744a00cad8da1ba4ca316d4b828893c49fe3f9df7e7eed"
+  },
+  {
+    "target_id": "kvasir-seg::cju2urqpwvxw70835rvndvtsi",
+    "dice": 0.9640009664170089,
+    "iou": 0.9305037313432836,
+    "mask_sha256": "aab7e90d4a5d0ffd89cc01dd294aa924485e30f1d16cb4c9723cd7e1bb83788d"
+  },
+  {
+    "target_id": "kvasir-seg::cju2yb31a8e8u0878wdashg7o",
+    "dice": 0.9265552723496648,
+    "iou": 0.8631606718846188,
+    "mask_sha256": "efda6ea6cca1cb83b0785903d1fcbd7df2c2a8a6b8dcfab9667073ac05411bef"
+  },
+  {
+    "target_id": "kvasir-seg::cju2ycp1u8g2r0799jslnp7cz",
+    "dice": 0.9684654173252051,
+    "iou": 0.9388588939150737,
+    "mask_sha256": "b09a4248df3460c78a982ceaf3d63011eea2ed275f9c0ebf79b91f24d978d109"
+  },
+  {
+    "target_id": "kvasir-seg::cju2yo1j1v0qz09934o0e683p",
+    "dice": 0.7921382133397544,
+    "iou": 0.6558185895838525,
+    "mask_sha256": "03d2ae4e2809679f4e91f41ba5a0d4e9e48ab4f3746a37eb78f0db380f4c8f98"
+  },
+  {
+    "target_id": "kvasir-seg::cju2ysg748ru80878sp6j0gm0",
+    "dice": 0.8878839164331493,
+    "iou": 0.7983734158267638,
+    "mask_sha256": "b2abf1b790c6e21646c76a73fe5f206197061813b29634fda81d468f4d43e0f3"
+  },
+  {
+    "target_id": "kvasir-seg::cju2zkpdl9h7t0799ix60teqg",
+    "dice": 0.8525469168900804,
+    "iou": 0.7429906542056075,
+    "mask_sha256": "5357d3e3c3bcf554d0a9543c4b81af23ce4de2f92b5994a071d2c887027bfff2"
+  },
+  {
+    "target_id": "kvasir-seg::cju30ajhw09sx0988qyahx9s8",
+    "dice": 0.5871538724503361,
+    "iou": 0.41558232067964296,
+    "mask_sha256": "4a3e2b19d635bc24c8cd952f7cde1940f31e4be8e3f06ec6b7bcdcb2718efd61"
+  },
+  {
+    "target_id": "kvasir-seg::cju30bmab08bi0835mvlr6e0r",
+    "dice": 0.9412240278114642,
+    "iou": 0.8889737324373854,
+    "mask_sha256": "a46a903e5597b5d488b4f9e1e9049179b6cf4253c0cb7d53eb8ee9fe88c956d9"
+  },
+  {
+    "target_id": "kvasir-seg::cju32csyfblyh080170aa3x5p",
+    "dice": 0.9818576721604702,
+    "iou": 0.9643619023716903,
+    "mask_sha256": "d3271d3601031d0904b337d24f1528dfafafa3865ddb0719f69bcc19e3f110f6"
+  },
+  {
+    "target_id": "kvasir-seg::cju32phw2bv130801yj7bkouq",
+    "dice": 0.6453021242249697,
+    "iou": 0.4763439404197698,
+    "mask_sha256": "13c3c6cad9a65932d0ffb3015d39eafbe51f6650116eb34e3a2baec09468a3a7"
+  },
+  {
+    "target_id": "kvasir-seg::cju32upim1z7u0988l883nqp6",
+    "dice": 0.9550440466041489,
+    "iou": 0.9139562710758186,
+    "mask_sha256": "7e586727cc09dcbcd89f31644170a9c8712acff54853fc1be09d509935a45a1c"
+  },
+  {
+    "target_id": "kvasir-seg::cju334jzo261t0835yqudnfs1",
+    "dice": 0.9589030269501304,
+    "iou": 0.9210506338723146,
+    "mask_sha256": "03aa31bcd8efe63eed34e62af074b1bd2f2630a8046bf4e10dc7d7da0e7e9f08"
+  },
+  {
+    "target_id": "kvasir-seg::cju3v11mrgwwb0755u242ygye",
+    "dice": 0.9073249696479159,
+    "iou": 0.8303703703703704,
+    "mask_sha256": "f1e41afac11ac13331cb903f7ff90ec29f017847ea957e2cbf1ae5f626440ad3"
+  },
+  {
+    "target_id": "kvasir-seg::cju40jl7skiuo0817p0smlgg8",
+    "dice": 0.2670843776106934,
+    "iou": 0.1541242828906137,
+    "mask_sha256": "141e80194b8592c37f3352fdf029884c95027f10cd93b5eae16fda0957fb1870"
+  },
+  {
+    "target_id": "kvasir-seg::cju40w3hbkwpn08015rbs3wko",
+    "dice": 0.7529840546697039,
+    "iou": 0.6038287300891422,
+    "mask_sha256": "d6e9fd2d5befffcc80f9626bd561f6b2e2b4b5d99484b2a28fc9714caaafd01b"
+  },
+  {
+    "target_id": "kvasir-seg::cju41s6nbleqy0755e2mslg0b",
+    "dice": 0.8563746358951378,
+    "iou": 0.7488244514106583,
+    "mask_sha256": "340701f858e49fc81d24ea39b78046dea6f663f84d4c98abe4791634b8cfa0f6"
+  },
+  {
+    "target_id": "kvasir-seg::cju422cm8lfxn0818ojicxejb",
+    "dice": 0.9609999208923344,
+    "iou": 0.9249276686462616,
+    "mask_sha256": "bfa9df479f5a37f237c883306300bda542262d8a5095d6c10608573471354a23"
+  },
+  {
+    "target_id": "kvasir-seg::cju43b8daly4408170e5ev06g",
+    "dice": 0.9758298420883016,
+    "iou": 0.9528005034612964,
+    "mask_sha256": "6adca57319e90942527065120353774f9c1cb4290f141c49bdfceca02c2d198a"
+  },
+  {
+    "target_id": "kvasir-seg::cju43c92lm5cj0755lorsorfg",
+    "dice": 0.7670338637290902,
+    "iou": 0.6221045665122436,
+    "mask_sha256": "a8485893eecc2d17c452d2d6e729a3190b11e7ffcd5d6a8f009c2c29d7688918"
+  },
+  {
+    "target_id": "kvasir-seg::cju43in5fm22c08175rxziqrk",
+    "dice": 0.8861035101656516,
+    "iou": 0.7954989698346453,
+    "mask_sha256": "f911bf19b38a8ee86655bdaa38d21e575288a7feb580f2764afd62f9aa5559e5"
+  },
+  {
+    "target_id": "kvasir-seg::cju43jcqim2cp08172dvjvyui",
+    "dice": 0.9325153374233128,
+    "iou": 0.8735632183908046,
+    "mask_sha256": "629cc5372a58c470d5ec31724fab9eeaf00b54342588836db0a4ccc096a208d4"
+  },
+  {
+    "target_id": "kvasir-seg::cju5hjxaae3i40850h5z2laf5",
+    "dice": 0.7962217750950146,
+    "iou": 0.6614356021914756,
+    "mask_sha256": "a1e4fc2416694b08f819c592526035479d55871a36be9bfc03604691393d1fc5"
+  },
+  {
+    "target_id": "kvasir-seg::cju5huurrecm70801y680y13m",
+    "dice": 0.9708303249097473,
+    "iou": 0.9433141574294934,
+    "mask_sha256": "f7b7ab0e2a13cef018a045fee79b0f8037e0c780a33b32ca64a4ee5964098060"
+  },
+  {
+    "target_id": "kvasir-seg::cju5k7r0yf98c09878csbxb4d",
+    "dice": 0.5520123158126237,
+    "iou": 0.3812272174969623,
+    "mask_sha256": "fd7fc5b70de97bf8a660a17a7010b94ac691f04ada1261af3d2952b9b01c6170"
+  },
+  {
+    "target_id": "kvasir-seg::cju5kre09fhka0850h7b1898j",
+    "dice": 0.8800218638972397,
+    "iou": 0.7857491459248414,
+    "mask_sha256": "2b98c93c0c73e3978321b683656b5e1a10266895dcae3ae27de1fb71b2336e24"
+  },
+  {
+    "target_id": "kvasir-seg::cju5tenjojp1j0755ms4949h2",
+    "dice": 0.9626223790082841,
+    "iou": 0.9279382546232615,
+    "mask_sha256": "f007083ba90c67f5c197037801e3318d748f79e7ac39f547b18b3bdcddec65ed"
+  },
+  {
+    "target_id": "kvasir-seg::cju5u6wf0kh1t0755bg1ssixv",
+    "dice": 0.6674256799493992,
+    "iou": 0.5008543763052972,
+    "mask_sha256": "a66f75d175016f49d2059f37fa68b99d3f387df45220b8c2f86782a7f8772443"
+  },
+  {
+    "target_id": "kvasir-seg::cju5ukkg6kv7u08011x2b6zl5",
+    "dice": 0.9546233295804983,
+    "iou": 0.9131859898857464,
+    "mask_sha256": "0330a29c63e0ade3c1d883d9699610d4685d01f97161442a305212dcaaacb2bc"
+  },
+  {
+    "target_id": "kvasir-seg::cju5vbo6jldrt0871jf6f1700",
+    "dice": 0.8659549228944247,
+    "iou": 0.7635983263598326,
+    "mask_sha256": "cd586603f22db99dcfb2ca86c96bbfbabc0e7821c229154a3cae50519a6e28e2"
+  },
+  {
+    "target_id": "kvasir-seg::cju5wqonpm0e60801z88ewmy1",
+    "dice": 0.9268638214981406,
+    "iou": 0.8636963696369637,
+    "mask_sha256": "f81f2303fef00db9f6005741f2e726b13d3d8c2f7f2c745e596cd06db29e3ee3"
+  },
+  {
+    "target_id": "kvasir-seg::cju5wrrs0m2af0818vmnajbtw",
+    "dice": 0.9339049660593068,
+    "iou": 0.8760053619302949,
+    "mask_sha256": "a71529e9f25507f8014b52ea0d003e90797c2407ec7b33b6c4e3a3fef6e256c4"
+  },
+  {
+    "target_id": "kvasir-seg::cju5yclrymlgj0818k426ud6z",
+    "dice": 0.7641277641277642,
+    "iou": 0.6182902584493042,
+    "mask_sha256": "1171719bd602870c7fe6d4f85e20e5b5490fd43c12e31c56974f58a0afc17532"
+  },
+  {
+    "target_id": "kvasir-seg::cju6uzxk0v83p0801rcwnexdu",
+    "dice": 0.8496302868973676,
+    "iou": 0.7385715020311616,
+    "mask_sha256": "f97bf4c80aac2fdbb53d3ad8ad0aae2737943725f2eb2311277d6a262d6e7f48"
+  },
+  {
+    "target_id": "kvasir-seg::cju6v5ilsv8hk0850rb5sgh6o",
+    "dice": 0.8700564971751412,
+    "iou": 0.77,
+    "mask_sha256": "71f8ac7b1b1c4499bac565dc385a6cce026ab969112690abf11a572db3bab240"
+  },
+  {
+    "target_id": "kvasir-seg::cju6wi3akvn8r0801px8eligc",
+    "dice": 0.7031084592435761,
+    "iou": 0.5421490056396557,
+    "mask_sha256": "b0dd22b71a65646b2eea5f3f72fc6da925693170d981cc5dc82854bd5c7ad779"
+  },
+  {
+    "target_id": "kvasir-seg::cju6z600qwh4z081700qimgl9",
+    "dice": 0.9337410805300713,
+    "iou": 0.875717017208413,
+    "mask_sha256": "9ddd64b4d5ed85dbed9fffe491babe71cdff171b70e79ad8239f6e71be09b9f1"
+  },
+  {
+    "target_id": "kvasir-seg::cju77g99iyxc00817zqi2ppor",
+    "dice": 0.8388387731671314,
+    "iou": 0.722413695689022,
+    "mask_sha256": "53e7cf3a5470f191e7533336234ae77f6aef1f5ca7944c7cf836e774b253dba2"
+  },
+  {
+    "target_id": "kvasir-seg::cju77j66ez52p08019xygi0co",
+    "dice": 0.945026847353618,
+    "iou": 0.8957828405235094,
+    "mask_sha256": "6499a65a67abf8dffdbb84fa3339b46016215eae0cfa1850c5936688f5d9ca5b"
+  },
+  {
+    "target_id": "kvasir-seg::cju77q10sz9ug0801449wu1nu",
+    "dice": 0.642244424260773,
+    "iou": 0.47301917645309943,
+    "mask_sha256": "0a9fed9335f9b08f9de1f0a7ef878119d06a1b3a9eef3f542696de6a66b1c437"
+  },
+  {
+    "target_id": "kvasir-seg::cju77t0razbvm080106o56289",
+    "dice": 0.7055608448816955,
+    "iou": 0.5450706911111717,
+    "mask_sha256": "7f541d353912912cdde4af48df2f6264df2ba48f91151f89f8f14d629a43cde9"
+  },
+  {
+    "target_id": "kvasir-seg::cju77vvcwzcm50850lzoykuva",
+    "dice": 0.8636413823561886,
+    "iou": 0.7600077730275943,
+    "mask_sha256": "0c25805827c97dabf364e310dadcf400c5dc8d9d966939af9410418553d3733e"
+  },
+  {
+    "target_id": "kvasir-seg::cju783tmkzkqu081803g7q5vk",
+    "dice": 0.9686805415235401,
+    "iou": 0.9392633228840125,
+    "mask_sha256": "085fbf218402981b9f75847f6bbde72274a621600362fe72ce76a1d8065ae88c"
+  },
+  {
+    "target_id": "kvasir-seg::cju7ctvqn25dy08186g442m1r",
+    "dice": 0.7633067539017243,
+    "iou": 0.6172159153532459,
+    "mask_sha256": "cbc182408b9cf9206873aedb69eb32d231cb938a0b5aa0751dff27a84d23d9cf"
+  },
+  {
+    "target_id": "kvasir-seg::cju7d2q1k27nf08715zshsckt",
+    "dice": 0.18707119028136213,
+    "iou": 0.10318727866120408,
+    "mask_sha256": "d7dff07498d7f3209c1fceaedfc2dbb3e05ba46f42a8ee96b2f67a6f41bdb331"
+  },
+  {
+    "target_id": "kvasir-seg::cju7d7aut2a2p0818z4uxc6cd",
+    "dice": 0.9099804305283757,
+    "iou": 0.8348294434470377,
+    "mask_sha256": "9c55be8373b5fd99daf7d38bb9383ce5a90427dbde1681941c46ce7ddc4e224e"
+  },
+  {
+    "target_id": "kvasir-seg::cju7dvl5m2n4t0755hlnnjjet",
+    "dice": 0.9327119137780367,
+    "iou": 0.8739082969432315,
+    "mask_sha256": "986450ad891491810d137d1a5fd169abf3fc653b68f471a51e5740e6224f0fa1"
+  },
+  {
+    "target_id": "kvasir-seg::cju7ebe962hr409872ovibahw",
+    "dice": 0.6315814529182139,
+    "iou": 0.46154113758914594,
+    "mask_sha256": "d0fe11c7ef6d8ca8284276bbb7ff2e9ced2a15a661655886a742f650c4cd8cf9"
+  },
+  {
+    "target_id": "kvasir-seg::cju7eea9b2m0z0801ynqv1fqu",
+    "dice": 0.5957198767590973,
+    "iou": 0.42421726755218214,
+    "mask_sha256": "0de7adc1197a40b44b55b8660a41e1e4568d2b6d555b611dbc67466c930e88dd"
+  },
+  {
+    "target_id": "kvasir-seg::cju7efffp2ivf0817etg3jehl",
+    "dice": 0.8154524198721265,
+    "iou": 0.6884083286752376,
+    "mask_sha256": "40d7badf2fd0bc86c8bd397a69389a4a6b73f5e428d847a4920533a7fbcf5608"
+  },
+  {
+    "target_id": "kvasir-seg::cju7ezs7g2mxm098787atbran",
+    "dice": 0.9695071699357178,
+    "iou": 0.9408189379398593,
+    "mask_sha256": "b92c85598c64f0a51db7d6870b52ebbd3269464f07a76349bfed0de3ef377695"
+  },
+  {
+    "target_id": "kvasir-seg::cju7f4sc62xqj075597xpmuoy",
+    "dice": 0.9674402884182064,
+    "iou": 0.9369339879978178,
+    "mask_sha256": "feeead35d7a0a6d420f21c8ca49b624b7a919806d5ba678ec1b9054ae67e1de9"
+  },
+  {
+    "target_id": "kvasir-seg::cju7fq7mm2pw508176uk5ugtx",
+    "dice": 0.879543463332623,
+    "iou": 0.7849866858278034,
+    "mask_sha256": "82a0a926e3318e5218c2d5c83adb02ea30e547c0442b319e196780880969f2d5"
+  },
+  {
+    "target_id": "kvasir-seg::cju83k8fyjsxr0817d6nxs6r4",
+    "dice": 0.9584141348847232,
+    "iou": 0.9201489449731072,
+    "mask_sha256": "4d38b862fc89cb39d0ff904c1ca5644c99379d143825e94d945397e6f0f76aca"
+  },
+  {
+    "target_id": "kvasir-seg::cju83kxitjv340987z09m0ezy",
+    "dice": 0.9251673088622997,
+    "iou": 0.860754716981132,
+    "mask_sha256": "c084fe7aa5760c08622019e1de2d376697d9ed849cefa45829f1c1408e365391"
+  },
+  {
+    "target_id": "kvasir-seg::cju83nwu1jxte0987h1krpfmv",
+    "dice": 0.9678467034751542,
+    "iou": 0.9376966645689113,
+    "mask_sha256": "fdaeffa5b83580abbc3c9ede42d2e30bb6b35b6d09344e791240cababcde2bce"
+  },
+  {
+    "target_id": "kvasir-seg::cju83qd0yjyht0817ktkfl268",
+    "dice": 0.7991640907309853,
+    "iou": 0.6655064897396853,
+    "mask_sha256": "986466f919a0d08e23688e35bb7d2ddf391f7e83c344cdda5dc23051be519101"
+  },
+  {
+    "target_id": "kvasir-seg::cju84gpefknwm098714oq8q61",
+    "dice": 0.974124273895441,
+    "iou": 0.94955387783116,
+    "mask_sha256": "6b58334f4b6ebf5d8c5e08176cff3716c408d07e717c156673121fda86209362"
+  },
+  {
+    "target_id": "kvasir-seg::cju8567gdlcbq0801dwwyo2jt",
+    "dice": 0.9710684617588083,
+    "iou": 0.9437639198218263,
+    "mask_sha256": "5023f21cd8fd00f256a6e3ebaa01d12b85b716365f1ad0a39816406a7ed38622"
+  },
+  {
+    "target_id": "kvasir-seg::cju85mpuglq8k0818d2it6hzb",
+    "dice": 0.7419862886788957,
+    "iou": 0.5898077914426688,
+    "mask_sha256": "f337bae8eabdd46ba79051d8cf886ebe26c09bb691ab9af7b4694e45c777f8f7"
+  },
+  {
+    "target_id": "kvasir-seg::cju85plp7lmkw0850rx42jdpf",
+    "dice": 0.5646971835719568,
+    "iou": 0.3934341778672786,
+    "mask_sha256": "fb7ca6c2578db63ab0439daa28d38c94d80705ed7872c05b765a6a902287d391"
+  },
+  {
+    "target_id": "kvasir-seg::cju8a2itsq4dv0755ntlovpxe",
+    "dice": 0.9531340405014465,
+    "iou": 0.9104642593957258,
+    "mask_sha256": "ad98cbb919e7d3e7578e277fd6228c0eaa50fd823442d7cb96953cc3ce094956"
+  },
+  {
+    "target_id": "kvasir-seg::cju8aj01yqeqm0850lhdz3xdw",
+    "dice": 0.7439767251568324,
+    "iou": 0.5923271806007963,
+    "mask_sha256": "6da36e892fcf3c27b6e9bccaec32817ac77929a1a943656b858016ed9c88fbac"
+  },
+  {
+    "target_id": "kvasir-seg::cju8arof2qpf20850ifr1bnqj",
+    "dice": 0.7460079840319361,
+    "iou": 0.5949064862713888,
+    "mask_sha256": "de6bf7e07c482cfae22129fb084ddc587072aa3358921c43496f0c8576b42e1b"
+  },
+  {
+    "target_id": "kvasir-seg::cju8azmhcr66e0755t61atz72",
+    "dice": 0.9711069088350411,
+    "iou": 0.943836553256967,
+    "mask_sha256": "13596af6c620c2a009f50761ebe91cd7fe9aecd80125ae9169062293cfe0aeba"
+  },
+  {
+    "target_id": "kvasir-seg::cju8b4ja9r2s808509d45ma86",
+    "dice": 0.6512930632060498,
+    "iou": 0.48290184134016334,
+    "mask_sha256": "c3c7b881d23cf52ff741ec26e714a632448253ce7a110aea6afb379bcd59a73a"
+  },
+  {
+    "target_id": "kvasir-seg::cju8b7aqtr4a00987coba14b7",
+    "dice": 0.9397645972767136,
+    "iou": 0.8863735306922073,
+    "mask_sha256": "08b46cb82e79489680978547e43002afb690af5a8bfd2195e85ab78725c8ef34"
+  },
+  {
+    "target_id": "kvasir-seg::cju8c6hnxsdvr0801wn0vrsa6",
+    "dice": 0.43570536828963796,
+    "iou": 0.2785315243415802,
+    "mask_sha256": "afab8125437b9390720caf0c82117fa4565feb7cbf0c0f41598e9c8f2dcaf8f7"
+  },
+  {
+    "target_id": "kvasir-seg::cju8chxndsre008015uisl4si",
+    "dice": 0.93766696349065,
+    "iou": 0.8826487845766974,
+    "mask_sha256": "4169e13ff19c0b00081335b3e33ed6e0eec926beb87e433e917cdc90aef5ca78"
+  },
+  {
+    "target_id": "kvasir-seg::cju8czvnztbf40871b4m7t78w",
+    "dice": 0.9631948957287174,
+    "iou": 0.929002849002849,
+    "mask_sha256": "81fab4a086e6753c6a12904c00ca23f3164a558ba373310c5ccbee4534544b12"
+  },
+  {
+    "target_id": "kvasir-seg::cju8djdqztu6408506pzhlo18",
+    "dice": 0.9338789921360937,
+    "iou": 0.8759596567815746,
+    "mask_sha256": "eef7dbc0bef9a475ec30ff05f5ab4de2716a88e6d32692a935febbf5e377200a"
+  },
+  {
+    "target_id": "kvasir-seg::cjyzk8qieoboa0848ogj51wwm",
+    "dice": 0.7050638448559585,
+    "iou": 0.5444776887687803,
+    "mask_sha256": "a8ff96db35adca6198dce02bfed2ba2dd843ea479ca67fe151bc289eee7c17a0"
+  },
+  {
+    "target_id": "kvasir-seg::cjyztzaqtrv430848l8xgcerw",
+    "dice": 0.884584881245565,
+    "iou": 0.7930544120949031,
+    "mask_sha256": "61e82ed360a5b05983dcf75a71859a863c42b376f4bd5f8cde27a34feec7dba2"
+  },
+  {
+    "target_id": "kvasir-seg::ck2bxskgxxzfv08386xkqtqdy",
+    "dice": 0.8201058201058201,
+    "iou": 0.695067264573991,
+    "mask_sha256": "ae97241beb4c28cd05d053e1624ff8c1f9c81f5aab8161757b1424f665b9fe3a"
+  }
+]

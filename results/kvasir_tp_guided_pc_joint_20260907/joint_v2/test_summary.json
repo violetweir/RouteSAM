@@ -1,0 +1,34 @@
+{
+  "count": 100,
+  "selected_dice": 0.8473407822297593,
+  "oracle_dice": 0.8856513165849659,
+  "iou": 0.782477485712138,
+  "bridge_counts": {
+    "0": 5,
+    "6": 24,
+    "5": 21,
+    "2": 13,
+    "3": 16,
+    "4": 10,
+    "1": 11
+  },
+  "anchor_counts": {
+    "kvasir-seg::cju7aklv31h4309871m29l4e7": 11,
+    "kvasir-seg::cju2pmhtr17a00855cvpelzb0": 16,
+    "kvasir-seg::cju8bj2ssrmlm0871gc2ug2rs": 20,
+    "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 13,
+    "kvasir-seg::cju3v72v5h1qz0818fggilwtq": 7,
+    "kvasir-seg::cju34ymm8d6700799uop0cw33": 11,
+    "kvasir-seg::cju5cu8qkb84x08186jwo8yin": 11,
+    "kvasir-seg::cjyzkpsbjdsjq07211dfi4sru": 11
+  },
+  "bridges": {
+    "0": 0.7377396131880506,
+    "1": 0.7969506523234048,
+    "2": 0.7888587301784427,
+    "3": 0.8221005901488887,
+    "4": 0.8398899774214535,
+    "5": 0.8200737229531224,
+    "6": 0.8363259542977205
+  }
+}

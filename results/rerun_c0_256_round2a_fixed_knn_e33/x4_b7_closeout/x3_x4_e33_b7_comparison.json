@@ -1,0 +1,61 @@
+{
+  "X4_best_minus_X3_best": {
+    "test": -0.0010052210892951274,
+    "validation": -0.003783872062603666
+  },
+  "best_b7_selector_by_validation": "X3_best",
+  "diagnostic_selector_not_eligible_for_selection": "X4_final",
+  "knn_topology": "frozen SAM3-base@256 b0-b6",
+  "propagation_checkpoint": "round-1 SAM3 e33",
+  "round2_student_selector": "X4_best (X4 checkpoint chosen on student validation)",
+  "selectors": {
+    "X3_best": {
+      "test": {
+        "mean_b7_confidence_not_dice": 0.9283380308597401,
+        "oracle_dice": 0.9202059281183844,
+        "oracle_gap": 0.01382562134960963,
+        "selected_dice": 0.9063803067687748,
+        "selected_targets": 100
+      },
+      "validation": {
+        "mean_b7_confidence_not_dice": 0.8948027730635598,
+        "oracle_dice": 0.9051220427935591,
+        "oracle_gap": 0.021268139159257515,
+        "selected_dice": 0.8838539036343016,
+        "selected_targets": 100
+      }
+    },
+    "X4_best": {
+      "test": {
+        "mean_b7_confidence_not_dice": 0.9254603934737343,
+        "oracle_dice": 0.9202059281183844,
+        "oracle_gap": 0.014830842438904757,
+        "selected_dice": 0.9053750856794797,
+        "selected_targets": 100
+      },
+      "validation": {
+        "mean_b7_confidence_not_dice": 0.9055670999108927,
+        "oracle_dice": 0.9051220427935591,
+        "oracle_gap": 0.02505201122186118,
+        "selected_dice": 0.8800700315716979,
+        "selected_targets": 100
+      }
+    },
+    "X4_final": {
+      "test": {
+        "mean_b7_confidence_not_dice": 0.9236882722694949,
+        "oracle_dice": 0.9202059281183844,
+        "oracle_gap": 0.014821016657499686,
+        "selected_dice": 0.9053849114608847,
+        "selected_targets": 100
+      },
+      "validation": {
+        "mean_b7_confidence_not_dice": 0.9020160093485088,
+        "oracle_dice": 0.9051220427935591,
+        "oracle_gap": 0.02465502661265684,
+        "selected_dice": 0.8804670161809023,
+        "selected_targets": 100
+      }
+    }
+  }
+}

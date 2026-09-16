@@ -1,0 +1,222 @@
+{
+  "dice_stats": {
+    "val_frozen_patch": {
+      "mean_all_routes": 0.7118970436107468,
+      "nonzero_routes": 688,
+      "zero_routes": 112
+    },
+    "val_frozen_target": {
+      "mean_all_routes": 0.6948803459949069,
+      "nonzero_routes": 673,
+      "zero_routes": 127
+    },
+    "val_routeco_patch": {
+      "mean_all_routes": 0.8053350678419406,
+      "nonzero_routes": 398,
+      "zero_routes": 2
+    },
+    "val_routeco_target": {
+      "mean_all_routes": 0.8076076846329595,
+      "nonzero_routes": 396,
+      "zero_routes": 4
+    },
+    "val_step0_patch": {
+      "mean_all_routes": 0.27978628373944353,
+      "nonzero_routes": 172,
+      "zero_routes": 228
+    },
+    "val_step0_target": {
+      "mean_all_routes": 0.2542449528440147,
+      "nonzero_routes": 160,
+      "zero_routes": 240
+    }
+  },
+  "manifest": {
+    "bridge_counts": {
+      "3": 179,
+      "4": 127,
+      "5": 130,
+      "6": 356
+    },
+    "path": "work/kvasir_1pct_anchors/routeco_sam3_v1/routeco_v1_pseudo_manifest.jsonl",
+    "rows": 792,
+    "status": {
+      "success": 792
+    },
+    "targets": 792
+  },
+  "manifest_selected_counts": {
+    "anchor_conditioned_patch_correspondence:bridge_3": 144,
+    "anchor_conditioned_patch_correspondence:bridge_4": 95,
+    "anchor_conditioned_patch_correspondence:bridge_5": 65,
+    "anchor_conditioned_patch_correspondence:bridge_6": 107,
+    "anchor_conditioned_target_pooling:bridge_3": 35,
+    "anchor_conditioned_target_pooling:bridge_4": 32,
+    "anchor_conditioned_target_pooling:bridge_5": 65,
+    "anchor_conditioned_target_pooling:bridge_6": 249
+  },
+  "oracles": {
+    "frozen_official_patch_b3_b6": 0.8535007728168412,
+    "frozen_official_target_b3_b6": 0.8424912336145354,
+    "routeco_core_step0_patch": 0.3717684584579828,
+    "routeco_core_step0_target": 0.33893046312908665,
+    "routeco_core_step400_patch": 0.8239985487749368,
+    "routeco_core_step400_target": 0.8317004921504725
+  },
+  "train_patch_quality": {
+    "bridge_counts": {
+      "3": 792,
+      "4": 792,
+      "5": 792,
+      "6": 792
+    },
+    "path": "work/kvasir_1pct_anchors/routeco_sam3_v1_routes/anchor_conditioned_patch_correspondence/propagation_quality_train/propagation_quality.jsonl",
+    "rows": 3168,
+    "status": {
+      "success": 3168
+    },
+    "targets": 792
+  },
+  "train_patch_routes": {
+    "bridge_counts": {
+      "3": 792,
+      "4": 792,
+      "5": 792,
+      "6": 792
+    },
+    "path": "work/kvasir_1pct_anchors/routeco_sam3_v1_routes/anchor_conditioned_patch_correspondence/train_pool0_stage1/routes.jsonl",
+    "rows": 3168,
+    "status": {
+      "NA": 3168
+    },
+    "targets": 792
+  },
+  "train_target_quality": {
+    "bridge_counts": {
+      "3": 792,
+      "4": 792,
+      "5": 792,
+      "6": 792
+    },
+    "path": "work/kvasir_1pct_anchors/routeco_sam3_v1_routes/anchor_conditioned_target_pooling/propagation_quality_train/propagation_quality.jsonl",
+    "rows": 3168,
+    "status": {
+      "success": 3168
+    },
+    "targets": 792
+  },
+  "train_target_routes": {
+    "bridge_counts": {
+      "3": 792,
+      "4": 792,
+      "5": 792,
+      "6": 792
+    },
+    "path": "work/kvasir_1pct_anchors/routeco_sam3_v1_routes/anchor_conditioned_target_pooling/train_pool0_stage1/routes.jsonl",
+    "rows": 3168,
+    "status": {
+      "NA": 3168
+    },
+    "targets": 792
+  },
+  "val_frozen_patch": {
+    "bridge_counts": {
+      "0": 100,
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 100
+    },
+    "path": "work/kvasir_1pct_anchors/stage1_feature_knn_b7_validation/anchor_conditioned_patch_correspondence/eval_base_no_ft_b7_forward_validation/route_results.jsonl",
+    "rows": 800,
+    "status": {
+      "success": 800
+    },
+    "targets": 100
+  },
+  "val_frozen_target": {
+    "bridge_counts": {
+      "0": 100,
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 100
+    },
+    "path": "work/kvasir_1pct_anchors/stage1_feature_knn_b7_validation/anchor_conditioned_target_pooling/eval_base_no_ft_b7_forward_validation/route_results.jsonl",
+    "rows": 800,
+    "status": {
+      "success": 800
+    },
+    "targets": 100
+  },
+  "val_routeco_patch": {
+    "bridge_counts": {
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100
+    },
+    "path": "work/kvasir_1pct_anchors/stage1_feature_knn_b7_validation/anchor_conditioned_patch_correspondence/eval_routeco_core_v1_step400_validation/route_results.jsonl",
+    "rows": 400,
+    "status": {
+      "success": 400
+    },
+    "targets": 100
+  },
+  "val_routeco_target": {
+    "bridge_counts": {
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100
+    },
+    "path": "work/kvasir_1pct_anchors/stage1_feature_knn_b7_validation/anchor_conditioned_target_pooling/eval_routeco_core_v1_step400_validation/route_results.jsonl",
+    "rows": 400,
+    "status": {
+      "success": 400
+    },
+    "targets": 100
+  },
+  "val_step0_patch": {
+    "bridge_counts": {
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100
+    },
+    "path": "work/kvasir_1pct_anchors/stage1_feature_knn_b7_validation/anchor_conditioned_patch_correspondence/eval_routeco_core_v1_step0_validation/route_results.jsonl",
+    "rows": 400,
+    "status": {
+      "success": 400
+    },
+    "targets": 100
+  },
+  "val_step0_target": {
+    "bridge_counts": {
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100
+    },
+    "path": "work/kvasir_1pct_anchors/stage1_feature_knn_b7_validation/anchor_conditioned_target_pooling/eval_routeco_core_v1_step0_validation/route_results.jsonl",
+    "rows": 400,
+    "status": {
+      "success": 400
+    },
+    "targets": 100
+  },
+  "validation_intersections": {
+    "routeco_patch_vs_frozen_patch_routes": 400,
+    "routeco_patch_vs_frozen_patch_targets": 100,
+    "routeco_patch_vs_step0_patch_routes": 400,
+    "routeco_target_vs_frozen_target_routes": 400,
+    "routeco_target_vs_frozen_target_targets": 100,
+    "routeco_target_vs_step0_target_routes": 400
+  }
+}

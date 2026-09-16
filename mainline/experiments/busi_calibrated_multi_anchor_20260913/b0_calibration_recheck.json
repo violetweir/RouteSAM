@@ -1,0 +1,24 @@
+{
+  "source": "existing 64 validation per-anchor b0 predictions, no new SAM3 inference",
+  "calibration_reproduced": true,
+  "not_test": true,
+  "oracle_not_used_for_policy_selection": true,
+  "pools": {
+    "1": {
+      "b0_candidate_count": 1,
+      "validation_selected_dice": 0.7006272352594944
+    },
+    "2": {
+      "b0_candidate_count": 2,
+      "validation_oracle_dice": 0.7705739082918142
+    },
+    "3": {
+      "b0_candidate_count": 3,
+      "validation_oracle_dice": 0.7788539101208574
+    },
+    "5": {
+      "b0_candidate_count": 5,
+      "validation_oracle_dice": 0.7928242639074911
+    }
+  }
+}

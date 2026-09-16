@@ -1,0 +1,13 @@
+{
+  "bridges": [
+    0,
+    6
+  ],
+  "checkpoint": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+  "comparison": "public TP vs old differentiable tracker interface; train only; no hidden GT",
+  "targets": [
+    "kvasir-seg::cju0qkwl35piu0993l0dewei2",
+    "kvasir-seg::cju0qoxqj9q6s0835b43399p4",
+    "kvasir-seg::cju0qx73cjw570799j4n5cjze"
+  ]
+}

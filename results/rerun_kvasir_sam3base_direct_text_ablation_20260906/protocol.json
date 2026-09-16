@@ -1,0 +1,18 @@
+{
+  "source_script": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/scripts/eval_sam3_lora_direct_split.py",
+  "source_sha256": "6d316f799bcd3c7c1f48b7f47197661ca3c496558f50684ee267a90a30032649",
+  "scope": "100 original test images, base SAM3, two direct inference runs",
+  "prompts": [
+    "",
+    "colon polyp"
+  ],
+  "input_resolution": 1008,
+  "metric_resolution": 1008,
+  "class_threshold": 0.5,
+  "mask_threshold": 0.5,
+  "mask_reduction": "union of queries with class probability >= 0.5",
+  "student": false,
+  "routes": false,
+  "point_box_prompts": false,
+  "empty_text_note": "Empty string query; not removal of the semantic query mechanism."
+}

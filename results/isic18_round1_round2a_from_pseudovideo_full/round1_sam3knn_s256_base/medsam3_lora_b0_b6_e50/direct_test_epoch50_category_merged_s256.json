@@ -1,0 +1,32 @@
+{
+  "base_checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_round1_round2a_from_pseudovideo_full/round2a_fixed_knn_lora_teacher/lora_epoch_50_merged_video.pt",
+  "count": 260,
+  "direct_dice": 0.8680087189369691,
+  "direct_dice_median": 0.9113008275200163,
+  "direct_dice_quantiles": {
+    "0.0": 0.10194756221995475,
+    "0.1": 0.7638081414565785,
+    "0.25": 0.8537199488226755,
+    "0.5": 0.9113008275200163,
+    "0.75": 0.9513947986015436,
+    "0.9": 0.9716511387661078,
+    "1.0": 0.9876465529897859
+  },
+  "direct_iou": 0.7894359026094961,
+  "lora_checkpoint": null,
+  "nonempty_rate": 1.0,
+  "protocol": {
+    "checkpoint_training_resolution": 1008,
+    "class_probability_threshold": 0.5,
+    "effective_source_resolution": 256,
+    "mask_probability_threshold": 0.5,
+    "metric_resolution": 256,
+    "model_input_resolution": 1008,
+    "prompt_mode": "category",
+    "query_reduction": "foreground_union",
+    "query_text": "colon polyp",
+    "route_propagation": false
+  },
+  "split": "test",
+  "valid_query_count_mean": 1.103846153846154
+}

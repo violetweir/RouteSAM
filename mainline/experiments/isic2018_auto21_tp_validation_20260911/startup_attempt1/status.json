@@ -1,0 +1,4 @@
+{
+  "stage": "failed",
+  "error": "Traceback (most recent call last):\n  File \"/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/isic2018_auto21_tp_validation_20260911/pipeline.py\", line 41, in <module>\n    try:main()\n        ^^^^^^\n  File \"/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/isic2018_auto21_tp_validation_20260911/pipeline.py\", line 22, in main\n    run('selection_features',[PY,str(R/'code/isic_auto_extract.py')])\n  File \"/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/isic2018_auto21_tp_validation_20260911/pipeline.py\", line 20, in run\n    if rc:raise RuntimeError(f'{name} failed, exit={rc}')\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: selection_features failed, exit=1\n"
+}

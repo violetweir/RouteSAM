@@ -1,0 +1,10 @@
+{
+  "epochs_each": 816,
+  "iterations_each": 39984,
+  "all_epoch_orders_match": true,
+  "GT_per_epoch": 8,
+  "pseudo_per_epoch": 580,
+  "validation_checkpoint_reproduced": true,
+  "frozen_checkpoints_unchanged": true,
+  "test_count_each": 100
+}

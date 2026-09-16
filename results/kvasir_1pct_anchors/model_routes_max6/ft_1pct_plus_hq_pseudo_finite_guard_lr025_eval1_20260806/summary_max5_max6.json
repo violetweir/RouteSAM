@@ -1,0 +1,29 @@
+{
+  "max_bridge_5": {
+    "dice_mean": 0.8644111041851589,
+    "dice_std": 0.17962269910775525,
+    "n": 100,
+    "route_type_counts": {
+      "bridge_1": 21,
+      "bridge_2": 20,
+      "bridge_3": 13,
+      "bridge_4": 15,
+      "bridge_5": 11,
+      "direct": 20
+    }
+  },
+  "max_bridge_6": {
+    "dice_mean": 0.8603506517207328,
+    "dice_std": 0.18126317174064527,
+    "n": 100,
+    "route_type_counts": {
+      "bridge_1": 19,
+      "bridge_2": 18,
+      "bridge_3": 10,
+      "bridge_4": 13,
+      "bridge_5": 9,
+      "bridge_6": 14,
+      "direct": 17
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "A1": {
+    "results": {
+      "arm": "A1",
+      "best_epoch": 5,
+      "validation": {
+        "count": 100,
+        "dice": 0.8837924227833185,
+        "iou": 0.8231048440324664
+      },
+      "test": {
+        "count": 100,
+        "dice": 0.8969770093470584,
+        "iou": 0.8352861577210361
+      },
+      "training_pool_size": 604,
+      "test_direct": true
+    },
+    "verification": {
+      "test_count": 100,
+      "mask_hashes_verified": true,
+      "metrics_recomputed": true,
+      "best_hash_verified": true
+    }
+  },
+  "A0_v2": {
+    "results": {
+      "arm": "A0_v2",
+      "best_epoch": 6,
+      "validation": {
+        "count": 100,
+        "dice": 0.880908943299533,
+        "iou": 0.8210759642993252
+      },
+      "test": {
+        "count": 100,
+        "dice": 0.9017549020160395,
+        "iou": 0.8424247613964808
+      },
+      "training_pool_size": 436
+    },
+    "verification": {
+      "test_count": 100,
+      "mask_hashes_verified": true,
+      "metrics_recomputed": true,
+      "best_hash_verified": true,
+      "total_updates": 4360,
+      "cosine_verified": true,
+      "clip_verified": true,
+      "clipped_fraction": 1.0,
+      "final_next_lr": 5e-07
+    }
+  }
+}

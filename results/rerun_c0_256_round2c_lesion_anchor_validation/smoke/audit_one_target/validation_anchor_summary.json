@@ -1,0 +1,565 @@
+{
+  "all8_b0_oracle": 0.9841115918245562,
+  "feature_size": 256,
+  "new_training": false,
+  "propagation_canvas": 256,
+  "split": "validation",
+  "status": "complete",
+  "targets": 1,
+  "teacher": "sam3_e33",
+  "test_used": false,
+  "top3_quality_root": "work/rerun_c0_256_round2c_lesion_anchor_validation/smoke/audit_one_target/top3_quality_root",
+  "train_propagation": false,
+  "variants": {
+    "V0_patch_correspondence": {
+      "all8_b0_oracle": 0.9841115918245562,
+      "anchor_change_vs_target_pooling": 1.0,
+      "family": "baseline",
+      "global_spearman": 0.4337349397590361,
+      "mean_target_spearman": 0.4337349397590361,
+      "mode": "round2c_V0_patch_correspondence_top3",
+      "name": "V0_patch_correspondence",
+      "paired_delta_vs_target_pooling": {
+        "ci95_high": 0.9841115918245562,
+        "ci95_low": 0.9841115918245562,
+        "mean": 0.9841115918245562
+      },
+      "score_key": "baseline_patch_correspondence",
+      "selected_anchor_ids": [
+        "kvasir-seg::cju8bj2ssrmlm0871gc2ug2rs"
+      ],
+      "selected_dice": [
+        0.9841115918245562
+      ],
+      "selected_route_ids": [
+        "5aee1e9603a0a9ecd09c167b"
+      ],
+      "source": "x3_best",
+      "targets": 1,
+      "top1_b0_dice": 0.9841115918245562,
+      "top1_oracle_hit_rate": 1.0,
+      "top3_b0_oracle": 0.9841115918245562,
+      "top3_oracle_hit_rate": 1.0
+    },
+    "V0_target_pooling": {
+      "all8_b0_oracle": 0.9841115918245562,
+      "anchor_change_vs_target_pooling": 0.0,
+      "family": "baseline",
+      "global_spearman": -0.1077863635721933,
+      "mean_target_spearman": -0.1077863635721933,
+      "mode": "round2c_V0_target_pooling_top3",
+      "name": "V0_target_pooling",
+      "paired_delta_vs_target_pooling": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0
+      },
+      "score_key": "baseline_target_pooling",
+      "selected_anchor_ids": [
+        "kvasir-seg::cju1c4fcu40hl07992b8gj0c8"
+      ],
+      "selected_dice": [
+        0.0
+      ],
+      "selected_route_ids": [
+        "56c231f19fa2a83bd919f5a1"
+      ],
+      "source": "x3_best",
+      "targets": 1,
+      "top1_b0_dice": 0.0,
+      "top1_oracle_hit_rate": 0.0,
+      "top3_b0_oracle": 0.9812804193186072,
+      "top3_oracle_hit_rate": 0.0
+    },
+    "V1_lesion_mean__round1": {
+      "all8_b0_oracle": 0.9841115918245562,
+      "anchor_change_vs_target_pooling": 1.0,
+      "family": "lesion_mean",
+      "global_spearman": -0.19162020190612142,
+      "mean_target_spearman": -0.19162020190612142,
+      "mode": "round2c_V1_lesion_mean__round1_top3",
+      "name": "V1_lesion_mean__round1",
+      "paired_delta_vs_lesion_mean": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0
+      },
+      "paired_delta_vs_target_pooling": {
+        "ci95_high": 0.9778228837768757,
+        "ci95_low": 0.9778228837768757,
+        "mean": 0.9778228837768757
+      },
+      "score_key": "lesion_mean_cosine",
+      "selected_anchor_ids": [
+        "kvasir-seg::cju7aklv31h4309871m29l4e7"
+      ],
+      "selected_dice": [
+        0.9778228837768757
+      ],
+      "selected_route_ids": [
+        "a32820efe2d8139da5018739"
+      ],
+      "source": "round1",
+      "targets": 1,
+      "top1_b0_dice": 0.9778228837768757,
+      "top1_oracle_hit_rate": 0.0,
+      "top3_b0_oracle": 0.9812804193186072,
+      "top3_oracle_hit_rate": 0.0
+    },
+    "V1_lesion_mean__x3_best": {
+      "all8_b0_oracle": 0.9841115918245562,
+      "anchor_change_vs_target_pooling": 1.0,
+      "family": "lesion_mean",
+      "global_spearman": -0.15569141404872364,
+      "mean_target_spearman": -0.15569141404872364,
+      "mode": "round2c_V1_lesion_mean__x3_best_top3",
+      "name": "V1_lesion_mean__x3_best",
+      "paired_delta_vs_lesion_mean": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0
+      },
+      "paired_delta_vs_target_pooling": {
+        "ci95_high": 0.9778228837768757,
+        "ci95_low": 0.9778228837768757,
+        "mean": 0.9778228837768757
+      },
+      "score_key": "lesion_mean_cosine",
+      "selected_anchor_ids": [
+        "kvasir-seg::cju7aklv31h4309871m29l4e7"
+      ],
+      "selected_dice": [
+        0.9778228837768757
+      ],
+      "selected_route_ids": [
+        "a32820efe2d8139da5018739"
+      ],
+      "source": "x3_best",
+      "targets": 1,
+      "top1_b0_dice": 0.9778228837768757,
+      "top1_oracle_hit_rate": 0.0,
+      "top3_b0_oracle": 0.9812804193186072,
+      "top3_oracle_hit_rate": 0.0
+    },
+    "V2_forward_prototype__round1": {
+      "all8_b0_oracle": 0.9841115918245562,
+      "anchor_change_vs_target_pooling": 1.0,
+      "family": "forward",
+      "global_spearman": -0.5149792926227014,
+      "mean_target_spearman": -0.5149792926227014,
+      "mode": "round2c_V2_forward_prototype__round1_top3",
+      "name": "V2_forward_prototype__round1",
+      "paired_delta_vs_lesion_mean": {
+        "ci95_high": -0.001777686036762649,
+        "ci95_low": -0.001777686036762649,
+        "mean": -0.001777686036762649
+      },
+      "paired_delta_vs_target_pooling": {
+        "ci95_high": 0.976045197740113,
+        "ci95_low": 0.976045197740113,
+        "mean": 0.976045197740113
+      },
+      "score_key": "forward_auc_prototype",
+      "selected_anchor_ids": [
+        "kvasir-seg::cju2pmhtr17a00855cvpelzb0"
+      ],
+      "selected_dice": [
+        0.976045197740113
+      ],
+      "selected_route_ids": [
+        "17e624d0891e33d33f5b5c50"
+      ],
+      "source": "round1",
+      "targets": 1,
+      "top1_b0_dice": 0.976045197740113,
+      "top1_oracle_hit_rate": 0.0,
+      "top3_b0_oracle": 0.9778228837768757,
+      "top3_oracle_hit_rate": 0.0
+    },
+    "V2_forward_prototype__x3_best": {
+      "all8_b0_oracle": 0.9841115918245562,
+      "anchor_change_vs_target_pooling": 1.0,
+      "family": "forward",
+      "global_spearman": -0.37126414119311024,
+      "mean_target_spearman": -0.37126414119311024,
+      "mode": "round2c_V2_forward_prototype__x3_best_top3",
+      "name": "V2_forward_prototype__x3_best",
+      "paired_delta_vs_lesion_mean": {
+        "ci95_high": -0.001777686036762649,
+        "ci95_low": -0.001777686036762649,
+        "mean": -0.001777686036762649
+      },
+      "paired_delta_vs_target_pooling": {
+        "ci95_high": 0.976045197740113,
+        "ci95_low": 0.976045197740113,
+        "mean": 0.976045197740113
+      },
+      "score_key": "forward_auc_prototype",
+      "selected_anchor_ids": [
+        "kvasir-seg::cju2pmhtr17a00855cvpelzb0"
+      ],
+      "selected_dice": [
+        0.976045197740113
+      ],
+      "selected_route_ids": [
+        "17e624d0891e33d33f5b5c50"
+      ],
+      "source": "x3_best",
+      "targets": 1,
+      "top1_b0_dice": 0.976045197740113,
+      "top1_oracle_hit_rate": 0.0,
+      "top3_b0_oracle": 0.9803980360556201,
+      "top3_oracle_hit_rate": 0.0
+    },
+    "V2_forward_token_topk__round1": {
+      "all8_b0_oracle": 0.9841115918245562,
+      "anchor_change_vs_target_pooling": 1.0,
+      "family": "forward",
+      "global_spearman": -0.45509797952703834,
+      "mean_target_spearman": -0.45509797952703834,
+      "mode": "round2c_V2_forward_token_topk__round1_top3",
+      "name": "V2_forward_token_topk__round1",
+      "paired_delta_vs_lesion_mean": {
+        "ci95_high": -0.9778228837768757,
+        "ci95_low": -0.9778228837768757,
+        "mean": -0.9778228837768757
+      },
+      "paired_delta_vs_target_pooling": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0
+      },
+      "score_key": "forward_auc_token_topk",
+      "selected_anchor_ids": [
+        "kvasir-seg::cju3v72v5h1qz0818fggilwtq"
+      ],
+      "selected_dice": [
+        0.0
+      ],
+      "selected_route_ids": [
+        "f99adfe7648fe578fa3339e8"
+      ],
+      "source": "round1",
+      "targets": 1,
+      "top1_b0_dice": 0.0,
+      "top1_oracle_hit_rate": 0.0,
+      "top3_b0_oracle": 0.9803980360556201,
+      "top3_oracle_hit_rate": 0.0
+    },
+    "V2_forward_token_topk__x3_best": {
+      "all8_b0_oracle": 0.9841115918245562,
+      "anchor_change_vs_target_pooling": 1.0,
+      "family": "forward",
+      "global_spearman": -0.45509797952703834,
+      "mean_target_spearman": -0.45509797952703834,
+      "mode": "round2c_V2_forward_token_topk__x3_best_top3",
+      "name": "V2_forward_token_topk__x3_best",
+      "paired_delta_vs_lesion_mean": {
+        "ci95_high": -0.9778228837768757,
+        "ci95_low": -0.9778228837768757,
+        "mean": -0.9778228837768757
+      },
+      "paired_delta_vs_target_pooling": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0
+      },
+      "score_key": "forward_auc_token_topk",
+      "selected_anchor_ids": [
+        "kvasir-seg::cju3v72v5h1qz0818fggilwtq"
+      ],
+      "selected_dice": [
+        0.0
+      ],
+      "selected_route_ids": [
+        "f99adfe7648fe578fa3339e8"
+      ],
+      "source": "x3_best",
+      "targets": 1,
+      "top1_b0_dice": 0.0,
+      "top1_oracle_hit_rate": 0.0,
+      "top3_b0_oracle": 0.9803980360556201,
+      "top3_oracle_hit_rate": 0.0
+    },
+    "V3_reverse_prototype__round1": {
+      "all8_b0_oracle": 0.9841115918245562,
+      "anchor_change_vs_target_pooling": 1.0,
+      "family": "reverse",
+      "global_spearman": 0.26347777762091695,
+      "mean_target_spearman": 0.26347777762091695,
+      "mode": "round2c_V3_reverse_prototype__round1_top3",
+      "name": "V3_reverse_prototype__round1",
+      "paired_delta_vs_lesion_mean": {
+        "ci95_high": 0.00345753554173156,
+        "ci95_low": 0.00345753554173156,
+        "mean": 0.00345753554173156
+      },
+      "paired_delta_vs_target_pooling": {
+        "ci95_high": 0.9812804193186072,
+        "ci95_low": 0.9812804193186072,
+        "mean": 0.9812804193186072
+      },
+      "score_key": "reverse_auc_prototype",
+      "selected_anchor_ids": [
+        "kvasir-seg::cju5cu8qkb84x08186jwo8yin"
+      ],
+      "selected_dice": [
+        0.9812804193186072
+      ],
+      "selected_route_ids": [
+        "2b9c6ffc325034d277ecb128"
+      ],
+      "source": "round1",
+      "targets": 1,
+      "top1_b0_dice": 0.9812804193186072,
+      "top1_oracle_hit_rate": 0.0,
+      "top3_b0_oracle": 0.9812804193186072,
+      "top3_oracle_hit_rate": 0.0
+    },
+    "V3_reverse_prototype__x3_best": {
+      "all8_b0_oracle": 0.9841115918245562,
+      "anchor_change_vs_target_pooling": 1.0,
+      "family": "reverse",
+      "global_spearman": 0.26347777762091695,
+      "mean_target_spearman": 0.26347777762091695,
+      "mode": "round2c_V3_reverse_prototype__x3_best_top3",
+      "name": "V3_reverse_prototype__x3_best",
+      "paired_delta_vs_lesion_mean": {
+        "ci95_high": 0.00345753554173156,
+        "ci95_low": 0.00345753554173156,
+        "mean": 0.00345753554173156
+      },
+      "paired_delta_vs_target_pooling": {
+        "ci95_high": 0.9812804193186072,
+        "ci95_low": 0.9812804193186072,
+        "mean": 0.9812804193186072
+      },
+      "score_key": "reverse_auc_prototype",
+      "selected_anchor_ids": [
+        "kvasir-seg::cju5cu8qkb84x08186jwo8yin"
+      ],
+      "selected_dice": [
+        0.9812804193186072
+      ],
+      "selected_route_ids": [
+        "2b9c6ffc325034d277ecb128"
+      ],
+      "source": "x3_best",
+      "targets": 1,
+      "top1_b0_dice": 0.9812804193186072,
+      "top1_oracle_hit_rate": 0.0,
+      "top3_b0_oracle": 0.9812804193186072,
+      "top3_oracle_hit_rate": 0.0
+    },
+    "V3_reverse_token_topk__round1": {
+      "all8_b0_oracle": 0.9841115918245562,
+      "anchor_change_vs_target_pooling": 1.0,
+      "family": "reverse",
+      "global_spearman": -0.16766767666785626,
+      "mean_target_spearman": -0.16766767666785626,
+      "mode": "round2c_V3_reverse_token_topk__round1_top3",
+      "name": "V3_reverse_token_topk__round1",
+      "paired_delta_vs_lesion_mean": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0
+      },
+      "paired_delta_vs_target_pooling": {
+        "ci95_high": 0.9778228837768757,
+        "ci95_low": 0.9778228837768757,
+        "mean": 0.9778228837768757
+      },
+      "score_key": "reverse_auc_token_topk",
+      "selected_anchor_ids": [
+        "kvasir-seg::cju7aklv31h4309871m29l4e7"
+      ],
+      "selected_dice": [
+        0.9778228837768757
+      ],
+      "selected_route_ids": [
+        "a32820efe2d8139da5018739"
+      ],
+      "source": "round1",
+      "targets": 1,
+      "top1_b0_dice": 0.9778228837768757,
+      "top1_oracle_hit_rate": 0.0,
+      "top3_b0_oracle": 0.9812804193186072,
+      "top3_oracle_hit_rate": 0.0
+    },
+    "V3_reverse_token_topk__x3_best": {
+      "all8_b0_oracle": 0.9841115918245562,
+      "anchor_change_vs_target_pooling": 1.0,
+      "family": "reverse",
+      "global_spearman": -0.17964393928698885,
+      "mean_target_spearman": -0.17964393928698885,
+      "mode": "round2c_V3_reverse_token_topk__x3_best_top3",
+      "name": "V3_reverse_token_topk__x3_best",
+      "paired_delta_vs_lesion_mean": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0
+      },
+      "paired_delta_vs_target_pooling": {
+        "ci95_high": 0.9778228837768757,
+        "ci95_low": 0.9778228837768757,
+        "mean": 0.9778228837768757
+      },
+      "score_key": "reverse_auc_token_topk",
+      "selected_anchor_ids": [
+        "kvasir-seg::cju7aklv31h4309871m29l4e7"
+      ],
+      "selected_dice": [
+        0.9778228837768757
+      ],
+      "selected_route_ids": [
+        "a32820efe2d8139da5018739"
+      ],
+      "source": "x3_best",
+      "targets": 1,
+      "top1_b0_dice": 0.9778228837768757,
+      "top1_oracle_hit_rate": 0.0,
+      "top3_b0_oracle": 0.9812804193186072,
+      "top3_oracle_hit_rate": 0.0
+    },
+    "V4_bidirectional_prototype__round1": {
+      "all8_b0_oracle": 0.9841115918245562,
+      "anchor_change_vs_target_pooling": 1.0,
+      "family": "bidirectional",
+      "global_spearman": 0.22754898976351917,
+      "mean_target_spearman": 0.22754898976351917,
+      "mode": "round2c_V4_bidirectional_prototype__round1_top3",
+      "name": "V4_bidirectional_prototype__round1",
+      "paired_delta_vs_lesion_mean": {
+        "ci95_high": 0.00345753554173156,
+        "ci95_low": 0.00345753554173156,
+        "mean": 0.00345753554173156
+      },
+      "paired_delta_vs_target_pooling": {
+        "ci95_high": 0.9812804193186072,
+        "ci95_low": 0.9812804193186072,
+        "mean": 0.9812804193186072
+      },
+      "score_key": "bidirectional_auc_prototype",
+      "selected_anchor_ids": [
+        "kvasir-seg::cju5cu8qkb84x08186jwo8yin"
+      ],
+      "selected_dice": [
+        0.9812804193186072
+      ],
+      "selected_route_ids": [
+        "2b9c6ffc325034d277ecb128"
+      ],
+      "source": "round1",
+      "targets": 1,
+      "top1_b0_dice": 0.9812804193186072,
+      "top1_oracle_hit_rate": 0.0,
+      "top3_b0_oracle": 0.9812804193186072,
+      "top3_oracle_hit_rate": 0.0
+    },
+    "V4_bidirectional_prototype__x3_best": {
+      "all8_b0_oracle": 0.9841115918245562,
+      "anchor_change_vs_target_pooling": 1.0,
+      "family": "bidirectional",
+      "global_spearman": 0.2515015150017844,
+      "mean_target_spearman": 0.2515015150017844,
+      "mode": "round2c_V4_bidirectional_prototype__x3_best_top3",
+      "name": "V4_bidirectional_prototype__x3_best",
+      "paired_delta_vs_lesion_mean": {
+        "ci95_high": 0.00345753554173156,
+        "ci95_low": 0.00345753554173156,
+        "mean": 0.00345753554173156
+      },
+      "paired_delta_vs_target_pooling": {
+        "ci95_high": 0.9812804193186072,
+        "ci95_low": 0.9812804193186072,
+        "mean": 0.9812804193186072
+      },
+      "score_key": "bidirectional_auc_prototype",
+      "selected_anchor_ids": [
+        "kvasir-seg::cju5cu8qkb84x08186jwo8yin"
+      ],
+      "selected_dice": [
+        0.9812804193186072
+      ],
+      "selected_route_ids": [
+        "2b9c6ffc325034d277ecb128"
+      ],
+      "source": "x3_best",
+      "targets": 1,
+      "top1_b0_dice": 0.9812804193186072,
+      "top1_oracle_hit_rate": 0.0,
+      "top3_b0_oracle": 0.9812804193186072,
+      "top3_oracle_hit_rate": 0.0
+    },
+    "V4_bidirectional_token_topk__round1": {
+      "all8_b0_oracle": 0.9841115918245562,
+      "anchor_change_vs_target_pooling": 1.0,
+      "family": "bidirectional",
+      "global_spearman": -0.07185757571479554,
+      "mean_target_spearman": -0.07185757571479554,
+      "mode": "round2c_V4_bidirectional_token_topk__round1_top3",
+      "name": "V4_bidirectional_token_topk__round1",
+      "paired_delta_vs_lesion_mean": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0
+      },
+      "paired_delta_vs_target_pooling": {
+        "ci95_high": 0.9778228837768757,
+        "ci95_low": 0.9778228837768757,
+        "mean": 0.9778228837768757
+      },
+      "score_key": "bidirectional_auc_token_topk",
+      "selected_anchor_ids": [
+        "kvasir-seg::cju7aklv31h4309871m29l4e7"
+      ],
+      "selected_dice": [
+        0.9778228837768757
+      ],
+      "selected_route_ids": [
+        "a32820efe2d8139da5018739"
+      ],
+      "source": "round1",
+      "targets": 1,
+      "top1_b0_dice": 0.9778228837768757,
+      "top1_oracle_hit_rate": 0.0,
+      "top3_b0_oracle": 0.9812804193186072,
+      "top3_oracle_hit_rate": 0.0
+    },
+    "V4_bidirectional_token_topk__x3_best": {
+      "all8_b0_oracle": 0.9841115918245562,
+      "anchor_change_vs_target_pooling": 1.0,
+      "family": "bidirectional",
+      "global_spearman": -0.07185757571479554,
+      "mean_target_spearman": -0.07185757571479554,
+      "mode": "round2c_V4_bidirectional_token_topk__x3_best_top3",
+      "name": "V4_bidirectional_token_topk__x3_best",
+      "paired_delta_vs_lesion_mean": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0
+      },
+      "paired_delta_vs_target_pooling": {
+        "ci95_high": 0.9778228837768757,
+        "ci95_low": 0.9778228837768757,
+        "mean": 0.9778228837768757
+      },
+      "score_key": "bidirectional_auc_token_topk",
+      "selected_anchor_ids": [
+        "kvasir-seg::cju7aklv31h4309871m29l4e7"
+      ],
+      "selected_dice": [
+        0.9778228837768757
+      ],
+      "selected_route_ids": [
+        "a32820efe2d8139da5018739"
+      ],
+      "source": "x3_best",
+      "targets": 1,
+      "top1_b0_dice": 0.9778228837768757,
+      "top1_oracle_hit_rate": 0.0,
+      "top3_b0_oracle": 0.9812804193186072,
+      "top3_oracle_hit_rate": 0.0
+    }
+  }
+}

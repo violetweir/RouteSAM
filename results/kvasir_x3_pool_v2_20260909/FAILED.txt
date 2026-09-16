@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_x3_pool_v2_20260909/code/run_x3_pool_v2.py", line 65, in run
+    command('train_'+stage,'run_t24_student.py',[*common,'--pseudo-manifest',manifest,'--output-dir',R/'students'/stage,'--experiment',stage])
+  File "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_x3_pool_v2_20260909/code/run_x3_pool_v2.py", line 33, in command
+    if rc:raise RuntimeError(f'{stage} failed ({rc}), see logs')
+RuntimeError: train_S3 failed (-9), see logs

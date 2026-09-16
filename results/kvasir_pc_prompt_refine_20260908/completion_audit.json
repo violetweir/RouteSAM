@@ -1,0 +1,62 @@
+{
+  "masks_verified": 300,
+  "guarded_masks_exported": 300,
+  "mask_dice_recomputed": true,
+  "box_coordinates_verified": true,
+  "test_evaluated": false,
+  "methods": {
+    "tp_box_control_raw": {
+      "dice": 0.7243079849088562,
+      "iou": 0.6096505544602949
+    },
+    "tp_box_control_guarded": {
+      "dice": 0.8364464329366992,
+      "iou": 0.760774288017832
+    },
+    "prototype_box_raw": {
+      "dice": 0.652368844040361,
+      "iou": 0.5596923535576724
+    },
+    "prototype_box_guarded": {
+      "dice": 0.8457727464768837,
+      "iou": 0.776301189680294
+    },
+    "fgbg_box_raw": {
+      "dice": 0.7084495699856481,
+      "iou": 0.6187426631725093
+    },
+    "fgbg_box_guarded": {
+      "dice": 0.8469381623907977,
+      "iou": 0.7773289030024096
+    }
+  },
+  "prompt_diagnostics_GT_only": {
+    "tp_box_control": {
+      "gt_coverage": 0.9104116573953813,
+      "box_area_ratio": 0.1836851470324458,
+      "gt_fraction_inside_box": 0.7373431673667143
+    },
+    "prototype_box": {
+      "gt_coverage": 0.8760022500959559,
+      "box_area_ratio": 0.31665283203125,
+      "gt_fraction_inside_box": 0.402626002051257
+    },
+    "fgbg_box": {
+      "gt_coverage": 0.9194223236881028,
+      "box_area_ratio": 0.3296855163574219,
+      "gt_fraction_inside_box": 0.38738735240729094
+    }
+  },
+  "cpu_compatibility": [
+    "float32 Linear+GELU replaces forced-bfloat16 fused MLP",
+    "skip CUDA-only positional-cache precomputation; compute on demand on CPU",
+    "decoder coordinate-cache allocation on CPU",
+    "pin_memory no-op for CPU-only process"
+  ],
+  "source_files_unmodified": "Compatibility changes are Python process-local bindings; no shared SAM3 source edits.",
+  "final_code_sha256": {
+    "audit.py": "de9e2de25db4c880cfe7095e08067bba5451975ac6cdc61a8b60fb323f43f723",
+    "run.py": "75a9c80c464bd40acf4d79a19c8524c630c834893146916ba613b5550ad42a0f",
+    "examples.py": "066131b364a82163519913bb40a1eb9d8150f0557b29b8851490e54709e2a28d"
+  }
+}

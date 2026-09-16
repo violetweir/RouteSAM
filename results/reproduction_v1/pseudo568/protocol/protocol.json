@@ -1,0 +1,40 @@
+{
+  "name": "T22 Pseudo-Video-Aware SAM3 Adaptation with Mutual Student Learning",
+  "t21_root": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/reproduction_v1/t21_dynamic_pseudovideo",
+  "principle": "pseudo labels are supervision only and can never become anchors",
+  "tau_multi": 0.9,
+  "tau_return": 0.95,
+  "anchor_count": 16,
+  "pseudo_count": 568,
+  "route_type_counts": {
+    "one_bridge": 203,
+    "two_bridges": 220,
+    "direct": 145
+  },
+  "dataset_counts": {
+    "CVC-ClinicDB": 231,
+    "kvasir-seg": 337
+  },
+  "anchor_usage_counts": {
+    "CVC-ClinicDB::437": 85,
+    "kvasir-seg::cju428k5fldt108177s6g6f45": 97,
+    "CVC-ClinicDB::199": 110,
+    "CVC-ClinicDB::162": 45,
+    "kvasir-seg::cju84jdl9kv0i0871eog9b3i9": 40,
+    "kvasir-seg::cju42qet0lsq90871e50xbnuv": 73,
+    "kvasir-seg::cju87q6yoneim0871dl4phvkd": 76,
+    "CVC-ClinicDB::24": 2,
+    "kvasir-seg::cju6z2616wqbk07555bvnuyr1": 3,
+    "CVC-ClinicDB::377": 4,
+    "CVC-ClinicDB::494": 21,
+    "CVC-ClinicDB::156": 2,
+    "kvasir-seg::cju83ipu3jwpx0801z5pvguf8": 10
+  },
+  "anchor_manifest_sha256": "38ed96682a036d085989a34807897a259581e7c5f3fce4834baabf46ac11df78",
+  "pseudo_manifest_sha256": "267d8c3ace84a95bdf8a01f5439244c168437b3edbd5e1c392c3b64d402730f2",
+  "forbidden_sources": [
+    "round0_train/new_anchors.jsonl",
+    "val GT",
+    "test GT"
+  ]
+}

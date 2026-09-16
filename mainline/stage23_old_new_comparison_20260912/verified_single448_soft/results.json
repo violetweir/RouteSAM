@@ -1,0 +1,20 @@
+[
+  {
+    "student": "soft",
+    "kind": "best",
+    "epoch": 476,
+    "validation_dice": 0.8286887234908317,
+    "test_dice": 0.8551908328300771,
+    "test_iou": 0.7707586202594503,
+    "checkpoint_sha256": "ef40ff148e82d79deb8fd2f722b0cfa9d0729ede764a8055a64d06d0ced1d6fb"
+  },
+  {
+    "student": "soft",
+    "kind": "final",
+    "epoch": 816,
+    "validation_dice": 0.8069907290025714,
+    "test_dice": 0.8514520119062471,
+    "test_iou": 0.7679649214998774,
+    "checkpoint_sha256": "718d90274f47a778a21baa9e5b15b2615c14172d034f5ebe7f8f1c4ca01dc91c"
+  }
+]

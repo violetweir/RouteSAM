@@ -1,0 +1,14 @@
+{
+  "beam_width": 32,
+  "dinov3_model": "vits16",
+  "feature_size": 256,
+  "feature_source": "sam3_base",
+  "knn_feature": "patch_mean",
+  "max_bridge": 6,
+  "min_bridge": 0,
+  "mode": "sam3enc_anchor_conditioned_target_pooling",
+  "mode_key": "sam3enc_anchor_conditioned_target_pooling",
+  "routes": 700,
+  "split": "validation",
+  "text_blend": 0.0
+}

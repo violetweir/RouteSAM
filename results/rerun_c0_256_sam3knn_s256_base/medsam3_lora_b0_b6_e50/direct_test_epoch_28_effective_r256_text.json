@@ -1,0 +1,32 @@
+{
+  "base_checkpoint": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+  "count": 100,
+  "direct_dice": 0.8772859530670813,
+  "direct_dice_median": 0.9491093296928426,
+  "direct_dice_quantiles": {
+    "0.0": 0.0,
+    "0.1": 0.7311109569921371,
+    "0.25": 0.9117951478619696,
+    "0.5": 0.9491093296928426,
+    "0.75": 0.9672839568254193,
+    "0.9": 0.9738058952599772,
+    "1.0": 0.9813203684749232
+  },
+  "direct_iou": 0.8163060855626463,
+  "lora_checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_sam3knn_s256_base/medsam3_lora_b0_b6_e50/lora_weights/epoch_28_lora_weights.pt",
+  "nonempty_rate": 0.99,
+  "protocol": {
+    "checkpoint_training_resolution": 1008,
+    "class_probability_threshold": 0.5,
+    "effective_source_resolution": 256,
+    "mask_probability_threshold": 0.5,
+    "metric_resolution": 256,
+    "model_input_resolution": 1008,
+    "prompt_mode": "category",
+    "query_reduction": "foreground_union",
+    "query_text": "colon polyp",
+    "route_propagation": false
+  },
+  "split": "test",
+  "valid_query_count_mean": 0.99
+}

@@ -1,0 +1,40 @@
+{
+  "final_iteration": 400,
+  "best_iteration": 400,
+  "best_validation_dice": 0.6277302817212185,
+  "best_validation": {
+    "count": 259,
+    "dice": 0.6277302817212185,
+    "iou": 0.5241626802500889,
+    "nonempty_rate": 0.9691119691119691,
+    "mean_area": 0.12744653178918317,
+    "by_dataset": {
+      "ISIC18": {
+        "count": 259,
+        "dice": 0.6277302817212185,
+        "iou": 0.5241626802500889,
+        "nonempty_rate": 0.9691119691119691,
+        "mean_area": 0.12744653178918317
+      }
+    }
+  },
+  "test": {
+    "count": 260,
+    "dice": 0.6393059167777483,
+    "iou": 0.5339950335989381,
+    "nonempty_rate": 0.9576923076923077,
+    "mean_area": 0.12334324763371395,
+    "by_dataset": {
+      "ISIC18": {
+        "count": 260,
+        "dice": 0.6393059167777483,
+        "iou": 0.5339950335989381,
+        "nonempty_rate": 0.9576923076923077,
+        "mean_area": 0.12334324763371395
+      }
+    }
+  },
+  "checkpoint": "work/isic18_round1_round2a_from_pseudovideo_full/benchmarks/s3_cache_b12_w8/student_best.pth",
+  "final_checkpoint": "work/isic18_round1_round2a_from_pseudovideo_full/benchmarks/s3_cache_b12_w8/student_final.pth",
+  "test_evaluations_during_training": 0
+}

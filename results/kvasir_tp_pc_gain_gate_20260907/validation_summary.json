@@ -1,0 +1,25 @@
+{
+  "count": 100,
+  "tp_dice": 0.8517552851672318,
+  "pc_dice": 0.8173293125085627,
+  "gate_dice": 0.8518438449014514,
+  "mean_delta": 8.855973421963342e-05,
+  "paired_bootstrap_95ci": [
+    -4.922473681788997e-05,
+    0.00031490393947679026
+  ],
+  "switches": 3,
+  "wins": 1,
+  "losses": 1,
+  "positive_delta_sum": 0.010496797982559675,
+  "negative_delta_sum": -0.0016408245605963323,
+  "two_selected_mask_oracle": 0.8636883237014653,
+  "passes_test_gate": false,
+  "fold_delta": [
+    0.0004427986710981671,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

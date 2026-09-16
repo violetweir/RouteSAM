@@ -1,0 +1,2837 @@
+{
+  "features": {
+    "all": [
+      "bridge_scaled",
+      "q_return",
+      "q_multi",
+      "q_return_rank",
+      "q_multi_rank",
+      "sam_score",
+      "sam_score_rank",
+      "cycle_sam_score",
+      "path_bottleneck_similarity",
+      "path_mean_similarity",
+      "mask_area",
+      "mask_centroid_x",
+      "mask_centroid_y",
+      "fixed_mask_dice",
+      "log_area_ratio_to_fixed",
+      "centroid_distance_to_fixed",
+      "delta_q_return_to_fixed",
+      "delta_q_multi_to_fixed",
+      "delta_sam_score_to_fixed",
+      "trace_area_min",
+      "trace_area_max",
+      "trace_area_final",
+      "log1p_trace_area_max_rel_delta",
+      "trace_empty_count",
+      "trace_component_max",
+      "trace_component_final",
+      "trace_centroid_max_step",
+      "log1p_trace_bbox_w_max_rel_delta",
+      "log1p_trace_bbox_h_max_rel_delta",
+      "trace_adjacent_dice_min",
+      "trace_adjacent_dice_mean",
+      "trace_adjacent_dice_last",
+      "trace_sam_score_min",
+      "trace_sam_score_mean",
+      "trace_sam_score_final",
+      "log1p_trace_candidate_count_max",
+      "log1p_trace_candidate_count_final",
+      "is_fixed_b6",
+      "family::t18_corrected",
+      "family::dino_global_pooling",
+      "family::dino_patch_average",
+      "family::anchor_conditioned_target_pooling",
+      "family::anchor_conditioned_target_pooling__knn_cls",
+      "family::anchor_conditioned_target_pooling__knn_pooled",
+      "family::anchor_conditioned_target_pooling__knn_cond",
+      "family::anchor_conditioned_patch_correspondence",
+      "family::anchor_conditioned_patch_correspondence__knn_cls",
+      "family::anchor_conditioned_patch_correspondence__knn_pooled",
+      "family::anchor_conditioned_patch_correspondence__knn_cond",
+      "q_model_mean",
+      "q_model_rank",
+      "delta_q_model_to_fixed"
+    ],
+    "quality_only": [
+      "bridge_scaled",
+      "q_return",
+      "q_multi",
+      "q_return_rank",
+      "q_multi_rank",
+      "sam_score",
+      "sam_score_rank",
+      "cycle_sam_score",
+      "path_bottleneck_similarity",
+      "path_mean_similarity",
+      "mask_area",
+      "mask_centroid_x",
+      "mask_centroid_y",
+      "fixed_mask_dice",
+      "log_area_ratio_to_fixed",
+      "centroid_distance_to_fixed",
+      "delta_q_return_to_fixed",
+      "delta_q_multi_to_fixed",
+      "delta_sam_score_to_fixed",
+      "trace_area_min",
+      "trace_area_max",
+      "trace_area_final",
+      "log1p_trace_area_max_rel_delta",
+      "trace_empty_count",
+      "trace_component_max",
+      "trace_component_final",
+      "trace_centroid_max_step",
+      "log1p_trace_bbox_w_max_rel_delta",
+      "log1p_trace_bbox_h_max_rel_delta",
+      "trace_adjacent_dice_min",
+      "trace_adjacent_dice_mean",
+      "trace_adjacent_dice_last",
+      "trace_sam_score_min",
+      "trace_sam_score_mean",
+      "trace_sam_score_final",
+      "log1p_trace_candidate_count_max",
+      "log1p_trace_candidate_count_final",
+      "is_fixed_b6",
+      "family::t18_corrected",
+      "family::dino_global_pooling",
+      "family::dino_patch_average",
+      "family::anchor_conditioned_target_pooling",
+      "family::anchor_conditioned_target_pooling__knn_cls",
+      "family::anchor_conditioned_target_pooling__knn_pooled",
+      "family::anchor_conditioned_target_pooling__knn_cond",
+      "family::anchor_conditioned_patch_correspondence",
+      "family::anchor_conditioned_patch_correspondence__knn_cls",
+      "family::anchor_conditioned_patch_correspondence__knn_pooled",
+      "family::anchor_conditioned_patch_correspondence__knn_cond"
+    ],
+    "student_features": [
+      "q_model_mean",
+      "q_model_rank",
+      "delta_q_model_to_fixed"
+    ]
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "heldout_targets": [
+        "kvasir-seg::cju5bbtwsa8cl0987wgfsqpao",
+        "kvasir-seg::cju5yimthmlv80850zhoc90c2",
+        "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+        "kvasir-seg::cju3u39fog1bo0871lxjrabks",
+        "kvasir-seg::cju7f0ec32txj08184asb8w5f",
+        "kvasir-seg::cju42romflni20817etb9a0fl",
+        "kvasir-seg::cju85a8h8llwm07559wxg4t5w",
+        "kvasir-seg::cju3xzvnzj0hd0755xprz39nj",
+        "kvasir-seg::cju858eswlepn0871pzvdrhj1",
+        "kvasir-seg::cju88itqbny720987hxizbj5y",
+        "kvasir-seg::cju7dda8w2br20818zhsuz8s7",
+        "kvasir-seg::cju1djtprvd7b0988thwwrg09",
+        "kvasir-seg::cju5bycdkalkb09875f7bfrvx",
+        "kvasir-seg::cju6vifjlv55z0987un6y4zdo",
+        "kvasir-seg::cju32srle1xfq083575i3fl75",
+        "kvasir-seg::cju1csmlc4ht10799b8ymmghg",
+        "kvasir-seg::cju6vqarjv7yo0987q4b1btk1",
+        "kvasir-seg::cju6uy20suzbl0987rzuhz7z9",
+        "kvasir-seg::cju7ehljc2or70871261br8ai",
+        "kvasir-seg::cju5x7iskmad90818frchyfwd"
+      ],
+      "linear3_weights": {
+        "q_model": 0.19999999999999996,
+        "q_multi": 0.0,
+        "q_return": 0.8
+      },
+      "rankers": {
+        "qmodel": {
+          "fallback_probability": 0.75,
+          "l2": 0.01,
+          "optimizer_success": true,
+          "tuning": {
+            "best_key": [
+              0.8752011484331632,
+              -4,
+              0.029953876703999165,
+              -0.75,
+              -0.01
+            ],
+            "grid": [
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.5,
+                "l2": 0.001,
+                "mean_delta": 0.022640707443243563,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8678879791724075,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.55,
+                "l2": 0.001,
+                "mean_delta": 0.022640707443243563,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8678879791724075,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.6,
+                "l2": 0.001,
+                "mean_delta": 0.022978633102374413,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8682259048315384,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.65,
+                "l2": 0.001,
+                "mean_delta": 0.022776110552322648,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8680233822814867,
+                "switches": 75
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.7,
+                "l2": 0.001,
+                "mean_delta": 0.022776110552322648,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8680233822814867,
+                "switches": 75
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.75,
+                "l2": 0.001,
+                "mean_delta": 0.02276846426098771,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8680157359901518,
+                "switches": 74
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.5,
+                "l2": 0.01,
+                "mean_delta": 0.028524653778855397,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8737719255080194,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.55,
+                "l2": 0.01,
+                "mean_delta": 0.028524653778855397,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8737719255080194,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.6,
+                "l2": 0.01,
+                "mean_delta": 0.02886257943798624,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8741098511671502,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.65,
+                "l2": 0.01,
+                "mean_delta": 0.028720883293663298,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8739681550228273,
+                "switches": 74
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.7,
+                "l2": 0.01,
+                "mean_delta": 0.02994455761202052,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8751918293411846,
+                "switches": 69
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.75,
+                "l2": 0.01,
+                "mean_delta": 0.029953876703999165,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8752011484331632,
+                "switches": 63
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.5,
+                "l2": 0.1,
+                "mean_delta": 0.015071269704247502,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8603185414334116,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.55,
+                "l2": 0.1,
+                "mean_delta": 0.019766655177462684,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8650139269066266,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.6,
+                "l2": 0.1,
+                "mean_delta": 0.019486309485402798,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8647335812145667,
+                "switches": 73
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.65,
+                "l2": 0.1,
+                "mean_delta": 0.023204318861656144,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8684515905908201,
+                "switches": 61
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.7,
+                "l2": 0.1,
+                "mean_delta": 0.02601980097382555,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8712670727029895,
+                "switches": 49
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.75,
+                "l2": 0.1,
+                "mean_delta": 0.017838349527387175,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8630856212565512,
+                "switches": 33
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.5,
+                "l2": 1.0,
+                "mean_delta": 0.025514281399172157,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8707615531283363,
+                "switches": 80
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.55,
+                "l2": 1.0,
+                "mean_delta": 0.029936215925573672,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8751834876547377,
+                "switches": 66
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.6,
+                "l2": 1.0,
+                "mean_delta": 0.020930521513119534,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8661777932422836,
+                "switches": 33
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.65,
+                "l2": 1.0,
+                "mean_delta": 0.0114891357978444,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8567364075270083,
+                "switches": 12
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.7,
+                "l2": 1.0,
+                "mean_delta": 0.0024726130525966213,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8477198847817606,
+                "switches": 3
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.75,
+                "l2": 1.0,
+                "mean_delta": 0.0,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8452472717291639,
+                "switches": 0
+              }
+            ]
+          }
+        },
+        "quality": {
+          "fallback_probability": 0.7,
+          "l2": 0.001,
+          "optimizer_success": true,
+          "tuning": {
+            "best_key": [
+              0.8874280043065171,
+              -2,
+              0.04218073257735316,
+              -0.7,
+              -0.001
+            ],
+            "grid": [
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.5,
+                "l2": 0.001,
+                "mean_delta": 0.04112217718268539,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8863694489118494,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.55,
+                "l2": 0.001,
+                "mean_delta": 0.04112217718268539,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8863694489118494,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.6,
+                "l2": 0.001,
+                "mean_delta": 0.04106733248967873,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8863146042188428,
+                "switches": 75
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.65,
+                "l2": 0.001,
+                "mean_delta": 0.04204509021643317,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8872923619455971,
+                "switches": 72
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.7,
+                "l2": 0.001,
+                "mean_delta": 0.04218073257735316,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8874280043065171,
+                "switches": 68
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.75,
+                "l2": 0.001,
+                "mean_delta": 0.042032664477521006,
+                "optimizer_success_all": true,
+                "selected_dice": 0.887279936206685,
+                "switches": 65
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.5,
+                "l2": 0.01,
+                "mean_delta": 0.03932188998853982,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8845691617177038,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.55,
+                "l2": 0.01,
+                "mean_delta": 0.03932188998853982,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8845691617177038,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.6,
+                "l2": 0.01,
+                "mean_delta": 0.03932188998853982,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8845691617177038,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.65,
+                "l2": 0.01,
+                "mean_delta": 0.0394635477517359,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8847108194808998,
+                "switches": 74
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.7,
+                "l2": 0.01,
+                "mean_delta": 0.039367982947184924,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8846152546763489,
+                "switches": 71
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.75,
+                "l2": 0.01,
+                "mean_delta": 0.040122487685479755,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8853697594146437,
+                "switches": 60
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.5,
+                "l2": 0.1,
+                "mean_delta": 0.03961217908901955,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8848594508181836,
+                "switches": 80
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.55,
+                "l2": 0.1,
+                "mean_delta": 0.03961217908901955,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8848594508181836,
+                "switches": 80
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.6,
+                "l2": 0.1,
+                "mean_delta": 0.03965729359727169,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8849045653264358,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.65,
+                "l2": 0.1,
+                "mean_delta": 0.039424656953397905,
+                "optimizer_success_all": true,
+                "selected_dice": 0.884671928682562,
+                "switches": 67
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.7,
+                "l2": 0.1,
+                "mean_delta": 0.03612195508093737,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8813692268101014,
+                "switches": 51
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.75,
+                "l2": 0.1,
+                "mean_delta": 0.038709615567421134,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8839568872965851,
+                "switches": 35
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.5,
+                "l2": 1.0,
+                "mean_delta": 0.030912828642027195,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8761601003711912,
+                "switches": 80
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.55,
+                "l2": 1.0,
+                "mean_delta": 0.034468212413520306,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8797154841426842,
+                "switches": 66
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.6,
+                "l2": 1.0,
+                "mean_delta": 0.034154996916588,
+                "optimizer_success_all": true,
+                "selected_dice": 0.879402268645752,
+                "switches": 39
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.65,
+                "l2": 1.0,
+                "mean_delta": 0.030924728685440373,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8761720004146044,
+                "switches": 14
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.7,
+                "l2": 1.0,
+                "mean_delta": 0.006630892885693127,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8518781646148572,
+                "switches": 3
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.75,
+                "l2": 1.0,
+                "mean_delta": 0.003947668107537341,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8491949398367012,
+                "switches": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "heldout_targets": [
+        "kvasir-seg::cju5ekty5ckzf07550c9u3ckk",
+        "kvasir-seg::cju303j5r062k098835zxfds5",
+        "kvasir-seg::cju5u8gz4kj5b07552e2wpkwp",
+        "kvasir-seg::cju5cjh3xattc0817j2vbulzi",
+        "kvasir-seg::cju2wve9v7esz0878mxsdcy04",
+        "kvasir-seg::cju6x35ervu2808015c7eoqe4",
+        "kvasir-seg::cju358pwtdby20878cg7nm0np",
+        "kvasir-seg::cju5vutu7ll8w0871dfp92n9p",
+        "kvasir-seg::cju87r56lnkyp0755hz30leew",
+        "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+        "kvasir-seg::cju35fxqyzt5p0993vusm54qz",
+        "kvasir-seg::cju8at3s1qqqx0850hcq8nmnq",
+        "kvasir-seg::cju3xjqtpikx50817tppy6g84",
+        "kvasir-seg::cju1fmsyf6gxb0801cimx2gle",
+        "kvasir-seg::cju45n0oxn5vu08500yfrt9jn",
+        "kvasir-seg::cju0s2a9ekvms080138tjjpxr",
+        "kvasir-seg::cju8bw697rwg308177tg8huas",
+        "kvasir-seg::cju1fyb1d69et0878muzdak9u",
+        "kvasir-seg::cju5hyi9yegob0755ho3do8en",
+        "kvasir-seg::cju3xwpgviwlx0871rwm15q7v"
+      ],
+      "linear3_weights": {
+        "q_model": 0.4,
+        "q_multi": 0.15000000000000002,
+        "q_return": 0.45
+      },
+      "rankers": {
+        "qmodel": {
+          "fallback_probability": 0.6,
+          "l2": 0.1,
+          "optimizer_success": true,
+          "tuning": {
+            "best_key": [
+              0.8784920754554302,
+              -3,
+              0.036295122153240926,
+              -0.6,
+              -0.1
+            ],
+            "grid": [
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.5,
+                "l2": 0.001,
+                "mean_delta": 0.0235316746375882,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8657286279397773,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.55,
+                "l2": 0.001,
+                "mean_delta": 0.0235316746375882,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8657286279397773,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.6,
+                "l2": 0.001,
+                "mean_delta": 0.0235316746375882,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8657286279397773,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.65,
+                "l2": 0.001,
+                "mean_delta": 0.023533257674414894,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8657302109766043,
+                "switches": 74
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.7,
+                "l2": 0.001,
+                "mean_delta": 0.0267504213532812,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8689473746554703,
+                "switches": 70
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.75,
+                "l2": 0.001,
+                "mean_delta": 0.02690891332718743,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8691058666293767,
+                "switches": 65
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.5,
+                "l2": 0.01,
+                "mean_delta": 0.022137156227088887,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8643341095292779,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.55,
+                "l2": 0.01,
+                "mean_delta": 0.02213835103554329,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8643353043377324,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.6,
+                "l2": 0.01,
+                "mean_delta": 0.02077831386721914,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8629752671694082,
+                "switches": 75
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.65,
+                "l2": 0.01,
+                "mean_delta": 0.020470488364148654,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8626674416663377,
+                "switches": 68
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.7,
+                "l2": 0.01,
+                "mean_delta": 0.02041692570635677,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8626138790085459,
+                "switches": 63
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.75,
+                "l2": 0.01,
+                "mean_delta": 0.02064671374893473,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8628436670511238,
+                "switches": 59
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.5,
+                "l2": 0.1,
+                "mean_delta": 0.03619005313174742,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8783870064339366,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.55,
+                "l2": 0.1,
+                "mean_delta": 0.03618321304671281,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8783801663489019,
+                "switches": 75
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.6,
+                "l2": 0.1,
+                "mean_delta": 0.036295122153240926,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8784920754554302,
+                "switches": 69
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.65,
+                "l2": 0.1,
+                "mean_delta": 0.03531402429553472,
+                "optimizer_success_all": true,
+                "selected_dice": 0.877510977597724,
+                "switches": 60
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.7,
+                "l2": 0.1,
+                "mean_delta": 0.03611047906666898,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8783074323688581,
+                "switches": 51
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.75,
+                "l2": 0.1,
+                "mean_delta": 0.0360204875214893,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8782174408236786,
+                "switches": 43
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.5,
+                "l2": 1.0,
+                "mean_delta": 0.028767464280321696,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8709644175825109,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.55,
+                "l2": 1.0,
+                "mean_delta": 0.028264186198264107,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8704611395004532,
+                "switches": 63
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.6,
+                "l2": 1.0,
+                "mean_delta": 0.027178675916080697,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8693756292182698,
+                "switches": 49
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.65,
+                "l2": 1.0,
+                "mean_delta": 0.011408119822564988,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8536050731247542,
+                "switches": 18
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.7,
+                "l2": 1.0,
+                "mean_delta": 0.008194546842328839,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8503915001445181,
+                "switches": 5
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.75,
+                "l2": 1.0,
+                "mean_delta": 0.0,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8421969533021892,
+                "switches": 0
+              }
+            ]
+          }
+        },
+        "quality": {
+          "fallback_probability": 0.5,
+          "l2": 0.001,
+          "optimizer_success": true,
+          "tuning": {
+            "best_key": [
+              0.8746522802607496,
+              -4,
+              0.03245532695856044,
+              -0.5,
+              -0.001
+            ],
+            "grid": [
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.5,
+                "l2": 0.001,
+                "mean_delta": 0.03245532695856044,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8746522802607496,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.55,
+                "l2": 0.001,
+                "mean_delta": 0.031988529282479826,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8741854825846691,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.6,
+                "l2": 0.001,
+                "mean_delta": 0.031988529282479826,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8741854825846691,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.65,
+                "l2": 0.001,
+                "mean_delta": 0.03197697223839152,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8741739255405807,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.7,
+                "l2": 0.001,
+                "mean_delta": 0.031953599860980335,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8741505531631695,
+                "switches": 74
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.75,
+                "l2": 0.001,
+                "mean_delta": 0.03158545579250833,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8737824090946974,
+                "switches": 69
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.5,
+                "l2": 0.01,
+                "mean_delta": 0.022142676311148878,
+                "optimizer_success_all": true,
+                "selected_dice": 0.864339629613338,
+                "switches": 80
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.55,
+                "l2": 0.01,
+                "mean_delta": 0.022142676311148878,
+                "optimizer_success_all": true,
+                "selected_dice": 0.864339629613338,
+                "switches": 80
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.6,
+                "l2": 0.01,
+                "mean_delta": 0.02182191674231094,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8640188700445002,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.65,
+                "l2": 0.01,
+                "mean_delta": 0.021249399945959386,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8634463532481487,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.7,
+                "l2": 0.01,
+                "mean_delta": 0.025831696872041128,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8680286501742304,
+                "switches": 71
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.75,
+                "l2": 0.01,
+                "mean_delta": 0.025996681592505337,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8681936348946945,
+                "switches": 59
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.5,
+                "l2": 0.1,
+                "mean_delta": 0.024180607678868066,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8663775609810571,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.55,
+                "l2": 0.1,
+                "mean_delta": 0.024180607678868066,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8663775609810571,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.6,
+                "l2": 0.1,
+                "mean_delta": 0.023241758593345412,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8654387118955345,
+                "switches": 75
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.65,
+                "l2": 0.1,
+                "mean_delta": 0.02348049537999783,
+                "optimizer_success_all": true,
+                "selected_dice": 0.865677448682187,
+                "switches": 68
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.7,
+                "l2": 0.1,
+                "mean_delta": 0.02219891094458303,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8643958642467722,
+                "switches": 47
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.75,
+                "l2": 0.1,
+                "mean_delta": 0.020910378410296145,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8631073317124855,
+                "switches": 33
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.5,
+                "l2": 1.0,
+                "mean_delta": 0.028259876456820505,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8704568297590096,
+                "switches": 80
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.55,
+                "l2": 1.0,
+                "mean_delta": 0.025369194872788808,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8675661481749781,
+                "switches": 68
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.6,
+                "l2": 1.0,
+                "mean_delta": 0.01634811051264282,
+                "optimizer_success_all": true,
+                "selected_dice": 0.858545063814832,
+                "switches": 33
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.65,
+                "l2": 1.0,
+                "mean_delta": 0.017628382851242817,
+                "optimizer_success_all": true,
+                "selected_dice": 0.859825336153432,
+                "switches": 10
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.7,
+                "l2": 1.0,
+                "mean_delta": 0.003947668107537341,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8461446214097265,
+                "switches": 1
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.75,
+                "l2": 1.0,
+                "mean_delta": 0.0,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8421969533021892,
+                "switches": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "heldout_targets": [
+        "kvasir-seg::cju5k3j3uf6de0817hszzfr7n",
+        "kvasir-seg::cju7agj961l2r0818z29iq8yn",
+        "kvasir-seg::cju6wuojavt740818b5qcv3iw",
+        "kvasir-seg::cju7eotqi2qea0871y8yc7tqh",
+        "kvasir-seg::cju2uzabhs6er0993x3aaf87p",
+        "kvasir-seg::cju1d96gsv62d09881b3wecw2",
+        "kvasir-seg::cju2tzypl4wss0799ow05oxb9",
+        "kvasir-seg::cju30mm25a53s0799qa5wiqe8",
+        "kvasir-seg::cju7ekbo32pft0871fv7kzwb9",
+        "kvasir-seg::cju849c23kgnk0817cgv2hw1e",
+        "kvasir-seg::cju42g865lorv07552ytz6xxa",
+        "kvasir-seg::cju45ty6zn9oz0850qy4qnck1",
+        "kvasir-seg::cju6xlygpw7bs0818n691jsq4",
+        "kvasir-seg::cju8alhigqn2h0801zksudldd",
+        "kvasir-seg::cju5wcc90lu020850mjrxppv6",
+        "kvasir-seg::cju7atnm31if40817pqclnjer",
+        "kvasir-seg::cju45rj7ln8980850a7821fov",
+        "kvasir-seg::cju32qr9tbvsj08013pkpjenq",
+        "kvasir-seg::cju34fojcctcf0799ebolbvkn",
+        "kvasir-seg::cju2htabevq9108015qjei0x7"
+      ],
+      "linear3_weights": {
+        "q_model": 0.0,
+        "q_multi": 0.0,
+        "q_return": 1.0
+      },
+      "rankers": {
+        "qmodel": {
+          "fallback_probability": 0.5,
+          "l2": 0.001,
+          "optimizer_success": true,
+          "tuning": {
+            "best_key": [
+              0.8990886105872576,
+              -3,
+              0.04284315884685032,
+              -0.5,
+              -0.001
+            ],
+            "grid": [
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.5,
+                "l2": 0.001,
+                "mean_delta": 0.04284315884685032,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8990886105872576,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.55,
+                "l2": 0.001,
+                "mean_delta": 0.04284315884685032,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8990886105872576,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.6,
+                "l2": 0.001,
+                "mean_delta": 0.04273856268243307,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8989840144228403,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.65,
+                "l2": 0.001,
+                "mean_delta": 0.042744692476457735,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8989901442168652,
+                "switches": 75
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.7,
+                "l2": 0.001,
+                "mean_delta": 0.042744692476457735,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8989901442168652,
+                "switches": 75
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.75,
+                "l2": 0.001,
+                "mean_delta": 0.042744692476457735,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8989901442168652,
+                "switches": 75
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.5,
+                "l2": 0.01,
+                "mean_delta": 0.04079859317388987,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8970440449142971,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.55,
+                "l2": 0.01,
+                "mean_delta": 0.04079859317388987,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8970440449142971,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.6,
+                "l2": 0.01,
+                "mean_delta": 0.04079859317388987,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8970440449142971,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.65,
+                "l2": 0.01,
+                "mean_delta": 0.04080881435131886,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8970542660917262,
+                "switches": 74
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.7,
+                "l2": 0.01,
+                "mean_delta": 0.04089620354517015,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8971416552855775,
+                "switches": 73
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.75,
+                "l2": 0.01,
+                "mean_delta": 0.0410662025459494,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8973116542863566,
+                "switches": 65
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.5,
+                "l2": 0.1,
+                "mean_delta": 0.03814756279839212,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8943930145387995,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.55,
+                "l2": 0.1,
+                "mean_delta": 0.03938766319300827,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8956331149334156,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.6,
+                "l2": 0.1,
+                "mean_delta": 0.03938304463846446,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8956284963788719,
+                "switches": 71
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.65,
+                "l2": 0.1,
+                "mean_delta": 0.04026941339513439,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8965148651355417,
+                "switches": 62
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.7,
+                "l2": 0.1,
+                "mean_delta": 0.04021981478508624,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8964652665254935,
+                "switches": 49
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.75,
+                "l2": 0.1,
+                "mean_delta": 0.02912771505875958,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8853731667991671,
+                "switches": 31
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.5,
+                "l2": 1.0,
+                "mean_delta": 0.03107176335159078,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8873172150919981,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.55,
+                "l2": 1.0,
+                "mean_delta": 0.024536771049398613,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8807822227898058,
+                "switches": 53
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.6,
+                "l2": 1.0,
+                "mean_delta": 0.011648072493071187,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8678935242334784,
+                "switches": 14
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.65,
+                "l2": 1.0,
+                "mean_delta": -1.6722221603389376e-05,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8562287295188039,
+                "switches": 2
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.7,
+                "l2": 1.0,
+                "mean_delta": 0.0,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8562454517404074,
+                "switches": 0
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.75,
+                "l2": 1.0,
+                "mean_delta": 0.0,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8562454517404074,
+                "switches": 0
+              }
+            ]
+          }
+        },
+        "quality": {
+          "fallback_probability": 0.7,
+          "l2": 0.01,
+          "optimizer_success": true,
+          "tuning": {
+            "best_key": [
+              0.88966232825119,
+              -1,
+              0.033416876510782734,
+              -0.7,
+              -0.01
+            ],
+            "grid": [
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.5,
+                "l2": 0.001,
+                "mean_delta": 0.027322573237841437,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8835680249782488,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.55,
+                "l2": 0.001,
+                "mean_delta": 0.027322573237841437,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8835680249782488,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.6,
+                "l2": 0.001,
+                "mean_delta": 0.027322573237841437,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8835680249782488,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.65,
+                "l2": 0.001,
+                "mean_delta": 0.027322573237841437,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8835680249782488,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.7,
+                "l2": 0.001,
+                "mean_delta": 0.027255066753729674,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8835005184941369,
+                "switches": 75
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.75,
+                "l2": 0.001,
+                "mean_delta": 0.027120237223154698,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8833656889635619,
+                "switches": 72
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.5,
+                "l2": 0.01,
+                "mean_delta": 0.03301856258185748,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8892640143222648,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.55,
+                "l2": 0.01,
+                "mean_delta": 0.03297282959389972,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8892182813343069,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.6,
+                "l2": 0.01,
+                "mean_delta": 0.03297282959389972,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8892182813343069,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.65,
+                "l2": 0.01,
+                "mean_delta": 0.03297498787516785,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8892204396155752,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.7,
+                "l2": 0.01,
+                "mean_delta": 0.033416876510782734,
+                "optimizer_success_all": true,
+                "selected_dice": 0.88966232825119,
+                "switches": 74
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.75,
+                "l2": 0.01,
+                "mean_delta": 0.03273916782804496,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8889846195684523,
+                "switches": 65
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.5,
+                "l2": 0.1,
+                "mean_delta": 0.030640717433489305,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8868861691738965,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.55,
+                "l2": 0.1,
+                "mean_delta": 0.030504775377904136,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8867502271183115,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.6,
+                "l2": 0.1,
+                "mean_delta": 0.031022983305335892,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8872684350457434,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.65,
+                "l2": 0.1,
+                "mean_delta": 0.02078881227170216,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8770342640121095,
+                "switches": 66
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.7,
+                "l2": 0.1,
+                "mean_delta": 0.020797226621226475,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8770426783616336,
+                "switches": 49
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.75,
+                "l2": 0.1,
+                "mean_delta": 0.019053662415919444,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8752991141563268,
+                "switches": 28
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.5,
+                "l2": 1.0,
+                "mean_delta": 0.022587179928543054,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8788326316689503,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.55,
+                "l2": 1.0,
+                "mean_delta": 0.021831063658569617,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8780765153989769,
+                "switches": 49
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.6,
+                "l2": 1.0,
+                "mean_delta": 0.005934729863783105,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8621801816041905,
+                "switches": 20
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.65,
+                "l2": 1.0,
+                "mean_delta": 0.003864259524364233,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8601097112647716,
+                "switches": 2
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.7,
+                "l2": 1.0,
+                "mean_delta": 0.0,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8562454517404074,
+                "switches": 0
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.75,
+                "l2": 1.0,
+                "mean_delta": 0.0,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8562454517404074,
+                "switches": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "heldout_targets": [
+        "kvasir-seg::cju3yht87j83m08507yk1u1fg",
+        "kvasir-seg::cju7cufm7298k0755j09uf3of",
+        "kvasir-seg::cju2pag1f0s4r0878h52uq83s",
+        "kvasir-seg::cju8aeei7q8k308173n9y4klv",
+        "kvasir-seg::cju42nm68lpyo0818xvvqmupq",
+        "kvasir-seg::cju2t2ivz43i10878zeg8r1br",
+        "kvasir-seg::cju85rkbnlo1c08503uxcpax1",
+        "kvasir-seg::cju1euuc65wm00799m4sjdnnn",
+        "kvasir-seg::cju2qfie4rvz508357kad9z5o",
+        "kvasir-seg::cju5fi0yxd3ei0801v7u0yudn",
+        "kvasir-seg::cju8d2q30tfhs0801n7lx77xl",
+        "kvasir-seg::cju7ap09p1kz10850ldccjebj",
+        "kvasir-seg::cju33x0f22peh0988g0ln7w5v",
+        "kvasir-seg::cju3x2s11ibzi0817kk284k0j",
+        "kvasir-seg::cju2zo0fwzv580988qlijd2xa",
+        "kvasir-seg::cju1ewnoh5z030855vpex9uzt",
+        "kvasir-seg::cju77u1sjz77b0817ft44r3fk",
+        "kvasir-seg::cju5gucasds9d0801019axylx",
+        "kvasir-seg::cju1cu1u2474n0878tt7v4tdr",
+        "kvasir-seg::cju3128yi0rpu0988o4oo5n8n"
+      ],
+      "linear3_weights": {
+        "q_model": 0.0,
+        "q_multi": 0.0,
+        "q_return": 1.0
+      },
+      "rankers": {
+        "qmodel": {
+          "fallback_probability": 0.5,
+          "l2": 0.1,
+          "optimizer_success": true,
+          "tuning": {
+            "best_key": [
+              0.8714438465502751,
+              -6,
+              0.02139760604497436,
+              -0.5,
+              -0.1
+            ],
+            "grid": [
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.5,
+                "l2": 0.001,
+                "mean_delta": 0.02062000893882502,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8706662494441257,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.55,
+                "l2": 0.001,
+                "mean_delta": 0.02062000893882502,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8706662494441257,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.6,
+                "l2": 0.001,
+                "mean_delta": 0.02062000893882502,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8706662494441257,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.65,
+                "l2": 0.001,
+                "mean_delta": 0.020298857259923385,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8703450977652241,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.7,
+                "l2": 0.001,
+                "mean_delta": 0.020306145513324242,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8703523860186249,
+                "switches": 75
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.75,
+                "l2": 0.001,
+                "mean_delta": 0.020316369383734007,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8703626098890347,
+                "switches": 74
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.5,
+                "l2": 0.01,
+                "mean_delta": 0.020220039616615976,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8702662801219168,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.55,
+                "l2": 0.01,
+                "mean_delta": 0.020220039616615976,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8702662801219168,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.6,
+                "l2": 0.01,
+                "mean_delta": 0.020220039616615976,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8702662801219168,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.65,
+                "l2": 0.01,
+                "mean_delta": 0.020211090143274598,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8702573306485754,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.7,
+                "l2": 0.01,
+                "mean_delta": 0.014234010505688002,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8642802510109886,
+                "switches": 71
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.75,
+                "l2": 0.01,
+                "mean_delta": 0.014213407959509308,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8642596484648098,
+                "switches": 70
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.5,
+                "l2": 0.1,
+                "mean_delta": 0.02139760604497436,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8714438465502751,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.55,
+                "l2": 0.1,
+                "mean_delta": 0.015835066603636257,
+                "optimizer_success_all": true,
+                "selected_dice": 0.865881307108937,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.6,
+                "l2": 0.1,
+                "mean_delta": 0.015437660241187109,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8654839007464877,
+                "switches": 72
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.65,
+                "l2": 0.1,
+                "mean_delta": 0.015437660241187109,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8654839007464877,
+                "switches": 72
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.7,
+                "l2": 0.1,
+                "mean_delta": 0.016027383930391235,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8660736244356919,
+                "switches": 66
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.75,
+                "l2": 0.1,
+                "mean_delta": 0.013943832391867767,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8639900728971683,
+                "switches": 48
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.5,
+                "l2": 1.0,
+                "mean_delta": 0.010436952241417646,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8604831927467183,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.55,
+                "l2": 1.0,
+                "mean_delta": 0.0034305016230515386,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8534767421283522,
+                "switches": 63
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.6,
+                "l2": 1.0,
+                "mean_delta": 0.00039480582484909265,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8504410463301498,
+                "switches": 39
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.65,
+                "l2": 1.0,
+                "mean_delta": 0.0017516410959279346,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8517978816012285,
+                "switches": 11
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.7,
+                "l2": 1.0,
+                "mean_delta": 0.00030121710612605326,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8503474576114268,
+                "switches": 4
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.75,
+                "l2": 1.0,
+                "mean_delta": 0.003834579040512219,
+                "optimizer_success_all": true,
+                "selected_dice": 0.853880819545813,
+                "switches": 1
+              }
+            ]
+          }
+        },
+        "quality": {
+          "fallback_probability": 0.5,
+          "l2": 0.1,
+          "optimizer_success": true,
+          "tuning": {
+            "best_key": [
+              0.8900445676890542,
+              -2,
+              0.0399983271837534,
+              -0.5,
+              -0.1
+            ],
+            "grid": [
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.5,
+                "l2": 0.001,
+                "mean_delta": 0.03002934553012778,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8800755860354285,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.55,
+                "l2": 0.001,
+                "mean_delta": 0.03002934553012778,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8800755860354285,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.6,
+                "l2": 0.001,
+                "mean_delta": 0.03002934553012778,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8800755860354285,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.65,
+                "l2": 0.001,
+                "mean_delta": 0.0300185283251225,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8800647688304231,
+                "switches": 75
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.7,
+                "l2": 0.001,
+                "mean_delta": 0.030000137733105253,
+                "optimizer_success_all": true,
+                "selected_dice": 0.880046378238406,
+                "switches": 74
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.75,
+                "l2": 0.001,
+                "mean_delta": 0.029998302366887764,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8800445428721885,
+                "switches": 72
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.5,
+                "l2": 0.01,
+                "mean_delta": 0.03590000587513358,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8859462463804342,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.55,
+                "l2": 0.01,
+                "mean_delta": 0.03590000587513358,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8859462463804342,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.6,
+                "l2": 0.01,
+                "mean_delta": 0.03590000587513358,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8859462463804342,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.65,
+                "l2": 0.01,
+                "mean_delta": 0.03590000587513358,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8859462463804342,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 3,
+                "fallback_probability": 0.7,
+                "l2": 0.01,
+                "mean_delta": 0.03713255264347808,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8871787931487788,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.75,
+                "l2": 0.01,
+                "mean_delta": 0.039860871294949425,
+                "optimizer_success_all": true,
+                "selected_dice": 0.88990711180025,
+                "switches": 65
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.5,
+                "l2": 0.1,
+                "mean_delta": 0.0399983271837534,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8900445676890542,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.55,
+                "l2": 0.1,
+                "mean_delta": 0.0399983271837534,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8900445676890542,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.6,
+                "l2": 0.1,
+                "mean_delta": 0.03996003452783296,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8900062750331337,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.65,
+                "l2": 0.1,
+                "mean_delta": 0.035539464333594714,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8855857048388953,
+                "switches": 70
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.7,
+                "l2": 0.1,
+                "mean_delta": 0.032826819967441426,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8828730604727422,
+                "switches": 48
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.75,
+                "l2": 0.1,
+                "mean_delta": 0.025538021807989496,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8755842623132903,
+                "switches": 32
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.5,
+                "l2": 1.0,
+                "mean_delta": 0.03248631018587518,
+                "optimizer_success_all": true,
+                "selected_dice": 0.882532550691176,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.55,
+                "l2": 1.0,
+                "mean_delta": 0.0295740399250193,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8796202804303199,
+                "switches": 62
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.6,
+                "l2": 1.0,
+                "mean_delta": 0.021376431814195213,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8714226723194958,
+                "switches": 29
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.65,
+                "l2": 1.0,
+                "mean_delta": 0.0037863867321700634,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8538326272374708,
+                "switches": 4
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.7,
+                "l2": 1.0,
+                "mean_delta": 0.0,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8500462405053006,
+                "switches": 0
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.75,
+                "l2": 1.0,
+                "mean_delta": 0.0,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8500462405053006,
+                "switches": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "heldout_targets": [
+        "kvasir-seg::cju5ew4h9cqaf0818rrczkmqh",
+        "kvasir-seg::cju88oh0po9gq0801nge4tgr1",
+        "kvasir-seg::cju3tx1qyg0c907552fglumhc",
+        "kvasir-seg::cju2y26c588bo07993ksd8eoz",
+        "kvasir-seg::cju7bd1qu1mx409877xjxibox",
+        "kvasir-seg::cju5klveuff6w0871wbibgh3m",
+        "kvasir-seg::cju7afqon1ip40850ue2308b6",
+        "kvasir-seg::cju6vgdmivcvb08018fra5lnv",
+        "kvasir-seg::cju6x97w4vwua0850x0997r0a",
+        "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+        "kvasir-seg::cju8cwy02t9eq08185qn12c02",
+        "kvasir-seg::cju2yi9tz8vky0801yqip0xyl",
+        "kvasir-seg::cju2zpw4q9vzr0801p0lysjdl",
+        "kvasir-seg::cju8chdlqsu620755azjty1tj",
+        "kvasir-seg::cju5i39mreass0817au8p22zy",
+        "kvasir-seg::cju7fbndk2sl608015ravktum",
+        "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+        "kvasir-seg::cju5hl8nee8a40755fm8qjj0o",
+        "kvasir-seg::cju88y1mwoln50871emyfny1g",
+        "kvasir-seg::cju7ez7r22qbc08015xfoz2wb"
+      ],
+      "linear3_weights": {
+        "q_model": 0.0,
+        "q_multi": 0.0,
+        "q_return": 1.0
+      },
+      "rankers": {
+        "qmodel": {
+          "fallback_probability": 0.6,
+          "l2": 0.001,
+          "optimizer_success": true,
+          "tuning": {
+            "best_key": [
+              0.8659977719640409,
+              -4,
+              0.03940876932917331,
+              -0.6,
+              -0.001
+            ],
+            "grid": [
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.5,
+                "l2": 0.001,
+                "mean_delta": 0.03938945405763522,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8659784566925028,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.55,
+                "l2": 0.001,
+                "mean_delta": 0.03938945405763522,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8659784566925028,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.6,
+                "l2": 0.001,
+                "mean_delta": 0.03940876932917331,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8659977719640409,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.65,
+                "l2": 0.001,
+                "mean_delta": 0.03807874216069497,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8646677447955625,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.7,
+                "l2": 0.001,
+                "mean_delta": 0.0382118166297531,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8648008192646206,
+                "switches": 74
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.75,
+                "l2": 0.001,
+                "mean_delta": 0.0382201608067846,
+                "optimizer_success_all": true,
+                "selected_dice": 0.864809163441652,
+                "switches": 71
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.5,
+                "l2": 0.01,
+                "mean_delta": 0.027394507352804326,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8539835099876718,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.55,
+                "l2": 0.01,
+                "mean_delta": 0.027394507352804326,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8539835099876718,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.6,
+                "l2": 0.01,
+                "mean_delta": 0.027394507352804326,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8539835099876718,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.65,
+                "l2": 0.01,
+                "mean_delta": 0.027560504165143974,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8541495068000116,
+                "switches": 75
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.7,
+                "l2": 0.01,
+                "mean_delta": 0.02765437078521905,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8542433734200866,
+                "switches": 72
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.75,
+                "l2": 0.01,
+                "mean_delta": 0.02755030888896881,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8541393115238364,
+                "switches": 67
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.5,
+                "l2": 0.1,
+                "mean_delta": 0.02717812969967931,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8537671323345469,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.55,
+                "l2": 0.1,
+                "mean_delta": 0.027168016149570474,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8537570187844381,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.6,
+                "l2": 0.1,
+                "mean_delta": 0.027168016149570474,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8537570187844381,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 6,
+                "fallback_probability": 0.65,
+                "l2": 0.1,
+                "mean_delta": 0.02769563164043548,
+                "optimizer_success_all": true,
+                "selected_dice": 0.854284634275303,
+                "switches": 72
+              },
+              {
+                "catastrophic_regressions": 5,
+                "fallback_probability": 0.7,
+                "l2": 0.1,
+                "mean_delta": 0.023768229584962164,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8503572322198296,
+                "switches": 54
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.75,
+                "l2": 0.1,
+                "mean_delta": 0.021093423402613228,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8476824260374807,
+                "switches": 35
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.5,
+                "l2": 1.0,
+                "mean_delta": 0.027077308853598814,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8536663114884664,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.55,
+                "l2": 1.0,
+                "mean_delta": 0.025622829477856168,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8522118321127238,
+                "switches": 66
+              },
+              {
+                "catastrophic_regressions": 4,
+                "fallback_probability": 0.6,
+                "l2": 1.0,
+                "mean_delta": 0.010712756016382781,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8373017586512503,
+                "switches": 30
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.65,
+                "l2": 1.0,
+                "mean_delta": 0.011015613958886894,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8376046165937545,
+                "switches": 8
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.7,
+                "l2": 1.0,
+                "mean_delta": 0.003947668107537341,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8305366707424049,
+                "switches": 1
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.75,
+                "l2": 1.0,
+                "mean_delta": 0.0,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8265890026348675,
+                "switches": 0
+              }
+            ]
+          }
+        },
+        "quality": {
+          "fallback_probability": 0.75,
+          "l2": 0.01,
+          "optimizer_success": true,
+          "tuning": {
+            "best_key": [
+              0.8636247708043371,
+              -2,
+              0.0370357681694694,
+              -0.75,
+              -0.01
+            ],
+            "grid": [
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.5,
+                "l2": 0.001,
+                "mean_delta": 0.03474682250229015,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8613358251371576,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.55,
+                "l2": 0.001,
+                "mean_delta": 0.03474682250229015,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8613358251371576,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.6,
+                "l2": 0.001,
+                "mean_delta": 0.03474682250229015,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8613358251371576,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.65,
+                "l2": 0.001,
+                "mean_delta": 0.03474831900982085,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8613373216446882,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.7,
+                "l2": 0.001,
+                "mean_delta": 0.03478418924357357,
+                "optimizer_success_all": true,
+                "selected_dice": 0.861373191878441,
+                "switches": 75
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.75,
+                "l2": 0.001,
+                "mean_delta": 0.03517240156936399,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8617614042042316,
+                "switches": 68
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.5,
+                "l2": 0.01,
+                "mean_delta": 0.03624102037840572,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8628300230132734,
+                "switches": 80
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.55,
+                "l2": 0.01,
+                "mean_delta": 0.03592026080956778,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8625092634444353,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.6,
+                "l2": 0.01,
+                "mean_delta": 0.03600043688572453,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8625894395205922,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.65,
+                "l2": 0.01,
+                "mean_delta": 0.036001933393255234,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8625909360281228,
+                "switches": 77
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.7,
+                "l2": 0.01,
+                "mean_delta": 0.03694503540419165,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8635340380390591,
+                "switches": 69
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.75,
+                "l2": 0.01,
+                "mean_delta": 0.0370357681694694,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8636247708043371,
+                "switches": 63
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.5,
+                "l2": 0.1,
+                "mean_delta": 0.03059288424744654,
+                "optimizer_success_all": true,
+                "selected_dice": 0.857181886882314,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.55,
+                "l2": 0.1,
+                "mean_delta": 0.03059288424744654,
+                "optimizer_success_all": true,
+                "selected_dice": 0.857181886882314,
+                "switches": 79
+              },
+              {
+                "catastrophic_regressions": 2,
+                "fallback_probability": 0.6,
+                "l2": 0.1,
+                "mean_delta": 0.029921929432654436,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8565109320675219,
+                "switches": 76
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.65,
+                "l2": 0.1,
+                "mean_delta": 0.034314000963219585,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8609030035980872,
+                "switches": 66
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.7,
+                "l2": 0.1,
+                "mean_delta": 0.03399810209890368,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8605871047337711,
+                "switches": 49
+              },
+              {
+                "catastrophic_regressions": 1,
+                "fallback_probability": 0.75,
+                "l2": 0.1,
+                "mean_delta": 0.024253289848719942,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8508422924835877,
+                "switches": 33
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.5,
+                "l2": 1.0,
+                "mean_delta": 0.024548624057796245,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8511376266926639,
+                "switches": 78
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.55,
+                "l2": 1.0,
+                "mean_delta": 0.024405560767852094,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8509945634027197,
+                "switches": 60
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.6,
+                "l2": 1.0,
+                "mean_delta": 0.009932029946679143,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8365210325815469,
+                "switches": 20
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.65,
+                "l2": 1.0,
+                "mean_delta": 0.004199996146278149,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8307889987811456,
+                "switches": 2
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.7,
+                "l2": 1.0,
+                "mean_delta": 0.0,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8265890026348675,
+                "switches": 0
+              },
+              {
+                "catastrophic_regressions": 0,
+                "fallback_probability": 0.75,
+                "l2": 1.0,
+                "mean_delta": 0.0,
+                "optimizer_success_all": true,
+                "selected_dice": 0.8265890026348675,
+                "switches": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "protocol": {
+    "candidates_per_target": 44,
+    "families": [
+      "t18_corrected",
+      "dino_global_pooling",
+      "dino_patch_average",
+      "anchor_conditioned_target_pooling",
+      "anchor_conditioned_target_pooling__knn_cls",
+      "anchor_conditioned_target_pooling__knn_pooled",
+      "anchor_conditioned_target_pooling__knn_cond",
+      "anchor_conditioned_patch_correspondence",
+      "anchor_conditioned_patch_correspondence__knn_cls",
+      "anchor_conditioned_patch_correspondence__knn_pooled",
+      "anchor_conditioned_patch_correspondence__knn_cond"
+    ],
+    "fixed_baseline": {
+      "bridge": 6,
+      "family": "anchor_conditioned_target_pooling__knn_cls"
+    },
+    "inner_folds": 4,
+    "min_pair_gap": 0.02,
+    "n_targets": 100,
+    "outer_folds": 5,
+    "seed": 20260812,
+    "split": "validation_only_oof",
+    "teachers": [
+      "X3_final",
+      "S2_final",
+      "S3_final"
+    ],
+    "test_loaded": false
+  },
+  "summary": {
+    "b7_mean": {
+      "bootstrap_95_ci": [
+        -0.017936034245233948,
+        0.03268322176809195
+      ],
+      "catastrophic_regressions_delta_lt_minus_0.05": 6,
+      "fixed_b6_dice": 0.8440649839823857,
+      "losses": 38,
+      "max_gain": 0.5306199005908281,
+      "max_gain_over_net_gain": 0.6184141516083865,
+      "max_gain_share_of_positive_gains": 0.1894275837397043,
+      "max_regression": -0.7964968691826028,
+      "mean_delta_vs_fixed": 0.008580332439204036,
+      "median_delta_vs_fixed": 0.0005733283875480055,
+      "n_targets": 100,
+      "oracle_dice": 0.9159516054832895,
+      "oracle_gap": 0.06330628906169977,
+      "selected_dice": 0.8526453164215897,
+      "switches_from_fixed": 100,
+      "ties": 2,
+      "trimmed_mean_delta_10pct": 0.0041665152303529815,
+      "wins": 60
+    },
+    "fixed_b6": {
+      "bootstrap_95_ci": [
+        0.0,
+        0.0
+      ],
+      "catastrophic_regressions_delta_lt_minus_0.05": 0,
+      "fixed_b6_dice": 0.8440649839823857,
+      "losses": 0,
+      "max_gain": 0.0,
+      "max_gain_over_net_gain": null,
+      "max_gain_share_of_positive_gains": 0.0,
+      "max_regression": 0.0,
+      "mean_delta_vs_fixed": 0.0,
+      "median_delta_vs_fixed": 0.0,
+      "n_targets": 100,
+      "oracle_dice": 0.9159516054832895,
+      "oracle_gap": 0.07188662150090375,
+      "selected_dice": 0.8440649839823857,
+      "switches_from_fixed": 0,
+      "ties": 100,
+      "trimmed_mean_delta_10pct": 0.0,
+      "wins": 0
+    },
+    "linear3_outer_train": {
+      "bootstrap_95_ci": [
+        -0.016961741462337126,
+        0.03714282829168191
+      ],
+      "catastrophic_regressions_delta_lt_minus_0.05": 8,
+      "fixed_b6_dice": 0.8440649839823857,
+      "losses": 45,
+      "max_gain": 0.5555249126677698,
+      "max_gain_over_net_gain": 0.520693692826711,
+      "max_gain_share_of_positive_gains": 0.16734638762956042,
+      "max_regression": -0.7646580328430231,
+      "mean_delta_vs_fixed": 0.010668938769969907,
+      "median_delta_vs_fixed": 0.0002767579180024682,
+      "n_targets": 100,
+      "oracle_dice": 0.9159516054832895,
+      "oracle_gap": 0.06121768273093375,
+      "selected_dice": 0.8547339227523557,
+      "switches_from_fixed": 100,
+      "ties": 1,
+      "trimmed_mean_delta_10pct": 0.005151163857712686,
+      "wins": 54
+    },
+    "pairwise_qmodel": {
+      "bootstrap_95_ci": [
+        0.0056914327066051465,
+        0.059616070579285675
+      ],
+      "catastrophic_regressions_delta_lt_minus_0.05": 6,
+      "fixed_b6_dice": 0.8440649839823857,
+      "losses": 30,
+      "max_gain": 0.6818553410894269,
+      "max_gain_over_net_gain": 0.21884310473032792,
+      "max_gain_share_of_positive_gains": 0.15114262879245746,
+      "max_regression": -0.38472261920121886,
+      "mean_delta_vs_fixed": 0.03115726867107152,
+      "median_delta_vs_fixed": 0.0013256758261444013,
+      "n_targets": 100,
+      "oracle_dice": 0.9159516054832895,
+      "oracle_gap": 0.040729352829832255,
+      "selected_dice": 0.8752222526534572,
+      "switches_from_fixed": 99,
+      "ties": 3,
+      "trimmed_mean_delta_10pct": 0.011128888098140426,
+      "wins": 67
+    },
+    "pairwise_qmodel_fallback": {
+      "bootstrap_95_ci": [
+        0.0052249808906011585,
+        0.05955204567556943
+      ],
+      "catastrophic_regressions_delta_lt_minus_0.05": 6,
+      "fixed_b6_dice": 0.8440649839823857,
+      "losses": 29,
+      "max_gain": 0.6818553410894269,
+      "max_gain_over_net_gain": 0.21892032483278764,
+      "max_gain_share_of_positive_gains": 0.15120846438667193,
+      "max_regression": -0.38472261920121886,
+      "mean_delta_vs_fixed": 0.03114627851983278,
+      "median_delta_vs_fixed": 0.0012610050060926636,
+      "n_targets": 100,
+      "oracle_dice": 0.9159516054832895,
+      "oracle_gap": 0.040740342981070876,
+      "selected_dice": 0.8752112625022186,
+      "switches_from_fixed": 95,
+      "ties": 6,
+      "trimmed_mean_delta_10pct": 0.011115150409092014,
+      "wins": 65
+    },
+    "pairwise_quality": {
+      "bootstrap_95_ci": [
+        0.007190584462501685,
+        0.06099308959166611
+      ],
+      "catastrophic_regressions_delta_lt_minus_0.05": 4,
+      "fixed_b6_dice": 0.8440649839823857,
+      "losses": 31,
+      "max_gain": 0.6818553410894269,
+      "max_gain_over_net_gain": 0.20677254671506654,
+      "max_gain_share_of_positive_gains": 0.153840639673815,
+      "max_regression": -0.38472261920121886,
+      "mean_delta_vs_fixed": 0.03297610596386504,
+      "median_delta_vs_fixed": 0.0010674521440267037,
+      "n_targets": 100,
+      "oracle_dice": 0.9159516054832895,
+      "oracle_gap": 0.038910515537038726,
+      "selected_dice": 0.8770410899462507,
+      "switches_from_fixed": 100,
+      "ties": 3,
+      "trimmed_mean_delta_10pct": 0.007507615270570364,
+      "wins": 66
+    },
+    "pairwise_quality_fallback": {
+      "bootstrap_95_ci": [
+        0.013014507865355731,
+        0.06510412816470441
+      ],
+      "catastrophic_regressions_delta_lt_minus_0.05": 2,
+      "fixed_b6_dice": 0.8440649839823857,
+      "losses": 27,
+      "max_gain": 0.6818553410894269,
+      "max_gain_over_net_gain": 0.18116380941746948,
+      "max_gain_share_of_positive_gains": 0.15408092460517003,
+      "max_regression": -0.38472261920121886,
+      "mean_delta_vs_fixed": 0.037637502947300915,
+      "median_delta_vs_fixed": 0.00061950654849241,
+      "n_targets": 100,
+      "oracle_dice": 0.9159516054832895,
+      "oracle_gap": 0.0342491185536028,
+      "selected_dice": 0.8817024869296867,
+      "switches_from_fixed": 88,
+      "ties": 13,
+      "trimmed_mean_delta_10pct": 0.007673924433828322,
+      "wins": 60
+    },
+    "q_model_mean_only": {
+      "bootstrap_95_ci": [
+        -0.02936682230539602,
+        0.034200491953161154
+      ],
+      "catastrophic_regressions_delta_lt_minus_0.05": 10,
+      "fixed_b6_dice": 0.8440649839823857,
+      "losses": 43,
+      "max_gain": 0.5586140342815128,
+      "max_gain_over_net_gain": 1.4270247929750537,
+      "max_gain_share_of_positive_gains": 0.15096561844408515,
+      "max_regression": -0.7964968691826028,
+      "mean_delta_vs_fixed": 0.003914536292792203,
+      "median_delta_vs_fixed": 0.0006827666882619488,
+      "n_targets": 100,
+      "oracle_dice": 0.9159516054832895,
+      "oracle_gap": 0.06797208520811138,
+      "selected_dice": 0.8479795202751781,
+      "switches_from_fixed": 99,
+      "ties": 2,
+      "trimmed_mean_delta_10pct": 0.008175085200376849,
+      "wins": 55
+    },
+    "q_multi_only": {
+      "bootstrap_95_ci": [
+        -0.01836367238354646,
+        0.017212156007471176
+      ],
+      "catastrophic_regressions_delta_lt_minus_0.05": 5,
+      "fixed_b6_dice": 0.8440649839823857,
+      "losses": 33,
+      "max_gain": 0.40458517873820427,
+      "max_gain_over_net_gain": null,
+      "max_gain_share_of_positive_gains": 0.2982982403464845,
+      "max_regression": -0.4892658362046117,
+      "mean_delta_vs_fixed": -0.0003766735178297176,
+      "median_delta_vs_fixed": 0.0002624450694292402,
+      "n_targets": 100,
+      "oracle_dice": 0.9159516054832895,
+      "oracle_gap": 0.07226329501873363,
+      "selected_dice": 0.8436883104645558,
+      "switches_from_fixed": 100,
+      "ties": 6,
+      "trimmed_mean_delta_10pct": 0.0013457902768770282,
+      "wins": 61
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "stage": "failed",
+  "time": 1789289742.7835069,
+  "error": "Traceback (most recent call last):\n  File \"/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/busi_calibrated_multi_anchor_20260913/pipeline.py\", line 308, in <module>\n    elif sys.argv[1]=='run': run()\n                             ^^^^^\n  File \"/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/busi_calibrated_multi_anchor_20260913/pipeline.py\", line 302, in run\n    make_routes(); propagate('validation'); select_validation(); propagate('test'); evaluate_test()\n                   ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/busi_calibrated_multi_anchor_20260913/pipeline.py\", line 159, in propagate\n    if rc: raise RuntimeError(f'{split} propagation failed, return code {rc}; see log')\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: validation propagation failed, return code 1; see log\n"
+}

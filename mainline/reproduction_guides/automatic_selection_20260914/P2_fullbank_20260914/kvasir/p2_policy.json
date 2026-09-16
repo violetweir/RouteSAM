@@ -1,0 +1,9 @@
+{
+  "dataset": "kvasir",
+  "anchors": "all human anchors of the automatic budget (Kvasir 8)",
+  "depths": "b0-b6",
+  "reuse": "original 700/split + P1 b0 routes, matched by route_id with sha256 verification",
+  "purpose": "second full-depth dataset: Oracle(k) curves, calibration gain per k, budget curve",
+  "no_new_labels": true,
+  "model_unchanged": true
+}

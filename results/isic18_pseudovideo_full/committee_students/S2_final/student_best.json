@@ -1,0 +1,20 @@
+{
+  "iteration": 16800,
+  "validation": {
+    "count": 259,
+    "dice": 0.8547567576270142,
+    "iou": 0.7776148787982574,
+    "nonempty_rate": 0.9961389961389961,
+    "mean_area": 0.18352305290781853,
+    "by_dataset": {
+      "ISIC18": {
+        "count": 259,
+        "dice": 0.8547567576270142,
+        "iou": 0.7776148787982574,
+        "nonempty_rate": 0.9961389961389961,
+        "mean_area": 0.18352305290781853
+      }
+    }
+  },
+  "selection_uses_test_gt": false
+}

@@ -1,0 +1,19 @@
+{
+  "epochs": 816,
+  "iterations": 39984,
+  "best_validation": {
+    "epoch": 556,
+    "iteration": 27244,
+    "count": 100,
+    "dice": 0.8273298655431318,
+    "iou": 0.7491000363807057,
+    "is_new_best": true
+  },
+  "final_validation": {
+    "count": 100,
+    "dice": 0.8145613754048733,
+    "iou": 0.7336951942832427
+  },
+  "initial_tensor_sha256": "3ae6362bdda1ab881a9e374ab80024f84cf81c0b7e61ecf581763458dd377f56",
+  "test_evaluated": false
+}

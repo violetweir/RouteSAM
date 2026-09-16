@@ -1,0 +1,2649 @@
+{
+  "groups": {
+    "raw_top1": {
+      "candidates_per_target": 7,
+      "oof_dice": 0.8486379399849031,
+      "oracle_dice": 0.8899816351398424,
+      "oracle_gap": 0.0413436951549393,
+      "selected_anchors": {
+        "kvasir-seg::cju2t62nq45jl0799odpufwx6": 15,
+        "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 20,
+        "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 4,
+        "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 8,
+        "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 26,
+        "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 25,
+        "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 1,
+        "kvasir-seg::cju3v664kh0px0818y4y7wolf": 1
+      }
+    },
+    "centered_top1": {
+      "candidates_per_target": 7,
+      "oof_dice": 0.8529488946674111,
+      "oracle_dice": 0.906217568999707,
+      "oracle_gap": 0.05326867433229587,
+      "selected_anchors": {
+        "kvasir-seg::cju2t62nq45jl0799odpufwx6": 6,
+        "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 13,
+        "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 27,
+        "kvasir-seg::cju3v664kh0px0818y4y7wolf": 21,
+        "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 14,
+        "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 5,
+        "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 10,
+        "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 4
+      }
+    },
+    "raw_top2": {
+      "candidates_per_target": 14,
+      "oof_dice": 0.8467237924079172,
+      "oracle_dice": 0.926433133799911,
+      "oracle_gap": 0.07970934139199382,
+      "selected_anchors": {
+        "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 26,
+        "kvasir-seg::cju2t62nq45jl0799odpufwx6": 22,
+        "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 14,
+        "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 18,
+        "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 9,
+        "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 6,
+        "kvasir-seg::cju3v664kh0px0818y4y7wolf": 4,
+        "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 1
+      }
+    },
+    "centered_top2": {
+      "candidates_per_target": 14,
+      "oof_dice": 0.8537727173524907,
+      "oracle_dice": 0.9237568985108474,
+      "oracle_gap": 0.0699841811583567,
+      "selected_anchors": {
+        "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 14,
+        "kvasir-seg::cju2t62nq45jl0799odpufwx6": 8,
+        "kvasir-seg::cju3v664kh0px0818y4y7wolf": 27,
+        "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 9,
+        "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 8,
+        "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 8,
+        "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 10,
+        "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 16
+      }
+    },
+    "original_per_bridge": {
+      "candidates_per_target": 7,
+      "oof_dice": 0.8513170057291387,
+      "oracle_dice": 0.8893468079554735,
+      "oracle_gap": 0.038029802226334786,
+      "selected_anchors": {
+        "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 29,
+        "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 25,
+        "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 4,
+        "kvasir-seg::cju2t62nq45jl0799odpufwx6": 13,
+        "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 8,
+        "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 20,
+        "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 1
+      }
+    }
+  },
+  "paired_oof": {
+    "centered_top1_minus_raw_top1": {
+      "mean": 0.004310954682508152,
+      "ci95": [
+        -0.0302708164209719,
+        0.03826412863791218
+      ],
+      "improved": 48,
+      "worsened": 30
+    },
+    "centered_top2_minus_raw_top2": {
+      "mean": 0.007048924944573479,
+      "ci95": [
+        -0.028426023651950075,
+        0.040778499964388815
+      ],
+      "improved": 45,
+      "worsened": 24
+    },
+    "raw_top2_minus_raw_top1": {
+      "mean": -0.001914147576985855,
+      "ci95": [
+        -0.034593216650133395,
+        0.030049460839317862
+      ],
+      "improved": 37,
+      "worsened": 28
+    },
+    "centered_top2_minus_centered_top1": {
+      "mean": 0.0008238226850794694,
+      "ci95": [
+        -0.03266952968890227,
+        0.032000087701546026
+      ],
+      "improved": 31,
+      "worsened": 33
+    },
+    "centered_top2_minus_original_per_bridge": {
+      "mean": 0.002455711623351925,
+      "ci95": [
+        -0.03476068511962674,
+        0.0389124885144523
+      ],
+      "improved": 52,
+      "worsened": 29
+    },
+    "interaction": {
+      "mean": 0.00273797026206532,
+      "ci95": [
+        -0.03660677904904262,
+        0.040763570495820266
+      ]
+    }
+  },
+  "per_target_oof": {
+    "raw_top1": [
+      {
+        "target_id": "kvasir-seg::cju0s2a9ekvms080138tjjpxr",
+        "route_id": "8c7500ecbfb60ff941d929f1",
+        "dice": 0.9577086768145393
+      },
+      {
+        "target_id": "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+        "route_id": "1b1ed4d175a7639b23725932",
+        "dice": 0.9604253600753803
+      },
+      {
+        "target_id": "kvasir-seg::cju1csmlc4ht10799b8ymmghg",
+        "route_id": "083c0cb712b505879725f8a6",
+        "dice": 0.9065861690450054
+      },
+      {
+        "target_id": "kvasir-seg::cju1cu1u2474n0878tt7v4tdr",
+        "route_id": "83817a24acf386af8110b527",
+        "dice": 0.7201458523245214
+      },
+      {
+        "target_id": "kvasir-seg::cju1d96gsv62d09881b3wecw2",
+        "route_id": "48d36dca62d64c8938880d9b",
+        "dice": 0.8679103969496834
+      },
+      {
+        "target_id": "kvasir-seg::cju1djtprvd7b0988thwwrg09",
+        "route_id": "bd8c8e499929d5be1a6e60b6",
+        "dice": 0.9251923804718052
+      },
+      {
+        "target_id": "kvasir-seg::cju1euuc65wm00799m4sjdnnn",
+        "route_id": "4e602a4c6e38b98b671fa8e1",
+        "dice": 0.9667279036538069
+      },
+      {
+        "target_id": "kvasir-seg::cju1ewnoh5z030855vpex9uzt",
+        "route_id": "fb5d572b7e6b6eb44940f9fc",
+        "dice": 0.9616459627329192
+      },
+      {
+        "target_id": "kvasir-seg::cju1fmsyf6gxb0801cimx2gle",
+        "route_id": "650856592d24d00da16f497e",
+        "dice": 0.9015544041450777
+      },
+      {
+        "target_id": "kvasir-seg::cju1fyb1d69et0878muzdak9u",
+        "route_id": "61a0a21f671381c3bdc4b8be",
+        "dice": 0.9527448533998752
+      },
+      {
+        "target_id": "kvasir-seg::cju2htabevq9108015qjei0x7",
+        "route_id": "8c1cb3f76ba5a98c0a64b0e2",
+        "dice": 0.9705344164172723
+      },
+      {
+        "target_id": "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+        "route_id": "10ce906fd0af92ca07d895a6",
+        "dice": 0.981945997763221
+      },
+      {
+        "target_id": "kvasir-seg::cju2pag1f0s4r0878h52uq83s",
+        "route_id": "e9380a8b0e6091b2dc3b0e82",
+        "dice": 0.9021688250897176
+      },
+      {
+        "target_id": "kvasir-seg::cju2qfie4rvz508357kad9z5o",
+        "route_id": "8fcfc41629f0d7b3fc8ee56d",
+        "dice": 0.936327853669831
+      },
+      {
+        "target_id": "kvasir-seg::cju2t2ivz43i10878zeg8r1br",
+        "route_id": "c6149a072b0f320246b22e5b",
+        "dice": 0.9388922951154711
+      },
+      {
+        "target_id": "kvasir-seg::cju2tzypl4wss0799ow05oxb9",
+        "route_id": "8055a5054c16bc55f4dded20",
+        "dice": 0.98566460259564
+      },
+      {
+        "target_id": "kvasir-seg::cju2uzabhs6er0993x3aaf87p",
+        "route_id": "7b2f02a839be89d087c48567",
+        "dice": 0.0
+      },
+      {
+        "target_id": "kvasir-seg::cju2wve9v7esz0878mxsdcy04",
+        "route_id": "3d914418983e65cacdaf0f53",
+        "dice": 0.9714774671990872
+      },
+      {
+        "target_id": "kvasir-seg::cju2y26c588bo07993ksd8eoz",
+        "route_id": "7f6c396e857dafbcd77fe497",
+        "dice": 0.9601550721516261
+      },
+      {
+        "target_id": "kvasir-seg::cju2yi9tz8vky0801yqip0xyl",
+        "route_id": "8423ba7dfe26be1b8ce62b46",
+        "dice": 0.9341787813176616
+      },
+      {
+        "target_id": "kvasir-seg::cju2zo0fwzv580988qlijd2xa",
+        "route_id": "7503f284784f42e9a30303ef",
+        "dice": 0.798361009273237
+      },
+      {
+        "target_id": "kvasir-seg::cju2zpw4q9vzr0801p0lysjdl",
+        "route_id": "67ac1b426d723c1062650f94",
+        "dice": 0.944831013916501
+      },
+      {
+        "target_id": "kvasir-seg::cju303j5r062k098835zxfds5",
+        "route_id": "09ee6544ced31fbde026c78b",
+        "dice": 0.9765293618625696
+      },
+      {
+        "target_id": "kvasir-seg::cju30mm25a53s0799qa5wiqe8",
+        "route_id": "1f902304f94c1ca23d057f2b",
+        "dice": 0.8754640566992913
+      },
+      {
+        "target_id": "kvasir-seg::cju3128yi0rpu0988o4oo5n8n",
+        "route_id": "21445ef14037b9bc44fab6f3",
+        "dice": 0.9782857142857143
+      },
+      {
+        "target_id": "kvasir-seg::cju32qr9tbvsj08013pkpjenq",
+        "route_id": "f6a4ff1e4e5b3256cdd06c2b",
+        "dice": 0.4597333333333333
+      },
+      {
+        "target_id": "kvasir-seg::cju32srle1xfq083575i3fl75",
+        "route_id": "7c8ad973d342bee2bd85cb20",
+        "dice": 0.9525125628140704
+      },
+      {
+        "target_id": "kvasir-seg::cju33x0f22peh0988g0ln7w5v",
+        "route_id": "f3fa41de3c06782bec0178ab",
+        "dice": 0.863760896637609
+      },
+      {
+        "target_id": "kvasir-seg::cju34fojcctcf0799ebolbvkn",
+        "route_id": "2280418b8edcde67cd1c5820",
+        "dice": 0.965478529329217
+      },
+      {
+        "target_id": "kvasir-seg::cju358pwtdby20878cg7nm0np",
+        "route_id": "5c8088378dfe11783742f270",
+        "dice": 0.9629123226798838
+      },
+      {
+        "target_id": "kvasir-seg::cju35fxqyzt5p0993vusm54qz",
+        "route_id": "6fd6f3339ecb675489234784",
+        "dice": 0.9615384615384616
+      },
+      {
+        "target_id": "kvasir-seg::cju3tx1qyg0c907552fglumhc",
+        "route_id": "7ff118f1471d102e532ff75b",
+        "dice": 0.9755518162921905
+      },
+      {
+        "target_id": "kvasir-seg::cju3u39fog1bo0871lxjrabks",
+        "route_id": "142c5c65c49efcd7076f0732",
+        "dice": 0.9891044379484454
+      },
+      {
+        "target_id": "kvasir-seg::cju3x2s11ibzi0817kk284k0j",
+        "route_id": "39020336265f0ddaf953b8ee",
+        "dice": 0.9110645886640304
+      },
+      {
+        "target_id": "kvasir-seg::cju3xjqtpikx50817tppy6g84",
+        "route_id": "3d70b36e02026201f4cacf74",
+        "dice": 0.965630619059851
+      },
+      {
+        "target_id": "kvasir-seg::cju3xwpgviwlx0871rwm15q7v",
+        "route_id": "4207cb347b90171cb360d926",
+        "dice": 0.8595512582124706
+      },
+      {
+        "target_id": "kvasir-seg::cju3xzvnzj0hd0755xprz39nj",
+        "route_id": "0f7c8b4b0b694ebaebb23b06",
+        "dice": 0.9471527324311545
+      },
+      {
+        "target_id": "kvasir-seg::cju3yht87j83m08507yk1u1fg",
+        "route_id": "1997b74fc962b5c63fa3515e",
+        "dice": 0.5002262865053377
+      },
+      {
+        "target_id": "kvasir-seg::cju42g865lorv07552ytz6xxa",
+        "route_id": "8404a715c8203f4b5ecc0d09",
+        "dice": 0.9227203647416413
+      },
+      {
+        "target_id": "kvasir-seg::cju42nm68lpyo0818xvvqmupq",
+        "route_id": "8e6aaad2a7e8a68e41af886a",
+        "dice": 0.8526668550894335
+      },
+      {
+        "target_id": "kvasir-seg::cju42romflni20817etb9a0fl",
+        "route_id": "7a9454be18596c495ac61175",
+        "dice": 0.5213785723839672
+      },
+      {
+        "target_id": "kvasir-seg::cju45n0oxn5vu08500yfrt9jn",
+        "route_id": "532d4aafe60f1723bd5f11ed",
+        "dice": 0.9732229795520935
+      },
+      {
+        "target_id": "kvasir-seg::cju45rj7ln8980850a7821fov",
+        "route_id": "e7325c6208572e794f44fef9",
+        "dice": 0.8321313106192489
+      },
+      {
+        "target_id": "kvasir-seg::cju45ty6zn9oz0850qy4qnck1",
+        "route_id": "464cef9adf14cd752871ba72",
+        "dice": 0.9739640130861504
+      },
+      {
+        "target_id": "kvasir-seg::cju5bbtwsa8cl0987wgfsqpao",
+        "route_id": "dd2b5a82adc2dee53eab6c31",
+        "dice": 0.9333548751918572
+      },
+      {
+        "target_id": "kvasir-seg::cju5bycdkalkb09875f7bfrvx",
+        "route_id": "e18ef3cd779eeb7b849f3b7d",
+        "dice": 0.7337463668349395
+      },
+      {
+        "target_id": "kvasir-seg::cju5cjh3xattc0817j2vbulzi",
+        "route_id": "6b747252bfb3658505d4b956",
+        "dice": 0.6485800412501983
+      },
+      {
+        "target_id": "kvasir-seg::cju5ekty5ckzf07550c9u3ckk",
+        "route_id": "c00c8c756e55371c121c40fc",
+        "dice": 0.9776460802661676
+      },
+      {
+        "target_id": "kvasir-seg::cju5ew4h9cqaf0818rrczkmqh",
+        "route_id": "c460140bca9d6184408deb7b",
+        "dice": 0.9266284171447857
+      },
+      {
+        "target_id": "kvasir-seg::cju5fi0yxd3ei0801v7u0yudn",
+        "route_id": "b648b4ed20e2df43377ea82e",
+        "dice": 0.2147483806676632
+      },
+      {
+        "target_id": "kvasir-seg::cju5gucasds9d0801019axylx",
+        "route_id": "e8aeb9cae96765af6405d1fe",
+        "dice": 0.838125
+      },
+      {
+        "target_id": "kvasir-seg::cju5hl8nee8a40755fm8qjj0o",
+        "route_id": "52d8cd0cdd1d71603c6251e6",
+        "dice": 0.97138437741686
+      },
+      {
+        "target_id": "kvasir-seg::cju5hyi9yegob0755ho3do8en",
+        "route_id": "f8fbfdf1ec3d16aec87136eb",
+        "dice": 0.9024435739600821
+      },
+      {
+        "target_id": "kvasir-seg::cju5i39mreass0817au8p22zy",
+        "route_id": "a1b35a635f7c06c868968b3d",
+        "dice": 0.9495086987962057
+      },
+      {
+        "target_id": "kvasir-seg::cju5k3j3uf6de0817hszzfr7n",
+        "route_id": "71c76ecba76c1f060abb3f2d",
+        "dice": 0.9568106312292359
+      },
+      {
+        "target_id": "kvasir-seg::cju5klveuff6w0871wbibgh3m",
+        "route_id": "9ff9353799504dc4361f86df",
+        "dice": 0.9422750424448217
+      },
+      {
+        "target_id": "kvasir-seg::cju5u8gz4kj5b07552e2wpkwp",
+        "route_id": "b4e4ac7bd8a57a18cec0b07b",
+        "dice": 0.0
+      },
+      {
+        "target_id": "kvasir-seg::cju5vutu7ll8w0871dfp92n9p",
+        "route_id": "1249401955fd081aed22e1b2",
+        "dice": 0.9760626722762222
+      },
+      {
+        "target_id": "kvasir-seg::cju5wcc90lu020850mjrxppv6",
+        "route_id": "412d0b2f4ef1a2498cdd7c5d",
+        "dice": 0.6377081292850147
+      },
+      {
+        "target_id": "kvasir-seg::cju5x7iskmad90818frchyfwd",
+        "route_id": "829a32c35197abc357bf6c40",
+        "dice": 0.8631969142914392
+      },
+      {
+        "target_id": "kvasir-seg::cju5yimthmlv80850zhoc90c2",
+        "route_id": "15153a56188f24d4af9a4845",
+        "dice": 0.9312169312169312
+      },
+      {
+        "target_id": "kvasir-seg::cju6uy20suzbl0987rzuhz7z9",
+        "route_id": "e21eb8e032fa9233799a177a",
+        "dice": 0.9658026375625284
+      },
+      {
+        "target_id": "kvasir-seg::cju6vgdmivcvb08018fra5lnv",
+        "route_id": "57b45983e2679238314d91a1",
+        "dice": 0.9685286037881343
+      },
+      {
+        "target_id": "kvasir-seg::cju6vifjlv55z0987un6y4zdo",
+        "route_id": "25ed0bf9621c508589a36628",
+        "dice": 0.35462874165969516
+      },
+      {
+        "target_id": "kvasir-seg::cju6vqarjv7yo0987q4b1btk1",
+        "route_id": "2ce8876e42954826dcce7ba0",
+        "dice": 0.9268391816826989
+      },
+      {
+        "target_id": "kvasir-seg::cju6wuojavt740818b5qcv3iw",
+        "route_id": "6757cf4639d7daa4b5249583",
+        "dice": 0.9444444444444444
+      },
+      {
+        "target_id": "kvasir-seg::cju6x35ervu2808015c7eoqe4",
+        "route_id": "c5523239ffaa7c308df5f895",
+        "dice": 0.9572289156626506
+      },
+      {
+        "target_id": "kvasir-seg::cju6x97w4vwua0850x0997r0a",
+        "route_id": "a0156825a558bc782a829f8d",
+        "dice": 0.9354938590153783
+      },
+      {
+        "target_id": "kvasir-seg::cju6xlygpw7bs0818n691jsq4",
+        "route_id": "79cbedcf12ad729ac74c51ca",
+        "dice": 0.5548036000837229
+      },
+      {
+        "target_id": "kvasir-seg::cju77u1sjz77b0817ft44r3fk",
+        "route_id": "b940aac11877d4fdcd5cb8b2",
+        "dice": 0.945789763346175
+      },
+      {
+        "target_id": "kvasir-seg::cju7afqon1ip40850ue2308b6",
+        "route_id": "6e8857ef77b8dcb27dae731d",
+        "dice": 0.9644853666557054
+      },
+      {
+        "target_id": "kvasir-seg::cju7agj961l2r0818z29iq8yn",
+        "route_id": "8aa0746fcbf6751032a95962",
+        "dice": 0.966389591615468
+      },
+      {
+        "target_id": "kvasir-seg::cju7ap09p1kz10850ldccjebj",
+        "route_id": "09531b856749224509432856",
+        "dice": 0.9355678490074846
+      },
+      {
+        "target_id": "kvasir-seg::cju7atnm31if40817pqclnjer",
+        "route_id": "99f16d51b8609beae60625ad",
+        "dice": 0.9109124537607891
+      },
+      {
+        "target_id": "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+        "route_id": "5e47edb5c7d172ca86f92eb5",
+        "dice": 0.5782871972318339
+      },
+      {
+        "target_id": "kvasir-seg::cju7bd1qu1mx409877xjxibox",
+        "route_id": "71aed58b126b4101b69aafb4",
+        "dice": 0.9472331677231455
+      },
+      {
+        "target_id": "kvasir-seg::cju7cufm7298k0755j09uf3of",
+        "route_id": "fac994d6d645be90046bd2f8",
+        "dice": 0.9272978576364893
+      },
+      {
+        "target_id": "kvasir-seg::cju7dda8w2br20818zhsuz8s7",
+        "route_id": "c13e7e5bb74c224dd1fb2045",
+        "dice": 0.5644383594261563
+      },
+      {
+        "target_id": "kvasir-seg::cju7ehljc2or70871261br8ai",
+        "route_id": "cac15abe0cfc41f6bbbf5db8",
+        "dice": 0.7174325049168604
+      },
+      {
+        "target_id": "kvasir-seg::cju7ekbo32pft0871fv7kzwb9",
+        "route_id": "95714408604e335bfda9d912",
+        "dice": 0.9494367304165575
+      },
+      {
+        "target_id": "kvasir-seg::cju7eotqi2qea0871y8yc7tqh",
+        "route_id": "cf07045c637282a619fce9e7",
+        "dice": 0.485298811846072
+      },
+      {
+        "target_id": "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+        "route_id": "b72ee531cf16d5859ca913dc",
+        "dice": 0.9098317362106693
+      },
+      {
+        "target_id": "kvasir-seg::cju7f0ec32txj08184asb8w5f",
+        "route_id": "b4e8da31ce4e1cfed826196b",
+        "dice": 0.9535353535353536
+      },
+      {
+        "target_id": "kvasir-seg::cju7fbndk2sl608015ravktum",
+        "route_id": "c315f0b532150342b78a075b",
+        "dice": 0.9647461007050779
+      },
+      {
+        "target_id": "kvasir-seg::cju849c23kgnk0817cgv2hw1e",
+        "route_id": "58125fe777243249eac6a6b9",
+        "dice": 0.9000969932104753
+      },
+      {
+        "target_id": "kvasir-seg::cju858eswlepn0871pzvdrhj1",
+        "route_id": "d836be31627125aa54cc97f3",
+        "dice": 0.9803128001097544
+      },
+      {
+        "target_id": "kvasir-seg::cju85a8h8llwm07559wxg4t5w",
+        "route_id": "71e4a5d8872b67256d692e3e",
+        "dice": 0.9660246120920278
+      },
+      {
+        "target_id": "kvasir-seg::cju85rkbnlo1c08503uxcpax1",
+        "route_id": "f93bf9bf63578d0c50c16f30",
+        "dice": 0.9763908474730474
+      },
+      {
+        "target_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+        "route_id": "c377da2051eee7dbee9a47e5",
+        "dice": 0.5891046221270958
+      },
+      {
+        "target_id": "kvasir-seg::cju87r56lnkyp0755hz30leew",
+        "route_id": "75cded1af4911d6855fc7bb4",
+        "dice": 0.9350252737994945
+      },
+      {
+        "target_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+        "route_id": "8a2d327c55efcd4811b262b8",
+        "dice": 0.9356720907476533
+      },
+      {
+        "target_id": "kvasir-seg::cju88oh0po9gq0801nge4tgr1",
+        "route_id": "50b1b1c449dd9784ddeda42e",
+        "dice": 0.976913730255164
+      },
+      {
+        "target_id": "kvasir-seg::cju88y1mwoln50871emyfny1g",
+        "route_id": "95264d54a7acd27cd994216d",
+        "dice": 0.9623663131516534
+      },
+      {
+        "target_id": "kvasir-seg::cju8aeei7q8k308173n9y4klv",
+        "route_id": "ccdbe6c596bab433b6b1d31b",
+        "dice": 0.9613774961138347
+      },
+      {
+        "target_id": "kvasir-seg::cju8alhigqn2h0801zksudldd",
+        "route_id": "a580b259bc413ffb9f1a2b01",
+        "dice": 0.9766350210970464
+      },
+      {
+        "target_id": "kvasir-seg::cju8at3s1qqqx0850hcq8nmnq",
+        "route_id": "4c679ff4bce2474f6f986cb5",
+        "dice": 0.0
+      },
+      {
+        "target_id": "kvasir-seg::cju8bw697rwg308177tg8huas",
+        "route_id": "49fe92d6b11291cb0011a0d5",
+        "dice": 0.517685218555321
+      },
+      {
+        "target_id": "kvasir-seg::cju8chdlqsu620755azjty1tj",
+        "route_id": "3fbccd76fc45c72d36cafa52",
+        "dice": 0.9286046872574888
+      },
+      {
+        "target_id": "kvasir-seg::cju8cwy02t9eq08185qn12c02",
+        "route_id": "e27a4ba9eee051baa70304c9",
+        "dice": 0.9002756607750932
+      },
+      {
+        "target_id": "kvasir-seg::cju8d2q30tfhs0801n7lx77xl",
+        "route_id": "01632da0a9cb2eef987908c0",
+        "dice": 0.9596593036315987
+      }
+    ],
+    "centered_top1": [
+      {
+        "target_id": "kvasir-seg::cju0s2a9ekvms080138tjjpxr",
+        "route_id": "8c7500ecbfb60ff941d929f1",
+        "dice": 0.9577086768145393
+      },
+      {
+        "target_id": "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+        "route_id": "33283e31e24ad890c8a267c2",
+        "dice": 0.9545177664974619
+      },
+      {
+        "target_id": "kvasir-seg::cju1csmlc4ht10799b8ymmghg",
+        "route_id": "20b9933293537aa652f9d2c4",
+        "dice": 0.9108294175499946
+      },
+      {
+        "target_id": "kvasir-seg::cju1cu1u2474n0878tt7v4tdr",
+        "route_id": "b8a216f1cc5200f20be1c69d",
+        "dice": 0.7180925666199158
+      },
+      {
+        "target_id": "kvasir-seg::cju1d96gsv62d09881b3wecw2",
+        "route_id": "48d36dca62d64c8938880d9b",
+        "dice": 0.8679103969496834
+      },
+      {
+        "target_id": "kvasir-seg::cju1djtprvd7b0988thwwrg09",
+        "route_id": "5afd0c3290ed0dd5800e6f45",
+        "dice": 0.9672736869886513
+      },
+      {
+        "target_id": "kvasir-seg::cju1euuc65wm00799m4sjdnnn",
+        "route_id": "0ce3dd3ab9edbc0adc859631",
+        "dice": 0.9666110183639399
+      },
+      {
+        "target_id": "kvasir-seg::cju1ewnoh5z030855vpex9uzt",
+        "route_id": "fb5d572b7e6b6eb44940f9fc",
+        "dice": 0.9616459627329192
+      },
+      {
+        "target_id": "kvasir-seg::cju1fmsyf6gxb0801cimx2gle",
+        "route_id": "2e6a6e761c6ba22a418a056a",
+        "dice": 0.9404324765401877
+      },
+      {
+        "target_id": "kvasir-seg::cju1fyb1d69et0878muzdak9u",
+        "route_id": "88a67dc9919165b72d080c7b",
+        "dice": 0.9627874990448537
+      },
+      {
+        "target_id": "kvasir-seg::cju2htabevq9108015qjei0x7",
+        "route_id": "8c1cb3f76ba5a98c0a64b0e2",
+        "dice": 0.9705344164172723
+      },
+      {
+        "target_id": "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+        "route_id": "685d7e8f19ab5c3cd9b95412",
+        "dice": 0.9863275039745628
+      },
+      {
+        "target_id": "kvasir-seg::cju2pag1f0s4r0878h52uq83s",
+        "route_id": "e9380a8b0e6091b2dc3b0e82",
+        "dice": 0.9021688250897176
+      },
+      {
+        "target_id": "kvasir-seg::cju2qfie4rvz508357kad9z5o",
+        "route_id": "8fcfc41629f0d7b3fc8ee56d",
+        "dice": 0.936327853669831
+      },
+      {
+        "target_id": "kvasir-seg::cju2t2ivz43i10878zeg8r1br",
+        "route_id": "301e5da0102589de9dc4cf5e",
+        "dice": 0.9488448844884488
+      },
+      {
+        "target_id": "kvasir-seg::cju2tzypl4wss0799ow05oxb9",
+        "route_id": "4880c98e4e61b7443ce78d49",
+        "dice": 0.9846509790643869
+      },
+      {
+        "target_id": "kvasir-seg::cju2uzabhs6er0993x3aaf87p",
+        "route_id": "7b2f02a839be89d087c48567",
+        "dice": 0.0
+      },
+      {
+        "target_id": "kvasir-seg::cju2wve9v7esz0878mxsdcy04",
+        "route_id": "13130d2acfcc3750773c9f65",
+        "dice": 0.9606458123107972
+      },
+      {
+        "target_id": "kvasir-seg::cju2y26c588bo07993ksd8eoz",
+        "route_id": "e937faaa10ac1b5a1bcaa2f6",
+        "dice": 0.9776095868811101
+      },
+      {
+        "target_id": "kvasir-seg::cju2yi9tz8vky0801yqip0xyl",
+        "route_id": "c02bf84c325d8c27d3e23d54",
+        "dice": 0.0
+      },
+      {
+        "target_id": "kvasir-seg::cju2zo0fwzv580988qlijd2xa",
+        "route_id": "55a523f8ec455853ab27c0d9",
+        "dice": 0.7976457998929909
+      },
+      {
+        "target_id": "kvasir-seg::cju2zpw4q9vzr0801p0lysjdl",
+        "route_id": "c3e775071a49098e394ac788",
+        "dice": 0.9379379379379379
+      },
+      {
+        "target_id": "kvasir-seg::cju303j5r062k098835zxfds5",
+        "route_id": "52aef0d3aa6c06e20da49ac5",
+        "dice": 0.9833813016433015
+      },
+      {
+        "target_id": "kvasir-seg::cju30mm25a53s0799qa5wiqe8",
+        "route_id": "35f6392830bd7f1b47322006",
+        "dice": 0.6044692737430167
+      },
+      {
+        "target_id": "kvasir-seg::cju3128yi0rpu0988o4oo5n8n",
+        "route_id": "2a6e305da26e19b07c76386c",
+        "dice": 0.9801904761904762
+      },
+      {
+        "target_id": "kvasir-seg::cju32qr9tbvsj08013pkpjenq",
+        "route_id": "f6a4ff1e4e5b3256cdd06c2b",
+        "dice": 0.4597333333333333
+      },
+      {
+        "target_id": "kvasir-seg::cju32srle1xfq083575i3fl75",
+        "route_id": "37be98aa7bc70b8c14b9b474",
+        "dice": 0.9588801399825022
+      },
+      {
+        "target_id": "kvasir-seg::cju33x0f22peh0988g0ln7w5v",
+        "route_id": "6b67042559a0cc48989bbac4",
+        "dice": 0.8675414706610547
+      },
+      {
+        "target_id": "kvasir-seg::cju34fojcctcf0799ebolbvkn",
+        "route_id": "cbbfd62dcf0ce16c2dae7749",
+        "dice": 0.9466975666280417
+      },
+      {
+        "target_id": "kvasir-seg::cju358pwtdby20878cg7nm0np",
+        "route_id": "d445e47d6d5ad3b90729a449",
+        "dice": 0.965034965034965
+      },
+      {
+        "target_id": "kvasir-seg::cju35fxqyzt5p0993vusm54qz",
+        "route_id": "db8873d6263bfd76a940d2d3",
+        "dice": 0.9619349722442506
+      },
+      {
+        "target_id": "kvasir-seg::cju3tx1qyg0c907552fglumhc",
+        "route_id": "118e1969ad5325a860f435b0",
+        "dice": 0.9705589814999005
+      },
+      {
+        "target_id": "kvasir-seg::cju3u39fog1bo0871lxjrabks",
+        "route_id": "b0a786a514670a10c0173bdd",
+        "dice": 0.992371766768961
+      },
+      {
+        "target_id": "kvasir-seg::cju3x2s11ibzi0817kk284k0j",
+        "route_id": "79f7576e341b7e3fbe0fecda",
+        "dice": 0.9184391736801836
+      },
+      {
+        "target_id": "kvasir-seg::cju3xjqtpikx50817tppy6g84",
+        "route_id": "f9fcd629c49b90a3d6592247",
+        "dice": 0.9678277325967981
+      },
+      {
+        "target_id": "kvasir-seg::cju3xwpgviwlx0871rwm15q7v",
+        "route_id": "21b1db087c6977e583ca8414",
+        "dice": 0.9068441064638784
+      },
+      {
+        "target_id": "kvasir-seg::cju3xzvnzj0hd0755xprz39nj",
+        "route_id": "7be219bcd6dd00421d403215",
+        "dice": 0.9520672268907563
+      },
+      {
+        "target_id": "kvasir-seg::cju3yht87j83m08507yk1u1fg",
+        "route_id": "1997b74fc962b5c63fa3515e",
+        "dice": 0.5002262865053377
+      },
+      {
+        "target_id": "kvasir-seg::cju42g865lorv07552ytz6xxa",
+        "route_id": "a46e6b77838d9822764eaaeb",
+        "dice": 0.9488510007412898
+      },
+      {
+        "target_id": "kvasir-seg::cju42nm68lpyo0818xvvqmupq",
+        "route_id": "8e6aaad2a7e8a68e41af886a",
+        "dice": 0.8526668550894335
+      },
+      {
+        "target_id": "kvasir-seg::cju42romflni20817etb9a0fl",
+        "route_id": "7a9454be18596c495ac61175",
+        "dice": 0.5213785723839672
+      },
+      {
+        "target_id": "kvasir-seg::cju45n0oxn5vu08500yfrt9jn",
+        "route_id": "f8bf57f509971c1d445c0d5a",
+        "dice": 0.9827295365089566
+      },
+      {
+        "target_id": "kvasir-seg::cju45rj7ln8980850a7821fov",
+        "route_id": "6dd3a385dac915e56cdbf9d7",
+        "dice": 0.8308024230354327
+      },
+      {
+        "target_id": "kvasir-seg::cju45ty6zn9oz0850qy4qnck1",
+        "route_id": "464cef9adf14cd752871ba72",
+        "dice": 0.9739640130861504
+      },
+      {
+        "target_id": "kvasir-seg::cju5bbtwsa8cl0987wgfsqpao",
+        "route_id": "44ef429ff3e5b9aab7a95bdb",
+        "dice": 0.9543332014246142
+      },
+      {
+        "target_id": "kvasir-seg::cju5bycdkalkb09875f7bfrvx",
+        "route_id": "779c690c0b5c0d7336a87e77",
+        "dice": 0.45799180327868855
+      },
+      {
+        "target_id": "kvasir-seg::cju5cjh3xattc0817j2vbulzi",
+        "route_id": "4bd3ec9bd193d267d1a76ad6",
+        "dice": 0.6396929473852551
+      },
+      {
+        "target_id": "kvasir-seg::cju5ekty5ckzf07550c9u3ckk",
+        "route_id": "0299b0af0edeb2baf8ba471d",
+        "dice": 0.979923419227983
+      },
+      {
+        "target_id": "kvasir-seg::cju5ew4h9cqaf0818rrczkmqh",
+        "route_id": "7e855fcd244bc4b020fb3923",
+        "dice": 0.9354665952604097
+      },
+      {
+        "target_id": "kvasir-seg::cju5fi0yxd3ei0801v7u0yudn",
+        "route_id": "3c8185203a3f1606b28b3fd0",
+        "dice": 0.20583520359089452
+      },
+      {
+        "target_id": "kvasir-seg::cju5gucasds9d0801019axylx",
+        "route_id": "1e764768227ca04a0d358fb7",
+        "dice": 0.9632352941176471
+      },
+      {
+        "target_id": "kvasir-seg::cju5hl8nee8a40755fm8qjj0o",
+        "route_id": "025a55a7d80768f636e4b139",
+        "dice": 0.9696110848685247
+      },
+      {
+        "target_id": "kvasir-seg::cju5hyi9yegob0755ho3do8en",
+        "route_id": "f8fbfdf1ec3d16aec87136eb",
+        "dice": 0.9024435739600821
+      },
+      {
+        "target_id": "kvasir-seg::cju5i39mreass0817au8p22zy",
+        "route_id": "3547d21cb04696769aa17178",
+        "dice": 0.9408525831290059
+      },
+      {
+        "target_id": "kvasir-seg::cju5k3j3uf6de0817hszzfr7n",
+        "route_id": "04db82cdf3f480c43fb8b8b1",
+        "dice": 0.939524348810872
+      },
+      {
+        "target_id": "kvasir-seg::cju5klveuff6w0871wbibgh3m",
+        "route_id": "b3b48f683a85befbc2fac102",
+        "dice": 0.9019607843137255
+      },
+      {
+        "target_id": "kvasir-seg::cju5u8gz4kj5b07552e2wpkwp",
+        "route_id": "93b3c0e7d43d16ad4ac978cb",
+        "dice": 0.23830356683308457
+      },
+      {
+        "target_id": "kvasir-seg::cju5vutu7ll8w0871dfp92n9p",
+        "route_id": "fb8609fcbd73386b152ea8cf",
+        "dice": 0.9787999611008461
+      },
+      {
+        "target_id": "kvasir-seg::cju5wcc90lu020850mjrxppv6",
+        "route_id": "eb5e32505ecf3de81d31b9fc",
+        "dice": 0.9723099522585383
+      },
+      {
+        "target_id": "kvasir-seg::cju5x7iskmad90818frchyfwd",
+        "route_id": "b68aded7ebbfaa9950324502",
+        "dice": 0.6792728237791932
+      },
+      {
+        "target_id": "kvasir-seg::cju5yimthmlv80850zhoc90c2",
+        "route_id": "2b31357a29114b61e5f505c7",
+        "dice": 0.9467419502517931
+      },
+      {
+        "target_id": "kvasir-seg::cju6uy20suzbl0987rzuhz7z9",
+        "route_id": "d17773e92e003ab0172394cd",
+        "dice": 0.9600329625051504
+      },
+      {
+        "target_id": "kvasir-seg::cju6vgdmivcvb08018fra5lnv",
+        "route_id": "3f32204efcef1f485b714c0f",
+        "dice": 0.96809075549119
+      },
+      {
+        "target_id": "kvasir-seg::cju6vifjlv55z0987un6y4zdo",
+        "route_id": "e6bc8047b608f342831bbbbd",
+        "dice": 0.9631754902449977
+      },
+      {
+        "target_id": "kvasir-seg::cju6vqarjv7yo0987q4b1btk1",
+        "route_id": "2ce8876e42954826dcce7ba0",
+        "dice": 0.9268391816826989
+      },
+      {
+        "target_id": "kvasir-seg::cju6wuojavt740818b5qcv3iw",
+        "route_id": "5293fe32400d98f1f9b8c7af",
+        "dice": 0.48336192109777015
+      },
+      {
+        "target_id": "kvasir-seg::cju6x35ervu2808015c7eoqe4",
+        "route_id": "c5523239ffaa7c308df5f895",
+        "dice": 0.9572289156626506
+      },
+      {
+        "target_id": "kvasir-seg::cju6x97w4vwua0850x0997r0a",
+        "route_id": "8d4040ba24604c8942bc3c77",
+        "dice": 0.9312739711827511
+      },
+      {
+        "target_id": "kvasir-seg::cju6xlygpw7bs0818n691jsq4",
+        "route_id": "b3c06dfc4fe7434967ec4913",
+        "dice": 0.9071017986278509
+      },
+      {
+        "target_id": "kvasir-seg::cju77u1sjz77b0817ft44r3fk",
+        "route_id": "2b93bdf22913953f6adc848a",
+        "dice": 0.9706510138740662
+      },
+      {
+        "target_id": "kvasir-seg::cju7afqon1ip40850ue2308b6",
+        "route_id": "40b05161b4070b39e4f06c72",
+        "dice": 0.9678682107323439
+      },
+      {
+        "target_id": "kvasir-seg::cju7agj961l2r0818z29iq8yn",
+        "route_id": "662d0c3d83bc5809532f0f6e",
+        "dice": 0.9501849568434032
+      },
+      {
+        "target_id": "kvasir-seg::cju7ap09p1kz10850ldccjebj",
+        "route_id": "479ff78c420695f4ed1a889c",
+        "dice": 0.9397668393782384
+      },
+      {
+        "target_id": "kvasir-seg::cju7atnm31if40817pqclnjer",
+        "route_id": "dedca291455f78ee4eb23dcd",
+        "dice": 0.8928366163331417
+      },
+      {
+        "target_id": "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+        "route_id": "b2c197ca46771544d2a59466",
+        "dice": 0.6499641156129706
+      },
+      {
+        "target_id": "kvasir-seg::cju7bd1qu1mx409877xjxibox",
+        "route_id": "71aed58b126b4101b69aafb4",
+        "dice": 0.9472331677231455
+      },
+      {
+        "target_id": "kvasir-seg::cju7cufm7298k0755j09uf3of",
+        "route_id": "c6cf8433f99b537b2aec4e44",
+        "dice": 0.9247714048212802
+      },
+      {
+        "target_id": "kvasir-seg::cju7dda8w2br20818zhsuz8s7",
+        "route_id": "f1313265bdc6ef5e12ee4386",
+        "dice": 0.9796772897413666
+      },
+      {
+        "target_id": "kvasir-seg::cju7ehljc2or70871261br8ai",
+        "route_id": "cac15abe0cfc41f6bbbf5db8",
+        "dice": 0.7174325049168604
+      },
+      {
+        "target_id": "kvasir-seg::cju7ekbo32pft0871fv7kzwb9",
+        "route_id": "7ec8d14a6087aab1b99ecd17",
+        "dice": 0.9645708582834331
+      },
+      {
+        "target_id": "kvasir-seg::cju7eotqi2qea0871y8yc7tqh",
+        "route_id": "024140a1f7eb0407cf1bfa4f",
+        "dice": 0.475775798997127
+      },
+      {
+        "target_id": "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+        "route_id": "c46049c82470f0f7a0ee984e",
+        "dice": 0.9703621354400738
+      },
+      {
+        "target_id": "kvasir-seg::cju7f0ec32txj08184asb8w5f",
+        "route_id": "d63a8e373addc00a469126de",
+        "dice": 0.9543449755632376
+      },
+      {
+        "target_id": "kvasir-seg::cju7fbndk2sl608015ravktum",
+        "route_id": "c315f0b532150342b78a075b",
+        "dice": 0.9647461007050779
+      },
+      {
+        "target_id": "kvasir-seg::cju849c23kgnk0817cgv2hw1e",
+        "route_id": "7ecb8d21bb8cf8b7b13d8f08",
+        "dice": 0.9145533268534064
+      },
+      {
+        "target_id": "kvasir-seg::cju858eswlepn0871pzvdrhj1",
+        "route_id": "d836be31627125aa54cc97f3",
+        "dice": 0.9803128001097544
+      },
+      {
+        "target_id": "kvasir-seg::cju85a8h8llwm07559wxg4t5w",
+        "route_id": "e666a02f7d79bc69b08837fb",
+        "dice": 0.969890754063416
+      },
+      {
+        "target_id": "kvasir-seg::cju85rkbnlo1c08503uxcpax1",
+        "route_id": "f93bf9bf63578d0c50c16f30",
+        "dice": 0.9763908474730474
+      },
+      {
+        "target_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+        "route_id": "483527b9cf5d82454bb379a4",
+        "dice": 0.0
+      },
+      {
+        "target_id": "kvasir-seg::cju87r56lnkyp0755hz30leew",
+        "route_id": "8ba8e2749cbeb0b405937017",
+        "dice": 0.9369842854890419
+      },
+      {
+        "target_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+        "route_id": "c82be10be6307c7930f8aa0e",
+        "dice": 0.9460315149750719
+      },
+      {
+        "target_id": "kvasir-seg::cju88oh0po9gq0801nge4tgr1",
+        "route_id": "2adf4d867114f2a782cfdf1b",
+        "dice": 0.9774829111379172
+      },
+      {
+        "target_id": "kvasir-seg::cju88y1mwoln50871emyfny1g",
+        "route_id": "95264d54a7acd27cd994216d",
+        "dice": 0.9623663131516534
+      },
+      {
+        "target_id": "kvasir-seg::cju8aeei7q8k308173n9y4klv",
+        "route_id": "c06d69d468333599eebb7fee",
+        "dice": 0.9748731862687271
+      },
+      {
+        "target_id": "kvasir-seg::cju8alhigqn2h0801zksudldd",
+        "route_id": "cac6098b85c60e8f1e0ec684",
+        "dice": 0.9744714587737844
+      },
+      {
+        "target_id": "kvasir-seg::cju8at3s1qqqx0850hcq8nmnq",
+        "route_id": "08e7fc0f625b3e00ea1df5d4",
+        "dice": 0.7110783952889216
+      },
+      {
+        "target_id": "kvasir-seg::cju8bw697rwg308177tg8huas",
+        "route_id": "49fe92d6b11291cb0011a0d5",
+        "dice": 0.517685218555321
+      },
+      {
+        "target_id": "kvasir-seg::cju8chdlqsu620755azjty1tj",
+        "route_id": "100749137c1f3d9c955b6c1b",
+        "dice": 0.9420689655172414
+      },
+      {
+        "target_id": "kvasir-seg::cju8cwy02t9eq08185qn12c02",
+        "route_id": "d2585e75d652516610552924",
+        "dice": 0.9037929350480222
+      },
+      {
+        "target_id": "kvasir-seg::cju8d2q30tfhs0801n7lx77xl",
+        "route_id": "9d82f7fdba56b89819d023c5",
+        "dice": 0.9762222324426252
+      }
+    ],
+    "raw_top2": [
+      {
+        "target_id": "kvasir-seg::cju0s2a9ekvms080138tjjpxr",
+        "route_id": "cf0b0db4d0911fb4092d3bfb",
+        "dice": 0.9754960914010824
+      },
+      {
+        "target_id": "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+        "route_id": "9786c77b98d4a81faa849515",
+        "dice": 0.9760544307560194
+      },
+      {
+        "target_id": "kvasir-seg::cju1csmlc4ht10799b8ymmghg",
+        "route_id": "972ae611e8d0246db310a531",
+        "dice": 0.9110324349017817
+      },
+      {
+        "target_id": "kvasir-seg::cju1cu1u2474n0878tt7v4tdr",
+        "route_id": "2299053818a14f089f1a71c6",
+        "dice": 0.7272727272727273
+      },
+      {
+        "target_id": "kvasir-seg::cju1d96gsv62d09881b3wecw2",
+        "route_id": "e3a89da515095b533ca0db38",
+        "dice": 0.8740053499475163
+      },
+      {
+        "target_id": "kvasir-seg::cju1djtprvd7b0988thwwrg09",
+        "route_id": "2ececeee8e8249abe5d61a1a",
+        "dice": 0.9689051476352234
+      },
+      {
+        "target_id": "kvasir-seg::cju1euuc65wm00799m4sjdnnn",
+        "route_id": "ba53e7608be10a935c1f6392",
+        "dice": 0.9638151014432127
+      },
+      {
+        "target_id": "kvasir-seg::cju1ewnoh5z030855vpex9uzt",
+        "route_id": "fb5d572b7e6b6eb44940f9fc",
+        "dice": 0.9616459627329192
+      },
+      {
+        "target_id": "kvasir-seg::cju1fmsyf6gxb0801cimx2gle",
+        "route_id": "18650a8d57668e4dbd35140e",
+        "dice": 0.9265268161620337
+      },
+      {
+        "target_id": "kvasir-seg::cju1fyb1d69et0878muzdak9u",
+        "route_id": "88a67dc9919165b72d080c7b",
+        "dice": 0.9627874990448537
+      },
+      {
+        "target_id": "kvasir-seg::cju2htabevq9108015qjei0x7",
+        "route_id": "809016e946407b444c4b15e3",
+        "dice": 0.9730494037478705
+      },
+      {
+        "target_id": "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+        "route_id": "dc4cb133463f7146b212a625",
+        "dice": 0.9790915645277577
+      },
+      {
+        "target_id": "kvasir-seg::cju2pag1f0s4r0878h52uq83s",
+        "route_id": "633b8b30e600d38f5b7d4b44",
+        "dice": 0.9396538750940557
+      },
+      {
+        "target_id": "kvasir-seg::cju2qfie4rvz508357kad9z5o",
+        "route_id": "8fcfc41629f0d7b3fc8ee56d",
+        "dice": 0.936327853669831
+      },
+      {
+        "target_id": "kvasir-seg::cju2t2ivz43i10878zeg8r1br",
+        "route_id": "890eacaf1614145a6f992fcb",
+        "dice": 0.9478420944978523
+      },
+      {
+        "target_id": "kvasir-seg::cju2tzypl4wss0799ow05oxb9",
+        "route_id": "1317f2a75af8131b2847033c",
+        "dice": 0.9861036424871933
+      },
+      {
+        "target_id": "kvasir-seg::cju2uzabhs6er0993x3aaf87p",
+        "route_id": "e737e2303fecbeb917a22930",
+        "dice": 0.49382716049382713
+      },
+      {
+        "target_id": "kvasir-seg::cju2wve9v7esz0878mxsdcy04",
+        "route_id": "3d914418983e65cacdaf0f53",
+        "dice": 0.9714774671990872
+      },
+      {
+        "target_id": "kvasir-seg::cju2y26c588bo07993ksd8eoz",
+        "route_id": "5d262993f628692b61538f14",
+        "dice": 0.9652071512686008
+      },
+      {
+        "target_id": "kvasir-seg::cju2yi9tz8vky0801yqip0xyl",
+        "route_id": "e6751bf4f7a2598cdd258881",
+        "dice": 0.9473684210526315
+      },
+      {
+        "target_id": "kvasir-seg::cju2zo0fwzv580988qlijd2xa",
+        "route_id": "79eefcf123a93c984ffe7f77",
+        "dice": 0.80039482342619
+      },
+      {
+        "target_id": "kvasir-seg::cju2zpw4q9vzr0801p0lysjdl",
+        "route_id": "c3e775071a49098e394ac788",
+        "dice": 0.9379379379379379
+      },
+      {
+        "target_id": "kvasir-seg::cju303j5r062k098835zxfds5",
+        "route_id": "52aef0d3aa6c06e20da49ac5",
+        "dice": 0.9833813016433015
+      },
+      {
+        "target_id": "kvasir-seg::cju30mm25a53s0799qa5wiqe8",
+        "route_id": "1f902304f94c1ca23d057f2b",
+        "dice": 0.8754640566992913
+      },
+      {
+        "target_id": "kvasir-seg::cju3128yi0rpu0988o4oo5n8n",
+        "route_id": "21445ef14037b9bc44fab6f3",
+        "dice": 0.9782857142857143
+      },
+      {
+        "target_id": "kvasir-seg::cju32qr9tbvsj08013pkpjenq",
+        "route_id": "f6a4ff1e4e5b3256cdd06c2b",
+        "dice": 0.4597333333333333
+      },
+      {
+        "target_id": "kvasir-seg::cju32srle1xfq083575i3fl75",
+        "route_id": "9e3866303edacdbf88534c50",
+        "dice": 0.9579497387409803
+      },
+      {
+        "target_id": "kvasir-seg::cju33x0f22peh0988g0ln7w5v",
+        "route_id": "f3fa41de3c06782bec0178ab",
+        "dice": 0.863760896637609
+      },
+      {
+        "target_id": "kvasir-seg::cju34fojcctcf0799ebolbvkn",
+        "route_id": "d60f2ba9537fae53f38ece9d",
+        "dice": 0.917239318792949
+      },
+      {
+        "target_id": "kvasir-seg::cju358pwtdby20878cg7nm0np",
+        "route_id": "5199e8b0013766007e859b4e",
+        "dice": 0.9677751114158382
+      },
+      {
+        "target_id": "kvasir-seg::cju35fxqyzt5p0993vusm54qz",
+        "route_id": "eaf741d481654e583ecd6c11",
+        "dice": 0.9669266462632047
+      },
+      {
+        "target_id": "kvasir-seg::cju3tx1qyg0c907552fglumhc",
+        "route_id": "31dad03aeeca38143b673a49",
+        "dice": 0.9741251115296917
+      },
+      {
+        "target_id": "kvasir-seg::cju3u39fog1bo0871lxjrabks",
+        "route_id": "95780df6bd6c519a3912d8c0",
+        "dice": 0.9921991410290122
+      },
+      {
+        "target_id": "kvasir-seg::cju3x2s11ibzi0817kk284k0j",
+        "route_id": "39020336265f0ddaf953b8ee",
+        "dice": 0.9110645886640304
+      },
+      {
+        "target_id": "kvasir-seg::cju3xjqtpikx50817tppy6g84",
+        "route_id": "3d70b36e02026201f4cacf74",
+        "dice": 0.965630619059851
+      },
+      {
+        "target_id": "kvasir-seg::cju3xwpgviwlx0871rwm15q7v",
+        "route_id": "c1c2dbf0868802983ed3a0c1",
+        "dice": 0.17092227746831656
+      },
+      {
+        "target_id": "kvasir-seg::cju3xzvnzj0hd0755xprz39nj",
+        "route_id": "0f7c8b4b0b694ebaebb23b06",
+        "dice": 0.9471527324311545
+      },
+      {
+        "target_id": "kvasir-seg::cju3yht87j83m08507yk1u1fg",
+        "route_id": "1997b74fc962b5c63fa3515e",
+        "dice": 0.5002262865053377
+      },
+      {
+        "target_id": "kvasir-seg::cju42g865lorv07552ytz6xxa",
+        "route_id": "a46e6b77838d9822764eaaeb",
+        "dice": 0.9488510007412898
+      },
+      {
+        "target_id": "kvasir-seg::cju42nm68lpyo0818xvvqmupq",
+        "route_id": "8e6aaad2a7e8a68e41af886a",
+        "dice": 0.8526668550894335
+      },
+      {
+        "target_id": "kvasir-seg::cju42romflni20817etb9a0fl",
+        "route_id": "7a9454be18596c495ac61175",
+        "dice": 0.5213785723839672
+      },
+      {
+        "target_id": "kvasir-seg::cju45n0oxn5vu08500yfrt9jn",
+        "route_id": "b1b4c0f49e0e4498ad0c271e",
+        "dice": 0.9712625121084921
+      },
+      {
+        "target_id": "kvasir-seg::cju45rj7ln8980850a7821fov",
+        "route_id": "6dd3a385dac915e56cdbf9d7",
+        "dice": 0.8308024230354327
+      },
+      {
+        "target_id": "kvasir-seg::cju45ty6zn9oz0850qy4qnck1",
+        "route_id": "49b5db1106a39813a396479b",
+        "dice": 0.9465552356204789
+      },
+      {
+        "target_id": "kvasir-seg::cju5bbtwsa8cl0987wgfsqpao",
+        "route_id": "9bad7f9fe1c56b0c14c41bfe",
+        "dice": 0.935676285668225
+      },
+      {
+        "target_id": "kvasir-seg::cju5bycdkalkb09875f7bfrvx",
+        "route_id": "8d46ba85a07ea22f532bb9ad",
+        "dice": 0.7201886281937304
+      },
+      {
+        "target_id": "kvasir-seg::cju5cjh3xattc0817j2vbulzi",
+        "route_id": "e4b678dfe61f3d6d6914c2d6",
+        "dice": 0.6142297650130548
+      },
+      {
+        "target_id": "kvasir-seg::cju5ekty5ckzf07550c9u3ckk",
+        "route_id": "59cc7bceaf55d847b0cdcf7e",
+        "dice": 0.9795580396418776
+      },
+      {
+        "target_id": "kvasir-seg::cju5ew4h9cqaf0818rrczkmqh",
+        "route_id": "c460140bca9d6184408deb7b",
+        "dice": 0.9266284171447857
+      },
+      {
+        "target_id": "kvasir-seg::cju5fi0yxd3ei0801v7u0yudn",
+        "route_id": "b648b4ed20e2df43377ea82e",
+        "dice": 0.2147483806676632
+      },
+      {
+        "target_id": "kvasir-seg::cju5gucasds9d0801019axylx",
+        "route_id": "e8aeb9cae96765af6405d1fe",
+        "dice": 0.838125
+      },
+      {
+        "target_id": "kvasir-seg::cju5hl8nee8a40755fm8qjj0o",
+        "route_id": "6e75ec124fd4ddbb7aaf794c",
+        "dice": 0.9515543632633738
+      },
+      {
+        "target_id": "kvasir-seg::cju5hyi9yegob0755ho3do8en",
+        "route_id": "3eb43bc367e49d3d7c448602",
+        "dice": 0.8918057378586162
+      },
+      {
+        "target_id": "kvasir-seg::cju5i39mreass0817au8p22zy",
+        "route_id": "a1b35a635f7c06c868968b3d",
+        "dice": 0.9495086987962057
+      },
+      {
+        "target_id": "kvasir-seg::cju5k3j3uf6de0817hszzfr7n",
+        "route_id": "6b92869fefdca62cbec1f3d6",
+        "dice": 0.9244935543278084
+      },
+      {
+        "target_id": "kvasir-seg::cju5klveuff6w0871wbibgh3m",
+        "route_id": "4efcb89faaafd2ee80430b63",
+        "dice": 0.8874497543546226
+      },
+      {
+        "target_id": "kvasir-seg::cju5u8gz4kj5b07552e2wpkwp",
+        "route_id": "65349260d88c5c58c5ccc991",
+        "dice": 0.0
+      },
+      {
+        "target_id": "kvasir-seg::cju5vutu7ll8w0871dfp92n9p",
+        "route_id": "d5ca302026a236bfb1e678eb",
+        "dice": 0.9703517340042425
+      },
+      {
+        "target_id": "kvasir-seg::cju5wcc90lu020850mjrxppv6",
+        "route_id": "412d0b2f4ef1a2498cdd7c5d",
+        "dice": 0.6377081292850147
+      },
+      {
+        "target_id": "kvasir-seg::cju5x7iskmad90818frchyfwd",
+        "route_id": "a7e5691567baeee74b2760ec",
+        "dice": 0.007651625970518735
+      },
+      {
+        "target_id": "kvasir-seg::cju5yimthmlv80850zhoc90c2",
+        "route_id": "88bf515af133ced30adf88ad",
+        "dice": 0.933519726623175
+      },
+      {
+        "target_id": "kvasir-seg::cju6uy20suzbl0987rzuhz7z9",
+        "route_id": "4afa1693ede489fa19a2f32b",
+        "dice": 0.9528336717740447
+      },
+      {
+        "target_id": "kvasir-seg::cju6vgdmivcvb08018fra5lnv",
+        "route_id": "57b45983e2679238314d91a1",
+        "dice": 0.9685286037881343
+      },
+      {
+        "target_id": "kvasir-seg::cju6vifjlv55z0987un6y4zdo",
+        "route_id": "25ed0bf9621c508589a36628",
+        "dice": 0.35462874165969516
+      },
+      {
+        "target_id": "kvasir-seg::cju6vqarjv7yo0987q4b1btk1",
+        "route_id": "3f6b35cba2815300c61a2ed7",
+        "dice": 0.9151135989463286
+      },
+      {
+        "target_id": "kvasir-seg::cju6wuojavt740818b5qcv3iw",
+        "route_id": "6757cf4639d7daa4b5249583",
+        "dice": 0.9444444444444444
+      },
+      {
+        "target_id": "kvasir-seg::cju6x35ervu2808015c7eoqe4",
+        "route_id": "5af22913cbf20f959baf19b8",
+        "dice": 0.9707846410684474
+      },
+      {
+        "target_id": "kvasir-seg::cju6x97w4vwua0850x0997r0a",
+        "route_id": "a0156825a558bc782a829f8d",
+        "dice": 0.9354938590153783
+      },
+      {
+        "target_id": "kvasir-seg::cju6xlygpw7bs0818n691jsq4",
+        "route_id": "7a5c1c9252c29ee3090c5364",
+        "dice": 0.1346433770014556
+      },
+      {
+        "target_id": "kvasir-seg::cju77u1sjz77b0817ft44r3fk",
+        "route_id": "d6ed07256872dd047f02fb18",
+        "dice": 0.9566279780085523
+      },
+      {
+        "target_id": "kvasir-seg::cju7afqon1ip40850ue2308b6",
+        "route_id": "f6e3336bb456c3407f6230cb",
+        "dice": 0.9641447368421052
+      },
+      {
+        "target_id": "kvasir-seg::cju7agj961l2r0818z29iq8yn",
+        "route_id": "a1a418eda3c5e7c1ed519866",
+        "dice": 0.9531653349723417
+      },
+      {
+        "target_id": "kvasir-seg::cju7ap09p1kz10850ldccjebj",
+        "route_id": "09531b856749224509432856",
+        "dice": 0.9355678490074846
+      },
+      {
+        "target_id": "kvasir-seg::cju7atnm31if40817pqclnjer",
+        "route_id": "c2e6a5f8b9e00debf92a5e34",
+        "dice": 0.836624972569673
+      },
+      {
+        "target_id": "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+        "route_id": "b2c197ca46771544d2a59466",
+        "dice": 0.6499641156129706
+      },
+      {
+        "target_id": "kvasir-seg::cju7bd1qu1mx409877xjxibox",
+        "route_id": "6d0de7982a10ddaf947a031d",
+        "dice": 0.9576795861250106
+      },
+      {
+        "target_id": "kvasir-seg::cju7cufm7298k0755j09uf3of",
+        "route_id": "68c43e3f78291e2bf380cf79",
+        "dice": 0.9199081483543247
+      },
+      {
+        "target_id": "kvasir-seg::cju7dda8w2br20818zhsuz8s7",
+        "route_id": "575aacbc75141d7a647c8266",
+        "dice": 0.9822647232285786
+      },
+      {
+        "target_id": "kvasir-seg::cju7ehljc2or70871261br8ai",
+        "route_id": "cac15abe0cfc41f6bbbf5db8",
+        "dice": 0.7174325049168604
+      },
+      {
+        "target_id": "kvasir-seg::cju7ekbo32pft0871fv7kzwb9",
+        "route_id": "5ca6f227aa8782e5e5cd7039",
+        "dice": 0.955177743431221
+      },
+      {
+        "target_id": "kvasir-seg::cju7eotqi2qea0871y8yc7tqh",
+        "route_id": "024140a1f7eb0407cf1bfa4f",
+        "dice": 0.475775798997127
+      },
+      {
+        "target_id": "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+        "route_id": "b72ee531cf16d5859ca913dc",
+        "dice": 0.9098317362106693
+      },
+      {
+        "target_id": "kvasir-seg::cju7f0ec32txj08184asb8w5f",
+        "route_id": "fd7b7b8225c0ce5e382519ab",
+        "dice": 0.947204223662107
+      },
+      {
+        "target_id": "kvasir-seg::cju7fbndk2sl608015ravktum",
+        "route_id": "c315f0b532150342b78a075b",
+        "dice": 0.9647461007050779
+      },
+      {
+        "target_id": "kvasir-seg::cju849c23kgnk0817cgv2hw1e",
+        "route_id": "2a046c4b0700ce07ff55e440",
+        "dice": 0.9232442229270503
+      },
+      {
+        "target_id": "kvasir-seg::cju858eswlepn0871pzvdrhj1",
+        "route_id": "c45b8bf789bae6279264f773",
+        "dice": 0.9798330298553612
+      },
+      {
+        "target_id": "kvasir-seg::cju85a8h8llwm07559wxg4t5w",
+        "route_id": "71e4a5d8872b67256d692e3e",
+        "dice": 0.9660246120920278
+      },
+      {
+        "target_id": "kvasir-seg::cju85rkbnlo1c08503uxcpax1",
+        "route_id": "f93bf9bf63578d0c50c16f30",
+        "dice": 0.9763908474730474
+      },
+      {
+        "target_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+        "route_id": "c377da2051eee7dbee9a47e5",
+        "dice": 0.5891046221270958
+      },
+      {
+        "target_id": "kvasir-seg::cju87r56lnkyp0755hz30leew",
+        "route_id": "75cded1af4911d6855fc7bb4",
+        "dice": 0.9350252737994945
+      },
+      {
+        "target_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+        "route_id": "073fa64918960727d9e208e1",
+        "dice": 0.9424484488203604
+      },
+      {
+        "target_id": "kvasir-seg::cju88oh0po9gq0801nge4tgr1",
+        "route_id": "7ababa7ba845d21de42c1d78",
+        "dice": 0.8916887709991158
+      },
+      {
+        "target_id": "kvasir-seg::cju88y1mwoln50871emyfny1g",
+        "route_id": "95264d54a7acd27cd994216d",
+        "dice": 0.9623663131516534
+      },
+      {
+        "target_id": "kvasir-seg::cju8aeei7q8k308173n9y4klv",
+        "route_id": "ccdbe6c596bab433b6b1d31b",
+        "dice": 0.9613774961138347
+      },
+      {
+        "target_id": "kvasir-seg::cju8alhigqn2h0801zksudldd",
+        "route_id": "2852c2e2e9c0ee14b9ffa939",
+        "dice": 0.9769096947651431
+      },
+      {
+        "target_id": "kvasir-seg::cju8at3s1qqqx0850hcq8nmnq",
+        "route_id": "e008b1777f8ef5a39b417c12",
+        "dice": 0.9169496758258722
+      },
+      {
+        "target_id": "kvasir-seg::cju8bw697rwg308177tg8huas",
+        "route_id": "49fe92d6b11291cb0011a0d5",
+        "dice": 0.517685218555321
+      },
+      {
+        "target_id": "kvasir-seg::cju8chdlqsu620755azjty1tj",
+        "route_id": "675f7ac5d293e7a45661c1b9",
+        "dice": 0.9517084282460136
+      },
+      {
+        "target_id": "kvasir-seg::cju8cwy02t9eq08185qn12c02",
+        "route_id": "e27a4ba9eee051baa70304c9",
+        "dice": 0.9002756607750932
+      },
+      {
+        "target_id": "kvasir-seg::cju8d2q30tfhs0801n7lx77xl",
+        "route_id": "bfcf370778a4bd8df718696b",
+        "dice": 0.9663861639313776
+      }
+    ],
+    "centered_top2": [
+      {
+        "target_id": "kvasir-seg::cju0s2a9ekvms080138tjjpxr",
+        "route_id": "cf0b0db4d0911fb4092d3bfb",
+        "dice": 0.9754960914010824
+      },
+      {
+        "target_id": "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+        "route_id": "9786c77b98d4a81faa849515",
+        "dice": 0.9760544307560194
+      },
+      {
+        "target_id": "kvasir-seg::cju1csmlc4ht10799b8ymmghg",
+        "route_id": "bed29525c0874d80ce3903ee",
+        "dice": 0.9185045275262486
+      },
+      {
+        "target_id": "kvasir-seg::cju1cu1u2474n0878tt7v4tdr",
+        "route_id": "b8a216f1cc5200f20be1c69d",
+        "dice": 0.7180925666199158
+      },
+      {
+        "target_id": "kvasir-seg::cju1d96gsv62d09881b3wecw2",
+        "route_id": "e3a89da515095b533ca0db38",
+        "dice": 0.8740053499475163
+      },
+      {
+        "target_id": "kvasir-seg::cju1djtprvd7b0988thwwrg09",
+        "route_id": "4d6093315b7683604ca163de",
+        "dice": 0.17126907501887484
+      },
+      {
+        "target_id": "kvasir-seg::cju1euuc65wm00799m4sjdnnn",
+        "route_id": "47263ed0fe0f80756d7ae02d",
+        "dice": 0.9616914381410927
+      },
+      {
+        "target_id": "kvasir-seg::cju1ewnoh5z030855vpex9uzt",
+        "route_id": "5916f09580a3b2ec5b37d1b1",
+        "dice": 0.9692864290662766
+      },
+      {
+        "target_id": "kvasir-seg::cju1fmsyf6gxb0801cimx2gle",
+        "route_id": "18650a8d57668e4dbd35140e",
+        "dice": 0.9265268161620337
+      },
+      {
+        "target_id": "kvasir-seg::cju1fyb1d69et0878muzdak9u",
+        "route_id": "88a67dc9919165b72d080c7b",
+        "dice": 0.9627874990448537
+      },
+      {
+        "target_id": "kvasir-seg::cju2htabevq9108015qjei0x7",
+        "route_id": "809016e946407b444c4b15e3",
+        "dice": 0.9730494037478705
+      },
+      {
+        "target_id": "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+        "route_id": "685d7e8f19ab5c3cd9b95412",
+        "dice": 0.9863275039745628
+      },
+      {
+        "target_id": "kvasir-seg::cju2pag1f0s4r0878h52uq83s",
+        "route_id": "e9380a8b0e6091b2dc3b0e82",
+        "dice": 0.9021688250897176
+      },
+      {
+        "target_id": "kvasir-seg::cju2qfie4rvz508357kad9z5o",
+        "route_id": "8fcfc41629f0d7b3fc8ee56d",
+        "dice": 0.936327853669831
+      },
+      {
+        "target_id": "kvasir-seg::cju2t2ivz43i10878zeg8r1br",
+        "route_id": "7aab8a213063d28cfc890eb8",
+        "dice": 0.9457300839647758
+      },
+      {
+        "target_id": "kvasir-seg::cju2tzypl4wss0799ow05oxb9",
+        "route_id": "8055a5054c16bc55f4dded20",
+        "dice": 0.98566460259564
+      },
+      {
+        "target_id": "kvasir-seg::cju2uzabhs6er0993x3aaf87p",
+        "route_id": "e737e2303fecbeb917a22930",
+        "dice": 0.49382716049382713
+      },
+      {
+        "target_id": "kvasir-seg::cju2wve9v7esz0878mxsdcy04",
+        "route_id": "3d914418983e65cacdaf0f53",
+        "dice": 0.9714774671990872
+      },
+      {
+        "target_id": "kvasir-seg::cju2y26c588bo07993ksd8eoz",
+        "route_id": "e937faaa10ac1b5a1bcaa2f6",
+        "dice": 0.9776095868811101
+      },
+      {
+        "target_id": "kvasir-seg::cju2yi9tz8vky0801yqip0xyl",
+        "route_id": "c02bf84c325d8c27d3e23d54",
+        "dice": 0.0
+      },
+      {
+        "target_id": "kvasir-seg::cju2zo0fwzv580988qlijd2xa",
+        "route_id": "a3dd2735e146e9a3acb1b4e2",
+        "dice": 0.7971282497552485
+      },
+      {
+        "target_id": "kvasir-seg::cju2zpw4q9vzr0801p0lysjdl",
+        "route_id": "c3e775071a49098e394ac788",
+        "dice": 0.9379379379379379
+      },
+      {
+        "target_id": "kvasir-seg::cju303j5r062k098835zxfds5",
+        "route_id": "52aef0d3aa6c06e20da49ac5",
+        "dice": 0.9833813016433015
+      },
+      {
+        "target_id": "kvasir-seg::cju30mm25a53s0799qa5wiqe8",
+        "route_id": "35f6392830bd7f1b47322006",
+        "dice": 0.6044692737430167
+      },
+      {
+        "target_id": "kvasir-seg::cju3128yi0rpu0988o4oo5n8n",
+        "route_id": "c51d4419829413a4ab62d1ca",
+        "dice": 0.9795151287352002
+      },
+      {
+        "target_id": "kvasir-seg::cju32qr9tbvsj08013pkpjenq",
+        "route_id": "15a9b2b7b9c44779d7f7cbe6",
+        "dice": 0.6458721291123526
+      },
+      {
+        "target_id": "kvasir-seg::cju32srle1xfq083575i3fl75",
+        "route_id": "9e3866303edacdbf88534c50",
+        "dice": 0.9579497387409803
+      },
+      {
+        "target_id": "kvasir-seg::cju33x0f22peh0988g0ln7w5v",
+        "route_id": "89686e77d84d0c46fca44291",
+        "dice": 0.8507499385296288
+      },
+      {
+        "target_id": "kvasir-seg::cju34fojcctcf0799ebolbvkn",
+        "route_id": "d60f2ba9537fae53f38ece9d",
+        "dice": 0.917239318792949
+      },
+      {
+        "target_id": "kvasir-seg::cju358pwtdby20878cg7nm0np",
+        "route_id": "d445e47d6d5ad3b90729a449",
+        "dice": 0.965034965034965
+      },
+      {
+        "target_id": "kvasir-seg::cju35fxqyzt5p0993vusm54qz",
+        "route_id": "db8873d6263bfd76a940d2d3",
+        "dice": 0.9619349722442506
+      },
+      {
+        "target_id": "kvasir-seg::cju3tx1qyg0c907552fglumhc",
+        "route_id": "0da5965fed975ee57baf19b5",
+        "dice": 0.972678677489606
+      },
+      {
+        "target_id": "kvasir-seg::cju3u39fog1bo0871lxjrabks",
+        "route_id": "b0a786a514670a10c0173bdd",
+        "dice": 0.992371766768961
+      },
+      {
+        "target_id": "kvasir-seg::cju3x2s11ibzi0817kk284k0j",
+        "route_id": "79f7576e341b7e3fbe0fecda",
+        "dice": 0.9184391736801836
+      },
+      {
+        "target_id": "kvasir-seg::cju3xjqtpikx50817tppy6g84",
+        "route_id": "6e6d5ccefe98f3fa1521e1fd",
+        "dice": 0.9702127659574468
+      },
+      {
+        "target_id": "kvasir-seg::cju3xwpgviwlx0871rwm15q7v",
+        "route_id": "109f593b4441c4e56f833730",
+        "dice": 0.876022963234396
+      },
+      {
+        "target_id": "kvasir-seg::cju3xzvnzj0hd0755xprz39nj",
+        "route_id": "0f7c8b4b0b694ebaebb23b06",
+        "dice": 0.9471527324311545
+      },
+      {
+        "target_id": "kvasir-seg::cju3yht87j83m08507yk1u1fg",
+        "route_id": "1997b74fc962b5c63fa3515e",
+        "dice": 0.5002262865053377
+      },
+      {
+        "target_id": "kvasir-seg::cju42g865lorv07552ytz6xxa",
+        "route_id": "fb27f7c74131676d9e9bcb46",
+        "dice": 0.981496666547827
+      },
+      {
+        "target_id": "kvasir-seg::cju42nm68lpyo0818xvvqmupq",
+        "route_id": "8e6aaad2a7e8a68e41af886a",
+        "dice": 0.8526668550894335
+      },
+      {
+        "target_id": "kvasir-seg::cju42romflni20817etb9a0fl",
+        "route_id": "7a9454be18596c495ac61175",
+        "dice": 0.5213785723839672
+      },
+      {
+        "target_id": "kvasir-seg::cju45n0oxn5vu08500yfrt9jn",
+        "route_id": "4dd6bf0638c8bfcf85652c9d",
+        "dice": 0.9850244254024185
+      },
+      {
+        "target_id": "kvasir-seg::cju45rj7ln8980850a7821fov",
+        "route_id": "2e77cd8aa44f58a4aee36eae",
+        "dice": 0.8172477682331144
+      },
+      {
+        "target_id": "kvasir-seg::cju45ty6zn9oz0850qy4qnck1",
+        "route_id": "c96ffefc5def3f391f4fdbb9",
+        "dice": 0.9563282336578581
+      },
+      {
+        "target_id": "kvasir-seg::cju5bbtwsa8cl0987wgfsqpao",
+        "route_id": "44ef429ff3e5b9aab7a95bdb",
+        "dice": 0.9543332014246142
+      },
+      {
+        "target_id": "kvasir-seg::cju5bycdkalkb09875f7bfrvx",
+        "route_id": "4c6be24039d0119764853eee",
+        "dice": 0.45111797174665547
+      },
+      {
+        "target_id": "kvasir-seg::cju5cjh3xattc0817j2vbulzi",
+        "route_id": "618a8910f2aafc30c74158e1",
+        "dice": 0.6241295546558705
+      },
+      {
+        "target_id": "kvasir-seg::cju5ekty5ckzf07550c9u3ckk",
+        "route_id": "59cc7bceaf55d847b0cdcf7e",
+        "dice": 0.9795580396418776
+      },
+      {
+        "target_id": "kvasir-seg::cju5ew4h9cqaf0818rrczkmqh",
+        "route_id": "d4eb0e5068e379bf39e52a1e",
+        "dice": 0.9351101587088998
+      },
+      {
+        "target_id": "kvasir-seg::cju5fi0yxd3ei0801v7u0yudn",
+        "route_id": "bd4ccfb1bb25458ccede58e8",
+        "dice": 0.20581550278234972
+      },
+      {
+        "target_id": "kvasir-seg::cju5gucasds9d0801019axylx",
+        "route_id": "808780f794a67a609bf11b24",
+        "dice": 0.924904214559387
+      },
+      {
+        "target_id": "kvasir-seg::cju5hl8nee8a40755fm8qjj0o",
+        "route_id": "025a55a7d80768f636e4b139",
+        "dice": 0.9696110848685247
+      },
+      {
+        "target_id": "kvasir-seg::cju5hyi9yegob0755ho3do8en",
+        "route_id": "f8fbfdf1ec3d16aec87136eb",
+        "dice": 0.9024435739600821
+      },
+      {
+        "target_id": "kvasir-seg::cju5i39mreass0817au8p22zy",
+        "route_id": "a1b35a635f7c06c868968b3d",
+        "dice": 0.9495086987962057
+      },
+      {
+        "target_id": "kvasir-seg::cju5k3j3uf6de0817hszzfr7n",
+        "route_id": "04db82cdf3f480c43fb8b8b1",
+        "dice": 0.939524348810872
+      },
+      {
+        "target_id": "kvasir-seg::cju5klveuff6w0871wbibgh3m",
+        "route_id": "b3b48f683a85befbc2fac102",
+        "dice": 0.9019607843137255
+      },
+      {
+        "target_id": "kvasir-seg::cju5u8gz4kj5b07552e2wpkwp",
+        "route_id": "93b3c0e7d43d16ad4ac978cb",
+        "dice": 0.23830356683308457
+      },
+      {
+        "target_id": "kvasir-seg::cju5vutu7ll8w0871dfp92n9p",
+        "route_id": "61d2c72e3d19fb0b1d5edec3",
+        "dice": 0.9794070395793778
+      },
+      {
+        "target_id": "kvasir-seg::cju5wcc90lu020850mjrxppv6",
+        "route_id": "eb5e32505ecf3de81d31b9fc",
+        "dice": 0.9723099522585383
+      },
+      {
+        "target_id": "kvasir-seg::cju5x7iskmad90818frchyfwd",
+        "route_id": "b68aded7ebbfaa9950324502",
+        "dice": 0.6792728237791932
+      },
+      {
+        "target_id": "kvasir-seg::cju5yimthmlv80850zhoc90c2",
+        "route_id": "6cf75379e3262676a6f93320",
+        "dice": 0.9359193173002327
+      },
+      {
+        "target_id": "kvasir-seg::cju6uy20suzbl0987rzuhz7z9",
+        "route_id": "d17773e92e003ab0172394cd",
+        "dice": 0.9600329625051504
+      },
+      {
+        "target_id": "kvasir-seg::cju6vgdmivcvb08018fra5lnv",
+        "route_id": "25ec25a1341c3ef012c9969c",
+        "dice": 0.9774744678820273
+      },
+      {
+        "target_id": "kvasir-seg::cju6vifjlv55z0987un6y4zdo",
+        "route_id": "25ed0bf9621c508589a36628",
+        "dice": 0.35462874165969516
+      },
+      {
+        "target_id": "kvasir-seg::cju6vqarjv7yo0987q4b1btk1",
+        "route_id": "e7603384ba66a15284de1769",
+        "dice": 0.8985083357706932
+      },
+      {
+        "target_id": "kvasir-seg::cju6wuojavt740818b5qcv3iw",
+        "route_id": "6757cf4639d7daa4b5249583",
+        "dice": 0.9444444444444444
+      },
+      {
+        "target_id": "kvasir-seg::cju6x35ervu2808015c7eoqe4",
+        "route_id": "653a173fe02976f0ca9d725d",
+        "dice": 0.9663911416094823
+      },
+      {
+        "target_id": "kvasir-seg::cju6x97w4vwua0850x0997r0a",
+        "route_id": "41031b84f4d5c04427c50b94",
+        "dice": 0.9289867109634552
+      },
+      {
+        "target_id": "kvasir-seg::cju6xlygpw7bs0818n691jsq4",
+        "route_id": "33985c48d719c46ab99d6927",
+        "dice": 0.13641523999818356
+      },
+      {
+        "target_id": "kvasir-seg::cju77u1sjz77b0817ft44r3fk",
+        "route_id": "1846cefaea2c57b44f90ba56",
+        "dice": 0.9359250260326275
+      },
+      {
+        "target_id": "kvasir-seg::cju7afqon1ip40850ue2308b6",
+        "route_id": "71d585629e08d0094fdf93c7",
+        "dice": 0.968431277319087
+      },
+      {
+        "target_id": "kvasir-seg::cju7agj961l2r0818z29iq8yn",
+        "route_id": "4ecc2e82b3ccbfb674b7890f",
+        "dice": 0.9514778325123153
+      },
+      {
+        "target_id": "kvasir-seg::cju7ap09p1kz10850ldccjebj",
+        "route_id": "124c572455b64bba9c4e51e9",
+        "dice": 0.9315068493150684
+      },
+      {
+        "target_id": "kvasir-seg::cju7atnm31if40817pqclnjer",
+        "route_id": "500a7bb2ccf4e0967c9c4268",
+        "dice": 0.8694260721143588
+      },
+      {
+        "target_id": "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+        "route_id": "b2c197ca46771544d2a59466",
+        "dice": 0.6499641156129706
+      },
+      {
+        "target_id": "kvasir-seg::cju7bd1qu1mx409877xjxibox",
+        "route_id": "6d0de7982a10ddaf947a031d",
+        "dice": 0.9576795861250106
+      },
+      {
+        "target_id": "kvasir-seg::cju7cufm7298k0755j09uf3of",
+        "route_id": "c1c07e19c07fe2b33b155033",
+        "dice": 0.9450295576544132
+      },
+      {
+        "target_id": "kvasir-seg::cju7dda8w2br20818zhsuz8s7",
+        "route_id": "83c67936d5b12b32d13bbbee",
+        "dice": 0.9788089844825031
+      },
+      {
+        "target_id": "kvasir-seg::cju7ehljc2or70871261br8ai",
+        "route_id": "cac15abe0cfc41f6bbbf5db8",
+        "dice": 0.7174325049168604
+      },
+      {
+        "target_id": "kvasir-seg::cju7ekbo32pft0871fv7kzwb9",
+        "route_id": "a23f91aca9bb9bf901d44d1a",
+        "dice": 0.9675606641123883
+      },
+      {
+        "target_id": "kvasir-seg::cju7eotqi2qea0871y8yc7tqh",
+        "route_id": "77d5d5bd64883959efa3e91f",
+        "dice": 0.9169889537675994
+      },
+      {
+        "target_id": "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+        "route_id": "de9ab734be7d757d579b4497",
+        "dice": 0.9717471416422564
+      },
+      {
+        "target_id": "kvasir-seg::cju7f0ec32txj08184asb8w5f",
+        "route_id": "b4e8da31ce4e1cfed826196b",
+        "dice": 0.9535353535353536
+      },
+      {
+        "target_id": "kvasir-seg::cju7fbndk2sl608015ravktum",
+        "route_id": "bd61720526a5776152b699bf",
+        "dice": 0.970104845565316
+      },
+      {
+        "target_id": "kvasir-seg::cju849c23kgnk0817cgv2hw1e",
+        "route_id": "7ecb8d21bb8cf8b7b13d8f08",
+        "dice": 0.9145533268534064
+      },
+      {
+        "target_id": "kvasir-seg::cju858eswlepn0871pzvdrhj1",
+        "route_id": "d836be31627125aa54cc97f3",
+        "dice": 0.9803128001097544
+      },
+      {
+        "target_id": "kvasir-seg::cju85a8h8llwm07559wxg4t5w",
+        "route_id": "e666a02f7d79bc69b08837fb",
+        "dice": 0.969890754063416
+      },
+      {
+        "target_id": "kvasir-seg::cju85rkbnlo1c08503uxcpax1",
+        "route_id": "f93bf9bf63578d0c50c16f30",
+        "dice": 0.9763908474730474
+      },
+      {
+        "target_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+        "route_id": "c377da2051eee7dbee9a47e5",
+        "dice": 0.5891046221270958
+      },
+      {
+        "target_id": "kvasir-seg::cju87r56lnkyp0755hz30leew",
+        "route_id": "8ba8e2749cbeb0b405937017",
+        "dice": 0.9369842854890419
+      },
+      {
+        "target_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+        "route_id": "40558af3ccea26a13daabe1c",
+        "dice": 0.9450320915056115
+      },
+      {
+        "target_id": "kvasir-seg::cju88oh0po9gq0801nge4tgr1",
+        "route_id": "2adf4d867114f2a782cfdf1b",
+        "dice": 0.9774829111379172
+      },
+      {
+        "target_id": "kvasir-seg::cju88y1mwoln50871emyfny1g",
+        "route_id": "95264d54a7acd27cd994216d",
+        "dice": 0.9623663131516534
+      },
+      {
+        "target_id": "kvasir-seg::cju8aeei7q8k308173n9y4klv",
+        "route_id": "ca931e7c813aee5a8dbb1e93",
+        "dice": 0.9665516009998809
+      },
+      {
+        "target_id": "kvasir-seg::cju8alhigqn2h0801zksudldd",
+        "route_id": "2852c2e2e9c0ee14b9ffa939",
+        "dice": 0.9769096947651431
+      },
+      {
+        "target_id": "kvasir-seg::cju8at3s1qqqx0850hcq8nmnq",
+        "route_id": "137970ad3a9652a44c428223",
+        "dice": 0.930783242258652
+      },
+      {
+        "target_id": "kvasir-seg::cju8bw697rwg308177tg8huas",
+        "route_id": "49fe92d6b11291cb0011a0d5",
+        "dice": 0.517685218555321
+      },
+      {
+        "target_id": "kvasir-seg::cju8chdlqsu620755azjty1tj",
+        "route_id": "675f7ac5d293e7a45661c1b9",
+        "dice": 0.9517084282460136
+      },
+      {
+        "target_id": "kvasir-seg::cju8cwy02t9eq08185qn12c02",
+        "route_id": "e79cebd5ebc20fb50e1e266d",
+        "dice": 0.9010422380691169
+      },
+      {
+        "target_id": "kvasir-seg::cju8d2q30tfhs0801n7lx77xl",
+        "route_id": "bfcf370778a4bd8df718696b",
+        "dice": 0.9663861639313776
+      }
+    ],
+    "original_per_bridge": [
+      {
+        "target_id": "kvasir-seg::cju0s2a9ekvms080138tjjpxr",
+        "route_id": "b06bee7eebcadd9b34613614",
+        "dice": 0.9802878129216009
+      },
+      {
+        "target_id": "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+        "route_id": "1b1ed4d175a7639b23725932",
+        "dice": 0.9604253600753803
+      },
+      {
+        "target_id": "kvasir-seg::cju1csmlc4ht10799b8ymmghg",
+        "route_id": "083c0cb712b505879725f8a6",
+        "dice": 0.9065861690450054
+      },
+      {
+        "target_id": "kvasir-seg::cju1cu1u2474n0878tt7v4tdr",
+        "route_id": "83817a24acf386af8110b527",
+        "dice": 0.7201458523245214
+      },
+      {
+        "target_id": "kvasir-seg::cju1d96gsv62d09881b3wecw2",
+        "route_id": "e3a89da515095b533ca0db38",
+        "dice": 0.8740053499475163
+      },
+      {
+        "target_id": "kvasir-seg::cju1djtprvd7b0988thwwrg09",
+        "route_id": "bd8c8e499929d5be1a6e60b6",
+        "dice": 0.9251923804718052
+      },
+      {
+        "target_id": "kvasir-seg::cju1euuc65wm00799m4sjdnnn",
+        "route_id": "dd833ca3169eb150e6a1fce1",
+        "dice": 0.9687180535677775
+      },
+      {
+        "target_id": "kvasir-seg::cju1ewnoh5z030855vpex9uzt",
+        "route_id": "fb5d572b7e6b6eb44940f9fc",
+        "dice": 0.9616459627329192
+      },
+      {
+        "target_id": "kvasir-seg::cju1fmsyf6gxb0801cimx2gle",
+        "route_id": "175757dc7adb90cf02b6bfef",
+        "dice": 0.9372890025575448
+      },
+      {
+        "target_id": "kvasir-seg::cju1fyb1d69et0878muzdak9u",
+        "route_id": "61a0a21f671381c3bdc4b8be",
+        "dice": 0.9527448533998752
+      },
+      {
+        "target_id": "kvasir-seg::cju2htabevq9108015qjei0x7",
+        "route_id": "8c1cb3f76ba5a98c0a64b0e2",
+        "dice": 0.9705344164172723
+      },
+      {
+        "target_id": "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+        "route_id": "4d19c32688a5c06f84531120",
+        "dice": 0.9765537176810664
+      },
+      {
+        "target_id": "kvasir-seg::cju2pag1f0s4r0878h52uq83s",
+        "route_id": "e9380a8b0e6091b2dc3b0e82",
+        "dice": 0.9021688250897176
+      },
+      {
+        "target_id": "kvasir-seg::cju2qfie4rvz508357kad9z5o",
+        "route_id": "8fcfc41629f0d7b3fc8ee56d",
+        "dice": 0.936327853669831
+      },
+      {
+        "target_id": "kvasir-seg::cju2t2ivz43i10878zeg8r1br",
+        "route_id": "64c7169529f50526523dc699",
+        "dice": 0.9639697950377561
+      },
+      {
+        "target_id": "kvasir-seg::cju2tzypl4wss0799ow05oxb9",
+        "route_id": "8055a5054c16bc55f4dded20",
+        "dice": 0.98566460259564
+      },
+      {
+        "target_id": "kvasir-seg::cju2uzabhs6er0993x3aaf87p",
+        "route_id": "7b2f02a839be89d087c48567",
+        "dice": 0.0
+      },
+      {
+        "target_id": "kvasir-seg::cju2wve9v7esz0878mxsdcy04",
+        "route_id": "3d914418983e65cacdaf0f53",
+        "dice": 0.9714774671990872
+      },
+      {
+        "target_id": "kvasir-seg::cju2y26c588bo07993ksd8eoz",
+        "route_id": "7f6c396e857dafbcd77fe497",
+        "dice": 0.9601550721516261
+      },
+      {
+        "target_id": "kvasir-seg::cju2yi9tz8vky0801yqip0xyl",
+        "route_id": "8423ba7dfe26be1b8ce62b46",
+        "dice": 0.9341787813176616
+      },
+      {
+        "target_id": "kvasir-seg::cju2zo0fwzv580988qlijd2xa",
+        "route_id": "f55316ebf36cb967b6c62a26",
+        "dice": 0.7953841222352815
+      },
+      {
+        "target_id": "kvasir-seg::cju2zpw4q9vzr0801p0lysjdl",
+        "route_id": "67ac1b426d723c1062650f94",
+        "dice": 0.944831013916501
+      },
+      {
+        "target_id": "kvasir-seg::cju303j5r062k098835zxfds5",
+        "route_id": "d10e00f7adf717ae3a124ae4",
+        "dice": 0.9776105362182502
+      },
+      {
+        "target_id": "kvasir-seg::cju30mm25a53s0799qa5wiqe8",
+        "route_id": "1f902304f94c1ca23d057f2b",
+        "dice": 0.8754640566992913
+      },
+      {
+        "target_id": "kvasir-seg::cju3128yi0rpu0988o4oo5n8n",
+        "route_id": "1d2bcd93d1ae3c06db0c82d3",
+        "dice": 0.9710312862108922
+      },
+      {
+        "target_id": "kvasir-seg::cju32qr9tbvsj08013pkpjenq",
+        "route_id": "f6a4ff1e4e5b3256cdd06c2b",
+        "dice": 0.4597333333333333
+      },
+      {
+        "target_id": "kvasir-seg::cju32srle1xfq083575i3fl75",
+        "route_id": "7c8ad973d342bee2bd85cb20",
+        "dice": 0.9525125628140704
+      },
+      {
+        "target_id": "kvasir-seg::cju33x0f22peh0988g0ln7w5v",
+        "route_id": "f3fa41de3c06782bec0178ab",
+        "dice": 0.863760896637609
+      },
+      {
+        "target_id": "kvasir-seg::cju34fojcctcf0799ebolbvkn",
+        "route_id": "4dc561fb73d12fff732138d2",
+        "dice": 0.9583808437856328
+      },
+      {
+        "target_id": "kvasir-seg::cju358pwtdby20878cg7nm0np",
+        "route_id": "89ba906f1dcccfc8c3dc6714",
+        "dice": 0.9651776292648611
+      },
+      {
+        "target_id": "kvasir-seg::cju35fxqyzt5p0993vusm54qz",
+        "route_id": "eaf741d481654e583ecd6c11",
+        "dice": 0.9669266462632047
+      },
+      {
+        "target_id": "kvasir-seg::cju3tx1qyg0c907552fglumhc",
+        "route_id": "a1e9d96573e48e915865a48b",
+        "dice": 0.9687655922562618
+      },
+      {
+        "target_id": "kvasir-seg::cju3u39fog1bo0871lxjrabks",
+        "route_id": "142c5c65c49efcd7076f0732",
+        "dice": 0.9891044379484454
+      },
+      {
+        "target_id": "kvasir-seg::cju3x2s11ibzi0817kk284k0j",
+        "route_id": "bf9d22563444d010e0654a8a",
+        "dice": 0.9011523085364898
+      },
+      {
+        "target_id": "kvasir-seg::cju3xjqtpikx50817tppy6g84",
+        "route_id": "3d70b36e02026201f4cacf74",
+        "dice": 0.965630619059851
+      },
+      {
+        "target_id": "kvasir-seg::cju3xwpgviwlx0871rwm15q7v",
+        "route_id": "4207cb347b90171cb360d926",
+        "dice": 0.8595512582124706
+      },
+      {
+        "target_id": "kvasir-seg::cju3xzvnzj0hd0755xprz39nj",
+        "route_id": "0f7c8b4b0b694ebaebb23b06",
+        "dice": 0.9471527324311545
+      },
+      {
+        "target_id": "kvasir-seg::cju3yht87j83m08507yk1u1fg",
+        "route_id": "1997b74fc962b5c63fa3515e",
+        "dice": 0.5002262865053377
+      },
+      {
+        "target_id": "kvasir-seg::cju42g865lorv07552ytz6xxa",
+        "route_id": "8404a715c8203f4b5ecc0d09",
+        "dice": 0.9227203647416413
+      },
+      {
+        "target_id": "kvasir-seg::cju42nm68lpyo0818xvvqmupq",
+        "route_id": "8e6aaad2a7e8a68e41af886a",
+        "dice": 0.8526668550894335
+      },
+      {
+        "target_id": "kvasir-seg::cju42romflni20817etb9a0fl",
+        "route_id": "7a9454be18596c495ac61175",
+        "dice": 0.5213785723839672
+      },
+      {
+        "target_id": "kvasir-seg::cju45n0oxn5vu08500yfrt9jn",
+        "route_id": "bda4c4eec1167cc96b0bbe95",
+        "dice": 0.9710156694000163
+      },
+      {
+        "target_id": "kvasir-seg::cju45rj7ln8980850a7821fov",
+        "route_id": "f1b0f5e0aa43424a15dcde31",
+        "dice": 0.8209731543624161
+      },
+      {
+        "target_id": "kvasir-seg::cju45ty6zn9oz0850qy4qnck1",
+        "route_id": "464cef9adf14cd752871ba72",
+        "dice": 0.9739640130861504
+      },
+      {
+        "target_id": "kvasir-seg::cju5bbtwsa8cl0987wgfsqpao",
+        "route_id": "9bad7f9fe1c56b0c14c41bfe",
+        "dice": 0.935676285668225
+      },
+      {
+        "target_id": "kvasir-seg::cju5bycdkalkb09875f7bfrvx",
+        "route_id": "8d46ba85a07ea22f532bb9ad",
+        "dice": 0.7201886281937304
+      },
+      {
+        "target_id": "kvasir-seg::cju5cjh3xattc0817j2vbulzi",
+        "route_id": "6b747252bfb3658505d4b956",
+        "dice": 0.6485800412501983
+      },
+      {
+        "target_id": "kvasir-seg::cju5ekty5ckzf07550c9u3ckk",
+        "route_id": "74d0ba641011bcfea9d289f7",
+        "dice": 0.9667368421052631
+      },
+      {
+        "target_id": "kvasir-seg::cju5ew4h9cqaf0818rrczkmqh",
+        "route_id": "c460140bca9d6184408deb7b",
+        "dice": 0.9266284171447857
+      },
+      {
+        "target_id": "kvasir-seg::cju5fi0yxd3ei0801v7u0yudn",
+        "route_id": "b648b4ed20e2df43377ea82e",
+        "dice": 0.2147483806676632
+      },
+      {
+        "target_id": "kvasir-seg::cju5gucasds9d0801019axylx",
+        "route_id": "e8aeb9cae96765af6405d1fe",
+        "dice": 0.838125
+      },
+      {
+        "target_id": "kvasir-seg::cju5hl8nee8a40755fm8qjj0o",
+        "route_id": "52d8cd0cdd1d71603c6251e6",
+        "dice": 0.97138437741686
+      },
+      {
+        "target_id": "kvasir-seg::cju5hyi9yegob0755ho3do8en",
+        "route_id": "f8fbfdf1ec3d16aec87136eb",
+        "dice": 0.9024435739600821
+      },
+      {
+        "target_id": "kvasir-seg::cju5i39mreass0817au8p22zy",
+        "route_id": "a1b35a635f7c06c868968b3d",
+        "dice": 0.9495086987962057
+      },
+      {
+        "target_id": "kvasir-seg::cju5k3j3uf6de0817hszzfr7n",
+        "route_id": "6b92869fefdca62cbec1f3d6",
+        "dice": 0.9244935543278084
+      },
+      {
+        "target_id": "kvasir-seg::cju5klveuff6w0871wbibgh3m",
+        "route_id": "8a502777511d3394b443cb1c",
+        "dice": 0.9217128027681661
+      },
+      {
+        "target_id": "kvasir-seg::cju5u8gz4kj5b07552e2wpkwp",
+        "route_id": "b4e4ac7bd8a57a18cec0b07b",
+        "dice": 0.0
+      },
+      {
+        "target_id": "kvasir-seg::cju5vutu7ll8w0871dfp92n9p",
+        "route_id": "395fb0e5f3b5eac31d6badfa",
+        "dice": 0.9760928961748634
+      },
+      {
+        "target_id": "kvasir-seg::cju5wcc90lu020850mjrxppv6",
+        "route_id": "77e89df14194f5864a4280bc",
+        "dice": 0.9554466641537882
+      },
+      {
+        "target_id": "kvasir-seg::cju5x7iskmad90818frchyfwd",
+        "route_id": "829a32c35197abc357bf6c40",
+        "dice": 0.8631969142914392
+      },
+      {
+        "target_id": "kvasir-seg::cju5yimthmlv80850zhoc90c2",
+        "route_id": "88bf515af133ced30adf88ad",
+        "dice": 0.933519726623175
+      },
+      {
+        "target_id": "kvasir-seg::cju6uy20suzbl0987rzuhz7z9",
+        "route_id": "4afa1693ede489fa19a2f32b",
+        "dice": 0.9528336717740447
+      },
+      {
+        "target_id": "kvasir-seg::cju6vgdmivcvb08018fra5lnv",
+        "route_id": "57b45983e2679238314d91a1",
+        "dice": 0.9685286037881343
+      },
+      {
+        "target_id": "kvasir-seg::cju6vifjlv55z0987un6y4zdo",
+        "route_id": "25ed0bf9621c508589a36628",
+        "dice": 0.35462874165969516
+      },
+      {
+        "target_id": "kvasir-seg::cju6vqarjv7yo0987q4b1btk1",
+        "route_id": "2ce8876e42954826dcce7ba0",
+        "dice": 0.9268391816826989
+      },
+      {
+        "target_id": "kvasir-seg::cju6wuojavt740818b5qcv3iw",
+        "route_id": "c6fceedb153fd4a9fe940ff4",
+        "dice": 0.9395928890487754
+      },
+      {
+        "target_id": "kvasir-seg::cju6x35ervu2808015c7eoqe4",
+        "route_id": "a35c1ee0a34ca602fe2817dd",
+        "dice": 0.9719268721793008
+      },
+      {
+        "target_id": "kvasir-seg::cju6x97w4vwua0850x0997r0a",
+        "route_id": "a0156825a558bc782a829f8d",
+        "dice": 0.9354938590153783
+      },
+      {
+        "target_id": "kvasir-seg::cju6xlygpw7bs0818n691jsq4",
+        "route_id": "79cbedcf12ad729ac74c51ca",
+        "dice": 0.5548036000837229
+      },
+      {
+        "target_id": "kvasir-seg::cju77u1sjz77b0817ft44r3fk",
+        "route_id": "d6ed07256872dd047f02fb18",
+        "dice": 0.9566279780085523
+      },
+      {
+        "target_id": "kvasir-seg::cju7afqon1ip40850ue2308b6",
+        "route_id": "81bff2e3408cd9e0eea6cb1e",
+        "dice": 0.9614873837981408
+      },
+      {
+        "target_id": "kvasir-seg::cju7agj961l2r0818z29iq8yn",
+        "route_id": "8aa0746fcbf6751032a95962",
+        "dice": 0.966389591615468
+      },
+      {
+        "target_id": "kvasir-seg::cju7ap09p1kz10850ldccjebj",
+        "route_id": "0a086260bf94806caae62ea5",
+        "dice": 0.9395951417004048
+      },
+      {
+        "target_id": "kvasir-seg::cju7atnm31if40817pqclnjer",
+        "route_id": "99f16d51b8609beae60625ad",
+        "dice": 0.9109124537607891
+      },
+      {
+        "target_id": "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+        "route_id": "3b6346b1c0da1e836940fbb9",
+        "dice": 0.5459774352923825
+      },
+      {
+        "target_id": "kvasir-seg::cju7bd1qu1mx409877xjxibox",
+        "route_id": "71aed58b126b4101b69aafb4",
+        "dice": 0.9472331677231455
+      },
+      {
+        "target_id": "kvasir-seg::cju7cufm7298k0755j09uf3of",
+        "route_id": "fac994d6d645be90046bd2f8",
+        "dice": 0.9272978576364893
+      },
+      {
+        "target_id": "kvasir-seg::cju7dda8w2br20818zhsuz8s7",
+        "route_id": "c13e7e5bb74c224dd1fb2045",
+        "dice": 0.5644383594261563
+      },
+      {
+        "target_id": "kvasir-seg::cju7ehljc2or70871261br8ai",
+        "route_id": "cac15abe0cfc41f6bbbf5db8",
+        "dice": 0.7174325049168604
+      },
+      {
+        "target_id": "kvasir-seg::cju7ekbo32pft0871fv7kzwb9",
+        "route_id": "95714408604e335bfda9d912",
+        "dice": 0.9494367304165575
+      },
+      {
+        "target_id": "kvasir-seg::cju7eotqi2qea0871y8yc7tqh",
+        "route_id": "cf07045c637282a619fce9e7",
+        "dice": 0.485298811846072
+      },
+      {
+        "target_id": "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+        "route_id": "b72ee531cf16d5859ca913dc",
+        "dice": 0.9098317362106693
+      },
+      {
+        "target_id": "kvasir-seg::cju7f0ec32txj08184asb8w5f",
+        "route_id": "60a163bbf41c2f6e9a7a201c",
+        "dice": 0.9522216913521261
+      },
+      {
+        "target_id": "kvasir-seg::cju7fbndk2sl608015ravktum",
+        "route_id": "ce7c064eddfee64c3123803a",
+        "dice": 0.9555571562342433
+      },
+      {
+        "target_id": "kvasir-seg::cju849c23kgnk0817cgv2hw1e",
+        "route_id": "58125fe777243249eac6a6b9",
+        "dice": 0.9000969932104753
+      },
+      {
+        "target_id": "kvasir-seg::cju858eswlepn0871pzvdrhj1",
+        "route_id": "8faed0e29f29aab9159d777c",
+        "dice": 0.9801796858926
+      },
+      {
+        "target_id": "kvasir-seg::cju85a8h8llwm07559wxg4t5w",
+        "route_id": "71e4a5d8872b67256d692e3e",
+        "dice": 0.9660246120920278
+      },
+      {
+        "target_id": "kvasir-seg::cju85rkbnlo1c08503uxcpax1",
+        "route_id": "f93bf9bf63578d0c50c16f30",
+        "dice": 0.9763908474730474
+      },
+      {
+        "target_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+        "route_id": "c377da2051eee7dbee9a47e5",
+        "dice": 0.5891046221270958
+      },
+      {
+        "target_id": "kvasir-seg::cju87r56lnkyp0755hz30leew",
+        "route_id": "75cded1af4911d6855fc7bb4",
+        "dice": 0.9350252737994945
+      },
+      {
+        "target_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+        "route_id": "40558af3ccea26a13daabe1c",
+        "dice": 0.9450320915056115
+      },
+      {
+        "target_id": "kvasir-seg::cju88oh0po9gq0801nge4tgr1",
+        "route_id": "50b1b1c449dd9784ddeda42e",
+        "dice": 0.976913730255164
+      },
+      {
+        "target_id": "kvasir-seg::cju88y1mwoln50871emyfny1g",
+        "route_id": "95264d54a7acd27cd994216d",
+        "dice": 0.9623663131516534
+      },
+      {
+        "target_id": "kvasir-seg::cju8aeei7q8k308173n9y4klv",
+        "route_id": "ccdbe6c596bab433b6b1d31b",
+        "dice": 0.9613774961138347
+      },
+      {
+        "target_id": "kvasir-seg::cju8alhigqn2h0801zksudldd",
+        "route_id": "2852c2e2e9c0ee14b9ffa939",
+        "dice": 0.9769096947651431
+      },
+      {
+        "target_id": "kvasir-seg::cju8at3s1qqqx0850hcq8nmnq",
+        "route_id": "6f2b717d2bec470dcce6ee88",
+        "dice": 0.0
+      },
+      {
+        "target_id": "kvasir-seg::cju8bw697rwg308177tg8huas",
+        "route_id": "49fe92d6b11291cb0011a0d5",
+        "dice": 0.517685218555321
+      },
+      {
+        "target_id": "kvasir-seg::cju8chdlqsu620755azjty1tj",
+        "route_id": "3fbccd76fc45c72d36cafa52",
+        "dice": 0.9286046872574888
+      },
+      {
+        "target_id": "kvasir-seg::cju8cwy02t9eq08185qn12c02",
+        "route_id": "e27a4ba9eee051baa70304c9",
+        "dice": 0.9002756607750932
+      },
+      {
+        "target_id": "kvasir-seg::cju8d2q30tfhs0801n7lx77xl",
+        "route_id": "01632da0a9cb2eef987908c0",
+        "dice": 0.9596593036315987
+      }
+    ]
+  }
+}

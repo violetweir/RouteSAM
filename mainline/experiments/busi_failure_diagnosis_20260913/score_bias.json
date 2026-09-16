@@ -1,0 +1,103 @@
+{
+  "anchors": [
+    {
+      "anchor": "BUSI::benign (3)",
+      "area": 0.02671810910972612,
+      "fg_patches18": 8,
+      "train_mean": 0.5851517166344294,
+      "train_std": 0.1333177734992923,
+      "validation_mean": 0.595855712890625,
+      "validation_wins": 2,
+      "test_mean": 0.5819424715909091,
+      "test_wins": 0
+    },
+    {
+      "anchor": "BUSI::benign (125)",
+      "area": 0.011225078266600758,
+      "fg_patches18": 4,
+      "train_mean": 0.5220623791102514,
+      "train_std": 0.0975302061291779,
+      "validation_mean": 0.540069580078125,
+      "validation_wins": 0,
+      "test_mean": 0.5108013731060606,
+      "test_wins": 0
+    },
+    {
+      "anchor": "BUSI::benign (305)",
+      "area": 0.02309211469929499,
+      "fg_patches18": 7,
+      "train_mean": 0.5109556334622823,
+      "train_std": 0.10500519773403719,
+      "validation_mean": 0.503631591796875,
+      "validation_wins": 0,
+      "test_mean": 0.5319010416666666,
+      "test_wins": 0
+    },
+    {
+      "anchor": "BUSI::malignant (195)",
+      "area": 0.1770697012802276,
+      "fg_patches18": 56,
+      "train_mean": 0.793490087040619,
+      "train_std": 0.05011041166932201,
+      "validation_mean": 0.78863525390625,
+      "validation_wins": 1,
+      "test_mean": 0.7794152462121212,
+      "test_wins": 1
+    },
+    {
+      "anchor": "BUSI::malignant (187)",
+      "area": 0.12178760963074689,
+      "fg_patches18": 39,
+      "train_mean": 0.8607274540618955,
+      "train_std": 0.027090013067062015,
+      "validation_mean": 0.86328125,
+      "validation_wins": 61,
+      "test_mean": 0.8556463068181818,
+      "test_wins": 65
+    }
+  ],
+  "b0_anchor_assignment": {
+    "validation": {
+      "raw": {
+        "BUSI::malignant (187)": 61,
+        "BUSI::benign (3)": 2,
+        "BUSI::malignant (195)": 1
+      },
+      "centered": {
+        "BUSI::benign (3)": 25,
+        "BUSI::malignant (187)": 10,
+        "BUSI::malignant (195)": 11,
+        "BUSI::benign (125)": 9,
+        "BUSI::benign (305)": 9
+      },
+      "zscore": {
+        "BUSI::benign (125)": 15,
+        "BUSI::malignant (187)": 20,
+        "BUSI::benign (3)": 15,
+        "BUSI::benign (305)": 10,
+        "BUSI::malignant (195)": 4
+      }
+    },
+    "test": {
+      "raw": {
+        "BUSI::malignant (187)": 65,
+        "BUSI::malignant (195)": 1
+      },
+      "centered": {
+        "BUSI::benign (3)": 23,
+        "BUSI::benign (305)": 18,
+        "BUSI::benign (125)": 9,
+        "BUSI::malignant (187)": 10,
+        "BUSI::malignant (195)": 6
+      },
+      "zscore": {
+        "BUSI::benign (125)": 11,
+        "BUSI::benign (305)": 19,
+        "BUSI::malignant (195)": 12,
+        "BUSI::benign (3)": 12,
+        "BUSI::malignant (187)": 12
+      }
+    }
+  },
+  "warning": "centering/zscore only diagnose score offsets; not evaluated segmentation improvement"
+}

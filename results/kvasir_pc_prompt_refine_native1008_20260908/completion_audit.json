@@ -1,0 +1,57 @@
+{
+  "masks_verified": 300,
+  "guarded_masks_exported": 300,
+  "mask_dice_recomputed": true,
+  "box_coordinates_verified": true,
+  "test_evaluated": false,
+  "methods": {
+    "tp_box_control_raw": {
+      "dice": 0.8467619974843879,
+      "iou": 0.777882591825689
+    },
+    "tp_box_control_guarded": {
+      "dice": 0.8482267029870223,
+      "iou": 0.7800845856358934
+    },
+    "prototype_box_raw": {
+      "dice": 0.5004977367058845,
+      "iou": 0.4038606655332566
+    },
+    "prototype_box_guarded": {
+      "dice": 0.8477265086106657,
+      "iou": 0.7802309713991012
+    },
+    "fgbg_box_raw": {
+      "dice": 0.5535324726943784,
+      "iou": 0.4490733044790732
+    },
+    "fgbg_box_guarded": {
+      "dice": 0.848990690999106,
+      "iou": 0.7820639030625033
+    }
+  },
+  "prompt_diagnostics_GT_only": {
+    "tp_box_control": {
+      "gt_coverage": 0.9104116573953813,
+      "box_area_ratio": 0.1836851470324458,
+      "gt_fraction_inside_box": 0.7373431673667143
+    },
+    "prototype_box": {
+      "gt_coverage": 0.8760022500959559,
+      "box_area_ratio": 0.31665283203125,
+      "gt_fraction_inside_box": 0.402626002051257
+    },
+    "fgbg_box": {
+      "gt_coverage": 0.9194223236881028,
+      "box_area_ratio": 0.3296855163574219,
+      "gt_fraction_inside_box": 0.38738735240729094
+    }
+  },
+  "runtime": "GPU native1008 bfloat16 autocast, input-output256, 23percent allocator memory cap",
+  "source_files_unmodified": "Native GPU SAM3 inference; no shared source modifications.",
+  "final_code_sha256": {
+    "audit.py": "acad60133e8650dab4b27ca3aafde1623eafa9e7300b6f8aa94d1449331a4da1",
+    "run.py": "cb97e889160deedfd5e8678feb669dfb967a847d3e4cba97e0d4c0502f71c604",
+    "examples.py": "72af1e32b2c99432c74280f3abc6da795dbe0c5b9109598b9356a63a82d62053"
+  }
+}

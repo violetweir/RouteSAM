@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-06T04:48:30.593170+08:00",
+  "scope": "test only; fresh forward and return-cycle inference; no X3/B7 or training",
+  "checkpoint": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+  "checkpoint_sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+  "knn": "frozen SAM3-base@256 patch_mean, beam_width=32",
+  "canvas": 256,
+  "bridge_range": [
+    0,
+    6
+  ],
+  "test_targets": 100,
+  "split_counts": {
+    "train": 800,
+    "validation": 100,
+    "test": 100
+  },
+  "labeled_train": 8,
+  "unlabeled_train": 792,
+  "protocol_sha256": {
+    "merged_manifest.jsonl": "eb74d0ea534450d7b97ae93319260b7cbbd78e5b74b2b615c777b1263eb91322",
+    "frozen_labeled_images.txt": "1968d718cd1877beddbf59ea1c972972e51a75702da646617b10a8ffd2786c0d",
+    "protocol_summary.json": "38f6ef1ff912d22258b69b602aa4d04a2d6bf4ae1a966b7e6e2754c113eacccc",
+    "support_manifest.jsonl": "15746c3f00a897ed36a2a32cfb1108a697db2e08bff0d99b88af459b6c701dab"
+  },
+  "route_sha256": {
+    "sam3enc_anchor_conditioned_target_pooling": "89db1347a13699f139cad501b5a6aa0aaee7b1cd6ddb621407dd6e31515e6e6f",
+    "sam3enc_anchor_conditioned_patch_correspondence": "15708488c9eb1cb7155e3157de00939e048d50b3958447546556b9a63fbe4e54"
+  },
+  "code_sha256": {
+    "eval_route_propagation_quality.py": "88eb5889f5d45e6ed990de18e3a348f9a90acfb1c454b74ce04729b609a18afb",
+    "summarize_c0_256_bridge_metrics.py": "cc6f96ff3856010ff4914c07f30517e3a38a109551602498fb193d946bf80520",
+    "run_t21_dynamic_pseudovideo.py": "2128a9cd04acce91614cbf43e2c4ad38a63c50c0fc29a5782a1f1e7f14eb5aba"
+  },
+  "git_head": "71a4b01f7f0dcd02583f53340110e576025ccf38",
+  "python": "/home/violet/anaconda3/envs/sam3/bin/python",
+  "gpu_mapping": {
+    "sam3enc_anchor_conditioned_target_pooling": 0,
+    "sam3enc_anchor_conditioned_patch_correspondence": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "anchor_ids": [
+    "kvasir-seg::cju2wxv0hxs2f09884w48v8fi",
+    "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "kvasir-seg::cju42xpi8lw4w0871ve317a1p",
+    "kvasir-seg::cju5vi4nxlc530817uoqm2m7a",
+    "kvasir-seg::cju3v664kh0px0818y4y7wolf",
+    "kvasir-seg::cju8dpa89u6l80818dj6lldh9",
+    "kvasir-seg::cju2t62nq45jl0799odpufwx6",
+    "kvasir-seg::cju7ajnbo1gvm098749rdouk0"
+  ],
+  "train_means": [
+    0.77876953125,
+    0.8188623046875,
+    0.7894384765625,
+    0.82537109375,
+    0.76748046875,
+    0.8251904296875,
+    0.8245703125,
+    0.80734375
+  ],
+  "train_count": 800,
+  "hidden_train_GT_read": false
+}

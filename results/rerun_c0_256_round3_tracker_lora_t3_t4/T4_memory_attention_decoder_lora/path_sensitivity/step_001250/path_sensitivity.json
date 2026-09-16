@@ -1,0 +1,45 @@
+{
+  "bridge_count": 6,
+  "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_round3_tracker_lora_t3_t4/T4_memory_attention_decoder_lora/checkpoints/step_001250.pt",
+  "checkpoint_step": 1250,
+  "group": "T4",
+  "modes": {
+    "sam3enc_anchor_conditioned_patch_correspondence": {
+      "normal": 0.9308844445735825,
+      "normal_minus_shuffle": -0.0007010535338942692,
+      "shuffle": 0.9315854981074768
+    },
+    "sam3enc_anchor_conditioned_target_pooling": {
+      "normal": 0.9331907497238612,
+      "normal_minus_shuffle": 0.002341140054699542,
+      "shuffle": 0.9308496096691616
+    }
+  },
+  "normal": 0.9320375971487218,
+  "normal_minus_shuffle": 0.0008200432604026364,
+  "shuffle": 0.9312175538883192,
+  "shuffle_definition": "Deterministic non-identity permutation of the six correct bridge frames within each route.",
+  "target_count": 20,
+  "target_ids": [
+    "kvasir-seg::cju2qfie4rvz508357kad9z5o",
+    "kvasir-seg::cju2tzypl4wss0799ow05oxb9",
+    "kvasir-seg::cju34fojcctcf0799ebolbvkn",
+    "kvasir-seg::cju42romflni20817etb9a0fl",
+    "kvasir-seg::cju5i39mreass0817au8p22zy",
+    "kvasir-seg::cju5u8gz4kj5b07552e2wpkwp",
+    "kvasir-seg::cju6vgdmivcvb08018fra5lnv",
+    "kvasir-seg::cju6vqarjv7yo0987q4b1btk1",
+    "kvasir-seg::cju6wuojavt740818b5qcv3iw",
+    "kvasir-seg::cju7afqon1ip40850ue2308b6",
+    "kvasir-seg::cju7agj961l2r0818z29iq8yn",
+    "kvasir-seg::cju7atnm31if40817pqclnjer",
+    "kvasir-seg::cju7bd1qu1mx409877xjxibox",
+    "kvasir-seg::cju7cufm7298k0755j09uf3of",
+    "kvasir-seg::cju7ekbo32pft0871fv7kzwb9",
+    "kvasir-seg::cju7f0ec32txj08184asb8w5f",
+    "kvasir-seg::cju8aeei7q8k308173n9y4klv",
+    "kvasir-seg::cju8bw697rwg308177tg8huas",
+    "kvasir-seg::cju8cwy02t9eq08185qn12c02",
+    "kvasir-seg::cju8d2q30tfhs0801n7lx77xl"
+  ]
+}

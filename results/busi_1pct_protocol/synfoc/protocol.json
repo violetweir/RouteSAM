@@ -1,0 +1,20 @@
+{
+  "dataset": "BUSI",
+  "data_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/busi_1pct_protocol/data",
+  "split": {
+    "train": 517,
+    "validation": 64,
+    "test": 66
+  },
+  "labeled_images": 5,
+  "unlabeled_images": 512,
+  "labeled_list": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/busi_1pct_protocol/busi_train1pct_labeled_images.txt",
+  "labeled_list_sha256": "4af7d0b3d54ed8bdcb60ba6abf8bd8981c69e2e89c78218eff3c5fa0d432d32c",
+  "unlabeled_masks_loaded": false,
+  "seed": 2026,
+  "checkpoint": "/Data_8TB/lht/models/medsam_vit_b.pth",
+  "model": "MedSAM",
+  "max_iterations": 40000,
+  "num_eval_iter": 500,
+  "image_size": 256
+}

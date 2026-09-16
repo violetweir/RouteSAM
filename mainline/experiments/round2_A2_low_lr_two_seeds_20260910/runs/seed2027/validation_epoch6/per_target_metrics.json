@@ -1,0 +1,702 @@
+[
+  {
+    "target_id": "kvasir-seg::cju0s2a9ekvms080138tjjpxr",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju0s2a9ekvms080138tjjpxr.png",
+    "mask_sha256": "73932e8949583c63ac5532ec7e3b741b803d3ad04ae2bba9df531560def1fb23",
+    "dice": 0.9726073978917142,
+    "iou": 0.9466754927919977
+  },
+  {
+    "target_id": "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju1cj3f0qi5n0993ut8f49rj.png",
+    "mask_sha256": "d57f809ee3385c5d3fe6cf91d6e48593f98792a9361c8374e9e03cb4b30553c8",
+    "dice": 0.5633395522388059,
+    "iou": 0.39211739497435233
+  },
+  {
+    "target_id": "kvasir-seg::cju1csmlc4ht10799b8ymmghg",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju1csmlc4ht10799b8ymmghg.png",
+    "mask_sha256": "b39934da51cd0cea4f9bbe2de90091cc2293f7190c5c338c18e5ce927e098c37",
+    "dice": 0.9593621705241864,
+    "iou": 0.921898227558605
+  },
+  {
+    "target_id": "kvasir-seg::cju1cu1u2474n0878tt7v4tdr",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju1cu1u2474n0878tt7v4tdr.png",
+    "mask_sha256": "fc934bafbe5e913d5367e103fe5aba5822a9a86be43ff069e5e6400a06f252d5",
+    "dice": 0.9486803519061584,
+    "iou": 0.902370990237099
+  },
+  {
+    "target_id": "kvasir-seg::cju1d96gsv62d09881b3wecw2",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju1d96gsv62d09881b3wecw2.png",
+    "mask_sha256": "5d8d15a5e3f1303a4deaa9cfe183750bcbe44f8ce9b0d268c283bbcd257be4b5",
+    "dice": 0.8850031822597394,
+    "iou": 0.7937270924713092
+  },
+  {
+    "target_id": "kvasir-seg::cju1djtprvd7b0988thwwrg09",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju1djtprvd7b0988thwwrg09.png",
+    "mask_sha256": "e7358ee8771e0002c90aa3d6af5807ec43f833bd1d436c76b26dc7fb9466906f",
+    "dice": 0.9603741717552293,
+    "iou": 0.9237690577355661
+  },
+  {
+    "target_id": "kvasir-seg::cju1euuc65wm00799m4sjdnnn",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju1euuc65wm00799m4sjdnnn.png",
+    "mask_sha256": "30daa455257f5fcfe5e59682b71a396b04587cba1ff2a72ea81a10574e007222",
+    "dice": 0.9554382259767688,
+    "iou": 0.914678528103518
+  },
+  {
+    "target_id": "kvasir-seg::cju1ewnoh5z030855vpex9uzt",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju1ewnoh5z030855vpex9uzt.png",
+    "mask_sha256": "d3f287acdc91759a6d7fe010ca160b9315f2e2b71b81a6e145b0d2d7bedef1f2",
+    "dice": 0.9747590637907297,
+    "iou": 0.9507609668755596
+  },
+  {
+    "target_id": "kvasir-seg::cju1fmsyf6gxb0801cimx2gle",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju1fmsyf6gxb0801cimx2gle.png",
+    "mask_sha256": "4db684897c773b06356b7e2f4eee907715aaabbbdf6cd2bcf0679a26133ad7bf",
+    "dice": 0.9592714900430301,
+    "iou": 0.9217307692307692
+  },
+  {
+    "target_id": "kvasir-seg::cju1fyb1d69et0878muzdak9u",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju1fyb1d69et0878muzdak9u.png",
+    "mask_sha256": "a0d2c35b6231ce1f6196d4b72d73030a390deb15ce833aea95585c45d3e2b046",
+    "dice": 0.9722046746683513,
+    "iou": 0.9459127228027043
+  },
+  {
+    "target_id": "kvasir-seg::cju2htabevq9108015qjei0x7",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju2htabevq9108015qjei0x7.png",
+    "mask_sha256": "33a406c0ebc38173ee8a7055aa013bc679c599131d8626fa4f8488caca40f981",
+    "dice": 0.975148531658462,
+    "iou": 0.9515023023155663
+  },
+  {
+    "target_id": "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju2nyc5f02m40801ojqbtiea.png",
+    "mask_sha256": "6b342e0c0542c3d3be5e281184ede3385413a09998ad42270023e1173cbcbbe0",
+    "dice": 0.9835699473600256,
+    "iou": 0.9676710608913999
+  },
+  {
+    "target_id": "kvasir-seg::cju2pag1f0s4r0878h52uq83s",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju2pag1f0s4r0878h52uq83s.png",
+    "mask_sha256": "7d54b61e3d1757c3ff6546a93500b8ea73e037e5bd6b6fa90c806cac181df638",
+    "dice": 0.9482321348649858,
+    "iou": 0.9015602836879433
+  },
+  {
+    "target_id": "kvasir-seg::cju2qfie4rvz508357kad9z5o",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju2qfie4rvz508357kad9z5o.png",
+    "mask_sha256": "44b5179aa7764a622ae374ed15176986ab4d1e6416576b55e8e46e986ca88f15",
+    "dice": 0.9561075694291786,
+    "iou": 0.9159062192896251
+  },
+  {
+    "target_id": "kvasir-seg::cju2t2ivz43i10878zeg8r1br",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju2t2ivz43i10878zeg8r1br.png",
+    "mask_sha256": "d018cb9bee723adf7fba2dc1bc59ae34ef609ec4255aa4b5df73e87ef2790521",
+    "dice": 0.9560975609756097,
+    "iou": 0.9158878504672897
+  },
+  {
+    "target_id": "kvasir-seg::cju2tzypl4wss0799ow05oxb9",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju2tzypl4wss0799ow05oxb9.png",
+    "mask_sha256": "1640e07ba07e20327df90b06e34110ca3e0eac0c79f3c2aa12e0927e8e972720",
+    "dice": 0.9891534018875898,
+    "iou": 0.9785395763656634
+  },
+  {
+    "target_id": "kvasir-seg::cju2uzabhs6er0993x3aaf87p",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju2uzabhs6er0993x3aaf87p.png",
+    "mask_sha256": "81981b6edc003c8bf27384e739577e83c3ce1711f73df6f81c7ca87ce1ef8562",
+    "dice": 0.5414390150057714,
+    "iou": 0.3712145193626675
+  },
+  {
+    "target_id": "kvasir-seg::cju2wve9v7esz0878mxsdcy04",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju2wve9v7esz0878mxsdcy04.png",
+    "mask_sha256": "d1b308aa310caf3f93aa36c7982577727d0132b20cfd11cffa93acdb1e3bcaec",
+    "dice": 0.9612224304454375,
+    "iou": 0.9253399944490702
+  },
+  {
+    "target_id": "kvasir-seg::cju2y26c588bo07993ksd8eoz",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju2y26c588bo07993ksd8eoz.png",
+    "mask_sha256": "870c71d3fba507b8e41f4a77149106bbfcea43b26fd4bfcbfdeab6b9010c8bdc",
+    "dice": 0.9620715590415816,
+    "iou": 0.9269151138716356
+  },
+  {
+    "target_id": "kvasir-seg::cju2yi9tz8vky0801yqip0xyl",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju2yi9tz8vky0801yqip0xyl.png",
+    "mask_sha256": "8b071018841360c5099a0b70be543818a3fae0ffce82a472a04979447c7bf5e5",
+    "dice": 0.9513044540844382,
+    "iou": 0.9071312048473549
+  },
+  {
+    "target_id": "kvasir-seg::cju2zo0fwzv580988qlijd2xa",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju2zo0fwzv580988qlijd2xa.png",
+    "mask_sha256": "310303b96a8209a7e7e9d37dbb367742c9107903372316b5329c1f6da9ce1dfe",
+    "dice": 0.7958780969085727,
+    "iou": 0.6609613983976693
+  },
+  {
+    "target_id": "kvasir-seg::cju2zpw4q9vzr0801p0lysjdl",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju2zpw4q9vzr0801p0lysjdl.png",
+    "mask_sha256": "9ee45367f6bdba428a438a823f7313d76e5d290e9fcfc2eb14d1ad67b5e160b8",
+    "dice": 0.9421820010055304,
+    "iou": 0.8906844106463878
+  },
+  {
+    "target_id": "kvasir-seg::cju303j5r062k098835zxfds5",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju303j5r062k098835zxfds5.png",
+    "mask_sha256": "8e864de81ff3a7c15acd724a44f1c4da8c6eaa382bd0c0b52056ed98e07344e9",
+    "dice": 0.9755591205058035,
+    "iou": 0.9522844509948416
+  },
+  {
+    "target_id": "kvasir-seg::cju30mm25a53s0799qa5wiqe8",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju30mm25a53s0799qa5wiqe8.png",
+    "mask_sha256": "f0f2fc65339c3b8598aac0625b4d9ab196fb0e0de8477d58e6a112e8a4416a2d",
+    "dice": 0.7780561122244489,
+    "iou": 0.6367363673636737
+  },
+  {
+    "target_id": "kvasir-seg::cju3128yi0rpu0988o4oo5n8n",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju3128yi0rpu0988o4oo5n8n.png",
+    "mask_sha256": "2b7093f99f8f2bafcb976ed68211fef446efea36f28f67b9a6a76d4d680f1112",
+    "dice": 0.9764051409936697,
+    "iou": 0.9538980509745127
+  },
+  {
+    "target_id": "kvasir-seg::cju32qr9tbvsj08013pkpjenq",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju32qr9tbvsj08013pkpjenq.png",
+    "mask_sha256": "9b038be57b699aab803758a5f0a08f6d5b2317bdd7ab24b5b659962631eeea04",
+    "dice": 0.7253687058207523,
+    "iou": 0.5690811995070519
+  },
+  {
+    "target_id": "kvasir-seg::cju32srle1xfq083575i3fl75",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju32srle1xfq083575i3fl75.png",
+    "mask_sha256": "7557d8a29f9888dce0050e0ea1f1573d970f44f419bc232393f7de3cb98fcf7c",
+    "dice": 0.9539738430583501,
+    "iou": 0.9119980764606876
+  },
+  {
+    "target_id": "kvasir-seg::cju33x0f22peh0988g0ln7w5v",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju33x0f22peh0988g0ln7w5v.png",
+    "mask_sha256": "a4b6c211de70c025c0e3c26d6eba91959d53f245bed8c929d84eafe988f5e3d0",
+    "dice": 0.9227479283614007,
+    "iou": 0.856575682382134
+  },
+  {
+    "target_id": "kvasir-seg::cju34fojcctcf0799ebolbvkn",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju34fojcctcf0799ebolbvkn.png",
+    "mask_sha256": "370ab02e2d1312b16f11db22376be4c811c9de4f08d1e58a2a170fca1ed6d87f",
+    "dice": 0.9436046511627907,
+    "iou": 0.8932305998899285
+  },
+  {
+    "target_id": "kvasir-seg::cju358pwtdby20878cg7nm0np",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju358pwtdby20878cg7nm0np.png",
+    "mask_sha256": "a97dd998c43c97b6e8f6a2d666e6d7576ffd14a9b49e4923445b0406d5dbeee3",
+    "dice": 0.9631449631449631,
+    "iou": 0.9289099526066351
+  },
+  {
+    "target_id": "kvasir-seg::cju35fxqyzt5p0993vusm54qz",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju35fxqyzt5p0993vusm54qz.png",
+    "mask_sha256": "c8dfdea51281a346491f3f7a0ee7a74ddb432050c773a351b73cc0c1c58a7197",
+    "dice": 0.9693590565944639,
+    "iou": 0.9405400229797013
+  },
+  {
+    "target_id": "kvasir-seg::cju3tx1qyg0c907552fglumhc",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju3tx1qyg0c907552fglumhc.png",
+    "mask_sha256": "fef74f150c3b383231b3c99178c2e8db2662179275ea4b5f76c32bc98dd399ae",
+    "dice": 0.9729355985776373,
+    "iou": 0.9472975572225428
+  },
+  {
+    "target_id": "kvasir-seg::cju3u39fog1bo0871lxjrabks",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju3u39fog1bo0871lxjrabks.png",
+    "mask_sha256": "b69c1040e1b244c51e3a920409a96e73826f4f916284a797775c0cc3dda5c650",
+    "dice": 0.9893024489435063,
+    "iou": 0.9788313505948215
+  },
+  {
+    "target_id": "kvasir-seg::cju3x2s11ibzi0817kk284k0j",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju3x2s11ibzi0817kk284k0j.png",
+    "mask_sha256": "8fc4c40df8431ca230a6b8b703ae1b1ca28c7ca1a0aa214c2042690654e3bb2a",
+    "dice": 0.9163076923076923,
+    "iou": 0.845542305508234
+  },
+  {
+    "target_id": "kvasir-seg::cju3xjqtpikx50817tppy6g84",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju3xjqtpikx50817tppy6g84.png",
+    "mask_sha256": "618e139f8ba24799ed884a7c59ef7761ee2a390e22bafbe4c2ef465aea559918",
+    "dice": 0.9723487986743994,
+    "iou": 0.946185629345964
+  },
+  {
+    "target_id": "kvasir-seg::cju3xwpgviwlx0871rwm15q7v",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju3xwpgviwlx0871rwm15q7v.png",
+    "mask_sha256": "6d7edcdebf3ec7de0c0a2aa779b61d4f62c929043ed2918cc442dca199deb320",
+    "dice": 0.8976755331895518,
+    "iou": 0.8143478260869565
+  },
+  {
+    "target_id": "kvasir-seg::cju3xzvnzj0hd0755xprz39nj",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju3xzvnzj0hd0755xprz39nj.png",
+    "mask_sha256": "761ede15b1d6bfe96925151fac752e6504349b61edb64b4372d58e3ffc5d567d",
+    "dice": 0.9495911582352412,
+    "iou": 0.9040205303678358
+  },
+  {
+    "target_id": "kvasir-seg::cju3yht87j83m08507yk1u1fg",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju3yht87j83m08507yk1u1fg.png",
+    "mask_sha256": "e134af7506de95d8a4cf85009e70774400aa038c3bd2db36119664d5e1da126b",
+    "dice": 0.5080113350459493,
+    "iou": 0.3404927577392786
+  },
+  {
+    "target_id": "kvasir-seg::cju42g865lorv07552ytz6xxa",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju42g865lorv07552ytz6xxa.png",
+    "mask_sha256": "a957af3517ce5e18bd85ee9b5a4a01cfeb9b80af4e392a30205a967a728503e6",
+    "dice": 0.9437049155945564,
+    "iou": 0.893410306955787
+  },
+  {
+    "target_id": "kvasir-seg::cju42nm68lpyo0818xvvqmupq",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju42nm68lpyo0818xvvqmupq.png",
+    "mask_sha256": "be90bcedfc5b5ca78e375fab86b5a551fc9bd52adbcd3b417e1dc9b1d8965bd6",
+    "dice": 0.9586791771923493,
+    "iou": 0.9206376711141917
+  },
+  {
+    "target_id": "kvasir-seg::cju42romflni20817etb9a0fl",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju42romflni20817etb9a0fl.png",
+    "mask_sha256": "2d8cb035a23ff5e48d5d91db3490cbbc7c8130e1a58e0153d2be5e955ea9ec96",
+    "dice": 0.9057211925866236,
+    "iou": 0.8276877761413843
+  },
+  {
+    "target_id": "kvasir-seg::cju45n0oxn5vu08500yfrt9jn",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju45n0oxn5vu08500yfrt9jn.png",
+    "mask_sha256": "13f9347c0dc72be3547ad8e722f73763774835ccf86f210d696703f8eaf9dd85",
+    "dice": 0.980054688756635,
+    "iou": 0.9608894496136257
+  },
+  {
+    "target_id": "kvasir-seg::cju45rj7ln8980850a7821fov",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju45rj7ln8980850a7821fov.png",
+    "mask_sha256": "62375375a050647f77964819811e2a49974bf243751754264121be3dc0d94717",
+    "dice": 0.9595264520902701,
+    "iou": 0.9222016782818945
+  },
+  {
+    "target_id": "kvasir-seg::cju45ty6zn9oz0850qy4qnck1",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju45ty6zn9oz0850qy4qnck1.png",
+    "mask_sha256": "457d08b6acbf067bb7ef8ec30cde6416d0a4cab888084a97e0fbc5b223fb4ea9",
+    "dice": 0.9560133630289532,
+    "iou": 0.9157333333333333
+  },
+  {
+    "target_id": "kvasir-seg::cju5bbtwsa8cl0987wgfsqpao",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju5bbtwsa8cl0987wgfsqpao.png",
+    "mask_sha256": "2fb8279a925d835c1c3887e53fd65b0a5d741ed89376e0ae53c423161869c838",
+    "dice": 0.9481398868796304,
+    "iou": 0.9013935171160254
+  },
+  {
+    "target_id": "kvasir-seg::cju5bycdkalkb09875f7bfrvx",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju5bycdkalkb09875f7bfrvx.png",
+    "mask_sha256": "35e683c7f31f51b188e593dd308460f7e9db9c0e58099f1ffafc7b5d95146170",
+    "dice": 0.7526371308016878,
+    "iou": 0.6033826638477802
+  },
+  {
+    "target_id": "kvasir-seg::cju5cjh3xattc0817j2vbulzi",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju5cjh3xattc0817j2vbulzi.png",
+    "mask_sha256": "62b28eee70c96bfc20590695c780650d70f5a4b2fddb697ac3436978ab4055c0",
+    "dice": 0.8238560639715682,
+    "iou": 0.7004721435316336
+  },
+  {
+    "target_id": "kvasir-seg::cju5ekty5ckzf07550c9u3ckk",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju5ekty5ckzf07550c9u3ckk.png",
+    "mask_sha256": "7735dbbd64f647d83f09e3d0f4dd5f6ee9fa029467c7d5c6482a809ec6b3ec36",
+    "dice": 0.974356296025487,
+    "iou": 0.9499949078317548
+  },
+  {
+    "target_id": "kvasir-seg::cju5ew4h9cqaf0818rrczkmqh",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju5ew4h9cqaf0818rrczkmqh.png",
+    "mask_sha256": "7a01d8698e044af5a714ddd9de7fdeb3f7d2727b35033f86aac5bbf238306f3c",
+    "dice": 0.9556517745850555,
+    "iou": 0.9150700420880709
+  },
+  {
+    "target_id": "kvasir-seg::cju5fi0yxd3ei0801v7u0yudn",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju5fi0yxd3ei0801v7u0yudn.png",
+    "mask_sha256": "c18f1d399685937666b324e7d21dfbfcff7d8f1be355c2b38552f6d8a018384f",
+    "dice": 0.2047548981646403,
+    "iou": 0.11405400741954964
+  },
+  {
+    "target_id": "kvasir-seg::cju5gucasds9d0801019axylx",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju5gucasds9d0801019axylx.png",
+    "mask_sha256": "aedaeb84be2f057449f773476cb2ebcb3f13fb01904c7fc763582402f6139df8",
+    "dice": 0.9354609929078014,
+    "iou": 0.8787475016655563
+  },
+  {
+    "target_id": "kvasir-seg::cju5hl8nee8a40755fm8qjj0o",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju5hl8nee8a40755fm8qjj0o.png",
+    "mask_sha256": "a3ec1a0a8c2d19c652573e0f75604a23ee2f43fe4f8f4d2e6d721f3c733bda6d",
+    "dice": 0.9596441054972991,
+    "iou": 0.9224190592547342
+  },
+  {
+    "target_id": "kvasir-seg::cju5hyi9yegob0755ho3do8en",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju5hyi9yegob0755ho3do8en.png",
+    "mask_sha256": "2d3d299eaf04cc68d2080ece2ccd439701c329287cd9b1a6254dea8d78bffa83",
+    "dice": 0.9024661598368255,
+    "iou": 0.822267274877513
+  },
+  {
+    "target_id": "kvasir-seg::cju5i39mreass0817au8p22zy",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju5i39mreass0817au8p22zy.png",
+    "mask_sha256": "1b5ad12777bd0c52095a5a1c8dad25b1d55e62ff54b7beacf7074ce00b641fc0",
+    "dice": 0.9432333076857314,
+    "iou": 0.8925653264299005
+  },
+  {
+    "target_id": "kvasir-seg::cju5k3j3uf6de0817hszzfr7n",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju5k3j3uf6de0817hszzfr7n.png",
+    "mask_sha256": "ebf65219786c7ebb0a51d0b5862362b518edc1dd1d547829329e1882c680268c",
+    "dice": 0.9359293638215984,
+    "iou": 0.8795744680851064
+  },
+  {
+    "target_id": "kvasir-seg::cju5klveuff6w0871wbibgh3m",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju5klveuff6w0871wbibgh3m.png",
+    "mask_sha256": "5074d7a5c41c2a1870408a84081c2c91baa1daa7fce8938917870783fbf7aa46",
+    "dice": 0.9127780200610554,
+    "iou": 0.8395507420778179
+  },
+  {
+    "target_id": "kvasir-seg::cju5u8gz4kj5b07552e2wpkwp",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju5u8gz4kj5b07552e2wpkwp.png",
+    "mask_sha256": "4d881b48ca1c4bef0e78a51822bad7aea64879350c815330ce6593f4f287b1c9",
+    "dice": 0.0042752986983242355,
+    "iou": 0.002142228682911901
+  },
+  {
+    "target_id": "kvasir-seg::cju5vutu7ll8w0871dfp92n9p",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju5vutu7ll8w0871dfp92n9p.png",
+    "mask_sha256": "e2b501141c946f219550b810f70e946a213d561c52f06ca991d20b54b75ddd62",
+    "dice": 0.9799435303281082,
+    "iou": 0.9606757659635392
+  },
+  {
+    "target_id": "kvasir-seg::cju5wcc90lu020850mjrxppv6",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju5wcc90lu020850mjrxppv6.png",
+    "mask_sha256": "d6715b7d3abeb23a12e2b4e1e0ce17d12927530d8abd43a71177110a70ac1944",
+    "dice": 0.9683304902469777,
+    "iou": 0.9386053199137311
+  },
+  {
+    "target_id": "kvasir-seg::cju5x7iskmad90818frchyfwd",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju5x7iskmad90818frchyfwd.png",
+    "mask_sha256": "f9f8a157c4ba5b0ab9876b13db07a6bbca8177c2d0850c58cbbaf83f537a5541",
+    "dice": 0.6050400283945262,
+    "iou": 0.4337328960759923
+  },
+  {
+    "target_id": "kvasir-seg::cju5yimthmlv80850zhoc90c2",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju5yimthmlv80850zhoc90c2.png",
+    "mask_sha256": "bfe82d4feab744dd151de4aadb1651b5ae4ced5fa52f092fcf9e7aff0fb4abfd",
+    "dice": 0.935933147632312,
+    "iou": 0.8795811518324608
+  },
+  {
+    "target_id": "kvasir-seg::cju6uy20suzbl0987rzuhz7z9",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju6uy20suzbl0987rzuhz7z9.png",
+    "mask_sha256": "89665db63cfd3ac92171acca457bdbea60d6a43dd3b3bb539bd358580e490853",
+    "dice": 0.9684095860566448,
+    "iou": 0.938753959873284
+  },
+  {
+    "target_id": "kvasir-seg::cju6vgdmivcvb08018fra5lnv",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju6vgdmivcvb08018fra5lnv.png",
+    "mask_sha256": "bf06e3b42ee178e7181fa29b6dc305c820f07f5e5650808ac8b5bf5da503878d",
+    "dice": 0.9700407213496218,
+    "iou": 0.9418243434058176
+  },
+  {
+    "target_id": "kvasir-seg::cju6vifjlv55z0987un6y4zdo",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju6vifjlv55z0987un6y4zdo.png",
+    "mask_sha256": "cebbd4ca7714e05ec50955e6889be4009b3c3645252fe3ef2447ae1963bb5167",
+    "dice": 0.2448251093746599,
+    "iou": 0.139487586497681
+  },
+  {
+    "target_id": "kvasir-seg::cju6vqarjv7yo0987q4b1btk1",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju6vqarjv7yo0987q4b1btk1.png",
+    "mask_sha256": "115b0cc978b24de989b65483f1b7b88fd90409a9ca18280f2bfc89ea30c9cc95",
+    "dice": 0.9236264449928562,
+    "iou": 0.8580909858815011
+  },
+  {
+    "target_id": "kvasir-seg::cju6wuojavt740818b5qcv3iw",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju6wuojavt740818b5qcv3iw.png",
+    "mask_sha256": "ba967a897ae89029cd1e9bf8b1b865b475c9c7d4712e2e50b83033a3b573497b",
+    "dice": 0.4571627988134706,
+    "iou": 0.29631305134584934
+  },
+  {
+    "target_id": "kvasir-seg::cju6x35ervu2808015c7eoqe4",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju6x35ervu2808015c7eoqe4.png",
+    "mask_sha256": "62ccf1863a6ea11a9faa3654e57ea136b78fe55434d72b6467666b177fbbf1bf",
+    "dice": 0.964168618266979,
+    "iou": 0.9308161881076192
+  },
+  {
+    "target_id": "kvasir-seg::cju6x97w4vwua0850x0997r0a",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju6x97w4vwua0850x0997r0a.png",
+    "mask_sha256": "17102900184e779c62b160387d6d7ec16ae53e379428010b927f46b8bcea1602",
+    "dice": 0.9233500417710944,
+    "iou": 0.8576139670223084
+  },
+  {
+    "target_id": "kvasir-seg::cju6xlygpw7bs0818n691jsq4",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju6xlygpw7bs0818n691jsq4.png",
+    "mask_sha256": "7fcfa7ac5ac4b4c2a48d4cbeddccf251d302c973c6ab03d2ffe71f3eb892f353",
+    "dice": 0.5462741231159318,
+    "iou": 0.3757751937984496
+  },
+  {
+    "target_id": "kvasir-seg::cju77u1sjz77b0817ft44r3fk",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju77u1sjz77b0817ft44r3fk.png",
+    "mask_sha256": "65b03a555f5cb39f8120096c1515e32ac743464d474b3301be48d00a86f1c500",
+    "dice": 0.948703881497737,
+    "iou": 0.9024135681669928
+  },
+  {
+    "target_id": "kvasir-seg::cju7afqon1ip40850ue2308b6",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju7afqon1ip40850ue2308b6.png",
+    "mask_sha256": "4b3913d57f8cbda7cc2fa1e89dcb22fd55db55c1939812206760173f312ae536",
+    "dice": 0.9551539491298527,
+    "iou": 0.9141575912876362
+  },
+  {
+    "target_id": "kvasir-seg::cju7agj961l2r0818z29iq8yn",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju7agj961l2r0818z29iq8yn.png",
+    "mask_sha256": "bb14dc3353d927a0d70132100b22e5aa28efd796eb039fe27df83e77186cacf7",
+    "dice": 0.9455942495972239,
+    "iou": 0.8968030089327692
+  },
+  {
+    "target_id": "kvasir-seg::cju7ap09p1kz10850ldccjebj",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju7ap09p1kz10850ldccjebj.png",
+    "mask_sha256": "e36685c8dd458705bdb56e3d4855019284c70868706701056d458727c0599d7f",
+    "dice": 0.9172757475083056,
+    "iou": 0.8471923903037741
+  },
+  {
+    "target_id": "kvasir-seg::cju7atnm31if40817pqclnjer",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju7atnm31if40817pqclnjer.png",
+    "mask_sha256": "9e4559d4f8ae34c790f846ca8479b095dbf65e3d4edea8accaf7e64ec9f35d38",
+    "dice": 0.8798900401776274,
+    "iou": 0.7855389843307533
+  },
+  {
+    "target_id": "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju7b1ygu1msd0801hywhy0mc.png",
+    "mask_sha256": "94afb05b49c25b417a1fbe0484fd623fc15848292fba4ab6ace796797752ce45",
+    "dice": 0.5881325399858071,
+    "iou": 0.4165635632539437
+  },
+  {
+    "target_id": "kvasir-seg::cju7bd1qu1mx409877xjxibox",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju7bd1qu1mx409877xjxibox.png",
+    "mask_sha256": "36da7aaa74947ecb62b8681b8003d9d0c3587c25e011eb6db2aa8d59ad873d37",
+    "dice": 0.940608568226877,
+    "iou": 0.8878763222131815
+  },
+  {
+    "target_id": "kvasir-seg::cju7cufm7298k0755j09uf3of",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju7cufm7298k0755j09uf3of.png",
+    "mask_sha256": "4e43a0574d56e280fd5c3d38af7e0e794cf5649fa667490f6ff6d9995688cded",
+    "dice": 0.9276683937823834,
+    "iou": 0.8650947042906841
+  },
+  {
+    "target_id": "kvasir-seg::cju7dda8w2br20818zhsuz8s7",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju7dda8w2br20818zhsuz8s7.png",
+    "mask_sha256": "7d29ded731f119b9f77d9eb2270d088654c5829417abd77375c301ff68eb7d6b",
+    "dice": 0.9791115531946414,
+    "iou": 0.9590779053857954
+  },
+  {
+    "target_id": "kvasir-seg::cju7ehljc2or70871261br8ai",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju7ehljc2or70871261br8ai.png",
+    "mask_sha256": "c51e2166d7b5db7fce78f61ea7edd53d81c1c0d8d72f67c421bc71150f2c4413",
+    "dice": 0.5415768714674908,
+    "iou": 0.371344132489475
+  },
+  {
+    "target_id": "kvasir-seg::cju7ekbo32pft0871fv7kzwb9",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju7ekbo32pft0871fv7kzwb9.png",
+    "mask_sha256": "d39cf01cb4a6643b9aa4fc37759b0bd4bcf29a62e40e08b4da6f0f6901373a1e",
+    "dice": 0.9698518140010219,
+    "iou": 0.941468253968254
+  },
+  {
+    "target_id": "kvasir-seg::cju7eotqi2qea0871y8yc7tqh",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju7eotqi2qea0871y8yc7tqh.png",
+    "mask_sha256": "c4f2028b3982b1830a7adee52abc3ab3b6c220e2dc5e4b92a2b893831b352621",
+    "dice": 0.8183893415973769,
+    "iou": 0.6926049082053204
+  },
+  {
+    "target_id": "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju7ez7r22qbc08015xfoz2wb.png",
+    "mask_sha256": "0703ec39475ecf7b63d68f7703ec592af8481a3f98e8614ec55a97c693e7ee7a",
+    "dice": 0.8945311502209508,
+    "iou": 0.8091871158556311
+  },
+  {
+    "target_id": "kvasir-seg::cju7f0ec32txj08184asb8w5f",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju7f0ec32txj08184asb8w5f.png",
+    "mask_sha256": "11049ac93a2225c4aeeab3702f507c733888a406021f9666f0a09cc4581b277b",
+    "dice": 0.9641970932293513,
+    "iou": 0.9308692676249144
+  },
+  {
+    "target_id": "kvasir-seg::cju7fbndk2sl608015ravktum",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju7fbndk2sl608015ravktum.png",
+    "mask_sha256": "a01a112790e6e325a79e6c0c508792af5218ea8e925ef8273e89f5f8aa16a606",
+    "dice": 0.9605734767025089,
+    "iou": 0.9241379310344827
+  },
+  {
+    "target_id": "kvasir-seg::cju849c23kgnk0817cgv2hw1e",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju849c23kgnk0817cgv2hw1e.png",
+    "mask_sha256": "72f692f19da1268c62b216ee501f4a877f7d9e7da705516a8e064df576dc85c4",
+    "dice": 0.9112658453847527,
+    "iou": 0.8369957363069859
+  },
+  {
+    "target_id": "kvasir-seg::cju858eswlepn0871pzvdrhj1",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju858eswlepn0871pzvdrhj1.png",
+    "mask_sha256": "bd12acd20267ee2d00f8e978509eb52d8247a0d35774a3531214b8d451fa9149",
+    "dice": 0.9839378060892496,
+    "iou": 0.9683834434407442
+  },
+  {
+    "target_id": "kvasir-seg::cju85a8h8llwm07559wxg4t5w",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju85a8h8llwm07559wxg4t5w.png",
+    "mask_sha256": "ef14c61f307eefab539e42b867014653fee6601cdeaebe3621c44d796fda9aa3",
+    "dice": 0.9676816239316239,
+    "iou": 0.9373868046571798
+  },
+  {
+    "target_id": "kvasir-seg::cju85rkbnlo1c08503uxcpax1",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju85rkbnlo1c08503uxcpax1.png",
+    "mask_sha256": "88ba196e76af55eb61124e97f25f12e8f3f9ed5689ab15715eafe06edc892e97",
+    "dice": 0.9734845021486697,
+    "iou": 0.9483388260443574
+  },
+  {
+    "target_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju87li0zn3yb0817kbwgjiz8.png",
+    "mask_sha256": "c4701f1860342cee6ebe975e6a5a3fbee4129a83b63900f8fece5e1c399ea5e2",
+    "dice": 0.5820132095148235,
+    "iou": 0.4104503747285844
+  },
+  {
+    "target_id": "kvasir-seg::cju87r56lnkyp0755hz30leew",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju87r56lnkyp0755hz30leew.png",
+    "mask_sha256": "9c13b704a52fcb0fdb5244c24e4d6a815f98b19ae4054181a5efea9ee78a1b47",
+    "dice": 0.9494644899656858,
+    "iou": 0.9037909531822231
+  },
+  {
+    "target_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju88itqbny720987hxizbj5y.png",
+    "mask_sha256": "03d02355f7cae9a8f02ce8eaf8d5a87c96b07c3d55d6d848e23171fc5812aa94",
+    "dice": 0.9446967477292705,
+    "iou": 0.8951898382730618
+  },
+  {
+    "target_id": "kvasir-seg::cju88oh0po9gq0801nge4tgr1",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju88oh0po9gq0801nge4tgr1.png",
+    "mask_sha256": "61e632f23782c4cf0bd11d20fd6d5d600ae61b9fea552f48048409eb615f5962",
+    "dice": 0.9634070704982427,
+    "iou": 0.929397686477862
+  },
+  {
+    "target_id": "kvasir-seg::cju88y1mwoln50871emyfny1g",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju88y1mwoln50871emyfny1g.png",
+    "mask_sha256": "583abf196eda22d69c5fbe0bf5897ee9a105647ccdb16291927ab2222924886d",
+    "dice": 0.09600459902270768,
+    "iou": 0.050422705314009664
+  },
+  {
+    "target_id": "kvasir-seg::cju8aeei7q8k308173n9y4klv",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju8aeei7q8k308173n9y4klv.png",
+    "mask_sha256": "6c230adfc41e7f05d063f7030ea9a37346784249c9eb47e0e749081754af7b5c",
+    "dice": 0.9618375403756431,
+    "iou": 0.9264807559345472
+  },
+  {
+    "target_id": "kvasir-seg::cju8alhigqn2h0801zksudldd",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju8alhigqn2h0801zksudldd.png",
+    "mask_sha256": "9e9faa5ac70329ad413e75950815ded7d96f863e62630fdcb0244f24fdf3b3a6",
+    "dice": 0.9805414773771697,
+    "iou": 0.9618257688939261
+  },
+  {
+    "target_id": "kvasir-seg::cju8at3s1qqqx0850hcq8nmnq",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju8at3s1qqqx0850hcq8nmnq.png",
+    "mask_sha256": "8ba4c4440ec77258452d461552e1985673a3aacd72d40d66f08f5addb2278902",
+    "dice": 0.9472182596291013,
+    "iou": 0.8997289972899729
+  },
+  {
+    "target_id": "kvasir-seg::cju8bw697rwg308177tg8huas",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju8bw697rwg308177tg8huas.png",
+    "mask_sha256": "bd6d1a30bcb20d4711edfbb2ebdde3b727f2221e96729f38570d45ff67f28734",
+    "dice": 0.8569724679455323,
+    "iou": 0.7497391304347826
+  },
+  {
+    "target_id": "kvasir-seg::cju8chdlqsu620755azjty1tj",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju8chdlqsu620755azjty1tj.png",
+    "mask_sha256": "64726cb787cd4e05ab9b96d967c16120ab3f2948f259d02039083f823fd05863",
+    "dice": 0.9465893483900504,
+    "iou": 0.8985948138490512
+  },
+  {
+    "target_id": "kvasir-seg::cju8cwy02t9eq08185qn12c02",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju8cwy02t9eq08185qn12c02.png",
+    "mask_sha256": "9283cf9e05560324e53cf3e82dd15a9293d72a32a32c83c6bad841d0848e3a58",
+    "dice": 0.8960479694739711,
+    "iou": 0.8116729211929686
+  },
+  {
+    "target_id": "kvasir-seg::cju8d2q30tfhs0801n7lx77xl",
+    "mask_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2027/validation_epoch6/masks/kvasir-seg__cju8d2q30tfhs0801n7lx77xl.png",
+    "mask_sha256": "80d644d59a16dc71b7974224418c7c372f6b32d8cc667df247874185163308b1",
+    "dice": 0.968926815694277,
+    "iou": 0.9397265203310543
+  }
+]

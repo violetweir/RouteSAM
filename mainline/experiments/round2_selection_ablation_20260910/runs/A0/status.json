@@ -1,0 +1,23 @@
+{
+  "stage": "stopped_by_user",
+  "reason": "User requested restart with cosine decay, gradient clipping and original RGB to 1008",
+  "previous_status": {
+    "stage": "training",
+    "arm": "A0",
+    "epoch": 8,
+    "epochs": 10,
+    "epoch_step": 68,
+    "epoch_size": 436,
+    "step": 3120,
+    "loss": 13.764810562133789,
+    "elapsed_seconds": 6321.547328948975,
+    "best_validation_dice": 0.8795421272443389
+  },
+  "completed_epochs": 7,
+  "best": {
+    "epoch": 2,
+    "count": 100,
+    "dice": 0.8795421272443389,
+    "iou": 0.8167638514019974
+  }
+}

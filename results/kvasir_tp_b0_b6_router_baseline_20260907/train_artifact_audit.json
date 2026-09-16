@@ -1,0 +1,14 @@
+{
+  "train_targets": 792,
+  "train_routes": 5544,
+  "quality_success": 5544,
+  "train_candidate_masks_exist": 5544,
+  "route_ids_match": true,
+  "only_original_train_bridges_and_eight_anchors": true,
+  "train_gt_used_for_this_audit_or_selection": false,
+  "train_routes_sha256": "4ee121f46bffda6a5c9eae529451dd966f0ba532db36987b72a63afab72933a2",
+  "train_quality_sha256": "8e24ae2ffe0549c5dc9d1b36c2a5f25da8afbc8691fd9db5c2e60dec0d2df3b4",
+  "train_routes_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_sam3knn_s256_base/stage1_feature_knn_b0_b6/sam3enc_anchor_conditioned_target_pooling/train_pool0_stage1/routes.jsonl",
+  "train_quality_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_sam3knn_s256_base/stage1_feature_knn_b0_b6/sam3enc_anchor_conditioned_target_pooling/propagation_quality_train/propagation_quality.jsonl",
+  "note": "Historical same-topology artifacts exist; checked counts, IDs, status and mask existence. No new propagation, pseudo-label selection or training was run."
+}

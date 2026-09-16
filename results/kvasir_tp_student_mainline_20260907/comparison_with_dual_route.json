@@ -1,0 +1,46 @@
+{
+  "old_b7": {
+    "dice": 0.8954317676013283,
+    "iou": 0.8323112031859243
+  },
+  "new_b7": {
+    "dice": 0.8926393880148344,
+    "iou": 0.8344675688282003
+  },
+  "old_student_export": {
+    "dice": 0.8541012813206857,
+    "iou": 0.7714696281692466
+  },
+  "new_student_export": {
+    "dice": 0.8671610725041679,
+    "iou": 0.7869509798244329
+  },
+  "new_minus_old_b7": {
+    "dice_delta": -0.0027923795864936984,
+    "iou_delta": 0.002156365642275948,
+    "wins": 25,
+    "ties": 50,
+    "losses": 25,
+    "paired_bootstrap95ci": [
+      -0.016144896171099408,
+      0.007855949568355338
+    ]
+  },
+  "new_minus_old_student_export": {
+    "dice_delta": 0.013059791183482106,
+    "iou_delta": 0.01548135165518627
+  },
+  "old_consensus_candidate_counts": [
+    14
+  ],
+  "old_committee_bridges": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "old_committee_modes": [
+    "anchor_conditioned_patch_correspondence",
+    "anchor_conditioned_target_pooling"
+  ]
+}

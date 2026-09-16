@@ -1,0 +1,21 @@
+{
+  "split": "validation only",
+  "student": false,
+  "fixed_inputs": "Original five-fold OOF TP anchor, path and default mask; original 8 train supports",
+  "variants": [
+    "tp_box_control",
+    "prototype_box",
+    "fgbg_box"
+  ],
+  "tp_box_control": "Bounding box of TP prediction; same SAM3 re-decoding as correspondence variants",
+  "correspondence_box": "18x18 area weights from TP mask; ROI=TP weights>.25 dilated2 cells; K=round(TP grid area); highest K scores; component maximizing TP overlap; bbox enlarged1 cell",
+  "fgbg": "Mean top-min(3,FGcount) FG cosine minus mean top3 BG cosine under frozen TP anchor",
+  "prototype": "L2-normalized mean anchor FG token cosine",
+  "decoder": "SAM3-base image geometric box grounding, resolution256; implicit visual token, no polyp text; highest model confidence query; empty result falls back to TP",
+  "fixed_guard": "Also report guarded output: use decoded mask iff Dice(decoded,TP)>=.9, area ratio in [.5,2], score>=.5; otherwise TP. No learned selector.",
+  "primary": "fgbg_box guarded improvement over both original TP and identically guarded TP-box control; mean >=.003, paired95 bootstrap lower>0, >=3 positive original OOF folds for each comparison",
+  "selection_policy": "No choice of primary based on best ablation. All raw/guarded outputs and candidate oracles reported; failed gate means no test.",
+  "precision": "CPUfloat32; isolated fused MLP replacement, same as previous evidence extraction; no shared source modifications",
+  "caveat": "One fixed prompt construction, not an exhaustive test of dense correspondence guidance. Existing validation reused across research rounds.",
+  "code_sha256": "776e045feb2c66d3a8ff65f6840a43b36bd202368481dbf764f0753df64d72b9"
+}

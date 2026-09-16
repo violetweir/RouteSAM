@@ -1,0 +1,27 @@
+{
+  "configs": [
+    [
+      "legacy",
+      1.0
+    ],
+    [
+      "rank_peer",
+      1.0
+    ],
+    [
+      "rank_peer",
+      10.0
+    ],
+    [
+      "rank_peer",
+      100.0
+    ]
+  ],
+  "selection": "mean selected validation Dice in frozen image-grouped 5-fold CV; outer nested CV evaluates config selection",
+  "test": "evaluate only after model and all test route choices frozen",
+  "seed": 2026,
+  "features": "legacy 28 numeric features; rank_peer adds 8 mask-consensus features and centers X and y within each image",
+  "oracle": "diagnostic only",
+  "prior_test_seen": true,
+  "no_test_tuning": true
+}

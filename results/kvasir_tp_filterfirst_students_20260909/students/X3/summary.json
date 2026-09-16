@@ -1,0 +1,80 @@
+{
+  "best_iteration_diagnostic_only": 33200,
+  "best_validation_diagnostic_only": 0.8169942731817408,
+  "checkpoint_reproduced": true,
+  "cuda_memory": {
+    "allocated_after_release": 51241984,
+    "allocated_before_release": 69508096
+  },
+  "experiment": "X3",
+  "final_checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/students/X3/student_final.pth",
+  "final_iteration": 40000,
+  "final_validation": {
+    "by_dataset": {
+      "kvasir-seg": {
+        "count": 100,
+        "dice": 0.8126784745140321,
+        "iou": 0.7304590210190667,
+        "mean_area": 0.11598724365234375,
+        "nonempty_rate": 1.0
+      }
+    },
+    "by_size": {
+      "large": {
+        "count": 44,
+        "dice": 0.7430277515136212,
+        "iou": 0.6536741146279735
+      },
+      "medium": {
+        "count": 33,
+        "dice": 0.8589344555643542,
+        "iou": 0.7762370279622954
+      },
+      "small": {
+        "count": 23,
+        "dice": 0.8795560587469644,
+        "iou": 0.8116703971965242
+      }
+    },
+    "count": 100,
+    "dice": 0.8126784745140321,
+    "iou": 0.7304590210190667,
+    "mean_area": 0.11598724365234375,
+    "nonempty_rate": 1.0
+  },
+  "nan_detected": false,
+  "reloaded_final_validation": {
+    "by_dataset": {
+      "kvasir-seg": {
+        "count": 100,
+        "dice": 0.8126784745140321,
+        "iou": 0.7304590210190667,
+        "mean_area": 0.11598724365234375,
+        "nonempty_rate": 1.0
+      }
+    },
+    "by_size": {
+      "large": {
+        "count": 44,
+        "dice": 0.7430277515136212,
+        "iou": 0.6536741146279735
+      },
+      "medium": {
+        "count": 33,
+        "dice": 0.8589344555643542,
+        "iou": 0.7762370279622954
+      },
+      "small": {
+        "count": 23,
+        "dice": 0.8795560587469644,
+        "iou": 0.8116703971965242
+      }
+    },
+    "count": 100,
+    "dice": 0.8126784745140321,
+    "iou": 0.7304590210190667,
+    "mean_area": 0.11598724365234375,
+    "nonempty_rate": 1.0
+  },
+  "test_evaluated": false
+}

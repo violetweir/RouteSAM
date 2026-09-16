@@ -1,0 +1,170 @@
+{
+  "all_physical_switch_candidates": {
+    "sam3enc_anchor_conditioned_patch_correspondence": {
+      "candidate_count": 700,
+      "catastrophic_count": 43,
+      "catastrophic_rate": 0.06142857142857143,
+      "degraded_count": 381,
+      "feature_means": {
+        "b7": 0.8582189435198804,
+        "delta_q_model": -0.022479940712732488,
+        "delta_q_multi": -0.020618867739326724,
+        "path_mean_similarity": 0.777511569502752,
+        "q_model": 0.8366011205168341,
+        "q_multi": 0.9073196849911755,
+        "q_return": 0.9124680277133442,
+        "q_return_minus_q_model": 0.07586690719651024,
+        "q_return_minus_q_multi": 0.005148342722168611,
+        "trace_adjacent_dice_mean": 0.2700135611661249,
+        "trace_adjacent_dice_min": 0.06613802356367107
+      },
+      "improved_count": 318,
+      "mean_delta_dice": -0.0392443771814755,
+      "median_delta_dice": -0.00045284877677942426,
+      "severe_count": 47,
+      "severe_rate": 0.06714285714285714,
+      "tied_count": 1,
+      "unique_target_count": 100,
+      "worst_delta_dice": -0.9749580088563139
+    },
+    "sam3enc_anchor_conditioned_target_pooling": {
+      "candidate_count": 600,
+      "catastrophic_count": 47,
+      "catastrophic_rate": 0.07833333333333334,
+      "degraded_count": 378,
+      "feature_means": {
+        "b7": 0.8498519381147954,
+        "delta_q_model": -0.03375709615059887,
+        "delta_q_multi": -0.03119854343867514,
+        "path_mean_similarity": 0.8917398613231685,
+        "q_model": 0.8253239650789677,
+        "q_multi": 0.8967400092918274,
+        "q_return": 0.9119244636125396,
+        "q_return_minus_q_model": 0.08660049853357199,
+        "q_return_minus_q_multi": 0.015184454320712415,
+        "trace_adjacent_dice_mean": 0.2963686426306965,
+        "trace_adjacent_dice_min": 0.12711319108713023
+      },
+      "improved_count": 218,
+      "mean_delta_dice": -0.05184272920326133,
+      "median_delta_dice": -0.0008890694578194691,
+      "severe_count": 49,
+      "severe_rate": 0.08166666666666667,
+      "tied_count": 4,
+      "unique_target_count": 100,
+      "worst_delta_dice": -0.9804406474820144
+    }
+  },
+  "qreturn_selected_all_targets": {
+    "sam3enc_anchor_conditioned_patch_correspondence": {
+      "candidate_count": 39,
+      "catastrophic_count": 1,
+      "catastrophic_rate": 0.02564102564102564,
+      "degraded_count": 15,
+      "feature_means": {
+        "b7": 0.9309543984145324,
+        "delta_q_model": 0.004256581068718269,
+        "delta_q_multi": 0.011520679233803687,
+        "path_mean_similarity": 0.800980113867392,
+        "q_model": 0.8890718510240933,
+        "q_multi": 0.958249861298404,
+        "q_return": 0.9762355457331051,
+        "q_return_minus_q_model": 0.0871636947090119,
+        "q_return_minus_q_multi": 0.01798568443470122,
+        "trace_adjacent_dice_mean": 0.36104299869975,
+        "trace_adjacent_dice_min": 0.07244762419855466
+      },
+      "improved_count": 24,
+      "mean_delta_dice": -0.011594057418969258,
+      "median_delta_dice": 0.0005185048536083814,
+      "severe_count": 1,
+      "severe_rate": 0.02564102564102564,
+      "tied_count": 0,
+      "unique_target_count": 39,
+      "worst_delta_dice": -0.5140658812214475
+    },
+    "sam3enc_anchor_conditioned_target_pooling": {
+      "candidate_count": 61,
+      "catastrophic_count": 1,
+      "catastrophic_rate": 0.01639344262295082,
+      "degraded_count": 13,
+      "feature_means": {
+        "b7": 0.8608976114800596,
+        "delta_q_model": 0.0056257422149538746,
+        "delta_q_multi": -0.007040092122981904,
+        "path_mean_similarity": 0.8920113059372817,
+        "q_model": 0.8482537847509708,
+        "q_multi": 0.9088847795578514,
+        "q_return": 0.9548652220005874,
+        "q_return_minus_q_model": 0.10661143724961666,
+        "q_return_minus_q_multi": 0.04598044244273607,
+        "trace_adjacent_dice_mean": 0.34806555140853224,
+        "trace_adjacent_dice_min": 0.13301053503584423
+      },
+      "improved_count": 30,
+      "mean_delta_dice": -2.3351217180383656e-05,
+      "median_delta_dice": 0.0,
+      "severe_count": 1,
+      "severe_rate": 0.01639344262295082,
+      "tied_count": 18,
+      "unique_target_count": 61,
+      "worst_delta_dice": -0.2085690193597547
+    }
+  },
+  "qreturn_selected_physical_switches": {
+    "sam3enc_anchor_conditioned_patch_correspondence": {
+      "candidate_count": 39,
+      "catastrophic_count": 1,
+      "catastrophic_rate": 0.02564102564102564,
+      "degraded_count": 15,
+      "feature_means": {
+        "b7": 0.9309543984145324,
+        "delta_q_model": 0.004256581068718269,
+        "delta_q_multi": 0.011520679233803687,
+        "path_mean_similarity": 0.800980113867392,
+        "q_model": 0.8890718510240933,
+        "q_multi": 0.958249861298404,
+        "q_return": 0.9762355457331051,
+        "q_return_minus_q_model": 0.0871636947090119,
+        "q_return_minus_q_multi": 0.01798568443470122,
+        "trace_adjacent_dice_mean": 0.36104299869975,
+        "trace_adjacent_dice_min": 0.07244762419855466
+      },
+      "improved_count": 24,
+      "mean_delta_dice": -0.011594057418969258,
+      "median_delta_dice": 0.0005185048536083814,
+      "severe_count": 1,
+      "severe_rate": 0.02564102564102564,
+      "tied_count": 0,
+      "unique_target_count": 39,
+      "worst_delta_dice": -0.5140658812214475
+    },
+    "sam3enc_anchor_conditioned_target_pooling": {
+      "candidate_count": 44,
+      "catastrophic_count": 1,
+      "catastrophic_rate": 0.022727272727272728,
+      "degraded_count": 13,
+      "feature_means": {
+        "b7": 0.8479433122031094,
+        "delta_q_model": 0.007799324434367871,
+        "delta_q_multi": -0.009760127715952185,
+        "path_mean_similarity": 0.8825960709155343,
+        "q_model": 0.8400755616649197,
+        "q_multi": 0.9064780762964584,
+        "q_return": 0.9492557206576614,
+        "q_return_minus_q_model": 0.10918015899274143,
+        "q_return_minus_q_multi": 0.04277764436120277,
+        "trace_adjacent_dice_mean": 0.3216330394708195,
+        "trace_adjacent_dice_min": 0.15495486250542517
+      },
+      "improved_count": 30,
+      "mean_delta_dice": -3.237327836371371e-05,
+      "median_delta_dice": 0.0005971962861948121,
+      "severe_count": 1,
+      "severe_rate": 0.022727272727272728,
+      "tied_count": 1,
+      "unique_target_count": 44,
+      "worst_delta_dice": -0.2085690193597547
+    }
+  }
+}

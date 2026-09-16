@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "/home/violet/anaconda3/envs/mkunet_mamba/bin/python",
+    "-u",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/code/prepare_phase1_s3_consensus.py",
+    "--original-manifest",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/pseudo_manifest_original.jsonl",
+    "--quality-root",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/quality",
+    "--output-root",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/S3_consensus",
+    "--min-bridge",
+    "0",
+    "--max-bridge",
+    "6"
+  ],
+  "gpu": 0
+}

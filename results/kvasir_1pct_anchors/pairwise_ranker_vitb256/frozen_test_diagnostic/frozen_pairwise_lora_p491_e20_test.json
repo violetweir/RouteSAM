@@ -1,0 +1,61 @@
+{
+  "protocol": {
+    "candidate_pool": "P2_b3_b6_11_families",
+    "checkpoint_tag": "lora_p491_e20",
+    "fallback_enabled": false,
+    "fallback_probability": null,
+    "fit_or_calibration_performed": false,
+    "model_path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_1pct_anchors/pairwise_ranker_vitb256/frozen_internal_consensus/frozen_internal_plus_consensus_lora_p491_e20.json",
+    "role": "historical_test_diagnostic",
+    "split": "test",
+    "student_loaded": false
+  },
+  "summary": {
+    "bootstrap_95_ci": [
+      -0.014469170168377359,
+      0.031172429214227308
+    ],
+    "catastrophic_regressions_delta_lt_minus_0.05": 4,
+    "fixed_b6_dice": 0.897779682728018,
+    "losses": 41,
+    "max_gain": 0.6312505516519638,
+    "max_gain_over_net_gain": 0.7402667145287285,
+    "max_gain_share_of_positive_gains": 0.2849734520108697,
+    "max_regression": -0.7392042049639805,
+    "mean_delta_vs_fixed": 0.008527339393529709,
+    "median_delta_vs_fixed": 0.00023785716769808563,
+    "n_targets": 100,
+    "oracle_dice": 0.9347281249088425,
+    "oracle_gap": 0.02842110278729504,
+    "route_histogram": {
+      "anchor_conditioned_patch_correspondence:b6": 1,
+      "anchor_conditioned_patch_correspondence__knn_cond:b3": 1,
+      "anchor_conditioned_patch_correspondence__knn_cond:b4": 1,
+      "anchor_conditioned_patch_correspondence__knn_cond:b5": 4,
+      "anchor_conditioned_patch_correspondence__knn_cond:b6": 13,
+      "anchor_conditioned_patch_correspondence__knn_pooled:b4": 1,
+      "anchor_conditioned_patch_correspondence__knn_pooled:b5": 2,
+      "anchor_conditioned_patch_correspondence__knn_pooled:b6": 5,
+      "anchor_conditioned_target_pooling:b6": 3,
+      "anchor_conditioned_target_pooling__knn_cls:b3": 1,
+      "anchor_conditioned_target_pooling__knn_cls:b6": 1,
+      "anchor_conditioned_target_pooling__knn_pooled:b6": 1,
+      "dino_global_pooling:b3": 1,
+      "dino_global_pooling:b4": 6,
+      "dino_global_pooling:b5": 4,
+      "dino_global_pooling:b6": 10,
+      "dino_patch_average:b3": 2,
+      "dino_patch_average:b5": 3,
+      "dino_patch_average:b6": 6,
+      "t18_corrected:b3": 10,
+      "t18_corrected:b4": 8,
+      "t18_corrected:b5": 4,
+      "t18_corrected:b6": 12
+    },
+    "selected_dice": 0.9063070221215475,
+    "switches_from_fixed": 94,
+    "ties": 6,
+    "trimmed_mean_delta_10pct": 0.0009646907107603596,
+    "wins": 53
+  }
+}

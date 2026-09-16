@@ -1,0 +1,20 @@
+{
+  "candidate_modes": [
+    "anchor_conditioned_target_pooling",
+    "anchor_conditioned_patch_correspondence"
+  ],
+  "max_bridge": 6,
+  "mean_route_mask_variance": 0.00814302551625955,
+  "min_bridge": 3,
+  "n": 792,
+  "selected_counts": {
+    "anchor_conditioned_patch_correspondence:bridge_3": 144,
+    "anchor_conditioned_patch_correspondence:bridge_4": 95,
+    "anchor_conditioned_patch_correspondence:bridge_5": 65,
+    "anchor_conditioned_patch_correspondence:bridge_6": 107,
+    "anchor_conditioned_target_pooling:bridge_3": 35,
+    "anchor_conditioned_target_pooling:bridge_4": 32,
+    "anchor_conditioned_target_pooling:bridge_5": 65,
+    "anchor_conditioned_target_pooling:bridge_6": 249
+  }
+}

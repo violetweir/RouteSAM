@@ -1,0 +1,80 @@
+{
+  "best_iteration_diagnostic_only": 24000,
+  "best_validation_diagnostic_only": 0.8707898054604148,
+  "checkpoint_reproduced": true,
+  "cuda_memory": {
+    "allocated_after_release": 51241984,
+    "allocated_before_release": 69508096
+  },
+  "experiment": "X4_isic18_round2a",
+  "final_checkpoint": "work/isic18_round1_round2a_from_pseudovideo_full/round2a_fixed_knn_lora_teacher/students/X4/student_final.pth",
+  "final_iteration": 40000,
+  "final_validation": {
+    "by_dataset": {
+      "ISIC18": {
+        "count": 259,
+        "dice": 0.8673747393420984,
+        "iou": 0.7968584668634543,
+        "mean_area": 0.19451002908949686,
+        "nonempty_rate": 0.9922779922779923
+      }
+    },
+    "by_size": {
+      "large": {
+        "count": 139,
+        "dice": 0.8739948510480239,
+        "iou": 0.8064890665720559
+      },
+      "medium": {
+        "count": 38,
+        "dice": 0.8825194007162716,
+        "iou": 0.8070219554959985
+      },
+      "small": {
+        "count": 82,
+        "dice": 0.849134584959876,
+        "iou": 0.7758235165276948
+      }
+    },
+    "count": 259,
+    "dice": 0.8673747393420984,
+    "iou": 0.7968584668634543,
+    "mean_area": 0.19451002908949686,
+    "nonempty_rate": 0.9922779922779923
+  },
+  "nan_detected": false,
+  "reloaded_final_validation": {
+    "by_dataset": {
+      "ISIC18": {
+        "count": 259,
+        "dice": 0.8673747393420984,
+        "iou": 0.7968584668634543,
+        "mean_area": 0.19451002908949686,
+        "nonempty_rate": 0.9922779922779923
+      }
+    },
+    "by_size": {
+      "large": {
+        "count": 139,
+        "dice": 0.8739948510480239,
+        "iou": 0.8064890665720559
+      },
+      "medium": {
+        "count": 38,
+        "dice": 0.8825194007162716,
+        "iou": 0.8070219554959985
+      },
+      "small": {
+        "count": 82,
+        "dice": 0.849134584959876,
+        "iou": 0.7758235165276948
+      }
+    },
+    "count": 259,
+    "dice": 0.8673747393420984,
+    "iou": 0.7968584668634543,
+    "mean_area": 0.19451002908949686,
+    "nonempty_rate": 0.9922779922779923
+  },
+  "test_evaluated": false
+}

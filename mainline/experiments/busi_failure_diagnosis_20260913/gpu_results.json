@@ -1,0 +1,56 @@
+{
+  "n": 64,
+  "direct": {
+    "target_gtbox_256": {
+      "dice": 0.9025601213027494,
+      "no_candidates": 0
+    },
+    "target_gtbox_native_to1008": {
+      "dice": 0.898471181976489,
+      "no_candidates": 0
+    },
+    "text_only_breast_lesion_1008": {
+      "dice": 0.05819654596885847,
+      "no_candidates": 60
+    }
+  },
+  "anchor_b0": {
+    "BUSI::benign (3)": 0.6064365031198738,
+    "BUSI::benign (125)": 0.5037413551391837,
+    "BUSI::benign (305)": 0.5906419330288281,
+    "BUSI::malignant (195)": 0.5210731948493885,
+    "BUSI::malignant (187)": 0.48174046261689585
+  },
+  "anchor_b0_oracle": 0.7928242639074911,
+  "anchor_score_selection": {
+    "raw": {
+      "dice": 0.4943740176785398,
+      "counts": {
+        "BUSI::malignant (187)": 61,
+        "BUSI::benign (3)": 2,
+        "BUSI::malignant (195)": 1
+      }
+    },
+    "centered": {
+      "dice": 0.7006272352594944,
+      "counts": {
+        "BUSI::benign (3)": 25,
+        "BUSI::malignant (187)": 10,
+        "BUSI::malignant (195)": 11,
+        "BUSI::benign (125)": 9,
+        "BUSI::benign (305)": 9
+      }
+    },
+    "zscore": {
+      "dice": 0.6527154633680773,
+      "counts": {
+        "BUSI::benign (125)": 15,
+        "BUSI::malignant (187)": 20,
+        "BUSI::benign (3)": 15,
+        "BUSI::benign (305)": 10,
+        "BUSI::malignant (195)": 4
+      }
+    }
+  },
+  "warning": "Validation-only diagnosis. Target GT box tests use extra location supervision and are NOT 1% results; alternative selection scores not frozen independent evaluations."
+}

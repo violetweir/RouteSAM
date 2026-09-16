@@ -1,0 +1,50 @@
+{
+  "hard": {
+    "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/single_student_hard_soft_20260909/runs/hard/student_final.pth",
+    "sha256": "6ff386a12426409f20fd4b062cb1d3942c20757cbf1a5904e0b2228731b2dcf2",
+    "epoch": 816,
+    "iteration": 39984,
+    "validation": {
+      "count": 100,
+      "dice": 0.8123772278516762,
+      "iou": 0.7313245226338584
+    },
+    "test": {
+      "count": 100,
+      "dice": 0.854010914137757,
+      "iou": 0.7751227819888666
+    },
+    "best_checkpoint_test": {
+      "count": 100,
+      "dice": 0.8485924378718745,
+      "iou": 0.7692216080062917
+    },
+    "final_minus_best_test_dice": 0.005418476265882433,
+    "final_validation_reproduced": true,
+    "all_100_saved_masks_hash_verified": true
+  },
+  "soft": {
+    "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/single_student_hard_soft_20260909/runs/soft/student_final.pth",
+    "sha256": "ce71038ddfe318645e61b8004f2b8acabd6d2a7b5d2680ef96becc095ec58a3b",
+    "epoch": 816,
+    "iteration": 39984,
+    "validation": {
+      "count": 100,
+      "dice": 0.8145613754048733,
+      "iou": 0.7336951942832427
+    },
+    "test": {
+      "count": 100,
+      "dice": 0.8595295954726687,
+      "iou": 0.7833616654924892
+    },
+    "best_checkpoint_test": {
+      "count": 100,
+      "dice": 0.8512434270489941,
+      "iou": 0.7730376108511332
+    },
+    "final_minus_best_test_dice": 0.008286168423674578,
+    "final_validation_reproduced": true,
+    "all_100_saved_masks_hash_verified": true
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "counts": {
+    "human16": 21,
+    "pseudo568_original": 974,
+    "train_all": 2075,
+    "unlabeled_remaining": 1080
+  },
+  "files": {
+    "human16": {
+      "path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_pseudovideo_full/s27_progressive_x3/pools/human16.jsonl",
+      "rows": 21,
+      "sha256": "7f60f51b98a3a774369d8cc03d285759695a8362f4b2fc3262cec08cf9648817"
+    },
+    "pseudo568_original": {
+      "path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_pseudovideo_full/s27_progressive_x3/pools/pseudo568_original.jsonl",
+      "rows": 974,
+      "sha256": "2feb7b5c41027e30454e81f2abb250e34e837a432ef94680ccd1129ab375f25f"
+    },
+    "train_all": {
+      "path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_pseudovideo_full/s27_progressive_x3/pools/train_all.jsonl",
+      "rows": 2075,
+      "sha256": "d68083cff0f26f1afae8f9b30da7d181d574b9bd32b46fca2f8f91dcd1d36ae8"
+    },
+    "unlabeled_remaining": {
+      "path": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_pseudovideo_full/s27_progressive_x3/pools/unlabeled_remaining.jsonl",
+      "rows": 1080,
+      "sha256": "4ab98716a0567e6520f62704761ff7c08b0ae1457877f6c9242bfdafce91f727"
+    }
+  },
+  "generated_at_utc": "2026-07-29T07:47:15.606596+00:00",
+  "git_commit": "c72e40ccf3cfd0d1283f221c05bf5c4dec29e60b",
+  "overlaps": {
+    "human_pseudo": [],
+    "human_remaining": [],
+    "pseudo_remaining": []
+  },
+  "script": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/scripts/prepare_s27_remaining_pool.py",
+  "script_sha256": "a2be1ea22d3554b72c679334880b8211aa0451a5ac38b60fcd42d5c2dd6d07da",
+  "source_files": {
+    "human_list": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_pseudovideo_full/protocol/frozen_labeled_images.txt",
+    "pseudo568": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_pseudovideo_full/pseudo1522/protocol/pseudo_train_tau_m090_r095.jsonl",
+    "train_metadata": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_1pct_protocol/data/train/metadata.jsonl"
+  },
+  "union_equals_train": true
+}

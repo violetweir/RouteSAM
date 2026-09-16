@@ -1,0 +1,16 @@
+{
+  "validation": {
+    "targets": 100,
+    "routes": 226,
+    "reused_baseline": 100,
+    "new_to_propagate": 126,
+    "mean_needed_anchors": 2.26
+  },
+  "test": {
+    "targets": 100,
+    "routes": 214,
+    "reused_baseline": 100,
+    "new_to_propagate": 114,
+    "mean_needed_anchors": 2.14
+  }
+}

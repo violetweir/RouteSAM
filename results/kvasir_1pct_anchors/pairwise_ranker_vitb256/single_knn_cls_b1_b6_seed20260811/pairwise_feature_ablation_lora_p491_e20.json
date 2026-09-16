@@ -1,0 +1,501 @@
+{
+  "feature_sets": {
+    "internal_plus_consensus": [
+      "bridge_scaled",
+      "q_return",
+      "q_multi",
+      "q_return_rank",
+      "q_multi_rank",
+      "sam_score",
+      "sam_score_rank",
+      "cycle_sam_score",
+      "path_bottleneck_similarity",
+      "path_mean_similarity",
+      "trace_area_min",
+      "trace_area_max",
+      "trace_area_final",
+      "log1p_trace_area_max_rel_delta",
+      "trace_empty_count",
+      "trace_component_max",
+      "trace_component_final",
+      "trace_centroid_max_step",
+      "log1p_trace_bbox_w_max_rel_delta",
+      "log1p_trace_bbox_h_max_rel_delta",
+      "trace_adjacent_dice_min",
+      "trace_adjacent_dice_mean",
+      "trace_adjacent_dice_last",
+      "trace_sam_score_min",
+      "trace_sam_score_mean",
+      "trace_sam_score_final",
+      "log1p_trace_candidate_count_max",
+      "log1p_trace_candidate_count_final",
+      "is_fixed_b6",
+      "family::anchor_conditioned_target_pooling__knn_cls"
+    ]
+  },
+  "final_models": {},
+  "folds": [
+    {
+      "fold": 0,
+      "heldout_targets": [
+        "kvasir-seg::cju7agj961l2r0818z29iq8yn",
+        "kvasir-seg::cju5bycdkalkb09875f7bfrvx",
+        "kvasir-seg::cju1fyb1d69et0878muzdak9u",
+        "kvasir-seg::cju1csmlc4ht10799b8ymmghg",
+        "kvasir-seg::cju3128yi0rpu0988o4oo5n8n",
+        "kvasir-seg::cju6x35ervu2808015c7eoqe4",
+        "kvasir-seg::cju5ew4h9cqaf0818rrczkmqh",
+        "kvasir-seg::cju1djtprvd7b0988thwwrg09",
+        "kvasir-seg::cju303j5r062k098835zxfds5",
+        "kvasir-seg::cju8cwy02t9eq08185qn12c02",
+        "kvasir-seg::cju7dda8w2br20818zhsuz8s7",
+        "kvasir-seg::cju6vqarjv7yo0987q4b1btk1",
+        "kvasir-seg::cju2t2ivz43i10878zeg8r1br",
+        "kvasir-seg::cju0s2a9ekvms080138tjjpxr",
+        "kvasir-seg::cju7eotqi2qea0871y8yc7tqh",
+        "kvasir-seg::cju5hyi9yegob0755ho3do8en",
+        "kvasir-seg::cju3yht87j83m08507yk1u1fg",
+        "kvasir-seg::cju5hl8nee8a40755fm8qjj0o",
+        "kvasir-seg::cju45rj7ln8980850a7821fov",
+        "kvasir-seg::cju3xzvnzj0hd0755xprz39nj"
+      ],
+      "models": {
+        "internal_plus_consensus": {
+          "fallback_probability": 0.75,
+          "l2": 0.01,
+          "optimizer_success": true,
+          "top_standardized_weights": [
+            {
+              "feature": "trace_adjacent_dice_mean",
+              "weight": 1.0936177404843739
+            },
+            {
+              "feature": "trace_centroid_max_step",
+              "weight": 0.8512004694634865
+            },
+            {
+              "feature": "path_mean_similarity",
+              "weight": -0.6543110528630978
+            },
+            {
+              "feature": "q_return",
+              "weight": 0.4858920457202131
+            },
+            {
+              "feature": "log1p_trace_bbox_w_max_rel_delta",
+              "weight": -0.3878210050320403
+            },
+            {
+              "feature": "trace_area_final",
+              "weight": 0.3821664888993703
+            },
+            {
+              "feature": "is_fixed_b6",
+              "weight": 0.3669404460824572
+            },
+            {
+              "feature": "cycle_sam_score",
+              "weight": 0.31653614977876837
+            },
+            {
+              "feature": "trace_adjacent_dice_last",
+              "weight": 0.28839216683641783
+            },
+            {
+              "feature": "trace_area_max",
+              "weight": 0.27284030966666095
+            }
+          ],
+          "tuning_best_key": [
+            0.8536268639193804,
+            0,
+            0.01355986134352577,
+            -0.75,
+            -0.01
+          ]
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "heldout_targets": [
+        "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+        "kvasir-seg::cju858eswlepn0871pzvdrhj1",
+        "kvasir-seg::cju5wcc90lu020850mjrxppv6",
+        "kvasir-seg::cju5bbtwsa8cl0987wgfsqpao",
+        "kvasir-seg::cju5cjh3xattc0817j2vbulzi",
+        "kvasir-seg::cju1fmsyf6gxb0801cimx2gle",
+        "kvasir-seg::cju2yi9tz8vky0801yqip0xyl",
+        "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+        "kvasir-seg::cju45ty6zn9oz0850qy4qnck1",
+        "kvasir-seg::cju2zpw4q9vzr0801p0lysjdl",
+        "kvasir-seg::cju5x7iskmad90818frchyfwd",
+        "kvasir-seg::cju6vifjlv55z0987un6y4zdo",
+        "kvasir-seg::cju2zo0fwzv580988qlijd2xa",
+        "kvasir-seg::cju77u1sjz77b0817ft44r3fk",
+        "kvasir-seg::cju2y26c588bo07993ksd8eoz",
+        "kvasir-seg::cju3tx1qyg0c907552fglumhc",
+        "kvasir-seg::cju35fxqyzt5p0993vusm54qz",
+        "kvasir-seg::cju5k3j3uf6de0817hszzfr7n",
+        "kvasir-seg::cju2qfie4rvz508357kad9z5o",
+        "kvasir-seg::cju7bd1qu1mx409877xjxibox"
+      ],
+      "models": {
+        "internal_plus_consensus": {
+          "fallback_probability": 0.5,
+          "l2": 0.01,
+          "optimizer_success": true,
+          "top_standardized_weights": [
+            {
+              "feature": "trace_adjacent_dice_mean",
+              "weight": 1.0077863989566926
+            },
+            {
+              "feature": "trace_area_final",
+              "weight": 0.8374091251207433
+            },
+            {
+              "feature": "trace_centroid_max_step",
+              "weight": 0.6499684525154987
+            },
+            {
+              "feature": "q_return",
+              "weight": 0.4874073433856647
+            },
+            {
+              "feature": "path_mean_similarity",
+              "weight": -0.481543795366473
+            },
+            {
+              "feature": "trace_area_min",
+              "weight": -0.39548604300681167
+            },
+            {
+              "feature": "is_fixed_b6",
+              "weight": 0.38094288625345757
+            },
+            {
+              "feature": "log1p_trace_area_max_rel_delta",
+              "weight": -0.3304085012214374
+            },
+            {
+              "feature": "trace_area_max",
+              "weight": 0.32443116872129774
+            },
+            {
+              "feature": "bridge_scaled",
+              "weight": -0.2901077316743604
+            }
+          ],
+          "tuning_best_key": [
+            0.8470422381416907,
+            -2,
+            0.004251068589865405,
+            -0.5,
+            -0.01
+          ]
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "heldout_targets": [
+        "kvasir-seg::cju5u8gz4kj5b07552e2wpkwp",
+        "kvasir-seg::cju88itqbny720987hxizbj5y",
+        "kvasir-seg::cju33x0f22peh0988g0ln7w5v",
+        "kvasir-seg::cju5ekty5ckzf07550c9u3ckk",
+        "kvasir-seg::cju42g865lorv07552ytz6xxa",
+        "kvasir-seg::cju5fi0yxd3ei0801v7u0yudn",
+        "kvasir-seg::cju7ehljc2or70871261br8ai",
+        "kvasir-seg::cju45n0oxn5vu08500yfrt9jn",
+        "kvasir-seg::cju6wuojavt740818b5qcv3iw",
+        "kvasir-seg::cju3xjqtpikx50817tppy6g84",
+        "kvasir-seg::cju7atnm31if40817pqclnjer",
+        "kvasir-seg::cju85rkbnlo1c08503uxcpax1",
+        "kvasir-seg::cju1cu1u2474n0878tt7v4tdr",
+        "kvasir-seg::cju8chdlqsu620755azjty1tj",
+        "kvasir-seg::cju2pag1f0s4r0878h52uq83s",
+        "kvasir-seg::cju32qr9tbvsj08013pkpjenq",
+        "kvasir-seg::cju5i39mreass0817au8p22zy",
+        "kvasir-seg::cju8alhigqn2h0801zksudldd",
+        "kvasir-seg::cju7ekbo32pft0871fv7kzwb9",
+        "kvasir-seg::cju42nm68lpyo0818xvvqmupq"
+      ],
+      "models": {
+        "internal_plus_consensus": {
+          "fallback_probability": 0.65,
+          "l2": 0.001,
+          "optimizer_success": true,
+          "top_standardized_weights": [
+            {
+              "feature": "trace_area_final",
+              "weight": 2.9647205221080855
+            },
+            {
+              "feature": "trace_adjacent_dice_mean",
+              "weight": 2.21849924770039
+            },
+            {
+              "feature": "trace_centroid_max_step",
+              "weight": 1.5723185763820666
+            },
+            {
+              "feature": "trace_area_min",
+              "weight": -1.005464660106509
+            },
+            {
+              "feature": "path_mean_similarity",
+              "weight": -0.8545169193576284
+            },
+            {
+              "feature": "q_multi",
+              "weight": -0.7634100307766285
+            },
+            {
+              "feature": "bridge_scaled",
+              "weight": -0.7625986523810111
+            },
+            {
+              "feature": "sam_score_rank",
+              "weight": -0.7457361857335019
+            },
+            {
+              "feature": "trace_component_max",
+              "weight": 0.7204815646755197
+            },
+            {
+              "feature": "cycle_sam_score",
+              "weight": 0.672514187060538
+            }
+          ],
+          "tuning_best_key": [
+            0.8597723918311904,
+            -3,
+            0.004942027615185018,
+            -0.65,
+            -0.001
+          ]
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "heldout_targets": [
+        "kvasir-seg::cju85a8h8llwm07559wxg4t5w",
+        "kvasir-seg::cju6x97w4vwua0850x0997r0a",
+        "kvasir-seg::cju6xlygpw7bs0818n691jsq4",
+        "kvasir-seg::cju1ewnoh5z030855vpex9uzt",
+        "kvasir-seg::cju358pwtdby20878cg7nm0np",
+        "kvasir-seg::cju87r56lnkyp0755hz30leew",
+        "kvasir-seg::cju3u39fog1bo0871lxjrabks",
+        "kvasir-seg::cju7ap09p1kz10850ldccjebj",
+        "kvasir-seg::cju3x2s11ibzi0817kk284k0j",
+        "kvasir-seg::cju88oh0po9gq0801nge4tgr1",
+        "kvasir-seg::cju8at3s1qqqx0850hcq8nmnq",
+        "kvasir-seg::cju30mm25a53s0799qa5wiqe8",
+        "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+        "kvasir-seg::cju6uy20suzbl0987rzuhz7z9",
+        "kvasir-seg::cju88y1mwoln50871emyfny1g",
+        "kvasir-seg::cju6vgdmivcvb08018fra5lnv",
+        "kvasir-seg::cju8d2q30tfhs0801n7lx77xl",
+        "kvasir-seg::cju7cufm7298k0755j09uf3of",
+        "kvasir-seg::cju5yimthmlv80850zhoc90c2",
+        "kvasir-seg::cju849c23kgnk0817cgv2hw1e"
+      ],
+      "models": {
+        "internal_plus_consensus": {
+          "fallback_probability": 0.5,
+          "l2": 0.001,
+          "optimizer_success": true,
+          "top_standardized_weights": [
+            {
+              "feature": "trace_area_final",
+              "weight": 2.2223566122018106
+            },
+            {
+              "feature": "trace_adjacent_dice_mean",
+              "weight": 2.0731815833208858
+            },
+            {
+              "feature": "trace_centroid_max_step",
+              "weight": 1.9257620349176545
+            },
+            {
+              "feature": "trace_area_min",
+              "weight": -1.7090727515262079
+            },
+            {
+              "feature": "path_mean_similarity",
+              "weight": -1.2239144780202658
+            },
+            {
+              "feature": "q_return",
+              "weight": 1.043492043033024
+            },
+            {
+              "feature": "log1p_trace_bbox_w_max_rel_delta",
+              "weight": -0.8119798530406072
+            },
+            {
+              "feature": "log1p_trace_area_max_rel_delta",
+              "weight": -0.7506374491673389
+            },
+            {
+              "feature": "bridge_scaled",
+              "weight": -0.6558084802629659
+            },
+            {
+              "feature": "trace_adjacent_dice_min",
+              "weight": -0.6488835265052092
+            }
+          ],
+          "tuning_best_key": [
+            0.85330804517344,
+            -2,
+            0.008700895657063227,
+            -0.5,
+            -0.001
+          ]
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "heldout_targets": [
+        "kvasir-seg::cju2htabevq9108015qjei0x7",
+        "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+        "kvasir-seg::cju2uzabhs6er0993x3aaf87p",
+        "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+        "kvasir-seg::cju7afqon1ip40850ue2308b6",
+        "kvasir-seg::cju8aeei7q8k308173n9y4klv",
+        "kvasir-seg::cju2wve9v7esz0878mxsdcy04",
+        "kvasir-seg::cju7fbndk2sl608015ravktum",
+        "kvasir-seg::cju42romflni20817etb9a0fl",
+        "kvasir-seg::cju2tzypl4wss0799ow05oxb9",
+        "kvasir-seg::cju1d96gsv62d09881b3wecw2",
+        "kvasir-seg::cju7f0ec32txj08184asb8w5f",
+        "kvasir-seg::cju3xwpgviwlx0871rwm15q7v",
+        "kvasir-seg::cju32srle1xfq083575i3fl75",
+        "kvasir-seg::cju5vutu7ll8w0871dfp92n9p",
+        "kvasir-seg::cju5gucasds9d0801019axylx",
+        "kvasir-seg::cju5klveuff6w0871wbibgh3m",
+        "kvasir-seg::cju1euuc65wm00799m4sjdnnn",
+        "kvasir-seg::cju8bw697rwg308177tg8huas",
+        "kvasir-seg::cju34fojcctcf0799ebolbvkn"
+      ],
+      "models": {
+        "internal_plus_consensus": {
+          "fallback_probability": 0.55,
+          "l2": 0.001,
+          "optimizer_success": true,
+          "top_standardized_weights": [
+            {
+              "feature": "trace_adjacent_dice_mean",
+              "weight": 2.2396416737833214
+            },
+            {
+              "feature": "trace_centroid_max_step",
+              "weight": 1.6512666746894185
+            },
+            {
+              "feature": "trace_area_min",
+              "weight": -1.585733376297445
+            },
+            {
+              "feature": "path_mean_similarity",
+              "weight": -1.4104778500646051
+            },
+            {
+              "feature": "q_return",
+              "weight": 1.2694376161721772
+            },
+            {
+              "feature": "trace_area_final",
+              "weight": 1.2568244975424898
+            },
+            {
+              "feature": "trace_adjacent_dice_last",
+              "weight": 0.9264352518550516
+            },
+            {
+              "feature": "trace_adjacent_dice_min",
+              "weight": -0.9071333303367909
+            },
+            {
+              "feature": "log1p_trace_area_max_rel_delta",
+              "weight": -0.7036804165108884
+            },
+            {
+              "feature": "trace_component_max",
+              "weight": 0.5549338642758436
+            }
+          ],
+          "tuning_best_key": [
+            0.8563360593276567,
+            -4,
+            0.01830682527579009,
+            -0.55,
+            -0.001
+          ]
+        }
+      }
+    }
+  ],
+  "protocol": {
+    "inner_folds": 4,
+    "min_pair_gap": 0.02,
+    "outer_folds": 5,
+    "pool": "P2_b3_b6",
+    "seed": 20260811,
+    "split": "validation_only_oof",
+    "test_loaded": false
+  },
+  "summary": {
+    "internal_plus_consensus": {
+      "bootstrap_95_ci": [
+        -0.0014319837797532099,
+        0.037622682950612066
+      ],
+      "catastrophic_regressions_delta_lt_minus_0.05": 3,
+      "fixed_b6_dice": 0.8440649839823857,
+      "losses": 33,
+      "max_gain": 0.9356343283582089,
+      "max_gain_over_net_gain": 0.6795851445553172,
+      "max_gain_share_of_positive_gains": 0.5164510319054159,
+      "max_regression": -0.12767981846174925,
+      "mean_delta_vs_fixed": 0.013767727794733302,
+      "median_delta_vs_fixed": 0.0,
+      "n_targets": 100,
+      "oracle_dice": 0.8744442035961032,
+      "oracle_gap": 0.016611491818983914,
+      "selected_dice": 0.8578327117771193,
+      "switches_from_fixed": 67,
+      "ties": 33,
+      "trimmed_mean_delta_10pct": 0.0003272438628437301,
+      "wins": 34
+    },
+    "internal_plus_consensus_fallback": {
+      "bootstrap_95_ci": [
+        -0.002433147209092775,
+        0.03561607816263742
+      ],
+      "catastrophic_regressions_delta_lt_minus_0.05": 3,
+      "fixed_b6_dice": 0.8440649839823857,
+      "losses": 29,
+      "max_gain": 0.9356343283582089,
+      "max_gain_over_net_gain": 0.7468341660086834,
+      "max_gain_share_of_positive_gains": 0.5683726399755646,
+      "max_regression": -0.12767981846174925,
+      "mean_delta_vs_fixed": 0.012528006496522956,
+      "median_delta_vs_fixed": 0.0,
+      "n_targets": 100,
+      "oracle_dice": 0.8744442035961032,
+      "oracle_gap": 0.017851213117194398,
+      "selected_dice": 0.8565929904789088,
+      "switches_from_fixed": 58,
+      "ties": 42,
+      "trimmed_mean_delta_10pct": 0.0001878529416473467,
+      "wins": 29
+    }
+  }
+}

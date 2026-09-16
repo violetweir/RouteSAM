@@ -1,0 +1,74 @@
+[
+  {
+    "bridge": 0,
+    "gradient_norms": {
+      "decoder": 1.1607169460014217,
+      "memory": 1.4497330118216132
+    },
+    "loss": 0.3733631372451782,
+    "max_logit_difference": 0.0,
+    "public_vs_saved": 1.0,
+    "replay_vs_original_raw": 1.0,
+    "target_id": "kvasir-seg::cju0qkwl35piu0993l0dewei2"
+  },
+  {
+    "bridge": 6,
+    "gradient_norms": {
+      "decoder": 0.5160728717649071,
+      "memory": 0.6023503296567072
+    },
+    "loss": 0.2588438391685486,
+    "max_logit_difference": 0.0,
+    "public_vs_saved": 1.0,
+    "replay_vs_original_raw": 1.0,
+    "target_id": "kvasir-seg::cju0qkwl35piu0993l0dewei2"
+  },
+  {
+    "bridge": 0,
+    "gradient_norms": {
+      "decoder": 0.6378663829753666,
+      "memory": 0.6678409408480313
+    },
+    "loss": 0.22222238779067993,
+    "max_logit_difference": 0.0,
+    "public_vs_saved": 1.0,
+    "replay_vs_original_raw": 1.0,
+    "target_id": "kvasir-seg::cju0qoxqj9q6s0835b43399p4"
+  },
+  {
+    "bridge": 6,
+    "gradient_norms": {
+      "decoder": 0.8289362310589945,
+      "memory": 1.347591663777423
+    },
+    "loss": 0.27371978759765625,
+    "max_logit_difference": 0.0,
+    "public_vs_saved": 1.0,
+    "replay_vs_original_raw": 1.0,
+    "target_id": "kvasir-seg::cju0qoxqj9q6s0835b43399p4"
+  },
+  {
+    "bridge": 0,
+    "gradient_norms": {
+      "decoder": 0.46552879024132443,
+      "memory": 0.8812122476149971
+    },
+    "loss": 0.1924380660057068,
+    "max_logit_difference": 0.0,
+    "public_vs_saved": 1.0,
+    "replay_vs_original_raw": 1.0,
+    "target_id": "kvasir-seg::cju0qx73cjw570799j4n5cjze"
+  },
+  {
+    "bridge": 6,
+    "gradient_norms": {
+      "decoder": 1.0148981142730433,
+      "memory": 1.4383421412255109
+    },
+    "loss": 0.316545307636261,
+    "max_logit_difference": 0.0,
+    "public_vs_saved": 1.0,
+    "replay_vs_original_raw": 1.0,
+    "target_id": "kvasir-seg::cju0qx73cjw570799j4n5cjze"
+  }
+]

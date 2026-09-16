@@ -1,0 +1,35 @@
+{
+  "validation": {
+    "count": 100,
+    "tp_dice": 0.8517552851672318,
+    "pc_original_top1_dice": 0.8173293125085627,
+    "rerank_dice": 0.8516389616341843,
+    "mean_delta": -0.00011632353304736664,
+    "paired_bootstrap_95ci": [
+      -0.0010399395815149175,
+      0.0006734280918930395
+    ],
+    "switches": 13,
+    "wins": 7,
+    "losses": 5,
+    "positive_delta_sum": 0.044523972231452436,
+    "negative_delta_sum": -0.0561563255361891,
+    "candidate_oracle": 0.8863397537782618,
+    "switched_pc_original_rank_counts": {
+      "1": 5,
+      "3": 3,
+      "6": 3,
+      "2": 1,
+      "5": 1
+    },
+    "passes_test_gate": false,
+    "fold_delta": [
+      -5.412607033318806e-05,
+      0.0,
+      -0.0004936372271330869,
+      -3.385436777055828e-05,
+      0.0
+    ]
+  },
+  "test": null
+}

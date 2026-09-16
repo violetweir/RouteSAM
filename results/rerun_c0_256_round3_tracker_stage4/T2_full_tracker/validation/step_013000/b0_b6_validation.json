@@ -1,0 +1,46 @@
+{
+  "b6_b0_gap": 0.0009464753216663624,
+  "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_round3_tracker_stage4/T2_full_tracker/checkpoints/step_013000.pt",
+  "checkpoint_step": 13000,
+  "combined": {
+    "b0": 0.715259421444925,
+    "b1": 0.715424060864107,
+    "b2": 0.7156459110006674,
+    "b3": 0.7157298356929371,
+    "b4": 0.7159699362373693,
+    "b5": 0.7159730651505787,
+    "b6": 0.7162058967665914
+  },
+  "group": "T2",
+  "long_gain": 0.0007102620169441298,
+  "mean_b3_b6": 0.7159696834618692,
+  "modes": {
+    "sam3enc_anchor_conditioned_patch_correspondence": {
+      "b0": 0.7161916497937405,
+      "b1": 0.7162667694576952,
+      "b2": 0.7163704798222548,
+      "b3": 0.7164963565339293,
+      "b4": 0.71673196292098,
+      "b5": 0.7165241390936196,
+      "b6": 0.7167895056790862
+    },
+    "sam3enc_anchor_conditioned_target_pooling": {
+      "b0": 0.7143271930961096,
+      "b1": 0.7145813522705189,
+      "b2": 0.71492134217908,
+      "b3": 0.714963314851945,
+      "b4": 0.7152079095537585,
+      "b5": 0.7154219912075377,
+      "b6": 0.7156222878540965
+    }
+  },
+  "selection_metric": {
+    "formula": "(b3+b4+b5+b6)/4",
+    "metric": "validation_mean_b3_b6_combined_dice",
+    "tie_break": [
+      "higher_b6",
+      "earlier_checkpoint"
+    ]
+  },
+  "split": "validation"
+}

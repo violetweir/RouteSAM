@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-07T19:20:20.829203+08:00",
+  "baseline": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_b0_b6_router_baseline_20260907",
+  "baseline_test_dice": 0.8854326463411542,
+  "user_authorized_students": true,
+  "sam3_frozen": true,
+  "student_model": "historical SC-SAM SamUnet",
+  "route_mode": "anchor_conditioned_target_pooling",
+  "min_bridge": 0,
+  "max_bridge": 6,
+  "candidate_count": 7,
+  "canvas": 256,
+  "split": {
+    "train": 800,
+    "validation": 100,
+    "test": 100,
+    "labeled_train": 8,
+    "unlabeled_train": 792
+  },
+  "pseudo_thresholds": {
+    "q_multi": 0.9,
+    "q_return": 0.95
+  },
+  "threshold_policy": "retain documented thresholds as fixed controls; report TP-only coverage and validation diagnostics; no test tuning",
+  "s3_consensus": {
+    "beta": 4.0,
+    "pixel_min_weight": 0.1
+  },
+  "training": {
+    "seed": 2026,
+    "iterations_each": 40000,
+    "validation_interval": 200,
+    "s2_s3_batch": 12,
+    "s2_s3_labeled_batch": 6,
+    "x3_gt_original_new_batch": [
+      3,
+      3,
+      6
+    ],
+    "learning_rate": 0.01,
+    "gpu": 0,
+    "schedule": "sequential; GPU1 already occupied"
+  },
+  "committee": "S2 val-best + S2 final + S3 val-best + S3 final, original C0 document thresholds; TP-only candidates",
+  "x3_checkpoint": "ordinary validation Dice best, final retained as validation diagnostic only",
+  "b7": "(max(q_return,1e-6)*max(q_multi,1e-6)^2*max(q_model,1e-6)^2)^.2; full 100-target coverage, no confidence filtering",
+  "test_policy": "S2/S3 tests deferred; X3 val-best frozen before official X3 direct and TP-only B7 test; final checkpoint not selected using test",
+  "scope": "C0 Step3 through Step10; later SAM3 LoRA is a separate continuation",
+  "code_sha256": {
+    "run_t24_student.py": "10aeab71160c6b35913a87f156120809bed4a7a01e14d35967de1104223a8b07",
+    "export_t25_student_predictions.py": "4ebb21aaee01103350af4315a47a766cf3b350bed33ef7393b3d7c3a99477b60",
+    "router.py": "b77c8fb8347424a7f0216d3c0bb978a3f78f219ef31661728a02531e2032888d",
+    "mainline.py": "047086b414cf639b87d207ed7e51556236035195dc4a1929373a07b4e92466f4",
+    "phase1_build_x3_manifest.py": "51c9a4f1cec5062ce807dfc80bffa06dd7a1a60fbd0c78f3173d5470478fde64",
+    "run_s27_student.py": "da2c6ad333ca6d8b33e6806ff5fbf9da36d18b4efee4a394650fa7210711d00b",
+    "prepare_phase1_s3_consensus.py": "f3de8e09926433db1571e68958d94e6d6a7ff1ad740a0a8442cca4f1fa0b5f15",
+    "phase1_audit_tiers.py": "1c61066a92a68bad0ee1d4f5e4dfdbf5ecf7752ca3b84b321e4112ca7bf86409"
+  }
+}

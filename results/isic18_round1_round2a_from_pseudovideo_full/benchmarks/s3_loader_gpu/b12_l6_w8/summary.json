@@ -1,0 +1,40 @@
+{
+  "final_iteration": 400,
+  "best_iteration": 400,
+  "best_validation_dice": 0.6202620316342294,
+  "best_validation": {
+    "count": 259,
+    "dice": 0.6202620316342294,
+    "iou": 0.5103314960408927,
+    "nonempty_rate": 0.9922779922779923,
+    "mean_area": 0.15468117261024975,
+    "by_dataset": {
+      "ISIC18": {
+        "count": 259,
+        "dice": 0.6202620316342294,
+        "iou": 0.5103314960408927,
+        "nonempty_rate": 0.9922779922779923,
+        "mean_area": 0.15468117261024975
+      }
+    }
+  },
+  "test": {
+    "count": 260,
+    "dice": 0.6247228363475144,
+    "iou": 0.5129442533060895,
+    "nonempty_rate": 0.9884615384615385,
+    "mean_area": 0.14151212252103365,
+    "by_dataset": {
+      "ISIC18": {
+        "count": 260,
+        "dice": 0.6247228363475144,
+        "iou": 0.5129442533060895,
+        "nonempty_rate": 0.9884615384615385,
+        "mean_area": 0.14151212252103365
+      }
+    }
+  },
+  "checkpoint": "work/isic18_round1_round2a_from_pseudovideo_full/benchmarks/s3_loader_gpu/b12_l6_w8/student_best.pth",
+  "final_checkpoint": "work/isic18_round1_round2a_from_pseudovideo_full/benchmarks/s3_loader_gpu/b12_l6_w8/student_final.pth",
+  "test_evaluations_during_training": 0
+}

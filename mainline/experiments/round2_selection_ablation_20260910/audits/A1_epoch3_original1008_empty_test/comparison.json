@@ -1,0 +1,18 @@
+{
+  "count": 100,
+  "hashes_verified": true,
+  "metrics_recomputed": true,
+  "same_checkpoint": true,
+  "text": {
+    "count": 100,
+    "dice": 0.8929647070069183,
+    "iou": 0.8345349033077635
+  },
+  "empty_text": {
+    "count": 100,
+    "dice": 0.8958560992095024,
+    "iou": 0.8414613179377782
+  },
+  "dice_delta": 0.0028913922025840533,
+  "empty_masks": 1
+}

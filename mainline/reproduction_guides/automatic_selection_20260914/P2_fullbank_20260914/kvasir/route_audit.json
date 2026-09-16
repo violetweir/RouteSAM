@@ -1,0 +1,24 @@
+{
+  "validation": {
+    "targets": 100,
+    "anchors": 8,
+    "depths": 7,
+    "routes": 5600,
+    "original_reproduced": 700,
+    "float_field_max_abs_diff": {
+      "path_bottleneck_similarity": 0.0,
+      "path_mean_similarity": 9.934107458864361e-08
+    }
+  },
+  "test": {
+    "targets": 100,
+    "anchors": 8,
+    "depths": 7,
+    "routes": 5600,
+    "original_reproduced": 700,
+    "float_field_max_abs_diff": {
+      "path_bottleneck_similarity": 0.0,
+      "path_mean_similarity": 0.0
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "canvas": 512,
+  "checkpoint": "work/kvasir_1pct_anchors/video_checkpoints/round2_ckpt1_merged_video.pt",
+  "per_bridge": {
+    "anchor_conditioned_patch_correspondence|b3": {
+      "box_mean_dice": 0.8925509351513105,
+      "delta": 0.0013016078828944622,
+      "mask_mean_dice": 0.8938525430342049,
+      "mask_wins": 41,
+      "n": 74
+    },
+    "anchor_conditioned_patch_correspondence|b4": {
+      "box_mean_dice": 0.8880865894778052,
+      "delta": 0.0009674860217210313,
+      "mask_mean_dice": 0.8890540754995262,
+      "mask_wins": 43,
+      "n": 72
+    },
+    "anchor_conditioned_patch_correspondence|b5": {
+      "box_mean_dice": 0.8827713175586175,
+      "delta": 0.01257970452295687,
+      "mask_mean_dice": 0.8953510220815744,
+      "mask_wins": 48,
+      "n": 78
+    },
+    "anchor_conditioned_patch_correspondence|b6": {
+      "box_mean_dice": 0.8800410215445847,
+      "delta": 0.0011124193242995073,
+      "mask_mean_dice": 0.8811534408688843,
+      "mask_wins": 57,
+      "n": 90
+    },
+    "anchor_conditioned_target_pooling|b3": {
+      "box_mean_dice": 0.8752043025827105,
+      "delta": 0.005023528535378685,
+      "mask_mean_dice": 0.8802278311180892,
+      "mask_wins": 55,
+      "n": 100
+    },
+    "anchor_conditioned_target_pooling|b4": {
+      "box_mean_dice": 0.8686612251416291,
+      "delta": 0.005109300954203921,
+      "mask_mean_dice": 0.8737705260958331,
+      "mask_wins": 61,
+      "n": 100
+    },
+    "anchor_conditioned_target_pooling|b5": {
+      "box_mean_dice": 0.8756061137012279,
+      "delta": 0.0073433069146511265,
+      "mask_mean_dice": 0.882949420615879,
+      "mask_wins": 52,
+      "n": 100
+    },
+    "anchor_conditioned_target_pooling|b6": {
+      "box_mean_dice": 0.8667943025140429,
+      "delta": 0.009660540729955036,
+      "mask_mean_dice": 0.8764548432439979,
+      "mask_wins": 64,
+      "n": 100
+    }
+  },
+  "split": "test"
+}

@@ -1,0 +1,29 @@
+{
+  "selected_ids": [
+    "kvasir-seg::cju2wxv0hxs2f09884w48v8fi",
+    "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "kvasir-seg::cju42xpi8lw4w0871ve317a1p",
+    "kvasir-seg::cju5vi4nxlc530817uoqm2m7a",
+    "kvasir-seg::cju3v664kh0px0818y4y7wolf",
+    "kvasir-seg::cju8dpa89u6l80818dj6lldh9",
+    "kvasir-seg::cju2t62nq45jl0799odpufwx6",
+    "kvasir-seg::cju7ajnbo1gvm098749rdouk0"
+  ],
+  "selection_frozen_sha256": "260dd989d477d5ffcfb3b06c13c93894ac52dafee9d095cf99148aa5ef017fc3",
+  "feature_size": 256,
+  "propagation_canvas": 256,
+  "selection_feature_size": 1008,
+  "beam_width": 32,
+  "knn": "patch_mean",
+  "routes": 700,
+  "targets": 100,
+  "split": "validation",
+  "checkpoint": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+  "checkpoint_sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+  "gpu": 1,
+  "router_sha256": "2bc1706c21d481a97ffdc84cfe6cbe130e862d6024f9c0b49b472c816ce9bd6e",
+  "router_training_caveat": "Original frozen router fitted on same val100; diagnostic, not held-out performance",
+  "scope": "replace 8 anchors only; no student, B7, router refitting, test, or change to active A0 training",
+  "gt_policy": "route search uses selected train GT only; propagation no-target-gt; freeze all masks and router decisions before GT scoring",
+  "features": "fresh SAM3-base256 descriptors for train800+val100; no test images loaded"
+}

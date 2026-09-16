@@ -1,0 +1,133 @@
+{
+  "baseline": {
+    "baseline_name": "Kvasir SAM3-base TP b0-b6 independent Router",
+    "adopted_by_user": true,
+    "recorded_at": "2026-09-07T19:14:01.320378+08:00",
+    "feature_encoder": "SAM3-base trunk @256",
+    "propagation_checkpoint": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+    "checkpoint_sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+    "canvas": 256,
+    "route_mode": "sam3enc_anchor_conditioned_target_pooling",
+    "bridge_counts": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "beam_width": 32,
+    "candidates_per_target": 7,
+    "router": "historical validation-fitted standardized ridge=1, include_mode=False",
+    "router_sha256": "2bc1706c21d481a97ffdc84cfe6cbe130e862d6024f9c0b49b472c816ce9bd6e",
+    "student": false,
+    "pixel_fusion": false,
+    "test_count": 100,
+    "test_dice": 0.8854326463411542,
+    "test_iou": 0.8282740566505131,
+    "oracle_dice_evaluation_only": 0.9074262547898724,
+    "validation_target_oof_dice": 0.8517552851672318,
+    "original_split": {
+      "train": 800,
+      "validation": 100,
+      "test": 100,
+      "labeled_train": 8,
+      "unlabeled_train": 792
+    },
+    "protocol_sha256": {
+      "merged_manifest.jsonl": "eb74d0ea534450d7b97ae93319260b7cbbd78e5b74b2b615c777b1263eb91322",
+      "frozen_labeled_images.txt": "1968d718cd1877beddbf59ea1c972972e51a75702da646617b10a8ffd2786c0d",
+      "protocol_summary.json": "38f6ef1ff912d22258b69b602aa4d04a2d6bf4ae1a966b7e6e2754c113eacccc",
+      "support_manifest.jsonl": "15746c3f00a897ed36a2a32cfb1108a697db2e08bff0d99b88af459b6c701dab"
+    },
+    "source_result": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_kvasir_sam3base_test_20260906/final_masks_no_student/b0_b6/target_pooling",
+    "baseline_mask_manifest_sha256": "928ec16cae2a9542f3607629900820d9e646fe73212ebf44ca47ce614ec786b1",
+    "future_changes": "derive new runs; do not overwrite this baseline; student stage awaits clarification of prior no-student constraint"
+  },
+  "pseudo_pool": {
+    "validation": {
+      "total": 100,
+      "accepted": 52,
+      "coverage": 0.52,
+      "q_multi_mean": 0.9841994679812681,
+      "q_return_mean": 0.967852913536614,
+      "selected_dice_descriptive_in_sample": 0.9440293102661264,
+      "note": "Frozen router fitted on full validation; coverage/retained quality is descriptive, not OOF evidence."
+    },
+    "train": {
+      "total": 792,
+      "accepted": 448,
+      "coverage": 0.5656565656565656,
+      "q_multi_mean": 0.9812992783264666,
+      "q_return_mean": 0.9660860074521247
+    }
+  },
+  "committee": {
+    "original_area_quantiles": {
+      "q01": 0.016196746826171875,
+      "q99": 0.28475357055664063
+    },
+    "pixel_consensus": {
+      "beta_route": 5.0,
+      "beta_student": 5.0,
+      "pseudo_sam3_weight": 0.75,
+      "pseudo_student_weight": 0.25,
+      "w_final_clip": [
+        0.05,
+        1.0
+      ]
+    },
+    "remaining_count": 344,
+    "route_count": 2408,
+    "score": {
+      "q_model_committee_mean": 0.8,
+      "q_multi": 0.2
+    },
+    "tier_counts": {
+      "A": 94,
+      "B": 113,
+      "C": 137
+    }
+  },
+  "x3_manifest": {
+    "original": 448,
+    "tier_a": 94,
+    "tier_b": 113
+  },
+  "validation": {
+    "count": 100,
+    "selected_dice": 0.8396899552996647,
+    "selected_iou": 0.7746888276316785,
+    "oracle": 0.869544177933916,
+    "student_direct_dice": 0.8242687737907177,
+    "student_direct_iou": 0.7387841911223408,
+    "bridge_counts": {
+      "2": 14,
+      "3": 16,
+      "0": 9,
+      "6": 19,
+      "4": 16,
+      "5": 14,
+      "1": 12
+    }
+  },
+  "test": {
+    "count": 100,
+    "selected_dice": 0.8926393880148344,
+    "selected_iou": 0.8344675688282003,
+    "oracle": 0.9074262547898724,
+    "student_direct_dice": 0.8671610725041679,
+    "student_direct_iou": 0.7869509798244329,
+    "bridge_counts": {
+      "2": 11,
+      "3": 15,
+      "6": 18,
+      "4": 13,
+      "0": 8,
+      "5": 24,
+      "1": 11
+    }
+  },
+  "test_delta_vs_router": 0.007206741673680295
+}

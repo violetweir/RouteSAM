@@ -1,0 +1,14 @@
+{
+  "split": "validation",
+  "target_count": 100,
+  "train_support_count": 8,
+  "device": "CPU float32, 4 threads",
+  "checkpoint": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+  "strict_trunk_weights": true,
+  "token_shape": [
+    324,
+    1024
+  ],
+  "cpu_mlp": "isolated replacement of forced-bfloat16 fused op with equivalent float32 Linear + GELU/ReLU",
+  "note": "New verification features use CPU float32. Historical candidate masks/router inputs unchanged; not a claim of bitwise reproduction of old GPU bfloat16 features."
+}

@@ -1,0 +1,39 @@
+{
+  "split": "validation",
+  "targets": 100,
+  "anchors": 8,
+  "routes": 800,
+  "canvas": 256,
+  "internal_resolution": 1008,
+  "frame_resize": "PIL BILINEAR",
+  "prompt": "Original anchor GT-derived box only, video propagation; no GT mask injection",
+  "checkpoint": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+  "checkpoint_sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+  "feature_cache_sha256": "ab8ca194f9c789ad9f6b641d382ed848751f29b23ac0bdb29a9c6722fd599907",
+  "reused": 157,
+  "pending": 643,
+  "replay_count": 7,
+  "existing_duplicate_hash_checks": 43,
+  "cycle": "forward-only diagnostic; no cycle features used",
+  "gpu": 1,
+  "allocator_fraction": 0.25,
+  "target_gt_used_for_search_or_inference": false,
+  "actual_metrics": [
+    "TP top1",
+    "PC top1",
+    "SAM confidence",
+    "mask agreement"
+  ],
+  "oracle_metrics": [
+    "all8",
+    "TP top2",
+    "PC top2",
+    "TP top1 + PC alternate"
+  ],
+  "note": "Diagnostic anchor sweep, not seven-candidate-budget performance comparison",
+  "code_sha256": {
+    "run_t21_dynamic_pseudovideo.py": "2128a9cd04acce91614cbf43e2c4ad38a63c50c0fc29a5782a1f1e7f14eb5aba",
+    "eval_route_propagation_quality.py": "a6f5412de364bf9fac1ffeaf61e72285246742cc70be4afd6bad866929e913d0",
+    "stage1_feature_knn_routes.py": "599aedd53da7e35765d9ac3ac9f158d1bf51c9697fbdb836c885dd6495feb744"
+  }
+}

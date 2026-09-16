@@ -1,0 +1,21 @@
+{
+  "pid": 3900888,
+  "gpu": 1,
+  "command": [
+    "/home/violet/anaconda3/envs/sam3/bin/python",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/busi_calibrated_multi_anchor_20260913/code/eval_route_propagation_quality.py",
+    "--checkpoint",
+    "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+    "--mode",
+    "sam3enc_anchor_conditioned_target_pooling",
+    "--root",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/busi_calibrated_multi_anchor_20260913/quality_root",
+    "--split",
+    "test",
+    "--canvas",
+    "256",
+    "--no-target-gt",
+    "--resume"
+  ],
+  "time": 1789310880.3620577
+}

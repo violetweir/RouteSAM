@@ -1,0 +1,60 @@
+[
+  {
+    "experiment": "target_pooling+patch_correspondence",
+    "failure_auroc": 0.9827261306532663,
+    "histogram": {
+      "anchor_conditioned_patch_correspondence:bridge_3": 12,
+      "anchor_conditioned_patch_correspondence:bridge_4": 10,
+      "anchor_conditioned_patch_correspondence:bridge_5": 11,
+      "anchor_conditioned_patch_correspondence:bridge_6": 10,
+      "anchor_conditioned_target_pooling:bridge_3": 12,
+      "anchor_conditioned_target_pooling:bridge_4": 17,
+      "anchor_conditioned_target_pooling:bridge_5": 15,
+      "anchor_conditioned_target_pooling:bridge_6": 13
+    },
+    "max_bridge": 6,
+    "min_bridge": 3,
+    "n_targets": 100,
+    "oracle_dice": 0.9170968196475167,
+    "oracle_gap": 0.03504740204989065,
+    "selected_dice": 0.882049417597626,
+    "selection_accuracy": 0.16,
+    "spearman": 0.30643348414814425
+  },
+  {
+    "experiment": "anchor_conditioned_target_pooling",
+    "failure_auroc": 0.9874371859296482,
+    "histogram": {
+      "anchor_conditioned_target_pooling:bridge_3": 17,
+      "anchor_conditioned_target_pooling:bridge_4": 27,
+      "anchor_conditioned_target_pooling:bridge_5": 24,
+      "anchor_conditioned_target_pooling:bridge_6": 32
+    },
+    "max_bridge": 6,
+    "min_bridge": 3,
+    "n_targets": 100,
+    "oracle_dice": 0.8979433724852021,
+    "oracle_gap": 0.016945943965477106,
+    "selected_dice": 0.880997428519725,
+    "selection_accuracy": 0.29,
+    "spearman": 0.33699390325848494
+  },
+  {
+    "experiment": "anchor_conditioned_patch_correspondence",
+    "failure_auroc": 0.9811557788944724,
+    "histogram": {
+      "anchor_conditioned_patch_correspondence:bridge_3": 26,
+      "anchor_conditioned_patch_correspondence:bridge_4": 18,
+      "anchor_conditioned_patch_correspondence:bridge_5": 24,
+      "anchor_conditioned_patch_correspondence:bridge_6": 32
+    },
+    "max_bridge": 6,
+    "min_bridge": 3,
+    "n_targets": 100,
+    "oracle_dice": 0.8942868378537903,
+    "oracle_gap": 0.01666163183142766,
+    "selected_dice": 0.8776252060223626,
+    "selection_accuracy": 0.23,
+    "spearman": 0.259094193983753
+  }
+]

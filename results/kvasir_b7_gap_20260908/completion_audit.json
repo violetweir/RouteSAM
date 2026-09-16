@@ -1,0 +1,30 @@
+{
+  "validation": {
+    "count": 100,
+    "mask_hashes_verified": true,
+    "mean_dice": 0.840023358635931,
+    "mean_oracle": 0.8894323596660911
+  },
+  "test": {
+    "count": 100,
+    "mask_hashes_verified": true,
+    "mean_dice": 0.8995421189113576,
+    "mean_oracle": 0.9214706098083678
+  },
+  "new_vs_old_dual_test": {
+    "delta": 0.004110351310029418,
+    "ci95": [
+      -0.0010074912733957712,
+      0.01073115679335334
+    ],
+    "win_tie_loss": [
+      15,
+      63,
+      22
+    ]
+  },
+  "code_sha256": {
+    "analyze.py": "5ddb70dbf8750dc700e6faba8942be4a4c5f34e8021bf9caefa5dd3502508ced",
+    "validate_gain.py": "15d87e754068e071f2b9d3c4829423105216cd7f63a59fc561202d0ce51551f4"
+  }
+}

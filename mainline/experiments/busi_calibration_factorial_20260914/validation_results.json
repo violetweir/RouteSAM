@@ -1,0 +1,2447 @@
+{
+  "n": 64,
+  "groups": {
+    "raw_top1": {
+      "candidates_per_target": 7,
+      "oof_dice": 0.6162684680007459,
+      "oracle_dice": 0.6752466169520803,
+      "oracle_gap": 0.058978148951334464,
+      "selected_anchors": {
+        "BUSI::malignant (187)": 61,
+        "BUSI::benign (3)": 2,
+        "BUSI::malignant (195)": 1
+      },
+      "candidate_anchors": {
+        "BUSI::malignant (187)": 427,
+        "BUSI::benign (3)": 14,
+        "BUSI::malignant (195)": 7
+      },
+      "fixed_rank1_b0_b6": [
+        0.4943740176785397,
+        0.5616293605026031,
+        0.5908236806067119,
+        0.6088126365145922,
+        0.6211083332607094,
+        0.6544478031307871,
+        0.6148102381004108
+      ]
+    },
+    "centered_top1": {
+      "candidates_per_target": 7,
+      "oof_dice": 0.728772240305812,
+      "oracle_dice": 0.7539997979581942,
+      "oracle_gap": 0.02522755765238216,
+      "selected_anchors": {
+        "BUSI::benign (3)": 25,
+        "BUSI::malignant (187)": 10,
+        "BUSI::malignant (195)": 11,
+        "BUSI::benign (125)": 9,
+        "BUSI::benign (305)": 9
+      },
+      "candidate_anchors": {
+        "BUSI::benign (3)": 175,
+        "BUSI::malignant (187)": 70,
+        "BUSI::malignant (195)": 77,
+        "BUSI::benign (125)": 63,
+        "BUSI::benign (305)": 63
+      },
+      "fixed_rank1_b0_b6": [
+        0.7006272352594944,
+        0.6794673289179244,
+        0.6538951524036016,
+        0.696771323383001,
+        0.7065720925706577,
+        0.7034014135758035,
+        0.7041988493993615
+      ]
+    },
+    "raw_top2": {
+      "candidates_per_target": 14,
+      "oof_dice": 0.6656829014481289,
+      "oracle_dice": 0.7831275433251789,
+      "oracle_gap": 0.11744464187704995,
+      "selected_anchors": {
+        "BUSI::malignant (195)": 24,
+        "BUSI::malignant (187)": 31,
+        "BUSI::benign (3)": 5,
+        "BUSI::benign (305)": 4
+      },
+      "candidate_anchors": {
+        "BUSI::malignant (187)": 448,
+        "BUSI::malignant (195)": 385,
+        "BUSI::benign (3)": 35,
+        "BUSI::benign (305)": 28
+      },
+      "fixed_rank1_b0_b6": [
+        0.4943740176785397,
+        0.5616293605026031,
+        0.5908236806067119,
+        0.6088126365145922,
+        0.6211083332607094,
+        0.6544478031307871,
+        0.6148102381004108
+      ]
+    },
+    "centered_top2": {
+      "candidates_per_target": 14,
+      "oof_dice": 0.7389582880918044,
+      "oracle_dice": 0.8234767849940892,
+      "oracle_gap": 0.08451849690228475,
+      "selected_anchors": {
+        "BUSI::benign (3)": 27,
+        "BUSI::malignant (187)": 2,
+        "BUSI::malignant (195)": 17,
+        "BUSI::benign (125)": 11,
+        "BUSI::benign (305)": 7
+      },
+      "candidate_anchors": {
+        "BUSI::benign (3)": 224,
+        "BUSI::benign (125)": 266,
+        "BUSI::malignant (187)": 175,
+        "BUSI::malignant (195)": 154,
+        "BUSI::benign (305)": 77
+      },
+      "fixed_rank1_b0_b6": [
+        0.7006272352594944,
+        0.6794673289179244,
+        0.6538951524036016,
+        0.696771323383001,
+        0.7065720925706577,
+        0.7034014135758035,
+        0.7041988493993615
+      ]
+    },
+    "original_per_bridge": {
+      "candidates_per_target": 7,
+      "oof_dice": 0.6176338160406722,
+      "oracle_dice": 0.6752466169520803,
+      "oracle_gap": 0.05761280091140808,
+      "selected_anchors": {
+        "BUSI::malignant (187)": 61,
+        "BUSI::benign (3)": 2,
+        "BUSI::malignant (195)": 1
+      },
+      "candidate_anchors": {
+        "BUSI::malignant (187)": 435,
+        "BUSI::benign (3)": 8,
+        "BUSI::malignant (195)": 5
+      },
+      "fixed_rank1_b0_b6": [
+        0.4943740176785397,
+        0.5608734788547259,
+        0.590754029520312,
+        0.6088272039141124,
+        0.6209605846953675,
+        0.644838110613951,
+        0.604236733807322
+      ]
+    }
+  },
+  "paired_oof": {
+    "centered_top1_minus_raw_top1": {
+      "mean": 0.11250377230506613,
+      "ci95": [
+        0.044333038258771745,
+        0.18525348277598855
+      ],
+      "improved": 41,
+      "worsened": 16
+    },
+    "centered_top2_minus_raw_top2": {
+      "mean": 0.07327538664367553,
+      "ci95": [
+        0.011932610318707012,
+        0.14111759250898787
+      ],
+      "improved": 27,
+      "worsened": 19
+    },
+    "raw_top2_minus_raw_top1": {
+      "mean": 0.049414433447383006,
+      "ci95": [
+        -0.002891517917040994,
+        0.10652425358571015
+      ],
+      "improved": 28,
+      "worsened": 13
+    },
+    "centered_top2_minus_centered_top1": {
+      "mean": 0.01018604778599241,
+      "ci95": [
+        -0.02351972949007851,
+        0.04630994327941948
+      ],
+      "improved": 16,
+      "worsened": 16
+    },
+    "centered_top2_minus_original_per_bridge": {
+      "mean": 0.12132447205113228,
+      "ci95": [
+        0.056645977461647026,
+        0.19165477989769644
+      ],
+      "improved": 39,
+      "worsened": 19
+    },
+    "interaction": {
+      "mean": -0.039228385661390586,
+      "ci95": [
+        -0.09711798434834998,
+        0.016938485718250084
+      ]
+    }
+  },
+  "per_target_oof": {
+    "raw_top1": [
+      {
+        "target_id": "BUSI::benign (107)",
+        "route_id": "133995c57caf0f5900b05d20",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.9120521172638436
+      },
+      {
+        "target_id": "BUSI::benign (108)",
+        "route_id": "ac3857f2171dad82f7be174d",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (116)",
+        "route_id": "1b4c29c64a4d4b15ba67343d",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (117)",
+        "route_id": "e18c74c0b68ecd4ece3ac236",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.941325721535046
+      },
+      {
+        "target_id": "BUSI::benign (137)",
+        "route_id": "997599bfd73eecc15310d986",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.8565096952908587
+      },
+      {
+        "target_id": "BUSI::benign (142)",
+        "route_id": "6c4c74b3ee9f99d94941bf66",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.9282511210762332
+      },
+      {
+        "target_id": "BUSI::benign (149)",
+        "route_id": "482c9b15e68d00a339185160",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 5,
+        "dice": 0.9648420115709835
+      },
+      {
+        "target_id": "BUSI::benign (150)",
+        "route_id": "9fedaa6a7b6b1e8b246ee129",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.9014492753623189
+      },
+      {
+        "target_id": "BUSI::benign (151)",
+        "route_id": "18dff27487420dc64ac8ea73",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.9487179487179487
+      },
+      {
+        "target_id": "BUSI::benign (170)",
+        "route_id": "91a5dd0a111c9ed8de0953e5",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.7536516853932584
+      },
+      {
+        "target_id": "BUSI::benign (183)",
+        "route_id": "cbf326beaa30f18732189231",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.29055831628178896
+      },
+      {
+        "target_id": "BUSI::benign (193)",
+        "route_id": "b3f3f8b1317ab313de5ad346",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (196)",
+        "route_id": "ba06aa4988a10c81b6223a86",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.7193127374855444
+      },
+      {
+        "target_id": "BUSI::benign (200)",
+        "route_id": "9751763aa61f225942618a62",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.9493564296884398
+      },
+      {
+        "target_id": "BUSI::benign (209)",
+        "route_id": "ffdb32b1bdfcfb3801e305e4",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.8987182709223422
+      },
+      {
+        "target_id": "BUSI::benign (21)",
+        "route_id": "3f57af207ef452ffd358d9b5",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.6422872340425532
+      },
+      {
+        "target_id": "BUSI::benign (214)",
+        "route_id": "e86901af59386eb1df881e38",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.8557652569224411
+      },
+      {
+        "target_id": "BUSI::benign (235)",
+        "route_id": "969a46ea8f3925999cee0740",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (240)",
+        "route_id": "3d8fe81dc8bafa0b5b5c26b7",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.7794907327212888
+      },
+      {
+        "target_id": "BUSI::benign (258)",
+        "route_id": "a7710d742430109691f7b2aa",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.7393838467943381
+      },
+      {
+        "target_id": "BUSI::benign (273)",
+        "route_id": "8887dc3c6c47c1a10f3850f8",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (288)",
+        "route_id": "a26c67d6f59c049114556fa0",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 4,
+        "dice": 0.7938487115544473
+      },
+      {
+        "target_id": "BUSI::benign (323)",
+        "route_id": "24c80cc7a281d7b224208422",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.8387295713845205
+      },
+      {
+        "target_id": "BUSI::benign (328)",
+        "route_id": "fd9bb934bb2b88ac0d15fec3",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.897680763983629
+      },
+      {
+        "target_id": "BUSI::benign (338)",
+        "route_id": "605b5265e5692c159d06778e",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 4,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (347)",
+        "route_id": "e65b7317f9a0b2a87147cc07",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.9327774882751433
+      },
+      {
+        "target_id": "BUSI::benign (359)",
+        "route_id": "6f44bd34e87b51f9642e8de9",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 4,
+        "dice": 0.125
+      },
+      {
+        "target_id": "BUSI::benign (363)",
+        "route_id": "1ff9f178374e9a2b9a855aa7",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.9223709369024856
+      },
+      {
+        "target_id": "BUSI::benign (370)",
+        "route_id": "4617e2ca6e7374d2972f132a",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.9051802161529042
+      },
+      {
+        "target_id": "BUSI::benign (381)",
+        "route_id": "a732f2597fd445dc4a790a5e",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.9580099925587329
+      },
+      {
+        "target_id": "BUSI::benign (386)",
+        "route_id": "8536f8e3b8f5a19d6a4a4846",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.9348863317429132
+      },
+      {
+        "target_id": "BUSI::benign (39)",
+        "route_id": "d0a8b7ecdccfa04b0ab21a46",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 5,
+        "dice": 0.9512516469038208
+      },
+      {
+        "target_id": "BUSI::benign (391)",
+        "route_id": "39b0b1207330c138062ff7df",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.22518572646449883
+      },
+      {
+        "target_id": "BUSI::benign (398)",
+        "route_id": "b857947a13675b8b310cb71a",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.7857204227167283
+      },
+      {
+        "target_id": "BUSI::benign (417)",
+        "route_id": "451c6315b27e11f70256231f",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.9294320137693631
+      },
+      {
+        "target_id": "BUSI::benign (422)",
+        "route_id": "c56e28fefce780a542b2c5d9",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (43)",
+        "route_id": "4ecbede6af03715da119da78",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.9403630077787382
+      },
+      {
+        "target_id": "BUSI::benign (59)",
+        "route_id": "f8fb6735e324ca45179a477e",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.8545394300861497
+      },
+      {
+        "target_id": "BUSI::benign (63)",
+        "route_id": "233f4202023573277c111df2",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 4,
+        "dice": 0.946219797349961
+      },
+      {
+        "target_id": "BUSI::benign (7)",
+        "route_id": "f66accdcbb5df09bedfd8f3d",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.744621141253508
+      },
+      {
+        "target_id": "BUSI::benign (85)",
+        "route_id": "f9bf4c8be1cc452cf081c50a",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.12097095105451651
+      },
+      {
+        "target_id": "BUSI::benign (90)",
+        "route_id": "1470886c0fd283ac5a90fb92",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.2638522427440633
+      },
+      {
+        "target_id": "BUSI::benign (96)",
+        "route_id": "0dbe13c6bd26d7f6c5ee08d0",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.8314810614651849
+      },
+      {
+        "target_id": "BUSI::malignant (102)",
+        "route_id": "86f19cb98c1bd8f672bf7926",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.10360909808423621
+      },
+      {
+        "target_id": "BUSI::malignant (108)",
+        "route_id": "bac00b44eb79bd84e4f1676b",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 1,
+        "dice": 0.46781464784568766
+      },
+      {
+        "target_id": "BUSI::malignant (110)",
+        "route_id": "7c20846979742498bb234a38",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.8199186991869919
+      },
+      {
+        "target_id": "BUSI::malignant (14)",
+        "route_id": "5f1bd90715228a1428766ae4",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.7699514991181657
+      },
+      {
+        "target_id": "BUSI::malignant (166)",
+        "route_id": "14838692c9c4226d0f3f83c0",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.7645211930926217
+      },
+      {
+        "target_id": "BUSI::malignant (171)",
+        "route_id": "573bfe8a42b4c77db3391797",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.8272764393630053
+      },
+      {
+        "target_id": "BUSI::malignant (179)",
+        "route_id": "205b711a2a414f2ae20412d3",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.4485523761289778
+      },
+      {
+        "target_id": "BUSI::malignant (196)",
+        "route_id": "499d15dbdfba049034fddf5c",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.8569728902863941
+      },
+      {
+        "target_id": "BUSI::malignant (203)",
+        "route_id": "a938b3ee2777f7fb98589a50",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.590704791049058
+      },
+      {
+        "target_id": "BUSI::malignant (205)",
+        "route_id": "ceb41cb876951e9d7d488735",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.3848376907050205
+      },
+      {
+        "target_id": "BUSI::malignant (207)",
+        "route_id": "31ae8d1b3c4852e9223d1898",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.7502235227180363
+      },
+      {
+        "target_id": "BUSI::malignant (21)",
+        "route_id": "b03fd1a3a2b9bdefab20679a",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.618500050880228
+      },
+      {
+        "target_id": "BUSI::malignant (22)",
+        "route_id": "ec093933f5a553d71741aba3",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.5341144038594073
+      },
+      {
+        "target_id": "BUSI::malignant (3)",
+        "route_id": "e12a00a54b1b6be941d1752f",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 4,
+        "dice": 0.6925491491822237
+      },
+      {
+        "target_id": "BUSI::malignant (41)",
+        "route_id": "9fe8a5f12a4ab3b2b5bab584",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::malignant (5)",
+        "route_id": "f963ac3ca00923e7d4988c5f",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.6410348544735897
+      },
+      {
+        "target_id": "BUSI::malignant (59)",
+        "route_id": "8531cfe7ae1a6b46306306c9",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.1538772213247173
+      },
+      {
+        "target_id": "BUSI::malignant (62)",
+        "route_id": "73c22d1887900c1204163fdc",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.03964724504409437
+      },
+      {
+        "target_id": "BUSI::malignant (64)",
+        "route_id": "3ddeab10452497114850d3ae",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.5080852012936322
+      },
+      {
+        "target_id": "BUSI::malignant (71)",
+        "route_id": "e8bb97f6d83cc938ba5607da",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 6,
+        "dice": 0.9156626506024096
+      },
+      {
+        "target_id": "BUSI::malignant (73)",
+        "route_id": "7092d206fdadcc8d948873e2",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.5695344725987036
+      }
+    ],
+    "centered_top1": [
+      {
+        "target_id": "BUSI::benign (107)",
+        "route_id": "cf35ced9533cea1053672e22",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9254752851711027
+      },
+      {
+        "target_id": "BUSI::benign (108)",
+        "route_id": "ac3857f2171dad82f7be174d",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (116)",
+        "route_id": "856122e4f49a1c92d0ea253f",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 4,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (117)",
+        "route_id": "f7afcbb556a910dabac80875",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9162198391420912
+      },
+      {
+        "target_id": "BUSI::benign (137)",
+        "route_id": "24d9d0db0cb8865a6079a70c",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9417596034696406
+      },
+      {
+        "target_id": "BUSI::benign (142)",
+        "route_id": "2903ba12b2870b844ce52847",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 5,
+        "dice": 0.9532710280373832
+      },
+      {
+        "target_id": "BUSI::benign (149)",
+        "route_id": "a5939ed6862f22f12de3ebc5",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 0,
+        "dice": 0.9712643678160919
+      },
+      {
+        "target_id": "BUSI::benign (150)",
+        "route_id": "99dd079cd253e4ad574a5773",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 3,
+        "dice": 0.9390243902439024
+      },
+      {
+        "target_id": "BUSI::benign (151)",
+        "route_id": "e950642abc611d8fcc73960b",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 3,
+        "dice": 0.9486725663716814
+      },
+      {
+        "target_id": "BUSI::benign (170)",
+        "route_id": "624e78d851cc9bc6b2c968de",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9562796790568201
+      },
+      {
+        "target_id": "BUSI::benign (183)",
+        "route_id": "5e37f93efc58d0a649003b12",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9557522123893806
+      },
+      {
+        "target_id": "BUSI::benign (193)",
+        "route_id": "6102d2d5011ead7abd091c74",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9386503067484663
+      },
+      {
+        "target_id": "BUSI::benign (196)",
+        "route_id": "fe2665a5bf25f19ecbe3b9b6",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 3,
+        "dice": 0.8655156746933212
+      },
+      {
+        "target_id": "BUSI::benign (200)",
+        "route_id": "1cde56ffbdf5d21053214173",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 1,
+        "dice": 0.9635510645976182
+      },
+      {
+        "target_id": "BUSI::benign (209)",
+        "route_id": "d43c58d2267200474cc01554",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 2,
+        "dice": 0.9530274232962259
+      },
+      {
+        "target_id": "BUSI::benign (21)",
+        "route_id": "0441c862eec2f90a08cd803c",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9541666666666667
+      },
+      {
+        "target_id": "BUSI::benign (214)",
+        "route_id": "19ff9cb7f03162d4bbc822bd",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 3,
+        "dice": 0.8874364560639071
+      },
+      {
+        "target_id": "BUSI::benign (235)",
+        "route_id": "4ada8faaacfc4f9d1e1e1d5a",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 3,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (240)",
+        "route_id": "27c6aea6da8040d5877db345",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.8196419608499247
+      },
+      {
+        "target_id": "BUSI::benign (258)",
+        "route_id": "3b9a590b844dc6c32a52a407",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 1,
+        "dice": 0.88745148771022
+      },
+      {
+        "target_id": "BUSI::benign (273)",
+        "route_id": "c14c3d0d758e9b4a015696f9",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 0,
+        "dice": 0.5275325767129045
+      },
+      {
+        "target_id": "BUSI::benign (288)",
+        "route_id": "4b701928e6eb74d2a9534352",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 0,
+        "dice": 0.794987674609696
+      },
+      {
+        "target_id": "BUSI::benign (323)",
+        "route_id": "9b63192049844f2941e82a52",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 5,
+        "dice": 0.9456342668863262
+      },
+      {
+        "target_id": "BUSI::benign (328)",
+        "route_id": "a428abb11fbf1e1994bf8916",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 0,
+        "dice": 0.9125168236877523
+      },
+      {
+        "target_id": "BUSI::benign (338)",
+        "route_id": "febe86b76b4d6cbd7aca06cf",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9185867895545314
+      },
+      {
+        "target_id": "BUSI::benign (347)",
+        "route_id": "a3fbf74bf8430f8a9ed383c2",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9338885996876627
+      },
+      {
+        "target_id": "BUSI::benign (359)",
+        "route_id": "5460456f28c0922e7e0a8599",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 0,
+        "dice": 0.8953316953316953
+      },
+      {
+        "target_id": "BUSI::benign (363)",
+        "route_id": "6eb28494362017e52cebc913",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.911452184179457
+      },
+      {
+        "target_id": "BUSI::benign (370)",
+        "route_id": "d5b482ba3988bb13446587e1",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.8939491817398794
+      },
+      {
+        "target_id": "BUSI::benign (381)",
+        "route_id": "78d8e5cd2b708cb27bc78048",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9602296894938324
+      },
+      {
+        "target_id": "BUSI::benign (386)",
+        "route_id": "9831243ae7d998c96c4b0b75",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 4,
+        "dice": 0.46739549839228295
+      },
+      {
+        "target_id": "BUSI::benign (39)",
+        "route_id": "5800bf689d43c7ac7043fe02",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9521925486317178
+      },
+      {
+        "target_id": "BUSI::benign (391)",
+        "route_id": "ac056cc34da3c9635ee32e3b",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 2,
+        "dice": 0.05962759659885911
+      },
+      {
+        "target_id": "BUSI::benign (398)",
+        "route_id": "b857947a13675b8b310cb71a",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.7857204227167283
+      },
+      {
+        "target_id": "BUSI::benign (417)",
+        "route_id": "4e611218be92a3bf0b02567a",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 1,
+        "dice": 0.9105356091818717
+      },
+      {
+        "target_id": "BUSI::benign (422)",
+        "route_id": "5deb15ccfa318b64eaf534c4",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 0,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (43)",
+        "route_id": "eb4a0884473bc17c1c191e13",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 6,
+        "dice": 0.8997078870496592
+      },
+      {
+        "target_id": "BUSI::benign (59)",
+        "route_id": "5dc57dc3c1ec11c36c01f461",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.8788171006107361
+      },
+      {
+        "target_id": "BUSI::benign (63)",
+        "route_id": "852739a758384ead42547b4f",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.948535233570863
+      },
+      {
+        "target_id": "BUSI::benign (7)",
+        "route_id": "540fcfbdebdd55b11dac6298",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 3,
+        "dice": 0.9370277078085643
+      },
+      {
+        "target_id": "BUSI::benign (85)",
+        "route_id": "c27b487c496485bf4f1dc41b",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.4890085240017945
+      },
+      {
+        "target_id": "BUSI::benign (90)",
+        "route_id": "375850b332ad10c971d7653b",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9473684210526315
+      },
+      {
+        "target_id": "BUSI::benign (96)",
+        "route_id": "f326be904239da414a7b94bf",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9008998054474708
+      },
+      {
+        "target_id": "BUSI::malignant (102)",
+        "route_id": "14c685cb07c34c5a86c30e02",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 4,
+        "dice": 0.7712978000885871
+      },
+      {
+        "target_id": "BUSI::malignant (108)",
+        "route_id": "c8abe14c9c053922efc70d0f",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 6,
+        "dice": 0.1658709106984969
+      },
+      {
+        "target_id": "BUSI::malignant (110)",
+        "route_id": "a0642b647948843d2fa19170",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 4,
+        "dice": 0.9039790326423636
+      },
+      {
+        "target_id": "BUSI::malignant (14)",
+        "route_id": "c302c8d0841e921e2dd2039a",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 5,
+        "dice": 0.7861008876380169
+      },
+      {
+        "target_id": "BUSI::malignant (166)",
+        "route_id": "ee41b5f2dfde0e4ffbbbad25",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 3,
+        "dice": 0.7177397446346102
+      },
+      {
+        "target_id": "BUSI::malignant (171)",
+        "route_id": "fdd3506db0ca5deed61d1c18",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 2,
+        "dice": 0.47897606067788573
+      },
+      {
+        "target_id": "BUSI::malignant (179)",
+        "route_id": "205b711a2a414f2ae20412d3",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.4485523761289778
+      },
+      {
+        "target_id": "BUSI::malignant (196)",
+        "route_id": "1cb3d9d8cfdfa984ae193e41",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 0,
+        "dice": 0.8137237608043747
+      },
+      {
+        "target_id": "BUSI::malignant (203)",
+        "route_id": "838d956eda3ef39c2d4c7c2c",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 5,
+        "dice": 0.7832225570738555
+      },
+      {
+        "target_id": "BUSI::malignant (205)",
+        "route_id": "8ee6795acee62eef63b44f4e",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 6,
+        "dice": 0.9152542372881356
+      },
+      {
+        "target_id": "BUSI::malignant (207)",
+        "route_id": "03bebbf25b4f39fb0b4b37e7",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 0,
+        "dice": 0.7135894258570838
+      },
+      {
+        "target_id": "BUSI::malignant (21)",
+        "route_id": "fbed6736041bbdd4ae47ebfd",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 0,
+        "dice": 0.8482238083517926
+      },
+      {
+        "target_id": "BUSI::malignant (22)",
+        "route_id": "1dcb0b39fe474611814b2e49",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 6,
+        "dice": 0.7165707982034513
+      },
+      {
+        "target_id": "BUSI::malignant (3)",
+        "route_id": "00aa0f9ee097a58c15fc9045",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 5,
+        "dice": 0.29236843420460795
+      },
+      {
+        "target_id": "BUSI::malignant (41)",
+        "route_id": "fbf1c237139ef1a8b214ef38",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::malignant (5)",
+        "route_id": "8ced41f3599ad587c006e75f",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 3,
+        "dice": 0.4402421705658121
+      },
+      {
+        "target_id": "BUSI::malignant (59)",
+        "route_id": "77fdc8ede0af79b8111be468",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 0,
+        "dice": 0.15350833416508633
+      },
+      {
+        "target_id": "BUSI::malignant (62)",
+        "route_id": "ad8566843a55af57aa9fbfd4",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 3,
+        "dice": 0.9328935395814377
+      },
+      {
+        "target_id": "BUSI::malignant (64)",
+        "route_id": "391346dfb0980ee48c535991",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.511238431026884
+      },
+      {
+        "target_id": "BUSI::malignant (71)",
+        "route_id": "7a362f3ce02e86a21b12709b",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 1,
+        "dice": 0.9202441906262308
+      },
+      {
+        "target_id": "BUSI::malignant (73)",
+        "route_id": "b359c81b18931e2c59fd3b6c",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.6797210300429185
+      }
+    ],
+    "raw_top2": [
+      {
+        "target_id": "BUSI::benign (107)",
+        "route_id": "614db3f2464e4a0038db0fb3",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 1,
+        "dice": 0.9185878962536023
+      },
+      {
+        "target_id": "BUSI::benign (108)",
+        "route_id": "7cc8fee37dd01867c3a3fee8",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (116)",
+        "route_id": "a9f49ef4c0fbc0be6864aac3",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 0,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (117)",
+        "route_id": "eb40ae6e1250557a45ffa61f",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 2,
+        "dice": 0.9389731998708427
+      },
+      {
+        "target_id": "BUSI::benign (137)",
+        "route_id": "6b79595645924133b33a65ed",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 5,
+        "dice": 0.06463975472662238
+      },
+      {
+        "target_id": "BUSI::benign (142)",
+        "route_id": "6c4c74b3ee9f99d94941bf66",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.9282511210762332
+      },
+      {
+        "target_id": "BUSI::benign (149)",
+        "route_id": "482c9b15e68d00a339185160",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 5,
+        "dice": 0.9648420115709835
+      },
+      {
+        "target_id": "BUSI::benign (150)",
+        "route_id": "9fedaa6a7b6b1e8b246ee129",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.9014492753623189
+      },
+      {
+        "target_id": "BUSI::benign (151)",
+        "route_id": "f3b0c18a4ec912808cc1d287",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 1,
+        "dice": 0.9496910856134158
+      },
+      {
+        "target_id": "BUSI::benign (170)",
+        "route_id": "5651d1dd21af338c0a404648",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 0,
+        "dice": 0.8068692206076619
+      },
+      {
+        "target_id": "BUSI::benign (183)",
+        "route_id": "bb7874a4f6ca07c8cb7b97c9",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 1,
+        "dice": 0.11232907673183411
+      },
+      {
+        "target_id": "BUSI::benign (193)",
+        "route_id": "b3f3f8b1317ab313de5ad346",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (196)",
+        "route_id": "028e4ec79506b47cea6d9a2a",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 1,
+        "dice": 0.8938249666814749
+      },
+      {
+        "target_id": "BUSI::benign (200)",
+        "route_id": "9c7aa5817569f3b63fb9df57",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 6,
+        "dice": 0.9632697155203457
+      },
+      {
+        "target_id": "BUSI::benign (209)",
+        "route_id": "126d39e206a2ae40b2732573",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 2,
+        "dice": 0.955256064690027
+      },
+      {
+        "target_id": "BUSI::benign (21)",
+        "route_id": "5c3c0ec73addbe61f10e0074",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 1,
+        "dice": 0.46985045827303423
+      },
+      {
+        "target_id": "BUSI::benign (214)",
+        "route_id": "baf4c02bf42dbb65cd00f79f",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.8695409515836473
+      },
+      {
+        "target_id": "BUSI::benign (235)",
+        "route_id": "6376f128a45058bc658f77f5",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (240)",
+        "route_id": "3d8fe81dc8bafa0b5b5c26b7",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.7794907327212888
+      },
+      {
+        "target_id": "BUSI::benign (258)",
+        "route_id": "a7710d742430109691f7b2aa",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.7393838467943381
+      },
+      {
+        "target_id": "BUSI::benign (273)",
+        "route_id": "c14c3d0d758e9b4a015696f9",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 0,
+        "dice": 0.5275325767129045
+      },
+      {
+        "target_id": "BUSI::benign (288)",
+        "route_id": "d949d100b1f5151224d1f398",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 1,
+        "dice": 0.7996564311788705
+      },
+      {
+        "target_id": "BUSI::benign (323)",
+        "route_id": "19fc0bbb9098c05ff6aace58",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 0,
+        "dice": 0.9441401971522454
+      },
+      {
+        "target_id": "BUSI::benign (328)",
+        "route_id": "fd9bb934bb2b88ac0d15fec3",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.897680763983629
+      },
+      {
+        "target_id": "BUSI::benign (338)",
+        "route_id": "5aba870a5fb7271fe927fedc",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 4,
+        "dice": 0.9422222222222222
+      },
+      {
+        "target_id": "BUSI::benign (347)",
+        "route_id": "a3fbf74bf8430f8a9ed383c2",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9338885996876627
+      },
+      {
+        "target_id": "BUSI::benign (359)",
+        "route_id": "6f44bd34e87b51f9642e8de9",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 4,
+        "dice": 0.125
+      },
+      {
+        "target_id": "BUSI::benign (363)",
+        "route_id": "20cb444e7fd772fe527e2101",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 1,
+        "dice": 0.9191919191919192
+      },
+      {
+        "target_id": "BUSI::benign (370)",
+        "route_id": "4617e2ca6e7374d2972f132a",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.9051802161529042
+      },
+      {
+        "target_id": "BUSI::benign (381)",
+        "route_id": "a732f2597fd445dc4a790a5e",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.9580099925587329
+      },
+      {
+        "target_id": "BUSI::benign (386)",
+        "route_id": "21af8971e064adcd487db6db",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.9354612907741845
+      },
+      {
+        "target_id": "BUSI::benign (39)",
+        "route_id": "76358fe03ae1d3ddd2eb80f6",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 1,
+        "dice": 0.9541223404255319
+      },
+      {
+        "target_id": "BUSI::benign (391)",
+        "route_id": "39b0b1207330c138062ff7df",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.22518572646449883
+      },
+      {
+        "target_id": "BUSI::benign (398)",
+        "route_id": "b857947a13675b8b310cb71a",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.7857204227167283
+      },
+      {
+        "target_id": "BUSI::benign (417)",
+        "route_id": "41fa874b222f26e79d27a8fa",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 6,
+        "dice": 0.932761087267525
+      },
+      {
+        "target_id": "BUSI::benign (422)",
+        "route_id": "c56e28fefce780a542b2c5d9",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (43)",
+        "route_id": "4baa16a9524b56353eafe939",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.9161904761904762
+      },
+      {
+        "target_id": "BUSI::benign (59)",
+        "route_id": "5dc57dc3c1ec11c36c01f461",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.8788171006107361
+      },
+      {
+        "target_id": "BUSI::benign (63)",
+        "route_id": "233f4202023573277c111df2",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 4,
+        "dice": 0.946219797349961
+      },
+      {
+        "target_id": "BUSI::benign (7)",
+        "route_id": "fd40efd401f692db7f1b8993",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 1,
+        "dice": 0.9042675893886967
+      },
+      {
+        "target_id": "BUSI::benign (85)",
+        "route_id": "cb50751b5e18e982c7c6ba75",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.847729437916799
+      },
+      {
+        "target_id": "BUSI::benign (90)",
+        "route_id": "d54db0c0f67c5093f80a10ef",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 4,
+        "dice": 0.20439844760672704
+      },
+      {
+        "target_id": "BUSI::benign (96)",
+        "route_id": "a26867ff70edabbe11acc3d8",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 4,
+        "dice": 0.8328615105877024
+      },
+      {
+        "target_id": "BUSI::malignant (102)",
+        "route_id": "86f19cb98c1bd8f672bf7926",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.10360909808423621
+      },
+      {
+        "target_id": "BUSI::malignant (108)",
+        "route_id": "2583049f1df6c42460a188c7",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 4,
+        "dice": 0.31409765804377776
+      },
+      {
+        "target_id": "BUSI::malignant (110)",
+        "route_id": "a1e61bb4d1ade59decd5d888",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 1,
+        "dice": 0.9107981220657277
+      },
+      {
+        "target_id": "BUSI::malignant (14)",
+        "route_id": "df3ae2ca13cab7768b5817b3",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 3,
+        "dice": 0.7603487033280333
+      },
+      {
+        "target_id": "BUSI::malignant (166)",
+        "route_id": "6bd1af1edd32ad88d1e28131",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 0,
+        "dice": 0.7484792382967469
+      },
+      {
+        "target_id": "BUSI::malignant (171)",
+        "route_id": "bdb0768f8ad0f4be58b1ffd9",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.8446710211884658
+      },
+      {
+        "target_id": "BUSI::malignant (179)",
+        "route_id": "6add6a2dd76847f25f4f2b97",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 0,
+        "dice": 0.6048422171748901
+      },
+      {
+        "target_id": "BUSI::malignant (196)",
+        "route_id": "83032e80ac8886d80ad9a222",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 4,
+        "dice": 0.8632521974306964
+      },
+      {
+        "target_id": "BUSI::malignant (203)",
+        "route_id": "1c0ccbd602b99254b7bae12e",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 4,
+        "dice": 0.5537782139352306
+      },
+      {
+        "target_id": "BUSI::malignant (205)",
+        "route_id": "8ee6795acee62eef63b44f4e",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 6,
+        "dice": 0.9152542372881356
+      },
+      {
+        "target_id": "BUSI::malignant (207)",
+        "route_id": "bbe4adb6fe99b2da9545bc82",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 6,
+        "dice": 0.8209263578807064
+      },
+      {
+        "target_id": "BUSI::malignant (21)",
+        "route_id": "b03fd1a3a2b9bdefab20679a",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.618500050880228
+      },
+      {
+        "target_id": "BUSI::malignant (22)",
+        "route_id": "4f3b5c711f1c4ff43d8aadce",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 3,
+        "dice": 0.7995811327627026
+      },
+      {
+        "target_id": "BUSI::malignant (3)",
+        "route_id": "e12a00a54b1b6be941d1752f",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 4,
+        "dice": 0.6925491491822237
+      },
+      {
+        "target_id": "BUSI::malignant (41)",
+        "route_id": "9fe8a5f12a4ab3b2b5bab584",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::malignant (5)",
+        "route_id": "f963ac3ca00923e7d4988c5f",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.6410348544735897
+      },
+      {
+        "target_id": "BUSI::malignant (59)",
+        "route_id": "86190e96244f02081ab14425",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 3,
+        "dice": 0.7691385511217674
+      },
+      {
+        "target_id": "BUSI::malignant (62)",
+        "route_id": "93f9269ea69a7f73a93da58d",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.031297709923664124
+      },
+      {
+        "target_id": "BUSI::malignant (64)",
+        "route_id": "84253470d23b426626fe4567",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 1,
+        "dice": 0.44367597475577075
+      },
+      {
+        "target_id": "BUSI::malignant (71)",
+        "route_id": "e8bb97f6d83cc938ba5607da",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 6,
+        "dice": 0.9156626506024096
+      },
+      {
+        "target_id": "BUSI::malignant (73)",
+        "route_id": "b359c81b18931e2c59fd3b6c",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.6797210300429185
+      }
+    ],
+    "centered_top2": [
+      {
+        "target_id": "BUSI::benign (107)",
+        "route_id": "3120f5e309b2f7b4f1fb4883",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 5,
+        "dice": 0.9258836944127709
+      },
+      {
+        "target_id": "BUSI::benign (108)",
+        "route_id": "ac3857f2171dad82f7be174d",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (116)",
+        "route_id": "856122e4f49a1c92d0ea253f",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 4,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (117)",
+        "route_id": "f7afcbb556a910dabac80875",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9162198391420912
+      },
+      {
+        "target_id": "BUSI::benign (137)",
+        "route_id": "24d9d0db0cb8865a6079a70c",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9417596034696406
+      },
+      {
+        "target_id": "BUSI::benign (142)",
+        "route_id": "f83a4e02d8efd082918a526a",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 0,
+        "dice": 0.946031746031746
+      },
+      {
+        "target_id": "BUSI::benign (149)",
+        "route_id": "482c9b15e68d00a339185160",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 5,
+        "dice": 0.9648420115709835
+      },
+      {
+        "target_id": "BUSI::benign (150)",
+        "route_id": "09e95fe529a067533bbb8a2c",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9393939393939394
+      },
+      {
+        "target_id": "BUSI::benign (151)",
+        "route_id": "ddb67f6c9b3dcbd6388214b1",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 5,
+        "dice": 0.9514563106796117
+      },
+      {
+        "target_id": "BUSI::benign (170)",
+        "route_id": "624e78d851cc9bc6b2c968de",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9562796790568201
+      },
+      {
+        "target_id": "BUSI::benign (183)",
+        "route_id": "5e37f93efc58d0a649003b12",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9557522123893806
+      },
+      {
+        "target_id": "BUSI::benign (193)",
+        "route_id": "6102d2d5011ead7abd091c74",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9386503067484663
+      },
+      {
+        "target_id": "BUSI::benign (196)",
+        "route_id": "ab425f9050a7b318cf7dd5d2",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 5,
+        "dice": 0.8730522456461961
+      },
+      {
+        "target_id": "BUSI::benign (200)",
+        "route_id": "9c7aa5817569f3b63fb9df57",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 6,
+        "dice": 0.9632697155203457
+      },
+      {
+        "target_id": "BUSI::benign (209)",
+        "route_id": "d43c58d2267200474cc01554",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 2,
+        "dice": 0.9530274232962259
+      },
+      {
+        "target_id": "BUSI::benign (21)",
+        "route_id": "0441c862eec2f90a08cd803c",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9541666666666667
+      },
+      {
+        "target_id": "BUSI::benign (214)",
+        "route_id": "19ff9cb7f03162d4bbc822bd",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 3,
+        "dice": 0.8874364560639071
+      },
+      {
+        "target_id": "BUSI::benign (235)",
+        "route_id": "4ada8faaacfc4f9d1e1e1d5a",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 3,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (240)",
+        "route_id": "27c6aea6da8040d5877db345",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.8196419608499247
+      },
+      {
+        "target_id": "BUSI::benign (258)",
+        "route_id": "a7710d742430109691f7b2aa",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.7393838467943381
+      },
+      {
+        "target_id": "BUSI::benign (273)",
+        "route_id": "c14c3d0d758e9b4a015696f9",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 0,
+        "dice": 0.5275325767129045
+      },
+      {
+        "target_id": "BUSI::benign (288)",
+        "route_id": "a73010b591d266a298c078ee",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 1,
+        "dice": 0.4106217616580311
+      },
+      {
+        "target_id": "BUSI::benign (323)",
+        "route_id": "19fc0bbb9098c05ff6aace58",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 0,
+        "dice": 0.9441401971522454
+      },
+      {
+        "target_id": "BUSI::benign (328)",
+        "route_id": "16ca62d558e065ecbfa23ca1",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9118046132971506
+      },
+      {
+        "target_id": "BUSI::benign (338)",
+        "route_id": "febe86b76b4d6cbd7aca06cf",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9185867895545314
+      },
+      {
+        "target_id": "BUSI::benign (347)",
+        "route_id": "a3fbf74bf8430f8a9ed383c2",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9338885996876627
+      },
+      {
+        "target_id": "BUSI::benign (359)",
+        "route_id": "5460456f28c0922e7e0a8599",
+        "anchor_id": "BUSI::benign (305)",
+        "bridge_count": 0,
+        "dice": 0.8953316953316953
+      },
+      {
+        "target_id": "BUSI::benign (363)",
+        "route_id": "6eb28494362017e52cebc913",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.911452184179457
+      },
+      {
+        "target_id": "BUSI::benign (370)",
+        "route_id": "d5b482ba3988bb13446587e1",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.8939491817398794
+      },
+      {
+        "target_id": "BUSI::benign (381)",
+        "route_id": "78d8e5cd2b708cb27bc78048",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9602296894938324
+      },
+      {
+        "target_id": "BUSI::benign (386)",
+        "route_id": "2fc9500ee996d2a19f6166a3",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 6,
+        "dice": 0.9150495903406641
+      },
+      {
+        "target_id": "BUSI::benign (39)",
+        "route_id": "9a03ddc171608ed6ac107fb2",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 0,
+        "dice": 0.955044955044955
+      },
+      {
+        "target_id": "BUSI::benign (391)",
+        "route_id": "6a932090e8e49611a7517dbd",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 5,
+        "dice": 0.05860174512549822
+      },
+      {
+        "target_id": "BUSI::benign (398)",
+        "route_id": "fb2b752cce6833905bc05639",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 3,
+        "dice": 0.7502873817313644
+      },
+      {
+        "target_id": "BUSI::benign (417)",
+        "route_id": "4e611218be92a3bf0b02567a",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 1,
+        "dice": 0.9105356091818717
+      },
+      {
+        "target_id": "BUSI::benign (422)",
+        "route_id": "6bff795d6cf43fa7489532f6",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 3,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (43)",
+        "route_id": "d0163b7bf68ad2c218036627",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9232227488151659
+      },
+      {
+        "target_id": "BUSI::benign (59)",
+        "route_id": "5dc57dc3c1ec11c36c01f461",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.8788171006107361
+      },
+      {
+        "target_id": "BUSI::benign (63)",
+        "route_id": "852739a758384ead42547b4f",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.948535233570863
+      },
+      {
+        "target_id": "BUSI::benign (7)",
+        "route_id": "40906699e5ac80c2ebbd2b68",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9473684210526315
+      },
+      {
+        "target_id": "BUSI::benign (85)",
+        "route_id": "a28522949157bc649eb37334",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 0,
+        "dice": 0.586085835064842
+      },
+      {
+        "target_id": "BUSI::benign (90)",
+        "route_id": "375850b332ad10c971d7653b",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9473684210526315
+      },
+      {
+        "target_id": "BUSI::benign (96)",
+        "route_id": "f326be904239da414a7b94bf",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.9008998054474708
+      },
+      {
+        "target_id": "BUSI::malignant (102)",
+        "route_id": "0458d53f0b91d64e7516ec8b",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 6,
+        "dice": 0.7934806229626947
+      },
+      {
+        "target_id": "BUSI::malignant (108)",
+        "route_id": "c8abe14c9c053922efc70d0f",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 6,
+        "dice": 0.1658709106984969
+      },
+      {
+        "target_id": "BUSI::malignant (110)",
+        "route_id": "6f6424e0be0e73a9511c8a96",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 6,
+        "dice": 0.9224357490159759
+      },
+      {
+        "target_id": "BUSI::malignant (14)",
+        "route_id": "10b0ee83b35357787f022970",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 6,
+        "dice": 0.7663995578889196
+      },
+      {
+        "target_id": "BUSI::malignant (166)",
+        "route_id": "ee41b5f2dfde0e4ffbbbad25",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 3,
+        "dice": 0.7177397446346102
+      },
+      {
+        "target_id": "BUSI::malignant (171)",
+        "route_id": "f8c8f9a97e5427489f5a5589",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 6,
+        "dice": 0.8022384330968322
+      },
+      {
+        "target_id": "BUSI::malignant (179)",
+        "route_id": "6add6a2dd76847f25f4f2b97",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 0,
+        "dice": 0.6048422171748901
+      },
+      {
+        "target_id": "BUSI::malignant (196)",
+        "route_id": "907d6c5c5d357eeb634114e6",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.8419149302565869
+      },
+      {
+        "target_id": "BUSI::malignant (203)",
+        "route_id": "a5693b358695b4a585870878",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 3,
+        "dice": 0.7660037680552648
+      },
+      {
+        "target_id": "BUSI::malignant (205)",
+        "route_id": "8ee6795acee62eef63b44f4e",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 6,
+        "dice": 0.9152542372881356
+      },
+      {
+        "target_id": "BUSI::malignant (207)",
+        "route_id": "bbe4adb6fe99b2da9545bc82",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 6,
+        "dice": 0.8209263578807064
+      },
+      {
+        "target_id": "BUSI::malignant (21)",
+        "route_id": "fbed6736041bbdd4ae47ebfd",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 0,
+        "dice": 0.8482238083517926
+      },
+      {
+        "target_id": "BUSI::malignant (22)",
+        "route_id": "d9c2cd26045e5a6714671ae3",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 5,
+        "dice": 0.7089662693775804
+      },
+      {
+        "target_id": "BUSI::malignant (3)",
+        "route_id": "00aa0f9ee097a58c15fc9045",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 5,
+        "dice": 0.29236843420460795
+      },
+      {
+        "target_id": "BUSI::malignant (41)",
+        "route_id": "cf48ccaf6bfd65589fc2ff2f",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 5,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::malignant (5)",
+        "route_id": "6d6d3025fc73ff5b4022ce10",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 2,
+        "dice": 0.4076338955715342
+      },
+      {
+        "target_id": "BUSI::malignant (59)",
+        "route_id": "bd59ab56df1eb321bf236cae",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 2,
+        "dice": 0.8428239177732764
+      },
+      {
+        "target_id": "BUSI::malignant (62)",
+        "route_id": "121806f649065cb1a6792591",
+        "anchor_id": "BUSI::benign (125)",
+        "bridge_count": 6,
+        "dice": 0.38154613466334164
+      },
+      {
+        "target_id": "BUSI::malignant (64)",
+        "route_id": "84253470d23b426626fe4567",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 1,
+        "dice": 0.44367597475577075
+      },
+      {
+        "target_id": "BUSI::malignant (71)",
+        "route_id": "e8bb97f6d83cc938ba5607da",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 6,
+        "dice": 0.9156626506024096
+      },
+      {
+        "target_id": "BUSI::malignant (73)",
+        "route_id": "b359c81b18931e2c59fd3b6c",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 6,
+        "dice": 0.6797210300429185
+      }
+    ],
+    "original_per_bridge": [
+      {
+        "target_id": "BUSI::benign (107)",
+        "route_id": "133995c57caf0f5900b05d20",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.9120521172638436
+      },
+      {
+        "target_id": "BUSI::benign (108)",
+        "route_id": "ac3857f2171dad82f7be174d",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (116)",
+        "route_id": "1b4c29c64a4d4b15ba67343d",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (117)",
+        "route_id": "e18c74c0b68ecd4ece3ac236",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.941325721535046
+      },
+      {
+        "target_id": "BUSI::benign (137)",
+        "route_id": "997599bfd73eecc15310d986",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.8565096952908587
+      },
+      {
+        "target_id": "BUSI::benign (142)",
+        "route_id": "6c4c74b3ee9f99d94941bf66",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.9282511210762332
+      },
+      {
+        "target_id": "BUSI::benign (149)",
+        "route_id": "a5939ed6862f22f12de3ebc5",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 0,
+        "dice": 0.9712643678160919
+      },
+      {
+        "target_id": "BUSI::benign (150)",
+        "route_id": "9fedaa6a7b6b1e8b246ee129",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.9014492753623189
+      },
+      {
+        "target_id": "BUSI::benign (151)",
+        "route_id": "18dff27487420dc64ac8ea73",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.9487179487179487
+      },
+      {
+        "target_id": "BUSI::benign (170)",
+        "route_id": "91a5dd0a111c9ed8de0953e5",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.7536516853932584
+      },
+      {
+        "target_id": "BUSI::benign (183)",
+        "route_id": "cbf326beaa30f18732189231",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.29055831628178896
+      },
+      {
+        "target_id": "BUSI::benign (193)",
+        "route_id": "b3f3f8b1317ab313de5ad346",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (196)",
+        "route_id": "ba06aa4988a10c81b6223a86",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.7193127374855444
+      },
+      {
+        "target_id": "BUSI::benign (200)",
+        "route_id": "9751763aa61f225942618a62",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.9493564296884398
+      },
+      {
+        "target_id": "BUSI::benign (209)",
+        "route_id": "ffdb32b1bdfcfb3801e305e4",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.8987182709223422
+      },
+      {
+        "target_id": "BUSI::benign (21)",
+        "route_id": "3f57af207ef452ffd358d9b5",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.6422872340425532
+      },
+      {
+        "target_id": "BUSI::benign (214)",
+        "route_id": "e86901af59386eb1df881e38",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.8557652569224411
+      },
+      {
+        "target_id": "BUSI::benign (235)",
+        "route_id": "969a46ea8f3925999cee0740",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (240)",
+        "route_id": "3d8fe81dc8bafa0b5b5c26b7",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.7794907327212888
+      },
+      {
+        "target_id": "BUSI::benign (258)",
+        "route_id": "a7710d742430109691f7b2aa",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.7393838467943381
+      },
+      {
+        "target_id": "BUSI::benign (273)",
+        "route_id": "8887dc3c6c47c1a10f3850f8",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (288)",
+        "route_id": "a26c67d6f59c049114556fa0",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 4,
+        "dice": 0.7938487115544473
+      },
+      {
+        "target_id": "BUSI::benign (323)",
+        "route_id": "24c80cc7a281d7b224208422",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.8387295713845205
+      },
+      {
+        "target_id": "BUSI::benign (328)",
+        "route_id": "fd9bb934bb2b88ac0d15fec3",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.897680763983629
+      },
+      {
+        "target_id": "BUSI::benign (338)",
+        "route_id": "605b5265e5692c159d06778e",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 4,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (347)",
+        "route_id": "e65b7317f9a0b2a87147cc07",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.9327774882751433
+      },
+      {
+        "target_id": "BUSI::benign (359)",
+        "route_id": "6f44bd34e87b51f9642e8de9",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 4,
+        "dice": 0.125
+      },
+      {
+        "target_id": "BUSI::benign (363)",
+        "route_id": "1ff9f178374e9a2b9a855aa7",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.9223709369024856
+      },
+      {
+        "target_id": "BUSI::benign (370)",
+        "route_id": "eb843894037575897b167426",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.905268759978712
+      },
+      {
+        "target_id": "BUSI::benign (381)",
+        "route_id": "3b513f8a71e6d7fd6771cea4",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.957983193277311
+      },
+      {
+        "target_id": "BUSI::benign (386)",
+        "route_id": "8536f8e3b8f5a19d6a4a4846",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.9348863317429132
+      },
+      {
+        "target_id": "BUSI::benign (39)",
+        "route_id": "d0a8b7ecdccfa04b0ab21a46",
+        "anchor_id": "BUSI::benign (3)",
+        "bridge_count": 5,
+        "dice": 0.9512516469038208
+      },
+      {
+        "target_id": "BUSI::benign (391)",
+        "route_id": "39b0b1207330c138062ff7df",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.22518572646449883
+      },
+      {
+        "target_id": "BUSI::benign (398)",
+        "route_id": "b857947a13675b8b310cb71a",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.7857204227167283
+      },
+      {
+        "target_id": "BUSI::benign (417)",
+        "route_id": "451c6315b27e11f70256231f",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.9294320137693631
+      },
+      {
+        "target_id": "BUSI::benign (422)",
+        "route_id": "c56e28fefce780a542b2c5d9",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::benign (43)",
+        "route_id": "4ecbede6af03715da119da78",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.9403630077787382
+      },
+      {
+        "target_id": "BUSI::benign (59)",
+        "route_id": "f8fb6735e324ca45179a477e",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.8545394300861497
+      },
+      {
+        "target_id": "BUSI::benign (63)",
+        "route_id": "233f4202023573277c111df2",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 4,
+        "dice": 0.946219797349961
+      },
+      {
+        "target_id": "BUSI::benign (7)",
+        "route_id": "f66accdcbb5df09bedfd8f3d",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.744621141253508
+      },
+      {
+        "target_id": "BUSI::benign (85)",
+        "route_id": "f9bf4c8be1cc452cf081c50a",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.12097095105451651
+      },
+      {
+        "target_id": "BUSI::benign (90)",
+        "route_id": "1470886c0fd283ac5a90fb92",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 2,
+        "dice": 0.2638522427440633
+      },
+      {
+        "target_id": "BUSI::benign (96)",
+        "route_id": "0dbe13c6bd26d7f6c5ee08d0",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.8314810614651849
+      },
+      {
+        "target_id": "BUSI::malignant (102)",
+        "route_id": "86f19cb98c1bd8f672bf7926",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.10360909808423621
+      },
+      {
+        "target_id": "BUSI::malignant (108)",
+        "route_id": "bac00b44eb79bd84e4f1676b",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 1,
+        "dice": 0.46781464784568766
+      },
+      {
+        "target_id": "BUSI::malignant (110)",
+        "route_id": "7c20846979742498bb234a38",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.8199186991869919
+      },
+      {
+        "target_id": "BUSI::malignant (14)",
+        "route_id": "5f1bd90715228a1428766ae4",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.7699514991181657
+      },
+      {
+        "target_id": "BUSI::malignant (166)",
+        "route_id": "14838692c9c4226d0f3f83c0",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.7645211930926217
+      },
+      {
+        "target_id": "BUSI::malignant (171)",
+        "route_id": "573bfe8a42b4c77db3391797",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.8272764393630053
+      },
+      {
+        "target_id": "BUSI::malignant (179)",
+        "route_id": "205b711a2a414f2ae20412d3",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.4485523761289778
+      },
+      {
+        "target_id": "BUSI::malignant (196)",
+        "route_id": "499d15dbdfba049034fddf5c",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.8569728902863941
+      },
+      {
+        "target_id": "BUSI::malignant (203)",
+        "route_id": "a938b3ee2777f7fb98589a50",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.590704791049058
+      },
+      {
+        "target_id": "BUSI::malignant (205)",
+        "route_id": "ceb41cb876951e9d7d488735",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.3848376907050205
+      },
+      {
+        "target_id": "BUSI::malignant (207)",
+        "route_id": "31ae8d1b3c4852e9223d1898",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.7502235227180363
+      },
+      {
+        "target_id": "BUSI::malignant (21)",
+        "route_id": "b03fd1a3a2b9bdefab20679a",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.618500050880228
+      },
+      {
+        "target_id": "BUSI::malignant (22)",
+        "route_id": "ec093933f5a553d71741aba3",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.5341144038594073
+      },
+      {
+        "target_id": "BUSI::malignant (3)",
+        "route_id": "6c024aa50f0b605952c7c16b",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.7714949651432997
+      },
+      {
+        "target_id": "BUSI::malignant (41)",
+        "route_id": "9fe8a5f12a4ab3b2b5bab584",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "BUSI::malignant (5)",
+        "route_id": "f963ac3ca00923e7d4988c5f",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.6410348544735897
+      },
+      {
+        "target_id": "BUSI::malignant (59)",
+        "route_id": "3e37b432bc83fb6af26742c9",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.14973208473133356
+      },
+      {
+        "target_id": "BUSI::malignant (62)",
+        "route_id": "73c22d1887900c1204163fdc",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.03964724504409437
+      },
+      {
+        "target_id": "BUSI::malignant (64)",
+        "route_id": "3ddeab10452497114850d3ae",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 3,
+        "dice": 0.5080852012936322
+      },
+      {
+        "target_id": "BUSI::malignant (71)",
+        "route_id": "d274e2be7bfbc5f220291014",
+        "anchor_id": "BUSI::malignant (195)",
+        "bridge_count": 4,
+        "dice": 0.9217601450005035
+      },
+      {
+        "target_id": "BUSI::malignant (73)",
+        "route_id": "7092d206fdadcc8d948873e2",
+        "anchor_id": "BUSI::malignant (187)",
+        "bridge_count": 5,
+        "dice": 0.5695344725987036
+      }
+    ]
+  },
+  "note": "All arms prespecified, same alpha1, no hyperparameter search; OOF uses validation GT only."
+}

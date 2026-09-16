@@ -1,0 +1,23 @@
+{
+  "count": 100,
+  "hashes_verified": true,
+  "metrics_recomputed": true,
+  "A0_text": {
+    "count": 100,
+    "dice": 0.9017549020160395,
+    "iou": 0.8424247613964808
+  },
+  "A0_empty": {
+    "count": 100,
+    "dice": 0.8852635704311856,
+    "iou": 0.8295748676875863
+  },
+  "A1_empty": {
+    "count": 100,
+    "dice": 0.9028354955190242,
+    "iou": 0.8486789973097071
+  },
+  "delta_vs_A0_text": -0.01649133158485383,
+  "delta_vs_A1_empty": -0.017571925087838558,
+  "empty_masks": 1
+}

@@ -1,0 +1,18 @@
+{
+  "dataset": "kvasir",
+  "created": 1789385813.3057578,
+  "hypothesis": "the raw anchor-conditioned score is not comparable across anchors; subtracting the unlabeled-train mean mu_A picks better anchors for each target",
+  "bias_ratio": 0.6804039024708592,
+  "mu_std": 0.02162202902841156,
+  "top1_score_std": 0.03177822606527099,
+  "top1_switch_rate_test": 0.43,
+  "prediction": {
+    "cal_top1_b0_dice": "> baseline b0 dice on test",
+    "cal_top2_b0_oracle": ">= cal_top1",
+    "kvasir_vs_isic": "gain on ISIC2018 larger than on Kvasir (bias_ratio 1.10 vs 0.68)"
+  },
+  "frozen_before_gpu": true,
+  "new_labels_added": 0,
+  "model_changed": false,
+  "note": "only b0 (no intermediate bridges); baseline b0 masks are reused with sha256 verification"
+}

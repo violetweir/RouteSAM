@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-07T14:04:55.915429+08:00",
+  "student": false,
+  "new_sam3_inference": false,
+  "split": "unchanged 800 train / 100 validation / 100 test; original 8 labeled and 792 unlabeled train",
+  "features": [
+    "tp_cycle",
+    "cycle_difference",
+    "log_area_change_difference",
+    "centroid_change_difference",
+    "empty_count_difference",
+    "log_component_difference",
+    "bridge_difference",
+    "tp_score_margin",
+    "pc_score_margin",
+    "tp_mask_consensus",
+    "pc_mask_consensus",
+    "between_mask_dice",
+    "log_area_ratio",
+    "tp_sam_score",
+    "sam_score_difference"
+  ],
+  "expert_ridge": 1.0,
+  "gate_ridges": [
+    10.0,
+    100.0
+  ],
+  "thresholds": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "outer_folds": 5,
+  "outer_seed": 2026,
+  "policy_tuning_folds": 4,
+  "policy_tuning_seed": 2027,
+  "gate_training_expert_oof_folds": 3,
+  "gate_training_expert_oof_seed": 2028,
+  "selection": "inner mean Dice gain; exact TP fallback included; ties fewer switches then stronger regularization then larger threshold",
+  "test_gate": "nested outer mean Dice gain >= .003 AND paired bootstrap 95% lower endpoint > 0; otherwise do not evaluate a new policy on test",
+  "source_sha256": "b77c8fb8347424a7f0216d3c0bb978a3f78f219ef31661728a02531e2032888d",
+  "code_sha256": "014251b9aaa757979b28c0fbd7f615d8e7eb082f164e00aea306631e7d0d8ec3"
+}

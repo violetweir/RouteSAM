@@ -1,0 +1,60 @@
+[
+  {
+    "experiment": "target_pooling+patch_correspondence",
+    "failure_auroc": 0.9998421717171717,
+    "histogram": {
+      "anchor_conditioned_patch_correspondence:bridge_3": 19,
+      "anchor_conditioned_patch_correspondence:bridge_4": 9,
+      "anchor_conditioned_patch_correspondence:bridge_5": 10,
+      "anchor_conditioned_patch_correspondence:bridge_6": 4,
+      "anchor_conditioned_target_pooling:bridge_3": 16,
+      "anchor_conditioned_target_pooling:bridge_4": 9,
+      "anchor_conditioned_target_pooling:bridge_5": 14,
+      "anchor_conditioned_target_pooling:bridge_6": 19
+    },
+    "max_bridge": 6,
+    "min_bridge": 3,
+    "n_targets": 100,
+    "oracle_dice": 0.9105427931677741,
+    "oracle_gap": 0.04227727926085889,
+    "selected_dice": 0.8682655139069152,
+    "selection_accuracy": 0.22,
+    "spearman": 0.40350434901551285
+  },
+  {
+    "experiment": "anchor_conditioned_target_pooling",
+    "failure_auroc": 0.9955808080808081,
+    "histogram": {
+      "anchor_conditioned_target_pooling:bridge_3": 25,
+      "anchor_conditioned_target_pooling:bridge_4": 24,
+      "anchor_conditioned_target_pooling:bridge_5": 21,
+      "anchor_conditioned_target_pooling:bridge_6": 30
+    },
+    "max_bridge": 6,
+    "min_bridge": 3,
+    "n_targets": 100,
+    "oracle_dice": 0.8931470828022904,
+    "oracle_gap": 0.03166564660778903,
+    "selected_dice": 0.8614814361945013,
+    "selection_accuracy": 0.3,
+    "spearman": 0.36940665551695284
+  },
+  {
+    "experiment": "anchor_conditioned_patch_correspondence",
+    "failure_auroc": 1.0,
+    "histogram": {
+      "anchor_conditioned_patch_correspondence:bridge_3": 35,
+      "anchor_conditioned_patch_correspondence:bridge_4": 26,
+      "anchor_conditioned_patch_correspondence:bridge_5": 20,
+      "anchor_conditioned_patch_correspondence:bridge_6": 19
+    },
+    "max_bridge": 6,
+    "min_bridge": 3,
+    "n_targets": 100,
+    "oracle_dice": 0.885664744876955,
+    "oracle_gap": 0.012208887653214151,
+    "selected_dice": 0.8734558572237409,
+    "selection_accuracy": 0.32,
+    "spearman": 0.3903120340007934
+  }
+]

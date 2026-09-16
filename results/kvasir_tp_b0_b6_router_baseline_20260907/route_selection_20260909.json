@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-09-09T14:18:40.672198+08:00",
+  "user_decision": "算了就用单TP路线吧",
+  "active_route": "SAM3-base Target Pooling b0-b6 independent Router",
+  "baseline_directory": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_b0_b6_router_baseline_20260907",
+  "reuse_existing_frozen_artifacts": true,
+  "data_split": {
+    "train": 800,
+    "validation": 100,
+    "test": 100,
+    "labeled_train": 8,
+    "unlabeled_train": 792
+  },
+  "test_dice_no_student": 0.8854326463411542,
+  "validation_oof_dice": 0.8517552851672318,
+  "exploratory_auxiliary_routes": "archived; not adopted for continued mainline development",
+  "report": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/reproduction_reports/Kvasir_single_TP_mainline_20260909.md",
+  "router_and_selected_mask_manifest_hash_verified": true
+}

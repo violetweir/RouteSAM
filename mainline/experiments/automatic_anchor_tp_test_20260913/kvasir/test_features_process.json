@@ -1,0 +1,11 @@
+{
+  "pid": 3500984,
+  "gpu": 1,
+  "command": [
+    "/home/violet/anaconda3/envs/sam3/bin/python",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/automatic_anchor_tp_test_20260913/pipeline.py",
+    "features",
+    "--dataset",
+    "kvasir"
+  ]
+}

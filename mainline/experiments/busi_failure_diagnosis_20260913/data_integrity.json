@@ -1,0 +1,7931 @@
+{
+  "n": 647,
+  "bad": [],
+  "multimask": [
+    {
+      "id": "BUSI::benign (100)",
+      "split": "train",
+      "extra_masks": [
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/benign/benign (100)_mask_1.png"
+      ],
+      "additional_pixels": 2921,
+      "main_vs_union_dice": 0.8291912753640138
+    },
+    {
+      "id": "BUSI::benign (163)",
+      "split": "train",
+      "extra_masks": [
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/benign/benign (163)_mask_1.png"
+      ],
+      "additional_pixels": 2374,
+      "main_vs_union_dice": 0.648504589872668
+    },
+    {
+      "id": "BUSI::benign (173)",
+      "split": "train",
+      "extra_masks": [
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/benign/benign (173)_mask_1.png"
+      ],
+      "additional_pixels": 33631,
+      "main_vs_union_dice": 0.3410725131761986
+    },
+    {
+      "id": "BUSI::benign (181)",
+      "split": "train",
+      "extra_masks": [
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/benign/benign (181)_mask_1.png"
+      ],
+      "additional_pixels": 4149,
+      "main_vs_union_dice": 0.9164333622026627
+    },
+    {
+      "id": "BUSI::benign (195)",
+      "split": "train",
+      "extra_masks": [
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/benign/benign (195)_mask_1.png",
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/benign/benign (195)_mask_2.png"
+      ],
+      "additional_pixels": 88742,
+      "main_vs_union_dice": 0.6037171334667047
+    },
+    {
+      "id": "BUSI::benign (25)",
+      "split": "train",
+      "extra_masks": [
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/benign/benign (25)_mask_1.png"
+      ],
+      "additional_pixels": 2568,
+      "main_vs_union_dice": 0.7171806167400882
+    },
+    {
+      "id": "BUSI::benign (315)",
+      "split": "train",
+      "extra_masks": [
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/benign/benign (315)_mask_1.png"
+      ],
+      "additional_pixels": 4806,
+      "main_vs_union_dice": 0.5894413121476166
+    },
+    {
+      "id": "BUSI::benign (346)",
+      "split": "train",
+      "extra_masks": [
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/benign/benign (346)_mask_1.png"
+      ],
+      "additional_pixels": 33925,
+      "main_vs_union_dice": 0.2009562616294133
+    },
+    {
+      "id": "BUSI::benign (4)",
+      "split": "train",
+      "extra_masks": [
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/benign/benign (4)_mask_1.png"
+      ],
+      "additional_pixels": 624,
+      "main_vs_union_dice": 0.8641114982578397
+    },
+    {
+      "id": "BUSI::benign (424)",
+      "split": "train",
+      "extra_masks": [
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/benign/benign (424)_mask_1.png"
+      ],
+      "additional_pixels": 951,
+      "main_vs_union_dice": 0.9029690847872666
+    },
+    {
+      "id": "BUSI::benign (54)",
+      "split": "train",
+      "extra_masks": [
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/benign/benign (54)_mask_1.png"
+      ],
+      "additional_pixels": 1609,
+      "main_vs_union_dice": 0.9596650873630643
+    },
+    {
+      "id": "BUSI::benign (58)",
+      "split": "train",
+      "extra_masks": [
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/benign/benign (58)_mask_1.png"
+      ],
+      "additional_pixels": 0,
+      "main_vs_union_dice": 1.0
+    },
+    {
+      "id": "BUSI::benign (83)",
+      "split": "train",
+      "extra_masks": [
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/benign/benign (83)_mask_1.png"
+      ],
+      "additional_pixels": 1858,
+      "main_vs_union_dice": 0.7195048309178744
+    },
+    {
+      "id": "BUSI::benign (92)",
+      "split": "train",
+      "extra_masks": [
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/benign/benign (92)_mask_1.png"
+      ],
+      "additional_pixels": 6355,
+      "main_vs_union_dice": 0.8804214883808449
+    },
+    {
+      "id": "BUSI::benign (93)",
+      "split": "train",
+      "extra_masks": [
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/benign/benign (93)_mask_1.png"
+      ],
+      "additional_pixels": 2889,
+      "main_vs_union_dice": 0.8277383578796732
+    },
+    {
+      "id": "BUSI::benign (98)",
+      "split": "train",
+      "extra_masks": [
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/benign/benign (98)_mask_1.png"
+      ],
+      "additional_pixels": 118440,
+      "main_vs_union_dice": 0.27294602956342384
+    },
+    {
+      "id": "BUSI::malignant (53)",
+      "split": "train",
+      "extra_masks": [
+        "/Data_8TB/lht/MK-UNet/BUSI/Dataset_BUSI_with_GT/malignant/malignant (53)_mask_1.png"
+      ],
+      "additional_pixels": 15312,
+      "main_vs_union_dice": 0.06917933130699089
+    }
+  ],
+  "roundtrip": [
+    {
+      "id": "BUSI::benign (107)",
+      "split": "validation",
+      "roundtrip_dice": 0.9861518245223896
+    },
+    {
+      "id": "BUSI::benign (108)",
+      "split": "validation",
+      "roundtrip_dice": 0.9895618882508036
+    },
+    {
+      "id": "BUSI::benign (116)",
+      "split": "validation",
+      "roundtrip_dice": 0.9868432991561564
+    },
+    {
+      "id": "BUSI::benign (117)",
+      "split": "validation",
+      "roundtrip_dice": 0.9882733522038011
+    },
+    {
+      "id": "BUSI::benign (137)",
+      "split": "validation",
+      "roundtrip_dice": 0.9812612612612612
+    },
+    {
+      "id": "BUSI::benign (142)",
+      "split": "validation",
+      "roundtrip_dice": 0.9775055679287306
+    },
+    {
+      "id": "BUSI::benign (149)",
+      "split": "validation",
+      "roundtrip_dice": 0.9886458044862919
+    },
+    {
+      "id": "BUSI::benign (150)",
+      "split": "validation",
+      "roundtrip_dice": 0.9821771318892241
+    },
+    {
+      "id": "BUSI::benign (151)",
+      "split": "validation",
+      "roundtrip_dice": 0.9801638637343683
+    },
+    {
+      "id": "BUSI::benign (170)",
+      "split": "validation",
+      "roundtrip_dice": 0.9887443122854634
+    },
+    {
+      "id": "BUSI::benign (183)",
+      "split": "validation",
+      "roundtrip_dice": 0.9800847457627119
+    },
+    {
+      "id": "BUSI::benign (193)",
+      "split": "validation",
+      "roundtrip_dice": 0.9811111111111112
+    },
+    {
+      "id": "BUSI::benign (196)",
+      "split": "validation",
+      "roundtrip_dice": 0.9853495460653535
+    },
+    {
+      "id": "BUSI::benign (200)",
+      "split": "validation",
+      "roundtrip_dice": 0.9936463843494193
+    },
+    {
+      "id": "BUSI::benign (209)",
+      "split": "validation",
+      "roundtrip_dice": 0.987244565924769
+    },
+    {
+      "id": "BUSI::benign (21)",
+      "split": "validation",
+      "roundtrip_dice": 0.978494623655914
+    },
+    {
+      "id": "BUSI::benign (214)",
+      "split": "validation",
+      "roundtrip_dice": 0.9934171154997008
+    },
+    {
+      "id": "BUSI::benign (235)",
+      "split": "validation",
+      "roundtrip_dice": 0.991049708541791
+    },
+    {
+      "id": "BUSI::benign (240)",
+      "split": "validation",
+      "roundtrip_dice": 0.9932035398230088
+    },
+    {
+      "id": "BUSI::benign (258)",
+      "split": "validation",
+      "roundtrip_dice": 0.9903222133667312
+    },
+    {
+      "id": "BUSI::benign (273)",
+      "split": "validation",
+      "roundtrip_dice": 0.9939675005887575
+    },
+    {
+      "id": "BUSI::benign (288)",
+      "split": "validation",
+      "roundtrip_dice": 0.989423149051084
+    },
+    {
+      "id": "BUSI::benign (323)",
+      "split": "validation",
+      "roundtrip_dice": 0.987156210073297
+    },
+    {
+      "id": "BUSI::benign (328)",
+      "split": "validation",
+      "roundtrip_dice": 0.9801938474504847
+    },
+    {
+      "id": "BUSI::benign (338)",
+      "split": "validation",
+      "roundtrip_dice": 0.9837251356238698
+    },
+    {
+      "id": "BUSI::benign (347)",
+      "split": "validation",
+      "roundtrip_dice": 0.9858288120495586
+    },
+    {
+      "id": "BUSI::benign (359)",
+      "split": "validation",
+      "roundtrip_dice": 0.9887538339202545
+    },
+    {
+      "id": "BUSI::benign (363)",
+      "split": "validation",
+      "roundtrip_dice": 0.9830349611022589
+    },
+    {
+      "id": "BUSI::benign (370)",
+      "split": "validation",
+      "roundtrip_dice": 0.9962088443336217
+    },
+    {
+      "id": "BUSI::benign (381)",
+      "split": "validation",
+      "roundtrip_dice": 0.9920659908066243
+    },
+    {
+      "id": "BUSI::benign (386)",
+      "split": "validation",
+      "roundtrip_dice": 0.9918667396574646
+    },
+    {
+      "id": "BUSI::benign (39)",
+      "split": "validation",
+      "roundtrip_dice": 0.9866265166947126
+    },
+    {
+      "id": "BUSI::benign (391)",
+      "split": "validation",
+      "roundtrip_dice": 0.9928344906016254
+    },
+    {
+      "id": "BUSI::benign (398)",
+      "split": "validation",
+      "roundtrip_dice": 0.9957717072828395
+    },
+    {
+      "id": "BUSI::benign (417)",
+      "split": "validation",
+      "roundtrip_dice": 0.990055405597386
+    },
+    {
+      "id": "BUSI::benign (422)",
+      "split": "validation",
+      "roundtrip_dice": 0.9951206012584479
+    },
+    {
+      "id": "BUSI::benign (43)",
+      "split": "validation",
+      "roundtrip_dice": 0.9757756056098598
+    },
+    {
+      "id": "BUSI::benign (59)",
+      "split": "validation",
+      "roundtrip_dice": 0.9927839515081541
+    },
+    {
+      "id": "BUSI::benign (63)",
+      "split": "validation",
+      "roundtrip_dice": 0.9811560988031576
+    },
+    {
+      "id": "BUSI::benign (7)",
+      "split": "validation",
+      "roundtrip_dice": 0.9722979109900091
+    },
+    {
+      "id": "BUSI::benign (85)",
+      "split": "validation",
+      "roundtrip_dice": 0.99481773013018
+    },
+    {
+      "id": "BUSI::benign (90)",
+      "split": "validation",
+      "roundtrip_dice": 0.9755653361663378
+    },
+    {
+      "id": "BUSI::benign (96)",
+      "split": "validation",
+      "roundtrip_dice": 0.9949315553943909
+    },
+    {
+      "id": "BUSI::malignant (102)",
+      "split": "validation",
+      "roundtrip_dice": 0.9927383535567967
+    },
+    {
+      "id": "BUSI::malignant (108)",
+      "split": "validation",
+      "roundtrip_dice": 0.992696312681288
+    },
+    {
+      "id": "BUSI::malignant (110)",
+      "split": "validation",
+      "roundtrip_dice": 0.9895126465144972
+    },
+    {
+      "id": "BUSI::malignant (14)",
+      "split": "validation",
+      "roundtrip_dice": 0.9955816554809843
+    },
+    {
+      "id": "BUSI::malignant (166)",
+      "split": "validation",
+      "roundtrip_dice": 0.9905346369877263
+    },
+    {
+      "id": "BUSI::malignant (171)",
+      "split": "validation",
+      "roundtrip_dice": 0.991729851795355
+    },
+    {
+      "id": "BUSI::malignant (179)",
+      "split": "validation",
+      "roundtrip_dice": 0.9923867529501332
+    },
+    {
+      "id": "BUSI::malignant (196)",
+      "split": "validation",
+      "roundtrip_dice": 0.9923344947735192
+    },
+    {
+      "id": "BUSI::malignant (203)",
+      "split": "validation",
+      "roundtrip_dice": 0.9951057605760576
+    },
+    {
+      "id": "BUSI::malignant (205)",
+      "split": "validation",
+      "roundtrip_dice": 0.9964354764199637
+    },
+    {
+      "id": "BUSI::malignant (207)",
+      "split": "validation",
+      "roundtrip_dice": 0.9931709739787502
+    },
+    {
+      "id": "BUSI::malignant (21)",
+      "split": "validation",
+      "roundtrip_dice": 0.9947670415423456
+    },
+    {
+      "id": "BUSI::malignant (22)",
+      "split": "validation",
+      "roundtrip_dice": 0.9941305765561218
+    },
+    {
+      "id": "BUSI::malignant (3)",
+      "split": "validation",
+      "roundtrip_dice": 0.9919573245794009
+    },
+    {
+      "id": "BUSI::malignant (41)",
+      "split": "validation",
+      "roundtrip_dice": 0.9923745555116554
+    },
+    {
+      "id": "BUSI::malignant (5)",
+      "split": "validation",
+      "roundtrip_dice": 0.9885321100917431
+    },
+    {
+      "id": "BUSI::malignant (59)",
+      "split": "validation",
+      "roundtrip_dice": 0.9955044036789241
+    },
+    {
+      "id": "BUSI::malignant (62)",
+      "split": "validation",
+      "roundtrip_dice": 0.9937699577608657
+    },
+    {
+      "id": "BUSI::malignant (64)",
+      "split": "validation",
+      "roundtrip_dice": 0.989148564588607
+    },
+    {
+      "id": "BUSI::malignant (71)",
+      "split": "validation",
+      "roundtrip_dice": 0.9950743569674233
+    },
+    {
+      "id": "BUSI::malignant (73)",
+      "split": "validation",
+      "roundtrip_dice": 0.9850424055512722
+    },
+    {
+      "id": "BUSI::benign (105)",
+      "split": "test",
+      "roundtrip_dice": 0.9870628778035139
+    },
+    {
+      "id": "BUSI::benign (115)",
+      "split": "test",
+      "roundtrip_dice": 0.9849953831948292
+    },
+    {
+      "id": "BUSI::benign (128)",
+      "split": "test",
+      "roundtrip_dice": 0.9848055627092455
+    },
+    {
+      "id": "BUSI::benign (139)",
+      "split": "test",
+      "roundtrip_dice": 0.9906983469082847
+    },
+    {
+      "id": "BUSI::benign (143)",
+      "split": "test",
+      "roundtrip_dice": 0.9743589743589743
+    },
+    {
+      "id": "BUSI::benign (148)",
+      "split": "test",
+      "roundtrip_dice": 0.9899582333599929
+    },
+    {
+      "id": "BUSI::benign (186)",
+      "split": "test",
+      "roundtrip_dice": 0.9943884287600528
+    },
+    {
+      "id": "BUSI::benign (202)",
+      "split": "test",
+      "roundtrip_dice": 0.9845857418111753
+    },
+    {
+      "id": "BUSI::benign (204)",
+      "split": "test",
+      "roundtrip_dice": 0.991928632115548
+    },
+    {
+      "id": "BUSI::benign (206)",
+      "split": "test",
+      "roundtrip_dice": 0.9910576211927654
+    },
+    {
+      "id": "BUSI::benign (208)",
+      "split": "test",
+      "roundtrip_dice": 0.984302862419206
+    },
+    {
+      "id": "BUSI::benign (220)",
+      "split": "test",
+      "roundtrip_dice": 0.9863387978142076
+    },
+    {
+      "id": "BUSI::benign (226)",
+      "split": "test",
+      "roundtrip_dice": 0.9870214997378081
+    },
+    {
+      "id": "BUSI::benign (230)",
+      "split": "test",
+      "roundtrip_dice": 0.990551562626181
+    },
+    {
+      "id": "BUSI::benign (241)",
+      "split": "test",
+      "roundtrip_dice": 0.9913441531419059
+    },
+    {
+      "id": "BUSI::benign (244)",
+      "split": "test",
+      "roundtrip_dice": 0.9866934013853446
+    },
+    {
+      "id": "BUSI::benign (248)",
+      "split": "test",
+      "roundtrip_dice": 0.9807692307692307
+    },
+    {
+      "id": "BUSI::benign (264)",
+      "split": "test",
+      "roundtrip_dice": 0.9928881499953819
+    },
+    {
+      "id": "BUSI::benign (286)",
+      "split": "test",
+      "roundtrip_dice": 0.9931979921626191
+    },
+    {
+      "id": "BUSI::benign (289)",
+      "split": "test",
+      "roundtrip_dice": 0.9936589636783317
+    },
+    {
+      "id": "BUSI::benign (294)",
+      "split": "test",
+      "roundtrip_dice": 0.9944885834943812
+    },
+    {
+      "id": "BUSI::benign (304)",
+      "split": "test",
+      "roundtrip_dice": 0.9939032103012978
+    },
+    {
+      "id": "BUSI::benign (307)",
+      "split": "test",
+      "roundtrip_dice": 0.9870000415334136
+    },
+    {
+      "id": "BUSI::benign (31)",
+      "split": "test",
+      "roundtrip_dice": 0.9722655032720474
+    },
+    {
+      "id": "BUSI::benign (318)",
+      "split": "test",
+      "roundtrip_dice": 0.9740134744947064
+    },
+    {
+      "id": "BUSI::benign (331)",
+      "split": "test",
+      "roundtrip_dice": 0.9886862156545833
+    },
+    {
+      "id": "BUSI::benign (336)",
+      "split": "test",
+      "roundtrip_dice": 0.9893981225842077
+    },
+    {
+      "id": "BUSI::benign (344)",
+      "split": "test",
+      "roundtrip_dice": 0.9932507056080501
+    },
+    {
+      "id": "BUSI::benign (353)",
+      "split": "test",
+      "roundtrip_dice": 0.9829412420559706
+    },
+    {
+      "id": "BUSI::benign (364)",
+      "split": "test",
+      "roundtrip_dice": 0.9903166710285266
+    },
+    {
+      "id": "BUSI::benign (368)",
+      "split": "test",
+      "roundtrip_dice": 0.985342545360625
+    },
+    {
+      "id": "BUSI::benign (390)",
+      "split": "test",
+      "roundtrip_dice": 0.9854913167729171
+    },
+    {
+      "id": "BUSI::benign (415)",
+      "split": "test",
+      "roundtrip_dice": 0.9973306057875908
+    },
+    {
+      "id": "BUSI::benign (431)",
+      "split": "test",
+      "roundtrip_dice": 0.9780967702017077
+    },
+    {
+      "id": "BUSI::benign (46)",
+      "split": "test",
+      "roundtrip_dice": 0.9802453732584737
+    },
+    {
+      "id": "BUSI::benign (56)",
+      "split": "test",
+      "roundtrip_dice": 0.9925919470106327
+    },
+    {
+      "id": "BUSI::benign (61)",
+      "split": "test",
+      "roundtrip_dice": 0.9937555289587344
+    },
+    {
+      "id": "BUSI::benign (62)",
+      "split": "test",
+      "roundtrip_dice": 0.9952067347390893
+    },
+    {
+      "id": "BUSI::benign (65)",
+      "split": "test",
+      "roundtrip_dice": 0.9900990099009901
+    },
+    {
+      "id": "BUSI::benign (67)",
+      "split": "test",
+      "roundtrip_dice": 0.9956600361663652
+    },
+    {
+      "id": "BUSI::benign (79)",
+      "split": "test",
+      "roundtrip_dice": 0.9905889253245888
+    },
+    {
+      "id": "BUSI::benign (8)",
+      "split": "test",
+      "roundtrip_dice": 0.9793762575452716
+    },
+    {
+      "id": "BUSI::benign (80)",
+      "split": "test",
+      "roundtrip_dice": 0.9967158061090945
+    },
+    {
+      "id": "BUSI::benign (81)",
+      "split": "test",
+      "roundtrip_dice": 0.9892848243209569
+    },
+    {
+      "id": "BUSI::benign (97)",
+      "split": "test",
+      "roundtrip_dice": 0.9956296603148301
+    },
+    {
+      "id": "BUSI::malignant (122)",
+      "split": "test",
+      "roundtrip_dice": 0.9950171872368668
+    },
+    {
+      "id": "BUSI::malignant (123)",
+      "split": "test",
+      "roundtrip_dice": 0.9954472949621161
+    },
+    {
+      "id": "BUSI::malignant (124)",
+      "split": "test",
+      "roundtrip_dice": 0.9951866961615847
+    },
+    {
+      "id": "BUSI::malignant (138)",
+      "split": "test",
+      "roundtrip_dice": 0.9951131687242798
+    },
+    {
+      "id": "BUSI::malignant (141)",
+      "split": "test",
+      "roundtrip_dice": 0.9859186244719484
+    },
+    {
+      "id": "BUSI::malignant (15)",
+      "split": "test",
+      "roundtrip_dice": 0.9955937782024739
+    },
+    {
+      "id": "BUSI::malignant (158)",
+      "split": "test",
+      "roundtrip_dice": 0.9951058945818355
+    },
+    {
+      "id": "BUSI::malignant (161)",
+      "split": "test",
+      "roundtrip_dice": 0.9961197050141338
+    },
+    {
+      "id": "BUSI::malignant (173)",
+      "split": "test",
+      "roundtrip_dice": 0.9919257974109169
+    },
+    {
+      "id": "BUSI::malignant (197)",
+      "split": "test",
+      "roundtrip_dice": 0.992406020204797
+    },
+    {
+      "id": "BUSI::malignant (204)",
+      "split": "test",
+      "roundtrip_dice": 0.9920015195002533
+    },
+    {
+      "id": "BUSI::malignant (24)",
+      "split": "test",
+      "roundtrip_dice": 0.9950629052419536
+    },
+    {
+      "id": "BUSI::malignant (48)",
+      "split": "test",
+      "roundtrip_dice": 0.9896336155733164
+    },
+    {
+      "id": "BUSI::malignant (56)",
+      "split": "test",
+      "roundtrip_dice": 0.9953988926148327
+    },
+    {
+      "id": "BUSI::malignant (6)",
+      "split": "test",
+      "roundtrip_dice": 0.9888080581980974
+    },
+    {
+      "id": "BUSI::malignant (70)",
+      "split": "test",
+      "roundtrip_dice": 0.988520644325125
+    },
+    {
+      "id": "BUSI::malignant (85)",
+      "split": "test",
+      "roundtrip_dice": 0.9953699697100822
+    },
+    {
+      "id": "BUSI::malignant (89)",
+      "split": "test",
+      "roundtrip_dice": 0.9947724708537043
+    },
+    {
+      "id": "BUSI::malignant (91)",
+      "split": "test",
+      "roundtrip_dice": 0.9936076564205275
+    },
+    {
+      "id": "BUSI::malignant (93)",
+      "split": "test",
+      "roundtrip_dice": 0.9944178734629169
+    },
+    {
+      "id": "BUSI::malignant (94)",
+      "split": "test",
+      "roundtrip_dice": 0.9942189826182788
+    }
+  ],
+  "records": [
+    {
+      "id": "BUSI::benign (1)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        562,
+        471
+      ],
+      "area": 0.0037173878550218736,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (10)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        683,
+        585
+      ],
+      "area": 0.08238665515385867,
+      "fg_patches18": 26
+    },
+    {
+      "id": "BUSI::benign (100)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        323,
+        473
+      ],
+      "area": 0.04640690147206095,
+      "fg_patches18": 14
+    },
+    {
+      "id": "BUSI::benign (101)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        563,
+        473
+      ],
+      "area": 0.015647824437943814,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (102)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        634,
+        610
+      ],
+      "area": 0.048758856079019496,
+      "fg_patches18": 13
+    },
+    {
+      "id": "BUSI::benign (103)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        766,
+        585
+      ],
+      "area": 0.11065809734217046,
+      "fg_patches18": 36
+    },
+    {
+      "id": "BUSI::benign (104)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        777,
+        578
+      ],
+      "area": 0.008750718093278646,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (106)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        808,
+        716
+      ],
+      "area": 0.020171884506886444,
+      "fg_patches18": 7
+    },
+    {
+      "id": "BUSI::benign (109)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        562,
+        470
+      ],
+      "area": 0.10765124555160142,
+      "fg_patches18": 35
+    },
+    {
+      "id": "BUSI::benign (11)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        689,
+        587
+      ],
+      "area": 0.004823918327180839,
+      "fg_patches18": 1
+    },
+    {
+      "id": "BUSI::benign (110)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        555,
+        468
+      ],
+      "area": 0.14523754523754523,
+      "fg_patches18": 49
+    },
+    {
+      "id": "BUSI::benign (111)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        315,
+        477
+      ],
+      "area": 0.015753219526804432,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (112)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        652,
+        612
+      ],
+      "area": 0.01249548899314327,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (113)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        810,
+        695
+      ],
+      "area": 0.038253841371347366,
+      "fg_patches18": 12
+    },
+    {
+      "id": "BUSI::benign (114)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        757,
+        575
+      ],
+      "area": 0.05043018781230257,
+      "fg_patches18": 16
+    },
+    {
+      "id": "BUSI::benign (118)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        653,
+        620
+      ],
+      "area": 0.016879909104381762,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::benign (119)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        762,
+        585
+      ],
+      "area": 0.011548556430446194,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (12)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        678,
+        571
+      ],
+      "area": 0.007465038306753664,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (120)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        808,
+        695
+      ],
+      "area": 0.003436854476814588,
+      "fg_patches18": 1
+    },
+    {
+      "id": "BUSI::benign (121)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        646,
+        610
+      ],
+      "area": 0.04498045982845252,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::benign (122)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        774,
+        577
+      ],
+      "area": 0.03174891065342881,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::benign (123)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        648,
+        610
+      ],
+      "area": 0.05642582473183566,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::benign (124)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        645,
+        614
+      ],
+      "area": 0.019104613286872206,
+      "fg_patches18": 7
+    },
+    {
+      "id": "BUSI::benign (125)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        756,
+        578
+      ],
+      "area": 0.011225078266600758,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (126)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        771,
+        570
+      ],
+      "area": 0.012883700821444011,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (127)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        558,
+        476
+      ],
+      "area": 0.016302219812656244,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (129)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        775,
+        587
+      ],
+      "area": 0.014266087816673078,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (13)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        678,
+        571
+      ],
+      "area": 0.1354814045637473,
+      "fg_patches18": 44
+    },
+    {
+      "id": "BUSI::benign (130)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        558,
+        474
+      ],
+      "area": 0.056659558701208354,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::benign (131)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        587,
+        435
+      ],
+      "area": 0.2642503279876246,
+      "fg_patches18": 86
+    },
+    {
+      "id": "BUSI::benign (132)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        552,
+        483
+      ],
+      "area": 0.024188345785699283,
+      "fg_patches18": 7
+    },
+    {
+      "id": "BUSI::benign (133)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        369,
+        342
+      ],
+      "area": 0.009524715130192237,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (134)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        378,
+        345
+      ],
+      "area": 0.009638831377961813,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (135)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        776,
+        582
+      ],
+      "area": 0.024657243065150387,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::benign (136)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        886,
+        581
+      ],
+      "area": 0.03159493828263716,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::benign (138)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        766,
+        600
+      ],
+      "area": 0.004464751958224543,
+      "fg_patches18": 1
+    },
+    {
+      "id": "BUSI::benign (14)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        699,
+        531
+      ],
+      "area": 0.011800554464408397,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (140)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        452,
+        591
+      ],
+      "area": 0.19429720138358564,
+      "fg_patches18": 67
+    },
+    {
+      "id": "BUSI::benign (141)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        567,
+        471
+      ],
+      "area": 0.512972885938208,
+      "fg_patches18": 168
+    },
+    {
+      "id": "BUSI::benign (144)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        770,
+        580
+      ],
+      "area": 0.002812360053739364,
+      "fg_patches18": 1
+    },
+    {
+      "id": "BUSI::benign (145)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        779,
+        574
+      ],
+      "area": 0.019282292584524966,
+      "fg_patches18": 7
+    },
+    {
+      "id": "BUSI::benign (146)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        449,
+        594
+      ],
+      "area": 0.00563541877573058,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (147)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        564,
+        463
+      ],
+      "area": 0.0142494983380053,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (15)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        701,
+        526
+      ],
+      "area": 0.008317829499411487,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (152)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        555,
+        471
+      ],
+      "area": 0.23548516669535777,
+      "fg_patches18": 75
+    },
+    {
+      "id": "BUSI::benign (153)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        772,
+        574
+      ],
+      "area": 0.006323229405499088,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (154)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        556,
+        464
+      ],
+      "area": 0.007984991317290994,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (155)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        783,
+        583
+      ],
+      "area": 0.1331269756773986,
+      "fg_patches18": 41
+    },
+    {
+      "id": "BUSI::benign (156)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        887,
+        581
+      ],
+      "area": 0.018575833370525104,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::benign (157)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        567,
+        465
+      ],
+      "area": 0.04177428836927045,
+      "fg_patches18": 12
+    },
+    {
+      "id": "BUSI::benign (158)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        556,
+        464
+      ],
+      "area": 0.14144675638799306,
+      "fg_patches18": 45
+    },
+    {
+      "id": "BUSI::benign (159)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        696,
+        574
+      ],
+      "area": 0.008435459970363251,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (16)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        558,
+        462
+      ],
+      "area": 0.008956694440565408,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (160)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        624,
+        585
+      ],
+      "area": 0.009941376287530133,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (161)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        568,
+        463
+      ],
+      "area": 0.011822011985520032,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (162)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        549,
+        470
+      ],
+      "area": 0.004836646901523078,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (163)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        779,
+        576
+      ],
+      "area": 0.0048807231493367565,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (164)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        560,
+        470
+      ],
+      "area": 0.15761018237082067,
+      "fg_patches18": 51
+    },
+    {
+      "id": "BUSI::benign (165)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        558,
+        464
+      ],
+      "area": 0.0062724014336917565,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (166)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        555,
+        471
+      ],
+      "area": 0.011074769036552476,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (167)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        566,
+        463
+      ],
+      "area": 0.00978409359760053,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (168)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        557,
+        471
+      ],
+      "area": 0.047242773883444444,
+      "fg_patches18": 16
+    },
+    {
+      "id": "BUSI::benign (169)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        561,
+        469
+      ],
+      "area": 0.005305785815004428,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (17)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        558,
+        463
+      ],
+      "area": 0.019659072435495483,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::benign (171)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        566,
+        463
+      ],
+      "area": 0.0052240343740698626,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (172)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        619,
+        589
+      ],
+      "area": 0.02405160851474666,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::benign (173)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        726,
+        573
+      ],
+      "area": 0.020923177515276517,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::benign (174)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        556,
+        490
+      ],
+      "area": 0.09419321685508736,
+      "fg_patches18": 31
+    },
+    {
+      "id": "BUSI::benign (175)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        765,
+        573
+      ],
+      "area": 0.05134540145319326,
+      "fg_patches18": 15
+    },
+    {
+      "id": "BUSI::benign (176)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        715,
+        487
+      ],
+      "area": 0.014218635573871714,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (177)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        562,
+        470
+      ],
+      "area": 0.01071401529491936,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (178)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        772,
+        576
+      ],
+      "area": 0.07250962507196315,
+      "fg_patches18": 24
+    },
+    {
+      "id": "BUSI::benign (179)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        422,
+        468
+      ],
+      "area": 0.004896301697249565,
+      "fg_patches18": 1
+    },
+    {
+      "id": "BUSI::benign (18)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        564,
+        469
+      ],
+      "area": 0.19841899922878012,
+      "fg_patches18": 64
+    },
+    {
+      "id": "BUSI::benign (180)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        763,
+        600
+      ],
+      "area": 0.02520532983835736,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::benign (181)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        733,
+        455
+      ],
+      "area": 0.06821282401091405,
+      "fg_patches18": 20
+    },
+    {
+      "id": "BUSI::benign (182)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        555,
+        463
+      ],
+      "area": 0.012048333430622848,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (184)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        349,
+        487
+      ],
+      "area": 0.14326059201120245,
+      "fg_patches18": 50
+    },
+    {
+      "id": "BUSI::benign (185)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        752,
+        592
+      ],
+      "area": 0.007491284502587694,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (187)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        730,
+        574
+      ],
+      "area": 0.015691375113359746,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (188)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        655,
+        600
+      ],
+      "area": 0.44852671755725193,
+      "fg_patches18": 145
+    },
+    {
+      "id": "BUSI::benign (189)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        544,
+        465
+      ],
+      "area": 0.009282099936748892,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (19)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        663,
+        572
+      ],
+      "area": 0.004983704078726703,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (190)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        734,
+        470
+      ],
+      "area": 0.08907472896979535,
+      "fg_patches18": 28
+    },
+    {
+      "id": "BUSI::benign (191)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        549,
+        463
+      ],
+      "area": 0.016102318371907298,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (192)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        557,
+        474
+      ],
+      "area": 0.03106227605693551,
+      "fg_patches18": 11
+    },
+    {
+      "id": "BUSI::benign (194)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        711,
+        492
+      ],
+      "area": 0.030442066024035767,
+      "fg_patches18": 10
+    },
+    {
+      "id": "BUSI::benign (195)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        729,
+        611
+      ],
+      "area": 0.1517604772135899,
+      "fg_patches18": 49
+    },
+    {
+      "id": "BUSI::benign (197)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        547,
+        465
+      ],
+      "area": 0.014086611232332763,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (198)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        759,
+        571
+      ],
+      "area": 0.09512008841941073,
+      "fg_patches18": 32
+    },
+    {
+      "id": "BUSI::benign (199)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        556,
+        473
+      ],
+      "area": 0.1855978219538534,
+      "fg_patches18": 63
+    },
+    {
+      "id": "BUSI::benign (2)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        557,
+        473
+      ],
+      "area": 0.03561817498605107,
+      "fg_patches18": 10
+    },
+    {
+      "id": "BUSI::benign (20)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        319,
+        473
+      ],
+      "area": 0.0429990655258571,
+      "fg_patches18": 14
+    },
+    {
+      "id": "BUSI::benign (201)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        556,
+        474
+      ],
+      "area": 0.024815590565522266,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::benign (203)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        569,
+        471
+      ],
+      "area": 0.10228023238892682,
+      "fg_patches18": 34
+    },
+    {
+      "id": "BUSI::benign (205)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        557,
+        477
+      ],
+      "area": 0.22525584423894102,
+      "fg_patches18": 75
+    },
+    {
+      "id": "BUSI::benign (207)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        562,
+        481
+      ],
+      "area": 0.12297926176929735,
+      "fg_patches18": 42
+    },
+    {
+      "id": "BUSI::benign (210)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        563,
+        471
+      ],
+      "area": 0.08059644081411003,
+      "fg_patches18": 26
+    },
+    {
+      "id": "BUSI::benign (211)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        557,
+        465
+      ],
+      "area": 0.017331711743016544,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (212)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        558,
+        469
+      ],
+      "area": 0.08494012273501922,
+      "fg_patches18": 31
+    },
+    {
+      "id": "BUSI::benign (213)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        573,
+        486
+      ],
+      "area": 0.037902455490200306,
+      "fg_patches18": 13
+    },
+    {
+      "id": "BUSI::benign (215)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        600,
+        396
+      ],
+      "area": 0.023627946127946126,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::benign (216)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        646,
+        386
+      ],
+      "area": 0.05798938064454034,
+      "fg_patches18": 21
+    },
+    {
+      "id": "BUSI::benign (217)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        603,
+        396
+      ],
+      "area": 0.08701442283531836,
+      "fg_patches18": 28
+    },
+    {
+      "id": "BUSI::benign (218)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        602,
+        396
+      ],
+      "area": 0.12604030336588476,
+      "fg_patches18": 41
+    },
+    {
+      "id": "BUSI::benign (219)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        608,
+        396
+      ],
+      "area": 0.025414506911217438,
+      "fg_patches18": 10
+    },
+    {
+      "id": "BUSI::benign (22)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        562,
+        463
+      ],
+      "area": 0.0524238487967226,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::benign (221)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        610,
+        394
+      ],
+      "area": 0.008779229424981277,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (222)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        605,
+        392
+      ],
+      "area": 0.03504385225164446,
+      "fg_patches18": 13
+    },
+    {
+      "id": "BUSI::benign (223)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        562,
+        465
+      ],
+      "area": 0.027708261584969196,
+      "fg_patches18": 10
+    },
+    {
+      "id": "BUSI::benign (224)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        568,
+        469
+      ],
+      "area": 0.12545046397789725,
+      "fg_patches18": 42
+    },
+    {
+      "id": "BUSI::benign (225)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        558,
+        473
+      ],
+      "area": 0.045064296377124585,
+      "fg_patches18": 16
+    },
+    {
+      "id": "BUSI::benign (227)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        567,
+        468
+      ],
+      "area": 0.025527969972414417,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::benign (228)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        563,
+        469
+      ],
+      "area": 0.11584301279696417,
+      "fg_patches18": 36
+    },
+    {
+      "id": "BUSI::benign (229)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        564,
+        470
+      ],
+      "area": 0.05707333635129018,
+      "fg_patches18": 18
+    },
+    {
+      "id": "BUSI::benign (23)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        779,
+        583
+      ],
+      "area": 0.04169263052204414,
+      "fg_patches18": 13
+    },
+    {
+      "id": "BUSI::benign (231)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        561,
+        472
+      ],
+      "area": 0.054265234599232604,
+      "fg_patches18": 19
+    },
+    {
+      "id": "BUSI::benign (232)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        562,
+        469
+      ],
+      "area": 0.11321885741602107,
+      "fg_patches18": 35
+    },
+    {
+      "id": "BUSI::benign (233)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        557,
+        471
+      ],
+      "area": 0.16445776014210187,
+      "fg_patches18": 53
+    },
+    {
+      "id": "BUSI::benign (234)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        562,
+        469
+      ],
+      "area": 0.12824287307741922,
+      "fg_patches18": 43
+    },
+    {
+      "id": "BUSI::benign (236)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        566,
+        469
+      ],
+      "area": 0.3034348700716508,
+      "fg_patches18": 98
+    },
+    {
+      "id": "BUSI::benign (237)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        558,
+        473
+      ],
+      "area": 0.09512984306682731,
+      "fg_patches18": 33
+    },
+    {
+      "id": "BUSI::benign (238)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        556,
+        469
+      ],
+      "area": 0.08913807120614808,
+      "fg_patches18": 27
+    },
+    {
+      "id": "BUSI::benign (239)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        560,
+        473
+      ],
+      "area": 0.023508758683177287,
+      "fg_patches18": 7
+    },
+    {
+      "id": "BUSI::benign (24)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        556,
+        467
+      ],
+      "area": 0.021047401907168056,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::benign (242)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        556,
+        474
+      ],
+      "area": 0.07353610782260268,
+      "fg_patches18": 21
+    },
+    {
+      "id": "BUSI::benign (243)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        561,
+        473
+      ],
+      "area": 0.10467565846250089,
+      "fg_patches18": 32
+    },
+    {
+      "id": "BUSI::benign (245)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        560,
+        465
+      ],
+      "area": 0.021693548387096775,
+      "fg_patches18": 7
+    },
+    {
+      "id": "BUSI::benign (246)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        526,
+        331
+      ],
+      "area": 0.007914718619691452,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (247)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        469,
+        396
+      ],
+      "area": 0.014806917791992419,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (249)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        465,
+        395
+      ],
+      "area": 0.04960936436640806,
+      "fg_patches18": 16
+    },
+    {
+      "id": "BUSI::benign (25)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        770,
+        583
+      ],
+      "area": 0.007253124234256309,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (250)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        469,
+        394
+      ],
+      "area": 0.02464472416741528,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::benign (251)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        467,
+        387
+      ],
+      "area": 0.021086820598797094,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::benign (252)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        473,
+        398
+      ],
+      "area": 0.047579334303653575,
+      "fg_patches18": 15
+    },
+    {
+      "id": "BUSI::benign (253)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        463,
+        383
+      ],
+      "area": 0.03737685319378105,
+      "fg_patches18": 12
+    },
+    {
+      "id": "BUSI::benign (254)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        473,
+        389
+      ],
+      "area": 0.005505524546595869,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (255)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        473,
+        389
+      ],
+      "area": 0.07376750707891977,
+      "fg_patches18": 24
+    },
+    {
+      "id": "BUSI::benign (256)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        469,
+        395
+      ],
+      "area": 0.09542522469029176,
+      "fg_patches18": 31
+    },
+    {
+      "id": "BUSI::benign (257)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        467,
+        392
+      ],
+      "area": 0.023800419525411877,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::benign (259)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        465,
+        390
+      ],
+      "area": 0.05129859387923904,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::benign (26)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        554,
+        471
+      ],
+      "area": 0.12880651812335686,
+      "fg_patches18": 43
+    },
+    {
+      "id": "BUSI::benign (260)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        498,
+        331
+      ],
+      "area": 0.0555029786821,
+      "fg_patches18": 19
+    },
+    {
+      "id": "BUSI::benign (261)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        469,
+        386
+      ],
+      "area": 0.12226984986245677,
+      "fg_patches18": 39
+    },
+    {
+      "id": "BUSI::benign (262)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        471,
+        401
+      ],
+      "area": 0.22579432522727153,
+      "fg_patches18": 71
+    },
+    {
+      "id": "BUSI::benign (263)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        465,
+        390
+      ],
+      "area": 0.03161841742486904,
+      "fg_patches18": 11
+    },
+    {
+      "id": "BUSI::benign (265)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        544,
+        328
+      ],
+      "area": 0.06773448708751793,
+      "fg_patches18": 23
+    },
+    {
+      "id": "BUSI::benign (266)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        462,
+        389
+      ],
+      "area": 0.04393549894835242,
+      "fg_patches18": 13
+    },
+    {
+      "id": "BUSI::benign (267)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        500,
+        327
+      ],
+      "area": 0.03837920489296636,
+      "fg_patches18": 13
+    },
+    {
+      "id": "BUSI::benign (268)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        506,
+        330
+      ],
+      "area": 0.09128638160258713,
+      "fg_patches18": 31
+    },
+    {
+      "id": "BUSI::benign (269)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        465,
+        390
+      ],
+      "area": 0.045420457678522194,
+      "fg_patches18": 15
+    },
+    {
+      "id": "BUSI::benign (27)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        774,
+        576
+      ],
+      "area": 0.015109101349411427,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::benign (270)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        500,
+        328
+      ],
+      "area": 0.02223170731707317,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::benign (271)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        510,
+        324
+      ],
+      "area": 0.0324558218349068,
+      "fg_patches18": 11
+    },
+    {
+      "id": "BUSI::benign (272)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        498,
+        326
+      ],
+      "area": 0.06492842535787322,
+      "fg_patches18": 23
+    },
+    {
+      "id": "BUSI::benign (274)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        556,
+        471
+      ],
+      "area": 0.14199468450717134,
+      "fg_patches18": 44
+    },
+    {
+      "id": "BUSI::benign (275)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        556,
+        463
+      ],
+      "area": 0.029880199512096587,
+      "fg_patches18": 10
+    },
+    {
+      "id": "BUSI::benign (276)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        550,
+        474
+      ],
+      "area": 0.11659378596087457,
+      "fg_patches18": 38
+    },
+    {
+      "id": "BUSI::benign (277)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        556,
+        469
+      ],
+      "area": 0.077809820373978,
+      "fg_patches18": 23
+    },
+    {
+      "id": "BUSI::benign (278)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        561,
+        464
+      ],
+      "area": 0.03166682033314893,
+      "fg_patches18": 11
+    },
+    {
+      "id": "BUSI::benign (279)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        551,
+        467
+      ],
+      "area": 0.04576067651962366,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::benign (28)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        841,
+        696
+      ],
+      "area": 0.03180395533505542,
+      "fg_patches18": 11
+    },
+    {
+      "id": "BUSI::benign (280)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        556,
+        471
+      ],
+      "area": 0.054701461760527884,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::benign (281)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        605,
+        392
+      ],
+      "area": 0.053934052960026985,
+      "fg_patches18": 20
+    },
+    {
+      "id": "BUSI::benign (282)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        560,
+        465
+      ],
+      "area": 0.04998463901689708,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::benign (283)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        621,
+        508
+      ],
+      "area": 0.011684227877312438,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (284)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        622,
+        497
+      ],
+      "area": 0.06219309425685948,
+      "fg_patches18": 19
+    },
+    {
+      "id": "BUSI::benign (285)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        625,
+        494
+      ],
+      "area": 0.05871093117408907,
+      "fg_patches18": 19
+    },
+    {
+      "id": "BUSI::benign (287)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        466,
+        390
+      ],
+      "area": 0.11672169032684054,
+      "fg_patches18": 36
+    },
+    {
+      "id": "BUSI::benign (29)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        561,
+        462
+      ],
+      "area": 0.005459484069109738,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (290)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        465,
+        389
+      ],
+      "area": 0.13233269757027946,
+      "fg_patches18": 40
+    },
+    {
+      "id": "BUSI::benign (291)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        462,
+        404
+      ],
+      "area": 0.01109039475376109,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (292)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        460,
+        391
+      ],
+      "area": 0.04040364728121872,
+      "fg_patches18": 15
+    },
+    {
+      "id": "BUSI::benign (293)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        473,
+        389
+      ],
+      "area": 0.04068544595835802,
+      "fg_patches18": 15
+    },
+    {
+      "id": "BUSI::benign (295)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        472,
+        387
+      ],
+      "area": 0.054925984320938995,
+      "fg_patches18": 18
+    },
+    {
+      "id": "BUSI::benign (296)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        503,
+        328
+      ],
+      "area": 0.13198249527226882,
+      "fg_patches18": 42
+    },
+    {
+      "id": "BUSI::benign (297)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        467,
+        390
+      ],
+      "area": 0.029830340965244607,
+      "fg_patches18": 10
+    },
+    {
+      "id": "BUSI::benign (298)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        466,
+        391
+      ],
+      "area": 0.05018495548993996,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::benign (299)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        463,
+        392
+      ],
+      "area": 0.058017807554987436,
+      "fg_patches18": 18
+    },
+    {
+      "id": "BUSI::benign (3)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        558,
+        471
+      ],
+      "area": 0.02671810910972612,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::benign (30)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        557,
+        462
+      ],
+      "area": 0.014071207069411737,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (300)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        463,
+        387
+      ],
+      "area": 0.09576908265943376,
+      "fg_patches18": 32
+    },
+    {
+      "id": "BUSI::benign (301)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        463,
+        383
+      ],
+      "area": 0.0050358373418899335,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (302)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        466,
+        390
+      ],
+      "area": 0.01532959172444151,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (303)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        463,
+        398
+      ],
+      "area": 0.05088618036185246,
+      "fg_patches18": 16
+    },
+    {
+      "id": "BUSI::benign (305)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        466,
+        389
+      ],
+      "area": 0.02309211469929499,
+      "fg_patches18": 7
+    },
+    {
+      "id": "BUSI::benign (306)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        471,
+        386
+      ],
+      "area": 0.05580673905151645,
+      "fg_patches18": 19
+    },
+    {
+      "id": "BUSI::benign (308)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        552,
+        468
+      ],
+      "area": 0.01626176762046327,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (309)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        769,
+        487
+      ],
+      "area": 0.1687516521897021,
+      "fg_patches18": 54
+    },
+    {
+      "id": "BUSI::benign (310)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        544,
+        468
+      ],
+      "area": 0.07215859100050276,
+      "fg_patches18": 26
+    },
+    {
+      "id": "BUSI::benign (311)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        549,
+        496
+      ],
+      "area": 0.14320024678300722,
+      "fg_patches18": 47
+    },
+    {
+      "id": "BUSI::benign (312)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        552,
+        490
+      ],
+      "area": 0.1468648328896776,
+      "fg_patches18": 49
+    },
+    {
+      "id": "BUSI::benign (313)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        555,
+        468
+      ],
+      "area": 0.020593670593670593,
+      "fg_patches18": 7
+    },
+    {
+      "id": "BUSI::benign (314)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        554,
+        493
+      ],
+      "area": 0.06564465696648385,
+      "fg_patches18": 22
+    },
+    {
+      "id": "BUSI::benign (315)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        551,
+        470
+      ],
+      "area": 0.013322006410008882,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (316)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        550,
+        469
+      ],
+      "area": 0.353417328939717,
+      "fg_patches18": 116
+    },
+    {
+      "id": "BUSI::benign (317)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        551,
+        491
+      ],
+      "area": 0.0823867731693163,
+      "fg_patches18": 29
+    },
+    {
+      "id": "BUSI::benign (319)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        560,
+        467
+      ],
+      "area": 0.03781355154481493,
+      "fg_patches18": 12
+    },
+    {
+      "id": "BUSI::benign (32)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        656,
+        611
+      ],
+      "area": 0.12035447686719093,
+      "fg_patches18": 41
+    },
+    {
+      "id": "BUSI::benign (320)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        558,
+        475
+      ],
+      "area": 0.026017732503301264,
+      "fg_patches18": 7
+    },
+    {
+      "id": "BUSI::benign (321)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        546,
+        467
+      ],
+      "area": 0.0031531637527354873,
+      "fg_patches18": 1
+    },
+    {
+      "id": "BUSI::benign (322)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        555,
+        491
+      ],
+      "area": 0.011625474761930973,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (324)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        626,
+        583
+      ],
+      "area": 0.007420031894080963,
+      "fg_patches18": 1
+    },
+    {
+      "id": "BUSI::benign (325)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        613,
+        583
+      ],
+      "area": 0.010126504355320263,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (326)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        754,
+        619
+      ],
+      "area": 0.1008664612642107,
+      "fg_patches18": 33
+    },
+    {
+      "id": "BUSI::benign (327)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        689,
+        578
+      ],
+      "area": 0.08607580315486564,
+      "fg_patches18": 27
+    },
+    {
+      "id": "BUSI::benign (329)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        665,
+        576
+      ],
+      "area": 0.007116750208855472,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (33)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        556,
+        468
+      ],
+      "area": 0.05952545655783066,
+      "fg_patches18": 20
+    },
+    {
+      "id": "BUSI::benign (330)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        669,
+        567
+      ],
+      "area": 0.13698088436503983,
+      "fg_patches18": 42
+    },
+    {
+      "id": "BUSI::benign (332)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        703,
+        531
+      ],
+      "area": 0.009740338018660945,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (333)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        777,
+        569
+      ],
+      "area": 0.11079972767143241,
+      "fg_patches18": 33
+    },
+    {
+      "id": "BUSI::benign (334)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        589,
+        426
+      ],
+      "area": 0.02408394908215564,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::benign (335)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        681,
+        559
+      ],
+      "area": 0.06793912981803567,
+      "fg_patches18": 21
+    },
+    {
+      "id": "BUSI::benign (337)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        555,
+        487
+      ],
+      "area": 0.02623527017777531,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::benign (339)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        557,
+        465
+      ],
+      "area": 0.09987451979691511,
+      "fg_patches18": 33
+    },
+    {
+      "id": "BUSI::benign (34)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        558,
+        471
+      ],
+      "area": 0.05264479601853754,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::benign (340)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        770,
+        425
+      ],
+      "area": 0.2584140565317036,
+      "fg_patches18": 84
+    },
+    {
+      "id": "BUSI::benign (341)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        683,
+        562
+      ],
+      "area": 0.1457355293529176,
+      "fg_patches18": 50
+    },
+    {
+      "id": "BUSI::benign (342)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        581,
+        431
+      ],
+      "area": 0.24038081394187955,
+      "fg_patches18": 79
+    },
+    {
+      "id": "BUSI::benign (343)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        564,
+        467
+      ],
+      "area": 0.07813567816301425,
+      "fg_patches18": 25
+    },
+    {
+      "id": "BUSI::benign (345)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        566,
+        466
+      ],
+      "area": 0.00944812629854866,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (346)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        610,
+        373
+      ],
+      "area": 0.01874917593284402,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::benign (348)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        1028,
+        565
+      ],
+      "area": 0.013913088392272994,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::benign (349)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        555,
+        471
+      ],
+      "area": 0.017853522312121037,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (35)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        556,
+        476
+      ],
+      "area": 0.011520615440420772,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (350)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        786,
+        580
+      ],
+      "area": 0.13410107923137668,
+      "fg_patches18": 45
+    },
+    {
+      "id": "BUSI::benign (351)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        585,
+        429
+      ],
+      "area": 0.02703962703962704,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::benign (352)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        573,
+        428
+      ],
+      "area": 0.010630229485736654,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (354)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        606,
+        605
+      ],
+      "area": 0.08899708152633445,
+      "fg_patches18": 29
+    },
+    {
+      "id": "BUSI::benign (355)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        675,
+        562
+      ],
+      "area": 0.14210623434822722,
+      "fg_patches18": 47
+    },
+    {
+      "id": "BUSI::benign (356)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        556,
+        468
+      ],
+      "area": 0.14841203959908997,
+      "fg_patches18": 49
+    },
+    {
+      "id": "BUSI::benign (357)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        581,
+        429
+      ],
+      "area": 0.03813856825905019,
+      "fg_patches18": 14
+    },
+    {
+      "id": "BUSI::benign (358)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        555,
+        467
+      ],
+      "area": 0.04460134652854139,
+      "fg_patches18": 14
+    },
+    {
+      "id": "BUSI::benign (36)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        526,
+        474
+      ],
+      "area": 0.10220837143636392,
+      "fg_patches18": 32
+    },
+    {
+      "id": "BUSI::benign (360)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        683,
+        574
+      ],
+      "area": 0.04040638503017534,
+      "fg_patches18": 16
+    },
+    {
+      "id": "BUSI::benign (361)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        558,
+        470
+      ],
+      "area": 0.07888736368489285,
+      "fg_patches18": 26
+    },
+    {
+      "id": "BUSI::benign (362)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        557,
+        464
+      ],
+      "area": 0.012753048969231722,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (365)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        582,
+        431
+      ],
+      "area": 0.031318519227242644,
+      "fg_patches18": 10
+    },
+    {
+      "id": "BUSI::benign (366)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        562,
+        463
+      ],
+      "area": 0.07082465431235252,
+      "fg_patches18": 23
+    },
+    {
+      "id": "BUSI::benign (367)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        560,
+        462
+      ],
+      "area": 0.12897727272727272,
+      "fg_patches18": 42
+    },
+    {
+      "id": "BUSI::benign (369)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        772,
+        581
+      ],
+      "area": 0.011914423051198131,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (37)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        557,
+        468
+      ],
+      "area": 0.01725513664472372,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (371)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        756,
+        589
+      ],
+      "area": 0.18573090432173625,
+      "fg_patches18": 59
+    },
+    {
+      "id": "BUSI::benign (372)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        544,
+        469
+      ],
+      "area": 0.07607707262009282,
+      "fg_patches18": 24
+    },
+    {
+      "id": "BUSI::benign (373)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        555,
+        457
+      ],
+      "area": 0.040349320874484985,
+      "fg_patches18": 14
+    },
+    {
+      "id": "BUSI::benign (374)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        544,
+        468
+      ],
+      "area": 0.005557912267471091,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (375)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        775,
+        571
+      ],
+      "area": 0.07138579741257556,
+      "fg_patches18": 23
+    },
+    {
+      "id": "BUSI::benign (376)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        546,
+        467
+      ],
+      "area": 0.23085551136943,
+      "fg_patches18": 77
+    },
+    {
+      "id": "BUSI::benign (377)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        752,
+        578
+      ],
+      "area": 0.021762037105205037,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::benign (378)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        548,
+        464
+      ],
+      "area": 0.030817392398691166,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::benign (379)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        1010,
+        583
+      ],
+      "area": 0.03025321400064535,
+      "fg_patches18": 10
+    },
+    {
+      "id": "BUSI::benign (38)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        550,
+        484
+      ],
+      "area": 0.022569496619083397,
+      "fg_patches18": 7
+    },
+    {
+      "id": "BUSI::benign (380)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        750,
+        572
+      ],
+      "area": 0.01700699300699301,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::benign (382)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        730,
+        475
+      ],
+      "area": 0.13499351117519828,
+      "fg_patches18": 46
+    },
+    {
+      "id": "BUSI::benign (383)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        552,
+        493
+      ],
+      "area": 0.05924978687127025,
+      "fg_patches18": 18
+    },
+    {
+      "id": "BUSI::benign (384)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        760,
+        425
+      ],
+      "area": 0.09495046439628484,
+      "fg_patches18": 32
+    },
+    {
+      "id": "BUSI::benign (385)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        551,
+        458
+      ],
+      "area": 0.03851274776309845,
+      "fg_patches18": 13
+    },
+    {
+      "id": "BUSI::benign (387)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        549,
+        486
+      ],
+      "area": 0.07207267984438598,
+      "fg_patches18": 22
+    },
+    {
+      "id": "BUSI::benign (388)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        763,
+        572
+      ],
+      "area": 0.018401323447195007,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::benign (389)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        927,
+        567
+      ],
+      "area": 0.027185607552382095,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::benign (392)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        729,
+        477
+      ],
+      "area": 0.25406849508099605,
+      "fg_patches18": 80
+    },
+    {
+      "id": "BUSI::benign (393)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        685,
+        583
+      ],
+      "area": 0.2577080542374579,
+      "fg_patches18": 84
+    },
+    {
+      "id": "BUSI::benign (394)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        558,
+        468
+      ],
+      "area": 0.03730891768526177,
+      "fg_patches18": 12
+    },
+    {
+      "id": "BUSI::benign (395)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        615,
+        576
+      ],
+      "area": 0.11851287262872628,
+      "fg_patches18": 39
+    },
+    {
+      "id": "BUSI::benign (396)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        420,
+        474
+      ],
+      "area": 0.013753265019087803,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (397)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        554,
+        470
+      ],
+      "area": 0.1181964820646747,
+      "fg_patches18": 40
+    },
+    {
+      "id": "BUSI::benign (399)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        555,
+        468
+      ],
+      "area": 0.13925848925848927,
+      "fg_patches18": 44
+    },
+    {
+      "id": "BUSI::benign (4)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        555,
+        465
+      ],
+      "area": 0.0076876876876876875,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (40)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        706,
+        526
+      ],
+      "area": 0.023128749771109125,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::benign (400)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        779,
+        580
+      ],
+      "area": 0.37030897259970785,
+      "fg_patches18": 120
+    },
+    {
+      "id": "BUSI::benign (401)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        557,
+        469
+      ],
+      "area": 0.10935831231123173,
+      "fg_patches18": 37
+    },
+    {
+      "id": "BUSI::benign (402)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        561,
+        469
+      ],
+      "area": 0.04580991148155327,
+      "fg_patches18": 15
+    },
+    {
+      "id": "BUSI::benign (403)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        549,
+        467
+      ],
+      "area": 0.13949052784310972,
+      "fg_patches18": 45
+    },
+    {
+      "id": "BUSI::benign (404)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        772,
+        578
+      ],
+      "area": 0.4298209835595317,
+      "fg_patches18": 141
+    },
+    {
+      "id": "BUSI::benign (405)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        566,
+        465
+      ],
+      "area": 0.3063300277366161,
+      "fg_patches18": 98
+    },
+    {
+      "id": "BUSI::benign (406)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        563,
+        463
+      ],
+      "area": 0.14742451154529307,
+      "fg_patches18": 47
+    },
+    {
+      "id": "BUSI::benign (407)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        560,
+        467
+      ],
+      "area": 0.3577431936371979,
+      "fg_patches18": 121
+    },
+    {
+      "id": "BUSI::benign (408)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        554,
+        465
+      ],
+      "area": 0.07514848026085943,
+      "fg_patches18": 22
+    },
+    {
+      "id": "BUSI::benign (409)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        558,
+        466
+      ],
+      "area": 0.36616441306320857,
+      "fg_patches18": 117
+    },
+    {
+      "id": "BUSI::benign (41)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        550,
+        484
+      ],
+      "area": 0.08904207362885048,
+      "fg_patches18": 28
+    },
+    {
+      "id": "BUSI::benign (410)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        558,
+        468
+      ],
+      "area": 0.12137747756027326,
+      "fg_patches18": 39
+    },
+    {
+      "id": "BUSI::benign (411)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        602,
+        587
+      ],
+      "area": 0.11433495390153209,
+      "fg_patches18": 38
+    },
+    {
+      "id": "BUSI::benign (412)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        779,
+        576
+      ],
+      "area": 0.4008968050206818,
+      "fg_patches18": 129
+    },
+    {
+      "id": "BUSI::benign (413)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        433,
+        478
+      ],
+      "area": 0.010759805579444762,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (414)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        812,
+        703
+      ],
+      "area": 0.3074192938076786,
+      "fg_patches18": 102
+    },
+    {
+      "id": "BUSI::benign (416)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        878,
+        574
+      ],
+      "area": 0.029922297270483282,
+      "fg_patches18": 10
+    },
+    {
+      "id": "BUSI::benign (418)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        607,
+        414
+      ],
+      "area": 0.02947098663737873,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::benign (419)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        772,
+        574
+      ],
+      "area": 0.023975013991442654,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::benign (42)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        581,
+        437
+      ],
+      "area": 0.06516422013651205,
+      "fg_patches18": 20
+    },
+    {
+      "id": "BUSI::benign (420)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        768,
+        574
+      ],
+      "area": 0.12605936048199767,
+      "fg_patches18": 40
+    },
+    {
+      "id": "BUSI::benign (421)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        551,
+        487
+      ],
+      "area": 0.14905883273644707,
+      "fg_patches18": 48
+    },
+    {
+      "id": "BUSI::benign (423)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        561,
+        470
+      ],
+      "area": 0.06594227633026131,
+      "fg_patches18": 22
+    },
+    {
+      "id": "BUSI::benign (424)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        544,
+        469
+      ],
+      "area": 0.017343691207826414,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::benign (425)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        544,
+        469
+      ],
+      "area": 0.02008340649692713,
+      "fg_patches18": 7
+    },
+    {
+      "id": "BUSI::benign (426)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        549,
+        465
+      ],
+      "area": 0.3098693616937932,
+      "fg_patches18": 104
+    },
+    {
+      "id": "BUSI::benign (427)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        780,
+        380
+      ],
+      "area": 0.02848515519568151,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::benign (428)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        769,
+        382
+      ],
+      "area": 0.05992007026191627,
+      "fg_patches18": 19
+    },
+    {
+      "id": "BUSI::benign (429)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        582,
+        437
+      ],
+      "area": 0.012680176460874283,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (430)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        768,
+        581
+      ],
+      "area": 0.04019650028686173,
+      "fg_patches18": 13
+    },
+    {
+      "id": "BUSI::benign (432)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        469,
+        394
+      ],
+      "area": 0.07797127488013161,
+      "fg_patches18": 25
+    },
+    {
+      "id": "BUSI::benign (433)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        550,
+        462
+      ],
+      "area": 0.012538370720188902,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (434)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        501,
+        609
+      ],
+      "area": 0.1640299040670711,
+      "fg_patches18": 53
+    },
+    {
+      "id": "BUSI::benign (435)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        552,
+        469
+      ],
+      "area": 0.014871295695435865,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (436)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        502,
+        474
+      ],
+      "area": 0.09608401835695193,
+      "fg_patches18": 31
+    },
+    {
+      "id": "BUSI::benign (437)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        768,
+        585
+      ],
+      "area": 0.003910701566951567,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (44)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        777,
+        580
+      ],
+      "area": 0.013458039320108285,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (45)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        775,
+        580
+      ],
+      "area": 0.06912569521690767,
+      "fg_patches18": 23
+    },
+    {
+      "id": "BUSI::benign (47)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        763,
+        585
+      ],
+      "area": 0.005117003282140897,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (48)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        775,
+        583
+      ],
+      "area": 0.07325181209539092,
+      "fg_patches18": 22
+    },
+    {
+      "id": "BUSI::benign (49)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        777,
+        576
+      ],
+      "area": 0.3195494601744602,
+      "fg_patches18": 107
+    },
+    {
+      "id": "BUSI::benign (5)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        549,
+        496
+      ],
+      "area": 0.012519096304130678,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (50)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        884,
+        581
+      ],
+      "area": 0.028442146089204912,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::benign (51)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        357,
+        338
+      ],
+      "area": 0.009058061094260189,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (52)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        370,
+        338
+      ],
+      "area": 0.010267071805533344,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (53)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        552,
+        492
+      ],
+      "area": 0.018156445151408036,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::benign (54)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        616,
+        468
+      ],
+      "area": 0.06639541014541014,
+      "fg_patches18": 23
+    },
+    {
+      "id": "BUSI::benign (55)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        763,
+        614
+      ],
+      "area": 0.019095717658309176,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::benign (57)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        555,
+        470
+      ],
+      "area": 0.013555683342917386,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (58)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        781,
+        572
+      ],
+      "area": 0.033019797104304145,
+      "fg_patches18": 11
+    },
+    {
+      "id": "BUSI::benign (6)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        558,
+        467
+      ],
+      "area": 0.028443584843391434,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::benign (60)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        759,
+        598
+      ],
+      "area": 0.00534720478009703,
+      "fg_patches18": 1
+    },
+    {
+      "id": "BUSI::benign (64)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        610,
+        471
+      ],
+      "area": 0.4488287912011416,
+      "fg_patches18": 147
+    },
+    {
+      "id": "BUSI::benign (66)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        562,
+        473
+      ],
+      "area": 0.0312911453356707,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::benign (68)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        682,
+        587
+      ],
+      "area": 0.19771990388025998,
+      "fg_patches18": 66
+    },
+    {
+      "id": "BUSI::benign (69)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        811,
+        719
+      ],
+      "area": 0.008873126636700857,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (70)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        713,
+        475
+      ],
+      "area": 0.010319627961910386,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (71)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        554,
+        469
+      ],
+      "area": 0.008909808872091323,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (72)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        557,
+        465
+      ],
+      "area": 0.07986332310187062,
+      "fg_patches18": 24
+    },
+    {
+      "id": "BUSI::benign (73)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        557,
+        471
+      ],
+      "area": 0.23478065310447613,
+      "fg_patches18": 75
+    },
+    {
+      "id": "BUSI::benign (74)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        561,
+        467
+      ],
+      "area": 0.008046200765686847,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (75)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        685,
+        578
+      ],
+      "area": 0.035670446796150834,
+      "fg_patches18": 11
+    },
+    {
+      "id": "BUSI::benign (76)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        848,
+        685
+      ],
+      "area": 0.01766802093375568,
+      "fg_patches18": 7
+    },
+    {
+      "id": "BUSI::benign (77)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        551,
+        488
+      ],
+      "area": 0.029688941120466515,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::benign (78)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        777,
+        576
+      ],
+      "area": 0.013021950521950522,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (82)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        656,
+        458
+      ],
+      "area": 0.048311188624986685,
+      "fg_patches18": 14
+    },
+    {
+      "id": "BUSI::benign (83)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        581,
+        432
+      ],
+      "area": 0.009494326512398801,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (84)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        839,
+        510
+      ],
+      "area": 0.10521629390731263,
+      "fg_patches18": 33
+    },
+    {
+      "id": "BUSI::benign (86)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        777,
+        578
+      ],
+      "area": 0.006844709266854596,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (87)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        768,
+        571
+      ],
+      "area": 0.020238160391126678,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (88)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        873,
+        560
+      ],
+      "area": 0.07928325969563083,
+      "fg_patches18": 26
+    },
+    {
+      "id": "BUSI::benign (89)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        893,
+        576
+      ],
+      "area": 0.015632776533532414,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (9)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        752,
+        585
+      ],
+      "area": 0.11089516275686488,
+      "fg_patches18": 37
+    },
+    {
+      "id": "BUSI::benign (91)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        806,
+        704
+      ],
+      "area": 0.006044862395668847,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (92)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        763,
+        612
+      ],
+      "area": 0.05010108018742665,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::benign (93)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        561,
+        466
+      ],
+      "area": 0.026550534376840865,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::benign (94)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        767,
+        583
+      ],
+      "area": 0.02321087930298036,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::benign (95)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        558,
+        470
+      ],
+      "area": 0.013292152825440403,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (98)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        795,
+        558
+      ],
+      "area": 0.05011609296454093,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::benign (99)",
+      "split": "train",
+      "cls": "benign",
+      "shape": [
+        554,
+        471
+      ],
+      "area": 0.042600810933032876,
+      "fg_patches18": 14
+    },
+    {
+      "id": "BUSI::malignant (1)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        449,
+        598
+      ],
+      "area": 0.338898779152483,
+      "fg_patches18": 106
+    },
+    {
+      "id": "BUSI::malignant (10)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        462,
+        393
+      ],
+      "area": 0.030121278212881266,
+      "fg_patches18": 11
+    },
+    {
+      "id": "BUSI::malignant (100)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        557,
+        476
+      ],
+      "area": 0.06000407344266252,
+      "fg_patches18": 20
+    },
+    {
+      "id": "BUSI::malignant (101)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        883,
+        559
+      ],
+      "area": 0.13883998484593707,
+      "fg_patches18": 44
+    },
+    {
+      "id": "BUSI::malignant (103)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        555,
+        488
+      ],
+      "area": 0.19725299069561364,
+      "fg_patches18": 65
+    },
+    {
+      "id": "BUSI::malignant (104)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        554,
+        494
+      ],
+      "area": 0.1734642423888101,
+      "fg_patches18": 52
+    },
+    {
+      "id": "BUSI::malignant (105)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        577,
+        450
+      ],
+      "area": 0.027902946273830154,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::malignant (106)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        667,
+        458
+      ],
+      "area": 0.07153519310213889,
+      "fg_patches18": 23
+    },
+    {
+      "id": "BUSI::malignant (107)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        576,
+        454
+      ],
+      "area": 0.12140158467939305,
+      "fg_patches18": 40
+    },
+    {
+      "id": "BUSI::malignant (109)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        552,
+        471
+      ],
+      "area": 0.07718699036893444,
+      "fg_patches18": 23
+    },
+    {
+      "id": "BUSI::malignant (11)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        471,
+        393
+      ],
+      "area": 0.06234366811991162,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::malignant (111)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        421,
+        470
+      ],
+      "area": 0.21160357810683783,
+      "fg_patches18": 71
+    },
+    {
+      "id": "BUSI::malignant (112)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        549,
+        471
+      ],
+      "area": 0.019970685941240393,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::malignant (113)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        745,
+        482
+      ],
+      "area": 0.053415578267286754,
+      "fg_patches18": 19
+    },
+    {
+      "id": "BUSI::malignant (114)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        340,
+        439
+      ],
+      "area": 0.18751172450757067,
+      "fg_patches18": 61
+    },
+    {
+      "id": "BUSI::malignant (115)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        581,
+        438
+      ],
+      "area": 0.08141764710505427,
+      "fg_patches18": 29
+    },
+    {
+      "id": "BUSI::malignant (116)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        582,
+        434
+      ],
+      "area": 0.05377135889274233,
+      "fg_patches18": 19
+    },
+    {
+      "id": "BUSI::malignant (117)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        611,
+        434
+      ],
+      "area": 0.08470287433911318,
+      "fg_patches18": 27
+    },
+    {
+      "id": "BUSI::malignant (118)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        562,
+        473
+      ],
+      "area": 0.11611730981920504,
+      "fg_patches18": 40
+    },
+    {
+      "id": "BUSI::malignant (119)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        564,
+        469
+      ],
+      "area": 0.10936956554612953,
+      "fg_patches18": 35
+    },
+    {
+      "id": "BUSI::malignant (12)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        479,
+        392
+      ],
+      "area": 0.028220996122875038,
+      "fg_patches18": 11
+    },
+    {
+      "id": "BUSI::malignant (120)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        564,
+        470
+      ],
+      "area": 0.1703334842311755,
+      "fg_patches18": 56
+    },
+    {
+      "id": "BUSI::malignant (121)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        562,
+        476
+      ],
+      "area": 0.013128383025808188,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::malignant (125)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        557,
+        465
+      ],
+      "area": 0.05031949190170074,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::malignant (126)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        557,
+        478
+      ],
+      "area": 0.06980010967300918,
+      "fg_patches18": 22
+    },
+    {
+      "id": "BUSI::malignant (127)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        591,
+        464
+      ],
+      "area": 0.29408075150242136,
+      "fg_patches18": 97
+    },
+    {
+      "id": "BUSI::malignant (128)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        625,
+        468
+      ],
+      "area": 0.36152136752136754,
+      "fg_patches18": 117
+    },
+    {
+      "id": "BUSI::malignant (129)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        569,
+        458
+      ],
+      "area": 0.3971957237473235,
+      "fg_patches18": 130
+    },
+    {
+      "id": "BUSI::malignant (13)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        468,
+        393
+      ],
+      "area": 0.08398033970553055,
+      "fg_patches18": 27
+    },
+    {
+      "id": "BUSI::malignant (130)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        555,
+        463
+      ],
+      "area": 0.12546066584943474,
+      "fg_patches18": 41
+    },
+    {
+      "id": "BUSI::malignant (131)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        604,
+        461
+      ],
+      "area": 0.04912298343652584,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::malignant (132)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        451,
+        581
+      ],
+      "area": 0.3236067488197961,
+      "fg_patches18": 105
+    },
+    {
+      "id": "BUSI::malignant (133)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        479,
+        485
+      ],
+      "area": 0.376859006090868,
+      "fg_patches18": 121
+    },
+    {
+      "id": "BUSI::malignant (134)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        556,
+        467
+      ],
+      "area": 0.06224485080030194,
+      "fg_patches18": 19
+    },
+    {
+      "id": "BUSI::malignant (135)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        933,
+        571
+      ],
+      "area": 0.07182262366657094,
+      "fg_patches18": 23
+    },
+    {
+      "id": "BUSI::malignant (136)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        190,
+        335
+      ],
+      "area": 0.07809897879025923,
+      "fg_patches18": 26
+    },
+    {
+      "id": "BUSI::malignant (137)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        233,
+        339
+      ],
+      "area": 0.4367554154481117,
+      "fg_patches18": 143
+    },
+    {
+      "id": "BUSI::malignant (139)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        549,
+        474
+      ],
+      "area": 0.12162120618231845,
+      "fg_patches18": 42
+    },
+    {
+      "id": "BUSI::malignant (140)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        546,
+        463
+      ],
+      "area": 0.11625883116163893,
+      "fg_patches18": 39
+    },
+    {
+      "id": "BUSI::malignant (142)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        556,
+        465
+      ],
+      "area": 0.31213351899125863,
+      "fg_patches18": 100
+    },
+    {
+      "id": "BUSI::malignant (143)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        562,
+        467
+      ],
+      "area": 0.04694536947426978,
+      "fg_patches18": 15
+    },
+    {
+      "id": "BUSI::malignant (144)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        544,
+        470
+      ],
+      "area": 0.2587061952440551,
+      "fg_patches18": 85
+    },
+    {
+      "id": "BUSI::malignant (145)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        550,
+        462
+      ],
+      "area": 0.016182605273514363,
+      "fg_patches18": 7
+    },
+    {
+      "id": "BUSI::malignant (146)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        575,
+        432
+      ],
+      "area": 0.19436795491143316,
+      "fg_patches18": 65
+    },
+    {
+      "id": "BUSI::malignant (147)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        552,
+        471
+      ],
+      "area": 0.045766792824394595,
+      "fg_patches18": 14
+    },
+    {
+      "id": "BUSI::malignant (148)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        556,
+        463
+      ],
+      "area": 0.011094364249421198,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::malignant (149)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        763,
+        572
+      ],
+      "area": 0.07860488135717493,
+      "fg_patches18": 23
+    },
+    {
+      "id": "BUSI::malignant (150)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        557,
+        463
+      ],
+      "area": 0.39626819082480585,
+      "fg_patches18": 128
+    },
+    {
+      "id": "BUSI::malignant (151)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        513,
+        467
+      ],
+      "area": 0.18295202674781172,
+      "fg_patches18": 60
+    },
+    {
+      "id": "BUSI::malignant (152)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        776,
+        574
+      ],
+      "area": 0.21592909228061352,
+      "fg_patches18": 70
+    },
+    {
+      "id": "BUSI::malignant (153)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        650,
+        603
+      ],
+      "area": 0.3529965556831228,
+      "fg_patches18": 114
+    },
+    {
+      "id": "BUSI::malignant (154)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        556,
+        464
+      ],
+      "area": 0.22502945919126768,
+      "fg_patches18": 72
+    },
+    {
+      "id": "BUSI::malignant (155)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        551,
+        487
+      ],
+      "area": 0.14204899063491058,
+      "fg_patches18": 46
+    },
+    {
+      "id": "BUSI::malignant (156)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        562,
+        457
+      ],
+      "area": 0.4241922798383392,
+      "fg_patches18": 139
+    },
+    {
+      "id": "BUSI::malignant (157)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        564,
+        471
+      ],
+      "area": 0.019819758774901747,
+      "fg_patches18": 7
+    },
+    {
+      "id": "BUSI::malignant (159)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        556,
+        482
+      ],
+      "area": 0.2128608316666169,
+      "fg_patches18": 69
+    },
+    {
+      "id": "BUSI::malignant (16)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        511,
+        472
+      ],
+      "area": 0.20292132409035127,
+      "fg_patches18": 65
+    },
+    {
+      "id": "BUSI::malignant (160)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        626,
+        587
+      ],
+      "area": 0.20831541764862763,
+      "fg_patches18": 68
+    },
+    {
+      "id": "BUSI::malignant (162)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        620,
+        587
+      ],
+      "area": 0.37796340056053196,
+      "fg_patches18": 120
+    },
+    {
+      "id": "BUSI::malignant (163)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        643,
+        570
+      ],
+      "area": 0.4567706201740744,
+      "fg_patches18": 147
+    },
+    {
+      "id": "BUSI::malignant (164)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        551,
+        473
+      ],
+      "area": 0.5629242238789363,
+      "fg_patches18": 180
+    },
+    {
+      "id": "BUSI::malignant (165)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        505,
+        332
+      ],
+      "area": 0.4220982941667661,
+      "fg_patches18": 138
+    },
+    {
+      "id": "BUSI::malignant (167)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        563,
+        459
+      ],
+      "area": 0.22284524624927926,
+      "fg_patches18": 72
+    },
+    {
+      "id": "BUSI::malignant (168)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        557,
+        469
+      ],
+      "area": 0.19181726657811227,
+      "fg_patches18": 62
+    },
+    {
+      "id": "BUSI::malignant (169)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        557,
+        463
+      ],
+      "area": 0.005060277404019527,
+      "fg_patches18": 1
+    },
+    {
+      "id": "BUSI::malignant (17)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        765,
+        590
+      ],
+      "area": 0.0790007754514235,
+      "fg_patches18": 28
+    },
+    {
+      "id": "BUSI::malignant (170)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        556,
+        463
+      ],
+      "area": 0.318994048821418,
+      "fg_patches18": 107
+    },
+    {
+      "id": "BUSI::malignant (172)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        602,
+        469
+      ],
+      "area": 0.06610516473163372,
+      "fg_patches18": 21
+    },
+    {
+      "id": "BUSI::malignant (174)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        633,
+        581
+      ],
+      "area": 0.08042732881424139,
+      "fg_patches18": 24
+    },
+    {
+      "id": "BUSI::malignant (175)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        564,
+        470
+      ],
+      "area": 0.21471631205673758,
+      "fg_patches18": 71
+    },
+    {
+      "id": "BUSI::malignant (176)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        640,
+        594
+      ],
+      "area": 0.10685237794612795,
+      "fg_patches18": 35
+    },
+    {
+      "id": "BUSI::malignant (177)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        613,
+        581
+      ],
+      "area": 0.04870940298130298,
+      "fg_patches18": 13
+    },
+    {
+      "id": "BUSI::malignant (178)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        562,
+        467
+      ],
+      "area": 0.08784015484618257,
+      "fg_patches18": 28
+    },
+    {
+      "id": "BUSI::malignant (18)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        579,
+        437
+      ],
+      "area": 0.07589823850005731,
+      "fg_patches18": 25
+    },
+    {
+      "id": "BUSI::malignant (180)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        562,
+        461
+      ],
+      "area": 0.10703175056545804,
+      "fg_patches18": 35
+    },
+    {
+      "id": "BUSI::malignant (181)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        497,
+        488
+      ],
+      "area": 0.045613847016525384,
+      "fg_patches18": 14
+    },
+    {
+      "id": "BUSI::malignant (182)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        689,
+        583
+      ],
+      "area": 0.2107436884937775,
+      "fg_patches18": 69
+    },
+    {
+      "id": "BUSI::malignant (183)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        557,
+        457
+      ],
+      "area": 0.2149605773348157,
+      "fg_patches18": 73
+    },
+    {
+      "id": "BUSI::malignant (184)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        552,
+        492
+      ],
+      "area": 0.13596898197242843,
+      "fg_patches18": 42
+    },
+    {
+      "id": "BUSI::malignant (185)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        694,
+        582
+      ],
+      "area": 0.16779811244144707,
+      "fg_patches18": 53
+    },
+    {
+      "id": "BUSI::malignant (186)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        566,
+        506
+      ],
+      "area": 0.31054903001438566,
+      "fg_patches18": 100
+    },
+    {
+      "id": "BUSI::malignant (187)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        765,
+        585
+      ],
+      "area": 0.12178760963074689,
+      "fg_patches18": 39
+    },
+    {
+      "id": "BUSI::malignant (188)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        724,
+        473
+      ],
+      "area": 0.1327047294219336,
+      "fg_patches18": 43
+    },
+    {
+      "id": "BUSI::malignant (189)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        433,
+        400
+      ],
+      "area": 0.016351039260969976,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::malignant (19)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        554,
+        459
+      ],
+      "area": 0.1822947389946753,
+      "fg_patches18": 59
+    },
+    {
+      "id": "BUSI::malignant (190)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        576,
+        427
+      ],
+      "area": 0.09157477881863128,
+      "fg_patches18": 31
+    },
+    {
+      "id": "BUSI::malignant (191)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        673,
+        471
+      ],
+      "area": 0.03916613824716152,
+      "fg_patches18": 13
+    },
+    {
+      "id": "BUSI::malignant (192)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        556,
+        488
+      ],
+      "area": 0.021398455006486614,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::malignant (193)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        781,
+        574
+      ],
+      "area": 0.03638237406701852,
+      "fg_patches18": 12
+    },
+    {
+      "id": "BUSI::malignant (194)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        923,
+        555
+      ],
+      "area": 0.12981367065874108,
+      "fg_patches18": 42
+    },
+    {
+      "id": "BUSI::malignant (195)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        555,
+        475
+      ],
+      "area": 0.1770697012802276,
+      "fg_patches18": 56
+    },
+    {
+      "id": "BUSI::malignant (198)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        616,
+        677
+      ],
+      "area": 0.08018329528669263,
+      "fg_patches18": 24
+    },
+    {
+      "id": "BUSI::malignant (199)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        504,
+        473
+      ],
+      "area": 0.06649132521225544,
+      "fg_patches18": 21
+    },
+    {
+      "id": "BUSI::malignant (2)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        548,
+        495
+      ],
+      "area": 0.34112290791122907,
+      "fg_patches18": 109
+    },
+    {
+      "id": "BUSI::malignant (20)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        558,
+        475
+      ],
+      "area": 0.1937709866063007,
+      "fg_patches18": 64
+    },
+    {
+      "id": "BUSI::malignant (200)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        438,
+        463
+      ],
+      "area": 0.06245746915589219,
+      "fg_patches18": 20
+    },
+    {
+      "id": "BUSI::malignant (201)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        678,
+        576
+      ],
+      "area": 0.20089468616846937,
+      "fg_patches18": 65
+    },
+    {
+      "id": "BUSI::malignant (202)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        550,
+        491
+      ],
+      "area": 0.1357674504721348,
+      "fg_patches18": 42
+    },
+    {
+      "id": "BUSI::malignant (206)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        792,
+        571
+      ],
+      "area": 0.32108740646393885,
+      "fg_patches18": 105
+    },
+    {
+      "id": "BUSI::malignant (208)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        617,
+        664
+      ],
+      "area": 0.35482855245943257,
+      "fg_patches18": 115
+    },
+    {
+      "id": "BUSI::malignant (209)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        508,
+        471
+      ],
+      "area": 0.021001554741962986,
+      "fg_patches18": 7
+    },
+    {
+      "id": "BUSI::malignant (210)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        775,
+        587
+      ],
+      "area": 0.22117491894268285,
+      "fg_patches18": 74
+    },
+    {
+      "id": "BUSI::malignant (23)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        569,
+        468
+      ],
+      "area": 0.32744130503357216,
+      "fg_patches18": 105
+    },
+    {
+      "id": "BUSI::malignant (25)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        563,
+        470
+      ],
+      "area": 0.31039265333887606,
+      "fg_patches18": 101
+    },
+    {
+      "id": "BUSI::malignant (26)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        564,
+        469
+      ],
+      "area": 0.0487683164723495,
+      "fg_patches18": 16
+    },
+    {
+      "id": "BUSI::malignant (27)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        567,
+        475
+      ],
+      "area": 0.027947646895015315,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::malignant (28)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        562,
+        470
+      ],
+      "area": 0.03332323767698948,
+      "fg_patches18": 10
+    },
+    {
+      "id": "BUSI::malignant (29)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        567,
+        470
+      ],
+      "area": 0.17383391496866674,
+      "fg_patches18": 54
+    },
+    {
+      "id": "BUSI::malignant (30)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        573,
+        468
+      ],
+      "area": 0.26257439477334765,
+      "fg_patches18": 86
+    },
+    {
+      "id": "BUSI::malignant (31)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        723,
+        509
+      ],
+      "area": 0.38366933237682976,
+      "fg_patches18": 126
+    },
+    {
+      "id": "BUSI::malignant (32)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        557,
+        492
+      ],
+      "area": 0.1574236254032199,
+      "fg_patches18": 53
+    },
+    {
+      "id": "BUSI::malignant (33)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        557,
+        496
+      ],
+      "area": 0.21977254300110036,
+      "fg_patches18": 70
+    },
+    {
+      "id": "BUSI::malignant (34)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        620,
+        589
+      ],
+      "area": 0.03792376362341859,
+      "fg_patches18": 11
+    },
+    {
+      "id": "BUSI::malignant (35)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        592,
+        387
+      ],
+      "area": 0.17551854179761156,
+      "fg_patches18": 56
+    },
+    {
+      "id": "BUSI::malignant (36)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        623,
+        494
+      ],
+      "area": 0.09900507535043312,
+      "fg_patches18": 31
+    },
+    {
+      "id": "BUSI::malignant (37)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        626,
+        490
+      ],
+      "area": 0.2145986829236487,
+      "fg_patches18": 70
+    },
+    {
+      "id": "BUSI::malignant (38)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        1048,
+        578
+      ],
+      "area": 0.03455915370189387,
+      "fg_patches18": 11
+    },
+    {
+      "id": "BUSI::malignant (39)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        564,
+        469
+      ],
+      "area": 0.12606798832584795,
+      "fg_patches18": 39
+    },
+    {
+      "id": "BUSI::malignant (4)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        432,
+        473
+      ],
+      "area": 0.06846566439589695,
+      "fg_patches18": 21
+    },
+    {
+      "id": "BUSI::malignant (40)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        548,
+        461
+      ],
+      "area": 0.11064490080276138,
+      "fg_patches18": 35
+    },
+    {
+      "id": "BUSI::malignant (42)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        578,
+        439
+      ],
+      "area": 0.11973185361508934,
+      "fg_patches18": 37
+    },
+    {
+      "id": "BUSI::malignant (43)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        543,
+        571
+      ],
+      "area": 0.27490138782724244,
+      "fg_patches18": 91
+    },
+    {
+      "id": "BUSI::malignant (44)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        765,
+        580
+      ],
+      "area": 0.030552174892945684,
+      "fg_patches18": 10
+    },
+    {
+      "id": "BUSI::malignant (45)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        781,
+        592
+      ],
+      "area": 0.1738523895214036,
+      "fg_patches18": 55
+    },
+    {
+      "id": "BUSI::malignant (46)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        785,
+        571
+      ],
+      "area": 0.055156335404419554,
+      "fg_patches18": 19
+    },
+    {
+      "id": "BUSI::malignant (47)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        562,
+        471
+      ],
+      "area": 0.20078805600259914,
+      "fg_patches18": 67
+    },
+    {
+      "id": "BUSI::malignant (49)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        622,
+        491
+      ],
+      "area": 0.06009128951349369,
+      "fg_patches18": 19
+    },
+    {
+      "id": "BUSI::malignant (50)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        567,
+        469
+      ],
+      "area": 0.08023375187554292,
+      "fg_patches18": 25
+    },
+    {
+      "id": "BUSI::malignant (51)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        588,
+        437
+      ],
+      "area": 0.0867813944799888,
+      "fg_patches18": 31
+    },
+    {
+      "id": "BUSI::malignant (52)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        552,
+        462
+      ],
+      "area": 0.20781573498964803,
+      "fg_patches18": 70
+    },
+    {
+      "id": "BUSI::malignant (53)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        569,
+        471
+      ],
+      "area": 0.0021231422505307855,
+      "fg_patches18": 1
+    },
+    {
+      "id": "BUSI::malignant (54)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        777,
+        580
+      ],
+      "area": 0.060870722939688454,
+      "fg_patches18": 18
+    },
+    {
+      "id": "BUSI::malignant (55)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        786,
+        556
+      ],
+      "area": 0.04750169330184707,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::malignant (57)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        717,
+        533
+      ],
+      "area": 0.12401841108852028,
+      "fg_patches18": 37
+    },
+    {
+      "id": "BUSI::malignant (58)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        688,
+        558
+      ],
+      "area": 0.20096169875802283,
+      "fg_patches18": 65
+    },
+    {
+      "id": "BUSI::malignant (60)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        681,
+        559
+      ],
+      "area": 0.1632976865022762,
+      "fg_patches18": 55
+    },
+    {
+      "id": "BUSI::malignant (61)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        566,
+        462
+      ],
+      "area": 0.031844186437826015,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::malignant (63)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        795,
+        572
+      ],
+      "area": 0.16126577824691032,
+      "fg_patches18": 55
+    },
+    {
+      "id": "BUSI::malignant (65)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        922,
+        584
+      ],
+      "area": 0.037405654770748524,
+      "fg_patches18": 12
+    },
+    {
+      "id": "BUSI::malignant (66)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        655,
+        584
+      ],
+      "area": 0.05568074871902123,
+      "fg_patches18": 16
+    },
+    {
+      "id": "BUSI::malignant (67)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        946,
+        604
+      ],
+      "area": 0.04268232922167929,
+      "fg_patches18": 13
+    },
+    {
+      "id": "BUSI::malignant (68)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        574,
+        464
+      ],
+      "area": 0.2758996155232488,
+      "fg_patches18": 88
+    },
+    {
+      "id": "BUSI::malignant (69)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        646,
+        461
+      ],
+      "area": 0.06387715492636145,
+      "fg_patches18": 18
+    },
+    {
+      "id": "BUSI::malignant (7)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        432,
+        474
+      ],
+      "area": 0.049792936396311924,
+      "fg_patches18": 16
+    },
+    {
+      "id": "BUSI::malignant (72)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        528,
+        598
+      ],
+      "area": 0.38672468835512314,
+      "fg_patches18": 126
+    },
+    {
+      "id": "BUSI::malignant (74)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        558,
+        464
+      ],
+      "area": 0.043524440736620935,
+      "fg_patches18": 14
+    },
+    {
+      "id": "BUSI::malignant (75)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        441,
+        412
+      ],
+      "area": 0.21619003588490412,
+      "fg_patches18": 72
+    },
+    {
+      "id": "BUSI::malignant (76)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        769,
+        494
+      ],
+      "area": 0.16474152772147432,
+      "fg_patches18": 53
+    },
+    {
+      "id": "BUSI::malignant (77)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        801,
+        587
+      ],
+      "area": 0.1116662094017912,
+      "fg_patches18": 35
+    },
+    {
+      "id": "BUSI::malignant (78)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        880,
+        567
+      ],
+      "area": 0.11700136283469617,
+      "fg_patches18": 38
+    },
+    {
+      "id": "BUSI::malignant (79)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        564,
+        468
+      ],
+      "area": 0.16087015821058373,
+      "fg_patches18": 51
+    },
+    {
+      "id": "BUSI::malignant (8)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        426,
+        473
+      ],
+      "area": 0.055042729952654613,
+      "fg_patches18": 16
+    },
+    {
+      "id": "BUSI::malignant (80)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        643,
+        443
+      ],
+      "area": 0.09839950289451604,
+      "fg_patches18": 32
+    },
+    {
+      "id": "BUSI::malignant (81)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        764,
+        452
+      ],
+      "area": 0.08887782050688041,
+      "fg_patches18": 30
+    },
+    {
+      "id": "BUSI::malignant (82)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        569,
+        459
+      ],
+      "area": 0.11849324771892744,
+      "fg_patches18": 38
+    },
+    {
+      "id": "BUSI::malignant (83)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        654,
+        616
+      ],
+      "area": 0.05210443226498272,
+      "fg_patches18": 19
+    },
+    {
+      "id": "BUSI::malignant (84)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        649,
+        612
+      ],
+      "area": 0.09929303000090638,
+      "fg_patches18": 31
+    },
+    {
+      "id": "BUSI::malignant (86)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        735,
+        483
+      ],
+      "area": 0.2329826340474078,
+      "fg_patches18": 76
+    },
+    {
+      "id": "BUSI::malignant (87)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        561,
+        499
+      ],
+      "area": 0.10910948456628052,
+      "fg_patches18": 36
+    },
+    {
+      "id": "BUSI::malignant (88)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        775,
+        591
+      ],
+      "area": 0.07503520550188308,
+      "fg_patches18": 25
+    },
+    {
+      "id": "BUSI::malignant (9)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        430,
+        480
+      ],
+      "area": 0.05263081395348837,
+      "fg_patches18": 15
+    },
+    {
+      "id": "BUSI::malignant (90)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        783,
+        587
+      ],
+      "area": 0.10447956033340514,
+      "fg_patches18": 35
+    },
+    {
+      "id": "BUSI::malignant (92)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        617,
+        581
+      ],
+      "area": 0.06156043483961314,
+      "fg_patches18": 19
+    },
+    {
+      "id": "BUSI::malignant (95)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        781,
+        486
+      ],
+      "area": 0.14859866268316974,
+      "fg_patches18": 49
+    },
+    {
+      "id": "BUSI::malignant (96)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        560,
+        483
+      ],
+      "area": 0.21271073646850044,
+      "fg_patches18": 68
+    },
+    {
+      "id": "BUSI::malignant (97)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        583,
+        486
+      ],
+      "area": 0.18171583056279073,
+      "fg_patches18": 61
+    },
+    {
+      "id": "BUSI::malignant (98)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        770,
+        486
+      ],
+      "area": 0.035382929827374274,
+      "fg_patches18": 13
+    },
+    {
+      "id": "BUSI::malignant (99)",
+      "split": "train",
+      "cls": "malignant",
+      "shape": [
+        550,
+        486
+      ],
+      "area": 0.05786382341937898,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::benign (107)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        759,
+        616
+      ],
+      "area": 0.021112451448419826,
+      "fg_patches18": 7
+    },
+    {
+      "id": "BUSI::benign (108)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        769,
+        582
+      ],
+      "area": 0.030961350260748328,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::benign (116)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        766,
+        588
+      ],
+      "area": 0.012213370988081916,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (117)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        806,
+        688
+      ],
+      "area": 0.02444781868544059,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::benign (137)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        777,
+        578
+      ],
+      "area": 0.012360110976027931,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (142)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        785,
+        582
+      ],
+      "area": 0.00978615361043623,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (149)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        557,
+        468
+      ],
+      "area": 0.034709754637941355,
+      "fg_patches18": 12
+    },
+    {
+      "id": "BUSI::benign (150)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        671,
+        570
+      ],
+      "area": 0.004771616074463357,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (151)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        560,
+        469
+      ],
+      "area": 0.008825769113615595,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (170)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        564,
+        468
+      ],
+      "area": 0.047622294962720496,
+      "fg_patches18": 13
+    },
+    {
+      "id": "BUSI::benign (183)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        916,
+        683
+      ],
+      "area": 0.007528435428081863,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (193)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        754,
+        580
+      ],
+      "area": 0.01029452117442605,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (196)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        766,
+        580
+      ],
+      "area": 0.03435896281624201,
+      "fg_patches18": 10
+    },
+    {
+      "id": "BUSI::benign (200)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        554,
+        473
+      ],
+      "area": 0.12889536791812,
+      "fg_patches18": 40
+    },
+    {
+      "id": "BUSI::benign (209)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        558,
+        477
+      ],
+      "area": 0.028955614165595906,
+      "fg_patches18": 10
+    },
+    {
+      "id": "BUSI::benign (21)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        558,
+        451
+      ],
+      "area": 0.007367141120091553,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (214)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        602,
+        396
+      ],
+      "area": 0.05597503271921877,
+      "fg_patches18": 18
+    },
+    {
+      "id": "BUSI::benign (235)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        560,
+        468
+      ],
+      "area": 0.08303571428571428,
+      "fg_patches18": 27
+    },
+    {
+      "id": "BUSI::benign (240)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        556,
+        473
+      ],
+      "area": 0.10717979527583008,
+      "fg_patches18": 33
+    },
+    {
+      "id": "BUSI::benign (258)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        462,
+        389
+      ],
+      "area": 0.024549572107412723,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::benign (273)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        560,
+        469
+      ],
+      "area": 0.1049383186110265,
+      "fg_patches18": 36
+    },
+    {
+      "id": "BUSI::benign (288)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        463,
+        390
+      ],
+      "area": 0.03704380572631113,
+      "fg_patches18": 10
+    },
+    {
+      "id": "BUSI::benign (323)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        560,
+        468
+      ],
+      "area": 0.028407356532356532,
+      "fg_patches18": 10
+    },
+    {
+      "id": "BUSI::benign (328)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        685,
+        567
+      ],
+      "area": 0.006102035299115591,
+      "fg_patches18": 1
+    },
+    {
+      "id": "BUSI::benign (338)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        611,
+        382
+      ],
+      "area": 0.010548324350262636,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (347)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        605,
+        683
+      ],
+      "area": 0.014946214440424476,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (359)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        567,
+        462
+      ],
+      "area": 0.016827381906746985,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (363)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        586,
+        433
+      ],
+      "area": 0.021049271295588364,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::benign (370)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        549,
+        458
+      ],
+      "area": 0.156322332784499,
+      "fg_patches18": 52
+    },
+    {
+      "id": "BUSI::benign (381)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        747,
+        576
+      ],
+      "area": 0.07366038226982002,
+      "fg_patches18": 23
+    },
+    {
+      "id": "BUSI::benign (386)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        768,
+        578
+      ],
+      "area": 0.057643094002306806,
+      "fg_patches18": 19
+    },
+    {
+      "id": "BUSI::benign (39)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        578,
+        433
+      ],
+      "area": 0.022607222484157363,
+      "fg_patches18": 7
+    },
+    {
+      "id": "BUSI::benign (391)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        687,
+        578
+      ],
+      "area": 0.1359302518849821,
+      "fg_patches18": 45
+    },
+    {
+      "id": "BUSI::benign (398)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        563,
+        469
+      ],
+      "area": 0.21588959541293784,
+      "fg_patches18": 69
+    },
+    {
+      "id": "BUSI::benign (417)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        599,
+        416
+      ],
+      "area": 0.028236162835495057,
+      "fg_patches18": 9
+    },
+    {
+      "id": "BUSI::benign (422)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        768,
+        487
+      ],
+      "area": 0.18371139202600958,
+      "fg_patches18": 60
+    },
+    {
+      "id": "BUSI::benign (43)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        554,
+        495
+      ],
+      "area": 0.008500164095831967,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (59)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        563,
+        468
+      ],
+      "area": 0.05249654627985001,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::benign (63)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        608,
+        660
+      ],
+      "area": 0.009841008771929824,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (7)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        624,
+        578
+      ],
+      "area": 0.00611081536687073,
+      "fg_patches18": 1
+    },
+    {
+      "id": "BUSI::benign (85)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        561,
+        465
+      ],
+      "area": 0.10777605274758975,
+      "fg_patches18": 35
+    },
+    {
+      "id": "BUSI::benign (90)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        772,
+        574
+      ],
+      "area": 0.00741772129046235,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (96)",
+      "split": "validation",
+      "cls": "benign",
+      "shape": [
+        767,
+        574
+      ],
+      "area": 0.1378623443526296,
+      "fg_patches18": 42
+    },
+    {
+      "id": "BUSI::malignant (102)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        916,
+        551
+      ],
+      "area": 0.12640772236267525,
+      "fg_patches18": 39
+    },
+    {
+      "id": "BUSI::malignant (108)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        660,
+        459
+      ],
+      "area": 0.1583911005479633,
+      "fg_patches18": 50
+    },
+    {
+      "id": "BUSI::malignant (110)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        557,
+        470
+      ],
+      "area": 0.03399289506856641,
+      "fg_patches18": 11
+    },
+    {
+      "id": "BUSI::malignant (14)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        273,
+        398
+      ],
+      "area": 0.16466029782612698,
+      "fg_patches18": 53
+    },
+    {
+      "id": "BUSI::malignant (166)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        555,
+        488
+      ],
+      "area": 0.035496972382218286,
+      "fg_patches18": 13
+    },
+    {
+      "id": "BUSI::malignant (171)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        624,
+        589
+      ],
+      "area": 0.09096251795742458,
+      "fg_patches18": 29
+    },
+    {
+      "id": "BUSI::malignant (179)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        432,
+        476
+      ],
+      "area": 0.1276746809835045,
+      "fg_patches18": 41
+    },
+    {
+      "id": "BUSI::malignant (196)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        557,
+        465
+      ],
+      "area": 0.10247678616242929,
+      "fg_patches18": 34
+    },
+    {
+      "id": "BUSI::malignant (203)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        577,
+        411
+      ],
+      "area": 0.22497859977144977,
+      "fg_patches18": 73
+    },
+    {
+      "id": "BUSI::malignant (205)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        510,
+        470
+      ],
+      "area": 0.3659616186900292,
+      "fg_patches18": 118
+    },
+    {
+      "id": "BUSI::malignant (207)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        557,
+        458
+      ],
+      "area": 0.11064812274113506,
+      "fg_patches18": 35
+    },
+    {
+      "id": "BUSI::malignant (21)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        601,
+        367
+      ],
+      "area": 0.19764515997406684,
+      "fg_patches18": 66
+    },
+    {
+      "id": "BUSI::malignant (22)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        570,
+        474
+      ],
+      "area": 0.15351247316603744,
+      "fg_patches18": 53
+    },
+    {
+      "id": "BUSI::malignant (3)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        425,
+        475
+      ],
+      "area": 0.060393808049535605,
+      "fg_patches18": 20
+    },
+    {
+      "id": "BUSI::malignant (41)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        580,
+        476
+      ],
+      "area": 0.09157128368588816,
+      "fg_patches18": 31
+    },
+    {
+      "id": "BUSI::malignant (5)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        431,
+        476
+      ],
+      "area": 0.05763906490670514,
+      "fg_patches18": 19
+    },
+    {
+      "id": "BUSI::malignant (59)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        682,
+        561
+      ],
+      "area": 0.2347792222727534,
+      "fg_patches18": 79
+    },
+    {
+      "id": "BUSI::malignant (62)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        693,
+        565
+      ],
+      "area": 0.13879630693789985,
+      "fg_patches18": 45
+    },
+    {
+      "id": "BUSI::malignant (64)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        772,
+        479
+      ],
+      "area": 0.06902874079202137,
+      "fg_patches18": 20
+    },
+    {
+      "id": "BUSI::malignant (71)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        528,
+        592
+      ],
+      "area": 0.23731508497133497,
+      "fg_patches18": 77
+    },
+    {
+      "id": "BUSI::malignant (73)",
+      "split": "validation",
+      "cls": "malignant",
+      "shape": [
+        549,
+        474
+      ],
+      "area": 0.0374943318500073,
+      "fg_patches18": 12
+    },
+    {
+      "id": "BUSI::benign (105)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        882,
+        581
+      ],
+      "area": 0.017198043876185013,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (115)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        554,
+        469
+      ],
+      "area": 0.01653029335016511,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (128)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        549,
+        475
+      ],
+      "area": 0.014920908829450677,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (139)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        563,
+        468
+      ],
+      "area": 0.03937240970988751,
+      "fg_patches18": 12
+    },
+    {
+      "id": "BUSI::benign (143)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        554,
+        467
+      ],
+      "area": 0.0053803755440286335,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (148)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        567,
+        463
+      ],
+      "area": 0.043006083322857984,
+      "fg_patches18": 14
+    },
+    {
+      "id": "BUSI::benign (186)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        741,
+        574
+      ],
+      "area": 0.07838780816957967,
+      "fg_patches18": 25
+    },
+    {
+      "id": "BUSI::benign (202)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        552,
+        469
+      ],
+      "area": 0.006056673155959333,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (204)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        560,
+        476
+      ],
+      "area": 0.0529749399759904,
+      "fg_patches18": 18
+    },
+    {
+      "id": "BUSI::benign (206)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        569,
+        485
+      ],
+      "area": 0.05380392441070426,
+      "fg_patches18": 18
+    },
+    {
+      "id": "BUSI::benign (208)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        562,
+        479
+      ],
+      "area": 0.011994888520717093,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (220)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        609,
+        396
+      ],
+      "area": 0.031787497304738684,
+      "fg_patches18": 11
+    },
+    {
+      "id": "BUSI::benign (226)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        555,
+        469
+      ],
+      "area": 0.029374363702721912,
+      "fg_patches18": 10
+    },
+    {
+      "id": "BUSI::benign (230)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        566,
+        470
+      ],
+      "area": 0.04655664987594918,
+      "fg_patches18": 16
+    },
+    {
+      "id": "BUSI::benign (241)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        562,
+        471
+      ],
+      "area": 0.04537933223020604,
+      "fg_patches18": 14
+    },
+    {
+      "id": "BUSI::benign (244)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        561,
+        475
+      ],
+      "area": 0.020561028239046816,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::benign (248)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        472,
+        385
+      ],
+      "area": 0.011919436495707682,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (264)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        462,
+        391
+      ],
+      "area": 0.08997353882264368,
+      "fg_patches18": 29
+    },
+    {
+      "id": "BUSI::benign (286)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        620,
+        490
+      ],
+      "area": 0.12589203423304807,
+      "fg_patches18": 38
+    },
+    {
+      "id": "BUSI::benign (289)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        468,
+        393
+      ],
+      "area": 0.10259128770579153,
+      "fg_patches18": 34
+    },
+    {
+      "id": "BUSI::benign (294)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        469,
+        394
+      ],
+      "area": 0.0755576721180176,
+      "fg_patches18": 26
+    },
+    {
+      "id": "BUSI::benign (304)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        467,
+        387
+      ],
+      "area": 0.10957842958241344,
+      "fg_patches18": 35
+    },
+    {
+      "id": "BUSI::benign (307)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        775,
+        587
+      ],
+      "area": 0.026465900972687806,
+      "fg_patches18": 10
+    },
+    {
+      "id": "BUSI::benign (31)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        557,
+        467
+      ],
+      "area": 0.006189474817295161,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (318)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        554,
+        465
+      ],
+      "area": 0.004040992197507861,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (331)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        695,
+        527
+      ],
+      "area": 0.017713950281899718,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (336)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        783,
+        585
+      ],
+      "area": 0.039680824355153854,
+      "fg_patches18": 14
+    },
+    {
+      "id": "BUSI::benign (344)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        576,
+        434
+      ],
+      "area": 0.04889512928827445,
+      "fg_patches18": 16
+    },
+    {
+      "id": "BUSI::benign (353)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        680,
+        583
+      ],
+      "area": 0.011298052668751892,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (364)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        557,
+        465
+      ],
+      "area": 0.05160518136715508,
+      "fg_patches18": 15
+    },
+    {
+      "id": "BUSI::benign (368)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        689,
+        575
+      ],
+      "area": 0.019584779453524326,
+      "fg_patches18": 8
+    },
+    {
+      "id": "BUSI::benign (390)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        779,
+        583
+      ],
+      "area": 0.020054738779761185,
+      "fg_patches18": 6
+    },
+    {
+      "id": "BUSI::benign (415)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        781,
+        578
+      ],
+      "area": 0.46325356986207905,
+      "fg_patches18": 149
+    },
+    {
+      "id": "BUSI::benign (431)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        582,
+        431
+      ],
+      "area": 0.016209406718173194,
+      "fg_patches18": 4
+    },
+    {
+      "id": "BUSI::benign (46)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        561,
+        468
+      ],
+      "area": 0.009228788640553346,
+      "fg_patches18": 2
+    },
+    {
+      "id": "BUSI::benign (56)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        806,
+        711
+      ],
+      "area": 0.06012047477951929,
+      "fg_patches18": 20
+    },
+    {
+      "id": "BUSI::benign (61)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        773,
+        578
+      ],
+      "area": 0.04299296767637882,
+      "fg_patches18": 14
+    },
+    {
+      "id": "BUSI::benign (62)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        389,
+        594
+      ],
+      "area": 0.21518527174054167,
+      "fg_patches18": 71
+    },
+    {
+      "id": "BUSI::benign (65)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        564,
+        474
+      ],
+      "area": 0.04205194960648771,
+      "fg_patches18": 14
+    },
+    {
+      "id": "BUSI::benign (67)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        516,
+        467
+      ],
+      "area": 0.18358979466494033,
+      "fg_patches18": 56
+    },
+    {
+      "id": "BUSI::benign (79)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        648,
+        604
+      ],
+      "area": 0.04794937045212983,
+      "fg_patches18": 16
+    },
+    {
+      "id": "BUSI::benign (8)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        617,
+        585
+      ],
+      "area": 0.011073709290889194,
+      "fg_patches18": 3
+    },
+    {
+      "id": "BUSI::benign (80)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        561,
+        473
+      ],
+      "area": 0.22892524297822148,
+      "fg_patches18": 73
+    },
+    {
+      "id": "BUSI::benign (81)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        563,
+        464
+      ],
+      "area": 0.015354167942671648,
+      "fg_patches18": 5
+    },
+    {
+      "id": "BUSI::benign (97)",
+      "split": "test",
+      "cls": "benign",
+      "shape": [
+        592,
+        470
+      ],
+      "area": 0.17335034502587693,
+      "fg_patches18": 55
+    },
+    {
+      "id": "BUSI::malignant (122)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        554,
+        467
+      ],
+      "area": 0.1952666609976886,
+      "fg_patches18": 64
+    },
+    {
+      "id": "BUSI::malignant (123)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        321,
+        483
+      ],
+      "area": 0.19398489451313505,
+      "fg_patches18": 65
+    },
+    {
+      "id": "BUSI::malignant (124)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        545,
+        494
+      ],
+      "area": 0.16692419121197488,
+      "fg_patches18": 55
+    },
+    {
+      "id": "BUSI::malignant (138)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        556,
+        467
+      ],
+      "area": 0.11981036156085838,
+      "fg_patches18": 41
+    },
+    {
+      "id": "BUSI::malignant (141)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        588,
+        434
+      ],
+      "area": 0.052658390545158154,
+      "fg_patches18": 17
+    },
+    {
+      "id": "BUSI::malignant (15)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        361,
+        398
+      ],
+      "area": 0.26169629309984827,
+      "fg_patches18": 87
+    },
+    {
+      "id": "BUSI::malignant (158)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        313,
+        444
+      ],
+      "area": 0.24919408226117493,
+      "fg_patches18": 83
+    },
+    {
+      "id": "BUSI::malignant (161)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        694,
+        576
+      ],
+      "area": 0.23994106227985912,
+      "fg_patches18": 81
+    },
+    {
+      "id": "BUSI::malignant (173)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        573,
+        451
+      ],
+      "area": 0.057990194371244044,
+      "fg_patches18": 18
+    },
+    {
+      "id": "BUSI::malignant (197)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        552,
+        484
+      ],
+      "area": 0.10877425440172475,
+      "fg_patches18": 35
+    },
+    {
+      "id": "BUSI::malignant (204)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        875,
+        585
+      ],
+      "area": 0.09249523809523809,
+      "fg_patches18": 30
+    },
+    {
+      "id": "BUSI::malignant (24)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        564,
+        462
+      ],
+      "area": 0.21339918946301925,
+      "fg_patches18": 69
+    },
+    {
+      "id": "BUSI::malignant (48)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        552,
+        493
+      ],
+      "area": 0.04640326895375842,
+      "fg_patches18": 15
+    },
+    {
+      "id": "BUSI::malignant (56)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        690,
+        538
+      ],
+      "area": 0.19002747696783578,
+      "fg_patches18": 64
+    },
+    {
+      "id": "BUSI::malignant (6)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        432,
+        478
+      ],
+      "area": 0.060664613358128006,
+      "fg_patches18": 23
+    },
+    {
+      "id": "BUSI::malignant (70)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        668,
+        463
+      ],
+      "area": 0.05232084427257795,
+      "fg_patches18": 15
+    },
+    {
+      "id": "BUSI::malignant (85)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        733,
+        485
+      ],
+      "area": 0.1951336830705616,
+      "fg_patches18": 62
+    },
+    {
+      "id": "BUSI::malignant (89)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        786,
+        585
+      ],
+      "area": 0.23135642982971227,
+      "fg_patches18": 75
+    },
+    {
+      "id": "BUSI::malignant (91)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        550,
+        494
+      ],
+      "area": 0.1535553919764446,
+      "fg_patches18": 49
+    },
+    {
+      "id": "BUSI::malignant (93)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        554,
+        470
+      ],
+      "area": 0.1440241185958983,
+      "fg_patches18": 45
+    },
+    {
+      "id": "BUSI::malignant (94)",
+      "split": "test",
+      "cls": "malignant",
+      "shape": [
+        564,
+        452
+      ],
+      "area": 0.20266898889098098,
+      "fg_patches18": 68
+    }
+  ]
+}

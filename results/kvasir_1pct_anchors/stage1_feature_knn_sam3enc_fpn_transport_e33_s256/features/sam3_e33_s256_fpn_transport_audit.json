@@ -1,0 +1,22 @@
+{
+  "anchors": 8,
+  "base_vs_updated_row_cosine": {
+    "max": 0.8425542202938269,
+    "mean": 0.5953622827709383,
+    "median": 0.6291068747676045,
+    "min": 0.052353875975988534,
+    "p10": 0.38819016776764353
+  },
+  "descriptor_shape": [
+    8,
+    1000,
+    1536
+  ],
+  "encoder_checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_sam3knn_s256_base/medsam3_lora_b0_b6_e50/e33_full_evaluation/e33_merged_video.pt",
+  "feature_cache": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_1pct_anchors/stage1_feature_knn_sam3enc_fpn_transport_e33_s256/features/sam3_base_s256_fpn_transport_features.npz",
+  "feature_size": 256,
+  "max_abs_descriptor_delta": 0.23232996463775635,
+  "mean_l2_descriptor_delta": 0.8883249235132007,
+  "records": 1000,
+  "target_gt_used_for_features_or_topology": false
+}

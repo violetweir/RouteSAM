@@ -1,0 +1,16 @@
+{
+  "arm": "A1",
+  "best_epoch": 5,
+  "validation": {
+    "count": 100,
+    "dice": 0.8837924227833185,
+    "iou": 0.8231048440324664
+  },
+  "test": {
+    "count": 100,
+    "dice": 0.8969770093470584,
+    "iou": 0.8352861577210361
+  },
+  "training_pool_size": 604,
+  "test_direct": true
+}

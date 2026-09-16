@@ -1,0 +1,23 @@
+{
+  "time": "2026-09-07T00:58:31.805805+08:00",
+  "root": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_guided_pc_joint_20260907",
+  "pipeline_pid": 307411,
+  "complete": false,
+  "failed": false,
+  "joint_v1": {
+    "pid": 308093,
+    "gpu": 0,
+    "worker_alive": true,
+    "failed": false,
+    "validation_success": 214,
+    "validation_failures": 0
+  },
+  "joint_v2": {
+    "pid": 308094,
+    "gpu": 1,
+    "worker_alive": true,
+    "failed": false,
+    "validation_success": 204,
+    "validation_failures": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "validation": {
+    "total": 100,
+    "accepted": 52,
+    "coverage": 0.52,
+    "q_multi_mean": 0.9841994679812681,
+    "q_return_mean": 0.967852913536614,
+    "selected_dice_descriptive_in_sample": 0.9440293102661264,
+    "note": "Frozen router fitted on full validation; coverage/retained quality is descriptive, not OOF evidence."
+  },
+  "train": {
+    "total": 792,
+    "accepted": 448,
+    "coverage": 0.5656565656565656,
+    "q_multi_mean": 0.9812992783264666,
+    "q_return_mean": 0.9660860074521247
+  }
+}

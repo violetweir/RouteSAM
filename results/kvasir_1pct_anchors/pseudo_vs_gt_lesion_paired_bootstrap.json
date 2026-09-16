@@ -1,0 +1,17 @@
+{
+  "pool": "test 100 targets, direct routes",
+  "n": 100,
+  "pseudo_direct_mean": 0.8863,
+  "gt_direct_mean": 0.8829,
+  "delta_mean": 0.0035,
+  "bootstrap95_ci": [
+    -0.0009,
+    0.0115
+  ],
+  "paired_t_p": 0.3756,
+  "wilcoxon_p": 0.499,
+  "n_delta_zero": 93,
+  "n_delta_gt_0": 2,
+  "n_delta_lt_0": 5,
+  "note": "most deltas are 0 because both retrievals pick the same top anchor for that target; on targets where anchors differ the gap is small and non-significant"
+}

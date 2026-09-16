@@ -1,0 +1,62 @@
+{
+  "split": "validation",
+  "targets": 100,
+  "primary": "target_quality",
+  "variants": {
+    "legacy": "Existing 15 gain features, exact replay",
+    "remove_object_scores": "First 13 legacy features, remove old object score and difference",
+    "target_quality": "First 13 legacy + target predicted IoU, presence sigmoid, low-res mask stability; each represented by TP absolute and auxiliary minus TP"
+  },
+  "feature_counts": {
+    "legacy": 15,
+    "remove_object_scores": 13,
+    "target_quality": 19
+  },
+  "model": "Same target-weighted Ridge gain regression",
+  "ridges": [
+    10.0,
+    100.0
+  ],
+  "thresholds": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "fallback": "Exact independent TP mask",
+  "folds": "5 outer seed2026; 4 inner seed2027; 3 crossfit experts seed2028; grouped by target",
+  "experts": "Original independent Router fitted identically; new features only enter gain gate",
+  "new_features": {
+    "predicted_iou": "max tracker mask-head IoU estimate, not true IoU",
+    "presence": "sigmoid tracker object_score_logits on target frame, not mask accuracy",
+    "stability": "count(low_res_logits > +1)/count(low_res_logits > -1); zero if denominator empty",
+    "missing": "zero for all three if target mask empty or no head output; keep explicit extraction flags"
+  },
+  "candidate_slots": 1400,
+  "unique_routes": 1393,
+  "canvas": 256,
+  "internal_size": 1008,
+  "checkpoint": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+  "checkpoint_sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+  "mask_predictions": "Must match every frozen mask pixel exactly; no new masks selected during extraction",
+  "gpu": 1,
+  "allocator_fraction": 0.25,
+  "new_test": false,
+  "students": false,
+  "target_gt_in_extraction": false,
+  "comparison": "Primary target_quality vs both exact legacy B and original TP; controls not used to select an outer-fold winner",
+  "future_test_gate": "Primary gains >= .003 vs legacy B and TP, paired 95% lower bounds >0 for both, at least 3 positive outer folds; no automatic test in this run",
+  "source_sha256": {
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/rerun_c0_256_sam3knn_s256_base/stage1_feature_knn_b0_b6/sam3enc_anchor_conditioned_target_pooling/propagation_quality_validation/propagation_quality.jsonl": "14212921c7562a7fc0c2a789ac6bccdf6b35b74cb9f4012e3e980f74c7c7af38",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_rethink_20260908/anchor_factorial/B/propagation_quality.jsonl": "c5af1bc23b0426ca2c3c9c04ef39e2654426c32f5ed8e977b4872b7e92380c0f",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_rethink_20260908/anchor_matrix/code/eval_route_propagation_quality.py": "a6f5412de364bf9fac1ffeaf61e72285246742cc70be4afd6bad866929e913d0",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_rethink_20260908/anchor_matrix/code/run_t21_dynamic_pseudovideo.py": "2128a9cd04acce91614cbf43e2c4ad38a63c50c0fc29a5782a1f1e7f14eb5aba",
+    "/Data_8TB/lht/sam3/sam3/model/sam3_tracker_base.py": "b2b52409c002e1590262375aa794f8ab67e7476f42f8fee41a76de0c14aa62e2",
+    "/Data_8TB/lht/sam3/sam3/model/sam3_video_inference.py": "bbcc8d1804efdc1290d7b68a9cbcd03d7dba88db54aef8cfe4bff5768bb9e5ac"
+  },
+  "code_sha256": {
+    "b_target_quality.py": "a2c4f0f32da7d4ba65f0497534a8d0a23972f2d1eeb599397c1e0e9c03c89e8a",
+    "router.py": "b77c8fb8347424a7f0216d3c0bb978a3f78f219ef31661728a02531e2032888d",
+    "run_candidate_rerank.py": "60cb9d3cf8a1e0bf6ffb9f2c292317c6509a5137f4a45c49ce514dbb79da12d6",
+    "base_gate.py": "014251b9aaa757979b28c0fbd7f615d8e7eb082f164e00aea306631e7d0d8ec3"
+  }
+}

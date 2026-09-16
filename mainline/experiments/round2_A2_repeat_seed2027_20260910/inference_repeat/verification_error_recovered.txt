@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_repeat_seed2027_20260910/code/repeat_inference.py", line 26, in <module>
+    try:main()
+        ^^^^^^
+  File "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_repeat_seed2027_20260910/code/repeat_inference.py", line 20, in main
+    assert d.sha(a['mask_path'])==a['mask_sha256']
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_repeat_seed2027_20260910/code/train_direct.py", line 20, in sha
+    with p.open('rb') as f:
+         ^^^^^^
+AttributeError: 'str' object has no attribute 'open'

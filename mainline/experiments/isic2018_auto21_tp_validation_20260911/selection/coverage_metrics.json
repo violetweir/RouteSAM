@@ -1,0 +1,2202 @@
+{
+  "budget21": {
+    "existing21": {
+      "global": {
+        "mean_coverage": 0.9822285771369934,
+        "unselected_mean_coverage": 0.9820468425750732,
+        "p10_coverage": 0.973252934217453,
+        "pairwise_similarity": 0.9505102038383484,
+        "max_assignment_share": 0.19518072289156627,
+        "assignment_counts": [
+          47,
+          49,
+          24,
+          98,
+          191,
+          126,
+          92,
+          49,
+          70,
+          405,
+          84,
+          60,
+          119,
+          184,
+          18,
+          48,
+          53,
+          25,
+          48,
+          169,
+          116
+        ]
+      },
+      "local": {
+        "mean_coverage": 0.6880264493210667,
+        "unselected_mean_coverage": 0.6848368463199677,
+        "p10_coverage": 0.6305405715079822,
+        "pairwise_similarity": 0.5102654850171697,
+        "max_assignment_share": 0.09783132530120482,
+        "assignment_counts": [
+          95,
+          79,
+          47,
+          63,
+          67,
+          203,
+          78,
+          49,
+          85,
+          187,
+          43,
+          118,
+          146,
+          181,
+          81,
+          96,
+          33,
+          89,
+          81,
+          111,
+          143
+        ]
+      },
+      "combined": {
+        "mean_coverage": 0.8314643264650174,
+        "unselected_mean_coverage": 0.8297412258189599,
+        "p10_coverage": 0.7994196097270784,
+        "pairwise_similarity": 0.7303878787713876,
+        "max_assignment_share": 0.11036144578313253,
+        "assignment_counts": [
+          89,
+          71,
+          31,
+          65,
+          72,
+          201,
+          75,
+          49,
+          76,
+          229,
+          49,
+          107,
+          149,
+          184,
+          73,
+          97,
+          32,
+          81,
+          66,
+          133,
+          146
+        ]
+      },
+      "combined_percentile_vs_random": 0.77
+    },
+    "global_facility": {
+      "global": {
+        "mean_coverage": 0.9854817986488342,
+        "unselected_mean_coverage": 0.9853333830833435,
+        "p10_coverage": 0.9774016737937927,
+        "pairwise_similarity": 0.9635196328163147,
+        "max_assignment_share": 0.08819277108433735,
+        "assignment_counts": [
+          93,
+          96,
+          58,
+          114,
+          183,
+          116,
+          171,
+          69,
+          120,
+          80,
+          150,
+          101,
+          66,
+          130,
+          155,
+          45,
+          78,
+          68,
+          106,
+          31,
+          45
+        ]
+      },
+      "local": {
+        "mean_coverage": 0.6863840353727796,
+        "unselected_mean_coverage": 0.6831776404082364,
+        "p10_coverage": 0.6306062725365129,
+        "pairwise_similarity": 0.4989952893636299,
+        "max_assignment_share": 0.0746987951807229,
+        "assignment_counts": [
+          97,
+          82,
+          100,
+          134,
+          102,
+          148,
+          84,
+          155,
+          88,
+          36,
+          104,
+          140,
+          86,
+          152,
+          115,
+          96,
+          126,
+          74,
+          51,
+          87,
+          18
+        ]
+      },
+      "combined": {
+        "mean_coverage": 0.832427154593637,
+        "unselected_mean_coverage": 0.8307138978718753,
+        "p10_coverage": 0.8014132803189443,
+        "pairwise_similarity": 0.731257474713891,
+        "max_assignment_share": 0.07710843373493977,
+        "assignment_counts": [
+          96,
+          84,
+          88,
+          138,
+          116,
+          138,
+          84,
+          154,
+          97,
+          38,
+          110,
+          134,
+          87,
+          160,
+          124,
+          77,
+          127,
+          80,
+          53,
+          70,
+          20
+        ]
+      },
+      "combined_percentile_vs_random": 0.87
+    },
+    "global_local_facility": {
+      "global": {
+        "mean_coverage": 0.9830464124679565,
+        "unselected_mean_coverage": 0.9828730821609497,
+        "p10_coverage": 0.9741417706012726,
+        "pairwise_similarity": 0.9570167064666748,
+        "max_assignment_share": 0.116144578313253,
+        "assignment_counts": [
+          213,
+          241,
+          103,
+          113,
+          45,
+          145,
+          86,
+          31,
+          30,
+          39,
+          79,
+          100,
+          83,
+          51,
+          85,
+          47,
+          178,
+          120,
+          87,
+          86,
+          113
+        ]
+      },
+      "local": {
+        "mean_coverage": 0.726092586994041,
+        "unselected_mean_coverage": 0.7232921704053725,
+        "p10_coverage": 0.6679780953135921,
+        "pairwise_similarity": 0.5658509246099509,
+        "max_assignment_share": 0.11132530120481927,
+        "assignment_counts": [
+          68,
+          115,
+          231,
+          65,
+          115,
+          142,
+          96,
+          80,
+          94,
+          158,
+          101,
+          116,
+          85,
+          84,
+          80,
+          75,
+          91,
+          67,
+          59,
+          70,
+          83
+        ]
+      },
+      "combined": {
+        "mean_coverage": 0.8515204066639739,
+        "unselected_mean_coverage": 0.8500023584299786,
+        "p10_coverage": 0.8198216173103476,
+        "pairwise_similarity": 0.76143384959811,
+        "max_assignment_share": 0.10939759036144578,
+        "assignment_counts": [
+          69,
+          137,
+          227,
+          67,
+          100,
+          151,
+          97,
+          77,
+          93,
+          131,
+          94,
+          122,
+          88,
+          82,
+          83,
+          66,
+          98,
+          72,
+          68,
+          70,
+          83
+        ]
+      },
+      "combined_percentile_vs_random": 1.0
+    }
+  },
+  "budget_curves": {
+    "global_facility": {
+      "1": {
+        "global": {
+          "mean_coverage": 0.9717712998390198,
+          "unselected_mean_coverage": 0.9717575907707214,
+          "p10_coverage": 0.9550898492336273,
+          "pairwise_similarity": null,
+          "max_assignment_share": 1.0,
+          "assignment_counts": [
+            2075
+          ]
+        },
+        "local": {
+          "mean_coverage": 0.533962659648415,
+          "unselected_mean_coverage": 0.5337379550484384,
+          "p10_coverage": 0.4233711815310096,
+          "pairwise_similarity": null,
+          "max_assignment_share": 1.0,
+          "assignment_counts": [
+            2075
+          ]
+        },
+        "combined": {
+          "mean_coverage": 0.7528669646630242,
+          "unselected_mean_coverage": 0.7527478069796407,
+          "p10_coverage": 0.6899715944725363,
+          "pairwise_similarity": null,
+          "max_assignment_share": 1.0,
+          "assignment_counts": [
+            2075
+          ]
+        }
+      },
+      "2": {
+        "global": {
+          "mean_coverage": 0.9756593108177185,
+          "unselected_mean_coverage": 0.9756358861923218,
+          "p10_coverage": 0.9605477571487426,
+          "pairwise_similarity": 0.977939784526825,
+          "max_assignment_share": 0.6125301204819277,
+          "assignment_counts": [
+            1271,
+            804
+          ]
+        },
+        "local": {
+          "mean_coverage": 0.5831596214341801,
+          "unselected_mean_coverage": 0.5827574599497943,
+          "p10_coverage": 0.4901127590189421,
+          "pairwise_similarity": 0.5620837593036927,
+          "max_assignment_share": 0.5436144578313253,
+          "assignment_counts": [
+            947,
+            1128
+          ]
+        },
+        "combined": {
+          "mean_coverage": 0.778365260449276,
+          "unselected_mean_coverage": 0.7781514305027725,
+          "p10_coverage": 0.7258795141624635,
+          "pairwise_similarity": 0.7700117719152588,
+          "max_assignment_share": 0.5224096385542168,
+          "assignment_counts": [
+            991,
+            1084
+          ]
+        }
+      },
+      "4": {
+        "global": {
+          "mean_coverage": 0.9795469641685486,
+          "unselected_mean_coverage": 0.9795073866844177,
+          "p10_coverage": 0.9681730270385742,
+          "pairwise_similarity": 0.9722735285758972,
+          "max_assignment_share": 0.36,
+          "assignment_counts": [
+            421,
+            747,
+            335,
+            572
+          ]
+        },
+        "local": {
+          "mean_coverage": 0.6176576166290181,
+          "unselected_mean_coverage": 0.6169191475157957,
+          "p10_coverage": 0.53882788245437,
+          "pairwise_similarity": 0.5524315571139454,
+          "max_assignment_share": 0.32433734939759035,
+          "assignment_counts": [
+            316,
+            673,
+            489,
+            597
+          ]
+        },
+        "combined": {
+          "mean_coverage": 0.7967345363984711,
+          "unselected_mean_coverage": 0.7963419425527898,
+          "p10_coverage": 0.752875363128856,
+          "pairwise_similarity": 0.7623525279437602,
+          "max_assignment_share": 0.3402409638554217,
+          "assignment_counts": [
+            314,
+            706,
+            458,
+            597
+          ]
+        }
+      },
+      "8": {
+        "global": {
+          "mean_coverage": 0.9825956225395203,
+          "unselected_mean_coverage": 0.9825282692909241,
+          "p10_coverage": 0.9726451158523559,
+          "pairwise_similarity": 0.9654547572135925,
+          "max_assignment_share": 0.22457831325301206,
+          "assignment_counts": [
+            228,
+            466,
+            152,
+            330,
+            312,
+            183,
+            261,
+            143
+          ]
+        },
+        "local": {
+          "mean_coverage": 0.6558611670395744,
+          "unselected_mean_coverage": 0.6545292315467427,
+          "p10_coverage": 0.5903326876659931,
+          "pairwise_similarity": 0.5094281459610571,
+          "max_assignment_share": 0.15132530120481927,
+          "assignment_counts": [
+            193,
+            288,
+            186,
+            287,
+            313,
+            314,
+            194,
+            300
+          ]
+        },
+        "combined": {
+          "mean_coverage": 0.8164960312813307,
+          "unselected_mean_coverage": 0.8157858079188998,
+          "p10_coverage": 0.7805999291146385,
+          "pairwise_similarity": 0.7374414558447994,
+          "max_assignment_share": 0.16,
+          "assignment_counts": [
+            200,
+            315,
+            162,
+            290,
+            332,
+            291,
+            203,
+            282
+          ]
+        }
+      },
+      "16": {
+        "global": {
+          "mean_coverage": 0.9847382307052612,
+          "unselected_mean_coverage": 0.984619677066803,
+          "p10_coverage": 0.9761461615562439,
+          "pairwise_similarity": 0.9647146463394165,
+          "max_assignment_share": 0.10168674698795181,
+          "assignment_counts": [
+            106,
+            180,
+            78,
+            125,
+            197,
+            122,
+            211,
+            81,
+            188,
+            89,
+            167,
+            107,
+            79,
+            144,
+            156,
+            45
+          ]
+        },
+        "local": {
+          "mean_coverage": 0.6800792073447101,
+          "unselected_mean_coverage": 0.6775931788442318,
+          "p10_coverage": 0.6226523410018596,
+          "pairwise_similarity": 0.5066585688068509,
+          "max_assignment_share": 0.08289156626506024,
+          "assignment_counts": [
+            108,
+            112,
+            107,
+            154,
+            143,
+            167,
+            98,
+            163,
+            161,
+            42,
+            123,
+            172,
+            127,
+            169,
+            125,
+            104
+          ]
+        },
+        "combined": {
+          "mean_coverage": 0.8291980381150238,
+          "unselected_mean_coverage": 0.8278707768362831,
+          "p10_coverage": 0.7974812704570434,
+          "pairwise_similarity": 0.7356865839796285,
+          "max_assignment_share": 0.08530120481927711,
+          "assignment_counts": [
+            109,
+            119,
+            95,
+            150,
+            158,
+            159,
+            103,
+            162,
+            172,
+            44,
+            124,
+            161,
+            122,
+            177,
+            135,
+            85
+          ]
+        }
+      },
+      "21": {
+        "global": {
+          "mean_coverage": 0.9854817986488342,
+          "unselected_mean_coverage": 0.9853333830833435,
+          "p10_coverage": 0.9774016737937927,
+          "pairwise_similarity": 0.9635196328163147,
+          "max_assignment_share": 0.08819277108433735,
+          "assignment_counts": [
+            93,
+            96,
+            58,
+            114,
+            183,
+            116,
+            171,
+            69,
+            120,
+            80,
+            150,
+            101,
+            66,
+            130,
+            155,
+            45,
+            78,
+            68,
+            106,
+            31,
+            45
+          ]
+        },
+        "local": {
+          "mean_coverage": 0.6863840353727796,
+          "unselected_mean_coverage": 0.6831776404082364,
+          "p10_coverage": 0.6306062725365129,
+          "pairwise_similarity": 0.4989952893636299,
+          "max_assignment_share": 0.0746987951807229,
+          "assignment_counts": [
+            97,
+            82,
+            100,
+            134,
+            102,
+            148,
+            84,
+            155,
+            88,
+            36,
+            104,
+            140,
+            86,
+            152,
+            115,
+            96,
+            126,
+            74,
+            51,
+            87,
+            18
+          ]
+        },
+        "combined": {
+          "mean_coverage": 0.832427154593637,
+          "unselected_mean_coverage": 0.8307138978718753,
+          "p10_coverage": 0.8014132803189443,
+          "pairwise_similarity": 0.731257474713891,
+          "max_assignment_share": 0.07710843373493977,
+          "assignment_counts": [
+            96,
+            84,
+            88,
+            138,
+            116,
+            138,
+            84,
+            154,
+            97,
+            38,
+            110,
+            134,
+            87,
+            160,
+            124,
+            77,
+            127,
+            80,
+            53,
+            70,
+            20
+          ]
+        }
+      },
+      "32": {
+        "global": {
+          "mean_coverage": 0.9865245223045349,
+          "unselected_mean_coverage": 0.9863134026527405,
+          "p10_coverage": 0.9789251446723938,
+          "pairwise_similarity": 0.9639753103256226,
+          "max_assignment_share": 0.06843373493975903,
+          "assignment_counts": [
+            68,
+            74,
+            42,
+            95,
+            130,
+            48,
+            92,
+            55,
+            111,
+            59,
+            114,
+            59,
+            65,
+            88,
+            142,
+            41,
+            72,
+            49,
+            73,
+            28,
+            31,
+            60,
+            63,
+            32,
+            64,
+            33,
+            34,
+            48,
+            44,
+            51,
+            68,
+            42
+          ]
+        },
+        "local": {
+          "mean_coverage": 0.6968027818912065,
+          "unselected_mean_coverage": 0.6920537309957188,
+          "p10_coverage": 0.6427584100758627,
+          "pairwise_similarity": 0.5064599368649595,
+          "max_assignment_share": 0.05783132530120482,
+          "assignment_counts": [
+            76,
+            56,
+            78,
+            105,
+            78,
+            94,
+            62,
+            120,
+            67,
+            26,
+            83,
+            81,
+            64,
+            107,
+            81,
+            59,
+            100,
+            50,
+            37,
+            70,
+            11,
+            64,
+            50,
+            32,
+            66,
+            48,
+            85,
+            51,
+            44,
+            30,
+            46,
+            54
+          ]
+        },
+        "combined": {
+          "mean_coverage": 0.8378988505421674,
+          "unselected_mean_coverage": 0.8353598214987921,
+          "p10_coverage": 0.807611578192821,
+          "pairwise_similarity": 0.7352176189687208,
+          "max_assignment_share": 0.05493975903614458,
+          "assignment_counts": [
+            70,
+            56,
+            64,
+            107,
+            86,
+            84,
+            63,
+            114,
+            77,
+            25,
+            88,
+            79,
+            67,
+            107,
+            92,
+            49,
+            95,
+            50,
+            38,
+            55,
+            12,
+            67,
+            49,
+            30,
+            67,
+            55,
+            86,
+            61,
+            42,
+            37,
+            48,
+            55
+          ]
+        }
+      },
+      "64": {
+        "global": {
+          "mean_coverage": 0.9880602955818176,
+          "unselected_mean_coverage": 0.9876803159713745,
+          "p10_coverage": 0.9811285138130188,
+          "pairwise_similarity": 0.9575771689414978,
+          "max_assignment_share": 0.04385542168674699,
+          "assignment_counts": [
+            44,
+            45,
+            27,
+            39,
+            91,
+            30,
+            67,
+            37,
+            62,
+            32,
+            48,
+            35,
+            45,
+            54,
+            84,
+            22,
+            40,
+            23,
+            44,
+            18,
+            23,
+            32,
+            41,
+            21,
+            36,
+            21,
+            30,
+            41,
+            33,
+            41,
+            57,
+            26,
+            48,
+            40,
+            39,
+            27,
+            29,
+            18,
+            7,
+            42,
+            17,
+            17,
+            29,
+            34,
+            16,
+            37,
+            44,
+            29,
+            29,
+            16,
+            29,
+            27,
+            9,
+            20,
+            24,
+            38,
+            24,
+            11,
+            6,
+            35,
+            11,
+            7,
+            20,
+            7
+          ]
+        },
+        "local": {
+          "mean_coverage": 0.7204729067129451,
+          "unselected_mean_coverage": 0.7115769673940133,
+          "p10_coverage": 0.6638894108478721,
+          "pairwise_similarity": 0.5014585061299743,
+          "max_assignment_share": 0.05060240963855422,
+          "assignment_counts": [
+            37,
+            19,
+            26,
+            40,
+            49,
+            47,
+            23,
+            55,
+            37,
+            10,
+            29,
+            37,
+            27,
+            56,
+            28,
+            30,
+            51,
+            20,
+            21,
+            20,
+            4,
+            24,
+            28,
+            14,
+            34,
+            25,
+            51,
+            30,
+            24,
+            12,
+            18,
+            16,
+            42,
+            105,
+            60,
+            37,
+            7,
+            6,
+            24,
+            73,
+            13,
+            9,
+            39,
+            30,
+            22,
+            46,
+            59,
+            54,
+            32,
+            42,
+            40,
+            55,
+            24,
+            15,
+            25,
+            67,
+            32,
+            12,
+            24,
+            72,
+            10,
+            17,
+            21,
+            19
+          ]
+        },
+        "combined": {
+          "mean_coverage": 0.8500184993819752,
+          "unselected_mean_coverage": 0.8452453442666753,
+          "p10_coverage": 0.8192985666607029,
+          "pairwise_similarity": 0.7295178232850223,
+          "max_assignment_share": 0.04385542168674699,
+          "assignment_counts": [
+            35,
+            23,
+            27,
+            40,
+            54,
+            44,
+            27,
+            60,
+            41,
+            10,
+            27,
+            39,
+            30,
+            57,
+            33,
+            25,
+            50,
+            19,
+            21,
+            16,
+            6,
+            23,
+            29,
+            16,
+            34,
+            28,
+            55,
+            44,
+            28,
+            16,
+            18,
+            17,
+            45,
+            91,
+            60,
+            32,
+            8,
+            4,
+            17,
+            74,
+            9,
+            11,
+            37,
+            30,
+            19,
+            41,
+            61,
+            55,
+            36,
+            38,
+            47,
+            56,
+            18,
+            14,
+            23,
+            64,
+            33,
+            18,
+            12,
+            73,
+            12,
+            12,
+            22,
+            11
+          ]
+        }
+      }
+    },
+    "global_local_facility": {
+      "1": {
+        "global": {
+          "mean_coverage": 0.9692125916481018,
+          "unselected_mean_coverage": 0.9691978096961975,
+          "p10_coverage": 0.9513631522655487,
+          "pairwise_similarity": null,
+          "max_assignment_share": 1.0,
+          "assignment_counts": [
+            2075
+          ]
+        },
+        "local": {
+          "mean_coverage": 0.5891271408231268,
+          "unselected_mean_coverage": 0.588929034333649,
+          "p10_coverage": 0.5069290116170362,
+          "pairwise_similarity": null,
+          "max_assignment_share": 1.0,
+          "assignment_counts": [
+            2075
+          ]
+        },
+        "combined": {
+          "mean_coverage": 0.7791698662212517,
+          "unselected_mean_coverage": 0.7790633907469129,
+          "p10_coverage": 0.7330770292399953,
+          "pairwise_similarity": null,
+          "max_assignment_share": 1.0,
+          "assignment_counts": [
+            2075
+          ]
+        }
+      },
+      "2": {
+        "global": {
+          "mean_coverage": 0.9736809134483337,
+          "unselected_mean_coverage": 0.973655641078949,
+          "p10_coverage": 0.9552345752716065,
+          "pairwise_similarity": 0.9728734493255615,
+          "max_assignment_share": 0.6501204819277109,
+          "assignment_counts": [
+            1349,
+            726
+          ]
+        },
+        "local": {
+          "mean_coverage": 0.6336698890362499,
+          "unselected_mean_coverage": 0.6333164591173269,
+          "p10_coverage": 0.546353273642908,
+          "pairwise_similarity": 0.5565707374142972,
+          "max_assignment_share": 0.5812048192771084,
+          "assignment_counts": [
+            1206,
+            869
+          ]
+        },
+        "combined": {
+          "mean_coverage": 0.8028026246153788,
+          "unselected_mean_coverage": 0.8026123714794554,
+          "p10_coverage": 0.7537900723289115,
+          "pairwise_similarity": 0.7647220933699294,
+          "max_assignment_share": 0.5971084337349397,
+          "assignment_counts": [
+            1239,
+            836
+          ]
+        }
+      },
+      "4": {
+        "global": {
+          "mean_coverage": 0.97714763879776,
+          "unselected_mean_coverage": 0.9771034717559814,
+          "p10_coverage": 0.9631063938140869,
+          "pairwise_similarity": 0.9675831198692322,
+          "max_assignment_share": 0.34265060240963857,
+          "assignment_counts": [
+            711,
+            691,
+            295,
+            378
+          ]
+        },
+        "local": {
+          "mean_coverage": 0.6759336702129957,
+          "unselected_mean_coverage": 0.6753077574562849,
+          "p10_coverage": 0.5956559653599106,
+          "pairwise_similarity": 0.54141300292548,
+          "max_assignment_share": 0.31951807228915663,
+          "assignment_counts": [
+            403,
+            663,
+            630,
+            379
+          ]
+        },
+        "combined": {
+          "mean_coverage": 0.8255061421722267,
+          "unselected_mean_coverage": 0.8251691188443167,
+          "p10_coverage": 0.781215215443559,
+          "pairwise_similarity": 0.7544980663644099,
+          "max_assignment_share": 0.3224096385542169,
+          "assignment_counts": [
+            414,
+            669,
+            616,
+            376
+          ]
+        }
+      },
+      "8": {
+        "global": {
+          "mean_coverage": 0.9798980355262756,
+          "unselected_mean_coverage": 0.979820191860199,
+          "p10_coverage": 0.9691560387611389,
+          "pairwise_similarity": 0.9623059630393982,
+          "max_assignment_share": 0.2597590361445783,
+          "assignment_counts": [
+            539,
+            347,
+            244,
+            259,
+            160,
+            255,
+            226,
+            45
+          ]
+        },
+        "local": {
+          "mean_coverage": 0.702051774029846,
+          "unselected_mean_coverage": 0.7008986120522159,
+          "p10_coverage": 0.640394512121199,
+          "pairwise_similarity": 0.560842262319139,
+          "max_assignment_share": 0.2510843373493976,
+          "assignment_counts": [
+            157,
+            274,
+            521,
+            166,
+            296,
+            300,
+            176,
+            185
+          ]
+        },
+        "combined": {
+          "mean_coverage": 0.8390614013149538,
+          "unselected_mean_coverage": 0.8384385137576901,
+          "p10_coverage": 0.805107388215852,
+          "pairwise_similarity": 0.7615740658470477,
+          "max_assignment_share": 0.2563855421686747,
+          "assignment_counts": [
+            171,
+            290,
+            532,
+            183,
+            270,
+            291,
+            181,
+            157
+          ]
+        }
+      },
+      "16": {
+        "global": {
+          "mean_coverage": 0.9819464683532715,
+          "unselected_mean_coverage": 0.981806218624115,
+          "p10_coverage": 0.9725442051887512,
+          "pairwise_similarity": 0.9549769163131714,
+          "max_assignment_share": 0.13734939759036144,
+          "assignment_counts": [
+            282,
+            285,
+            165,
+            133,
+            135,
+            202,
+            149,
+            32,
+            46,
+            51,
+            106,
+            152,
+            87,
+            63,
+            140,
+            47
+          ]
+        },
+        "local": {
+          "mean_coverage": 0.7198901619792246,
+          "unselected_mean_coverage": 0.7177134949523511,
+          "p10_coverage": 0.6600668236366637,
+          "pairwise_similarity": 0.5638594171417324,
+          "max_assignment_share": 0.13734939759036144,
+          "assignment_counts": [
+            85,
+            144,
+            285,
+            68,
+            159,
+            172,
+            136,
+            93,
+            112,
+            186,
+            120,
+            129,
+            90,
+            106,
+            111,
+            79
+          ]
+        },
+        "combined": {
+          "mean_coverage": 0.8480419144680347,
+          "unselected_mean_coverage": 0.8468610843758079,
+          "p10_coverage": 0.8147633360378851,
+          "pairwise_similarity": 0.7594181781516754,
+          "max_assignment_share": 0.13879518072289157,
+          "assignment_counts": [
+            89,
+            165,
+            288,
+            73,
+            162,
+            180,
+            142,
+            84,
+            111,
+            153,
+            116,
+            138,
+            94,
+            100,
+            111,
+            69
+          ]
+        }
+      },
+      "21": {
+        "global": {
+          "mean_coverage": 0.9830464124679565,
+          "unselected_mean_coverage": 0.9828730821609497,
+          "p10_coverage": 0.9741417706012726,
+          "pairwise_similarity": 0.9570167064666748,
+          "max_assignment_share": 0.116144578313253,
+          "assignment_counts": [
+            213,
+            241,
+            103,
+            113,
+            45,
+            145,
+            86,
+            31,
+            30,
+            39,
+            79,
+            100,
+            83,
+            51,
+            85,
+            47,
+            178,
+            120,
+            87,
+            86,
+            113
+          ]
+        },
+        "local": {
+          "mean_coverage": 0.726092586994041,
+          "unselected_mean_coverage": 0.7232921704053725,
+          "p10_coverage": 0.6679780953135921,
+          "pairwise_similarity": 0.5658509246099509,
+          "max_assignment_share": 0.11132530120481927,
+          "assignment_counts": [
+            68,
+            115,
+            231,
+            65,
+            115,
+            142,
+            96,
+            80,
+            94,
+            158,
+            101,
+            116,
+            85,
+            84,
+            80,
+            75,
+            91,
+            67,
+            59,
+            70,
+            83
+          ]
+        },
+        "combined": {
+          "mean_coverage": 0.8515204066639739,
+          "unselected_mean_coverage": 0.8500023584299786,
+          "p10_coverage": 0.8198216173103476,
+          "pairwise_similarity": 0.76143384959811,
+          "max_assignment_share": 0.10939759036144578,
+          "assignment_counts": [
+            69,
+            137,
+            227,
+            67,
+            100,
+            151,
+            97,
+            77,
+            93,
+            131,
+            94,
+            122,
+            88,
+            82,
+            83,
+            66,
+            98,
+            72,
+            68,
+            70,
+            83
+          ]
+        }
+      },
+      "32": {
+        "global": {
+          "mean_coverage": 0.9846112132072449,
+          "unselected_mean_coverage": 0.9843701124191284,
+          "p10_coverage": 0.9762298345565796,
+          "pairwise_similarity": 0.9595559239387512,
+          "max_assignment_share": 0.08240963855421687,
+          "assignment_counts": [
+            73,
+            171,
+            23,
+            64,
+            41,
+            83,
+            66,
+            18,
+            22,
+            16,
+            55,
+            51,
+            46,
+            44,
+            67,
+            22,
+            107,
+            93,
+            37,
+            44,
+            66,
+            91,
+            55,
+            80,
+            117,
+            122,
+            74,
+            24,
+            128,
+            60,
+            61,
+            54
+          ]
+        },
+        "local": {
+          "mean_coverage": 0.7351858522209923,
+          "unselected_mean_coverage": 0.7310380045807925,
+          "p10_coverage": 0.678801006919634,
+          "pairwise_similarity": 0.5676791568884568,
+          "max_assignment_share": 0.07614457831325301,
+          "assignment_counts": [
+            46,
+            80,
+            158,
+            46,
+            74,
+            92,
+            72,
+            66,
+            67,
+            117,
+            56,
+            82,
+            60,
+            65,
+            53,
+            66,
+            58,
+            59,
+            36,
+            56,
+            63,
+            54,
+            63,
+            86,
+            63,
+            55,
+            44,
+            45,
+            52,
+            42,
+            50,
+            49
+          ]
+        },
+        "combined": {
+          "mean_coverage": 0.8565381649652893,
+          "unselected_mean_coverage": 0.8542910879541877,
+          "p10_coverage": 0.8249101465446512,
+          "pairwise_similarity": 0.7636175342849006,
+          "max_assignment_share": 0.07325301204819278,
+          "assignment_counts": [
+            43,
+            92,
+            152,
+            43,
+            69,
+            94,
+            75,
+            63,
+            66,
+            93,
+            47,
+            81,
+            61,
+            67,
+            53,
+            56,
+            66,
+            65,
+            44,
+            60,
+            65,
+            55,
+            61,
+            87,
+            64,
+            63,
+            47,
+            40,
+            57,
+            46,
+            48,
+            52
+          ]
+        }
+      },
+      "64": {
+        "global": {
+          "mean_coverage": 0.9861649870872498,
+          "unselected_mean_coverage": 0.985724687576294,
+          "p10_coverage": 0.9781025648117065,
+          "pairwise_similarity": 0.9588150978088379,
+          "max_assignment_share": 0.0491566265060241,
+          "assignment_counts": [
+            39,
+            93,
+            17,
+            27,
+            20,
+            26,
+            24,
+            10,
+            11,
+            12,
+            35,
+            26,
+            38,
+            15,
+            35,
+            13,
+            40,
+            48,
+            27,
+            20,
+            48,
+            59,
+            45,
+            49,
+            57,
+            72,
+            51,
+            14,
+            38,
+            36,
+            32,
+            37,
+            11,
+            18,
+            40,
+            36,
+            11,
+            16,
+            67,
+            33,
+            61,
+            11,
+            18,
+            46,
+            20,
+            16,
+            53,
+            102,
+            42,
+            20,
+            18,
+            25,
+            37,
+            33,
+            29,
+            52,
+            28,
+            31,
+            25,
+            17,
+            11,
+            11,
+            16,
+            7
+          ]
+        },
+        "local": {
+          "mean_coverage": 0.7509511407148292,
+          "unselected_mean_coverage": 0.7430251700563254,
+          "p10_coverage": 0.6950793783832081,
+          "pairwise_similarity": 0.5552411866541922,
+          "max_assignment_share": 0.05060240963855422,
+          "assignment_counts": [
+            27,
+            42,
+            105,
+            23,
+            46,
+            40,
+            42,
+            36,
+            31,
+            54,
+            26,
+            51,
+            38,
+            39,
+            26,
+            35,
+            31,
+            31,
+            20,
+            39,
+            38,
+            39,
+            43,
+            40,
+            34,
+            32,
+            24,
+            29,
+            37,
+            26,
+            25,
+            30,
+            35,
+            35,
+            35,
+            46,
+            24,
+            23,
+            35,
+            31,
+            33,
+            38,
+            32,
+            25,
+            23,
+            28,
+            16,
+            28,
+            27,
+            26,
+            18,
+            34,
+            39,
+            23,
+            18,
+            23,
+            29,
+            26,
+            22,
+            17,
+            16,
+            30,
+            31,
+            30
+          ]
+        },
+        "combined": {
+          "mean_coverage": 0.8650665289053779,
+          "unselected_mean_coverage": 0.8607722766498889,
+          "p10_coverage": 0.834697093228556,
+          "pairwise_similarity": 0.7570281652189214,
+          "max_assignment_share": 0.047710843373493975,
+          "assignment_counts": [
+            28,
+            47,
+            99,
+            26,
+            44,
+            43,
+            41,
+            34,
+            35,
+            42,
+            23,
+            48,
+            40,
+            36,
+            27,
+            29,
+            35,
+            34,
+            22,
+            38,
+            40,
+            37,
+            40,
+            45,
+            35,
+            40,
+            24,
+            25,
+            40,
+            28,
+            26,
+            31,
+            36,
+            32,
+            37,
+            43,
+            24,
+            23,
+            35,
+            33,
+            35,
+            39,
+            32,
+            24,
+            23,
+            27,
+            20,
+            33,
+            28,
+            22,
+            16,
+            29,
+            37,
+            26,
+            18,
+            24,
+            29,
+            29,
+            23,
+            15,
+            16,
+            23,
+            31,
+            31
+          ]
+        }
+      }
+    }
+  },
+  "random_summary": {
+    "1": {
+      "global": {
+        "mean_coverage": {
+          "mean": 0.9558853060007095,
+          "p025": 0.9302337944507599,
+          "p975": 0.9679791539907455
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.9558640325069427,
+          "p025": 0.9302001461386681,
+          "p975": 0.9679637312889099
+        },
+        "p10_coverage": {
+          "mean": 0.9335586790442466,
+          "p025": 0.9070855222642421,
+          "p975": 0.9521199364960193
+        },
+        "max_assignment_share": {
+          "mean": 1.0,
+          "p025": 1.0,
+          "p975": 1.0
+        }
+      },
+      "local": {
+        "mean_coverage": {
+          "mean": 0.5144897554151013,
+          "p025": 0.4370417356568308,
+          "p975": 0.5596160125971666
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.5142556617581172,
+          "p025": 0.43677029965666525,
+          "p975": 0.5594036770198267
+        },
+        "p10_coverage": {
+          "mean": 0.3876936043546378,
+          "p025": 0.2874221539503219,
+          "p975": 0.46642773099488155
+        },
+        "max_assignment_share": {
+          "mean": 1.0,
+          "p025": 1.0,
+          "p975": 1.0
+        }
+      },
+      "combined": {
+        "mean_coverage": {
+          "mean": 0.735187527824046,
+          "p025": 0.6886515071341708,
+          "p975": 0.7619494917240255
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.7350598458305104,
+          "p025": 0.6885013873208314,
+          "p975": 0.7618347132725906
+        },
+        "p10_coverage": {
+          "mean": 0.6636856376144864,
+          "p025": 0.6033709062989777,
+          "p975": 0.7069011166249323
+        },
+        "max_assignment_share": {
+          "mean": 1.0,
+          "p025": 1.0,
+          "p975": 1.0
+        }
+      }
+    },
+    "2": {
+      "global": {
+        "mean_coverage": {
+          "mean": 0.9652025085687638,
+          "p025": 0.952003076672554,
+          "p975": 0.9722583889961243
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.965168935060501,
+          "p025": 0.9519567519426346,
+          "p975": 0.972231601178646
+        },
+        "p10_coverage": {
+          "mean": 0.9466814137697221,
+          "p025": 0.9292616888880729,
+          "p975": 0.9573932200670242
+        },
+        "max_assignment_share": {
+          "mean": 0.6942024096385545,
+          "p025": 0.5185542168674698,
+          "p975": 0.9215060240963855
+        }
+      },
+      "local": {
+        "mean_coverage": {
+          "mean": 0.5692314228589251,
+          "p025": 0.5094162055974067,
+          "p975": 0.6041022108799983
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.5688158236528075,
+          "p025": 0.5089428975468495,
+          "p975": 0.6037202544987923
+        },
+        "p10_coverage": {
+          "mean": 0.4649389073577115,
+          "p025": 0.38826536834008096,
+          "p975": 0.5201116024412511
+        },
+        "max_assignment_share": {
+          "mean": 0.6139180722891566,
+          "p025": 0.5143734939759036,
+          "p975": 0.7972891566265058
+        }
+      },
+      "combined": {
+        "mean_coverage": {
+          "mean": 0.7658054750597756,
+          "p025": 0.7345866154190918,
+          "p975": 0.7864876676055553
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.7655795276317534,
+          "p025": 0.7343305485141661,
+          "p975": 0.7862816740588497
+        },
+        "p10_coverage": {
+          "mean": 0.7068963555437638,
+          "p025": 0.661695716716588,
+          "p975": 0.738906143001937
+        },
+        "max_assignment_share": {
+          "mean": 0.625744578313253,
+          "p025": 0.5134698795180723,
+          "p975": 0.8181927710843372
+        }
+      }
+    },
+    "4": {
+      "global": {
+        "mean_coverage": {
+          "mean": 0.9716960918903351,
+          "p025": 0.9660244584083557,
+          "p975": 0.97583938986063
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.9716414302587509,
+          "p025": 0.9659588575363159,
+          "p975": 0.9757927849888801
+        },
+        "p10_coverage": {
+          "mean": 0.9562371760606766,
+          "p025": 0.9443269461393357,
+          "p975": 0.9625845804810524
+        },
+        "max_assignment_share": {
+          "mean": 0.44846746987951813,
+          "p025": 0.29516867469879515,
+          "p975": 0.6455783132530121
+        }
+      },
+      "local": {
+        "mean_coverage": {
+          "mean": 0.6116422498692029,
+          "p025": 0.5737461255153351,
+          "p975": 0.6335334793243577
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.6108921624715579,
+          "p025": 0.5729228442512412,
+          "p975": 0.63282567339355
+        },
+        "p10_coverage": {
+          "mean": 0.5245605944646168,
+          "p025": 0.4540406958698614,
+          "p975": 0.5621586338619867
+        },
+        "max_assignment_share": {
+          "mean": 0.3776240963855421,
+          "p025": 0.2861927710843373,
+          "p975": 0.5403132530120481
+        }
+      },
+      "combined": {
+        "mean_coverage": {
+          "mean": 0.7892768688314995,
+          "p025": 0.7691233050429171,
+          "p975": 0.8017734607147121
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.7888698710285682,
+          "p025": 0.7686773819463987,
+          "p975": 0.8013905992260664
+        },
+        "p10_coverage": {
+          "mean": 0.740195556550071,
+          "p025": 0.6994427437268307,
+          "p975": 0.7617730351984048
+        },
+        "max_assignment_share": {
+          "mean": 0.3851951807228915,
+          "p025": 0.29212048192771084,
+          "p975": 0.5286746987951805
+        }
+      }
+    },
+    "8": {
+      "global": {
+        "mean_coverage": {
+          "mean": 0.9767057836055756,
+          "p025": 0.9736735567450523,
+          "p975": 0.9794333085417748
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.9766156256198884,
+          "p025": 0.973571640253067,
+          "p975": 0.9793537110090256
+        },
+        "p10_coverage": {
+          "mean": 0.9639385912418367,
+          "p025": 0.9589045062661171,
+          "p975": 0.9697206023335457
+        },
+        "max_assignment_share": {
+          "mean": 0.2903855421686747,
+          "p025": 0.17489156626506025,
+          "p975": 0.43185542168674695
+        }
+      },
+      "local": {
+        "mean_coverage": {
+          "mean": 0.6465201746175299,
+          "p025": 0.6252904383500698,
+          "p975": 0.6619785379886469
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.6451520862754596,
+          "p025": 0.6238401836363787,
+          "p975": 0.6606702788226619
+        },
+        "p10_coverage": {
+          "mean": 0.5745819376337366,
+          "p025": 0.5279181654907911,
+          "p975": 0.5986593155649995
+        },
+        "max_assignment_share": {
+          "mean": 0.24108433734939758,
+          "p025": 0.16263855421686746,
+          "p975": 0.3703493975903613
+        }
+      },
+      "combined": {
+        "mean_coverage": {
+          "mean": 0.8085097100651827,
+          "p025": 0.7964199632795025,
+          "p975": 0.8175195800250082
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.8077685769324454,
+          "p025": 0.7956320386386369,
+          "p975": 0.8168133181744707
+        },
+        "p10_coverage": {
+          "mean": 0.7682722440306118,
+          "p025": 0.7415910260366954,
+          "p975": 0.7820029896909628
+        },
+        "max_assignment_share": {
+          "mean": 0.24590843373493976,
+          "p025": 0.1743132530120482,
+          "p975": 0.3585542168674697
+        }
+      }
+    },
+    "16": {
+      "global": {
+        "mean_coverage": {
+          "mean": 0.9805893301963806,
+          "p025": 0.9792612716555595,
+          "p975": 0.9818986937403679
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.9804384964704513,
+          "p025": 0.9791001603007317,
+          "p975": 0.9817580416798591
+        },
+        "p10_coverage": {
+          "mean": 0.9701168993711472,
+          "p025": 0.9665434888005257,
+          "p975": 0.972489455640316
+        },
+        "max_assignment_share": {
+          "mean": 0.17244337349397587,
+          "p025": 0.1152409638554217,
+          "p975": 0.2550722891566264
+        }
+      },
+      "local": {
+        "mean_coverage": {
+          "mean": 0.6752800832806184,
+          "p025": 0.6653318008498025,
+          "p975": 0.687246873789475
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.6727567619268008,
+          "p025": 0.6627311737558719,
+          "p975": 0.6848165435226619
+        },
+        "p10_coverage": {
+          "mean": 0.6138352945286093,
+          "p025": 0.5932825577647222,
+          "p975": 0.6270813115303218
+        },
+        "max_assignment_share": {
+          "mean": 0.14542650602409635,
+          "p025": 0.10503614457831326,
+          "p975": 0.21333734939759033
+        }
+      },
+      "combined": {
+        "mean_coverage": {
+          "mean": 0.8242644852369776,
+          "p025": 0.818666696860356,
+          "p975": 0.8300831686888301
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.8228988864137975,
+          "p025": 0.8172575990284074,
+          "p975": 0.8287627854276205
+        },
+        "p10_coverage": {
+          "mean": 0.79005773126961,
+          "p025": 0.7782943427319748,
+          "p975": 0.7966638574642517
+        },
+        "max_assignment_share": {
+          "mean": 0.14746506024096387,
+          "p025": 0.10478313253012048,
+          "p975": 0.2143493975903614
+        }
+      }
+    },
+    "21": {
+      "global": {
+        "mean_coverage": {
+          "mean": 0.9817054033279419,
+          "p025": 0.9806888625025749,
+          "p975": 0.9825943559408188
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.9815183579921722,
+          "p025": 0.9804913982748985,
+          "p975": 0.98241635710001
+        },
+        "p10_coverage": {
+          "mean": 0.971799867630005,
+          "p025": 0.9690509121119976,
+          "p975": 0.9738463163375854
+        },
+        "max_assignment_share": {
+          "mean": 0.1400626506024096,
+          "p025": 0.09775903614457832,
+          "p975": 0.20339759036144578
+        }
+      },
+      "local": {
+        "mean_coverage": {
+          "mean": 0.684949605309251,
+          "p025": 0.676224975679994,
+          "p975": 0.6945247042948627
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.6817285447987809,
+          "p025": 0.6729147149639666,
+          "p975": 0.6914015391488998
+        },
+        "p10_coverage": {
+          "mean": 0.6256846653586631,
+          "p025": 0.6139821312276263,
+          "p975": 0.6368397689488391
+        },
+        "max_assignment_share": {
+          "mean": 0.12343132530120482,
+          "p025": 0.08910843373493976,
+          "p975": 0.18110843373493962
+        }
+      },
+      "combined": {
+        "mean_coverage": {
+          "mean": 0.8294899226955015,
+          "p025": 0.8244203070943861,
+          "p975": 0.8348526253273354
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.8277466357979738,
+          "p025": 0.8226251886466073,
+          "p975": 0.8331641664647295
+        },
+        "p10_coverage": {
+          "mean": 0.7964608222836975,
+          "p025": 0.7898768278515573,
+          "p975": 0.8024798893190941
+        },
+        "max_assignment_share": {
+          "mean": 0.12443855421686748,
+          "p025": 0.08745783132530122,
+          "p975": 0.185301204819277
+        }
+      }
+    },
+    "32": {
+      "global": {
+        "mean_coverage": {
+          "mean": 0.9832857811450958,
+          "p025": 0.9824055433273315,
+          "p975": 0.9838962331414223
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.9830239838361741,
+          "p025": 0.9821299761533737,
+          "p975": 0.9836440175771713
+        },
+        "p10_coverage": {
+          "mean": 0.9741733359098435,
+          "p025": 0.971995877623558,
+          "p975": 0.9755842113494873
+        },
+        "max_assignment_share": {
+          "mean": 0.09532048192771084,
+          "p025": 0.06983132530120482,
+          "p975": 0.13643373493975902
+        }
+      },
+      "local": {
+        "mean_coverage": {
+          "mean": 0.6990555246188954,
+          "p025": 0.6922879371449174,
+          "p975": 0.706104573763142
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.6943417589741595,
+          "p025": 0.687468169151103,
+          "p975": 0.7015012190692705
+        },
+        "p10_coverage": {
+          "mean": 0.641929238422278,
+          "p025": 0.6320161053663914,
+          "p975": 0.6484713134933636
+        },
+        "max_assignment_share": {
+          "mean": 0.09114216867469882,
+          "p025": 0.05971084337349398,
+          "p975": 0.1312530120481927
+        }
+      },
+      "combined": {
+        "mean_coverage": {
+          "mean": 0.8371100900441343,
+          "p025": 0.8333222152926508,
+          "p975": 0.841034905571544
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.8345587064838128,
+          "p025": 0.8307115012654958,
+          "p975": 0.8385449974430785
+        },
+        "p10_coverage": {
+          "mean": 0.8053160378053156,
+          "p025": 0.7984163542781567,
+          "p975": 0.8091191844395196
+        },
+        "max_assignment_share": {
+          "mean": 0.09165301204819276,
+          "p025": 0.06526506024096386,
+          "p975": 0.1327710843373493
+        }
+      }
+    },
+    "64": {
+      "global": {
+        "mean_coverage": {
+          "mean": 0.9855478715896606,
+          "p025": 0.9851170852780342,
+          "p975": 0.9859402343630791
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.9850879317522049,
+          "p025": 0.9846434116363525,
+          "p975": 0.9854927599430084
+        },
+        "p10_coverage": {
+          "mean": 0.9773723047971725,
+          "p025": 0.9761126101016998,
+          "p975": 0.978390970826149
+        },
+        "max_assignment_share": {
+          "mean": 0.05699759036144578,
+          "p025": 0.03926506024096386,
+          "p975": 0.07786746987951806
+        }
+      },
+      "local": {
+        "mean_coverage": {
+          "mean": 0.7217866230794248,
+          "p025": 0.7172169576444971,
+          "p975": 0.7268469945527257
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.7129324927348614,
+          "p025": 0.7082173978678924,
+          "p975": 0.7181539103415744
+        },
+        "p10_coverage": {
+          "mean": 0.6651469430384472,
+          "p025": 0.6596333559653256,
+          "p975": 0.6701366963458432
+        },
+        "max_assignment_share": {
+          "mean": 0.056159036144578296,
+          "p025": 0.04119277108433735,
+          "p975": 0.08826506024096382
+        }
+      },
+      "combined": {
+        "mean_coverage": {
+          "mean": 0.8493015623742757,
+          "p025": 0.846736723458449,
+          "p975": 0.8521433736038296
+        },
+        "unselected_mean_coverage": {
+          "mean": 0.8445055907279502,
+          "p025": 0.8418591258919439,
+          "p975": 0.8474378425832623
+        },
+        "p10_coverage": {
+          "mean": 0.817926040203044,
+          "p025": 0.8146075282421669,
+          "p975": 0.8209420279169976
+        },
+        "max_assignment_share": {
+          "mean": 0.05641927710843373,
+          "p025": 0.04045783132530121,
+          "p975": 0.09008433734939753
+        }
+      }
+    }
+  },
+  "stopping": {
+    "global_facility": {
+      "k": 14,
+      "reached_within_64": true,
+      "threshold": 0.01,
+      "normalizer": 0.028228700160980225
+    },
+    "global_local_facility": {
+      "k": 10,
+      "reached_within_64": true,
+      "threshold": 0.01,
+      "normalizer": 0.22083013377874827
+    }
+  },
+  "warning": "Optimized feature coverage is not independent validation and is not segmentation Dice. No propagation performed."
+}

@@ -1,0 +1,28 @@
+{
+  "proto": [
+    "top8",
+    "inside",
+    "inside_minus_ring",
+    "inside_std"
+  ],
+  "fgbg": [
+    "inside_contrast",
+    "inside_minus_ring",
+    "positive_fraction",
+    "anchor_fg_coverage"
+  ],
+  "mutual": [
+    "inside_reciprocal_fg",
+    "reciprocal_fg_minus_ring",
+    "mutual_contrast",
+    "mutual_fg_coverage"
+  ],
+  "image": [
+    "color_separation",
+    "boundary_gradient",
+    "boundary_vs_ring_gradient",
+    "inside_gradient",
+    "ring_gradient",
+    "solidity_proxy"
+  ]
+}

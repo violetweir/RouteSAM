@@ -1,0 +1,48 @@
+{
+  "time": 1789243464.2927659,
+  "selected_ids": [
+    "BUSI::benign (3)",
+    "BUSI::benign (125)",
+    "BUSI::benign (305)",
+    "BUSI::malignant (195)",
+    "BUSI::malignant (187)"
+  ],
+  "method": "global_local_facility",
+  "seed": 2026,
+  "trace": [
+    {
+      "k": 1,
+      "id": "BUSI::benign (3)",
+      "gain": 0.801642285329815,
+      "coverage": 0.8016422853298151
+    },
+    {
+      "k": 2,
+      "id": "BUSI::benign (125)",
+      "gain": 0.014874739730712154,
+      "coverage": 0.8165170250605273
+    },
+    {
+      "k": 3,
+      "id": "BUSI::benign (305)",
+      "gain": 0.007225992145980077,
+      "coverage": 0.8237430172065073
+    },
+    {
+      "k": 4,
+      "id": "BUSI::malignant (195)",
+      "gain": 0.004746345626864869,
+      "coverage": 0.8284893628333723
+    },
+    {
+      "k": 5,
+      "id": "BUSI::malignant (187)",
+      "gain": 0.003953549447176202,
+      "coverage": 0.8324429122805486
+    }
+  ],
+  "mask_pixels_read_before_freeze": 0,
+  "train_only": true,
+  "eligible_count": 516,
+  "features_sha256": "3488713fe8bafbd769de90bd02a8e212aa341d3287c6d076b3aa99c721b4e1bd"
+}

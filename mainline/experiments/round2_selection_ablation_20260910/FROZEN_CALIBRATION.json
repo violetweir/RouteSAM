@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "A0": {
+      "threshold": 0.97,
+      "count": 34,
+      "mean_dice": 0.9585829559669651,
+      "quality_target_met": true
+    },
+    "A1": {
+      "threshold": 0.92,
+      "count": 57,
+      "mean_dice": 0.9521338215209092,
+      "quality_target_met": true
+    },
+    "A2": {
+      "threshold": 0.0,
+      "count": 37,
+      "mean_dice": 0.9578209575910795,
+      "quality_target_met": true
+    }
+  },
+  "chosen_training_alternative": "A1"
+}

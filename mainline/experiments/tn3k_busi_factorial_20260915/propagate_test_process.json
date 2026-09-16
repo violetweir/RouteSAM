@@ -1,0 +1,22 @@
+{
+  "pid": 1500384,
+  "cmd": [
+    "/home/violet/anaconda3/envs/sam3/bin/python",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/code/eval_route_propagation_quality.py",
+    "--checkpoint",
+    "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+    "--mode",
+    "sam3enc_anchor_conditioned_target_pooling",
+    "--root",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/quality_root",
+    "--split",
+    "test",
+    "--canvas",
+    "256",
+    "--no-target-gt",
+    "--resume"
+  ],
+  "gpu": "1",
+  "time": 1789470998.2142363,
+  "log": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/logs/propagate_test.log"
+}

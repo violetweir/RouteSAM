@@ -1,0 +1,19 @@
+{
+  "candidate_union": 5547,
+  "reused": 2326,
+  "missing": 3221,
+  "snapshots": [
+    {
+      "source": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/isic2018_auto21_tp_validation_20260911/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_validation/propagation_quality.jsonl",
+      "read_sha256": "f86b6853b6a82074968654feb665d71974aab023b94cc539f5c14920562c9554",
+      "snapshot": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/cross_dataset_calibration_factorial_20260914/isic2018/snapshots/validation_source0.jsonl",
+      "snapshot_sha256": "f86b6853b6a82074968654feb665d71974aab023b94cc539f5c14920562c9554"
+    },
+    {
+      "source": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/reproduction_guides/automatic_selection_20260914/P1_pilot_20260914/isic2018/quality_root/sam3enc_anchor_conditioned_target_pooling/propagation_quality_validation/propagation_quality.jsonl",
+      "read_sha256": "c7588c2429e1f6b15b06262d77acd8102dc5f6beb518cf2d7f60461ecf0a31ad",
+      "snapshot": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/cross_dataset_calibration_factorial_20260914/isic2018/snapshots/validation_source1.jsonl",
+      "snapshot_sha256": "c7588c2429e1f6b15b06262d77acd8102dc5f6beb518cf2d7f60461ecf0a31ad"
+    }
+  ]
+}

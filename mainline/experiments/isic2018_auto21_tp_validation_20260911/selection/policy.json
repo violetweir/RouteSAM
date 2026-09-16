@@ -1,0 +1,27 @@
+{
+  "primary_budget": 21,
+  "budget_curve": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    21,
+    32,
+    64
+  ],
+  "seed": 2026,
+  "random_replicates": 100,
+  "selection_inputs": "only train RGB SAM3-base patch_mean and raw tokens; no GT, pseudo masks, conditioned features, val/test features or metrics",
+  "methods": [
+    "global_facility",
+    "global_local_facility"
+  ],
+  "local_features": "64 visual token clusters learned from 64 spatially uniform tokens/image; Hellinger histogram, train-only IDF",
+  "similarity": "0.5 max(global_cosine,0)+0.5 histogram_cosine",
+  "objective": "greedy maximize mean nearest-selected similarity; stable id tie-break",
+  "duplicates": "exact image-file SHA256 duplicates excluded from candidate set; no manual exclusion",
+  "mask_access": "only after all selections and stopping results frozen; export selected GT for post-selection audit",
+  "automatic_stop": "exploratory: gain/initial_single_anchor_distortion <0.01 for three consecutive additions, range4..64; no claim this ensures segmentation saturation",
+  "test_used": false
+}

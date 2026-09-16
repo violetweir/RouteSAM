@@ -1,0 +1,15 @@
+{
+  "beam_width": 32,
+  "feature_size": 1008,
+  "feature_source": "sam3_base",
+  "k_anchors": 3,
+  "max_bridge": 2,
+  "mode": "sam3enc_lesion",
+  "mode_key": "sam3enc_lesion_c3",
+  "n_skip_target": 0,
+  "n_targets": 100,
+  "routes": 1500,
+  "rule_note": "identical generation for validation and test (frozen)",
+  "split": "test",
+  "top_beams": 2
+}

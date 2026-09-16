@@ -1,0 +1,42 @@
+{
+  "selected_ids": [
+    "BUSI::benign (3)",
+    "BUSI::benign (125)",
+    "BUSI::benign (305)",
+    "BUSI::malignant (195)",
+    "BUSI::malignant (187)"
+  ],
+  "selection_sha256": "8d2af1694143f55b8af1051e4450aa3f9c709d2477a5bf18e3b5b4ee031f431c",
+  "audit": [
+    {
+      "id": "BUSI::benign (3)",
+      "foreground_fraction": 0.02671810910972612,
+      "mask_sha256": "ef0ff4650ef083a16dab15fd31122e6cd29242317ec71a1078cc13c9f0fa5c50",
+      "image_sha256": "35bc400991087c0582b34caa751794b14941a879f931db35844c8308f35d6ddc"
+    },
+    {
+      "id": "BUSI::benign (125)",
+      "foreground_fraction": 0.011225078266600758,
+      "mask_sha256": "156d6a8af43fb039c7f98964d3b7c5f0906f706bec308e6480fc3caf00f454dc",
+      "image_sha256": "56c8dbbcbda427dbf2c093354e26cd1d02ba9c4d30ba2661035b3d56e883c1b7"
+    },
+    {
+      "id": "BUSI::benign (305)",
+      "foreground_fraction": 0.02309211469929499,
+      "mask_sha256": "8b9c1083940e12db5dbf5f5c02ac71a32917360e455d5b7d8d83e46373d5d9ae",
+      "image_sha256": "3b7ff96ed859b9b16d14a64618f6d1b68fe1fe862ea802e7db3e7eacfb3e116f"
+    },
+    {
+      "id": "BUSI::malignant (195)",
+      "foreground_fraction": 0.1770697012802276,
+      "mask_sha256": "eae46e3673858ba0792cb0ecc9b596deb6c87110f970171d05579fb1b419a241",
+      "image_sha256": "d91da657d129d5205cf152e7c7195c45af8d198a0c97d2f1bf8348df4df08160"
+    },
+    {
+      "id": "BUSI::malignant (187)",
+      "foreground_fraction": 0.12178760963074689,
+      "mask_sha256": "ec2a0718c1e483448fabd6b915549c7e3ef685f8b95b76f5778d6acabc51ef69",
+      "image_sha256": "24566b56ba64b4cd346438d4c5992bf26a4e706835ce1d60663f1e2aba8f1bad"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "policy_edge_cases_passed": true,
+  "A_not_vetoed_by_student": true,
+  "B_requires_both_models": true,
+  "historical_membership_not_used": true,
+  "all792_decisions_recomputed": true,
+  "all_training_hashes_verified": true,
+  "train_count": 628,
+  "pseudo_count": 620,
+  "GT_count": 8,
+  "unique_images_in_real_epoch": 628,
+  "batches_per_epoch": 53,
+  "last_batch_size": 4,
+  "total_iterations": 43248,
+  "same_initial_tensors_verified": true,
+  "equal_per_image_loss": true,
+  "cuda_smoke_finite": true
+}

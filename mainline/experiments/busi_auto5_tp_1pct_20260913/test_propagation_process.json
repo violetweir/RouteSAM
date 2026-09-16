@@ -1,0 +1,18 @@
+{
+  "pid": 3558148,
+  "cmd": [
+    "/home/violet/anaconda3/envs/sam3/bin/python",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/busi_auto5_tp_1pct_20260913/code/eval_route_propagation_quality.py",
+    "--checkpoint",
+    "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+    "--mode",
+    "sam3enc_anchor_conditioned_target_pooling",
+    "--root",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/busi_auto5_tp_1pct_20260913/quality_root",
+    "--split",
+    "test",
+    "--canvas",
+    "256",
+    "--no-target-gt"
+  ]
+}

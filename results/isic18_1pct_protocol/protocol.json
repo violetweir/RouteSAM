@@ -1,0 +1,26 @@
+{
+  "source_data_root": "/Data_8TB/lht/MK-UNet/data/ISIC18",
+  "prepared_data_root": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_1pct_protocol/data",
+  "seed": 2026,
+  "selection_rule": "sort train/images by filename, sample round(0.01*N) without replacement using numpy.default_rng(seed), then sort selected indices",
+  "train_images": 2075,
+  "validation_images": 259,
+  "test_images": 260,
+  "labeled_count": 21,
+  "labeled_fraction": 0.010120481927710843,
+  "labeled_list": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/isic18_1pct_protocol/isic18_train1pct_labeled_images.txt",
+  "labeled_sha256": "f14aeba3c6f62a69ea00e98ce623d8af1a2d710143a28090ef2ca6e0e73c489f",
+  "first_labeled": [
+    "ISIC_0000080.png",
+    "ISIC_0000231.png",
+    "ISIC_0000299.png",
+    "ISIC_0000527.png",
+    "ISIC_0001100.png",
+    "ISIC_0010057.png",
+    "ISIC_0010443.png",
+    "ISIC_0010477.png",
+    "ISIC_0010552.png",
+    "ISIC_0012201.png"
+  ],
+  "labeled_paths_are_prepared_symlinks": true
+}

@@ -1,0 +1,40 @@
+{
+  "final_iteration": 40000,
+  "best_iteration": 32400,
+  "best_validation_dice": 0.8201518646323901,
+  "best_validation": {
+    "count": 100,
+    "dice": 0.8201518646323901,
+    "iou": 0.7356775989709157,
+    "nonempty_rate": 1.0,
+    "mean_area": 0.11359756469726562,
+    "by_dataset": {
+      "kvasir-seg": {
+        "count": 100,
+        "dice": 0.8201518646323901,
+        "iou": 0.7356775989709157,
+        "nonempty_rate": 1.0,
+        "mean_area": 0.11359756469726562
+      }
+    }
+  },
+  "test": {
+    "count": 100,
+    "dice": 0.8550423417382546,
+    "iou": 0.7714854158669978,
+    "nonempty_rate": 1.0,
+    "mean_area": 0.13244873046875,
+    "by_dataset": {
+      "kvasir-seg": {
+        "count": 100,
+        "dice": 0.8550423417382546,
+        "iou": 0.7714854158669978,
+        "nonempty_rate": 1.0,
+        "mean_area": 0.13244873046875
+      }
+    }
+  },
+  "checkpoint": "work/rerun_c0_256_sam3knn_s256_base/students/S2/student_best.pth",
+  "final_checkpoint": "work/rerun_c0_256_sam3knn_s256_base/students/S2/student_final.pth",
+  "test_evaluations_during_training": 0
+}

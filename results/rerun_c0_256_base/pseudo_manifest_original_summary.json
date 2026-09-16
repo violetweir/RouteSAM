@@ -1,0 +1,27 @@
+{
+  "accepted": 386,
+  "q_multi": {
+    "max": 0.9990385154135034,
+    "mean": 0.983192295072406,
+    "median": 0.9902985509473597,
+    "min": 0.9049327203937455
+  },
+  "q_return": {
+    "mean": 0.9674459539003373,
+    "median": 0.9686331982830134,
+    "min": 0.95
+  },
+  "selected_counts": {
+    "anchor_conditioned_patch_correspondence:bridge_3": 74,
+    "anchor_conditioned_patch_correspondence:bridge_4": 45,
+    "anchor_conditioned_patch_correspondence:bridge_5": 46,
+    "anchor_conditioned_patch_correspondence:bridge_6": 82,
+    "anchor_conditioned_target_pooling:bridge_3": 27,
+    "anchor_conditioned_target_pooling:bridge_4": 16,
+    "anchor_conditioned_target_pooling:bridge_5": 37,
+    "anchor_conditioned_target_pooling:bridge_6": 59
+  },
+  "tau_multi": 0.9,
+  "tau_return": 0.95,
+  "total_targets": 792
+}

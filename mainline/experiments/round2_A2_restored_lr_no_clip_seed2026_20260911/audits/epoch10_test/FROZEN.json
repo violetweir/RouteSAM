@@ -1,0 +1,14 @@
+{
+  "epoch": 10,
+  "seed": 2026,
+  "checkpoint_sha256": "981d40b840825bbf00670c2429064b2bcb6c674636af8ae22bbe3951002a5aeb",
+  "validation": {
+    "count": 100,
+    "dice": 0.868210196826744,
+    "iou": 0.8034315452224056
+  },
+  "prompt": "colon polyp",
+  "input": "original1008",
+  "metric": 256,
+  "reason": "User requested final checkpoint test; diagnostic, does not replace validation-selected best"
+}

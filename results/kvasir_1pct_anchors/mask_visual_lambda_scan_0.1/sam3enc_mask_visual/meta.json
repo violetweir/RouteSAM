@@ -1,0 +1,13 @@
+{
+  "beam_width": 32,
+  "dinov3_model": "vits16",
+  "feature_size": 1008,
+  "feature_source": "dinov3_vits16",
+  "knn_feature": "patch_mean",
+  "max_bridge": 6,
+  "min_bridge": 0,
+  "mode": "sam3enc_mask_visual",
+  "mode_key": "sam3enc_mask_visual",
+  "routes": 700,
+  "split": "test"
+}

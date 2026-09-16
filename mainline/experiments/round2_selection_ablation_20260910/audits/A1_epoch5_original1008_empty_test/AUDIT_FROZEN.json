@@ -1,0 +1,15 @@
+{
+  "arm": "A1",
+  "epoch": 5,
+  "source": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_selection_ablation_20260910/runs/A1/epoch5.pt",
+  "checkpoint_sha256": "2c3b29157bc93871f2270ba31a242f18f26273ed9d5148153721b4cfc8fa7e2f",
+  "validation_effective256_reference": {
+    "count": 100,
+    "dice": 0.8837924227833185,
+    "iou": 0.8231048440324664
+  },
+  "reason": "User requested original1008 empty-text test for the same A1 epoch5 checkpoint",
+  "role": "diagnostic; does not change validation-based final checkpoint selection",
+  "protocol": "single image, empty text string, original image directly resized to 1008; metrics256, no points/boxes/TP/Router/B7",
+  "training_policy": "Independent diagnostic only; does not alter currently running trainings"
+}

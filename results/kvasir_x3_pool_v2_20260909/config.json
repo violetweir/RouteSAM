@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-09-09T20:47:37.108667+08:00",
+  "source_run": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909",
+  "teacher_pool": 580,
+  "teacher_fix": "align all batch fields by is_labeled before computing sliced supervised and pseudo losses",
+  "teacher_training": "same frozen 580 hard/soft pools, same seed and 40k schedule; only supervision partition fix",
+  "x3": "new uniform quality-driven pool; 6 GT + 6 pseudo; manifest absolute weights; unified soft loss; fresh initialization",
+  "scope": "fixed S2/S3 -> all-train exports -> unified 792-target pool -> X3 40k -> validation only",
+  "test_evaluated": false,
+  "source_code_sha256": "e6ad87c0606c7d308c12ae488e32f0e7411afd183b5afc4fcfdb4bde034d0a08",
+  "fixed_code_sha256": "84e5618646bf480b5935982d447fb9514a5f6f8350f9505f711232cb28b12b28"
+}

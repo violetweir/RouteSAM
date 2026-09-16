@@ -1,0 +1,21 @@
+{
+  "name": "A0 second training run",
+  "data_pool": "original A0 fixed428 pseudo+8GT",
+  "epochs": 10,
+  "batch_size": 1,
+  "equal_weights": true,
+  "base_initialization": "original SAM3-base and same initial LoRA as old A0",
+  "learning_rate": 5e-05,
+  "min_learning_rate": 5e-07,
+  "scheduler": "CosineAnnealingLR each optimizer update",
+  "total_steps": 4360,
+  "max_grad_norm": 1.0,
+  "warmup": false,
+  "accumulation": false,
+  "input": "original RGB directly bilinear resize to1008",
+  "labels": "same frozen selected masks; nearest resize directly to1008, GT8 use original GT",
+  "validation": "100 images every epoch, Dice256 selection",
+  "test": "best validation weights, original RGB to1008, Dice256",
+  "comparison_note": "Input resolution, cosine and clipping change together; not isolated causal ablation",
+  "old_A0_status": "stopped by user during epoch8; best epoch2 retained"
+}

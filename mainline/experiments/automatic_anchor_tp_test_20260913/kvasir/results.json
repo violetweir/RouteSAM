@@ -1,0 +1,169 @@
+{
+  "dataset": "kvasir",
+  "results": {
+    "automatic": {
+      "n": 100,
+      "fixed_bridge": {
+        "0": {
+          "n": 100,
+          "dice": 0.804709753108419,
+          "iou": 0.7407988112459003,
+          "q_cycle": 0.8131697905826359
+        },
+        "1": {
+          "n": 100,
+          "dice": 0.8638043068739126,
+          "iou": 0.8027667172914277,
+          "q_cycle": 0.8417887013162866
+        },
+        "2": {
+          "n": 100,
+          "dice": 0.8583856496037491,
+          "iou": 0.7937060252251726,
+          "q_cycle": 0.8668299654731235
+        },
+        "3": {
+          "n": 100,
+          "dice": 0.8625558643947872,
+          "iou": 0.7989981570804418,
+          "q_cycle": 0.8791309397053433
+        },
+        "4": {
+          "n": 100,
+          "dice": 0.8747491095566025,
+          "iou": 0.8122289802732806,
+          "q_cycle": 0.8805949945031719
+        },
+        "5": {
+          "n": 100,
+          "dice": 0.8653317015152764,
+          "iou": 0.8016729420963172,
+          "q_cycle": 0.8751037978618048
+        },
+        "6": {
+          "n": 100,
+          "dice": 0.8870694610620593,
+          "iou": 0.8254525007302635,
+          "q_cycle": 0.8803596455117976
+        }
+      },
+      "oracle_dice": 0.9176152734859528,
+      "source_counts": {
+        "kvasir-seg::cju5vi4nxlc530817uoqm2m7a": 259,
+        "kvasir-seg::cju2t62nq45jl0799odpufwx6": 121,
+        "kvasir-seg::cju8dpa89u6l80818dj6lldh9": 121,
+        "kvasir-seg::cju42xpi8lw4w0871ve317a1p": 36,
+        "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 101,
+        "kvasir-seg::cju7ajnbo1gvm098749rdouk0": 47,
+        "kvasir-seg::cju3v664kh0px0818y4y7wolf": 14,
+        "kvasir-seg::cju2wxv0hxs2f09884w48v8fi": 1
+      }
+    },
+    "original": {
+      "n": 100,
+      "fixed_bridge": {
+        "0": {
+          "n": 100,
+          "dice": 0.7981444721228581,
+          "iou": 0.739433792582339,
+          "q_cycle": 0.8564117881864189
+        },
+        "1": {
+          "n": 100,
+          "dice": 0.8466233889550897,
+          "iou": 0.7833117570717438,
+          "q_cycle": 0.868033522263191
+        },
+        "2": {
+          "n": 100,
+          "dice": 0.8700318328767382,
+          "iou": 0.8064105812253998,
+          "q_cycle": 0.8995184378079647
+        },
+        "3": {
+          "n": 100,
+          "dice": 0.8622534055278502,
+          "iou": 0.8005414459143085,
+          "q_cycle": 0.9168525182019335
+        },
+        "4": {
+          "n": 100,
+          "dice": 0.8739296962950519,
+          "iou": 0.8138994035873407,
+          "q_cycle": 0.9248608676084735
+        },
+        "5": {
+          "n": 100,
+          "dice": 0.8695517675483742,
+          "iou": 0.8084534016879137,
+          "q_cycle": 0.9390412364460096
+        },
+        "6": {
+          "n": 100,
+          "dice": 0.8740038539958411,
+          "iou": 0.8117786585871509,
+          "q_cycle": 0.937421196323364
+        }
+      },
+      "oracle_dice": 0.9074262547898724,
+      "source_counts": {
+        "kvasir-seg::cju7aklv31h4309871m29l4e7": 200,
+        "kvasir-seg::cju2pmhtr17a00855cvpelzb0": 38,
+        "kvasir-seg::cju1c4fcu40hl07992b8gj0c8": 397,
+        "kvasir-seg::cju34ymm8d6700799uop0cw33": 36,
+        "kvasir-seg::cju3v72v5h1qz0818fggilwtq": 7,
+        "kvasir-seg::cju5cu8qkb84x08186jwo8yin": 22
+      }
+    }
+  },
+  "comparison": {
+    "oracle_delta": 0.010189018696080389,
+    "oracle_ci95": [
+      -0.0069199045914353505,
+      0.02902944494519873
+    ]
+  },
+  "policy": {
+    "dataset": "kvasir",
+    "source": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/auto8_tp_validation_20260911",
+    "selected_ids": [
+      "kvasir-seg::cju2wxv0hxs2f09884w48v8fi",
+      "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+      "kvasir-seg::cju42xpi8lw4w0871ve317a1p",
+      "kvasir-seg::cju5vi4nxlc530817uoqm2m7a",
+      "kvasir-seg::cju3v664kh0px0818y4y7wolf",
+      "kvasir-seg::cju8dpa89u6l80818dj6lldh9",
+      "kvasir-seg::cju2t62nq45jl0799odpufwx6",
+      "kvasir-seg::cju7ajnbo1gvm098749rdouk0"
+    ],
+    "k": 8,
+    "split_counts": {
+      "ntrain": 800,
+      "nval": 100,
+      "ntest": 100
+    },
+    "base": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+    "base_sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+    "gpu": 1,
+    "selection_feature_size": 1008,
+    "knn_feature_size": 256,
+    "canvas": 256,
+    "beam_width": 32,
+    "knn": "patch_mean",
+    "bridges": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "primary": "all seven fixed bridge test metrics",
+    "router": "disabled per user request",
+    "no_student": true,
+    "no_lora": true,
+    "test_gt_for_inference": false,
+    "feature_cache_extension": "retain all previous train/validation entries exactly; extract support+test for prototype check then append only test columns"
+  }
+}

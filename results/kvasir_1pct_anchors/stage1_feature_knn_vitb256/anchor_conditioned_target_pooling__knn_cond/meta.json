@@ -1,0 +1,12 @@
+{
+  "beam_width": 32,
+  "dinov3_model": "vitb16",
+  "feature_size": 256,
+  "knn_feature": "cond",
+  "max_bridge": 6,
+  "min_bridge": 0,
+  "mode": "anchor_conditioned_target_pooling",
+  "mode_key": "anchor_conditioned_target_pooling__knn_cond",
+  "routes": 700,
+  "split": "validation"
+}

@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-08-16T00:54:07",
+  "excluded_anchor_ids": [
+    "kvasir-seg::cju8bj2ssrmlm0871gc2ug2rs",
+    "kvasir-seg::cjyzkpsbjdsjq07211dfi4sru",
+    "kvasir-seg::cju34ymm8d6700799uop0cw33",
+    "kvasir-seg::cju5cu8qkb84x08186jwo8yin",
+    "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "kvasir-seg::cju2pmhtr17a00855cvpelzb0",
+    "kvasir-seg::cju3v72v5h1qz0818fggilwtq"
+  ],
+  "experiment": "sam3enc_1008_anchor_count_ablation",
+  "feature_size": 1008,
+  "feature_source": "sam3_base",
+  "full_ordered_ids": [
+    "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "kvasir-seg::cju8bj2ssrmlm0871gc2ug2rs",
+    "kvasir-seg::cjyzkpsbjdsjq07211dfi4sru",
+    "kvasir-seg::cju34ymm8d6700799uop0cw33",
+    "kvasir-seg::cju5cu8qkb84x08186jwo8yin",
+    "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "kvasir-seg::cju2pmhtr17a00855cvpelzb0",
+    "kvasir-seg::cju3v72v5h1qz0818fggilwtq"
+  ],
+  "knn_feature": "cond",
+  "mode": "sam3enc_anchor_conditioned_target_pooling",
+  "n_anchors": 1,
+  "seed": 7,
+  "selected_anchor_ids": [
+    "kvasir-seg::cju1c4fcu40hl07992b8gj0c8"
+  ],
+  "selected_anchor_mask_paths": [
+    "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T02_fresh_polyp_hf_sources/raw_hf_snapshots/kvasir-seg/snapshot/train/masks/cju1c4fcu40hl07992b8gj0c8.png"
+  ],
+  "selection_algorithm": "numpy default_rng(seed).permutation over merged_id-sorted anchors, keep first N (nested)",
+  "support_manifest_path": "work/kvasir_1pct_anchors/stage1_feature_knn_sam3enc_s1008_anchor_ablation/n1_s7/protocol/support_manifest_n1.jsonl"
+}

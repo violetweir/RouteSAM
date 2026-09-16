@@ -1,0 +1,27 @@
+{
+  "argv": [
+    "/home/violet/anaconda3/envs/mkunet_mamba/bin/python",
+    "-u",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/code/run_t24_student.py",
+    "--data-path",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_1pct_anchors/baseline_data",
+    "--labeled-list",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/protocol/frozen_labeled_images.txt",
+    "--seed",
+    "2026",
+    "--max-iterations",
+    "40000",
+    "--val-interval",
+    "200",
+    "--num-workers",
+    "4",
+    "--pseudo-manifest",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/S3_consensus/pseudo_consensus.jsonl",
+    "--output-dir",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_student_mainline_20260907/students/S3",
+    "--experiment",
+    "S3",
+    "--defer-test"
+  ],
+  "gpu": 0
+}

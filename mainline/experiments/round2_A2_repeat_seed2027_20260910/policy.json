@@ -1,0 +1,16 @@
+{
+  "seed": 2027,
+  "old_seed": 2026,
+  "only_training_change": "LoRA initialization, dropout and epoch shuffle random seed; split and pool fixed",
+  "pseudo": 503,
+  "gt": 8,
+  "epochs": 10,
+  "input": "original1008",
+  "lr": "cosine5e-5 to5e-7",
+  "clip": 1.0,
+  "batch": 1,
+  "old_directory": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A1_A2_cosine_clip_original1008_20260910",
+  "old_artifacts": "read only, new output directory",
+  "test": "full100 colon polyp primary, empty diagnostic after validation-best frozen",
+  "inference_repeat": "old A2 best checkpoint evaluated again independently"
+}

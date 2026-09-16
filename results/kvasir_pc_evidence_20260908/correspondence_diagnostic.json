@@ -1,0 +1,22 @@
+{
+  "valid_images": 100,
+  "excluded_no_positive_or_negative_patches": 0,
+  "mean_per_image_patch_AUC": {
+    "prototype_auc": 0.8346136408180174,
+    "fg_bg_auc": 0.8936297328278109,
+    "mutual_fg_auc": 0.7208183288592223,
+    "mutual_contrast_auc": 0.7455721005068692
+  },
+  "scope": "GT-only diagnostic, 18x18 grid, OOF TP selected anchors; not mask Dice or deployable oracle",
+  "cpu_vs_old_gpu_anchor_prototype_cosines": [
+    0.9999471653878617,
+    0.9999299672140378,
+    0.9998617840986377,
+    0.9999618151352012,
+    0.999969937355298,
+    0.9998694787460082,
+    0.9999553446272681,
+    0.9999772852463475
+  ],
+  "token_files": 108
+}

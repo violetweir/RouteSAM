@@ -1,0 +1,118 @@
+{
+  "experiment": "filter candidates before Router",
+  "initial_pool": 580,
+  "committee": {
+    "original_area_quantiles": {
+      "q01": 0.0138189697265625,
+      "q99": 0.329725036621094
+    },
+    "pixel_consensus": {
+      "beta_route": 5.0,
+      "beta_student": 5.0,
+      "pseudo_sam3_weight": 0.75,
+      "pseudo_student_weight": 0.25,
+      "w_final_clip": [
+        0.05,
+        1.0
+      ]
+    },
+    "remaining_count": 212,
+    "route_count": 1484,
+    "score": {
+      "q_model_committee_mean": 0.8,
+      "q_multi": 0.2
+    },
+    "tier_counts": {
+      "A": 21,
+      "B": 75,
+      "C": 116
+    }
+  },
+  "x3_pool": {
+    "original": 580,
+    "tier_a": 21,
+    "tier_b": 75
+  },
+  "validation": {
+    "count": 100,
+    "selected_dice": 0.8515469965886338,
+    "selected_iou": 0.7868312824159969,
+    "oracle": 0.869544177933916,
+    "student_direct_dice": 0.819411112331771,
+    "student_direct_iou": 0.7370663031109075,
+    "bridge_counts": {
+      "2": 9,
+      "0": 10,
+      "3": 17,
+      "6": 26,
+      "4": 13,
+      "5": 14,
+      "1": 11
+    }
+  },
+  "test": {
+    "count": 100,
+    "selected_dice": 0.8908459204569285,
+    "selected_iou": 0.8315643142721971,
+    "oracle": 0.9074262547898724,
+    "student_direct_dice": 0.8536665234665946,
+    "student_direct_iou": 0.7727616098825315,
+    "bridge_counts": {
+      "2": 7,
+      "3": 14,
+      "6": 17,
+      "4": 21,
+      "1": 9,
+      "5": 24,
+      "0": 8
+    }
+  },
+  "validation_vs_448_B7": {
+    "mean_delta": 0.011857041288969037,
+    "ci95": [
+      -0.0007385884524313206,
+      0.029837381542434784
+    ],
+    "wins": 14,
+    "losses": 15,
+    "ties": 71
+  },
+  "test_vs_448_B7": {
+    "mean_delta": -0.0017934675579060844,
+    "ci95": [
+      -0.0053901548770784605,
+      0.0015393494035147249
+    ],
+    "wins": 14,
+    "losses": 14,
+    "ties": 72
+  },
+  "test_X3_vs_448_X3": {
+    "mean_delta": -0.013494549037573491,
+    "ci95": [
+      -0.027367729044171535,
+      -0.0010825941884990088
+    ],
+    "wins": 38,
+    "losses": 62,
+    "ties": 0
+  },
+  "old_448_results": {
+    "count": 100,
+    "selected_dice": 0.8926393880148344,
+    "selected_iou": 0.8344675688282003,
+    "oracle": 0.9074262547898724,
+    "student_direct_dice": 0.8671610725041679,
+    "student_direct_iou": 0.7869509798244329,
+    "bridge_counts": {
+      "2": 11,
+      "3": 15,
+      "6": 18,
+      "4": 13,
+      "0": 8,
+      "5": 24,
+      "1": 11
+    }
+  },
+  "single_TP_router_test": 0.8854326463411542
+}

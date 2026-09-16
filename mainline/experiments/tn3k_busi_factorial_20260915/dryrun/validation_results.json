@@ -1,0 +1,1085 @@
+{
+  "n": 23,
+  "groups": {
+    "raw_top1": {
+      "candidates_per_target": 7,
+      "oof_dice": 0.5299837725936704,
+      "oracle_dice": 0.5954722854336554,
+      "oracle_gap": 0.06548851283998502,
+      "selected_anchors": {
+        "TN3K::trainval::1684": 21,
+        "TN3K::trainval::0116": 1,
+        "TN3K::trainval::2708": 1
+      },
+      "selected_bridges": {
+        "3": 3,
+        "1": 3,
+        "2": 3,
+        "5": 4,
+        "0": 4,
+        "4": 6
+      },
+      "candidate_anchors": {
+        "TN3K::trainval::1684": 147,
+        "TN3K::trainval::0116": 7,
+        "TN3K::trainval::2708": 7
+      },
+      "fixed_rank1_b0_b6": [
+        0.4079225373833672,
+        0.4209803467513811,
+        0.37531936836049196,
+        0.4712871768030406,
+        0.44283801567623704,
+        0.39368989874583393,
+        0.4526139052340625
+      ]
+    },
+    "centered_top1": {
+      "candidates_per_target": 7,
+      "oof_dice": 0.5050066112137058,
+      "oracle_dice": 0.5828670170336363,
+      "oracle_gap": 0.07786040581993048,
+      "selected_anchors": {
+        "TN3K::trainval::0302": 2,
+        "TN3K::trainval::0854": 3,
+        "TN3K::trainval::0116": 2,
+        "TN3K::trainval::2488": 2,
+        "TN3K::trainval::1746": 2,
+        "TN3K::trainval::1269": 3,
+        "TN3K::trainval::2383": 1,
+        "TN3K::trainval::0159": 2,
+        "TN3K::trainval::1334": 1,
+        "TN3K::trainval::2214": 2,
+        "TN3K::trainval::0378": 1,
+        "TN3K::trainval::2429": 1,
+        "TN3K::trainval::0479": 1
+      },
+      "selected_bridges": {
+        "6": 3,
+        "3": 3,
+        "1": 2,
+        "5": 4,
+        "4": 7,
+        "0": 3,
+        "2": 1
+      },
+      "candidate_anchors": {
+        "TN3K::trainval::0302": 14,
+        "TN3K::trainval::0854": 21,
+        "TN3K::trainval::0116": 14,
+        "TN3K::trainval::2488": 14,
+        "TN3K::trainval::1746": 14,
+        "TN3K::trainval::1269": 21,
+        "TN3K::trainval::2383": 7,
+        "TN3K::trainval::0159": 14,
+        "TN3K::trainval::1334": 7,
+        "TN3K::trainval::2214": 14,
+        "TN3K::trainval::0378": 7,
+        "TN3K::trainval::2429": 7,
+        "TN3K::trainval::0479": 7
+      },
+      "fixed_rank1_b0_b6": [
+        0.4503604926635579,
+        0.4262809935171194,
+        0.5018264605727798,
+        0.5160603866619295,
+        0.521547722030685,
+        0.5023183638385137,
+        0.49123980387084115
+      ]
+    },
+    "raw_top2": {
+      "candidates_per_target": 14,
+      "oof_dice": 0.4806129841946559,
+      "oracle_dice": 0.6606887749322111,
+      "oracle_gap": 0.1800757907375552,
+      "selected_anchors": {
+        "TN3K::trainval::2708": 4,
+        "TN3K::trainval::1684": 17,
+        "TN3K::trainval::0116": 2
+      },
+      "selected_bridges": {
+        "4": 4,
+        "1": 4,
+        "5": 4,
+        "0": 4,
+        "6": 4,
+        "3": 3
+      },
+      "candidate_anchors": {
+        "TN3K::trainval::1684": 161,
+        "TN3K::trainval::2708": 133,
+        "TN3K::trainval::0116": 21,
+        "TN3K::trainval::0302": 7
+      },
+      "fixed_rank1_b0_b6": [
+        0.4079225373833672,
+        0.4209803467513811,
+        0.37531936836049196,
+        0.4712871768030406,
+        0.44283801567623704,
+        0.39368989874583393,
+        0.4526139052340625
+      ]
+    },
+    "centered_top2": {
+      "candidates_per_target": 14,
+      "oof_dice": 0.6648190920751984,
+      "oracle_dice": 0.7155164508223176,
+      "oracle_gap": 0.050697358747119226,
+      "selected_anchors": {
+        "TN3K::trainval::0302": 5,
+        "TN3K::trainval::0854": 2,
+        "TN3K::trainval::0159": 3,
+        "TN3K::trainval::0116": 2,
+        "TN3K::trainval::1746": 3,
+        "TN3K::trainval::0378": 3,
+        "TN3K::trainval::2383": 1,
+        "TN3K::trainval::1334": 1,
+        "TN3K::trainval::2214": 1,
+        "TN3K::trainval::2429": 1,
+        "TN3K::trainval::1423": 1
+      },
+      "selected_bridges": {
+        "5": 4,
+        "3": 5,
+        "2": 5,
+        "1": 3,
+        "6": 3,
+        "0": 1,
+        "4": 2
+      },
+      "candidate_anchors": {
+        "TN3K::trainval::0302": 35,
+        "TN3K::trainval::0479": 14,
+        "TN3K::trainval::0854": 21,
+        "TN3K::trainval::1269": 42,
+        "TN3K::trainval::0159": 28,
+        "TN3K::trainval::0116": 21,
+        "TN3K::trainval::1746": 42,
+        "TN3K::trainval::2488": 14,
+        "TN3K::trainval::0378": 21,
+        "TN3K::trainval::2383": 21,
+        "TN3K::trainval::1423": 14,
+        "TN3K::trainval::1334": 14,
+        "TN3K::trainval::2214": 14,
+        "TN3K::trainval::2429": 14,
+        "TN3K::trainval::0284": 7
+      },
+      "fixed_rank1_b0_b6": [
+        0.4503604926635579,
+        0.4262809935171194,
+        0.5018264605727798,
+        0.5160603866619295,
+        0.521547722030685,
+        0.5023183638385137,
+        0.49123980387084115
+      ]
+    },
+    "original_per_bridge": {
+      "candidates_per_target": 7,
+      "oof_dice": 0.5227987490703194,
+      "oracle_dice": 0.5938119450836582,
+      "oracle_gap": 0.07101319601333878,
+      "selected_anchors": {
+        "TN3K::trainval::1684": 21,
+        "TN3K::trainval::0116": 1,
+        "TN3K::trainval::2708": 1
+      },
+      "selected_bridges": {
+        "3": 3,
+        "1": 5,
+        "2": 5,
+        "0": 4,
+        "4": 4,
+        "5": 2
+      },
+      "candidate_anchors": {
+        "TN3K::trainval::1684": 153,
+        "TN3K::trainval::0116": 1,
+        "TN3K::trainval::2708": 7
+      },
+      "fixed_rank1_b0_b6": [
+        0.3747285244248351,
+        0.4209803467513811,
+        0.3450709968744628,
+        0.4394208071213698,
+        0.41029123330013784,
+        0.36537260736536914,
+        0.4214153714301329
+      ]
+    }
+  },
+  "paired_oof": {
+    "centered_top1_minus_raw_top1": {
+      "mean": -0.024977161379964603,
+      "ci95": [
+        -0.15168385222521563,
+        0.10760411432583114
+      ],
+      "improved": 13,
+      "worsened": 10
+    },
+    "centered_top2_minus_raw_top2": {
+      "mean": 0.18420610788054254,
+      "ci95": [
+        0.04893262457248463,
+        0.3196949696769569
+      ],
+      "improved": 19,
+      "worsened": 4
+    },
+    "raw_top2_minus_raw_top1": {
+      "mean": -0.04937078839901453,
+      "ci95": [
+        -0.12356924945397163,
+        0.011347146680674863
+      ],
+      "improved": 6,
+      "worsened": 7
+    },
+    "centered_top2_minus_centered_top1": {
+      "mean": 0.15981248086149258,
+      "ci95": [
+        0.05374844899632578,
+        0.28247369419811275
+      ],
+      "improved": 10,
+      "worsened": 4
+    },
+    "centered_top2_minus_original_per_bridge": {
+      "mean": 0.14202034300487898,
+      "ci95": [
+        0.027057282633084538,
+        0.2557021831145444
+      ],
+      "improved": 18,
+      "worsened": 5
+    },
+    "interaction": {
+      "mean": 0.20918326926050715,
+      "ci95": [
+        0.0643906737759838,
+        0.37298444899606786
+      ]
+    }
+  },
+  "per_target_oof": {
+    "raw_top1": [
+      {
+        "target_id": "TN3K::trainval::0000",
+        "route_id": "eccdd9168d9f3ce2ca5909db",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 3,
+        "dice": 0.5879295408605255
+      },
+      {
+        "target_id": "TN3K::trainval::0005",
+        "route_id": "e8bae722ea4c56cd1b1e0e00",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 1,
+        "dice": 0.7963941560460056
+      },
+      {
+        "target_id": "TN3K::trainval::0010",
+        "route_id": "7fef8616e792f96fa9f5d375",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 2,
+        "dice": 0.5705792098197161
+      },
+      {
+        "target_id": "TN3K::trainval::0015",
+        "route_id": "63886290d833c250964f8e71",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 5,
+        "dice": 0.8125
+      },
+      {
+        "target_id": "TN3K::trainval::0020",
+        "route_id": "9a0851ac6c7d6a877bf1fad0",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 1,
+        "dice": 0.33669354838709675
+      },
+      {
+        "target_id": "TN3K::trainval::0025",
+        "route_id": "3919368f8427f37224cfa7bb",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 0,
+        "dice": 0.7018409565382425
+      },
+      {
+        "target_id": "TN3K::trainval::0030",
+        "route_id": "f4be5d2376852f6eef370c20",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 4,
+        "dice": 0.675243664717349
+      },
+      {
+        "target_id": "TN3K::trainval::0035",
+        "route_id": "2727970d44d9b92d7b1047f2",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 4,
+        "dice": 0.2494237064874184
+      },
+      {
+        "target_id": "TN3K::trainval::0040",
+        "route_id": "d71c047c445bd6e63d9932dd",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 4,
+        "dice": 0.6087855297157623
+      },
+      {
+        "target_id": "TN3K::trainval::0045",
+        "route_id": "7df1b177da6d65c280e80cf5",
+        "anchor_id": "TN3K::trainval::0116",
+        "bridge_count": 0,
+        "dice": 0.8895105826713959
+      },
+      {
+        "target_id": "TN3K::trainval::0050",
+        "route_id": "4b369e1a3d5fa9bc9273eb2c",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 5,
+        "dice": 0.8305489260143198
+      },
+      {
+        "target_id": "TN3K::trainval::0055",
+        "route_id": "b3d21d62f64e07a70e21cddf",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 1,
+        "dice": 0.5093312597200622
+      },
+      {
+        "target_id": "TN3K::trainval::0060",
+        "route_id": "cb3cb9218d1eec7b27892c8c",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 2,
+        "dice": 0.4066352652058161
+      },
+      {
+        "target_id": "TN3K::trainval::0065",
+        "route_id": "0e5cfef7bd6afa21cfc2d236",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 4,
+        "dice": 0.6396844452066541
+      },
+      {
+        "target_id": "TN3K::trainval::0070",
+        "route_id": "caba65a821eecf2350aaad28",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 3,
+        "dice": 0.7593252554050843
+      },
+      {
+        "target_id": "TN3K::trainval::0075",
+        "route_id": "fefd913407bb99d1f9e2c2b1",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 4,
+        "dice": 0.7718139278832921
+      },
+      {
+        "target_id": "TN3K::trainval::0080",
+        "route_id": "7f5d70e912780fe0ea20c15c",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 4,
+        "dice": 0.0
+      },
+      {
+        "target_id": "TN3K::trainval::0085",
+        "route_id": "b5506f78adae4eb53e0b9654",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 0,
+        "dice": 0.680773606370876
+      },
+      {
+        "target_id": "TN3K::trainval::0090",
+        "route_id": "f5c1d355ff0de4b6686e0157",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 2,
+        "dice": 0.07459762071378587
+      },
+      {
+        "target_id": "TN3K::trainval::0095",
+        "route_id": "8e75c6b0c7ad1cc990ea5991",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 0,
+        "dice": 0.4940255630958824
+      },
+      {
+        "target_id": "TN3K::trainval::0100",
+        "route_id": "72779460f72c7a450a82ac62",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 5,
+        "dice": 0.038623793006468544
+      },
+      {
+        "target_id": "TN3K::trainval::0105",
+        "route_id": "f8f052ae3eedf73224fbe97c",
+        "anchor_id": "TN3K::trainval::2708",
+        "bridge_count": 5,
+        "dice": 0.17888522151457395
+      },
+      {
+        "target_id": "TN3K::trainval::0110",
+        "route_id": "606802b68a4efc783dad7452",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 3,
+        "dice": 0.5764809902740937
+      }
+    ],
+    "centered_top1": [
+      {
+        "target_id": "TN3K::trainval::0000",
+        "route_id": "38b6265dbe0fa6ba2c84fc2a",
+        "anchor_id": "TN3K::trainval::0302",
+        "bridge_count": 6,
+        "dice": 0.37745245095098096
+      },
+      {
+        "target_id": "TN3K::trainval::0005",
+        "route_id": "6e0e49240fbe75d4bebe41af",
+        "anchor_id": "TN3K::trainval::0854",
+        "bridge_count": 3,
+        "dice": 0.8682842287694974
+      },
+      {
+        "target_id": "TN3K::trainval::0010",
+        "route_id": "ceb2aa16457faf3b6131ac10",
+        "anchor_id": "TN3K::trainval::0854",
+        "bridge_count": 1,
+        "dice": 0.2060416415934529
+      },
+      {
+        "target_id": "TN3K::trainval::0015",
+        "route_id": "93a212da1acc69b814496904",
+        "anchor_id": "TN3K::trainval::0116",
+        "bridge_count": 1,
+        "dice": 0.8497109826589595
+      },
+      {
+        "target_id": "TN3K::trainval::0020",
+        "route_id": "48a97a3d3cc5f215879e785c",
+        "anchor_id": "TN3K::trainval::2488",
+        "bridge_count": 5,
+        "dice": 0.0
+      },
+      {
+        "target_id": "TN3K::trainval::0025",
+        "route_id": "8192f8ae7977d81c8e3f4eda",
+        "anchor_id": "TN3K::trainval::1746",
+        "bridge_count": 5,
+        "dice": 0.7848949345244137
+      },
+      {
+        "target_id": "TN3K::trainval::0030",
+        "route_id": "ae9203d39e7dfba92077a0cc",
+        "anchor_id": "TN3K::trainval::1269",
+        "bridge_count": 3,
+        "dice": 0.5281385281385281
+      },
+      {
+        "target_id": "TN3K::trainval::0035",
+        "route_id": "d98793e8b181626f46035ed5",
+        "anchor_id": "TN3K::trainval::1746",
+        "bridge_count": 4,
+        "dice": 0.4435067171891147
+      },
+      {
+        "target_id": "TN3K::trainval::0040",
+        "route_id": "3dd60cf35a89a21e257d6636",
+        "anchor_id": "TN3K::trainval::2383",
+        "bridge_count": 6,
+        "dice": 0.0
+      },
+      {
+        "target_id": "TN3K::trainval::0045",
+        "route_id": "21ba0a6c5d59e517f1fbc7c2",
+        "anchor_id": "TN3K::trainval::0116",
+        "bridge_count": 4,
+        "dice": 0.8889593167753665
+      },
+      {
+        "target_id": "TN3K::trainval::0050",
+        "route_id": "091d2bfab12304b648020834",
+        "anchor_id": "TN3K::trainval::1269",
+        "bridge_count": 0,
+        "dice": 0.8515625
+      },
+      {
+        "target_id": "TN3K::trainval::0055",
+        "route_id": "e26f4d986f91f5d4ee92bfab",
+        "anchor_id": "TN3K::trainval::0159",
+        "bridge_count": 0,
+        "dice": 0.7463636363636363
+      },
+      {
+        "target_id": "TN3K::trainval::0060",
+        "route_id": "4e3cea194401a9b800e0cdfc",
+        "anchor_id": "TN3K::trainval::2488",
+        "bridge_count": 4,
+        "dice": 0.007575369811127604
+      },
+      {
+        "target_id": "TN3K::trainval::0065",
+        "route_id": "6c1ec781f84d083a09792e83",
+        "anchor_id": "TN3K::trainval::1334",
+        "bridge_count": 4,
+        "dice": 0.6756824442774856
+      },
+      {
+        "target_id": "TN3K::trainval::0070",
+        "route_id": "fc39ca3699f31047f56e4fe8",
+        "anchor_id": "TN3K::trainval::2214",
+        "bridge_count": 3,
+        "dice": 0.8720164164596609
+      },
+      {
+        "target_id": "TN3K::trainval::0075",
+        "route_id": "a0e7426c6bd0ce00fcec8ecf",
+        "anchor_id": "TN3K::trainval::0378",
+        "bridge_count": 4,
+        "dice": 0.7913006462598197
+      },
+      {
+        "target_id": "TN3K::trainval::0080",
+        "route_id": "e4eea901a8a059722e0fd4bc",
+        "anchor_id": "TN3K::trainval::0159",
+        "bridge_count": 4,
+        "dice": 0.525418377012946
+      },
+      {
+        "target_id": "TN3K::trainval::0085",
+        "route_id": "99bbda2d30acdf10818f651b",
+        "anchor_id": "TN3K::trainval::2429",
+        "bridge_count": 6,
+        "dice": 0.7983834755276156
+      },
+      {
+        "target_id": "TN3K::trainval::0090",
+        "route_id": "45b2d0c502301c956699da17",
+        "anchor_id": "TN3K::trainval::0302",
+        "bridge_count": 2,
+        "dice": 0.8704705689457288
+      },
+      {
+        "target_id": "TN3K::trainval::0095",
+        "route_id": "492dc6bdb1412420e656a22a",
+        "anchor_id": "TN3K::trainval::0479",
+        "bridge_count": 0,
+        "dice": 0.023064072856603977
+      },
+      {
+        "target_id": "TN3K::trainval::0100",
+        "route_id": "f3897737b79a05519cf5768d",
+        "anchor_id": "TN3K::trainval::2214",
+        "bridge_count": 4,
+        "dice": 0.20072239422084623
+      },
+      {
+        "target_id": "TN3K::trainval::0105",
+        "route_id": "91275c7ae9bdbba7cdfb516f",
+        "anchor_id": "TN3K::trainval::0854",
+        "bridge_count": 5,
+        "dice": 0.1758323632130384
+      },
+      {
+        "target_id": "TN3K::trainval::0110",
+        "route_id": "0d49d8fa0f8c085eba3d8244",
+        "anchor_id": "TN3K::trainval::1269",
+        "bridge_count": 5,
+        "dice": 0.1297709923664122
+      }
+    ],
+    "raw_top2": [
+      {
+        "target_id": "TN3K::trainval::0000",
+        "route_id": "e4f963622e7245231fba46dc",
+        "anchor_id": "TN3K::trainval::2708",
+        "bridge_count": 4,
+        "dice": 0.23261726198042457
+      },
+      {
+        "target_id": "TN3K::trainval::0005",
+        "route_id": "0f617ba42e14e7dbe8654d07",
+        "anchor_id": "TN3K::trainval::2708",
+        "bridge_count": 1,
+        "dice": 0.742483660130719
+      },
+      {
+        "target_id": "TN3K::trainval::0010",
+        "route_id": "f607c29cf2e9afb9f214f2d3",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 5,
+        "dice": 0.0
+      },
+      {
+        "target_id": "TN3K::trainval::0015",
+        "route_id": "63886290d833c250964f8e71",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 5,
+        "dice": 0.8125
+      },
+      {
+        "target_id": "TN3K::trainval::0020",
+        "route_id": "9a0851ac6c7d6a877bf1fad0",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 1,
+        "dice": 0.33669354838709675
+      },
+      {
+        "target_id": "TN3K::trainval::0025",
+        "route_id": "3919368f8427f37224cfa7bb",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 0,
+        "dice": 0.7018409565382425
+      },
+      {
+        "target_id": "TN3K::trainval::0030",
+        "route_id": "f4be5d2376852f6eef370c20",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 4,
+        "dice": 0.675243664717349
+      },
+      {
+        "target_id": "TN3K::trainval::0035",
+        "route_id": "2727970d44d9b92d7b1047f2",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 4,
+        "dice": 0.2494237064874184
+      },
+      {
+        "target_id": "TN3K::trainval::0040",
+        "route_id": "a124743c83b07dec1cc86b54",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 6,
+        "dice": 0.6472459400636196
+      },
+      {
+        "target_id": "TN3K::trainval::0045",
+        "route_id": "7df1b177da6d65c280e80cf5",
+        "anchor_id": "TN3K::trainval::0116",
+        "bridge_count": 0,
+        "dice": 0.8895105826713959
+      },
+      {
+        "target_id": "TN3K::trainval::0050",
+        "route_id": "df3e08f5462138aa68cc3efd",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 6,
+        "dice": 0.8363636363636363
+      },
+      {
+        "target_id": "TN3K::trainval::0055",
+        "route_id": "b3d21d62f64e07a70e21cddf",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 1,
+        "dice": 0.5093312597200622
+      },
+      {
+        "target_id": "TN3K::trainval::0060",
+        "route_id": "38fd92db5b8706ac60de68bb",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 3,
+        "dice": 0.4065700008192021
+      },
+      {
+        "target_id": "TN3K::trainval::0065",
+        "route_id": "550bd890340c46c48021e850",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 1,
+        "dice": 0.6676744771982868
+      },
+      {
+        "target_id": "TN3K::trainval::0070",
+        "route_id": "caba65a821eecf2350aaad28",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 3,
+        "dice": 0.7593252554050843
+      },
+      {
+        "target_id": "TN3K::trainval::0075",
+        "route_id": "eebf47a0ed7a1cffe9ac0a34",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 5,
+        "dice": 0.7745605775266792
+      },
+      {
+        "target_id": "TN3K::trainval::0080",
+        "route_id": "7f5d70e912780fe0ea20c15c",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 4,
+        "dice": 0.0
+      },
+      {
+        "target_id": "TN3K::trainval::0085",
+        "route_id": "c2741c50bdab5c9d38deabc2",
+        "anchor_id": "TN3K::trainval::0116",
+        "bridge_count": 6,
+        "dice": 0.85382027243328
+      },
+      {
+        "target_id": "TN3K::trainval::0090",
+        "route_id": "3e62afa3e7296595663c5c9a",
+        "anchor_id": "TN3K::trainval::2708",
+        "bridge_count": 0,
+        "dice": 0.028199566160520606
+      },
+      {
+        "target_id": "TN3K::trainval::0095",
+        "route_id": "8e75c6b0c7ad1cc990ea5991",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 0,
+        "dice": 0.4940255630958824
+      },
+      {
+        "target_id": "TN3K::trainval::0100",
+        "route_id": "98faefe476b1956d9fc0ff8e",
+        "anchor_id": "TN3K::trainval::2708",
+        "bridge_count": 6,
+        "dice": 0.15058230757331328
+      },
+      {
+        "target_id": "TN3K::trainval::0105",
+        "route_id": "37998ed0bd4b0a68c2b0ee9f",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 3,
+        "dice": 0.161190386781825
+      },
+      {
+        "target_id": "TN3K::trainval::0110",
+        "route_id": "931b7b9ef45a1baf1d9b7d8f",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 5,
+        "dice": 0.1248960124230492
+      }
+    ],
+    "centered_top2": [
+      {
+        "target_id": "TN3K::trainval::0000",
+        "route_id": "3b2b59302eafd87e861629a0",
+        "anchor_id": "TN3K::trainval::0302",
+        "bridge_count": 5,
+        "dice": 0.41583065484886855
+      },
+      {
+        "target_id": "TN3K::trainval::0005",
+        "route_id": "6e0e49240fbe75d4bebe41af",
+        "anchor_id": "TN3K::trainval::0854",
+        "bridge_count": 3,
+        "dice": 0.8682842287694974
+      },
+      {
+        "target_id": "TN3K::trainval::0010",
+        "route_id": "e4202729cbb35217ec430a09",
+        "anchor_id": "TN3K::trainval::0159",
+        "bridge_count": 2,
+        "dice": 0.7452861952861953
+      },
+      {
+        "target_id": "TN3K::trainval::0015",
+        "route_id": "93a212da1acc69b814496904",
+        "anchor_id": "TN3K::trainval::0116",
+        "bridge_count": 1,
+        "dice": 0.8497109826589595
+      },
+      {
+        "target_id": "TN3K::trainval::0020",
+        "route_id": "dad2b31b39b30cef20cbba6f",
+        "anchor_id": "TN3K::trainval::0302",
+        "bridge_count": 3,
+        "dice": 0.8920478037447579
+      },
+      {
+        "target_id": "TN3K::trainval::0025",
+        "route_id": "8192f8ae7977d81c8e3f4eda",
+        "anchor_id": "TN3K::trainval::1746",
+        "bridge_count": 5,
+        "dice": 0.7848949345244137
+      },
+      {
+        "target_id": "TN3K::trainval::0030",
+        "route_id": "b31d8b4d44cae018013d22f5",
+        "anchor_id": "TN3K::trainval::0378",
+        "bridge_count": 5,
+        "dice": 0.5085339168490153
+      },
+      {
+        "target_id": "TN3K::trainval::0035",
+        "route_id": "b58e1386da4770c3d73c4733",
+        "anchor_id": "TN3K::trainval::0302",
+        "bridge_count": 3,
+        "dice": 0.8133100468793087
+      },
+      {
+        "target_id": "TN3K::trainval::0040",
+        "route_id": "8431ac0a060cd5de6b6b2361",
+        "anchor_id": "TN3K::trainval::2383",
+        "bridge_count": 1,
+        "dice": 0.0
+      },
+      {
+        "target_id": "TN3K::trainval::0045",
+        "route_id": "a1aef9086ee8bce0728bd83b",
+        "anchor_id": "TN3K::trainval::0116",
+        "bridge_count": 6,
+        "dice": 0.8921681423307155
+      },
+      {
+        "target_id": "TN3K::trainval::0050",
+        "route_id": "fef820c2e78b07655a79c1e9",
+        "anchor_id": "TN3K::trainval::0378",
+        "bridge_count": 3,
+        "dice": 0.8752869166029075
+      },
+      {
+        "target_id": "TN3K::trainval::0055",
+        "route_id": "e26f4d986f91f5d4ee92bfab",
+        "anchor_id": "TN3K::trainval::0159",
+        "bridge_count": 0,
+        "dice": 0.7463636363636363
+      },
+      {
+        "target_id": "TN3K::trainval::0060",
+        "route_id": "684ec68ca6f67284c6b5e25e",
+        "anchor_id": "TN3K::trainval::1334",
+        "bridge_count": 5,
+        "dice": 0.45900340648023447
+      },
+      {
+        "target_id": "TN3K::trainval::0065",
+        "route_id": "07d5c131e281d61c62510acd",
+        "anchor_id": "TN3K::trainval::1746",
+        "bridge_count": 6,
+        "dice": 0.7465908492602538
+      },
+      {
+        "target_id": "TN3K::trainval::0070",
+        "route_id": "fc39ca3699f31047f56e4fe8",
+        "anchor_id": "TN3K::trainval::2214",
+        "bridge_count": 3,
+        "dice": 0.8720164164596609
+      },
+      {
+        "target_id": "TN3K::trainval::0075",
+        "route_id": "7eb5ecdec0d71d4e5b055dbd",
+        "anchor_id": "TN3K::trainval::0378",
+        "bridge_count": 1,
+        "dice": 0.7466795072428876
+      },
+      {
+        "target_id": "TN3K::trainval::0080",
+        "route_id": "e4eea901a8a059722e0fd4bc",
+        "anchor_id": "TN3K::trainval::0159",
+        "bridge_count": 4,
+        "dice": 0.525418377012946
+      },
+      {
+        "target_id": "TN3K::trainval::0085",
+        "route_id": "99bbda2d30acdf10818f651b",
+        "anchor_id": "TN3K::trainval::2429",
+        "bridge_count": 6,
+        "dice": 0.7983834755276156
+      },
+      {
+        "target_id": "TN3K::trainval::0090",
+        "route_id": "45b2d0c502301c956699da17",
+        "anchor_id": "TN3K::trainval::0302",
+        "bridge_count": 2,
+        "dice": 0.8704705689457288
+      },
+      {
+        "target_id": "TN3K::trainval::0095",
+        "route_id": "c4463682f70ad1d549becd6e",
+        "anchor_id": "TN3K::trainval::0302",
+        "bridge_count": 2,
+        "dice": 0.7599556024797639
+      },
+      {
+        "target_id": "TN3K::trainval::0100",
+        "route_id": "c9f93c356b5b6b1d8178e895",
+        "anchor_id": "TN3K::trainval::1423",
+        "bridge_count": 2,
+        "dice": 0.15453823762900237
+      },
+      {
+        "target_id": "TN3K::trainval::0105",
+        "route_id": "a0e9dff5c1970e7eb0325639",
+        "anchor_id": "TN3K::trainval::0854",
+        "bridge_count": 4,
+        "dice": 0.16935370811720174
+      },
+      {
+        "target_id": "TN3K::trainval::0110",
+        "route_id": "4bff739783a6133ca1c2be50",
+        "anchor_id": "TN3K::trainval::1746",
+        "bridge_count": 2,
+        "dice": 0.796711509715994
+      }
+    ],
+    "original_per_bridge": [
+      {
+        "target_id": "TN3K::trainval::0000",
+        "route_id": "eccdd9168d9f3ce2ca5909db",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 3,
+        "dice": 0.5879295408605255
+      },
+      {
+        "target_id": "TN3K::trainval::0005",
+        "route_id": "e8bae722ea4c56cd1b1e0e00",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 1,
+        "dice": 0.7963941560460056
+      },
+      {
+        "target_id": "TN3K::trainval::0010",
+        "route_id": "7fef8616e792f96fa9f5d375",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 2,
+        "dice": 0.5705792098197161
+      },
+      {
+        "target_id": "TN3K::trainval::0015",
+        "route_id": "8f7997c4e45166db42adf142",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 2,
+        "dice": 0.6583629893238434
+      },
+      {
+        "target_id": "TN3K::trainval::0020",
+        "route_id": "9a0851ac6c7d6a877bf1fad0",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 1,
+        "dice": 0.33669354838709675
+      },
+      {
+        "target_id": "TN3K::trainval::0025",
+        "route_id": "3919368f8427f37224cfa7bb",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 0,
+        "dice": 0.7018409565382425
+      },
+      {
+        "target_id": "TN3K::trainval::0030",
+        "route_id": "f4be5d2376852f6eef370c20",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 4,
+        "dice": 0.675243664717349
+      },
+      {
+        "target_id": "TN3K::trainval::0035",
+        "route_id": "2727970d44d9b92d7b1047f2",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 4,
+        "dice": 0.2494237064874184
+      },
+      {
+        "target_id": "TN3K::trainval::0040",
+        "route_id": "d71c047c445bd6e63d9932dd",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 4,
+        "dice": 0.6087855297157623
+      },
+      {
+        "target_id": "TN3K::trainval::0045",
+        "route_id": "cd5bbfd10f32341e6a6fd1ef",
+        "anchor_id": "TN3K::trainval::0116",
+        "bridge_count": 1,
+        "dice": 0.8539803142807805
+      },
+      {
+        "target_id": "TN3K::trainval::0050",
+        "route_id": "075acf373884d28ac933a1da",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 0,
+        "dice": 0.8314785373608903
+      },
+      {
+        "target_id": "TN3K::trainval::0055",
+        "route_id": "b3d21d62f64e07a70e21cddf",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 1,
+        "dice": 0.5093312597200622
+      },
+      {
+        "target_id": "TN3K::trainval::0060",
+        "route_id": "cb3cb9218d1eec7b27892c8c",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 2,
+        "dice": 0.4066352652058161
+      },
+      {
+        "target_id": "TN3K::trainval::0065",
+        "route_id": "550bd890340c46c48021e850",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 1,
+        "dice": 0.6676744771982868
+      },
+      {
+        "target_id": "TN3K::trainval::0070",
+        "route_id": "caba65a821eecf2350aaad28",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 3,
+        "dice": 0.7593252554050843
+      },
+      {
+        "target_id": "TN3K::trainval::0075",
+        "route_id": "c4b87d22760dcb0228ab4ebd",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 2,
+        "dice": 0.7673060225747889
+      },
+      {
+        "target_id": "TN3K::trainval::0080",
+        "route_id": "7f5d70e912780fe0ea20c15c",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 4,
+        "dice": 0.0
+      },
+      {
+        "target_id": "TN3K::trainval::0085",
+        "route_id": "b5506f78adae4eb53e0b9654",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 0,
+        "dice": 0.680773606370876
+      },
+      {
+        "target_id": "TN3K::trainval::0090",
+        "route_id": "f5c1d355ff0de4b6686e0157",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 2,
+        "dice": 0.07459762071378587
+      },
+      {
+        "target_id": "TN3K::trainval::0095",
+        "route_id": "8e75c6b0c7ad1cc990ea5991",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 0,
+        "dice": 0.4940255630958824
+      },
+      {
+        "target_id": "TN3K::trainval::0100",
+        "route_id": "72779460f72c7a450a82ac62",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 5,
+        "dice": 0.038623793006468544
+      },
+      {
+        "target_id": "TN3K::trainval::0105",
+        "route_id": "f8f052ae3eedf73224fbe97c",
+        "anchor_id": "TN3K::trainval::2708",
+        "bridge_count": 5,
+        "dice": 0.17888522151457395
+      },
+      {
+        "target_id": "TN3K::trainval::0110",
+        "route_id": "606802b68a4efc783dad7452",
+        "anchor_id": "TN3K::trainval::1684",
+        "bridge_count": 3,
+        "dice": 0.5764809902740937
+      }
+    ]
+  },
+  "note": "all arms prespecified, same alpha1, no hyperparameter search; OOF uses validation GT only"
+}

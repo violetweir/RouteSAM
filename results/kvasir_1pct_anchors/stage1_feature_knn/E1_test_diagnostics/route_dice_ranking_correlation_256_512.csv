@@ -1,0 +1,6 @@
+feature_mode,n_queries,mean_per_query_spearman,flat_route_dice_spearman
+t18_corrected,98,0.5550859626650079,0.8786008301316246
+dino_global_pooling,98,0.6334198405497833,0.9661934570165166
+dino_patch_average,100,0.6589558794180888,0.9263990768236113
+anchor_conditioned_target_pooling,98,0.6006995386379012,0.9366864624010056
+anchor_conditioned_patch_correspondence,99,0.5607561047355659,0.9488385899905639

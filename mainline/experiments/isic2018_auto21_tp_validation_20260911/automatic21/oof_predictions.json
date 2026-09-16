@@ -1,0 +1,2333 @@
+{
+  "ISIC_0000064": {
+    "target_id": "ISIC_0000064",
+    "fold": 0,
+    "route_id": "aabee6e81e8031bb446696d3",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9798385551065558,
+    "dice": 0.9814835646950301,
+    "oracle": 0.9827851075365986
+  },
+  "ISIC_0000141": {
+    "target_id": "ISIC_0000141",
+    "fold": 0,
+    "route_id": "eea149bb9d0fddb087310332",
+    "anchor_id": "ISIC_0009941",
+    "score": 0.9527074239872129,
+    "dice": 0.9373932602990794,
+    "oracle": 0.9721908403580429
+  },
+  "ISIC_0000210": {
+    "target_id": "ISIC_0000210",
+    "fold": 0,
+    "route_id": "887f6286c4464356947ea466",
+    "anchor_id": "ISIC_0014829",
+    "score": 0.88562303293847,
+    "dice": 0.9044346106769607,
+    "oracle": 0.9092613423322085
+  },
+  "ISIC_0000290": {
+    "target_id": "ISIC_0000290",
+    "fold": 0,
+    "route_id": "705a2048436b9851f67fbf9d",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.89080073307776,
+    "dice": 0.9026742539606208,
+    "oracle": 0.909259898558037
+  },
+  "ISIC_0000410": {
+    "target_id": "ISIC_0000410",
+    "fold": 0,
+    "route_id": "ecf2b0fc0a3b0dcb13c1f05f",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.9036171223507049,
+    "dice": 0.9268271180463722,
+    "oracle": 0.9268271180463722
+  },
+  "ISIC_0000465": {
+    "target_id": "ISIC_0000465",
+    "fold": 0,
+    "route_id": "caa20a168613609abf209884",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.8862703771906755,
+    "dice": 0.968413640478825,
+    "oracle": 0.9797535211267606
+  },
+  "ISIC_0000501": {
+    "target_id": "ISIC_0000501",
+    "fold": 0,
+    "route_id": "ad169938c614c62879cdb5a9",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9434840478303046,
+    "dice": 0.9733286541498508,
+    "oracle": 0.9733286541498508
+  },
+  "ISIC_0001262": {
+    "target_id": "ISIC_0001262",
+    "fold": 0,
+    "route_id": "f95a2e8a3c3c7219802e59fa",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.894049920070115,
+    "dice": 0.8550305368048859,
+    "oracle": 0.8873897249610794
+  },
+  "ISIC_0005555": {
+    "target_id": "ISIC_0005555",
+    "fold": 0,
+    "route_id": "f5bc5064fe239b39139fb819",
+    "anchor_id": "ISIC_0013410",
+    "score": 0.9031677183357139,
+    "dice": 0.8834992586316458,
+    "oracle": 0.9320405944182675
+  },
+  "ISIC_0006815": {
+    "target_id": "ISIC_0006815",
+    "fold": 0,
+    "route_id": "26ac3aa4b3d9227e1c1f883b",
+    "anchor_id": "ISIC_0016048",
+    "score": 0.877534147252088,
+    "dice": 0.8952551477170994,
+    "oracle": 0.8964285714285715
+  },
+  "ISIC_0008116": {
+    "target_id": "ISIC_0008116",
+    "fold": 0,
+    "route_id": "b112bab7122d784b1f6778ba",
+    "anchor_id": "ISIC_0007788",
+    "score": 0.9473254649144425,
+    "dice": 0.9600855310049893,
+    "oracle": 0.9632920271218144
+  },
+  "ISIC_0008541": {
+    "target_id": "ISIC_0008541",
+    "fold": 0,
+    "route_id": "9d442099aa7dafbf90294298",
+    "anchor_id": "ISIC_0014026",
+    "score": 0.9457606357577337,
+    "dice": 0.9518195797027166,
+    "oracle": 0.9599188229325215
+  },
+  "ISIC_0009881": {
+    "target_id": "ISIC_0009881",
+    "fold": 0,
+    "route_id": "eb9a7f30946f193e4dc001aa",
+    "anchor_id": "ISIC_0010023",
+    "score": 0.9736678758537747,
+    "dice": 0.9447301891726964,
+    "oracle": 0.9628846804193439
+  },
+  "ISIC_0009973": {
+    "target_id": "ISIC_0009973",
+    "fold": 0,
+    "route_id": "5c4e097cde512a7bbb04881c",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.8956985809211119,
+    "dice": 0.9657915672235481,
+    "oracle": 0.9660228394191457
+  },
+  "ISIC_0009990": {
+    "target_id": "ISIC_0009990",
+    "fold": 0,
+    "route_id": "b1c03851cf1d52acec914a08",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9570613927681662,
+    "dice": 0.9108682463321057,
+    "oracle": 0.9151676641099202
+  },
+  "ISIC_0010006": {
+    "target_id": "ISIC_0010006",
+    "fold": 0,
+    "route_id": "68aa91a4f2de75f02fa93efa",
+    "anchor_id": "ISIC_0010360",
+    "score": 0.9566587992553065,
+    "dice": 0.8820412168792934,
+    "oracle": 0.8872826723969526
+  },
+  "ISIC_0010010": {
+    "target_id": "ISIC_0010010",
+    "fold": 0,
+    "route_id": "29d6f8f3769243a3e517590c",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9218051261528449,
+    "dice": 0.9568769251372706,
+    "oracle": 0.9568769251372706
+  },
+  "ISIC_0010233": {
+    "target_id": "ISIC_0010233",
+    "fold": 0,
+    "route_id": "57f7c237bb4ec6cea60870ba",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9398158752175497,
+    "dice": 0.9651349311190791,
+    "oracle": 0.9651349311190791
+  },
+  "ISIC_0010349": {
+    "target_id": "ISIC_0010349",
+    "fold": 0,
+    "route_id": "4aa3ad3769b96ad72b739555",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9139326606039697,
+    "dice": 0.83664584018415,
+    "oracle": 0.8459661530030402
+  },
+  "ISIC_0010465": {
+    "target_id": "ISIC_0010465",
+    "fold": 0,
+    "route_id": "a18a2b673674288f2c432c1b",
+    "anchor_id": "ISIC_0010023",
+    "score": 0.9520990981487695,
+    "dice": 0.9811682859541802,
+    "oracle": 0.9812512492504497
+  },
+  "ISIC_0011164": {
+    "target_id": "ISIC_0011164",
+    "fold": 0,
+    "route_id": "0dcbcaef7d9decac5c730166",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.856253180078515,
+    "dice": 0.8885994616653643,
+    "oracle": 0.8995394849053385
+  },
+  "ISIC_0012127": {
+    "target_id": "ISIC_0012127",
+    "fold": 0,
+    "route_id": "3246d41d1de3234b28320bcc",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.7223188849524559,
+    "dice": 0.5980746089049338,
+    "oracle": 0.6022795440911818
+  },
+  "ISIC_0012177": {
+    "target_id": "ISIC_0012177",
+    "fold": 0,
+    "route_id": "ee1bbf0d0817f45a7881c851",
+    "anchor_id": "ISIC_0014026",
+    "score": 0.896697790709903,
+    "dice": 0.8842277308635249,
+    "oracle": 0.9033984479529034
+  },
+  "ISIC_0012204": {
+    "target_id": "ISIC_0012204",
+    "fold": 0,
+    "route_id": "88f3aead176b43f3a6fef7e7",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.7492614598528271,
+    "dice": 0.0820844611694285,
+    "oracle": 0.10128438374019062
+  },
+  "ISIC_0012390": {
+    "target_id": "ISIC_0012390",
+    "fold": 0,
+    "route_id": "066045100d281df1f76f63c3",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.7987808126054277,
+    "dice": 0.8830790656453757,
+    "oracle": 0.88562874251497
+  },
+  "ISIC_0012391": {
+    "target_id": "ISIC_0012391",
+    "fold": 0,
+    "route_id": "e1f6e9a8a588b04773d10231",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.8723940730119651,
+    "dice": 0.8282752120640905,
+    "oracle": 0.8564172689978511
+  },
+  "ISIC_0012693": {
+    "target_id": "ISIC_0012693",
+    "fold": 0,
+    "route_id": "753c3e41d60994abc8ce42d4",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.9193666973522348,
+    "dice": 0.9188588366061504,
+    "oracle": 0.9250279746363297
+  },
+  "ISIC_0012711": {
+    "target_id": "ISIC_0012711",
+    "fold": 0,
+    "route_id": "645ceeafe33989b687ed2e6c",
+    "anchor_id": "ISIC_0013410",
+    "score": 0.7687460088183807,
+    "dice": 0.851,
+    "oracle": 0.8717424629535002
+  },
+  "ISIC_0012907": {
+    "target_id": "ISIC_0012907",
+    "fold": 0,
+    "route_id": "b8a24164e71e3229e2adbb9e",
+    "anchor_id": "ISIC_0014026",
+    "score": 0.9156640365746512,
+    "dice": 0.8655781704316707,
+    "oracle": 0.8655781704316707
+  },
+  "ISIC_0013053": {
+    "target_id": "ISIC_0013053",
+    "fold": 0,
+    "route_id": "023ca35dfa1500d8e9f69ca0",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.7912727531504868,
+    "dice": 0.8318849265807612,
+    "oracle": 0.9095692206511016
+  },
+  "ISIC_0013054": {
+    "target_id": "ISIC_0013054",
+    "fold": 0,
+    "route_id": "12d43f5bd5979a178fb545db",
+    "anchor_id": "ISIC_0009252",
+    "score": 0.8301274171254885,
+    "dice": 0.7882513661202186,
+    "oracle": 0.7882513661202186
+  },
+  "ISIC_0013208": {
+    "target_id": "ISIC_0013208",
+    "fold": 0,
+    "route_id": "e9da1ba9efe7dc955f78b3d6",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.7288334791845245,
+    "dice": 0.01956479876757173,
+    "oracle": 0.020789850624104766
+  },
+  "ISIC_0013355": {
+    "target_id": "ISIC_0013355",
+    "fold": 0,
+    "route_id": "b640cad46b8e010e321b6918",
+    "anchor_id": "ISIC_0016048",
+    "score": 0.8784263596986277,
+    "dice": 0.7026348808030113,
+    "oracle": 0.8034433285509326
+  },
+  "ISIC_0013417": {
+    "target_id": "ISIC_0013417",
+    "fold": 0,
+    "route_id": "5689dc8cb21e4c1d1351f75f",
+    "anchor_id": "ISIC_0016048",
+    "score": 0.8928604082223688,
+    "dice": 0.9477533960292581,
+    "oracle": 0.9525816649104321
+  },
+  "ISIC_0013572": {
+    "target_id": "ISIC_0013572",
+    "fold": 0,
+    "route_id": "86b76766a382d1f0d5c26bb5",
+    "anchor_id": "ISIC_0013410",
+    "score": 0.887421528790062,
+    "dice": 0.8898710865561694,
+    "oracle": 0.8977342314758114
+  },
+  "ISIC_0013708": {
+    "target_id": "ISIC_0013708",
+    "fold": 0,
+    "route_id": "9f4d63b8a8d7e448ad479158",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9264639217794716,
+    "dice": 0.8355672731821374,
+    "oracle": 0.8452955805649368
+  },
+  "ISIC_0013815": {
+    "target_id": "ISIC_0013815",
+    "fold": 0,
+    "route_id": "c4351869318ac1b075755755",
+    "anchor_id": "ISIC_0016048",
+    "score": 0.8671359342419168,
+    "dice": 0.7971437844855567,
+    "oracle": 0.8558432470258922
+  },
+  "ISIC_0013975": {
+    "target_id": "ISIC_0013975",
+    "fold": 0,
+    "route_id": "bad92e802cbedce0d21f9cb3",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.8807614343309237,
+    "dice": 0.9086532675412203,
+    "oracle": 0.9225335530963032
+  },
+  "ISIC_0014189": {
+    "target_id": "ISIC_0014189",
+    "fold": 0,
+    "route_id": "70687cccb79786e29a74f6bd",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.8369940068237295,
+    "dice": 0.8051867434562197,
+    "oracle": 0.8349875930521092
+  },
+  "ISIC_0014302": {
+    "target_id": "ISIC_0014302",
+    "fold": 0,
+    "route_id": "d10733de7562ad41c075f25d",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.9592552942468011,
+    "dice": 0.9214925373134328,
+    "oracle": 0.9625498007968127
+  },
+  "ISIC_0014667": {
+    "target_id": "ISIC_0014667",
+    "fold": 0,
+    "route_id": "a97d6b14f97882863ef64608",
+    "anchor_id": "ISIC_0010023",
+    "score": 0.9153200841395408,
+    "dice": 0.9499042967460893,
+    "oracle": 0.9499042967460893
+  },
+  "ISIC_0014749": {
+    "target_id": "ISIC_0014749",
+    "fold": 0,
+    "route_id": "e307b27f3358cf9574f6f064",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.9435129928758953,
+    "dice": 0.9647010980073201,
+    "oracle": 0.9742377887962865
+  },
+  "ISIC_0014760": {
+    "target_id": "ISIC_0014760",
+    "fold": 0,
+    "route_id": "f6ba772ed511cbe6aa858c33",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9461524810980008,
+    "dice": 0.9722597304148012,
+    "oracle": 0.9722712466686408
+  },
+  "ISIC_0014803": {
+    "target_id": "ISIC_0014803",
+    "fold": 0,
+    "route_id": "2f2fff8edb2951a107a8750c",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.8152794494098281,
+    "dice": 0.9274969242814003,
+    "oracle": 0.948612412893761
+  },
+  "ISIC_0014982": {
+    "target_id": "ISIC_0014982",
+    "fold": 0,
+    "route_id": "3d7b56f79853d5cb3c70e361",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.8800510678138137,
+    "dice": 0.800054704595186,
+    "oracle": 0.8353573907009022
+  },
+  "ISIC_0015005": {
+    "target_id": "ISIC_0015005",
+    "fold": 0,
+    "route_id": "d289bc31b172febaae04758d",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.8941017928752936,
+    "dice": 0.5031696990502346,
+    "oracle": 0.7563767040349987
+  },
+  "ISIC_0015040": {
+    "target_id": "ISIC_0015040",
+    "fold": 0,
+    "route_id": "ea6dd48066244d3173ba9c0d",
+    "anchor_id": "ISIC_0014026",
+    "score": 0.8663277543089574,
+    "dice": 0.5433234421364985,
+    "oracle": 0.5480627033422064
+  },
+  "ISIC_0015395": {
+    "target_id": "ISIC_0015395",
+    "fold": 0,
+    "route_id": "53776056afa29cfaf873a02f",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9576234142550665,
+    "dice": 0.949951171875,
+    "oracle": 0.9530993369426364
+  },
+  "ISIC_0015981": {
+    "target_id": "ISIC_0015981",
+    "fold": 0,
+    "route_id": "d7963450679385140b6786fb",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.9650604539612917,
+    "dice": 0.9635486981677918,
+    "oracle": 0.9808153477218226
+  },
+  "ISIC_0016011": {
+    "target_id": "ISIC_0016011",
+    "fold": 0,
+    "route_id": "83246261dfd3d9cac197c3cf",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.8232825477436195,
+    "dice": 0.8403669724770643,
+    "oracle": 0.8646706586826347
+  },
+  "ISIC_0016060": {
+    "target_id": "ISIC_0016060",
+    "fold": 0,
+    "route_id": "449039e39564bab60d538813",
+    "anchor_id": "ISIC_0014026",
+    "score": 0.8920305824232022,
+    "dice": 0.9668703763267932,
+    "oracle": 0.968508997429306
+  },
+  "ISIC_0016071": {
+    "target_id": "ISIC_0016071",
+    "fold": 0,
+    "route_id": "d9afe2d0d1f252bd54101766",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.9213178061118833,
+    "dice": 0.9680232558139535,
+    "oracle": 0.9691971865146738
+  },
+  "ISIC_0000001": {
+    "target_id": "ISIC_0000001",
+    "fold": 1,
+    "route_id": "cad9c5ba0cf2b856a903ff65",
+    "anchor_id": "ISIC_0009252",
+    "score": 0.9347167495930471,
+    "dice": 0.9741915095333403,
+    "oracle": 0.9741915095333403
+  },
+  "ISIC_0000093": {
+    "target_id": "ISIC_0000093",
+    "fold": 1,
+    "route_id": "03f3452226067c36f0c3c511",
+    "anchor_id": "ISIC_0009941",
+    "score": 0.9405410756766529,
+    "dice": 0.985275557425326,
+    "oracle": 0.9855620970002803
+  },
+  "ISIC_0000132": {
+    "target_id": "ISIC_0000132",
+    "fold": 1,
+    "route_id": "b6896f26c6f4464f9e22b0b8",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.8991362666416565,
+    "dice": 0.9469041560644614,
+    "oracle": 0.9566955363091273
+  },
+  "ISIC_0000147": {
+    "target_id": "ISIC_0000147",
+    "fold": 1,
+    "route_id": "255210f9cb6b8aa99a598d3e",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.8885357293539242,
+    "dice": 0.9328589160115847,
+    "oracle": 0.9352674524025385
+  },
+  "ISIC_0000173": {
+    "target_id": "ISIC_0000173",
+    "fold": 1,
+    "route_id": "901034847ed2722132dd611f",
+    "anchor_id": "ISIC_0010023",
+    "score": 0.9718339869590572,
+    "dice": 0.9343383098999855,
+    "oracle": 0.9343383098999855
+  },
+  "ISIC_0000203": {
+    "target_id": "ISIC_0000203",
+    "fold": 1,
+    "route_id": "272ff77c468d29a9fd4676cd",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.9693684441382788,
+    "dice": 0.9748056664240112,
+    "oracle": 0.9766584664137097
+  },
+  "ISIC_0000259": {
+    "target_id": "ISIC_0000259",
+    "fold": 1,
+    "route_id": "6e2f0a51f1c3c122ff6e8627",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9317477610905488,
+    "dice": 0.8931926988413708,
+    "oracle": 0.8976063954855397
+  },
+  "ISIC_0000311": {
+    "target_id": "ISIC_0000311",
+    "fold": 1,
+    "route_id": "b01e00c11c6a60d1488de116",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9149457348802637,
+    "dice": 0.9572646045273518,
+    "oracle": 0.957763199639754
+  },
+  "ISIC_0000344": {
+    "target_id": "ISIC_0000344",
+    "fold": 1,
+    "route_id": "fb5e298084def7b64f5ae98a",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9313949913954177,
+    "dice": 0.875328226383976,
+    "oracle": 0.9259387121012124
+  },
+  "ISIC_0000388": {
+    "target_id": "ISIC_0000388",
+    "fold": 1,
+    "route_id": "c7a1b771cb4fa32468968531",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.9633037574341561,
+    "dice": 0.9375,
+    "oracle": 0.9512380373689807
+  },
+  "ISIC_0000498": {
+    "target_id": "ISIC_0000498",
+    "fold": 1,
+    "route_id": "f758f6af9d2a31b04f57f954",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9471058693106069,
+    "dice": 0.8751427149506719,
+    "oracle": 0.8828865499796477
+  },
+  "ISIC_0000505": {
+    "target_id": "ISIC_0000505",
+    "fold": 1,
+    "route_id": "3fd7a7f7538c4c0c60aade14",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9564814997277761,
+    "dice": 0.9717792645505308,
+    "oracle": 0.9717792645505308
+  },
+  "ISIC_0000508": {
+    "target_id": "ISIC_0000508",
+    "fold": 1,
+    "route_id": "cff4292a9a4f02b684f9f35b",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9549968615564608,
+    "dice": 0.964035497431107,
+    "oracle": 0.964035497431107
+  },
+  "ISIC_0000530": {
+    "target_id": "ISIC_0000530",
+    "fold": 1,
+    "route_id": "00240198c60bd577da38de2d",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9484604199769378,
+    "dice": 0.8866744253709631,
+    "oracle": 0.8943494262827452
+  },
+  "ISIC_0003539": {
+    "target_id": "ISIC_0003539",
+    "fold": 1,
+    "route_id": "c9490276c0f463751a2f9c95",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.8238299206431009,
+    "dice": 0.8615770496943095,
+    "oracle": 0.8724409448818897
+  },
+  "ISIC_0007796": {
+    "target_id": "ISIC_0007796",
+    "fold": 1,
+    "route_id": "25481492128e855f2d2b7873",
+    "anchor_id": "ISIC_0009252",
+    "score": 0.9435347994993911,
+    "dice": 0.9074107628193513,
+    "oracle": 0.9624365482233502
+  },
+  "ISIC_0009901": {
+    "target_id": "ISIC_0009901",
+    "fold": 1,
+    "route_id": "63da7fb08f1af5527a832979",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.9586594508727179,
+    "dice": 0.9708595139300533,
+    "oracle": 0.9726775956284153
+  },
+  "ISIC_0009923": {
+    "target_id": "ISIC_0009923",
+    "fold": 1,
+    "route_id": "7d291583e0c789c85a7d3957",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.9671783100829174,
+    "dice": 0.9474183561370219,
+    "oracle": 0.9474183561370219
+  },
+  "ISIC_0009970": {
+    "target_id": "ISIC_0009970",
+    "fold": 1,
+    "route_id": "33d58206d89ae3c8f9b8498f",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.9555635014684366,
+    "dice": 0.9373086419753086,
+    "oracle": 0.949491549871385
+  },
+  "ISIC_0010029": {
+    "target_id": "ISIC_0010029",
+    "fold": 1,
+    "route_id": "d5a35399f1da3058abde729c",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9323781543124465,
+    "dice": 0.8916834599286932,
+    "oracle": 0.8953014167262606
+  },
+  "ISIC_0010228": {
+    "target_id": "ISIC_0010228",
+    "fold": 1,
+    "route_id": "5a80db8ddf76de385cda3c62",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.8171533547912145,
+    "dice": 0.9619355944125312,
+    "oracle": 0.9623119885230667
+  },
+  "ISIC_0010257": {
+    "target_id": "ISIC_0010257",
+    "fold": 1,
+    "route_id": "d3d722c542ae169012ed62f9",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.8410227655276946,
+    "dice": 0.9325618287853369,
+    "oracle": 0.9670061715074878
+  },
+  "ISIC_0010458": {
+    "target_id": "ISIC_0010458",
+    "fold": 1,
+    "route_id": "b750aa8d9bcc180479218ab5",
+    "anchor_id": "ISIC_0014438",
+    "score": 0.9071598344482946,
+    "dice": 0.34279937505743957,
+    "oracle": 0.9417436254864379
+  },
+  "ISIC_0010599": {
+    "target_id": "ISIC_0010599",
+    "fold": 1,
+    "route_id": "52b6915b3abe9d9dcf8184ac",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9703328869770479,
+    "dice": 0.9568131719825453,
+    "oracle": 0.9571370804690659
+  },
+  "ISIC_0011109": {
+    "target_id": "ISIC_0011109",
+    "fold": 1,
+    "route_id": "0362d0f95c2b287ce3394088",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.963496699792911,
+    "dice": 0.9689190218633351,
+    "oracle": 0.9872754583938524
+  },
+  "ISIC_0011127": {
+    "target_id": "ISIC_0011127",
+    "fold": 1,
+    "route_id": "9c83cdeb61530a2b0a8ff769",
+    "anchor_id": "ISIC_0009941",
+    "score": 0.9477316780545019,
+    "dice": 0.9167685945599627,
+    "oracle": 0.936977886977887
+  },
+  "ISIC_0012134": {
+    "target_id": "ISIC_0012134",
+    "fold": 1,
+    "route_id": "54fc505fd92df8997f72f1b9",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.8118216581588877,
+    "dice": 0.657944638880051,
+    "oracle": 0.8632179566194159
+  },
+  "ISIC_0012182": {
+    "target_id": "ISIC_0012182",
+    "fold": 1,
+    "route_id": "4bff62f702f74ad973c5ed26",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.7460383399450534,
+    "dice": 0.7256637168141593,
+    "oracle": 0.903173311635476
+  },
+  "ISIC_0012191": {
+    "target_id": "ISIC_0012191",
+    "fold": 1,
+    "route_id": "9cfbc31c57915923aac0d581",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.8980903175334912,
+    "dice": 0.8201226993865031,
+    "oracle": 0.8882645342554571
+  },
+  "ISIC_0012432": {
+    "target_id": "ISIC_0012432",
+    "fold": 1,
+    "route_id": "2641f95fa64483bdbda4f4f7",
+    "anchor_id": "ISIC_0011129",
+    "score": -0.015410415853752904,
+    "dice": 0.0,
+    "oracle": 0.0
+  },
+  "ISIC_0012661": {
+    "target_id": "ISIC_0012661",
+    "fold": 1,
+    "route_id": "71df9be5c5a80548be3c6209",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.7350311760401457,
+    "dice": 0.6334159438248658,
+    "oracle": 0.6723515248796148
+  },
+  "ISIC_0012901": {
+    "target_id": "ISIC_0012901",
+    "fold": 1,
+    "route_id": "94afdd85f1c1745b73b829bd",
+    "anchor_id": "ISIC_0010263",
+    "score": 0.9125387568381043,
+    "dice": 0.9582401193139448,
+    "oracle": 0.9582401193139448
+  },
+  "ISIC_0013166": {
+    "target_id": "ISIC_0013166",
+    "fold": 1,
+    "route_id": "86596ccec024d278511f3d92",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.7835550721069326,
+    "dice": 0.9057527539779682,
+    "oracle": 0.9267261314833168
+  },
+  "ISIC_0013205": {
+    "target_id": "ISIC_0013205",
+    "fold": 1,
+    "route_id": "2a97bd641f71335b9833b9a3",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.8352965288127976,
+    "dice": 0.8414733969986358,
+    "oracle": 0.9131028207461328
+  },
+  "ISIC_0013411": {
+    "target_id": "ISIC_0013411",
+    "fold": 1,
+    "route_id": "6c3cd782fc72ff7304c96631",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.791719457379587,
+    "dice": 0.8739526917557746,
+    "oracle": 0.8739526917557746
+  },
+  "ISIC_0013672": {
+    "target_id": "ISIC_0013672",
+    "fold": 1,
+    "route_id": "af8b56ea8590d82fc104845e",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.925858744523973,
+    "dice": 0.9203909447832261,
+    "oracle": 0.9319967266775777
+  },
+  "ISIC_0013817": {
+    "target_id": "ISIC_0013817",
+    "fold": 1,
+    "route_id": "20dc64eaa0078402e6358137",
+    "anchor_id": "ISIC_0007788",
+    "score": 0.9312734364922728,
+    "dice": 0.8773405427055172,
+    "oracle": 0.8780634190257077
+  },
+  "ISIC_0013830": {
+    "target_id": "ISIC_0013830",
+    "fold": 1,
+    "route_id": "52d53441aa471f2f53a1e2b6",
+    "anchor_id": "ISIC_0014026",
+    "score": 0.9498015424170583,
+    "dice": 0.9702467343976778,
+    "oracle": 0.9720630372492837
+  },
+  "ISIC_0014062": {
+    "target_id": "ISIC_0014062",
+    "fold": 1,
+    "route_id": "74c04e0dc49fe478419f92a5",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.7974096521977743,
+    "dice": 0.9402739726027397,
+    "oracle": 0.9402739726027397
+  },
+  "ISIC_0014108": {
+    "target_id": "ISIC_0014108",
+    "fold": 1,
+    "route_id": "125916161629471c50e2deb7",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.8343095716616401,
+    "dice": 0.8530552552934444,
+    "oracle": 0.8619949248487214
+  },
+  "ISIC_0014160": {
+    "target_id": "ISIC_0014160",
+    "fold": 1,
+    "route_id": "9f2a596a1a83be4a4760b35d",
+    "anchor_id": "ISIC_0012453",
+    "score": 0.8977555243686193,
+    "dice": 0.9083587892252152,
+    "oracle": 0.9083587892252152
+  },
+  "ISIC_0014286": {
+    "target_id": "ISIC_0014286",
+    "fold": 1,
+    "route_id": "ac18da57bd7e285276d0d3ff",
+    "anchor_id": "ISIC_0016048",
+    "score": 0.8539095341489638,
+    "dice": 0.9114307342922029,
+    "oracle": 0.9182582123758595
+  },
+  "ISIC_0014623": {
+    "target_id": "ISIC_0014623",
+    "fold": 1,
+    "route_id": "5cd5cfa6b8a15b7ace19f4cb",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9073859113716497,
+    "dice": 0.924980168473539,
+    "oracle": 0.9516379380769545
+  },
+  "ISIC_0014730": {
+    "target_id": "ISIC_0014730",
+    "fold": 1,
+    "route_id": "6650bc77766f9f8676e5861d",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9450885406913463,
+    "dice": 0.941045314446849,
+    "oracle": 0.9484428160167495
+  },
+  "ISIC_0014782": {
+    "target_id": "ISIC_0014782",
+    "fold": 1,
+    "route_id": "41654c71274f7748b5d9682b",
+    "anchor_id": "ISIC_0010023",
+    "score": 0.9781240990405985,
+    "dice": 0.9560727025649737,
+    "oracle": 0.9722185820993317
+  },
+  "ISIC_0014792": {
+    "target_id": "ISIC_0014792",
+    "fold": 1,
+    "route_id": "395510b9b90244548aa84a78",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.7829341855559532,
+    "dice": 0.7333635129017655,
+    "oracle": 0.9628129602356407
+  },
+  "ISIC_0015079": {
+    "target_id": "ISIC_0015079",
+    "fold": 1,
+    "route_id": "35af6d18b0474c58ddc78e92",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9704324305015525,
+    "dice": 0.9615580802225829,
+    "oracle": 0.9737026647966339
+  },
+  "ISIC_0015160": {
+    "target_id": "ISIC_0015160",
+    "fold": 1,
+    "route_id": "5687c7e39f528172b8a63ad7",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.988565538768587,
+    "dice": 0.8505875497717782,
+    "oracle": 0.851368400621118
+  },
+  "ISIC_0015180": {
+    "target_id": "ISIC_0015180",
+    "fold": 1,
+    "route_id": "d750cd2ecbdea0515ce0534c",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.8922832693521595,
+    "dice": 0.9164691229057013,
+    "oracle": 0.927509148952737
+  },
+  "ISIC_0015559": {
+    "target_id": "ISIC_0015559",
+    "fold": 1,
+    "route_id": "0e66a3305d4f75311eda6a88",
+    "anchor_id": "ISIC_0010360",
+    "score": 0.9550258299077953,
+    "dice": 0.9114791117802032,
+    "oracle": 0.92668513388735
+  },
+  "ISIC_0015996": {
+    "target_id": "ISIC_0015996",
+    "fold": 1,
+    "route_id": "19e85a9536a8287f48cd4db8",
+    "anchor_id": "ISIC_0013410",
+    "score": 0.9480439345882021,
+    "dice": 0.9080771068981998,
+    "oracle": 0.9080771068981998
+  },
+  "ISIC_0015998": {
+    "target_id": "ISIC_0015998",
+    "fold": 1,
+    "route_id": "8941e56571b23120e28ce5bc",
+    "anchor_id": "ISIC_0016048",
+    "score": 0.9475818636785281,
+    "dice": 0.6937613253947709,
+    "oracle": 0.7923433874709976
+  },
+  "ISIC_0000023": {
+    "target_id": "ISIC_0000023",
+    "fold": 2,
+    "route_id": "798585d3414f6ad8e650446b",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9569642992686729,
+    "dice": 0.9682357443551474,
+    "oracle": 0.968812492022295
+  },
+  "ISIC_0000055": {
+    "target_id": "ISIC_0000055",
+    "fold": 2,
+    "route_id": "90395c8ca2f91d032379fa1a",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9675157018958004,
+    "dice": 0.8826558429757073,
+    "oracle": 0.916539559622981
+  },
+  "ISIC_0000081": {
+    "target_id": "ISIC_0000081",
+    "fold": 2,
+    "route_id": "c915b39c99be89422ccc9a7d",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.8046802612416767,
+    "dice": 0.7554868624420402,
+    "oracle": 0.808814294685163
+  },
+  "ISIC_0000104": {
+    "target_id": "ISIC_0000104",
+    "fold": 2,
+    "route_id": "6f3c817e768a4a63dd190aa5",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.897167494663589,
+    "dice": 0.9807283316428361,
+    "oracle": 0.9811308414271231
+  },
+  "ISIC_0000233": {
+    "target_id": "ISIC_0000233",
+    "fold": 2,
+    "route_id": "22b0f768e71ae583e17b85f1",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9945000356081912,
+    "dice": 0.9845919603701361,
+    "oracle": 0.9858805142532944
+  },
+  "ISIC_0000376": {
+    "target_id": "ISIC_0000376",
+    "fold": 2,
+    "route_id": "e257d9f383af411012a8e875",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9159374189784815,
+    "dice": 0.9200938014070211,
+    "oracle": 0.9341110689262416
+  },
+  "ISIC_0000403": {
+    "target_id": "ISIC_0000403",
+    "fold": 2,
+    "route_id": "10911cf7eac1018678823b6e",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9482864503932239,
+    "dice": 0.9589966785018899,
+    "oracle": 0.9589966785018899
+  },
+  "ISIC_0000436": {
+    "target_id": "ISIC_0000436",
+    "fold": 2,
+    "route_id": "b4fda5c2a10cd24d92d93cb1",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.9307792226479012,
+    "dice": 0.834104775930991,
+    "oracle": 0.8437342421449809
+  },
+  "ISIC_0000449": {
+    "target_id": "ISIC_0000449",
+    "fold": 2,
+    "route_id": "0f664b6a16c7a0f93ec3a02f",
+    "anchor_id": "ISIC_0014026",
+    "score": 0.9010517180542855,
+    "dice": 0.9604365620736699,
+    "oracle": 0.960690752101795
+  },
+  "ISIC_0000489": {
+    "target_id": "ISIC_0000489",
+    "fold": 2,
+    "route_id": "f4e74a90681c034e2e08866e",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.9262303431839785,
+    "dice": 0.955491392460231,
+    "oracle": 0.9555402235407755
+  },
+  "ISIC_0000535": {
+    "target_id": "ISIC_0000535",
+    "fold": 2,
+    "route_id": "8b6c838cf862d641507b001f",
+    "anchor_id": "ISIC_0009941",
+    "score": 0.9515487617816842,
+    "dice": 0.9645440615757404,
+    "oracle": 0.9674941112520384
+  },
+  "ISIC_0000999": {
+    "target_id": "ISIC_0000999",
+    "fold": 2,
+    "route_id": "ce1a0f77005b4676e5ac79c0",
+    "anchor_id": "ISIC_0009252",
+    "score": 0.8656479064102881,
+    "dice": 0.9014901329037455,
+    "oracle": 0.918124332758479
+  },
+  "ISIC_0008280": {
+    "target_id": "ISIC_0008280",
+    "fold": 2,
+    "route_id": "98153790cee5a04393adaf3d",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.9366199987916074,
+    "dice": 0.9375338020551649,
+    "oracle": 0.9443105756358768
+  },
+  "ISIC_0008396": {
+    "target_id": "ISIC_0008396",
+    "fold": 2,
+    "route_id": "a12a6e60ccd1881b90bc4fd6",
+    "anchor_id": "ISIC_0016048",
+    "score": 0.7936159733778352,
+    "dice": 0.9067055393586005,
+    "oracle": 0.9067055393586005
+  },
+  "ISIC_0009910": {
+    "target_id": "ISIC_0009910",
+    "fold": 2,
+    "route_id": "d33c3a9b3e92c8be2d85298b",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.8914990675624564,
+    "dice": 0.8992553936231146,
+    "oracle": 0.9235376734963648
+  },
+  "ISIC_0009987": {
+    "target_id": "ISIC_0009987",
+    "fold": 2,
+    "route_id": "bf45b56f5f0672682dafaa3a",
+    "anchor_id": "ISIC_0009941",
+    "score": 0.9201249292881672,
+    "dice": 0.9118203859311169,
+    "oracle": 0.921196908646542
+  },
+  "ISIC_0010061": {
+    "target_id": "ISIC_0010061",
+    "fold": 2,
+    "route_id": "861ba257503ac55a467f8f6f",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.9060168823562522,
+    "dice": 0.9333456085435463,
+    "oracle": 0.9372931224714969
+  },
+  "ISIC_0010178": {
+    "target_id": "ISIC_0010178",
+    "fold": 2,
+    "route_id": "ab3c1f24b7a6403b7112f7f8",
+    "anchor_id": "ISIC_0009941",
+    "score": 0.9458028581785038,
+    "dice": 0.9774678804312739,
+    "oracle": 0.9783014615929432
+  },
+  "ISIC_0010212": {
+    "target_id": "ISIC_0010212",
+    "fold": 2,
+    "route_id": "883857303a097504040ef13f",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9670906895599889,
+    "dice": 0.9587460696470366,
+    "oracle": 0.9637987776210625
+  },
+  "ISIC_0010356": {
+    "target_id": "ISIC_0010356",
+    "fold": 2,
+    "route_id": "28214a1ee4f50569c0a45129",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.9244858664875992,
+    "dice": 0.8377662184708999,
+    "oracle": 0.8587906976744186
+  },
+  "ISIC_0010864": {
+    "target_id": "ISIC_0010864",
+    "fold": 2,
+    "route_id": "c51ec16a835f046191834380",
+    "anchor_id": "ISIC_0010023",
+    "score": 0.9183767219686186,
+    "dice": 0.9499686744831289,
+    "oracle": 0.9622363452150686
+  },
+  "ISIC_0011079": {
+    "target_id": "ISIC_0011079",
+    "fold": 2,
+    "route_id": "906ba919d1eba84c3d797212",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.974198679775284,
+    "dice": 0.918795683954055,
+    "oracle": 0.9237380651198254
+  },
+  "ISIC_0011156": {
+    "target_id": "ISIC_0011156",
+    "fold": 2,
+    "route_id": "c7e6566e890f141331d730bd",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9604403105619067,
+    "dice": 0.8863362164182909,
+    "oracle": 0.8992107472712006
+  },
+  "ISIC_0011199": {
+    "target_id": "ISIC_0011199",
+    "fold": 2,
+    "route_id": "7bc859ee84fa5e4028374495",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.8500764511597252,
+    "dice": 0.9362812835866728,
+    "oracle": 0.9362812835866728
+  },
+  "ISIC_0011301": {
+    "target_id": "ISIC_0011301",
+    "fold": 2,
+    "route_id": "ac4b6a18221ac253e23398bf",
+    "anchor_id": "ISIC_0010360",
+    "score": 0.9723188799837857,
+    "dice": 0.9478653884906584,
+    "oracle": 0.9539914163090129
+  },
+  "ISIC_0012109": {
+    "target_id": "ISIC_0012109",
+    "fold": 2,
+    "route_id": "b58c42a1621be57d82bd0634",
+    "anchor_id": "ISIC_0016048",
+    "score": 0.918347333006376,
+    "dice": 0.830166270783848,
+    "oracle": 0.9641739130434782
+  },
+  "ISIC_0012512": {
+    "target_id": "ISIC_0012512",
+    "fold": 2,
+    "route_id": "59e8a2a6b75926d8062897fb",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.8582098054937498,
+    "dice": 0.8857028434120945,
+    "oracle": 0.8857028434120945
+  },
+  "ISIC_0012837": {
+    "target_id": "ISIC_0012837",
+    "fold": 2,
+    "route_id": "7ec6570099542d44e49576fe",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.7912721996387703,
+    "dice": 0.03019715497878712,
+    "oracle": 0.031138919491965827
+  },
+  "ISIC_0013398": {
+    "target_id": "ISIC_0013398",
+    "fold": 2,
+    "route_id": "5638738bc073202f6a316ac9",
+    "anchor_id": "ISIC_0016048",
+    "score": 0.8596568097393593,
+    "dice": 0.9472817133443163,
+    "oracle": 0.948220064724919
+  },
+  "ISIC_0013806": {
+    "target_id": "ISIC_0013806",
+    "fold": 2,
+    "route_id": "dbf62a7132cfd36cdff55ce8",
+    "anchor_id": "ISIC_0014026",
+    "score": 0.9282780332691306,
+    "dice": 0.9629125552909152,
+    "oracle": 0.9650492025788938
+  },
+  "ISIC_0013837": {
+    "target_id": "ISIC_0013837",
+    "fold": 2,
+    "route_id": "c0f8b62de7ed37c6cb69c717",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.7958805270414946,
+    "dice": 0.9141004862236629,
+    "oracle": 0.9156626506024096
+  },
+  "ISIC_0014081": {
+    "target_id": "ISIC_0014081",
+    "fold": 2,
+    "route_id": "83ec36aa94d252034c688dd7",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.8796258085663994,
+    "dice": 0.7747599451303155,
+    "oracle": 0.7782680639823497
+  },
+  "ISIC_0014211": {
+    "target_id": "ISIC_0014211",
+    "fold": 2,
+    "route_id": "840087dff7f2072b9b749547",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.8936123649939114,
+    "dice": 0.9376304801670147,
+    "oracle": 0.9419168742624885
+  },
+  "ISIC_0014394": {
+    "target_id": "ISIC_0014394",
+    "fold": 2,
+    "route_id": "8355a1b5d8c64f81afb4859c",
+    "anchor_id": "ISIC_0012453",
+    "score": 0.884583450925333,
+    "dice": 0.8750485060147458,
+    "oracle": 0.8791123223671403
+  },
+  "ISIC_0014522": {
+    "target_id": "ISIC_0014522",
+    "fold": 2,
+    "route_id": "9534649d46ec66e9eb192c64",
+    "anchor_id": "ISIC_0009252",
+    "score": 0.8807202620243719,
+    "dice": 0.9303316093702464,
+    "oracle": 0.945645821157218
+  },
+  "ISIC_0014543": {
+    "target_id": "ISIC_0014543",
+    "fold": 2,
+    "route_id": "9c28c3bea3d42c11ebc07752",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.9170254659750842,
+    "dice": 0.8327897752313794,
+    "oracle": 0.8377371874445824
+  },
+  "ISIC_0014554": {
+    "target_id": "ISIC_0014554",
+    "fold": 2,
+    "route_id": "433e6697e0e7eff5d41fcd8c",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.7815615598557563,
+    "dice": 0.8491102805823618,
+    "oracle": 0.8776720152298069
+  },
+  "ISIC_0014558": {
+    "target_id": "ISIC_0014558",
+    "fold": 2,
+    "route_id": "d2255e243d81c55bf5198ff2",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9191427399490809,
+    "dice": 0.9178969178969179,
+    "oracle": 0.9358463211308445
+  },
+  "ISIC_0014596": {
+    "target_id": "ISIC_0014596",
+    "fold": 2,
+    "route_id": "1488773ba5f005a9f7c5123c",
+    "anchor_id": "ISIC_0012453",
+    "score": 0.8332539799961901,
+    "dice": 0.852198990627253,
+    "oracle": 0.852198990627253
+  },
+  "ISIC_0014635": {
+    "target_id": "ISIC_0014635",
+    "fold": 2,
+    "route_id": "11a2b3f9ad47cb33a46998ce",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.04402906069035684,
+    "dice": 0.0,
+    "oracle": 0.3163239184230736
+  },
+  "ISIC_0014702": {
+    "target_id": "ISIC_0014702",
+    "fold": 2,
+    "route_id": "44464651497d6fc30d342b90",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.8876415418455854,
+    "dice": 0.9262078093977498,
+    "oracle": 0.9538098449089684
+  },
+  "ISIC_0014735": {
+    "target_id": "ISIC_0014735",
+    "fold": 2,
+    "route_id": "62722ac49011ce208049b40c",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9737519330386185,
+    "dice": 0.9680441152719135,
+    "oracle": 0.9817828844894919
+  },
+  "ISIC_0014753": {
+    "target_id": "ISIC_0014753",
+    "fold": 2,
+    "route_id": "44396effa5be1cd49c532406",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9589767591249279,
+    "dice": 0.9719074029418857,
+    "oracle": 0.9724729173886185
+  },
+  "ISIC_0015125": {
+    "target_id": "ISIC_0015125",
+    "fold": 2,
+    "route_id": "ec5c5db39590a67afdab58f9",
+    "anchor_id": "ISIC_0009941",
+    "score": 0.9905467652446662,
+    "dice": 0.9681330638893207,
+    "oracle": 0.9681330638893207
+  },
+  "ISIC_0015176": {
+    "target_id": "ISIC_0015176",
+    "fold": 2,
+    "route_id": "d0823be7d0ecd9258105c37b",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9354206492729543,
+    "dice": 0.8423512051155927,
+    "oracle": 0.8937459928891998
+  },
+  "ISIC_0015284": {
+    "target_id": "ISIC_0015284",
+    "fold": 2,
+    "route_id": "aa6ac7c08301cf8c77de7bb7",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.8751196688183263,
+    "dice": 0.7435483470355928,
+    "oracle": 0.8022898235321947
+  },
+  "ISIC_0015331": {
+    "target_id": "ISIC_0015331",
+    "fold": 2,
+    "route_id": "449243c7e508734f9cbbbf14",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9006873602610704,
+    "dice": 0.7637441242591457,
+    "oracle": 0.9110485243208355
+  },
+  "ISIC_0015418": {
+    "target_id": "ISIC_0015418",
+    "fold": 2,
+    "route_id": "2c6b73b675fcb405e9f03630",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9469489067090324,
+    "dice": 0.7698100172711572,
+    "oracle": 0.8521980146964032
+  },
+  "ISIC_0015466": {
+    "target_id": "ISIC_0015466",
+    "fold": 2,
+    "route_id": "f01c66bbd6c9cb1368973917",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.7559114868337318,
+    "dice": 0.7673588149715647,
+    "oracle": 0.9256630200069195
+  },
+  "ISIC_0015625": {
+    "target_id": "ISIC_0015625",
+    "fold": 2,
+    "route_id": "6b13103e82776b7c6123475b",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.9932062541218537,
+    "dice": 0.9819830114653564,
+    "oracle": 0.9844986244189355
+  },
+  "ISIC_0016026": {
+    "target_id": "ISIC_0016026",
+    "fold": 2,
+    "route_id": "6231dcbae30c433634502407",
+    "anchor_id": "ISIC_0010263",
+    "score": 0.9167630329235127,
+    "dice": 0.9507959479015919,
+    "oracle": 0.9521392313270486
+  },
+  "ISIC_0016033": {
+    "target_id": "ISIC_0016033",
+    "fold": 2,
+    "route_id": "533c120499ef1996a7013843",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.9551613782139762,
+    "dice": 0.9345082162419623,
+    "oracle": 0.9358994751073644
+  },
+  "ISIC_0000016": {
+    "target_id": "ISIC_0000016",
+    "fold": 3,
+    "route_id": "b8fa1dfb9d081db6b93338a5",
+    "anchor_id": "ISIC_0010023",
+    "score": 0.9545133887672308,
+    "dice": 0.9831162566328991,
+    "oracle": 0.9879368328703027
+  },
+  "ISIC_0000030": {
+    "target_id": "ISIC_0000030",
+    "fold": 3,
+    "route_id": "1649b5ecf0df558511b7cf4c",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9485759704206883,
+    "dice": 0.5895269175077262,
+    "oracle": 0.7443292225407392
+  },
+  "ISIC_0000035": {
+    "target_id": "ISIC_0000035",
+    "fold": 3,
+    "route_id": "9abc2e33e06a472bef4b17e1",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.958018322995145,
+    "dice": 0.9758057847822852,
+    "oracle": 0.9782040963815843
+  },
+  "ISIC_0000121": {
+    "target_id": "ISIC_0000121",
+    "fold": 3,
+    "route_id": "0812419205efbd677679e72d",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9102510063395965,
+    "dice": 0.9785419843017674,
+    "oracle": 0.982292427904885
+  },
+  "ISIC_0000139": {
+    "target_id": "ISIC_0000139",
+    "fold": 3,
+    "route_id": "a6907cfee1e45ae6bdaf4b09",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.984407038524896,
+    "dice": 0.9658696096464336,
+    "oracle": 0.9658696096464336
+  },
+  "ISIC_0000190": {
+    "target_id": "ISIC_0000190",
+    "fold": 3,
+    "route_id": "1112f748ef4141b43c9f358e",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9794786685540597,
+    "dice": 0.9400964888769767,
+    "oracle": 0.9451158576396754
+  },
+  "ISIC_0000216": {
+    "target_id": "ISIC_0000216",
+    "fold": 3,
+    "route_id": "40f2ce0d645a44defc432fe1",
+    "anchor_id": "ISIC_0010023",
+    "score": 0.9738807601884335,
+    "dice": 0.9875807585445051,
+    "oracle": 0.988558352402746
+  },
+  "ISIC_0000255": {
+    "target_id": "ISIC_0000255",
+    "fold": 3,
+    "route_id": "f87195e23c07eb5eb9d58017",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9358717241521685,
+    "dice": 0.9636694633528574,
+    "oracle": 0.971788990825688
+  },
+  "ISIC_0000264": {
+    "target_id": "ISIC_0000264",
+    "fold": 3,
+    "route_id": "cb770abdaae9e4c677dcda57",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9382545275066542,
+    "dice": 0.9190354027706517,
+    "oracle": 0.9190354027706517
+  },
+  "ISIC_0000546": {
+    "target_id": "ISIC_0000546",
+    "fold": 3,
+    "route_id": "3462551d427ffe3b9319f524",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.9417449655223128,
+    "dice": 0.8785519344999198,
+    "oracle": 0.8970943813778124
+  },
+  "ISIC_0000550": {
+    "target_id": "ISIC_0000550",
+    "fold": 3,
+    "route_id": "3904e57d2478139753ab53ce",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9562150696806999,
+    "dice": 0.9583726580855038,
+    "oracle": 0.9619976968301109
+  },
+  "ISIC_0001131": {
+    "target_id": "ISIC_0001131",
+    "fold": 3,
+    "route_id": "dac8b2094cb47ba5d7b0d844",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.969309882595459,
+    "dice": 0.9299435835178176,
+    "oracle": 0.9299435835178176
+  },
+  "ISIC_0002836": {
+    "target_id": "ISIC_0002836",
+    "fold": 3,
+    "route_id": "34de1bc82e5b3ffe84389c9b",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.9543198871486132,
+    "dice": 0.9389268935959779,
+    "oracle": 0.9462209302325582
+  },
+  "ISIC_0006914": {
+    "target_id": "ISIC_0006914",
+    "fold": 3,
+    "route_id": "c47a6a8fd6cd08f0bb9d68b5",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.9578433089801527,
+    "dice": 0.8941471325372254,
+    "oracle": 0.9237242128121607
+  },
+  "ISIC_0009914": {
+    "target_id": "ISIC_0009914",
+    "fold": 3,
+    "route_id": "bb41808412a6da659bf371cb",
+    "anchor_id": "ISIC_0009941",
+    "score": 0.921485427053094,
+    "dice": 0.9688365380865088,
+    "oracle": 0.969316052467208
+  },
+  "ISIC_0009980": {
+    "target_id": "ISIC_0009980",
+    "fold": 3,
+    "route_id": "85277eae801bb275dd6f4c3d",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.957053213756105,
+    "dice": 0.9518918428454768,
+    "oracle": 0.9518918428454768
+  },
+  "ISIC_0009982": {
+    "target_id": "ISIC_0009982",
+    "fold": 3,
+    "route_id": "ce05a2897033636ad8059227",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.9210598881822357,
+    "dice": 0.7736453545061986,
+    "oracle": 0.7791721555848298
+  },
+  "ISIC_0010011": {
+    "target_id": "ISIC_0010011",
+    "fold": 3,
+    "route_id": "9b78d497455f289a0e0bfb59",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9109628644038527,
+    "dice": 0.8787858660998937,
+    "oracle": 0.8790421544890716
+  },
+  "ISIC_0010334": {
+    "target_id": "ISIC_0010334",
+    "fold": 3,
+    "route_id": "afdde993f0e01b2b818c312b",
+    "anchor_id": "ISIC_0010023",
+    "score": 0.9842579327913319,
+    "dice": 0.9420594675579117,
+    "oracle": 0.9420594675579117
+  },
+  "ISIC_0010368": {
+    "target_id": "ISIC_0010368",
+    "fold": 3,
+    "route_id": "0686714c9dc0fb5d70b18160",
+    "anchor_id": "ISIC_0010023",
+    "score": 0.9863417918806617,
+    "dice": 0.9638856378532018,
+    "oracle": 0.9698879850078794
+  },
+  "ISIC_0010589": {
+    "target_id": "ISIC_0010589",
+    "fold": 3,
+    "route_id": "6465057a2944fbd2761b0d00",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.9596743162506968,
+    "dice": 0.8767839566929134,
+    "oracle": 0.8767839566929134
+  },
+  "ISIC_0010858": {
+    "target_id": "ISIC_0010858",
+    "fold": 3,
+    "route_id": "8f04ad4b120136d5e5b3bab4",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.9355619615265897,
+    "dice": 0.8492591053870655,
+    "oracle": 0.8707617041516613
+  },
+  "ISIC_0011124": {
+    "target_id": "ISIC_0011124",
+    "fold": 3,
+    "route_id": "ceea0d0b923eaa417186363d",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9899899631846003,
+    "dice": 0.949937216793143,
+    "oracle": 0.9678100565036242
+  },
+  "ISIC_0012187": {
+    "target_id": "ISIC_0012187",
+    "fold": 3,
+    "route_id": "0881f3045be4b22ac42ade8f",
+    "anchor_id": "ISIC_0010263",
+    "score": 0.8080337188814094,
+    "dice": 0.9323148737534479,
+    "oracle": 0.9323148737534479
+  },
+  "ISIC_0012261": {
+    "target_id": "ISIC_0012261",
+    "fold": 3,
+    "route_id": "b8bbf8e58f32679dd8af54f8",
+    "anchor_id": "ISIC_0012453",
+    "score": 0.8544150678901216,
+    "dice": 0.7816637028255286,
+    "oracle": 0.7816637028255286
+  },
+  "ISIC_0012282": {
+    "target_id": "ISIC_0012282",
+    "fold": 3,
+    "route_id": "1366a72672e7e8d733190acb",
+    "anchor_id": "ISIC_0013410",
+    "score": 0.9044378542399225,
+    "dice": 0.9052874743326489,
+    "oracle": 0.9299227284838796
+  },
+  "ISIC_0012676": {
+    "target_id": "ISIC_0012676",
+    "fold": 3,
+    "route_id": "ea0bee495b903379fc12d5cd",
+    "anchor_id": "ISIC_0014026",
+    "score": 0.9219479555476042,
+    "dice": 0.953195772521389,
+    "oracle": 0.9578189300411523
+  },
+  "ISIC_0012690": {
+    "target_id": "ISIC_0012690",
+    "fold": 3,
+    "route_id": "716d981f043fa2e72d708b8f",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.9114129160780201,
+    "dice": 0.9306021938661294,
+    "oracle": 0.932519422863485
+  },
+  "ISIC_0013090": {
+    "target_id": "ISIC_0013090",
+    "fold": 3,
+    "route_id": "a525535378943b6607be976a",
+    "anchor_id": "ISIC_0016048",
+    "score": 0.9026872597444553,
+    "dice": 0.9511343804537522,
+    "oracle": 0.9558303886925795
+  },
+  "ISIC_0013118": {
+    "target_id": "ISIC_0013118",
+    "fold": 3,
+    "route_id": "cedf621f9ca9324dcc180545",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.8743121332884678,
+    "dice": 0.9306286000500876,
+    "oracle": 0.9321462945139557
+  },
+  "ISIC_0013371": {
+    "target_id": "ISIC_0013371",
+    "fold": 3,
+    "route_id": "59c19bcebe550e41bc7e5f95",
+    "anchor_id": "ISIC_0007788",
+    "score": 0.8804741789305522,
+    "dice": 0.6422115895800107,
+    "oracle": 0.6479618845950238
+  },
+  "ISIC_0013588": {
+    "target_id": "ISIC_0013588",
+    "fold": 3,
+    "route_id": "af76d5c84367a3d441e02b75",
+    "anchor_id": "ISIC_0012453",
+    "score": 0.7357284661172047,
+    "dice": 0.2879791290387317,
+    "oracle": 0.362414819080526
+  },
+  "ISIC_0013749": {
+    "target_id": "ISIC_0013749",
+    "fold": 3,
+    "route_id": "bede5304ef03e19af1845ec8",
+    "anchor_id": "ISIC_0013410",
+    "score": 0.8119329143529418,
+    "dice": 0.7064782289028674,
+    "oracle": 0.7064782289028674
+  },
+  "ISIC_0013797": {
+    "target_id": "ISIC_0013797",
+    "fold": 3,
+    "route_id": "07bf6df4a69d0bf61fd43129",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.957481530654187,
+    "dice": 0.7922014477949993,
+    "oracle": 0.8123701823217171
+  },
+  "ISIC_0013804": {
+    "target_id": "ISIC_0013804",
+    "fold": 3,
+    "route_id": "3b104259227a759f04e92636",
+    "anchor_id": "ISIC_0014026",
+    "score": 0.8901522673590974,
+    "dice": 0.9360730593607306,
+    "oracle": 0.9425599276345545
+  },
+  "ISIC_0013908": {
+    "target_id": "ISIC_0013908",
+    "fold": 3,
+    "route_id": "3ee16946b4c06cff92485a1c",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.915441537680879,
+    "dice": 0.6300446788251667,
+    "oracle": 0.7399622743195904
+  },
+  "ISIC_0014131": {
+    "target_id": "ISIC_0014131",
+    "fold": 3,
+    "route_id": "8a2efa1e445e23db81cd77c7",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.8277387055653754,
+    "dice": 0.7951247823563552,
+    "oracle": 0.8164196123147093
+  },
+  "ISIC_0014225": {
+    "target_id": "ISIC_0014225",
+    "fold": 3,
+    "route_id": "5cd52b2e84816a19df963f0b",
+    "anchor_id": "ISIC_0014026",
+    "score": 0.8323043268885507,
+    "dice": 0.8263056092843327,
+    "oracle": 0.859075535512965
+  },
+  "ISIC_0014233": {
+    "target_id": "ISIC_0014233",
+    "fold": 3,
+    "route_id": "709a06a5d8733a8574c5a29f",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.8407264725474686,
+    "dice": 0.4676453137859098,
+    "oracle": 0.4731480413639334
+  },
+  "ISIC_0014694": {
+    "target_id": "ISIC_0014694",
+    "fold": 3,
+    "route_id": "8eb0d62452eb25fa08af3b85",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9729649135375149,
+    "dice": 0.9438838828036475,
+    "oracle": 0.9772498386055519
+  },
+  "ISIC_0014800": {
+    "target_id": "ISIC_0014800",
+    "fold": 3,
+    "route_id": "5ed933a8400fcbfa47d9c4cb",
+    "anchor_id": "ISIC_0010023",
+    "score": 1.0014141218441366,
+    "dice": 0.9746697237689704,
+    "oracle": 0.9746697237689704
+  },
+  "ISIC_0014806": {
+    "target_id": "ISIC_0014806",
+    "fold": 3,
+    "route_id": "56730815febe70c46d2ae66c",
+    "anchor_id": "ISIC_0010023",
+    "score": 0.8992763606517622,
+    "dice": 0.9320327249842668,
+    "oracle": 0.9329556185080264
+  },
+  "ISIC_0015037": {
+    "target_id": "ISIC_0015037",
+    "fold": 3,
+    "route_id": "887c6d088e6df6bcca1e073c",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9686722906089095,
+    "dice": 0.9110983817843333,
+    "oracle": 0.9586515456671307
+  },
+  "ISIC_0015060": {
+    "target_id": "ISIC_0015060",
+    "fold": 3,
+    "route_id": "91a582a69cb9b24ed7f160ed",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.8388777001005296,
+    "dice": 0.7618905709858148,
+    "oracle": 0.8422043755192468
+  },
+  "ISIC_0015109": {
+    "target_id": "ISIC_0015109",
+    "fold": 3,
+    "route_id": "be735a6de96d5abb2635384f",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.950844350280329,
+    "dice": 0.9517041534428039,
+    "oracle": 0.9542888613520584
+  },
+  "ISIC_0015142": {
+    "target_id": "ISIC_0015142",
+    "fold": 3,
+    "route_id": "c27e53613a41afb84f2f2eb7",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9714503411067128,
+    "dice": 0.8910546123884497,
+    "oracle": 0.8910546123884497
+  },
+  "ISIC_0015218": {
+    "target_id": "ISIC_0015218",
+    "fold": 3,
+    "route_id": "cb8a54dfd647b2614f0d351f",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.9326827791565995,
+    "dice": 0.9498188206873833,
+    "oracle": 0.9499726027397261
+  },
+  "ISIC_0015226": {
+    "target_id": "ISIC_0015226",
+    "fold": 3,
+    "route_id": "ab35466c56c79f58bb918235",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.8468738839268133,
+    "dice": 0.9602370955791554,
+    "oracle": 0.9701986754966887
+  },
+  "ISIC_0015401": {
+    "target_id": "ISIC_0015401",
+    "fold": 3,
+    "route_id": "ef5aa83480cc7152e9a4ca01",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.8395138638852291,
+    "dice": 0.7634446934202486,
+    "oracle": 0.9095960675357982
+  },
+  "ISIC_0015483": {
+    "target_id": "ISIC_0015483",
+    "fold": 3,
+    "route_id": "34b1d934d995cfa5bc65076a",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.8805316277462315,
+    "dice": 0.8288050804301591,
+    "oracle": 0.9076732332277173
+  },
+  "ISIC_0015964": {
+    "target_id": "ISIC_0015964",
+    "fold": 3,
+    "route_id": "fcf6208957ad4a7bbff0add6",
+    "anchor_id": "ISIC_0016048",
+    "score": 0.896623837402087,
+    "dice": 0.9056929269695227,
+    "oracle": 0.9078909612625538
+  },
+  "ISIC_0016065": {
+    "target_id": "ISIC_0016065",
+    "fold": 3,
+    "route_id": "4b3218f923c1ecf49b55c122",
+    "anchor_id": "ISIC_0016048",
+    "score": 0.8496013724089864,
+    "dice": 0.9439374185136897,
+    "oracle": 0.9542395693135935
+  },
+  "ISIC_0000037": {
+    "target_id": "ISIC_0000037",
+    "fold": 4,
+    "route_id": "281f2ec7add99a0ddf641f36",
+    "anchor_id": "ISIC_0010023",
+    "score": 0.9919332957352094,
+    "dice": 0.9025896841325824,
+    "oracle": 0.9025896841325824
+  },
+  "ISIC_0000089": {
+    "target_id": "ISIC_0000089",
+    "fold": 4,
+    "route_id": "c09b187b69ff8e303e921a0b",
+    "anchor_id": "ISIC_0010023",
+    "score": 0.9724197789722798,
+    "dice": 0.9556116480945638,
+    "oracle": 0.956580900544285
+  },
+  "ISIC_0000092": {
+    "target_id": "ISIC_0000092",
+    "fold": 4,
+    "route_id": "89200a9b39c38ac76a1b764c",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.9128599343058156,
+    "dice": 0.9426646952521768,
+    "oracle": 0.9520788111537819
+  },
+  "ISIC_0000281": {
+    "target_id": "ISIC_0000281",
+    "fold": 4,
+    "route_id": "bf90a11c2b035a4f37f7c2a3",
+    "anchor_id": "ISIC_0010023",
+    "score": 1.0233616412976558,
+    "dice": 0.978429342808382,
+    "oracle": 0.978429342808382
+  },
+  "ISIC_0000493": {
+    "target_id": "ISIC_0000493",
+    "fold": 4,
+    "route_id": "90bec946c5837e3a5833ce6a",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9934036881753054,
+    "dice": 0.9705907689127027,
+    "oracle": 0.9804910463273756
+  },
+  "ISIC_0000540": {
+    "target_id": "ISIC_0000540",
+    "fold": 4,
+    "route_id": "3005e61ddfb968883fd91dc5",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9794820332835347,
+    "dice": 0.9720464215454532,
+    "oracle": 0.9780462026272082
+  },
+  "ISIC_0002246": {
+    "target_id": "ISIC_0002246",
+    "fold": 4,
+    "route_id": "f88846db18670eaada66b8b2",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.9128773593429554,
+    "dice": 0.8778181818181818,
+    "oracle": 0.8843094721619668
+  },
+  "ISIC_0004309": {
+    "target_id": "ISIC_0004309",
+    "fold": 4,
+    "route_id": "245e4f634e31ba7a31d9e4ff",
+    "anchor_id": "ISIC_0014026",
+    "score": 0.8175195035815965,
+    "dice": 0.8166442953020134,
+    "oracle": 0.8464946572843367
+  },
+  "ISIC_0006193": {
+    "target_id": "ISIC_0006193",
+    "fold": 4,
+    "route_id": "4f15f72c0bf714a91d93c597",
+    "anchor_id": "ISIC_0009252",
+    "score": 0.8875590948731298,
+    "dice": 0.9411477411477411,
+    "oracle": 0.943558282208589
+  },
+  "ISIC_0006795": {
+    "target_id": "ISIC_0006795",
+    "fold": 4,
+    "route_id": "b6293700517a85768c14f906",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.9262862512575123,
+    "dice": 0.8871360963717195,
+    "oracle": 0.9142618151401087
+  },
+  "ISIC_0009940": {
+    "target_id": "ISIC_0009940",
+    "fold": 4,
+    "route_id": "e8c018b6fe3a13ea47503067",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.9932840155138934,
+    "dice": 0.9670863257058122,
+    "oracle": 0.9685859318346628
+  },
+  "ISIC_0009988": {
+    "target_id": "ISIC_0009988",
+    "fold": 4,
+    "route_id": "2a02d0c05e11e1bb3b7c3d0b",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.738687898054696,
+    "dice": 0.9695325027753793,
+    "oracle": 0.9824270476957134
+  },
+  "ISIC_0010075": {
+    "target_id": "ISIC_0010075",
+    "fold": 4,
+    "route_id": "29e68e1981c271dd04cadc0f",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.8648611262009511,
+    "dice": 0.8276375080466347,
+    "oracle": 0.8681727904667329
+  },
+  "ISIC_0010205": {
+    "target_id": "ISIC_0010205",
+    "fold": 4,
+    "route_id": "a5a98deeb2d7ad852c023856",
+    "anchor_id": "ISIC_0009941",
+    "score": 0.9140108234147837,
+    "dice": 0.9661154345006485,
+    "oracle": 0.9696427118092292
+  },
+  "ISIC_0010444": {
+    "target_id": "ISIC_0010444",
+    "fold": 4,
+    "route_id": "bfd45d8acf8ef1933d5c2375",
+    "anchor_id": "ISIC_0010263",
+    "score": 0.895998527168441,
+    "dice": 0.9380189225719251,
+    "oracle": 0.9413562559694365
+  },
+  "ISIC_0010572": {
+    "target_id": "ISIC_0010572",
+    "fold": 4,
+    "route_id": "addc1fdafc99fe9e51dda1cc",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.9521116535437815,
+    "dice": 0.883340026890639,
+    "oracle": 0.883340026890639
+  },
+  "ISIC_0011169": {
+    "target_id": "ISIC_0011169",
+    "fold": 4,
+    "route_id": "3b9faf0bfc1ec55234c359b5",
+    "anchor_id": "ISIC_0009941",
+    "score": 0.9259367117674381,
+    "dice": 0.8554864144088432,
+    "oracle": 0.870371076617978
+  },
+  "ISIC_0012376": {
+    "target_id": "ISIC_0012376",
+    "fold": 4,
+    "route_id": "c189870b821a07f969b8f6f0",
+    "anchor_id": "ISIC_0016048",
+    "score": 0.8544281345916247,
+    "dice": 0.8258064516129032,
+    "oracle": 0.8274078862314156
+  },
+  "ISIC_0012475": {
+    "target_id": "ISIC_0012475",
+    "fold": 4,
+    "route_id": "9fb8fe746d883e47eeb68536",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.7946519482504345,
+    "dice": 0.8899435028248588,
+    "oracle": 0.8899435028248588
+  },
+  "ISIC_0012484": {
+    "target_id": "ISIC_0012484",
+    "fold": 4,
+    "route_id": "72fc0b8957b52f84f5ff9ba9",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.01688193588232808,
+    "dice": 0.0,
+    "oracle": 0.0
+  },
+  "ISIC_0012551": {
+    "target_id": "ISIC_0012551",
+    "fold": 4,
+    "route_id": "e12460011a6886880bd94fed",
+    "anchor_id": "ISIC_0007788",
+    "score": 0.8941069016649581,
+    "dice": 0.9616690926734595,
+    "oracle": 0.9616690926734595
+  },
+  "ISIC_0012742": {
+    "target_id": "ISIC_0012742",
+    "fold": 4,
+    "route_id": "2a4f145f058c013b5953fdf9",
+    "anchor_id": "ISIC_0012453",
+    "score": 0.7835641480409429,
+    "dice": 0.5,
+    "oracle": 0.5385474860335195
+  },
+  "ISIC_0012855": {
+    "target_id": "ISIC_0012855",
+    "fold": 4,
+    "route_id": "b0bc27fd21c457553598def3",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.8913433258373473,
+    "dice": 0.9680030840400925,
+    "oracle": 0.9707943925233645
+  },
+  "ISIC_0012888": {
+    "target_id": "ISIC_0012888",
+    "fold": 4,
+    "route_id": "6dbbaf521ffcc246895db2e3",
+    "anchor_id": "ISIC_0009252",
+    "score": 0.8972209871549774,
+    "dice": 0.8455284552845529,
+    "oracle": 0.8896492728828058
+  },
+  "ISIC_0012911": {
+    "target_id": "ISIC_0012911",
+    "fold": 4,
+    "route_id": "8604004b6b41a6bbe3f244e9",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.8567289420781918,
+    "dice": 0.8546409807355516,
+    "oracle": 0.9133425034387895
+  },
+  "ISIC_0012988": {
+    "target_id": "ISIC_0012988",
+    "fold": 4,
+    "route_id": "80fa87d58a0570e4aea234aa",
+    "anchor_id": "ISIC_0014026",
+    "score": 0.8944712509170935,
+    "dice": 0.9736632083000798,
+    "oracle": 0.9746192893401016
+  },
+  "ISIC_0013178": {
+    "target_id": "ISIC_0013178",
+    "fold": 4,
+    "route_id": "7b4b9aed4aeadedd4a6c738a",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.7082017084623613,
+    "dice": 0.5896489571710583,
+    "oracle": 0.750827182489183
+  },
+  "ISIC_0013192": {
+    "target_id": "ISIC_0013192",
+    "fold": 4,
+    "route_id": "b586b3e8e5c7cd6a78111710",
+    "anchor_id": "ISIC_0013458",
+    "score": 0.854589376623073,
+    "dice": 0.9131455399061033,
+    "oracle": 0.9252279635258359
+  },
+  "ISIC_0013429": {
+    "target_id": "ISIC_0013429",
+    "fold": 4,
+    "route_id": "97e901b7d7c2624be1fc73dd",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.9576908855058963,
+    "dice": 0.9556177528988404,
+    "oracle": 0.9651241688153074
+  },
+  "ISIC_0013437": {
+    "target_id": "ISIC_0013437",
+    "fold": 4,
+    "route_id": "2ea91485945511d9ee40dcc2",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9392174686073541,
+    "dice": 0.9586962904962317,
+    "oracle": 0.9596623809991167
+  },
+  "ISIC_0013523": {
+    "target_id": "ISIC_0013523",
+    "fold": 4,
+    "route_id": "e303b3562b1e9ed5d9300c88",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.8971054139845785,
+    "dice": 0.8909473684210526,
+    "oracle": 0.9454022988505747
+  },
+  "ISIC_0013600": {
+    "target_id": "ISIC_0013600",
+    "fold": 4,
+    "route_id": "e6069e42b9257c6f9894979a",
+    "anchor_id": "ISIC_0013410",
+    "score": 0.794579439967792,
+    "dice": 0.26292834890965733,
+    "oracle": 0.27261462205700127
+  },
+  "ISIC_0013803": {
+    "target_id": "ISIC_0013803",
+    "fold": 4,
+    "route_id": "495a66f2dd5f893ad07ffc06",
+    "anchor_id": "ISIC_0013458",
+    "score": 0.8618614305031981,
+    "dice": 0.8770053475935828,
+    "oracle": 0.8900949796472184
+  },
+  "ISIC_0013977": {
+    "target_id": "ISIC_0013977",
+    "fold": 4,
+    "route_id": "fd91b1a69b383df4d953cc81",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.8928305564075198,
+    "dice": 0.3310054529800057,
+    "oracle": 0.3497644257561173
+  },
+  "ISIC_0014059": {
+    "target_id": "ISIC_0014059",
+    "fold": 4,
+    "route_id": "5ee258ae013a459172f75ca9",
+    "anchor_id": "ISIC_0014026",
+    "score": 0.9168923628171665,
+    "dice": 0.9759519038076152,
+    "oracle": 0.9759903961584634
+  },
+  "ISIC_0014117": {
+    "target_id": "ISIC_0014117",
+    "fold": 4,
+    "route_id": "3e50479d9d41af327b5cb1d9",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.9033211220801949,
+    "dice": 0.9520207047581127,
+    "oracle": 0.952569954356023
+  },
+  "ISIC_0014366": {
+    "target_id": "ISIC_0014366",
+    "fold": 4,
+    "route_id": "b69eee0681b3a5fce8f9013d",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.8185653877260858,
+    "dice": 0.7630217316315971,
+    "oracle": 0.7733773377337734
+  },
+  "ISIC_0014430": {
+    "target_id": "ISIC_0014430",
+    "fold": 4,
+    "route_id": "31762541f76ab98af91b0634",
+    "anchor_id": "ISIC_0014438",
+    "score": 0.8799481438368352,
+    "dice": 0.9589107315501127,
+    "oracle": 0.971460282226098
+  },
+  "ISIC_0014642": {
+    "target_id": "ISIC_0014642",
+    "fold": 4,
+    "route_id": "cb30300c46dc3d90d4d04c66",
+    "anchor_id": "ISIC_0002453",
+    "score": 0.8827495550371104,
+    "dice": 0.7971188475390156,
+    "oracle": 0.798290141597649
+  },
+  "ISIC_0014651": {
+    "target_id": "ISIC_0014651",
+    "fold": 4,
+    "route_id": "0a423a58cfa925db142e6d7b",
+    "anchor_id": "ISIC_0007788",
+    "score": 0.9110384702328965,
+    "dice": 0.9555871661134819,
+    "oracle": 0.9555871661134819
+  },
+  "ISIC_0014657": {
+    "target_id": "ISIC_0014657",
+    "fold": 4,
+    "route_id": "4713adc3188d2e6b7a8aaf46",
+    "anchor_id": "ISIC_0010023",
+    "score": 0.9247410362485755,
+    "dice": 0.9622975364094188,
+    "oracle": 0.9654890749438432
+  },
+  "ISIC_0014731": {
+    "target_id": "ISIC_0014731",
+    "fold": 4,
+    "route_id": "a7b09be4fb33d013e3cdca4a",
+    "anchor_id": "ISIC_0010023",
+    "score": 0.9452573444135103,
+    "dice": 0.944061724993111,
+    "oracle": 0.9682539682539683
+  },
+  "ISIC_0014762": {
+    "target_id": "ISIC_0014762",
+    "fold": 4,
+    "route_id": "529e515bc5506becdce75078",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9396484876785112,
+    "dice": 0.9826266953647158,
+    "oracle": 0.9836035239573588
+  },
+  "ISIC_0014785": {
+    "target_id": "ISIC_0014785",
+    "fold": 4,
+    "route_id": "764687a6eeb3a1655d72cec0",
+    "anchor_id": "ISIC_0015206",
+    "score": 0.9506234020683371,
+    "dice": 0.9681635023777544,
+    "oracle": 0.9692753623188406
+  },
+  "ISIC_0014945": {
+    "target_id": "ISIC_0014945",
+    "fold": 4,
+    "route_id": "3fb7f2b5131a5d2b2b991778",
+    "anchor_id": "ISIC_0013458",
+    "score": 0.9066126493182136,
+    "dice": 0.9385628925999694,
+    "oracle": 0.9385628925999694
+  },
+  "ISIC_0015537": {
+    "target_id": "ISIC_0015537",
+    "fold": 4,
+    "route_id": "2889fb5c1af3f1ef215f989d",
+    "anchor_id": "ISIC_0011229",
+    "score": 0.9479726791080881,
+    "dice": 0.9196071422492298,
+    "oracle": 0.9484566437112525
+  },
+  "ISIC_0015946": {
+    "target_id": "ISIC_0015946",
+    "fold": 4,
+    "route_id": "2e272714df6aa6ecd136db38",
+    "anchor_id": "ISIC_0009252",
+    "score": 0.8634541305034243,
+    "dice": 0.9042395493625852,
+    "oracle": 0.9042395493625852
+  },
+  "ISIC_0015957": {
+    "target_id": "ISIC_0015957",
+    "fold": 4,
+    "route_id": "4836c8ce2551a3bc09552d99",
+    "anchor_id": "ISIC_0011129",
+    "score": 0.9107043926847642,
+    "dice": 0.40047313281514024,
+    "oracle": 0.9504226062823262
+  },
+  "ISIC_0015963": {
+    "target_id": "ISIC_0015963",
+    "fold": 4,
+    "route_id": "c4c686acb2db4152131438ac",
+    "anchor_id": "ISIC_0009252",
+    "score": 0.8874912252156436,
+    "dice": 0.8524904214559387,
+    "oracle": 0.8524904214559387
+  },
+  "ISIC_0015997": {
+    "target_id": "ISIC_0015997",
+    "fold": 4,
+    "route_id": "f0ad39e6e9e3e34dc604039a",
+    "anchor_id": "ISIC_0014026",
+    "score": 0.9170162402697988,
+    "dice": 0.9673513513513513,
+    "oracle": 0.9715117488043252
+  },
+  "ISIC_0016022": {
+    "target_id": "ISIC_0016022",
+    "fold": 4,
+    "route_id": "c2cfafa21edb6be64c70d997",
+    "anchor_id": "ISIC_0015995",
+    "score": 0.9020214104376244,
+    "dice": 0.9439175257731959,
+    "oracle": 0.9651762682717111
+  }
+}

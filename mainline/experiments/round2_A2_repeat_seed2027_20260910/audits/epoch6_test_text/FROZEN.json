@@ -1,0 +1,14 @@
+{
+  "epoch": 6,
+  "seed": 2027,
+  "sha256": "4fe1a7c1c44c58d826be94f600570633d6bd264f2099c06ac4a4acedb120917d",
+  "validation": {
+    "count": 100,
+    "dice": 0.8792649707703154,
+    "iou": 0.8172718782001234
+  },
+  "prompt": "colon polyp",
+  "input": "original1008",
+  "metric": 256,
+  "reason": "user requested current validation best during training"
+}

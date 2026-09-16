@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "loss": 358.685791015625,
+  "zero_update": {
+    "count": 1,
+    "dice": 0.0,
+    "iou": 0.0
+  },
+  "updated": {
+    "count": 1,
+    "dice": 0.9696533434362569,
+    "iou": 0.941094278570378
+  },
+  "gradients_finite": true,
+  "frozen_unchanged": true,
+  "checkpoint_roundtrip": true
+}

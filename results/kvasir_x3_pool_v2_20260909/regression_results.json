@@ -1,0 +1,11 @@
+{
+  "sampler_batches": 1000,
+  "old_mean_pseudo_in_supervised_six": 2.974,
+  "old_batches_with_wrong_membership": 999,
+  "fixed_batches_with_wrong_membership": 0,
+  "all_per_image_fields_aligned": true,
+  "S2_S3_X3_loss_and_gradient_permutation_invariant": true,
+  "absolute_manifest_weights_preserved": true,
+  "preview_rejected": true,
+  "candidate_admission_before_ranking": true
+}

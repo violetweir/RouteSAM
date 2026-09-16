@@ -1,0 +1,47 @@
+model:
+  name: facebook/sam3
+  checkpoint_path: /Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt
+lora:
+  rank: 16
+  alpha: 32
+  dropout: 0.1
+  target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - out_proj
+  - qkv
+  - proj
+  - fc1
+  - fc2
+  - c_fc
+  - c_proj
+  - linear1
+  - linear2
+  apply_to_vision_encoder: true
+  apply_to_text_encoder: true
+  apply_to_geometry_encoder: true
+  apply_to_detr_encoder: true
+  apply_to_detr_decoder: true
+  apply_to_mask_decoder: true
+training:
+  data_dir: /Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/data/seed2026
+  batch_size: 1
+  num_workers: 2
+  learning_rate: 1.0e-05
+  weight_decay: 0.01
+  num_epochs: 10
+  seed: 2026
+  lr_scheduler: cosine
+  min_learning_rate: 1.0e-07
+  max_grad_norm: 1.0
+output:
+  output_dir: /Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_two_seeds_20260910/runs/seed2026
+  save_lora_only: true
+evaluation:
+  metric: direct_validation_dice256
+  test: both seeds frozen then full100
+  input: original RGB directly to1008; metric256
+hardware:
+  device: cuda
+  training_resolution: 1008

@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-06T21:55:08.568465+08:00",
+  "checkpoint": "/Data_8TB/lht/models/modelscope/models/facebook--sam3/snapshots/master/sam3.pt",
+  "checkpoint_sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e",
+  "feature_cache": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_1pct_anchors/stage1_feature_knn_sam3enc_s256/features/sam3_base_s256_features.npz",
+  "feature_cache_sha256": "ab8ca194f9c789ad9f6b641d382ed848751f29b23ac0bdb29a9c6722fd599907",
+  "feature_size": 256,
+  "grid": 18,
+  "patch_count": 324,
+  "beam_width": 32,
+  "canvas": 256,
+  "bridges": [
+    0,
+    6
+  ],
+  "student": false,
+  "new_train_propagation": false,
+  "gpu": 1,
+  "variants": {
+    "v0": "original cached Top8 mean",
+    "v1": "K=clamp(round(anchor original GT fraction*324),1,324); TopK mean",
+    "v2": "v1 - 0.05*(1 - K/bounding_rectangle_area(topK))"
+  },
+  "anchor_fractions": [
+    0.054392093529473724,
+    0.101665352181035,
+    0.04826065728382931,
+    0.035719278624353416,
+    0.0399987866286477,
+    0.10201177248067377,
+    0.004739268974883774,
+    0.024580439814814815
+  ],
+  "anchor_k": [
+    18,
+    33,
+    16,
+    12,
+    13,
+    33,
+    2,
+    8
+  ],
+  "validation_protocol": {
+    "folds": 5,
+    "fold_unit": "target_id",
+    "seed": 2026,
+    "ridge": 1.0,
+    "primary": "PC-only b0-b6 out-of-fold selected Dice",
+    "secondary": [
+      "mean fixed b3-b6 Dice",
+      "candidate oracle",
+      "TP+PC OOF selected Dice"
+    ],
+    "test_gate": "Best new variant must improve PC-only OOF Dice by >=0.003 and mean fixed b3-b6 Dice must be >= v0 minus 0.005. Choose higher PC OOF; exact tie prefers v1. Otherwise stop at validation.",
+    "test_if_passed": "Freeze winner; run only winner test routes; fit final Ridge on all original 100 validation targets per setting. Report v0/winner PC-only and TP+PC at b0-b6. No test-based tuning."
+  },
+  "code_sha256": {
+    "eval_route_propagation_quality.py": "88eb5889f5d45e6ed990de18e3a348f9a90acfb1c454b74ce04729b609a18afb",
+    "analyze_propagation_quality_router.py": "b77c8fb8347424a7f0216d3c0bb978a3f78f219ef31661728a02531e2032888d",
+    "stage1_feature_knn_routes.py": "599aedd53da7e35765d9ac3ac9f158d1bf51c9697fbdb836c885dd6495feb744",
+    "run_pc_ablation.py": "ebc8888c19739c6d050d653f3b0ab134147c160f2641be41a6677b47aaca51cd",
+    "pc_adaptive_core.py": "90206b2e9b4869334b55824e0f6470fb3754f1f544a0b2d65be7f49c06789897"
+  },
+  "implementation_fix_before_new_inference": {
+    "reason": "700/700 v0 route IDs exact; historical float32 path-score drift 5.96e-8 requires 1e-6 numerical tolerance",
+    "sha256": "50d3442032cdf4655e50169637fb841a529f0eac61c5eeb11287d9857ac28d05"
+  }
+}

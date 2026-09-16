@@ -1,0 +1,24 @@
+{
+  "committee_root": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909",
+  "preview_only": true,
+  "quality_sha256": "92ac144ca30b27a70526cf7accaa1159633f7ba36605a6b2432ae4156045b108",
+  "router_sha256": "2bc1706c21d481a97ffdc84cfe6cbe130e862d6024f9c0b49b472c816ce9bd6e",
+  "committee": {
+    "S2_valbest": {
+      "manifest_sha256": "ccc3f1653495335fbed47cc185394ffb3cbadc32bda0c49e53cf4c5ef83bdfec",
+      "checkpoint_sha256": "ea80befb68f0195373b207cf64cc5985e817612a206bd67720a3010d76c6ec9c"
+    },
+    "S2_final": {
+      "manifest_sha256": "c2a3a88b04a4d19e18793e100747d00a5583763bcc7b5cb8985f1dc1e60018cf",
+      "checkpoint_sha256": "d0da7d3543f267c7e8ca40c82199f1287a0c98734ed6b00063daad877e1f18cd"
+    },
+    "S3_valbest": {
+      "manifest_sha256": "b3437f66285dde4761905048a76049d95cd6b32e0e265a14eb9c020dfbda03ae",
+      "checkpoint_sha256": "218cfdab12e04446d3c75fd23bc9595c2d8565a86a47636ea054f3d928f94d0d"
+    },
+    "S3_final": {
+      "manifest_sha256": "915f88c438f1c2a8ac255dd39e5d984a9253b5a5692088c97a070d4c7b8c6e34",
+      "checkpoint_sha256": "8f2b11229c05b55c3b3f6960e708d3be523373da53c325a8b4e22899c423d213"
+    }
+  }
+}

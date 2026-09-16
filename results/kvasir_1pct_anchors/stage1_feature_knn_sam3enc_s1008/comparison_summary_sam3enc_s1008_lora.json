@@ -1,0 +1,131 @@
+{
+  "protocol": "SAM3 encoder KNN @1008 features, lora_p491_e20 @256 eval",
+  "rows": [
+    {
+      "dice": {
+        "bridge_1": 0.9129229900203463,
+        "bridge_2": 0.9098354843012844,
+        "bridge_3": 0.9029002609296469,
+        "bridge_4": 0.9046784282576021,
+        "bridge_5": 0.9149309542525005,
+        "bridge_6": 0.9149549706440306,
+        "direct": 0.8992224127801478
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 1008,
+      "knn_feature": "patch_mean",
+      "mode": "sam3enc_anchor_conditioned_patch_correspondence",
+      "mode_key": "sam3enc_anchor_conditioned_patch_correspondence",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8807880378738282,
+        "bridge_2": 0.8793866974492087,
+        "bridge_3": 0.8830230545126091,
+        "bridge_4": 0.8703918705673049,
+        "bridge_5": 0.8735482403405572,
+        "bridge_6": 0.8948644393447759,
+        "direct": 0.8992224127801478
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 1008,
+      "knn_feature": "cond",
+      "mode": "sam3enc_anchor_conditioned_patch_correspondence",
+      "mode_key": "sam3enc_anchor_conditioned_patch_correspondence__knn_cond",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8999913933172137,
+        "bridge_2": 0.9135414621433227,
+        "bridge_3": 0.8994378856092224,
+        "bridge_4": 0.9060970487811262,
+        "bridge_5": 0.9066072179761094,
+        "bridge_6": 0.9021429719107371,
+        "direct": 0.8992224127801478
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 1008,
+      "knn_feature": "pooled",
+      "mode": "sam3enc_anchor_conditioned_patch_correspondence",
+      "mode_key": "sam3enc_anchor_conditioned_patch_correspondence__knn_pooled",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.9108324316368375,
+        "bridge_2": 0.8990848062517821,
+        "bridge_3": 0.8926537777657093,
+        "bridge_4": 0.8938801197891857,
+        "bridge_5": 0.9081698663450704,
+        "bridge_6": 0.8933809928640458,
+        "direct": 0.899504491028788
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 1008,
+      "knn_feature": "patch_mean",
+      "mode": "sam3enc_anchor_conditioned_target_pooling",
+      "mode_key": "sam3enc_anchor_conditioned_target_pooling",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.9153740529651229,
+        "bridge_2": 0.9031631539662945,
+        "bridge_3": 0.9130901368521529,
+        "bridge_4": 0.9153887516368059,
+        "bridge_5": 0.9136222021719794,
+        "bridge_6": 0.9131062244799155,
+        "direct": 0.899504491028788
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 1008,
+      "knn_feature": "cond",
+      "mode": "sam3enc_anchor_conditioned_target_pooling",
+      "mode_key": "sam3enc_anchor_conditioned_target_pooling__knn_cond",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.9005312298797308,
+        "bridge_2": 0.8921176358554055,
+        "bridge_3": 0.8989082193707445,
+        "bridge_4": 0.8970237508896581,
+        "bridge_5": 0.9002242578700682,
+        "bridge_6": 0.9026259718990793,
+        "direct": 0.899504491028788
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 1008,
+      "knn_feature": "pooled",
+      "mode": "sam3enc_anchor_conditioned_target_pooling",
+      "mode_key": "sam3enc_anchor_conditioned_target_pooling__knn_pooled",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8647959456117388,
+        "bridge_2": 0.8727873004443092,
+        "bridge_3": 0.8995409946716008,
+        "bridge_4": 0.8980527080329217,
+        "bridge_5": 0.8957856721681849,
+        "bridge_6": 0.8993109292002539,
+        "direct": 0.8260689105731034
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 1008,
+      "knn_feature": "patch_mean",
+      "mode": "sam3enc_patch_average",
+      "mode_key": "sam3enc_patch_average",
+      "n": 100
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "protocol": "IMR KNN @256 (SAM3-enc pyramid+contrast+Qwen text), lora_p491_e20 @256 eval",
+  "rows": [
+    {
+      "dice": {
+        "bridge_1": 0.8504967140917136,
+        "bridge_2": 0.886052165802256,
+        "bridge_3": 0.8688553971828837,
+        "bridge_4": 0.8857713036619513,
+        "bridge_5": 0.8930159773905342,
+        "bridge_6": 0.8876493907661326,
+        "direct": 0.8221702389824705
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 256,
+      "knn_feature": "patch_mean",
+      "mode": "sam3enc_contrast",
+      "mode_key": "sam3enc_contrast",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8751865614640653,
+        "bridge_2": 0.8765625820430551,
+        "bridge_3": 0.9039513306531433,
+        "bridge_4": 0.9032946941121807,
+        "bridge_5": 0.9018533575861489,
+        "bridge_6": 0.9008323849564617,
+        "direct": 0.8481791841503739
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 256,
+      "knn_feature": "fused",
+      "mode": "sam3enc_imr",
+      "mode_key": "sam3enc_imr",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8705097549765141,
+        "bridge_2": 0.8939967366488867,
+        "bridge_3": 0.8999621723723457,
+        "bridge_4": 0.8889024372367957,
+        "bridge_5": 0.903042909115129,
+        "bridge_6": 0.9059339964288512,
+        "direct": 0.8481791841503739
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 256,
+      "knn_feature": "fused",
+      "mode": "sam3enc_imr",
+      "mode_key": "sam3enc_imr__tb025",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8746316628081888,
+        "bridge_2": 0.8780756636166427,
+        "bridge_3": 0.8968063833449242,
+        "bridge_4": 0.907447400272559,
+        "bridge_5": 0.9059804804567726,
+        "bridge_6": 0.91098364886127,
+        "direct": 0.8481791841503739
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 256,
+      "knn_feature": "fused",
+      "mode": "sam3enc_imr",
+      "mode_key": "sam3enc_imr__tb050",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8688777289202476,
+        "bridge_2": 0.8778538035955031,
+        "bridge_3": 0.8960724514966207,
+        "bridge_4": 0.8919650681682463,
+        "bridge_5": 0.8922361897949642,
+        "bridge_6": 0.9027845456804361,
+        "direct": 0.8481791841503739
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 256,
+      "knn_feature": "fused",
+      "mode": "sam3enc_imr",
+      "mode_key": "sam3enc_imr__tb075",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8698885643905285,
+        "bridge_2": 0.882889065167097,
+        "bridge_3": 0.8702490924835309,
+        "bridge_4": 0.8837736868158201,
+        "bridge_5": 0.8877401771035265,
+        "bridge_6": 0.8981600107854422,
+        "direct": 0.8481791841503739
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 256,
+      "knn_feature": "fused",
+      "mode": "sam3enc_imr",
+      "mode_key": "sam3enc_imr__tb100",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8596640663746773,
+        "bridge_2": 0.8741690988175693,
+        "bridge_3": 0.8973776615869107,
+        "bridge_4": 0.8901579818011265,
+        "bridge_5": 0.9027094562126132,
+        "bridge_6": 0.8925334310313763,
+        "direct": 0.8375895519917824
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 256,
+      "knn_feature": "patch_mean",
+      "mode": "sam3enc_pyramid",
+      "mode_key": "sam3enc_pyramid",
+      "n": 100
+    },
+    {
+      "dice": {
+        "bridge_1": 0.8640296625803839,
+        "bridge_2": 0.880957134492564,
+        "bridge_3": 0.9061242851170558,
+        "bridge_4": 0.9021812603943584,
+        "bridge_5": 0.899599250762525,
+        "bridge_6": 0.8992112966222396,
+        "direct": 0.8297345846330815
+      },
+      "dinov3_model": "vits16",
+      "eval_name": "eval_lora_p491_e20",
+      "feature_size": 256,
+      "knn_feature": "patch_mean",
+      "mode": "sam3enc_pyramid_contrast",
+      "mode_key": "sam3enc_pyramid_contrast",
+      "n": 100
+    }
+  ]
+}

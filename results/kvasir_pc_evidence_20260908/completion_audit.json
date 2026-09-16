@@ -1,0 +1,17 @@
+{
+  "token_count": 108,
+  "only_original_validation_and_8_train_supports": true,
+  "max_unit_norm_error": 3.5762786865234375e-07,
+  "expert_partitions_checked": 85,
+  "all_expert_train_held_disjoint": true,
+  "no_new_test_read_or_predictions": true,
+  "validation_complete": true,
+  "code_sha256": {
+    "build_evidence.py": "62dcbd1347d93b660bb3bd4e8cd21483bc3e73af28a7118449ce2a49b853d4fc",
+    "extract_tokens.py": "15c5ef2b13315dcb3e0d975f7c8fd0a878f8cfecb74bb91567f45cf9ee4c20ad",
+    "evaluate.py": "f822fed451215e59629e47fb6bc1583cbf29d1fda60b7fa2211a8dc909b08278",
+    "legacy_code/router.py": "b77c8fb8347424a7f0216d3c0bb978a3f78f219ef31661728a02531e2032888d",
+    "legacy_code/run_candidate_rerank.py": "60cb9d3cf8a1e0bf6ffb9f2c292317c6509a5137f4a45c49ce514dbb79da12d6",
+    "legacy_code/base_gate.py": "014251b9aaa757979b28c0fbd7f615d8e7eb082f164e00aea306631e7d0d8ec3"
+  }
+}

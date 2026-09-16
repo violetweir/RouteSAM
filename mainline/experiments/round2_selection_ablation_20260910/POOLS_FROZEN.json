@@ -1,0 +1,14 @@
+{
+  "training_arms": [
+    "A0",
+    "A1"
+  ],
+  "matched_K": 428,
+  "manifest_hashes": {
+    "A0": "d3548b4477cf3be44306c4159d426406f1c6daa87a80ea0d2e3dc4267ee22f62",
+    "A1": "d913dd675a9674f704b379329ed563c63c3109c73bba14ebc1e65ec5f4b97b80",
+    "A2": "25b8be0ebe5f1be7acd26a46ce877c3423ddf61c29a0815570468d715d5fe2d9"
+  },
+  "policy_sha256": "e64e42eaea80bed747197d717f47ba2deddd45a9d18a0d531c70f243a69278c6",
+  "unlabeled_gt_used_for_selection": false
+}

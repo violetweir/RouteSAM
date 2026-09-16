@@ -1,0 +1,72 @@
+[
+  {
+    "experiment": "target_pooling+patch_correspondence",
+    "failure_auroc": 0.9515998145142592,
+    "histogram": {
+      "anchor_conditioned_patch_correspondence:bridge_1": 1,
+      "anchor_conditioned_patch_correspondence:bridge_2": 9,
+      "anchor_conditioned_patch_correspondence:bridge_3": 2,
+      "anchor_conditioned_patch_correspondence:bridge_4": 3,
+      "anchor_conditioned_patch_correspondence:bridge_5": 4,
+      "anchor_conditioned_patch_correspondence:bridge_6": 11,
+      "anchor_conditioned_patch_correspondence:direct": 6,
+      "anchor_conditioned_target_pooling:bridge_1": 3,
+      "anchor_conditioned_target_pooling:bridge_2": 10,
+      "anchor_conditioned_target_pooling:bridge_3": 6,
+      "anchor_conditioned_target_pooling:bridge_4": 9,
+      "anchor_conditioned_target_pooling:bridge_5": 10,
+      "anchor_conditioned_target_pooling:bridge_6": 13,
+      "anchor_conditioned_target_pooling:direct": 13
+    },
+    "max_bridge": 6,
+    "min_bridge": 0,
+    "n_targets": 100,
+    "oracle_dice": 0.9154883654576815,
+    "oracle_gap": 0.03181709569493929,
+    "selected_dice": 0.8836712697627422,
+    "selection_accuracy": 0.15,
+    "spearman": 0.35052743267383213
+  },
+  {
+    "experiment": "anchor_conditioned_target_pooling",
+    "failure_auroc": 0.9554170018771788,
+    "histogram": {
+      "anchor_conditioned_target_pooling:bridge_1": 5,
+      "anchor_conditioned_target_pooling:bridge_2": 19,
+      "anchor_conditioned_target_pooling:bridge_3": 16,
+      "anchor_conditioned_target_pooling:bridge_4": 16,
+      "anchor_conditioned_target_pooling:bridge_5": 12,
+      "anchor_conditioned_target_pooling:bridge_6": 12,
+      "anchor_conditioned_target_pooling:direct": 20
+    },
+    "max_bridge": 6,
+    "min_bridge": 0,
+    "n_targets": 100,
+    "oracle_dice": 0.906283345821063,
+    "oracle_gap": 0.022877086903390742,
+    "selected_dice": 0.8834062589176722,
+    "selection_accuracy": 0.2,
+    "spearman": 0.36663937792940754
+  },
+  {
+    "experiment": "anchor_conditioned_patch_correspondence",
+    "failure_auroc": 0.9433479532163743,
+    "histogram": {
+      "anchor_conditioned_patch_correspondence:bridge_1": 6,
+      "anchor_conditioned_patch_correspondence:bridge_2": 14,
+      "anchor_conditioned_patch_correspondence:bridge_3": 7,
+      "anchor_conditioned_patch_correspondence:bridge_4": 10,
+      "anchor_conditioned_patch_correspondence:bridge_5": 10,
+      "anchor_conditioned_patch_correspondence:bridge_6": 34,
+      "anchor_conditioned_patch_correspondence:direct": 19
+    },
+    "max_bridge": 6,
+    "min_bridge": 0,
+    "n_targets": 100,
+    "oracle_dice": 0.8942023669647347,
+    "oracle_gap": 0.014804630972315769,
+    "selected_dice": 0.8793977359924189,
+    "selection_accuracy": 0.27,
+    "spearman": 0.3322299923391764
+  }
+]

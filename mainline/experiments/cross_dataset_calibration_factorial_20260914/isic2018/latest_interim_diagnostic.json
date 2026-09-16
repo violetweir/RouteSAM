@@ -1,0 +1,142 @@
+{
+  "directory": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/cross_dataset_calibration_factorial_20260914/isic2018/interim_diagnostics/20260914_144455",
+  "dataset": "isic2018",
+  "split": "validation",
+  "interim": true,
+  "shared_completed_targets": 113,
+  "total_validation": 259,
+  "all_saved_predictions": 3669,
+  "source_snapshot_sha256": "60e509bfbf6d7c91d7989d666dafde420cc59659f4bbc19d962f302ee87946d2",
+  "groups": {
+    "raw_top1": {
+      "n": 113,
+      "candidates": 7,
+      "oracle": 0.9349670764336815,
+      "mean_candidate_dice": 0.9224224200103053,
+      "fixed_rank1_b0_b6": [
+        0.9159310335750831,
+        0.9150957960758271,
+        0.9246023098209905,
+        0.9252465060661246,
+        0.9241651219094517,
+        0.9254005896214182,
+        0.9265155830032417
+      ]
+    },
+    "centered_top1": {
+      "n": 113,
+      "candidates": 7,
+      "oracle": 0.9379283673607638,
+      "mean_candidate_dice": 0.9237149912230662,
+      "fixed_rank1_b0_b6": [
+        0.9042682535758931,
+        0.9271628289840249,
+        0.9271789709605013,
+        0.9262219024698796,
+        0.9263909479682153,
+        0.9271480844847676,
+        0.9276339501181827
+      ]
+    },
+    "raw_top2": {
+      "n": 113,
+      "candidates": 14,
+      "oracle": 0.9446428260109461,
+      "mean_candidate_dice": 0.9213646638518147,
+      "fixed_rank1_b0_b6": [
+        0.9159310335750831,
+        0.9150957960758271,
+        0.9246023098209905,
+        0.9252465060661246,
+        0.9241651219094517,
+        0.9254005896214182,
+        0.9265155830032417
+      ]
+    },
+    "centered_top2": {
+      "n": 113,
+      "candidates": 14,
+      "oracle": 0.9465970808102392,
+      "mean_candidate_dice": 0.9213782515297434,
+      "fixed_rank1_b0_b6": [
+        0.9042682535758931,
+        0.9271628289840249,
+        0.9271789709605013,
+        0.9262219024698796,
+        0.9263909479682153,
+        0.9271480844847676,
+        0.9276339501181827
+      ]
+    },
+    "original_per_bridge": {
+      "n": 113,
+      "candidates": 7,
+      "oracle": 0.9351870846633775,
+      "mean_candidate_dice": 0.922224572942264,
+      "fixed_rank1_b0_b6": [
+        0.9143252927541161,
+        0.9150751824407717,
+        0.9247413724797148,
+        0.9250056797896744,
+        0.9246661258835418,
+        0.9254452881299425,
+        0.9263130691180862
+      ]
+    }
+  },
+  "oracle_comparisons": {
+    "centered_top1_minus_raw_top1": {
+      "mean": 0.002961290927082197,
+      "ci95": [
+        -0.0003956461000921547,
+        0.006309415921401007
+      ],
+      "improved": 41,
+      "worsened": 23
+    },
+    "centered_top2_minus_raw_top2": {
+      "mean": 0.001954254799293042,
+      "ci95": [
+        -0.0011074330737593954,
+        0.005815189052949154
+      ],
+      "improved": 38,
+      "worsened": 24
+    },
+    "raw_top2_minus_raw_top1": {
+      "mean": 0.009675749577264523,
+      "ci95": [
+        0.006805563411738203,
+        0.012776802469777523
+      ],
+      "improved": 59,
+      "worsened": 0
+    },
+    "centered_top2_minus_centered_top1": {
+      "mean": 0.008668713449475368,
+      "ci95": [
+        0.005317004168050253,
+        0.012766769218811553
+      ],
+      "improved": 45,
+      "worsened": 0
+    },
+    "centered_top2_minus_original_per_bridge": {
+      "mean": 0.011409996146861619,
+      "ci95": [
+        0.007432325633719254,
+        0.015871835532826926
+      ],
+      "improved": 70,
+      "worsened": 11
+    },
+    "interaction": {
+      "mean": -0.0010070361277891553,
+      "ci95": [
+        -0.005301582537227749,
+        0.0037817357899737254
+      ]
+    }
+  },
+  "warning": "Common completed subset, ordered generation and reuse may bias sample mix. No Router fit; no test GT read; fixed experiment unchanged."
+}

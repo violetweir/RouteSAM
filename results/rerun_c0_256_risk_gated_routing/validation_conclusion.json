@@ -1,0 +1,8 @@
+{
+  "assessment": "预注册 target-level OOF gate 未能可靠拦截全部已知灾难切换；现有 q_return/q_multi/q_model/轨迹/形态信息不支持安全门控。",
+  "catastrophe_free_gate_methods": [],
+  "category": "C_catastrophic_failures_not_reliably_prevented",
+  "next_single_recommended_experiment": "暂停继续堆叠风险门控模型，改为研究新的 validation-only 语义漂移检测信号；不读取 test。",
+  "successful_gate_methods": [],
+  "validation_only_no_generalization_claim": true
+}

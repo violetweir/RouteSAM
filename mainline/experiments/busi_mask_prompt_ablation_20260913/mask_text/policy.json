@@ -1,0 +1,11 @@
+{
+  "text": "breast lesion",
+  "spatial_prompt": "exact selected anchor GT mask, no boxes or points",
+  "return_prompt": "forward predicted mask, reversed RGB path, no target GT",
+  "same_paths": true,
+  "canvas": 256,
+  "track": "follow seeded object 0; full SAM3 grounding+tracking; begin after exact mask frame",
+  "no_text_detections": "native allow_new_detections false when no text/geometry",
+  "text_detections": "native allow_new_detections true; same seeded object followed",
+  "no_test_gt": true
+}

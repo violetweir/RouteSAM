@@ -1,0 +1,22 @@
+{
+  "arm": "A1_seed2027",
+  "best_epoch": 2,
+  "validation": {
+    "count": 100,
+    "dice": 0.8796581294471736,
+    "iou": 0.8151038015308296
+  },
+  "test": {
+    "count": 100,
+    "dice": 0.8866017854353514,
+    "iou": 0.8305659270737087
+  },
+  "test_empty": {
+    "count": 100,
+    "dice": 0.8678122809616504,
+    "iou": 0.8113148548840278
+  },
+  "training_pool_size": 604,
+  "primary_prompt": "colon polyp",
+  "empty_text_role": "predeclared diagnostic, not test-based prompt selection"
+}

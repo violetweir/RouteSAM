@@ -1,0 +1,54 @@
+{
+  "final_iteration": 40000,
+  "best_iteration": 33400,
+  "best_validation_dice": 0.8141975843507495,
+  "best_validation": {
+    "count": 161,
+    "dice": 0.8141975843507495,
+    "iou": 0.7292713313821118,
+    "nonempty_rate": 0.9937888198757764,
+    "mean_area": 0.1049077762580066,
+    "by_dataset": {
+      "CVC-ClinicDB": {
+        "count": 61,
+        "dice": 0.8294221028079596,
+        "iou": 0.7517288571645873,
+        "nonempty_rate": 1.0,
+        "mean_area": 0.07669367555712091
+      },
+      "kvasir-seg": {
+        "count": 100,
+        "dice": 0.8049106280918517,
+        "iou": 0.7155722406548014,
+        "nonempty_rate": 0.99,
+        "mean_area": 0.12211837768554687
+      }
+    }
+  },
+  "test": {
+    "count": 161,
+    "dice": 0.8683888226228551,
+    "iou": 0.7910474016278078,
+    "nonempty_rate": 1.0,
+    "mean_area": 0.11799498374417702,
+    "by_dataset": {
+      "CVC-ClinicDB": {
+        "count": 61,
+        "dice": 0.8847488147324012,
+        "iou": 0.8175491666349606,
+        "nonempty_rate": 1.0,
+        "mean_area": 0.08498169945888832
+      },
+      "kvasir-seg": {
+        "count": 100,
+        "dice": 0.858409227436032,
+        "iou": 0.7748813249734442,
+        "nonempty_rate": 1.0,
+        "mean_area": 0.13813308715820313
+      }
+    }
+  },
+  "checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/reproduction_v1/committee_students/S2_final/student_best.pth",
+  "final_checkpoint": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/reproduction_v1/committee_students/S2_final/student_final.pth",
+  "test_evaluations_during_training": 0
+}

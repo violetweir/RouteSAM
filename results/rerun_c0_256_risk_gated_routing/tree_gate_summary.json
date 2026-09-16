@@ -1,0 +1,142 @@
+{
+  "allowed_switch_target_count": 49,
+  "baseline_dice": 0.8875905843652192,
+  "catastrophic_degradation_count": 1,
+  "correct_switch_count": 32,
+  "delta_vs_baseline": -0.0015787215564705397,
+  "incorrect_switch_count": 17,
+  "label": "风险门控浅层树",
+  "loss_count": 16,
+  "maximum_single_degradation": -0.2085690193597547,
+  "maximum_single_improvement": 0.013706141400145033,
+  "method": "tree",
+  "model_diagnostic": {
+    "features_frozen_before_oof": [
+      "q_return_candidate",
+      "q_multi_candidate",
+      "q_model_candidate",
+      "delta_q_return",
+      "delta_q_multi",
+      "delta_q_model",
+      "trace_area_max_rel_delta_candidate",
+      "delta_trace_area_max_rel_delta",
+      "trace_adjacent_dice_mean_candidate",
+      "trace_adjacent_dice_last_candidate",
+      "path_mean_similarity_candidate",
+      "delta_path_mean_similarity"
+    ],
+    "fold_count": 5,
+    "folds": [
+      {
+        "fold": 1,
+        "pr_auc": 0.6702525980806524,
+        "roc_auc": 0.48351648351648346,
+        "target_overlap_count": 0,
+        "training_beneficial_count": 47,
+        "training_nonbeneficial_count": 33,
+        "training_target_count": 80,
+        "validation_beneficial_count": 7,
+        "validation_nonbeneficial_count": 13,
+        "validation_severe_count": 1,
+        "validation_target_count": 20
+      },
+      {
+        "fold": 2,
+        "pr_auc": 0.7621212121212121,
+        "roc_auc": 0.7828282828282829,
+        "target_overlap_count": 0,
+        "training_beneficial_count": 43,
+        "training_nonbeneficial_count": 37,
+        "training_target_count": 80,
+        "validation_beneficial_count": 11,
+        "validation_nonbeneficial_count": 9,
+        "validation_severe_count": 0,
+        "validation_target_count": 20
+      },
+      {
+        "fold": 3,
+        "pr_auc": 0.3091575091575091,
+        "roc_auc": 0.3131868131868132,
+        "target_overlap_count": 0,
+        "training_beneficial_count": 41,
+        "training_nonbeneficial_count": 39,
+        "training_target_count": 80,
+        "validation_beneficial_count": 13,
+        "validation_nonbeneficial_count": 7,
+        "validation_severe_count": 0,
+        "validation_target_count": 20
+      },
+      {
+        "fold": 4,
+        "pr_auc": 0.5455357142857142,
+        "roc_auc": 0.6071428571428572,
+        "target_overlap_count": 0,
+        "training_beneficial_count": 40,
+        "training_nonbeneficial_count": 40,
+        "training_target_count": 80,
+        "validation_beneficial_count": 14,
+        "validation_nonbeneficial_count": 6,
+        "validation_severe_count": 0,
+        "validation_target_count": 20
+      },
+      {
+        "fold": 5,
+        "pr_auc": 0.8579545454545454,
+        "roc_auc": 0.8737373737373737,
+        "target_overlap_count": 0,
+        "training_beneficial_count": 45,
+        "training_nonbeneficial_count": 35,
+        "training_target_count": 80,
+        "validation_beneficial_count": 9,
+        "validation_nonbeneficial_count": 11,
+        "validation_severe_count": 1,
+        "validation_target_count": 20
+      }
+    ],
+    "full_validation_feature_importance_diagnostic_only": {
+      "delta_q_return": 0.5742179250237651,
+      "q_model_candidate": 0.095065948193362,
+      "q_multi_candidate": 0.2094393432592403,
+      "trace_adjacent_dice_last_candidate": 0.12127678352363255
+    },
+    "full_validation_tree_rules_diagnostic_only": "|--- delta_q_return <= 0.000123\n|   |--- class: 1\n|--- delta_q_return >  0.000123\n|   |--- q_multi_candidate <= 0.981672\n|   |   |--- trace_adjacent_dice_last_candidate <= 0.357000\n|   |   |   |--- class: 1\n|   |   |--- trace_adjacent_dice_last_candidate >  0.357000\n|   |   |   |--- class: 0\n|   |--- q_multi_candidate >  0.981672\n|   |   |--- q_model_candidate <= 0.978055\n|   |   |   |--- class: 0\n|   |   |--- q_model_candidate >  0.978055\n|   |   |   |--- class: 0\n",
+    "hyperparameters_frozen_before_oof": {
+      "class_weight": "balanced",
+      "max_depth": 3,
+      "min_samples_leaf": 10
+    },
+    "model": "tree",
+    "oof_nonbeneficial_risk_auc_secondary_only": {
+      "pr_auc": 0.6376087111151003,
+      "roc_auc": 0.6187600644122383
+    },
+    "risk_label": "nonbeneficial_switch = 1[delta_dice <= 0]",
+    "risk_probability_threshold": 0.5,
+    "seed": 2026,
+    "target_count": 100
+  },
+  "paired_bootstrap_vs_baseline": {
+    "ci_95": [
+      -0.006221356854639601,
+      0.0010563067581632866
+    ],
+    "loss_count": 16,
+    "mean_delta": -0.0015787215564705397,
+    "median_delta": 0.0,
+    "resamples": 10000,
+    "seed": 2026,
+    "target_count": 100,
+    "tie_count": 52,
+    "unit": "paired_target",
+    "win_count": 32
+  },
+  "rejected_or_same_route_target_count": 51,
+  "selected_dice": 0.8860118628087487,
+  "severe_degradation_count": 1,
+  "switch_tie_count": 1,
+  "target_count": 100,
+  "tie_count": 52,
+  "total_negative_dice_loss": -0.26726317349437334,
+  "total_positive_dice_gain": 0.10939101784731936,
+  "win_count": 32
+}

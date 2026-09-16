@@ -1,0 +1,17 @@
+{
+  "arm": "A0",
+  "seed": 2026,
+  "epochs": 50,
+  "pool": "428pseudo+8GT frozen original A0",
+  "initialization": "fresh same SAM3-base and LoRA seed2026; not resume",
+  "batch": 1,
+  "learning_rate": 5e-05,
+  "min_learning_rate": 5e-07,
+  "scheduler": "cosine21800optimizersteps",
+  "gradient_clipping_enabled": false,
+  "input": "originalRGB directly1008",
+  "metric": "256macroDice",
+  "prompt": "colon polyp",
+  "monitor": "fixed64pseudo from A0 by SHA256(target_id)+8GT; training-label fit only",
+  "test": "freeze Val-best and epoch50 before full100 test; text primary and empty diagnostic"
+}

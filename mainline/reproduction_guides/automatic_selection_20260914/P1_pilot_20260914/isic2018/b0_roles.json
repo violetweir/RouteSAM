@@ -1,0 +1,2601 @@
+{
+  "validation": {
+    "ISIC_0000001": {
+      "baseline": "ISIC_0013458",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0000016": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0000023": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0000030": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0000035": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0000037": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0014829"
+    },
+    "ISIC_0000055": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0000064": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0000081": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0000089": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0000092": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0000093": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0014026",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0000104": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0000121": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0000132": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0000139": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0000141": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0000147": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0000173": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0015206"
+    },
+    "ISIC_0000190": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0001126",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0000203": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0000210": {
+      "baseline": "ISIC_0014829",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0000216": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0000233": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0000255": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0000259": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0000264": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0000281": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0014438"
+    },
+    "ISIC_0000290": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0000311": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0000344": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0015206"
+    },
+    "ISIC_0000376": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0000388": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0002453",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0000403": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0015995"
+    },
+    "ISIC_0000410": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0000436": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0000449": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0014026",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0000465": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0000489": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0000493": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0000498": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0000501": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0000505": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0000508": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015206",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0000530": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0015206"
+    },
+    "ISIC_0000535": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0000540": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0000546": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0000550": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0000999": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0014438"
+    },
+    "ISIC_0001131": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011129",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0001262": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0002246": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0014026",
+      "cal_top2": "ISIC_0007788"
+    },
+    "ISIC_0002836": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0007788"
+    },
+    "ISIC_0003539": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0002453",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0004309": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0005555": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0006193": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0006795": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0006815": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0006914": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0002453",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0007796": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0008116": {
+      "baseline": "ISIC_0007788",
+      "cal_top1": "ISIC_0007788",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0008280": {
+      "baseline": "ISIC_0007788",
+      "cal_top1": "ISIC_0007788",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0008396": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0008541": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0009881": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0009901": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0009910": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015206",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0009914": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0009923": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0009940": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0009970": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0009973": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0009980": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011129",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0009982": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0002453",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0009987": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0009988": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0009990": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011129",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0010006": {
+      "baseline": "ISIC_0010360",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0010010": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0010011": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0010029": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0001126",
+      "cal_top2": "ISIC_0015206"
+    },
+    "ISIC_0010061": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0010075": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015206",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0010178": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0010205": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0010212": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0010228": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0010233": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0010257": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0010334": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0010349": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0001126",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0010356": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0010368": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0010444": {
+      "baseline": "ISIC_0010263",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0010458": {
+      "baseline": "ISIC_0014438",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0007788"
+    },
+    "ISIC_0010465": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0010572": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0010589": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0010599": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0010858": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0007788"
+    },
+    "ISIC_0010864": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0011079": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0011109": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0011124": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0011127": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0011156": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0011164": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015614",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0011169": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0011199": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0014026",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0011301": {
+      "baseline": "ISIC_0010360",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0012109": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0012127": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0012134": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011129",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0012177": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0012182": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014026",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0012187": {
+      "baseline": "ISIC_0010263",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0012191": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0012204": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0012261": {
+      "baseline": "ISIC_0012453",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0012282": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0012376": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0012390": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0012391": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0015995"
+    },
+    "ISIC_0012432": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0014438"
+    },
+    "ISIC_0012475": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0012484": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0012512": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0012551": {
+      "baseline": "ISIC_0007788",
+      "cal_top1": "ISIC_0013458",
+      "cal_top2": "ISIC_0007788"
+    },
+    "ISIC_0012661": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0012676": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0012690": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0012693": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0012711": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0012742": {
+      "baseline": "ISIC_0012453",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0012837": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0012855": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0014026",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0012888": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0012901": {
+      "baseline": "ISIC_0010263",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0012907": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0014026",
+      "cal_top2": "ISIC_0007788"
+    },
+    "ISIC_0012911": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0012988": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0014026",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0013053": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0013054": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0013090": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0013118": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0013166": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0014438"
+    },
+    "ISIC_0013178": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0013192": {
+      "baseline": "ISIC_0013458",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0013205": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0013208": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0013355": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0013371": {
+      "baseline": "ISIC_0007788",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0007788"
+    },
+    "ISIC_0013398": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0013411": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0001126",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0013417": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0013429": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0013437": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0013523": {
+      "baseline": "ISIC_0012453",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0013572": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0013588": {
+      "baseline": "ISIC_0012453",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0013600": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0013672": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0015995"
+    },
+    "ISIC_0013708": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0001126",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0013749": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0013797": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0013803": {
+      "baseline": "ISIC_0013458",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0013804": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0013458",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0013806": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0013815": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0013817": {
+      "baseline": "ISIC_0007788",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0007788"
+    },
+    "ISIC_0013830": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0013837": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0013908": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0015206"
+    },
+    "ISIC_0013975": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0013977": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0014059": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0014062": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0014081": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0014108": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0014117": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0014131": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0014160": {
+      "baseline": "ISIC_0012453",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0014189": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0001126",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0014211": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0014225": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0014233": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0014286": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0014302": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0014366": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0014394": {
+      "baseline": "ISIC_0012453",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0014430": {
+      "baseline": "ISIC_0014438",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0014522": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0014543": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0014554": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0014558": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015206",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0014596": {
+      "baseline": "ISIC_0012453",
+      "cal_top1": "ISIC_0013458",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0014623": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0014635": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0014642": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0014651": {
+      "baseline": "ISIC_0007788",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0007788"
+    },
+    "ISIC_0014657": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0014829"
+    },
+    "ISIC_0014667": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0014829"
+    },
+    "ISIC_0014694": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0014829"
+    },
+    "ISIC_0014702": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015614",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0014730": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0014829",
+      "cal_top2": "ISIC_0015206"
+    },
+    "ISIC_0014731": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0013458",
+      "cal_top2": "ISIC_0014438"
+    },
+    "ISIC_0014735": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0014749": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0014753": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0014829"
+    },
+    "ISIC_0014760": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0014762": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0014782": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0014785": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015206",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0014792": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013458",
+      "cal_top2": "ISIC_0014438"
+    },
+    "ISIC_0014800": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0015206"
+    },
+    "ISIC_0014803": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0014806": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0014945": {
+      "baseline": "ISIC_0013458",
+      "cal_top1": "ISIC_0013458",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0014982": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0015005": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0001126",
+      "cal_top2": "ISIC_0015206"
+    },
+    "ISIC_0015037": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0015040": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0014026",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0015060": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014829",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0015079": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015614",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0015109": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014829",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0015125": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0015614",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0015142": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0015160": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0007788"
+    },
+    "ISIC_0015176": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0015180": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015206",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0015218": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0014829",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0015226": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0015284": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0001126",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0015331": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015614",
+      "cal_top2": "ISIC_0015206"
+    },
+    "ISIC_0015395": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0015401": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0014829",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0015418": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0014829",
+      "cal_top2": "ISIC_0015206"
+    },
+    "ISIC_0015466": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0015483": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0015537": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0015559": {
+      "baseline": "ISIC_0010360",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0015625": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0015614",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0015946": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0015957": {
+      "baseline": "ISIC_0014438",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0015963": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0015964": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0015981": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0015996": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0015997": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0014026",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0015998": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0016011": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0016022": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0016026": {
+      "baseline": "ISIC_0010263",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0016033": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0016060": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0014026",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0016065": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0016071": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    }
+  },
+  "test": {
+    "ISIC_0000000": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0000015": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0000018": {
+      "baseline": "ISIC_0010360",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0000025": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0000040": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015614",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0000047": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0000054": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015614",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0000061": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0000065": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0000069": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0000072": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0000078": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0000091": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0000109": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0000110": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0014026",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0000113": {
+      "baseline": "ISIC_0010360",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0000131": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0000143": {
+      "baseline": "ISIC_0010360",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0000154": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0000164": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0015206"
+    },
+    "ISIC_0000211": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0014829",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0000217": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0000222": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0000246": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0000250": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0000276": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0000292": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0000295": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0000301": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0000306": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0007788"
+    },
+    "ISIC_0000313": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0000322": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015614",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0000326": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0000378": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0015206"
+    },
+    "ISIC_0000386": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0000387": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0000391": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0000408": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011129",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0000444": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0015206"
+    },
+    "ISIC_0000451": {
+      "baseline": "ISIC_0010360",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0000458": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0015206"
+    },
+    "ISIC_0000482": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0000515": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0000882": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0002453",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0001140": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0001212": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0001267": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0001372": {
+      "baseline": "ISIC_0007788",
+      "cal_top1": "ISIC_0007788",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0001852": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0002107": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0007788",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0002976": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0003582": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0014438"
+    },
+    "ISIC_0004115": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0004346": {
+      "baseline": "ISIC_0007788",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0007788"
+    },
+    "ISIC_0006350": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0007038": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0007141": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0013458",
+      "cal_top2": "ISIC_0014438"
+    },
+    "ISIC_0007322": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0008256": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0008600": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0007788"
+    },
+    "ISIC_0008879": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0009860": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0009868": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0009879": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0009880": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0009895": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0009930": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0009951": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0009958": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0009961": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0009967": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0009972": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0013458",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0009976": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0009979": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0009992": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0010015": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0010025": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0010046": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0010053": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0002453",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0010066": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0010067": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015206",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0010093": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0010094": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0010105": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0010183": {
+      "baseline": "ISIC_0010263",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0010185": {
+      "baseline": "ISIC_0010263",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0010192": {
+      "baseline": "ISIC_0014829",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0010204": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0010227": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0010231": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0001126",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0010335": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0010342": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0010346": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0010357": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0002453",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0010374": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011129",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0010467": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0010479": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0010481": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0010488": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0010557": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0002453",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0010571": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0014438"
+    },
+    "ISIC_0010597": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0011088": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0011104": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0015206"
+    },
+    "ISIC_0011115": {
+      "baseline": "ISIC_0010263",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0011143": {
+      "baseline": "ISIC_0010263",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0011149": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011129",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0011202": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0011214": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0011230": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0011292": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0011295": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015206",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0011296": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0011328": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0011330": {
+      "baseline": "ISIC_0009941",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0011344": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0011357": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0011372": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0011384": {
+      "baseline": "ISIC_0010360",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0012089": {
+      "baseline": "ISIC_0012453",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0012094": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0012143": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0012178": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0012216": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0012223": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0012238": {
+      "baseline": "ISIC_0007788",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0007788"
+    },
+    "ISIC_0012260": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0012281": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0012316": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0012434": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0014026",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0012448": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0012478": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0012516": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0012521": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0013458",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0012547": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0012677": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0012682": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0012683": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0012725": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0012758": {
+      "baseline": "ISIC_0010263",
+      "cal_top1": "ISIC_0013458",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0012806": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0012844": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0012852": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0014438"
+    },
+    "ISIC_0012961": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0012999": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0013000": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0013034": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0015995"
+    },
+    "ISIC_0013071": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0013079": {
+      "baseline": "ISIC_0012453",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0013084": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0013114": {
+      "baseline": "ISIC_0014438",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0013136": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0013155": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0013163": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0013197": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0013271": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0013340": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0013390": {
+      "baseline": "ISIC_0013458",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0014438"
+    },
+    "ISIC_0013488": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0013495": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0013498": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0002453",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0013500": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0013517": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0013568": {
+      "baseline": "ISIC_0010263",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0013573": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0013585": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0001126",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0013615": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0013643": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0013652": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0013663": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015206",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0013667": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0013675": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0013680": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0013733": {
+      "baseline": "ISIC_0012453",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0013736": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015206",
+      "cal_top2": "ISIC_0015995"
+    },
+    "ISIC_0013748": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0013762": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0013765": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0001126",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0013799": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0014026",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0013801": {
+      "baseline": "ISIC_0007788",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0007788"
+    },
+    "ISIC_0013840": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011129",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0013879": {
+      "baseline": "ISIC_0007788",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0007788"
+    },
+    "ISIC_0013891": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0013911": {
+      "baseline": "ISIC_0012453",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0013935": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0013942": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0013958": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0014438"
+    },
+    "ISIC_0013998": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0014013": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013458",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0014028": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0014049": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0014066": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0014110": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0015614",
+      "cal_top2": "ISIC_0009941"
+    },
+    "ISIC_0014190": {
+      "baseline": "ISIC_0012453",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0014195": {
+      "baseline": "ISIC_0010263",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0014197": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0007788"
+    },
+    "ISIC_0014255": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0014288": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0014289": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0009941",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0014308": {
+      "baseline": "ISIC_0012453",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0014311": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0014337": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0014346": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0014489": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0014502": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0016048"
+    },
+    "ISIC_0014599": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0001126",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0014605": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0014633": {
+      "baseline": "ISIC_0002453",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0014658": {
+      "baseline": "ISIC_0010360",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0014696": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0014716": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013399",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0014740": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0014765": {
+      "baseline": "ISIC_0010360",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0014773": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0014829",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0014779": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015206",
+      "cal_top2": "ISIC_0014829"
+    },
+    "ISIC_0014807": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0014850": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0015206",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0014860": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0014868": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0015614",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0014876": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0014890": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0014829",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0014897": {
+      "baseline": "ISIC_0014829",
+      "cal_top1": "ISIC_0014829",
+      "cal_top2": "ISIC_0014438"
+    },
+    "ISIC_0014913": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0014915": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0014919": {
+      "baseline": "ISIC_0010023",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0014932": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0014829",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0014940": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0015614",
+      "cal_top2": "ISIC_0014829"
+    },
+    "ISIC_0014951": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0014994": {
+      "baseline": "ISIC_0015614",
+      "cal_top1": "ISIC_0015614",
+      "cal_top2": "ISIC_0014829"
+    },
+    "ISIC_0015003": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0015023": {
+      "baseline": "ISIC_0014829",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0014829"
+    },
+    "ISIC_0015035": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0013458",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0015051": {
+      "baseline": "ISIC_0015206",
+      "cal_top1": "ISIC_0014829",
+      "cal_top2": "ISIC_0015206"
+    },
+    "ISIC_0015078": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0015082": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0015108": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011129",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0015118": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010360",
+      "cal_top2": "ISIC_0011129"
+    },
+    "ISIC_0015163": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0011129",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0015207": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0010023"
+    },
+    "ISIC_0015223": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0009252",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0015245": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0001126"
+    },
+    "ISIC_0015270": {
+      "baseline": "ISIC_0014829",
+      "cal_top1": "ISIC_0014829",
+      "cal_top2": "ISIC_0015614"
+    },
+    "ISIC_0015273": {
+      "baseline": "ISIC_0009252",
+      "cal_top1": "ISIC_0013458",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0015311": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0015368": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0010023",
+      "cal_top2": "ISIC_0011229"
+    },
+    "ISIC_0015416": {
+      "baseline": "ISIC_0011229",
+      "cal_top1": "ISIC_0011229",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0015948": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0015960": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0010263",
+      "cal_top2": "ISIC_0009252"
+    },
+    "ISIC_0015969": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0014438",
+      "cal_top2": "ISIC_0013410"
+    },
+    "ISIC_0015976": {
+      "baseline": "ISIC_0010263",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0015985": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0014026"
+    },
+    "ISIC_0015989": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0015994": {
+      "baseline": "ISIC_0016048",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0010263"
+    },
+    "ISIC_0016008": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0016009": {
+      "baseline": "ISIC_0014026",
+      "cal_top1": "ISIC_0014026",
+      "cal_top2": "ISIC_0013458"
+    },
+    "ISIC_0016012": {
+      "baseline": "ISIC_0015995",
+      "cal_top1": "ISIC_0016048",
+      "cal_top2": "ISIC_0012453"
+    },
+    "ISIC_0016029": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0013399"
+    },
+    "ISIC_0016030": {
+      "baseline": "ISIC_0013410",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0002453"
+    },
+    "ISIC_0016037": {
+      "baseline": "ISIC_0011129",
+      "cal_top1": "ISIC_0013410",
+      "cal_top2": "ISIC_0010360"
+    },
+    "ISIC_0016072": {
+      "baseline": "ISIC_0012453",
+      "cal_top1": "ISIC_0012453",
+      "cal_top2": "ISIC_0016048"
+    }
+  }
+}

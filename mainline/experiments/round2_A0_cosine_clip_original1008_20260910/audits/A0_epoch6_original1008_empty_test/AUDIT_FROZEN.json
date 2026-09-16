@@ -1,0 +1,15 @@
+{
+  "arm": "A0",
+  "epoch": 6,
+  "source": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A0_cosine_clip_original1008_20260910/runs/A0/epoch6.pt",
+  "checkpoint_sha256": "b230e446100819dcd1a45b790e509591ef5aad591145684dbc35087ecd9e3b10",
+  "validation_original1008_text_reference": {
+    "count": 100,
+    "dice": 0.880908943299533,
+    "iou": 0.8210759642993252
+  },
+  "reason": "User requested original1008 empty-text test for the same A0 epoch6 checkpoint",
+  "role": "diagnostic; does not change validation-based final checkpoint selection",
+  "protocol": "single image, empty text string, original image directly resized to 1008; metrics256, no points/boxes/TP/Router/B7",
+  "training_policy": "Independent diagnostic only; does not alter currently running trainings"
+}

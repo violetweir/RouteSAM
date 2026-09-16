@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "/home/violet/anaconda3/envs/mkunet_mamba/bin/python",
+    "-u",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tp448_single_student_soft_20260912/code/train_student.py",
+    "--root",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tp448_single_student_soft_20260912",
+    "--variant",
+    "soft"
+  ],
+  "gpu": 0
+}

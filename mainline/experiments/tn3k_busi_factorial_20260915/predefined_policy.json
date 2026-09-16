@@ -1,0 +1,30 @@
+{
+  "dataset": "TN3K",
+  "counts": {
+    "train": 2303,
+    "validation": 576,
+    "test": 614
+  },
+  "anchors": 23,
+  "seed": 2026,
+  "split": "official tn3k-trainval-fold0.json train/val + official test 614",
+  "budget": "round(1% x 2303) = 23, same rule as BUSI 5/517, Kvasir 8/800, ISIC2018 21/2075",
+  "selection": "train-only RGB1008 SAM3-base; patch-mean global descriptor + 64 local visual words; 64-cluster MiniBatchKMeans(random_state=2026,n_init=3,batch_size=2048,max_iter=100); IDF on train; sqrt + L2; 0.5*global + 0.5*local cosine; greedy facility, numpy argmax tie-break",
+  "calibration": "cond_target(anchor,target) minus mean over all train RGBs; no hidden train GT read",
+  "groups": [
+    "raw_top1",
+    "centered_top1",
+    "raw_top2",
+    "centered_top2",
+    "original_per_bridge"
+  ],
+  "ranking": "raw TP or centered TP descending; anchor ID ascending breaks ties",
+  "pool": "top1/top2 references fixed per target for all b0-b6; original per-bridge control",
+  "router": "all five pools refit legacy28 Ridge(alpha=1); same image-grouped 5-fold validation; no new hyperparameter search",
+  "propagation": "SAM3-base, anchor GT tight box, no text, canvas256, forward + return, no target GT during inference",
+  "evaluation": "GT nearest resize 256 >127; per-image Dice/IoU macro mean; oracle = mean per-image max candidate Dice",
+  "test_policy": "freeze all five models and test choices before reading test GT; no test-driven winner selection",
+  "prior_test_seen": false,
+  "validation_labels_extra_to_1percent": true,
+  "gpu": "serial per split; validation and test may run on different free GPUs concurrently"
+}

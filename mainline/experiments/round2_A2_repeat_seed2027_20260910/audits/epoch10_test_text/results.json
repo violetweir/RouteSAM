@@ -1,0 +1,15 @@
+{
+  "epoch": 10,
+  "seed": 2027,
+  "validation": {
+    "count": 100,
+    "dice": 0.8784399433817831,
+    "iou": 0.8165397057225685
+  },
+  "test": {
+    "count": 100,
+    "dice": 0.8853522023484937,
+    "iou": 0.827834746898665
+  },
+  "checkpoint_sha256": "63cd56b43335b8eeeb8ab19b3c6ff89fd32f557e71226fe8b9d78c4de892b24f"
+}

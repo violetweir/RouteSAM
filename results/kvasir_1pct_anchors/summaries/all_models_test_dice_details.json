@@ -1,0 +1,72 @@
+[
+  {
+    "all_route_mean_dice": 0.7826541065548076,
+    "direct_dice": 0.767541785623094,
+    "model": "base_no_ft",
+    "one_bridge_dice": 0.8190483042630246,
+    "oracle_dice": 0.8790395524102297,
+    "routes": 300,
+    "selected_direct": 28,
+    "selected_one_bridge": 40,
+    "selected_two_bridges": 32,
+    "targets": 100,
+    "two_bridges_dice": 0.7613722297783043,
+    "weighted_dice": 0.8301034957093744
+  },
+  {
+    "all_route_mean_dice": 0.835982725862002,
+    "direct_dice": 0.8310896856979216,
+    "model": "ft_1pct",
+    "one_bridge_dice": 0.8566867324048764,
+    "oracle_dice": 0.9026789221343805,
+    "routes": 300,
+    "selected_direct": 34,
+    "selected_one_bridge": 38,
+    "selected_two_bridges": 28,
+    "targets": 100,
+    "two_bridges_dice": 0.8201717594832083,
+    "weighted_dice": 0.8743297299879487
+  },
+  {
+    "all_route_mean_dice": 0.841335051730994,
+    "direct_dice": 0.8145414686955867,
+    "model": "ft_5pct",
+    "one_bridge_dice": 0.8716641127066304,
+    "oracle_dice": 0.9114544468312061,
+    "routes": 300,
+    "selected_direct": 37,
+    "selected_one_bridge": 30,
+    "selected_two_bridges": 33,
+    "targets": 100,
+    "two_bridges_dice": 0.8377995737907646,
+    "weighted_dice": 0.8825431387940812
+  },
+  {
+    "all_route_mean_dice": 0.8104678852615854,
+    "direct_dice": 0.7685845645159602,
+    "model": "ft_10pct",
+    "one_bridge_dice": 0.846834452999432,
+    "oracle_dice": 0.8994413489163656,
+    "routes": 300,
+    "selected_direct": 34,
+    "selected_one_bridge": 37,
+    "selected_two_bridges": 29,
+    "targets": 100,
+    "two_bridges_dice": 0.8159846382693641,
+    "weighted_dice": 0.8445616586271363
+  },
+  {
+    "all_route_mean_dice": 0.8778253504348695,
+    "direct_dice": 0.8561970765571219,
+    "model": "ft_20pct_latest_after_crash",
+    "one_bridge_dice": 0.9019338077020084,
+    "oracle_dice": 0.9317376946632078,
+    "routes": 300,
+    "selected_direct": 33,
+    "selected_one_bridge": 42,
+    "selected_two_bridges": 25,
+    "targets": 100,
+    "two_bridges_dice": 0.8753451670454784,
+    "weighted_dice": 0.9143205434446188
+  }
+]

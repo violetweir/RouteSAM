@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "/home/violet/anaconda3/envs/mkunet_mamba/bin/python",
+    "-u",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/code/phase1_build_x3_manifest.py",
+    "--original",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/pseudo_manifest_original.jsonl",
+    "--tier-a",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/audit/tier_A.jsonl",
+    "--tier-b",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/audit/tier_B.jsonl",
+    "--output",
+    "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_tp_filterfirst_students_20260909/pseudo_manifest_x3.jsonl"
+  ],
+  "gpu": 0,
+  "allocator_fraction": null
+}

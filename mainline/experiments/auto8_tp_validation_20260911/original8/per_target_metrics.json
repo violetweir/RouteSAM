@@ -1,0 +1,902 @@
+[
+  {
+    "target_id": "kvasir-seg::cju0s2a9ekvms080138tjjpxr",
+    "selected_dice": 0.974150886684701,
+    "selected_iou": 0.949604453559918,
+    "oracle_dice": 0.97795546256165,
+    "selected_route": "c48476a588283289f6aef7cf",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "a606acc84cbdb8f29490ee8a"
+  },
+  {
+    "target_id": "kvasir-seg::cju1cj3f0qi5n0993ut8f49rj",
+    "selected_dice": 0.9668401387776888,
+    "selected_iou": 0.9358088472715531,
+    "oracle_dice": 0.9668401387776888,
+    "selected_route": "5ce4046b2e0167081e1558a1",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "5ce4046b2e0167081e1558a1"
+  },
+  {
+    "target_id": "kvasir-seg::cju1csmlc4ht10799b8ymmghg",
+    "selected_dice": 0.9161590430833979,
+    "selected_iou": 0.8452891886368281,
+    "oracle_dice": 0.961644492388829,
+    "selected_route": "3c943efac28e4ac3d00ecaec",
+    "selected_anchor": "kvasir-seg::cju5cu8qkb84x08186jwo8yin",
+    "oracle_route": "2d6a6f2614d8550d325fe01f"
+  },
+  {
+    "target_id": "kvasir-seg::cju1cu1u2474n0878tt7v4tdr",
+    "selected_dice": 0.7248134328358209,
+    "selected_iou": 0.5683979517190929,
+    "oracle_dice": 0.9462763986661726,
+    "selected_route": "564510ed377b3909e9db56ce",
+    "selected_anchor": "kvasir-seg::cju34ymm8d6700799uop0cw33",
+    "oracle_route": "31443e2b65434b0e33020450"
+  },
+  {
+    "target_id": "kvasir-seg::cju1d96gsv62d09881b3wecw2",
+    "selected_dice": 0.8786092112799434,
+    "selected_iou": 0.7834995793774787,
+    "oracle_dice": 0.8786092112799434,
+    "selected_route": "b6aee2dbadcbd7ba58c2082b",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "b6aee2dbadcbd7ba58c2082b"
+  },
+  {
+    "target_id": "kvasir-seg::cju1djtprvd7b0988thwwrg09",
+    "selected_dice": 0.9635151039623382,
+    "selected_iou": 0.9295987887963664,
+    "oracle_dice": 0.9635151039623382,
+    "selected_route": "8acae2041cb0e349a021eb8c",
+    "selected_anchor": "kvasir-seg::cju2pmhtr17a00855cvpelzb0",
+    "oracle_route": "8acae2041cb0e349a021eb8c"
+  },
+  {
+    "target_id": "kvasir-seg::cju1euuc65wm00799m4sjdnnn",
+    "selected_dice": 0.9497444633730835,
+    "selected_iou": 0.9042984590429846,
+    "oracle_dice": 0.9625601338632085,
+    "selected_route": "c1037f11ae9d5f1e59dc9dd5",
+    "selected_anchor": "kvasir-seg::cju2pmhtr17a00855cvpelzb0",
+    "oracle_route": "536614263cc3efed46905c88"
+  },
+  {
+    "target_id": "kvasir-seg::cju1ewnoh5z030855vpex9uzt",
+    "selected_dice": 0.9727709556860651,
+    "selected_iou": 0.946985446985447,
+    "oracle_dice": 0.9727709556860651,
+    "selected_route": "16aa8453041dd58030eef97e",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "16aa8453041dd58030eef97e"
+  },
+  {
+    "target_id": "kvasir-seg::cju1fmsyf6gxb0801cimx2gle",
+    "selected_dice": 0.9613193403298351,
+    "selected_iou": 0.9255196304849884,
+    "oracle_dice": 0.9615605278255881,
+    "selected_route": "7a1793ca7c7666faaea55cf0",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "652d051d9984612b8ec95fba"
+  },
+  {
+    "target_id": "kvasir-seg::cju1fyb1d69et0878muzdak9u",
+    "selected_dice": 0.9625668449197861,
+    "selected_iou": 0.9278350515463918,
+    "oracle_dice": 0.9683244070390207,
+    "selected_route": "88a67dc9919165b72d080c7b",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "a47fc40ad11ea91c357b60f9"
+  },
+  {
+    "target_id": "kvasir-seg::cju2htabevq9108015qjei0x7",
+    "selected_dice": 0.9786119308949829,
+    "selected_iou": 0.9581196026232063,
+    "oracle_dice": 0.9824713989429317,
+    "selected_route": "470007d9186391b96b9c4f9a",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "ab66be5f5a344b1ee447cd04"
+  },
+  {
+    "target_id": "kvasir-seg::cju2nyc5f02m40801ojqbtiea",
+    "selected_dice": 0.9809873781754274,
+    "selected_iou": 0.962684227030417,
+    "oracle_dice": 0.9809873781754274,
+    "selected_route": "96fb63149718901bd0518e15",
+    "selected_anchor": "kvasir-seg::cju2pmhtr17a00855cvpelzb0",
+    "oracle_route": "96fb63149718901bd0518e15"
+  },
+  {
+    "target_id": "kvasir-seg::cju2pag1f0s4r0878h52uq83s",
+    "selected_dice": 0.9106672859575786,
+    "selected_iou": 0.835986355884025,
+    "oracle_dice": 0.9527769527769527,
+    "selected_route": "c0b38ac94da95890ca244892",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "aae8f75a593a69cd56e3a06b"
+  },
+  {
+    "target_id": "kvasir-seg::cju2qfie4rvz508357kad9z5o",
+    "selected_dice": 0.947384405132488,
+    "selected_iou": 0.9000288517022504,
+    "oracle_dice": 0.947384405132488,
+    "selected_route": "0422940125d7caa1e0d4ef95",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "0422940125d7caa1e0d4ef95"
+  },
+  {
+    "target_id": "kvasir-seg::cju2t2ivz43i10878zeg8r1br",
+    "selected_dice": 0.9457013574660633,
+    "selected_iou": 0.8969957081545065,
+    "oracle_dice": 0.9541208220884367,
+    "selected_route": "0d7496cffbf3f5dec85e909d",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "745aa2f7896ee2865b88953d"
+  },
+  {
+    "target_id": "kvasir-seg::cju2tzypl4wss0799ow05oxb9",
+    "selected_dice": 0.9876086347070367,
+    "selected_iou": 0.9755206025697829,
+    "oracle_dice": 0.988838662871812,
+    "selected_route": "14427b4a0037a4a5aad1a1de",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "d19d80d797dd019b6acd6a16"
+  },
+  {
+    "target_id": "kvasir-seg::cju2uzabhs6er0993x3aaf87p",
+    "selected_dice": 0.512007148441863,
+    "selected_iou": 0.3440924786068158,
+    "oracle_dice": 0.512007148441863,
+    "selected_route": "ab88419131dbafb9c9d4733e",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "ab88419131dbafb9c9d4733e"
+  },
+  {
+    "target_id": "kvasir-seg::cju2wve9v7esz0878mxsdcy04",
+    "selected_dice": 0.964367816091954,
+    "selected_iou": 0.9311875693673696,
+    "oracle_dice": 0.9654182809585307,
+    "selected_route": "dcedcd6b4738a35863f23aa3",
+    "selected_anchor": "kvasir-seg::cju5cu8qkb84x08186jwo8yin",
+    "oracle_route": "787edfa0a0defb00e415229d"
+  },
+  {
+    "target_id": "kvasir-seg::cju2y26c588bo07993ksd8eoz",
+    "selected_dice": 0.9665133197817481,
+    "selected_iou": 0.9351966873706005,
+    "oracle_dice": 0.969063366759121,
+    "selected_route": "37cb6fbba30901ed36c6c3cf",
+    "selected_anchor": "kvasir-seg::cju2pmhtr17a00855cvpelzb0",
+    "oracle_route": "e63e530331ea7d17496d3cd1"
+  },
+  {
+    "target_id": "kvasir-seg::cju2yi9tz8vky0801yqip0xyl",
+    "selected_dice": 0.9428704133766836,
+    "selected_iou": 0.8919156414762741,
+    "oracle_dice": 0.9428704133766836,
+    "selected_route": "15282f939fd4756963c2fd79",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "15282f939fd4756963c2fd79"
+  },
+  {
+    "target_id": "kvasir-seg::cju2zo0fwzv580988qlijd2xa",
+    "selected_dice": 0.7989504755657593,
+    "selected_iou": 0.665210267613326,
+    "oracle_dice": 0.7998252702850278,
+    "selected_route": "11ae11785c0a5946f29f78f9",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "7c03de79cbbcfd6eade492aa"
+  },
+  {
+    "target_id": "kvasir-seg::cju2zpw4q9vzr0801p0lysjdl",
+    "selected_dice": 0.9403263403263403,
+    "selected_iou": 0.8873735151781786,
+    "oracle_dice": 0.9514563106796117,
+    "selected_route": "aeb546222569a00d11b00db0",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "e46acbede1339b26a2024323"
+  },
+  {
+    "target_id": "kvasir-seg::cju303j5r062k098835zxfds5",
+    "selected_dice": 0.981301421091997,
+    "selected_iou": 0.9632892804698973,
+    "oracle_dice": 0.9814001308533508,
+    "selected_route": "fa7e48ef041e135854154e1d",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "83cd3049ec6103f31f5f6fe5"
+  },
+  {
+    "target_id": "kvasir-seg::cju30mm25a53s0799qa5wiqe8",
+    "selected_dice": 0.8754640566992913,
+    "selected_iou": 0.7785114045618248,
+    "oracle_dice": 0.9021671826625387,
+    "selected_route": "1f902304f94c1ca23d057f2b",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "3eca5d057015dd86b4141a5d"
+  },
+  {
+    "target_id": "kvasir-seg::cju3128yi0rpu0988o4oo5n8n",
+    "selected_dice": 0.9790396341463414,
+    "selected_iou": 0.9589399029488616,
+    "oracle_dice": 0.9790396341463414,
+    "selected_route": "2fbcdcb899fa5795f6ea7a44",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "2fbcdcb899fa5795f6ea7a44"
+  },
+  {
+    "target_id": "kvasir-seg::cju32qr9tbvsj08013pkpjenq",
+    "selected_dice": 0.4597333333333333,
+    "selected_iou": 0.2984764542936288,
+    "oracle_dice": 0.6075878482430351,
+    "selected_route": "f6a4ff1e4e5b3256cdd06c2b",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "1fe8c3d67d347460e01a2b9d"
+  },
+  {
+    "target_id": "kvasir-seg::cju32srle1xfq083575i3fl75",
+    "selected_dice": 0.9462694168576522,
+    "selected_iou": 0.8980183663605606,
+    "oracle_dice": 0.9567283641820911,
+    "selected_route": "ab03ef8b9cd639b100fef240",
+    "selected_anchor": "kvasir-seg::cju5cu8qkb84x08186jwo8yin",
+    "oracle_route": "27d956bad39999b420b8e711"
+  },
+  {
+    "target_id": "kvasir-seg::cju33x0f22peh0988g0ln7w5v",
+    "selected_dice": 0.863760896637609,
+    "selected_iou": 0.7601928978518194,
+    "oracle_dice": 0.8710401596408082,
+    "selected_route": "f3fa41de3c06782bec0178ab",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "cf0aa1d5dc0768c9adad5e57"
+  },
+  {
+    "target_id": "kvasir-seg::cju34fojcctcf0799ebolbvkn",
+    "selected_dice": 0.9602949517867272,
+    "selected_iou": 0.9236224768139661,
+    "oracle_dice": 0.9602949517867272,
+    "selected_route": "d504d9534f77b395afc7d042",
+    "selected_anchor": "kvasir-seg::cju34ymm8d6700799uop0cw33",
+    "oracle_route": "d504d9534f77b395afc7d042"
+  },
+  {
+    "target_id": "kvasir-seg::cju358pwtdby20878cg7nm0np",
+    "selected_dice": 0.9629123226798838,
+    "selected_iou": 0.9284772577455505,
+    "oracle_dice": 0.965952965952966,
+    "selected_route": "5c8088378dfe11783742f270",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "6ec89243f360457819202b1a"
+  },
+  {
+    "target_id": "kvasir-seg::cju35fxqyzt5p0993vusm54qz",
+    "selected_dice": 0.9559328785540009,
+    "selected_iou": 0.9155856543304083,
+    "oracle_dice": 0.9592009143765841,
+    "selected_route": "6b16e53bb463bf5275a612b9",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "a9ef6eae28ab355853c2ec16"
+  },
+  {
+    "target_id": "kvasir-seg::cju3tx1qyg0c907552fglumhc",
+    "selected_dice": 0.9803921568627451,
+    "selected_iou": 0.9615384615384616,
+    "oracle_dice": 0.9803921568627451,
+    "selected_route": "f5b45ebd7b06b08aa75b40f4",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "f5b45ebd7b06b08aa75b40f4"
+  },
+  {
+    "target_id": "kvasir-seg::cju3u39fog1bo0871lxjrabks",
+    "selected_dice": 0.9900972590627763,
+    "selected_iou": 0.9803887235160217,
+    "oracle_dice": 0.9908175878509624,
+    "selected_route": "452d5828c9237e905a63997d",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "8fbd2ee63d8e3f3fd49471b9"
+  },
+  {
+    "target_id": "kvasir-seg::cju3x2s11ibzi0817kk284k0j",
+    "selected_dice": 0.9158648294973443,
+    "selected_iou": 0.8447884123828457,
+    "oracle_dice": 0.9158648294973443,
+    "selected_route": "e4db0c4ac35153f05ab80a48",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "e4db0c4ac35153f05ab80a48"
+  },
+  {
+    "target_id": "kvasir-seg::cju3xjqtpikx50817tppy6g84",
+    "selected_dice": 0.9659044507962433,
+    "selected_iou": 0.9340572556762092,
+    "oracle_dice": 0.9760900140646976,
+    "selected_route": "19d33d5deaad52b77a1f19d4",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "e27de269a6c46ef7c7b035e7"
+  },
+  {
+    "target_id": "kvasir-seg::cju3xwpgviwlx0871rwm15q7v",
+    "selected_dice": 0.869629265897373,
+    "selected_iou": 0.7693310165073849,
+    "oracle_dice": 0.8821671525753159,
+    "selected_route": "383efcc034068ce6c9b22027",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "4ba0f656fbb588964d7b0ec2"
+  },
+  {
+    "target_id": "kvasir-seg::cju3xzvnzj0hd0755xprz39nj",
+    "selected_dice": 0.9440144420625071,
+    "selected_iou": 0.8939652961791607,
+    "oracle_dice": 0.949864163991109,
+    "selected_route": "f5231579c6d4b17b0e1c9e8f",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "f0eb23422ed2fe7b112ffba4"
+  },
+  {
+    "target_id": "kvasir-seg::cju3yht87j83m08507yk1u1fg",
+    "selected_dice": 0.412316533791588,
+    "selected_iou": 0.25969693743567906,
+    "oracle_dice": 0.4305172557867469,
+    "selected_route": "156ac60bf5fe3c89c366d095",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "e98b698b5f8e589ae8fc418c"
+  },
+  {
+    "target_id": "kvasir-seg::cju42g865lorv07552ytz6xxa",
+    "selected_dice": 0.981596839070231,
+    "selected_iou": 0.9638587906326459,
+    "oracle_dice": 0.9824772558320648,
+    "selected_route": "6fa29e1497f4120ac4b432e6",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "de75938a44fcff11f64a8249"
+  },
+  {
+    "target_id": "kvasir-seg::cju42nm68lpyo0818xvvqmupq",
+    "selected_dice": 0.750967202258548,
+    "selected_iou": 0.6012389775644603,
+    "oracle_dice": 0.9313574600941031,
+    "selected_route": "56cb301cdbe75e3ac4a69f38",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "0ca343d2d2d30f77ec3ceb45"
+  },
+  {
+    "target_id": "kvasir-seg::cju42romflni20817etb9a0fl",
+    "selected_dice": 0.8793541364296081,
+    "selected_iou": 0.7846851222276185,
+    "oracle_dice": 0.9112667316727241,
+    "selected_route": "07577ae124cb196dc31577b2",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "d8770fd62d081380109590e3"
+  },
+  {
+    "target_id": "kvasir-seg::cju45n0oxn5vu08500yfrt9jn",
+    "selected_dice": 0.9851964471473154,
+    "selected_iou": 0.9708247910424224,
+    "oracle_dice": 0.9851964471473154,
+    "selected_route": "11e26169516d45986de3e883",
+    "selected_anchor": "kvasir-seg::cju5cu8qkb84x08186jwo8yin",
+    "oracle_route": "11e26169516d45986de3e883"
+  },
+  {
+    "target_id": "kvasir-seg::cju45rj7ln8980850a7821fov",
+    "selected_dice": 0.9587965021491033,
+    "selected_iou": 0.9208540925266904,
+    "oracle_dice": 0.9632905793896506,
+    "selected_route": "2c5254ad78fb57197d0b3c08",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "2891dba6034c877b425079a2"
+  },
+  {
+    "target_id": "kvasir-seg::cju45ty6zn9oz0850qy4qnck1",
+    "selected_dice": 0.9563221588538044,
+    "selected_iou": 0.9163001466080235,
+    "oracle_dice": 0.9605481727574751,
+    "selected_route": "60717b141a92972da1c8094e",
+    "selected_anchor": "kvasir-seg::cju34ymm8d6700799uop0cw33",
+    "oracle_route": "22a35dd74105cedb364a691a"
+  },
+  {
+    "target_id": "kvasir-seg::cju5bbtwsa8cl0987wgfsqpao",
+    "selected_dice": 0.9226501305483029,
+    "selected_iou": 0.8564071493486822,
+    "oracle_dice": 0.9543203082003302,
+    "selected_route": "1a172076a4310a88ecc5c83b",
+    "selected_anchor": "kvasir-seg::cju5cu8qkb84x08186jwo8yin",
+    "oracle_route": "e9447e24a33263fe1bc884c4"
+  },
+  {
+    "target_id": "kvasir-seg::cju5bycdkalkb09875f7bfrvx",
+    "selected_dice": 0.7518848009650181,
+    "selected_iou": 0.6024161884627001,
+    "oracle_dice": 0.770196486275675,
+    "selected_route": "4f9ab42b6b9ec4027cd9e6b0",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "047a4158f4e46b588441cb77"
+  },
+  {
+    "target_id": "kvasir-seg::cju5cjh3xattc0817j2vbulzi",
+    "selected_dice": 0.6485800412501983,
+    "selected_iou": 0.4799248649917821,
+    "oracle_dice": 0.8657261007054244,
+    "selected_route": "6b747252bfb3658505d4b956",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "df72b2014bf4ebad6601000e"
+  },
+  {
+    "target_id": "kvasir-seg::cju5ekty5ckzf07550c9u3ckk",
+    "selected_dice": 0.9776969066805303,
+    "selected_iou": 0.9563669650122051,
+    "oracle_dice": 0.9782326354615825,
+    "selected_route": "c00c8c756e55371c121c40fc",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "e006c2553ea15b96a5058317"
+  },
+  {
+    "target_id": "kvasir-seg::cju5ew4h9cqaf0818rrczkmqh",
+    "selected_dice": 0.938770062397811,
+    "selected_iou": 0.8846057099735882,
+    "oracle_dice": 0.9501827401139245,
+    "selected_route": "dbd305270722953cf6fb00b7",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "f50ffe1a14ebc3c75edf3519"
+  },
+  {
+    "target_id": "kvasir-seg::cju5fi0yxd3ei0801v7u0yudn",
+    "selected_dice": 0.20592848180677542,
+    "selected_iou": 0.11478276073083311,
+    "oracle_dice": 0.2872531418312388,
+    "selected_route": "bd4ccfb1bb25458ccede58e8",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "730a5110302bc87669ecba1c"
+  },
+  {
+    "target_id": "kvasir-seg::cju5gucasds9d0801019axylx",
+    "selected_dice": 0.838125,
+    "selected_iou": 0.7213555675094137,
+    "oracle_dice": 0.9555555555555556,
+    "selected_route": "e8aeb9cae96765af6405d1fe",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "89adb3fbe831eb1e5911404a"
+  },
+  {
+    "target_id": "kvasir-seg::cju5hl8nee8a40755fm8qjj0o",
+    "selected_dice": 0.9712509712509713,
+    "selected_iou": 0.9441087613293051,
+    "oracle_dice": 0.9712509712509713,
+    "selected_route": "71b29d3c6391d62f45ed5f14",
+    "selected_anchor": "kvasir-seg::cju5cu8qkb84x08186jwo8yin",
+    "oracle_route": "71b29d3c6391d62f45ed5f14"
+  },
+  {
+    "target_id": "kvasir-seg::cju5hyi9yegob0755ho3do8en",
+    "selected_dice": 0.9025224059872494,
+    "selected_iou": 0.8223606667789191,
+    "oracle_dice": 0.9025224059872494,
+    "selected_route": "12493397bd68b9ab854f3494",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "12493397bd68b9ab854f3494"
+  },
+  {
+    "target_id": "kvasir-seg::cju5i39mreass0817au8p22zy",
+    "selected_dice": 0.9544435514572142,
+    "selected_iou": 0.9128570272675783,
+    "oracle_dice": 0.9557917826710537,
+    "selected_route": "09254ef99f62f74a37dc81e0",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "37f335e1e7de90aa4e5ef947"
+  },
+  {
+    "target_id": "kvasir-seg::cju5k3j3uf6de0817hszzfr7n",
+    "selected_dice": 0.9339407744874715,
+    "selected_iou": 0.8760683760683761,
+    "oracle_dice": 0.9437849944008958,
+    "selected_route": "003029d87f0fc0903a65c2fc",
+    "selected_anchor": "kvasir-seg::cju2pmhtr17a00855cvpelzb0",
+    "oracle_route": "f4bca86d2a89f98ae5f2f2cf"
+  },
+  {
+    "target_id": "kvasir-seg::cju5klveuff6w0871wbibgh3m",
+    "selected_dice": 0.9398000425441395,
+    "selected_iou": 0.8864365971107544,
+    "oracle_dice": 0.957558017980347,
+    "selected_route": "44d4b4a287afde76ceb7a838",
+    "selected_anchor": "kvasir-seg::cju5cu8qkb84x08186jwo8yin",
+    "oracle_route": "cddf1716b111db4daa30a258"
+  },
+  {
+    "target_id": "kvasir-seg::cju5u8gz4kj5b07552e2wpkwp",
+    "selected_dice": 0.0,
+    "selected_iou": 0.0,
+    "oracle_dice": 0.0,
+    "selected_route": "d54150f335e28e6b8ee2207b",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "b4e4ac7bd8a57a18cec0b07b"
+  },
+  {
+    "target_id": "kvasir-seg::cju5vutu7ll8w0871dfp92n9p",
+    "selected_dice": 0.9724599193469067,
+    "selected_iou": 0.9463960945726045,
+    "oracle_dice": 0.9763115826188054,
+    "selected_route": "9b65e53cfeac6d995328d870",
+    "selected_anchor": "kvasir-seg::cju2pmhtr17a00855cvpelzb0",
+    "oracle_route": "9b66867bb8ae68200e342621"
+  },
+  {
+    "target_id": "kvasir-seg::cju5wcc90lu020850mjrxppv6",
+    "selected_dice": 0.9760057992026097,
+    "selected_iou": 0.9531360611638114,
+    "oracle_dice": 0.9760057992026097,
+    "selected_route": "77fbb1d1acc5bc0c0590a0fd",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "77fbb1d1acc5bc0c0590a0fd"
+  },
+  {
+    "target_id": "kvasir-seg::cju5x7iskmad90818frchyfwd",
+    "selected_dice": 0.698099677303693,
+    "selected_iou": 0.5362159184797577,
+    "oracle_dice": 0.698099677303693,
+    "selected_route": "d4b5f14325d42bc23484fb3f",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "d4b5f14325d42bc23484fb3f"
+  },
+  {
+    "target_id": "kvasir-seg::cju5yimthmlv80850zhoc90c2",
+    "selected_dice": 0.9375579598145286,
+    "selected_iou": 0.8824556299098051,
+    "oracle_dice": 0.9392214186797969,
+    "selected_route": "db4af408a4bac4b97352f004",
+    "selected_anchor": "kvasir-seg::cju2pmhtr17a00855cvpelzb0",
+    "oracle_route": "c512856468be8882aea7264c"
+  },
+  {
+    "target_id": "kvasir-seg::cju6uy20suzbl0987rzuhz7z9",
+    "selected_dice": 0.9665424129466315,
+    "selected_iou": 0.9352511656549661,
+    "oracle_dice": 0.9727826675693975,
+    "selected_route": "4bb8bc10c04ca76e07704d83",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "f6278c90a0dc1faa0d3993f1"
+  },
+  {
+    "target_id": "kvasir-seg::cju6vgdmivcvb08018fra5lnv",
+    "selected_dice": 0.9754007606027054,
+    "selected_iou": 0.9519827100169141,
+    "oracle_dice": 0.9754007606027054,
+    "selected_route": "e8b63ee2ffe8439aa1c72d45",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "e8b63ee2ffe8439aa1c72d45"
+  },
+  {
+    "target_id": "kvasir-seg::cju6vifjlv55z0987un6y4zdo",
+    "selected_dice": 0.3690054812807184,
+    "selected_iou": 0.22624569061732683,
+    "oracle_dice": 0.3728232136731441,
+    "selected_route": "2d871e841b9b459a8367c1f4",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "cd039e1c92a42dd41754ecae"
+  },
+  {
+    "target_id": "kvasir-seg::cju6vqarjv7yo0987q4b1btk1",
+    "selected_dice": 0.9030645991034026,
+    "selected_iou": 0.8232614230202332,
+    "oracle_dice": 0.9193012848274866,
+    "selected_route": "35eba10b304e4c00679e240f",
+    "selected_anchor": "kvasir-seg::cju2pmhtr17a00855cvpelzb0",
+    "oracle_route": "0a80d42e8db776a38a365f91"
+  },
+  {
+    "target_id": "kvasir-seg::cju6wuojavt740818b5qcv3iw",
+    "selected_dice": 0.49363369245837413,
+    "selected_iou": 0.32769830949284784,
+    "oracle_dice": 0.496344159156606,
+    "selected_route": "d7b9b45dd7f393edfb4d0153",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "dda9705a92805c8e1e7e5960"
+  },
+  {
+    "target_id": "kvasir-seg::cju6x35ervu2808015c7eoqe4",
+    "selected_dice": 0.9762251706419204,
+    "selected_iou": 0.9535545733762829,
+    "oracle_dice": 0.9763864318129375,
+    "selected_route": "86b1673d4f81bc328c2db52f",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "9f04d108b3c3d5d072801310"
+  },
+  {
+    "target_id": "kvasir-seg::cju6x97w4vwua0850x0997r0a",
+    "selected_dice": 0.9354938590153783,
+    "selected_iou": 0.8788055070777584,
+    "oracle_dice": 0.9354938590153783,
+    "selected_route": "a0156825a558bc782a829f8d",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "a0156825a558bc782a829f8d"
+  },
+  {
+    "target_id": "kvasir-seg::cju6xlygpw7bs0818n691jsq4",
+    "selected_dice": 0.135485337576722,
+    "selected_iou": 0.07266520360887588,
+    "oracle_dice": 0.135485337576722,
+    "selected_route": "5908fdabf7013a3081a2b928",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "5908fdabf7013a3081a2b928"
+  },
+  {
+    "target_id": "kvasir-seg::cju77u1sjz77b0817ft44r3fk",
+    "selected_dice": 0.9595939086294416,
+    "selected_iou": 0.9223263075722092,
+    "oracle_dice": 0.9636644502652966,
+    "selected_route": "46ac55183cb9c7c6c8165076",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "8e51de1d5eb504f10899407f"
+  },
+  {
+    "target_id": "kvasir-seg::cju7afqon1ip40850ue2308b6",
+    "selected_dice": 0.9633525061626952,
+    "selected_iou": 0.929296131896005,
+    "oracle_dice": 0.9649180327868853,
+    "selected_route": "bcf92f6a4ee57dc71d99b26b",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "6f38cc07066861118b84c132"
+  },
+  {
+    "target_id": "kvasir-seg::cju7agj961l2r0818z29iq8yn",
+    "selected_dice": 0.9532940019665683,
+    "selected_iou": 0.9107562235791451,
+    "oracle_dice": 0.9541600098316333,
+    "selected_route": "504665dababcded3452e098c",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "cde9005928812324a2450e91"
+  },
+  {
+    "target_id": "kvasir-seg::cju7ap09p1kz10850ldccjebj",
+    "selected_dice": 0.9198479590150388,
+    "selected_iou": 0.8515911872705019,
+    "oracle_dice": 0.9201784828953892,
+    "selected_route": "ac7baa89a1eb635678d1eefe",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "466f60d83a9633dc84cc5a1d"
+  },
+  {
+    "target_id": "kvasir-seg::cju7atnm31if40817pqclnjer",
+    "selected_dice": 0.8699685450765048,
+    "selected_iou": 0.769862238158143,
+    "oracle_dice": 0.8932170643830609,
+    "selected_route": "500a7bb2ccf4e0967c9c4268",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "21afab31b5b2a16bf85f8847"
+  },
+  {
+    "target_id": "kvasir-seg::cju7b1ygu1msd0801hywhy0mc",
+    "selected_dice": 0.5782871972318339,
+    "selected_iou": 0.40675387891694553,
+    "oracle_dice": 0.6528435229015268,
+    "selected_route": "5e47edb5c7d172ca86f92eb5",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "683671c7f90519acf54b55c4"
+  },
+  {
+    "target_id": "kvasir-seg::cju7bd1qu1mx409877xjxibox",
+    "selected_dice": 0.9505593032191956,
+    "selected_iou": 0.9057770545158665,
+    "oracle_dice": 0.9506489071038251,
+    "selected_route": "904b8afaffc968dc9f0e0a1c",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "a89d690c4ef35f54a34116dc"
+  },
+  {
+    "target_id": "kvasir-seg::cju7cufm7298k0755j09uf3of",
+    "selected_dice": 0.9369949322010683,
+    "selected_iou": 0.8814585749259116,
+    "oracle_dice": 0.9369949322010683,
+    "selected_route": "1e2b90f6cd6aa139750a883a",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "1e2b90f6cd6aa139750a883a"
+  },
+  {
+    "target_id": "kvasir-seg::cju7dda8w2br20818zhsuz8s7",
+    "selected_dice": 0.5514714714714715,
+    "selected_iou": 0.38071150178290075,
+    "oracle_dice": 0.5744410644141883,
+    "selected_route": "8410b89af5a9cfc4dc4e0398",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "287eea7a4750347c4e94c961"
+  },
+  {
+    "target_id": "kvasir-seg::cju7ehljc2or70871261br8ai",
+    "selected_dice": 0.4934895833333333,
+    "selected_iou": 0.32757130509939497,
+    "oracle_dice": 0.6121225018862814,
+    "selected_route": "930f9f9f2ebaf35f4bae45f4",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "abb757780856c11780578af3"
+  },
+  {
+    "target_id": "kvasir-seg::cju7ekbo32pft0871fv7kzwb9",
+    "selected_dice": 0.9735449735449735,
+    "selected_iou": 0.9484536082474226,
+    "oracle_dice": 0.9735449735449735,
+    "selected_route": "c5d3724dc29424c997dac790",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "c5d3724dc29424c997dac790"
+  },
+  {
+    "target_id": "kvasir-seg::cju7eotqi2qea0871y8yc7tqh",
+    "selected_dice": 0.36262198278341223,
+    "selected_iou": 0.22146503676642781,
+    "oracle_dice": 0.36262198278341223,
+    "selected_route": "b21ec4e6549fdc2b33a82ac3",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "b21ec4e6549fdc2b33a82ac3"
+  },
+  {
+    "target_id": "kvasir-seg::cju7ez7r22qbc08015xfoz2wb",
+    "selected_dice": 0.9509321688221322,
+    "selected_iou": 0.9064544165408719,
+    "oracle_dice": 0.9509321688221322,
+    "selected_route": "ba37e0f0a204ee0495aabcf7",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "ba37e0f0a204ee0495aabcf7"
+  },
+  {
+    "target_id": "kvasir-seg::cju7f0ec32txj08184asb8w5f",
+    "selected_dice": 0.9545725527602241,
+    "selected_iou": 0.9130930656934306,
+    "oracle_dice": 0.9611190137505927,
+    "selected_route": "14d6a690e3e7ee5d13e7b867",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "17d9c6719fcc4d8bd990a390"
+  },
+  {
+    "target_id": "kvasir-seg::cju7fbndk2sl608015ravktum",
+    "selected_dice": 0.9693147190135355,
+    "selected_iou": 0.9404565456545655,
+    "oracle_dice": 0.9714164725809866,
+    "selected_route": "b8e335ca1ebbfa09a5bd9ff2",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "88973a6597f6ac08875758a2"
+  },
+  {
+    "target_id": "kvasir-seg::cju849c23kgnk0817cgv2hw1e",
+    "selected_dice": 0.8945988463555322,
+    "selected_iou": 0.8092979127134725,
+    "oracle_dice": 0.9084926634059582,
+    "selected_route": "67a333120b76ac31537346c5",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "52dd59aa0a4c66e769ed9db6"
+  },
+  {
+    "target_id": "kvasir-seg::cju858eswlepn0871pzvdrhj1",
+    "selected_dice": 0.9808738495227016,
+    "selected_iou": 0.9624655878600685,
+    "oracle_dice": 0.9839061647572286,
+    "selected_route": "1368a6eb87f21673d9a7cc64",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "82236a6c8a267680798b5f4c"
+  },
+  {
+    "target_id": "kvasir-seg::cju85a8h8llwm07559wxg4t5w",
+    "selected_dice": 0.9735899137358991,
+    "selected_iou": 0.9485389190587018,
+    "oracle_dice": 0.9760866693090237,
+    "selected_route": "cea14be64e8f3a109236d08b",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "83e0ec966680537a5b2804c9"
+  },
+  {
+    "target_id": "kvasir-seg::cju85rkbnlo1c08503uxcpax1",
+    "selected_dice": 0.9780524378606807,
+    "selected_iou": 0.9570475767007559,
+    "oracle_dice": 0.9798602921164837,
+    "selected_route": "5054c947b7b2498a1bc6fdbb",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "3c29f1499c9ef665aad1cd28"
+  },
+  {
+    "target_id": "kvasir-seg::cju87li0zn3yb0817kbwgjiz8",
+    "selected_dice": 0.5891046221270958,
+    "selected_iou": 0.41753955067543164,
+    "oracle_dice": 0.5951933972635175,
+    "selected_route": "c377da2051eee7dbee9a47e5",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "6c0d10abc34902e83da16097"
+  },
+  {
+    "target_id": "kvasir-seg::cju87r56lnkyp0755hz30leew",
+    "selected_dice": 0.9552346570397112,
+    "selected_iou": 0.9143054595715273,
+    "oracle_dice": 0.9688776796973518,
+    "selected_route": "8a684b43b27bd201ef5c3174",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "7e5d481e0fc12590fbbe6d9f"
+  },
+  {
+    "target_id": "kvasir-seg::cju88itqbny720987hxizbj5y",
+    "selected_dice": 0.8667388080638051,
+    "selected_iou": 0.7648182203989249,
+    "oracle_dice": 0.9125668749298514,
+    "selected_route": "69074f3d4876c13267fe79b0",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "57317dd11fc09b1c22e46199"
+  },
+  {
+    "target_id": "kvasir-seg::cju88oh0po9gq0801nge4tgr1",
+    "selected_dice": 0.976913730255164,
+    "selected_iou": 0.9548693586698337,
+    "oracle_dice": 0.976913730255164,
+    "selected_route": "50b1b1c449dd9784ddeda42e",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "50b1b1c449dd9784ddeda42e"
+  },
+  {
+    "target_id": "kvasir-seg::cju88y1mwoln50871emyfny1g",
+    "selected_dice": 0.9199385217269805,
+    "selected_iou": 0.8517464424320828,
+    "oracle_dice": 0.9199385217269805,
+    "selected_route": "4828e2ac0d767273df849448",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "4828e2ac0d767273df849448"
+  },
+  {
+    "target_id": "kvasir-seg::cju8aeei7q8k308173n9y4klv",
+    "selected_dice": 0.9588482303539292,
+    "selected_iou": 0.9209495275409081,
+    "oracle_dice": 0.9605940831237274,
+    "selected_route": "f23ae70f2421b418ace2ac88",
+    "selected_anchor": "kvasir-seg::cju5cu8qkb84x08186jwo8yin",
+    "oracle_route": "679137c999363bcd78d532e3"
+  },
+  {
+    "target_id": "kvasir-seg::cju8alhigqn2h0801zksudldd",
+    "selected_dice": 0.9746420835754662,
+    "selected_iou": 0.950538410015972,
+    "oracle_dice": 0.9774301440573069,
+    "selected_route": "4103980f15f70c32db4b7922",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "a209ba0864ee24c9fd176e77"
+  },
+  {
+    "target_id": "kvasir-seg::cju8at3s1qqqx0850hcq8nmnq",
+    "selected_dice": 0.0,
+    "selected_iou": 0.0,
+    "oracle_dice": 0.0,
+    "selected_route": "4d90f677f46ed374b5ee67ee",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "ddde07600122a5a6d6fccc38"
+  },
+  {
+    "target_id": "kvasir-seg::cju8bw697rwg308177tg8huas",
+    "selected_dice": 0.8591325741042022,
+    "selected_iou": 0.7530520677541651,
+    "oracle_dice": 0.8756393737066105,
+    "selected_route": "a9642d5f03e8a2ad0c1c8a2c",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "2b726a0749d66c5e7453aff3"
+  },
+  {
+    "target_id": "kvasir-seg::cju8chdlqsu620755azjty1tj",
+    "selected_dice": 0.963855421686747,
+    "selected_iou": 0.9302325581395349,
+    "oracle_dice": 0.963855421686747,
+    "selected_route": "9b70fe44f84cd4ecf9fc6f10",
+    "selected_anchor": "kvasir-seg::cju7aklv31h4309871m29l4e7",
+    "oracle_route": "9b70fe44f84cd4ecf9fc6f10"
+  },
+  {
+    "target_id": "kvasir-seg::cju8cwy02t9eq08185qn12c02",
+    "selected_dice": 0.900629887054735,
+    "selected_iou": 0.8192235503309295,
+    "oracle_dice": 0.9189159292035398,
+    "selected_route": "fa8a945d9b8afda7abd19bf0",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "cb57711cb85aabcc1e82c85e"
+  },
+  {
+    "target_id": "kvasir-seg::cju8d2q30tfhs0801n7lx77xl",
+    "selected_dice": 0.9655172413793104,
+    "selected_iou": 0.9333333333333333,
+    "oracle_dice": 0.9767527336212442,
+    "selected_route": "7bd90b0a379f6b772e13517a",
+    "selected_anchor": "kvasir-seg::cju1c4fcu40hl07992b8gj0c8",
+    "oracle_route": "c96bc15a05e58f22899dc64f"
+  }
+]

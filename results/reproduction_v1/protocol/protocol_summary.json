@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "test": 161,
+    "train": 1290,
+    "validation": 161
+  },
+  "data_root": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T19_scsam_merged_1pct/data",
+  "support_count": 16,
+  "support_dataset_counts": {
+    "CVC-ClinicDB": 8,
+    "kvasir-seg": 8
+  },
+  "target": "S27 X3+B7 reproduction protocol"
+}

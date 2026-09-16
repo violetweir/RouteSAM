@@ -1,0 +1,13 @@
+{
+  "best_epoch": 2,
+  "validation": {
+    "count": 100,
+    "dice": 0.8795421272443389,
+    "iou": 0.8167638514019974
+  },
+  "best_sha256": "1b073c453fcf69189a36befcbb1b90fc5b94a67d4767b5779b46433439eeacf4",
+  "stopped_by_user": true,
+  "completed_epochs": 7,
+  "last_reported_step": 3120,
+  "note": "Early stopped A0; releases A1 validation-best test barrier; not a completed 10-epoch arm"
+}

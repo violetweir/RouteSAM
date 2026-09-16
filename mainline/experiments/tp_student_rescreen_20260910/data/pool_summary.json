@@ -1,0 +1,22 @@
+{
+  "audited": 792,
+  "candidates": 5544,
+  "tiers": {
+    "B": 82,
+    "A": 538,
+    "C": 172
+  },
+  "pseudo_count": 620,
+  "gt_count": 8,
+  "train_count": 628,
+  "previous_pseudo_count": 580,
+  "retained": 580,
+  "removed": 0,
+  "added": 40,
+  "retained_main_mask_changed": 22,
+  "teacher_sha256": "c03b6a63c754df9bc75a6d904bb4b64cabdf7a0e29508b37d8cbbed2a698fc58",
+  "all_792_rescreened": true,
+  "no_historical_membership_in_scoring": true,
+  "student_not_mixed_into_targets": true,
+  "unlabeled_gt_masks_read": 0
+}

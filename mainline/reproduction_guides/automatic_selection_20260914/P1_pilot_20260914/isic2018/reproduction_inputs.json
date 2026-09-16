@@ -1,0 +1,36 @@
+{
+  "dataset": "isic2018",
+  "source": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/automatic_anchor_tp_test_20260913/isic2018",
+  "fresh_features": false,
+  "hashes": {
+    "code/run_t21_dynamic_pseudovideo.py": "2128a9cd04acce91614cbf43e2c4ad38a63c50c0fc29a5782a1f1e7f14eb5aba",
+    "code/eval_route_propagation_quality.py": "40c2216c5ceba0425c595d3c99376234464254d09dc6eb76de7a07743d0e67da",
+    "code/stage1_feature_knn_routes.py": "dda16f716e002aeb3f82ff592ad6bad6e099bbb46811917a3059caae6ecb81b9",
+    "protocol/merged_manifest.jsonl": "951ead0948922b2f95a2adecdec851e1f8460ebdebb31e0b9c7b161571e23dc6",
+    "protocol/support_manifest.jsonl": "a1f0f7464e146c1fdfc3cfd59b658720b1dfcb931df7cef753e7c9206673b68f",
+    "quality_root/features/sam3_base_s256_features.npz": "ab83784e945ae61f52f4927ad4b743d5c003fcddc7b5a921a426cb0378c4ad00"
+  },
+  "selected_ids": [
+    "ISIC_0007788",
+    "ISIC_0009941",
+    "ISIC_0013410",
+    "ISIC_0014026",
+    "ISIC_0001126",
+    "ISIC_0010023",
+    "ISIC_0015614",
+    "ISIC_0014438",
+    "ISIC_0002453",
+    "ISIC_0011229",
+    "ISIC_0013458",
+    "ISIC_0015995",
+    "ISIC_0009252",
+    "ISIC_0010263",
+    "ISIC_0014829",
+    "ISIC_0013399",
+    "ISIC_0012453",
+    "ISIC_0011129",
+    "ISIC_0015206",
+    "ISIC_0016048",
+    "ISIC_0010360"
+  ]
+}

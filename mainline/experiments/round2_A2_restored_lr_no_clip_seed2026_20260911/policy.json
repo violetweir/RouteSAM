@@ -1,0 +1,22 @@
+{
+  "seeds": [
+    2026
+  ],
+  "only_optimization_change": "Restore cosine LR to5e-5 through5e-7, keep clipping disabled versus preceding lowLR no-clip run",
+  "pool": "same A2 503pseudo+8GT",
+  "epochs": 10,
+  "batch": 1,
+  "clip": null,
+  "scheduler": "cosine5110steps",
+  "input": "original1008",
+  "metric": "macroDice256",
+  "prompt": "colon polyp",
+  "monitor": "fixed64pseudo sorted SHA256(target_id)+all8GT; compares predictions with training supervision only, no unlabeled GT; preserves RNG",
+  "loss_logging": "native loss dictionary scalar components, unchanged training objective",
+  "test": "validation-best frozen then full100 text primary and empty diagnostic",
+  "gradient_clipping_enabled": false,
+  "baseline": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A1_A2_cosine_clip_original1008_20260910/runs/A2",
+  "previous_run": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/round2_A2_low_lr_no_clip_seed2026_20260911/runs/seed2026",
+  "learning_rate": 5e-05,
+  "min_learning_rate": 5e-07
+}

@@ -1,0 +1,37 @@
+{
+  "allowed_switch_target_count": 0,
+  "baseline_dice": 0.8875905843652192,
+  "catastrophic_degradation_count": 0,
+  "correct_switch_count": 0,
+  "delta_vs_baseline": 0.0,
+  "incorrect_switch_count": 0,
+  "label": "KNN mean 安全基准",
+  "loss_count": 0,
+  "maximum_single_degradation": 0.0,
+  "maximum_single_improvement": 0.0,
+  "method": "baseline",
+  "paired_bootstrap_vs_baseline": {
+    "ci_95": [
+      0.0,
+      0.0
+    ],
+    "loss_count": 0,
+    "mean_delta": 0.0,
+    "median_delta": 0.0,
+    "resamples": 10000,
+    "seed": 2026,
+    "target_count": 100,
+    "tie_count": 100,
+    "unit": "paired_target",
+    "win_count": 0
+  },
+  "rejected_or_same_route_target_count": 100,
+  "selected_dice": 0.8875905843652192,
+  "severe_degradation_count": 0,
+  "switch_tie_count": 0,
+  "target_count": 100,
+  "tie_count": 100,
+  "total_negative_dice_loss": 0.0,
+  "total_positive_dice_gain": 0.0,
+  "win_count": 0
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "epoch": 20,
+    "name": "ft_1pct",
+    "output": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_1pct_anchors/video_checkpoints/ft_1pct_merged_video.pt",
+    "skipped": [],
+    "skipped_count": 0,
+    "source": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T11_sam3_lowlabel_ft_kvasir_budgets/finetune_1pct_seed2026/checkpoints/checkpoint.pt",
+    "steps": {
+      "train": 160,
+      "val": 400
+    },
+    "updated_detector_keys": 1134
+  },
+  {
+    "epoch": 20,
+    "name": "ft_5pct",
+    "output": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_1pct_anchors/video_checkpoints/ft_5pct_merged_video.pt",
+    "skipped": [],
+    "skipped_count": 0,
+    "source": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T11_sam3_lowlabel_ft_kvasir_budgets/finetune_5pct_seed2026/checkpoints/checkpoint.pt",
+    "steps": {
+      "train": 800,
+      "val": 400
+    },
+    "updated_detector_keys": 1134
+  },
+  {
+    "epoch": 20,
+    "name": "ft_10pct",
+    "output": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_1pct_anchors/video_checkpoints/ft_10pct_merged_video.pt",
+    "skipped": [],
+    "skipped_count": 0,
+    "source": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T11_sam3_lowlabel_ft_kvasir_budgets/finetune_10pct_seed2026/checkpoints/checkpoint.pt",
+    "steps": {
+      "train": 1600,
+      "val": 400
+    },
+    "updated_detector_keys": 1134
+  },
+  {
+    "epoch": 12,
+    "name": "ft_20pct_latest_after_crash",
+    "output": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/work/kvasir_1pct_anchors/video_checkpoints/ft_20pct_latest_after_crash_merged_video.pt",
+    "skipped": [],
+    "skipped_count": 0,
+    "source": "/Data_8TB/lht/DG-GroupUNet/experiments/wacv2027/T11_sam3_lowlabel_ft_kvasir_budgets/finetune_20pct_seed2026/checkpoints/checkpoint.pt",
+    "steps": {
+      "train": 1920,
+      "val": 300
+    },
+    "updated_detector_keys": 1134
+  }
+]
