@@ -406,8 +406,13 @@ so the numbers in the reports stay auditable without shipping the raw data.
   on Kvasir (0.68). Do not quote BUSI's gain as a general result.
 - **TN3K is complete** (576 validation / 614 test, 23 anchors) and behaves as a
   third regime: calibrated top-1 helps, calibrated top-2 does not, the interaction
-  is negative. Its low absolute scores come mostly from anchor/target **scale
-  mismatch**, not from a weaker segmenter — see
+  is negative. **The top-2 arm does not pay there** — it lifts the ceiling by
+  +0.085743 but captures only **4.6%** of it (the worst ratio in the study), so
+  retaining a second anchor is a real lever only when the selection scores can
+  rank it. Its low absolute scores come mostly from anchor/target **scale
+  mismatch**, not from a weaker segmenter, and an all-23-anchor `b0` run shows the
+  pool already contains good candidates (Oracle 0.828171 vs 0.618 for top-2) —
+  see [`docs/stage0_stage1.md`](docs/stage0_stage1.md) and
   [`docs/cross_dataset_1pct.md`](docs/cross_dataset_1pct.md) §TN3K.
 - Use `docs/s27_x3_b7_line.md` before quoting any S27/X3/B7 number; the
   `S27 X0/X1/X3` trainers and the S27-vs-T24 Dice conventions differ.

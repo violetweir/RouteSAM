@@ -229,6 +229,26 @@ This is a **third regime**: calibration helps at top-1 (significantly) but not a
 top-2, breadth helps (top-2 > top-1, significantly), and the interaction is
 significantly negative. It is neither BUSI (both help) nor Kvasir (neither helps).
 
+**The sharper statement of the TN3K problem: the top-2 arm does not pay.** Going
+from one retained anchor to two raises TN3K's ceiling by `0.701492 − 0.615749 =
++0.085743` in the calibrated arm, but the realised Dice moves only `+0.003956`
+(CI [−0.0151, +0.0231], spanning 0) — i.e. only **4.6% of the ceiling gain is
+captured**, the worst ratio in the whole study:
+
+| dataset | arm | realised gain (k=2 − k=1) | ceiling gain | captured |
+|---|---|---:|---:|---:|
+| Kvasir | raw | +0.020378 | +0.020880 | **97.6%** |
+| Kvasir | centred | +0.002430 | +0.030875 | 7.9% |
+| ISIC2018 | raw | +0.001048 | +0.020273 | 5.2% |
+| ISIC2018 | centred | +0.004147 | +0.021313 | 19.5% |
+| BUSI | raw | +0.090094 | +0.159206 | 56.6% |
+| BUSI | centred | +0.032206 | +0.048188 | **66.8%** |
+| TN3K | raw | +0.050388 | +0.093395 | 54.0% |
+| TN3K | centred | +0.003956 | +0.085743 | **4.6%** |
+
+So retaining a second anchor is a real lever only when the selection scores can
+rank it; the TN3K calibrated arm creates a better pool and cannot use it.
+
 ### Why TN3K scores so much lower than BUSI
 
 The gap is mostly a **tail-composition** effect, not a uniform quality drop

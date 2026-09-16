@@ -491,6 +491,51 @@ Validation OOF per dataset: Kvasir 0.848638 / 0.852949 / 0.846724 / 0.853773 /
 0.616268 / 0.728772 / 0.665683 / 0.738958 / 0.617634; TN3K 0.510819 / 0.500433 /
 0.547491 / 0.552716 / 0.511450.
 
+#### Does the top-2 arm actually pay?
+
+Moving from one retained anchor to two raises the **ceiling** by
+`Oracle(k=2) − Oracle(k=1)`. The question is how much of that ceiling gain the
+Router actually realises. Define
+
+```text
+realized gain = Dice(k=2) − Dice(k=1)
+ceiling gain  = Oracle(k=2) − Oracle(k=1)
+captured      = realized gain / ceiling gain
+```
+
+| dataset | arm | Dice k=1 | Dice k=2 | realized | Oracle k=1 | Oracle k=2 | ceiling | **captured** |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| Kvasir | raw | 0.870848 | 0.891226 | +0.020378 | 0.912017 | 0.932897 | +0.020880 | **97.6%** |
+| Kvasir | centred | 0.860331 | 0.862761 | +0.002430 | 0.906667 | 0.937542 | +0.030875 | **7.9%** |
+| ISIC2018 | raw | 0.868228 | 0.869276 | +0.001048 | 0.883608 | 0.903881 | +0.020273 | 5.2% |
+| ISIC2018 | centred | 0.871717 | 0.875864 | +0.004147 | 0.890596 | 0.911909 | +0.021313 | 19.5% |
+| BUSI | raw | 0.565990 | 0.656084 | +0.090094 | 0.617141 | 0.776347 | +0.159206 | 56.6% |
+| BUSI | centred | 0.719992 | 0.752198 | +0.032206 | 0.775461 | 0.823649 | +0.048188 | **66.8%** |
+| TN3K | raw | 0.519585 | 0.569973 | +0.050388 | 0.606576 | 0.699971 | +0.093395 | 54.0% |
+| TN3K | centred | 0.556705 | 0.560661 | +0.003956 | 0.615749 | 0.701492 | +0.085743 | **4.6%** |
+
+**This is the sharpest single diagnostic in Stage 1.** Two arms capture almost
+nothing of the ceiling they create:
+
+- **TN3K / centred: 4.6%.** The calibrated top-2 pool has the *highest* TN3K
+  Oracle (0.701492, +0.0857 over centred top-1) yet the realised Dice moves only
+  +0.003956, with a paired interval [−0.0151, +0.0231] that spans 0. So on TN3K
+  the **multi-reference step is not demonstrated for the calibrated arm**: the
+  extra candidate is in the pool but the Router almost never picks it usefully.
+  This is the "top-2 gain is not obvious" problem.
+- **Kvasir / centred: 7.9%** — the same failure at a smaller scale.
+
+Where the ranking is good the lever works: BUSI / centred captures 66.8%,
+Kvasir / raw 97.6%, TN3K / raw 54.0%. So *retaining more anchors is a real lever
+only when the selection scores can rank the extra candidates*; otherwise the
+budget spent on the second anchor is wasted, and the Oracle gain is a number the
+method never sees.
+
+The TN3K case is also the direct motivation for the all-anchor `b0` diagnostic in
+§5.4: if a two-anchor pool already contains a better candidate and the Router
+cannot find it, the question is whether the *pool* or the *ranking* is at fault —
+and the all-23-anchor run answers that the pool is fine.
+
 ### 4.4 Paired per-target comparisons
 
 All intervals are 10 000-image paired bootstrap, seed 2026, exploratory, no
@@ -670,7 +715,14 @@ reachable targets 0.8493 vs 0.8794 — only 0.030 apart. Of the 0.1221 Oracle ga
   images: target's **own** GT box → **0.854998**; all-23-anchor `b0` Oracle →
   **0.828171**; raw top-2 `b0` Oracle 0.638288; centred top-2 `b0` Oracle
   0.617872; raw top-1 `b0` 0.535822. Only **1 of 64** targets has all 23 anchors'
-  `b0` below 0.5.
+  `b0` below 0.5. Note that the all-23 `b0` Oracle (0.828) is far above *any*
+  top-2 `b0–b6` Oracle on the same subset (centred top-2 `b0–b6`: 0.728595) — so
+  the top-2 **retention** decision, not the candidate generator, is what discards
+  the good candidates, which is exactly the 4.6% capture ratio in §4.3.
+- **Top-2 does not fix it; better ranking or wider retention does.** A single
+  extreme example: `trainval::0115` has an all-23 `b0` Oracle of 0.836 while
+  raw top-1 gives 0.207, centred top-1 0.036 and centred top-2 0.036 — the pool
+  contains a good answer and no ranking of two anchors finds it.
 - The automatic selector optimises **appearance** coverage and has **no scale
   term**, so the chosen anchors are not scale-representative.
 
@@ -717,6 +769,7 @@ reachable targets 0.8493 vs 0.8794 — only 0.030 apart. Of the 0.1221 Oracle ga
 | **P5** | Kvasir unified-router refit with `k` chosen on validation | makes the main table one method instead of four arms | 0 GPU (candidates ready) |
 | **P7** | a never-diagnosed dataset | one-shot blind test | dataset-dependent |
 | **S2** | Stage 2 closure on the auto-anchor protocol | pseudo labels → student training under Stage 0 + Stage 1 (see §7) | – |
+| **R1** | a ranking that captures the top-2 ceiling, or a wider retention (`k` = 4/8) with an honest budget accounting | TN3K centred captures only 4.6% of its +0.0857 ceiling gain; TN3K all-23 `b0` Oracle 0.828 vs top-2 `b0` 0.618 | ~1 GPU-day (candidates largely reusable) |
 
 Also missing: TN3K's bias-ratio / concentration / tie statistics; ISIC2018 and
 BUSI full anchor banks; `all23` beyond `b0`.

@@ -313,8 +313,12 @@ Student: /home/violet/anaconda3/envs/mkunet_mamba/bin/python
 - 校准**不是普遍增益**：BUSI（偏置比 5.42）显著，ISIC2018（1.10）test 不显著，
   Kvasir（0.68）无效。不要把 BUSI 的增益当作通用结论。
 - **TN3K 已跑完**（576 validation / 614 test，23 张锚点），呈现第三种规律：校准 top-1 有效、
-  校准 top-2 无效、interaction 显著为负。它绝对分数低主要来自锚点/目标的**尺度失配**，
-  而不是分割器更弱——见 [`docs/cross_dataset_1pct.md`](docs/cross_dataset_1pct.md) 的 TN3K 一节。
+  校准 top-2 无效、interaction 显著为负。**top-2 这一步在 TN3K 上不兑现**：它把上限抬高
+  +0.085743，但只兑现 **4.6%**（全表最差），说明"多留一张锚点"只有在排序分数能排得动它时
+  才是真杠杆。它绝对分数低主要来自锚点/目标的**尺度失配**，而 all-23 锚点的 `b0` 实验显示
+  池子里本来就有好候选（Oracle 0.828171，而 top-2 只有 0.618）——见
+  [`docs/stage0_stage1.md`](docs/stage0_stage1.md) 与
+  [`docs/cross_dataset_1pct.md`](docs/cross_dataset_1pct.md) 的 TN3K 一节。
 - 引用任何 S27/X3/B7 数字前先看 `docs/s27_x3_b7_line.md`；`S27 X0/X1/X3` 使用后期统一的 S27 学生训练器，并非旧 T24 监督损失实现的逐位复现。
 - S27 训练器对 GT 使用逐样本前景 Dice；T24 使用两类别 batch Dice。
   公开结果来自被保留的 S27 实现。
