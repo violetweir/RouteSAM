@@ -10,6 +10,11 @@
 > [`E0_diagnostics.md`](../mainline/reproduction_guides/automatic_selection_20260914/E0_diagnostics_20260914/E0_diagnostics.md),
 > [three-dataset reproduction guide](../mainline/reproduction_guides/automatic_selection_20260914/三数据集自动选图与TP路线_中文复现指南.md).
 
+> For the frozen, step-by-step definition of Stage 0 (automatic anchor mining)
+> and Stage 1 (routes → propagation → Router) with all hyper-parameters,
+> verification evidence and the open items, see
+> [`stage0_stage1.md`](stage0_stage1.md).
+
 ## Why this line exists
 
 The `S27 X3 + B7` mainline answers *"how far can a student-audited pseudo-video
@@ -59,7 +64,7 @@ text, canvas 256.
 | Kvasir-SEG | 800 | 100 | 100 | 8 (1.0000%) |
 | ISIC2018 | 2075 | 259 | 260 | 21 (1.0120%) |
 | BUSI | 517 | 64 | 66 | 5 (0.9671%) |
-| TN3K | 2303 | 576 | 614 | 23 (0.9987%) — dry-run only so far |
+| TN3K | 2303 | 576 | 614 | 23 (0.9987%) |
 
 Anchor lists are frozen before any GT is read and are stored in
 `mainline/experiments/*/selection/SELECTIONS_FROZEN.json`.
@@ -92,23 +97,23 @@ Score calibration × anchor breadth, four pre-registered arms plus the historica
 per-bridge control. All arms refit the same legacy-28 Ridge(alpha=1) on the same
 image-grouped 5-fold validation.
 
-| Method | cand/target | Kvasir (100) | ISIC2018 (260) | BUSI (66) |
-|---|---:|---:|---:|---:|
-| raw score top-1 | 7 | 0.870848 | 0.868228 | 0.565990 |
-| **calibrated** top-1 | 7 | 0.860331 | 0.871717 | **0.719992** |
-| raw score top-2 | 14 | **0.891226** | 0.869276 | 0.656084 |
-| **calibrated** top-2 | 14 | 0.862761 | **0.875864** | **0.752198** |
-| historical per-bridge + legacy Router | 7 | 0.871374 | 0.866573 | 0.566808 |
+| Method | cand/target | Kvasir (100) | ISIC2018 (260) | BUSI (66) | TN3K (614) |
+|---|---:|---:|---:|---:|---:|
+| raw score top-1 | 7 | 0.870848 | 0.868228 | 0.565990 | 0.519585 |
+| **calibrated** top-1 | 7 | 0.860331 | 0.871717 | **0.719992** | **0.556705** |
+| raw score top-2 | 14 | **0.891226** | 0.869276 | 0.656084 | **0.569973** |
+| **calibrated** top-2 | 14 | 0.862761 | **0.875864** | **0.752198** | 0.560661 |
+| historical per-bridge + legacy Router | 7 | 0.871374 | 0.866573 | 0.566808 | 0.515486 |
 
 Candidate-pool ceiling and the remaining selection gap:
 
-| Method | Kvasir Oracle | Gap | ISIC Oracle | Gap | BUSI Oracle | Gap |
-|---|---:|---:|---:|---:|---:|---:|
-| raw top-1 | 0.912017 | 0.0412 | 0.883608 | 0.0154 | 0.617141 | 0.0512 |
-| calibrated top-1 | 0.906667 | 0.0463 | 0.890596 | 0.0189 | 0.775461 | 0.0555 |
-| raw top-2 | 0.932897 | 0.0417 | 0.903881 | 0.0346 | 0.776347 | 0.1203 |
-| calibrated top-2 | **0.937542** | 0.0748 | **0.911909** | 0.0360 | **0.823649** | 0.0715 |
-| historical per-bridge | 0.917615 | 0.0462 | 0.884316 | 0.0177 | 0.617141 | 0.0503 |
+| Method | Kvasir Oracle | Gap | ISIC Oracle | Gap | BUSI Oracle | Gap | TN3K Oracle | Gap |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| raw top-1 | 0.912017 | 0.0412 | 0.883608 | 0.0154 | 0.617141 | 0.0512 | 0.606576 | 0.0870 |
+| calibrated top-1 | 0.906667 | 0.0463 | 0.890596 | 0.0189 | 0.775461 | 0.0555 | 0.615749 | 0.0590 |
+| raw top-2 | 0.932897 | 0.0417 | 0.903881 | 0.0346 | 0.776347 | 0.1203 | 0.699971 | 0.1300 |
+| calibrated top-2 | **0.937542** | 0.0748 | **0.911909** | 0.0360 | **0.823649** | 0.0715 | **0.701492** | 0.1408 |
+| historical per-bridge | 0.917615 | 0.0462 | 0.884316 | 0.0177 | 0.617141 | 0.0503 | 0.608208 | 0.0927 |
 
 **Reading it honestly**
 
@@ -120,6 +125,13 @@ Candidate-pool ceiling and the remaining selection gap:
   (cal top-1 − raw top-1 = +0.0157 [0.0004, 0.0318];
   cal top-2 − raw top-2 = +0.0121 [0.0009, 0.0249]), but every test CI includes 0
   (+0.0035 and +0.0066).
+- **TN3K has a third regime.** Calibrated top-1 is significantly better than raw
+  top-1 (+0.0371 [0.0094, 0.0654]) and raw top-2 is significantly better than raw
+  top-1 (+0.0504 [0.0319, 0.0691]), but calibrated top-2 is *not* better than raw
+  top-2 (−0.0093, CI spans 0) and the interaction is significantly negative
+  (−0.0464 [−0.0737, −0.0192]). Its headline scores are far lower than BUSI's, but
+  the gap is mostly tail composition, not uniform quality loss — see the TN3K
+  section below.
 - **Kvasir is a negative result.** Calibration does not help; the calibrated
   top-2 pool has the *highest* Oracle (0.937542) yet the router realizes only
   0.862761, leaving a 0.075 gap. The candidates are better, the legacy scorer
@@ -188,26 +200,116 @@ same 517/64/66 split produces one mask per image:
 
 Single seed, single run for both sides — do not over-interpret small differences.
 
-## TN3K (preliminary, dry-run only)
+## TN3K — complete, and a different failure story
 
-A fourth dataset is being added on the same protocol
-(`train 2303 / validation 576 / test 614`, 23 anchors). A **dry-run on a 23-target
-validation / 25-target test subset** has completed; the full run is still
-propagating, so these numbers are **not** final and val/test disagree:
+TN3K (official fold0; train 2303 / validation 576 / test 614; 23 automatic
+anchors) finished on 2026-09-16 and is the **fourth complete dataset**. The same
+four arms, the same legacy-28 Ridge(alpha=1), the same image-grouped folds:
 
-| Method | cand/target | dry-run val OOF | dry-run test | test Oracle |
-|---|---:|---:|---:|---:|
-| raw top-1 | 7 | 0.529984 | 0.525470 | 0.630886 |
-| calibrated top-1 | 7 | 0.505007 | 0.518560 | 0.609742 |
-| raw top-2 | 14 | 0.480613 | 0.604559 | 0.729632 |
-| calibrated top-2 | 14 | 0.664819 | 0.497413 | 0.688370 |
-| historical per-bridge | 7 | 0.522799 | 0.525470 | 0.630886 |
+| group | candidates | val OOF | test Dice | test IoU | test Oracle | test gap |
+|---|---:|---:|---:|---:|---:|---:|
+| raw top-1 | 7 | 0.510819 | 0.519585 | 0.432103 | 0.606576 | 0.086990 |
+| **centered top-1** | 7 | 0.500433 | **0.556705** | 0.470921 | 0.615749 | 0.059044 |
+| raw top-2 | 14 | 0.547491 | **0.569973** | **0.479870** | 0.699971 | 0.129997 |
+| centered top-2 | 14 | **0.552716** | 0.560661 | 0.479035 | **0.701492** | 0.140831 |
+| historical per-bridge | 7 | 0.511450 | 0.515486 | 0.428090 | 0.608208 | 0.092723 |
 
-What the dry-run does establish is that the *mechanism* replicates and is in fact
-stronger on TN3K: the anchor train-mean span is 0.5502 (BUSI: 0.3498), the raw
-target score is essentially uncorrelated with true Dice (Pearson +0.045), and
-calibration changes the rank-1 anchor on **25/25** test targets. See
-[`dryrun/analysis_extra.md`](../mainline/experiments/tn3k_busi_factorial_20260915/dryrun/analysis_extra.md).
+Paired test deltas (10 000-image bootstrap, seed 2026):
+
+| comparison | delta | 95% CI | improved / worsened |
+|---|---:|---|---:|
+| centered top-1 − raw top-1 | **+0.037120** | **[0.009359, 0.065427]** | 304 / 240 |
+| centered top-2 − raw top-2 | −0.009312 | [−0.035255, 0.016282] | 291 / 230 |
+| raw top-2 − raw top-1 | **+0.050388** | **[0.031917, 0.069138]** | 215 / 165 |
+| centered top-2 − centered top-1 | +0.003956 | [−0.015065, 0.023129] | 180 / 128 |
+| centered top-2 − historical control | **+0.045175** | **[0.020218, 0.070233]** | 335 / 183 |
+| interaction | −0.046432 | [−0.073690, −0.019191] | – |
+
+This is a **third regime**: calibration helps at top-1 (significantly) but not at
+top-2, breadth helps (top-2 > top-1, significantly), and the interaction is
+significantly negative. It is neither BUSI (both help) nor Kvasir (neither helps).
+
+### Why TN3K scores so much lower than BUSI
+
+The gap is mostly a **tail-composition** effect, not a uniform quality drop
+(`mainline/experiments/tn3k_busi_factorial_20260915/why_gap_vs_busi.md`):
+
+| | BUSI | TN3K |
+|---|---:|---:|
+| test targets | 66 | 614 |
+| 14-candidate Oracle | **0.8236** | **0.7015** |
+| share of "reachable" targets (Oracle ≥ 0.5) | **92.4%** | **76.7%** |
+| Oracle on reachable targets | **0.8794** | 0.8493 |
+| Oracle on unreachable targets | 0.1430 | 0.2148 |
+| final test Dice (centered top-2 Router) | 0.7522 | 0.5607 |
+
+Of the 0.1221 Oracle gap, about **0.099** comes from the tail composition and only
+**0.023** from quality on reachable targets.
+
+### Root cause: anchor/target nodule **scale mismatch**
+
+- Failure mode is **undersegmentation**, not oversegmentation: on unreachable
+  targets the median prediction/GT area ratio is 0.211 and **76.2%** of failures
+  are below GT (the earlier "oversegmentation" reading came from the mean, which
+  a few outliers dominate; the report carries the errata).
+- `corr(|log(anchor area / target area)|, Dice) = **−0.4776**`. Failure group:
+  anchor/target area ratio median **0.158** vs **0.641** for reachable targets —
+  the anchor nodule is ~6× smaller than the target. Anchors *larger* than the
+  target are fine (Dice 0.865), so the failure is one-sided.
+- Per-anchor failure rate is monotone in anchor nodule size (e.g. 677 px → 62%
+  failure, 24501 px → 2%).
+- **The obvious fix is falsified.** Enlarging the prompt box around its centre on
+  validation monotonically hurts: s = 1.00 → 0.427296, 1.25 → 0.391002 (−0.0363),
+  1.50 → 0.359899 (−0.0674), 2.00 → 0.246073 (−0.1812), 3.00 → 0.246137
+  (`tn3k_boxscale_probe_20260916/probe_result.json`). The box is geometrically
+  correct **on the anchor**; enlarging it distorts the anchor prompt. "Box too
+  small" is a symptom, not the cause.
+- The automatic selector optimises **appearance** coverage (global patch mean +
+  64 local visual words) and has **no scale term**, so the chosen anchors are not
+  scale-representative.
+
+### Good candidates exist — the loss is ranking, not generation
+
+| diagnostic (same 64 validation images, id-sorted random sample) | Dice |
+|---|---:|
+| target's **own** GT tight box, single frame, SAM3-base | **0.854998** |
+| all-23-anchor `b0` Oracle | **0.828171** |
+| raw top-2 `b0` Oracle | 0.638288 |
+| centered top-2 `b0` Oracle | 0.617872 |
+| raw top-1 `b0` | 0.535822 |
+
+Only **1 of 64** targets has all 23 anchors' `b0` below 0.5. So the pool contains
+good answers; reference **ranking / retention** is what loses them. A
+reference-ranking pilot (`tn3k_reference_ranking_pilot_20260916/参考排序诊断.md`)
+learns a 16-dimensional anchor–target matching score with a fixed-alpha ridge:
+OOF Top-1 Dice **0.597020**, i.e. +0.061199 over raw TP, but the paired interval
+[−0.020469, 0.143866] crosses 0. Pure re-centring, z-scoring, train-percentile or
+global-cosine ranking all fail to beat raw TP, and an anchor-quality prior alone
+scores only 0.478807 — so "always pick the on-average best anchor" is not the
+answer.
+
+### Why calibration itself does little on TN3K
+
+Calibration needs the raw score to pick the **wrong** anchor. On BUSI the raw
+score sends 65/66 `b0` targets to `malignant (187)` (systematically wrong), so
+calibration repairs a real defect (+0.154 at top-1). On TN3K the raw score does
+degenerate (train-mean span 0.5502 vs BUSI 0.3498), but the anchor it degenerates
+to **is already the per-bridge best** (val 560/576, test 604/614) — there is
+almost nothing to repair, so the calibration gain shrinks to +0.037 at top-1 and
+vanishes at top-2.
+
+### What this changes for the paper
+
+1. Report **both the full set and the reachable subset**, or the method is
+   understated.
+2. The binding constraint on TN3K is **anchor ranking that is scale-blind**.
+   Promising directions, in order of directness: (a) add a scale-compatibility
+   term to the ranking (the pool already contains good answers); (b) make the
+   automatic selector cover **scale** as well as appearance; (c) simply retain
+   more anchors — the all-23 `b0` Oracle (0.828) is far above the top-2 `b0`
+   Oracle (0.618), at linear cost in candidates and propagation.
+3. **BUSI's +0.185 is not a universal law**: it depends on the raw score being
+   systematically wrong, a precondition that does not hold on TN3K.
 
 ## Diagnostics figures
 
@@ -265,7 +367,10 @@ mainline/reproduction_guides/automatic_selection_20260914/
 mainline/experiments/cross_dataset_calibration_factorial_20260914/  Kvasir + ISIC2018 four-arm ablation
 mainline/experiments/busi_calibration_factorial_20260914/           BUSI four-arm ablation
 mainline/experiments/busi_calibrated_multi_anchor_20260913/         BUSI calibration + top-2
-mainline/experiments/tn3k_busi_factorial_20260915/                  TN3K (dry-run + running)
+mainline/experiments/tn3k_busi_factorial_20260915/                  TN3K four-arm ablation (complete)
+mainline/experiments/tn3k_failure_diagnosis_20260916/               TN3K failure localisation
+mainline/experiments/tn3k_boxscale_probe_20260916/                  prompt-box scale probe (negative result)
+mainline/experiments/tn3k_reference_ranking_pilot_20260916/         reference ranking / Top-K diagnostics
 results/busi_1pct_protocol/result.md                                SynFoC BUSI 1% baseline + head-to-head
 ```
 

@@ -3,20 +3,20 @@
 Category-free **pseudo-video** segmentation with frozen SAM3, single-image
 student auditors, and geometric route selection.
 
-[中文说明](README_CN.md) · [Latest cross-dataset study](docs/cross_dataset_1pct.md) · [V1–V7 per-version walkthrough](docs/kvasir_versions.md) · [Repository layout](docs/REPOSITORY_LAYOUT.md) · [Full reproduction guide](docs/reproduction_guide.md) · [Method (EN)](docs/method_en.md) · [方法（中文）](docs/method_cn.md)
+[中文说明](README_CN.md) · [Latest cross-dataset study](docs/cross_dataset_1pct.md) · [Stage 0 + Stage 1 protocol & results](docs/stage0_stage1.md) · [V1–V7 per-version walkthrough](docs/kvasir_versions.md) · [Repository layout](docs/REPOSITORY_LAYOUT.md) · [Full reproduction guide](docs/reproduction_guide.md) · [Method (EN)](docs/method_en.md) · [方法（中文）](docs/method_cn.md)
 
 ---
 
 ## What this is
 
 **The mainline is the cross-dataset 1% anchor study on Kvasir-SEG, ISIC2018 and
-BUSI** (plus a TN3K arm in progress): keep SAM3 **frozen**, construct
+BUSI and TN3K**: keep SAM3 **frozen**, construct
 **pseudo-video propagation routes** from a 1%-budget set of annotated anchors,
 and put all the modelling effort into **selecting** among the routes.
 
 | Line | Datasets | Budget | Role |
 |---|---|---|---|
-| **1% anchor cross-dataset study** | Kvasir-SEG, ISIC2018, BUSI (+ TN3K) | 1% labelled anchors, frozen SAM3 | **mainline** |
+| **1% anchor cross-dataset study** | Kvasir-SEG, ISIC2018, BUSI, TN3K | 1% labelled anchors, frozen SAM3 | **mainline** |
 | ↳ Kvasir **V1–V4** | Kvasir-SEG only | 8 fixed anchors, router + S2/S3 students | route-family and student-pipeline evolution |
 | ↳ Kvasir **V5–V7** | Kvasir-SEG | automatic coverage anchors, single TP + Router | V7 (calibrated top-2) is the arm extended cross-dataset |
 | Pseudo-video `S27 X3 + B7` | CVC-ClinicDB + Kvasir-SEG merged | 16 fixed anchors | **historical** — kept fully reproducible |
@@ -60,8 +60,10 @@ to the full 8 adds only +0.040. On BUSI, the calibrated top-2 router reaches
 
 ## Kvasir-SEG: the V1 → V7 ladder
 
-> A full per-version walkthrough — motivation, exact pipeline, pool sizes, every
-> headline number, author caveats and artifact paths — is in
+> The current Stage 0 + Stage 1 definition (automatic anchors → TP routes →
+> propagation → Router), with every hyper-parameter, result table and artifact
+> path, is in **[docs/stage0_stage1.md](docs/stage0_stage1.md)**.
+> A full per-version walkthrough of the older Kvasir lines is in
 > **[docs/kvasir_versions.md](docs/kvasir_versions.md)**.
 
 Kvasir-SEG is the largest arm of the mainline. It was rebuilt seven times:
@@ -216,7 +218,7 @@ Forward-only test Dice per bridge (100 targets, canvas 256):
 | methods differ by route family and student recipe | same single-TP `b0–b6` router pipeline, methods differ by **anchor source and anchor ranking** |
 | anchor scores compared directly (V5, V6) | V7 adds **annotation-free calibration** `centered(A,T) = TP(A,T) − μ_A` |
 | one anchor per target | V6/V7 keep **top-`k` anchors × `b0–b6`** → 7 → 14 candidates per target |
-| manual `q_multi`/`q_return` thresholds | explicit `Realized = Oracle − Gap` decomposition; the same arms then run on **ISIC2018, BUSI** (TN3K in progress) |
+| manual `q_multi`/`q_return` thresholds | explicit `Realized = Oracle − Gap` decomposition; the same arms then run on **ISIC2018, BUSI and TN3K** |
 
 On Kvasir this is the **negative control** for calibration (bias ratio 0.68): V7's
 calibrated top-2 pool has the highest Oracle (0.937542) but the router only
@@ -402,8 +404,11 @@ so the numbers in the reports stay auditable without shipping the raw data.
 - Calibration is **not** a universal gain: it is significant on BUSI
   (bias ratio 5.42), not significant at test on ISIC2018 (1.10), and ineffective
   on Kvasir (0.68). Do not quote BUSI's gain as a general result.
-- The TN3K arm is a **dry-run** on a 23-validation / 25-test subset; the full
-  576/614 run is still in progress and its numbers are preliminary.
+- **TN3K is complete** (576 validation / 614 test, 23 anchors) and behaves as a
+  third regime: calibrated top-1 helps, calibrated top-2 does not, the interaction
+  is negative. Its low absolute scores come mostly from anchor/target **scale
+  mismatch**, not from a weaker segmenter — see
+  [`docs/cross_dataset_1pct.md`](docs/cross_dataset_1pct.md) §TN3K.
 - Use `docs/s27_x3_b7_line.md` before quoting any S27/X3/B7 number; the
   `S27 X0/X1/X3` trainers and the S27-vs-T24 Dice conventions differ.
 - `S27 X0/X1/X3` use the later unified S27 student trainer; it is not a

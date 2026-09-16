@@ -6,6 +6,9 @@ routes with **single-family Target-Pooling (TP) `b0–b6` candidates + an
 independent router**, and asks where the bottleneck is under a 1%-anchor budget
 on each dataset.
 
+The frozen Stage 0 + Stage 1 definition for the whole auto-anchor line is in
+[`../docs/stage0_stage1.md`](../docs/stage0_stage1.md).
+
 The Kvasir arm of this tree is the **V1 → V7 ladder** (V1–V4 = original 8 anchors
 + route/student evolution; V5–V7 = automatic anchors, single TP + Router, V7 adds
 score calibration). The ladder table and per-version results are in
@@ -138,7 +141,10 @@ write-up. Headline test Dice (frozen SAM3, 1% anchors, legacy-28 Ridge):
 | `busi_calibration_factorial_20260914` | BUSI: calibration × anchor count, four arms + control |
 | `cross_dataset_calibration_factorial_20260914` | Kvasir + ISIC2018: the same four-arm ablation, full validation and test |
 | `isic2018_auto21_tp_validation_20260911` | ISIC2018 automatic 21 anchors: TP validation |
-| `tn3k_busi_factorial_20260915` | TN3K: the same four-arm ablation. **Dry-run complete on a 23-val / 25-test subset; the full 576/614 run is still propagating**, so its numbers are preliminary and val/test disagree |
+| `tn3k_busi_factorial_20260915` | TN3K: the same four-arm ablation, **complete** (576 val / 614 test, 23 anchors). test: raw top-1 0.519585, centered top-1 **0.556705**, raw top-2 **0.569973**, centered top-2 0.560661, historical 0.515486; centered top-1 − raw top-1 **+0.0371** [0.0094, 0.0654], centered top-2 − raw top-2 −0.0093 (ns), interaction −0.0464. Root cause of the low absolute level: anchor/target scale mismatch |
+| `tn3k_failure_diagnosis_20260916` | TN3K failure localisation: target's own GT box reaches 0.854998; all-23-anchor `b0` Oracle **0.828171** vs top-2 `b0` 0.618 → good candidates exist, ranking loses them |
+| `tn3k_boxscale_probe_20260916` | prompt-box scale probe — **negative result**: enlarging the box monotonically hurts (s=1 0.4273 → s=2 0.2461) |
+| `tn3k_reference_ranking_pilot_20260916` | reference ranking / Top-K diagnostics: learned 16-d matching score OOF Top-1 0.597020 (+0.0612 over raw, CI crosses 0); Top-2→Top-8 Oracle 0.638 → 0.789 |
 
 ### Reproducibility audits
 

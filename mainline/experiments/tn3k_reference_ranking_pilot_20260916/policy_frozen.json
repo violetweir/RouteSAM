@@ -1,0 +1,32 @@
+{
+  "created": 1789537184.6798394,
+  "scope": "Same fixed validation64, all23 b0 candidates. Exploratory development, not independent test.",
+  "frozen_folds": "reuse original validation image-grouped five folds",
+  "k": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    23
+  ],
+  "unsupervised": [
+    "raw",
+    "centered",
+    "zscore",
+    "train_percentile",
+    "global_cosine",
+    "half_zscore_global"
+  ],
+  "supervised": [
+    "anchor_quality_prior_oof",
+    "ridge10_numeric_oof",
+    "ridge10_numeric_anchor_oof"
+  ],
+  "ridge_alpha": 10,
+  "prior_shrinkage_targets": 10,
+  "no_test_read": true,
+  "selection_features": "pre-propagation features only; support GT area allowed; hidden train GT not read",
+  "metrics": "top1 selected Dice; topK oracle and recall of best reference, oracle not deployed result",
+  "no_hyperparameter_search": true
+}

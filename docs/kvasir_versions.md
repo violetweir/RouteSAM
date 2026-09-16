@@ -1532,54 +1532,30 @@ crosses 0 — the calibrated top-2's lead over the historical router is only
 0.772915 vs automatic-21 OOF 0.862396 / Oracle 0.887467, with no test at that
 time.)
 
-## 7. TN3K — preliminary only
+## 7. TN3K — complete, with its own failure story
 
-Full protocol is train 2303 / validation 576 / test 614 with 23 automatic anchors
-(`tn3k_busi_factorial_20260915/dataset_audit.json`). A **dry-run on 23 validation
-and 25 test targets** completed
-(`tn3k_dryrun_validate_evaluate.py` takes the first 120 already-propagated targets
-in `raw_top1` order and keeps those whose route_ids exist in all five groups,
-yielding 23/25); the full run was **still propagating** when this repository was
-assembled (`status.json` = `running_propagate_validation`; validation 11 319/15 554
-and test 11 537/16 485, with `propagate_validation` and `propagate_test` python
-processes plus two GPU evaluation children still alive, and `run_remaining.sh`
-still waiting to run `validate` and `evaluate`).
+The TN3K arm finished on 2026-09-16 (train 2303 / validation 576 / test 614, 23
+automatic anchors). Full numbers, the paired comparisons, the anchor/target
+**scale-mismatch** root cause, the falsified prompt-box enlargement probe and the
+"good candidates exist, ranking loses them" evidence are written up in
+[`cross_dataset_1pct.md`](cross_dataset_1pct.md) §TN3K; the artifacts are in
+`mainline/experiments/tn3k_busi_factorial_20260915/` plus
+`tn3k_failure_diagnosis_20260916/`, `tn3k_boxscale_probe_20260916/` and
+`tn3k_reference_ranking_pilot_20260916/`.
 
-| group | candidates | dry-run val OOF | dry-run test | test IoU | test Oracle | test gap |
-|---|---:|---:|---:|---:|---:|---:|
-| raw top-1 | 7 | 0.529984 | 0.525470 | 0.420107 | 0.630886 | 0.105416 |
-| centered top-1 | 7 | 0.505007 | 0.518560 | 0.431704 | 0.609742 | 0.091182 |
-| raw top-2 | 14 | 0.480613 | 0.604559 | 0.502438 | 0.729632 | 0.125073 |
-| centered top-2 | 14 | **0.664819** | 0.497413 | 0.409897 | 0.688370 | 0.190956 |
-| historical per-bridge | 7 | 0.522799 | 0.525470 | 0.420107 | 0.630886 | 0.105416 |
+Headline: test raw top-1 0.519585, centered top-1 **0.556705**, raw top-2
+**0.569973**, centered top-2 0.560661, historical per-bridge 0.515486. Calibrated
+top-1 beats raw top-1 by **+0.0371** [0.0094, 0.0654] and the interaction is
+**−0.0464** [−0.0737, −0.0192], so TN3K is a third regime — neither BUSI (both
+arms help) nor Kvasir (neither does).
 
-Paired test (10 000 bootstrap, seed 2026): centered top-1 − raw top-1 −0.006910
-[−0.171509, 0.166937] (13/12); centered top-2 − raw top-2 −0.107146
-[−0.257162, 0.033386] (13/11); raw top-2 − raw top-1 +0.079089 [0.008567,
-0.178340] (11/2); centered top-2 − centered top-1 −0.021147 [−0.171501,
-0.121122] (14/7); centered top-2 − original −0.028057 [−0.167600, 0.104229]
-(15/8); interaction −0.100236 [−0.312915, 0.079915].
-
-Do **not** quote these as TN3K results. Reasons, all documented in the artifacts:
-the sample is 23/25 instead of 576/614 and the intervals are ±0.15–0.35 Dice wide;
-the target set is a convenience subset of already-propagated targets, not a random
-or official test sample; validation and test disagree strongly (centered top-2 is
-best on validation and worst on test); the "576/614, 27/target" figures in
-`dryrun/report.md` §6 are the **full propagation plan** copied into `results.json`'s
-`pool` block, not the evaluated count; and `completion_audit.json`'s
-`all_test_614: true` means "pool membership frozen", not "614 evaluated".
-
-What the dry-run does establish: the mechanism replicates and is stronger on TN3K.
-Anchor train-mean span 0.5502 (BUSI 0.3498); raw target score vs true Dice
-Pearson +0.0451 over 658 propagated (target, anchor) pairs (calibrated −0.0872);
-calibration changes the rank-1 anchor on **25/25** test targets; the raw score's
-rank-1 is almost always the per-bridge best (val 22/23, test 25/25), so
-`original_per_bridge` and `raw_top1` are almost the same experiment there; and the
-calibrated rank-1 beats the raw rank-1 at every bridge (test: b0 +0.072461,
-b1 +0.024613, b2 +0.092368, b3 +0.163669, b4 +0.167729, b5 +0.114813,
-b6 +0.146375) — though most of those intervals have negative lower bounds and the
-best depth differs between validation (b4) and test (b3), so the per-bridge
-numbers are test scans, not a deployable method.
+What it implies for the Kvasir ladder: V7's calibration is **dataset-gated**, and
+the gating is not just the bias ratio. On TN3K the raw score does degenerate
+(train-mean span 0.5502, above BUSI's 0.3498) but degenerates onto the anchor that
+is *already* the per-bridge best, so there is nothing to repair; on BUSI the raw
+score is systematically wrong. The real TN3K bottleneck is a **scale-blind
+ranking**: the all-23-anchor `b0` Oracle is 0.828171 while the top-2 `b0` Oracle is
+0.618, i.e. the pool has good answers and retention loses them.
 
 ## 8. Limitations and open items recorded for V7
 

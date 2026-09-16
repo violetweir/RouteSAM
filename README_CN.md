@@ -2,19 +2,18 @@
 
 基于**冻结 SAM3** 的类别无关伪视频分割：单图学生审计器 + 几何路线选择。
 
-[English README](README.md) · [最新跨数据集实验](docs/cross_dataset_1pct.md) · [V1–V7 逐版本详解](docs/kvasir_versions.md) · [仓库结构说明](docs/REPOSITORY_LAYOUT.md) · [完整复现指南](docs/reproduction_guide.md) · [方法（中文）](docs/method_cn.md)
+[English README](README.md) · [最新跨数据集实验](docs/cross_dataset_1pct.md) · [Stage 0 + Stage 1 协议与结果](docs/stage0_stage1.md) · [V1–V7 逐版本详解](docs/kvasir_versions.md) · [仓库结构说明](docs/REPOSITORY_LAYOUT.md) · [完整复现指南](docs/reproduction_guide.md) · [方法（中文）](docs/method_cn.md)
 
 ---
 
 ## 这是什么
 
-**主线是 Kvasir-SEG、ISIC2018、BUSI 上的跨数据集 1% 锚点实验**（TN3K 作为第四
-个数据集正在补）：**冻结 SAM3**，从 1% 标注预算的参考图构造**伪视频传播路线**，
+**主线是 Kvasir-SEG、ISIC2018、BUSI、TN3K 上的跨数据集 1% 锚点实验**：**冻结 SAM3**，从 1% 标注预算的参考图构造**伪视频传播路线**，
 把全部建模精力放在**路线/候选的选择**上。
 
 | 线路 | 数据集 | 标注预算 | 定位 |
 |---|---|---|---|
-| **1% 锚点跨数据集实验** | Kvasir-SEG、ISIC2018、BUSI（+TN3K） | 1% 参考图，SAM3 冻结 | **主线** |
+| **1% 锚点跨数据集实验** | Kvasir-SEG、ISIC2018、BUSI、TN3K | 1% 参考图，SAM3 冻结 | **主线** |
 | ↳ Kvasir **V1–V4** | 仅 Kvasir-SEG | 8 张固定锚点，Router + S2/S3 学生 | 路线族与学生流程的演进 |
 | ↳ Kvasir **V5–V7** | Kvasir-SEG | 自动覆盖选图，单 TP + Router | V7（校准 top-2）后来扩到跨数据集 |
 | 伪视频 `S27 X3 + B7` | CVC-ClinicDB + Kvasir-SEG 合并 | 16 张固定锚点 | **历史线**，保留可复现 |
@@ -153,7 +152,7 @@ V1–V3 的 B7 结果。50 epoch 对照在第 19 轮见顶后回落；它同时�
 | 版本差异在路线族与学生配方 | 同一套单 TP `b0–b6` + Router 流程，差异在**参考图来源与排序** |
 | 锚点分数直接比较（V5、V6） | V7 增加**免标注校准** `centered(A,T) = TP(A,T) − μ_A` |
 | 每图一个参考图 | V6/V7 保留 **top-`k` 锚点 × `b0–b6`**，每图候选 7 → 14 |
-| 人工 `q_multi`/`q_return` 阈值 | 显式 `Realized = Oracle − Gap` 分解；同一批四组消融随后跑到 **ISIC2018、BUSI**（TN3K 进行中） |
+| 人工 `q_multi`/`q_return` 阈值 | 显式 `Realized = Oracle − Gap` 分解；同一批四组消融随后跑到 **ISIC2018、BUSI、TN3K** |
 
 在 Kvasir 上这是校准的**阴性对照**（偏置比 0.68）：V7 校准 top-2 的候选池 Oracle 最高
 （0.937542），但 Router 只兑现 0.862761，瓶颈从候选转移到了选择。它在 Kvasir 上真正确立的
@@ -313,8 +312,9 @@ Student: /home/violet/anaconda3/envs/mkunet_mamba/bin/python
   且早期 test 已被多轮诊断，因此这些 test 数字不是盲测。
 - 校准**不是普遍增益**：BUSI（偏置比 5.42）显著，ISIC2018（1.10）test 不显著，
   Kvasir（0.68）无效。不要把 BUSI 的增益当作通用结论。
-- TN3K 目前是 **dry-run**（validation 23 / test 25 子集），完整的 576/614 仍在运行中，
-  其数字为初步结果。
+- **TN3K 已跑完**（576 validation / 614 test，23 张锚点），呈现第三种规律：校准 top-1 有效、
+  校准 top-2 无效、interaction 显著为负。它绝对分数低主要来自锚点/目标的**尺度失配**，
+  而不是分割器更弱——见 [`docs/cross_dataset_1pct.md`](docs/cross_dataset_1pct.md) 的 TN3K 一节。
 - 引用任何 S27/X3/B7 数字前先看 `docs/s27_x3_b7_line.md`；`S27 X0/X1/X3` 使用后期统一的 S27 学生训练器，并非旧 T24 监督损失实现的逐位复现。
 - S27 训练器对 GT 使用逐样本前景 Dice；T24 使用两类别 batch Dice。
   公开结果来自被保留的 S27 实现。

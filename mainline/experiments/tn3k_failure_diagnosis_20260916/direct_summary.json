@@ -1,0 +1,11 @@
+{
+  "n": 64,
+  "direct_gtbox_256": 0.8549977388357048,
+  "direct_gtbox_1008": 0.8438176884818903,
+  "delta_1008_minus_256": -0.01118005035381463,
+  "paired_bootstrap_ci95": [
+    -0.03502556385637151,
+    0.00631620011850773
+  ],
+  "warning": "Uses target GT location; diagnostic only, not 1% inference result."
+}

@@ -4,6 +4,7 @@
 
 | Document | Contents |
 |---|---|
+| [`stage0_stage1.md`](stage0_stage1.md) | **the current Stage 0 + Stage 1 definition and results** — automatic anchor mining, TP routes, propagation, Router, four-dataset tables, verification, open items |
 | [`cross_dataset_1pct.md`](cross_dataset_1pct.md) | **the mainline** — Kvasir / ISIC2018 / BUSI (+TN3K) 1% anchor study: ACV pipeline, bias-ratio diagnostic, cross-dataset results |
 | [`kvasir_versions.md`](kvasir_versions.md) | **Kvasir-SEG V1 → V7, version by version** — motivation, pipeline, pools, results, caveats, artifacts |
 | [`kvasir_program.md`](kvasir_program.md) | **Kvasir-SEG, both lines** — line 1 (Kvasir-only `S27 X3 + B7` analogue: routes, selectors, SAM3 adaptation, students) and line 2 (automatic anchors + calibration + breadth/depth); complete experiment inventory |

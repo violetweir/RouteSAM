@@ -1,0 +1,23 @@
+{
+  "scales": [
+    1.25,
+    1.5,
+    2.0,
+    3.0
+  ],
+  "shards": 2,
+  "counts": {
+    "shard0": 1152,
+    "shard1": 1152
+  },
+  "targets": 576,
+  "baseline": "s=1.0 取自主实验 validation centered_top1 的 b0",
+  "anchor": "calibrated rank-1 per target",
+  "bridge": "b0 only",
+  "box_area_px_median": {
+    "1.25": 4166.9921875,
+    "1.5": 6000.46875,
+    "2.0": 10667.5,
+    "3.0": 24001.875
+  }
+}

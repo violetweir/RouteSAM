@@ -1,6 +1,11 @@
 {
-  "stage": "running_propagate_validation",
-  "time": 1789470998.2144349,
-  "pid": 1500385,
-  "log": "/Data_8TB/lht/PseudoVideo-SAM3-X3-B7/new_project/experiments/tn3k_busi_factorial_20260915/logs/propagate_validation.log"
+  "stage": "complete",
+  "time": 1789504575.6374464,
+  "test": {
+    "raw_top1": 0.519585,
+    "centered_top1": 0.556705,
+    "raw_top2": 0.569973,
+    "centered_top2": 0.560661,
+    "original_per_bridge": 0.515486
+  }
 }
